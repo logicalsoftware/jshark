@@ -1,0 +1,2534 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: InfiniBand</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: InfiniBand</h1>
+<div><b>Protocol field name:</b> infiniband</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>infiniband.aeth</td>
+<td>Byte array</td>
+<td>ACK Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.aeth.msn</td>
+<td>Unsigned 24-bit integer</td>
+<td>Message Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.aeth.syndrome</td>
+<td>Unsigned 8-bit integer</td>
+<td>Syndrome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomicacketh</td>
+<td>Byte array</td>
+<td>Atomic ACK Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomicacketh.origremdt</td>
+<td>Unsigned 64-bit integer</td>
+<td>Original Remote Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomiceth</td>
+<td>Byte array</td>
+<td>Atomic Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomiceth.cmpdt</td>
+<td>Unsigned 64-bit integer</td>
+<td>Compare Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomiceth.r_key</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Key</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.atomiceth.swapdt</td>
+<td>Unsigned 64-bit integer</td>
+<td>Swap (Or Add) Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.atomiceth.va</td>
+<td>Unsigned 64-bit integer</td>
+<td>Virtual Address</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.bth</td>
+<td>Byte array</td>
+<td>Base Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.a</td>
+<td>Boolean</td>
+<td>Acknowledge Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.destqp</td>
+<td>Unsigned 24-bit integer</td>
+<td>Destination Queue Pair</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.m</td>
+<td>Boolean</td>
+<td>MigReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.opcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.p_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>Partition Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.padcnt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pad Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.psn</td>
+<td>Unsigned 24-bit integer</td>
+<td>Packet Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.reserved7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (7 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.reserved8</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (8 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.se</td>
+<td>Boolean</td>
+<td>Solicited Event</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.bth.tver</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.deth</td>
+<td>Byte array</td>
+<td>Datagram Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.deth.q_key</td>
+<td>Unsigned 64-bit integer</td>
+<td>Queue Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.deth.reserved8</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved (8 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.deth.srcqp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Source Queue Pair</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh</td>
+<td>Byte array</td>
+<td>Global Route Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.dgid</td>
+<td>IPv6 address</td>
+<td>Destination GID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.flowlabel</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flow Label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.hoplmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hop Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.ipver</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.nxthdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Next Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.paylen</td>
+<td>Unsigned 16-bit integer</td>
+<td>Payload Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.sgid</td>
+<td>IPv6 address</td>
+<td>Source GID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.grh.tclass</td>
+<td>Unsigned 16-bit integer</td>
+<td>Traffic Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.ieth</td>
+<td>Byte array</td>
+<td>RKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.immdt</td>
+<td>Byte array</td>
+<td>Immediate Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.gid</td>
+<td>IPv6 address</td>
+<td>GID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.isgeneric</td>
+<td>Unsigned 8-bit integer</td>
+<td>IsGeneric</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.lidrangebegin</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDRangeBegin</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.lidrangeend</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDRangeEnd</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.producertypevendorid</td>
+<td>Unsigned 24-bit integer</td>
+<td>ProducerTypeVendorID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.qpn</td>
+<td>Unsigned 24-bit integer</td>
+<td>QPN</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.resptimevalue</td>
+<td>Unsigned 8-bit integer</td>
+<td>RespTimeValue</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.subscribe</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subscribe</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.trapnumberdeviceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>TrapNumberDeviceID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinfo.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinforecord.enum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.informinforecord.subscribergid</td>
+<td>IPv6 address</td>
+<td>SubscriberGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.invariant.crc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Invariant CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.ledinfo.ledmask</td>
+<td>Unsigned 8-bit integer</td>
+<td>LedMask</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linearforwardingtable.linearforwardingtableblock</td>
+<td>Byte array</td>
+<td>LinearForwardingTableBlock</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.linearforwardingtable.port</td>
+<td>Unsigned 8-bit integer</td>
+<td>Port</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.fromlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>FromLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.fromport</td>
+<td>Unsigned 8-bit integer</td>
+<td>FromPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicedata</td>
+<td>Byte array</td>
+<td>ServiceData</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicegid</td>
+<td>IPv6 address</td>
+<td>ServiceGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.serviceid</td>
+<td>Unsigned 64-bit integer</td>
+<td>ServiceID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicekey</td>
+<td>Byte array</td>
+<td>ServiceKey</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicelease</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServiceLease</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicename</td>
+<td>Byte array</td>
+<td>ServiceName</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.servicep_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>ServiceP_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.tolid</td>
+<td>Unsigned 16-bit integer</td>
+<td>ToLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkrecord.toport</td>
+<td>Unsigned 8-bit integer</td>
+<td>ToPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkspeedwidthpairstable.numtables</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumTables</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkspeedwidthpairstable.portmask</td>
+<td>Byte array</td>
+<td>PortMask</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkspeedwidthpairstable.speedfive</td>
+<td>Unsigned 8-bit integer</td>
+<td>Speed 5 Gbps</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkspeedwidthpairstable.speedten</td>
+<td>Unsigned 8-bit integer</td>
+<td>Speed 10 Gbps</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.linkspeedwidthpairstable.speedtwofive</td>
+<td>Unsigned 8-bit integer</td>
+<td>Speed 2.5 Gbps</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh</td>
+<td>Byte array</td>
+<td>Local Route Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.dlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination Local ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.lnh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Next Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.lver</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.pktlen</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.reserved2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (2 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.reserved5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved (5 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.sl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.slid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source Local ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.lrh.vl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Virtual Lane</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad</td>
+<td>Byte array</td>
+<td>MAD (Management Datagram) Common Header</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.attributeid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Attribute ID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.attributemodifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Attribute Modifier</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.baseversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>Base Version</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.classspecific</td>
+<td>Unsigned 16-bit integer</td>
+<td>Class Specific</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.classversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>Class Version</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.data</td>
+<td>Byte array</td>
+<td>MAD Data Payload</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.method</td>
+<td>Unsigned 8-bit integer</td>
+<td>Method</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.mgmtclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Management Class</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.reserved1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.mad.reserved16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mad.transactionid</td>
+<td>Unsigned 64-bit integer</td>
+<td>Transaction ID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.flowlabel</td>
+<td>Unsigned 24-bit integer</td>
+<td>FlowLabel</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.hoplimit</td>
+<td>Unsigned 8-bit integer</td>
+<td>HopLimit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.joinstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>JoinState</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.mgid</td>
+<td>IPv6 address</td>
+<td>MGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.mlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>MLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.mtu</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTU</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.mtuselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTUSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.p_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>P_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.packetlifetime</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTime</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.packetlifetimeselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTimeSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.portgid</td>
+<td>IPv6 address</td>
+<td>PortGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.proxyjoin</td>
+<td>Unsigned 8-bit integer</td>
+<td>ProxyJoin</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.q_key</td>
+<td>Unsigned 32-bit integer</td>
+<td>Q_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.rateselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>RateSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.scope</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scope</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.sl</td>
+<td>Unsigned 8-bit integer</td>
+<td>SL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.mcmemberrecord.tclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>TClass</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multicastforwardingtable.multicastforwardingtableblock</td>
+<td>Byte array</td>
+<td>MulticastForwardingTableBlock </td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.multicastforwardingtable.portmask</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortMask</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.dgidcount</td>
+<td>Unsigned 8-bit integer</td>
+<td>DGIDCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.flowlabel</td>
+<td>Unsigned 24-bit integer</td>
+<td>FlowLabel</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.gidscope</td>
+<td>Unsigned 8-bit integer</td>
+<td>GIDScope</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.hoplimit</td>
+<td>Unsigned 8-bit integer</td>
+<td>HopLimit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.independenceselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>IndependenceSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.mtu</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTU</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.mtuselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTUSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.numbpath</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumbPath</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.p_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>P_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.packetlifetime</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTime</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.packetlifetimeselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTimeSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.rateselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>RateSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.rawtraffic</td>
+<td>Unsigned 8-bit integer</td>
+<td>RawTraffic</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.reversible</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reversible</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.sdgid</td>
+<td>IPv6 address</td>
+<td>SDGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.sgidcount</td>
+<td>Unsigned 8-bit integer</td>
+<td>SGIDCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.sl</td>
+<td>Unsigned 8-bit integer</td>
+<td>SL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.multipathrecord.tclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>TClass</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodedescription.nodestring</td>
+<td>String</td>
+<td>NodeString</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.baseversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>BaseVersion</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.classversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>ClassVersion</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.deviceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DeviceID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.localportnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>LocalPortNum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.nodeguid</td>
+<td>Unsigned 64-bit integer</td>
+<td>NodeGUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.nodetype</td>
+<td>Unsigned 8-bit integer</td>
+<td>NodeType</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.numports</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumPorts</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.partitioncap</td>
+<td>Unsigned 16-bit integer</td>
+<td>PartitionCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.portguid</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortGUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.revision</td>
+<td>Unsigned 32-bit integer</td>
+<td>Revision</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.systemimageguid</td>
+<td>Unsigned 64-bit integer</td>
+<td>SystemImageGUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.nodeinfo.vendorid</td>
+<td>Unsigned 24-bit integer</td>
+<td>VendorID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.classtrapspecificdata</td>
+<td>Byte array</td>
+<td>ClassTrapSpecificData</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.notice.datadetails</td>
+<td>Byte array</td>
+<td>DataDetails</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.isgeneric</td>
+<td>Unsigned 8-bit integer</td>
+<td>IsGeneric</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.issuergid</td>
+<td>IPv6 address</td>
+<td>IssuerGID</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.notice.issuerlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>IssuerLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.noticecount</td>
+<td>Unsigned 16-bit integer</td>
+<td>NoticeCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.noticetoggle</td>
+<td>Unsigned 8-bit integer</td>
+<td>NoticeToggle</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.producertypevendorid</td>
+<td>Unsigned 24-bit integer</td>
+<td>ProducerTypeVendorID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.trapnumberdeviceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>TrapNumberDeviceID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.notice.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.p_keytable.membershiptype</td>
+<td>Unsigned 8-bit integer</td>
+<td>MembershipType</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.p_keytable.p_keybase</td>
+<td>Unsigned 16-bit integer</td>
+<td>P_KeyBase</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.p_keytable.p_keytableblock</td>
+<td>Byte array</td>
+<td>P_KeyTableBlock</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.dgid</td>
+<td>IPv6 address</td>
+<td>DGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.dlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.flowlabel</td>
+<td>Unsigned 24-bit integer</td>
+<td>FlowLabel</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.hoplimit</td>
+<td>Unsigned 8-bit integer</td>
+<td>HopLimit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.mtu</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTU</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.mtuselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTUSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.numbpath</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumbPath</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.p_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>P_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.packetlifetime</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTime</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.packetlifetimeselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>PacketLifeTimeSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.preference</td>
+<td>Unsigned 8-bit integer</td>
+<td>Preference</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.rateselector</td>
+<td>Unsigned 8-bit integer</td>
+<td>RateSelector</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.rawtraffic</td>
+<td>Unsigned 8-bit integer</td>
+<td>RawTraffic</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.reversible</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reversible</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.sgid</td>
+<td>IPv6 address</td>
+<td>SGID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.sl</td>
+<td>Unsigned 16-bit integer</td>
+<td>SL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.slid</td>
+<td>Unsigned 16-bit integer</td>
+<td>SLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.pathrecord.tclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>TClass</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.payload</td>
+<td>Byte array</td>
+<td>Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters</td>
+<td>None</td>
+<td>Port Counters (Performance Management MAD)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.counterselect</td>
+<td>Unsigned 16-bit integer</td>
+<td>CounterSelect</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.excessivebufferoverrunerrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>ExcessiveBufferOverrunErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.linkdownedcounter</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkDownedCounter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.linkerrorrecoverycounter</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkErrorRecoveryCounter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.locallinkintegrityerrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>LocalLinkIntegrityErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcvconstrainterrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortRcvConstraintErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcvdata</td>
+<td>Unsigned 32-bit integer</td>
+<td>PortRcvData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcverrors</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortRcvErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcvpkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>PortRcvPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcvremotephysicalerrors</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortRcvRemotePhysicalErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portrcvswitchrelayerrors</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortRcvSwitchRelayErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portselect</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortSelect</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portxmitconstrainterrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortXmitConstraintErrors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portxmitdata</td>
+<td>Unsigned 32-bit integer</td>
+<td>PortXmitData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portxmitdiscards</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortXmitDiscards</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.portxmitpkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>PortXmitPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.symbolerrorcounter</td>
+<td>Unsigned 16-bit integer</td>
+<td>SymbolErrorCounter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters.vl15dropped</td>
+<td>Unsigned 16-bit integer</td>
+<td>VL15Dropped</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext</td>
+<td>None</td>
+<td>Port Counters Extended (Performance Management MAD)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.counterselect</td>
+<td>Unsigned 16-bit integer</td>
+<td>CounterSelect</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portmulticastrcvpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortMulticastRcvPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portmulticastxmitpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortMulticastXmitPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portrcvdata</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortRcvData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portrcvpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortRcvPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portselect</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortSelect</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portunicastrcvpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortUnicastRcvPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portunicastxmitpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortUnicastXmitPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portxmitdata</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortXmitData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portcounters_ext.portxmitpkts</td>
+<td>Unsigned 64-bit integer</td>
+<td>PortXmitPkts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask</td>
+<td>Unsigned 32-bit integer</td>
+<td>CapabilityMask</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.automaticmigrationsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>AutomaticMigrationSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.bootmanagementsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>BootManagementSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.capabilitymasknoticesupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>CapabilityMaskNoticeSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.clientregistrationsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>ClientRegistrationSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.communicationsmanagementsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>CommunicationsManagementSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.devicemanagementsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>DeviceManagementSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.drnoticesupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>DRNoticeSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.issm</td>
+<td>Unsigned 32-bit integer</td>
+<td>SM</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.ledinfosupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>LEDInfoSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.linkroundtriplatencysupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>LinkRoundTripLatencySupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.linkspeedwidthpairstablesupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>LinkSpeedWIdthPairsTableSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.mkeynvram</td>
+<td>Unsigned 32-bit integer</td>
+<td>MKeyNVRAM</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.noticesupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>NoticeSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.optionalpdsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>OptionalPDSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.otherlocalchangesnoticesupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>OtherLocalChangesNoticeSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.pkeynvram</td>
+<td>Unsigned 32-bit integer</td>
+<td>PKeyNVRAM</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.pkeyswitchexternalporttrapsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>PKeySwitchExternalPortTrapSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.reinitsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReinitSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.slmappingsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>SLMappingSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.smdisabled</td>
+<td>Unsigned 32-bit integer</td>
+<td>SMdisabled</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.snmptunnelingsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>SNMPTunnelingSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.systemimageguidsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>SystemImageGUIDSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.trapsupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>TrapSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.capabilitymask.vendorclasssupported</td>
+<td>Unsigned 32-bit integer</td>
+<td>VendorClassSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.clientreregister</td>
+<td>Unsigned 8-bit integer</td>
+<td>ClientReregister</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.diagcode</td>
+<td>Unsigned 16-bit integer</td>
+<td>DiagCode</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.filterrawinbound</td>
+<td>Unsigned 8-bit integer</td>
+<td>FilterRawInbound</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.filterrawoutbound</td>
+<td>Unsigned 8-bit integer</td>
+<td>FilterRawOutbound</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.guid</td>
+<td>Unsigned 64-bit integer</td>
+<td>GidPrefix</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.guidcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>GUIDCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.hoqlife</td>
+<td>Unsigned 8-bit integer</td>
+<td>HOQLife</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.inittype</td>
+<td>Unsigned 8-bit integer</td>
+<td>InitType</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.inittypereply</td>
+<td>Unsigned 8-bit integer</td>
+<td>InitTypeReply</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.lid</td>
+<td>Unsigned 16-bit integer</td>
+<td>LID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkdowndefaultstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkDownDefaultState</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkroundtriplatency</td>
+<td>Unsigned 24-bit integer</td>
+<td>LinkRoundTripLatency</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkspeedactive</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkSpeedActive</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkspeedenabled</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkSpeedEnabled</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkspeedsupported</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkSpeedSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkwidthactive</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkWidthActive</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkwidthenabled</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkWidthEnabled</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.linkwidthsupported</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkWidthSupported</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.lmc</td>
+<td>Unsigned 8-bit integer</td>
+<td>LMC</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.localphyerrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>LocalPhyErrors</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.localportnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>LocalPortNum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.m_key</td>
+<td>Unsigned 64-bit integer</td>
+<td>M_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.m_keyleaseperiod</td>
+<td>Unsigned 16-bit integer</td>
+<td>M_KeyLeasePeriod</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.m_keyprotectbits</td>
+<td>Unsigned 8-bit integer</td>
+<td>M_KeyProtectBits</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.m_keyviolations</td>
+<td>Unsigned 16-bit integer</td>
+<td>M_KeyViolations</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.mastersmlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>MasterSMLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.mastersmsl</td>
+<td>Unsigned 8-bit integer</td>
+<td>MasterSMSL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.maxcredithint</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaxCreditHint</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.mtucap</td>
+<td>Unsigned 8-bit integer</td>
+<td>MTUCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.neighbormtu</td>
+<td>Unsigned 8-bit integer</td>
+<td>NeighborMTU</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.operationalvls</td>
+<td>Unsigned 8-bit integer</td>
+<td>OperationalVLs</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.overrunerrors</td>
+<td>Unsigned 8-bit integer</td>
+<td>OverrunErrors</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.p_keyviolations</td>
+<td>Unsigned 16-bit integer</td>
+<td>P_KeyViolations</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.partitionenforcementinbound</td>
+<td>Unsigned 8-bit integer</td>
+<td>PartitionEnforcementInbound</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.partitionenforcementoutbound</td>
+<td>Unsigned 8-bit integer</td>
+<td>PartitionEnforcementOutbound</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.portphysicalstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortPhysicalState</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.portstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortState</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.q_keyviolations</td>
+<td>Unsigned 16-bit integer</td>
+<td>Q_KeyViolations</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.resptimevalue</td>
+<td>Unsigned 8-bit integer</td>
+<td>RespTimeValue</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.subnettimeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>SubnetTimeOut</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.vlarbitrationhighcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLArbitrationHighCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.vlarbitrationlowcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLArbitrationLowCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.vlcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.vlhighlimit</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLHighLimit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.portinfo.vlstallcount</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLStallCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.randomforwardingtable.lid</td>
+<td>Unsigned 16-bit integer</td>
+<td>LID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.randomforwardingtable.lmc</td>
+<td>Unsigned 8-bit integer</td>
+<td>LMC</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.randomforwardingtable.port</td>
+<td>Unsigned 8-bit integer</td>
+<td>Port</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.randomforwardingtable.randomforwardingtableblock</td>
+<td>Byte array</td>
+<td>RandomForwardingTableBlock</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.randomforwardingtable.valid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Valid</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rawdata</td>
+<td>Byte array</td>
+<td>Raw Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rdeth</td>
+<td>Byte array</td>
+<td>Reliable Datagram Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rdeth.eecnxt</td>
+<td>Unsigned 24-bit integer</td>
+<td>E2E Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rdeth.reserved8</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (8 bits)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.reth</td>
+<td>Byte array</td>
+<td>RDMA Extended Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.reth.dmalen</td>
+<td>Unsigned 32-bit integer</td>
+<td>DMA Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.reth.r_key</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.reth.va</td>
+<td>Unsigned 64-bit integer</td>
+<td>Virtual Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp</td>
+<td>Byte array</td>
+<td>RMPP (Reliable Multi-Packet Transaction Protocol)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.data</td>
+<td>Byte array</td>
+<td>RMPP Data (Reliable Multi-Packet Transaction Protocol)</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.data1</td>
+<td>Unsigned 32-bit integer</td>
+<td>RMPP Data 1</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.data2</td>
+<td>Unsigned 32-bit integer</td>
+<td>RMPP Data 2</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.extendederrordata</td>
+<td>Byte array</td>
+<td>Optional Extended Error Data</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.newwindowlast</td>
+<td>Unsigned 32-bit integer</td>
+<td>New Window Last</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.payloadlength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Payload Length</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.reserved220</td>
+<td>Byte array</td>
+<td>Segment Number</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.rmppflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>RMPP Flags</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.rmppstatus</td>
+<td>Unsigned 8-bit integer</td>
+<td>RMPP Status</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.rmpptype</td>
+<td>Unsigned 8-bit integer</td>
+<td>RMPP Type</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.rmppversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>RMPP Type</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.rresptime</td>
+<td>Unsigned 8-bit integer</td>
+<td>R Resp Time</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.segmentnumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>Segment Number</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rmpp.transferreddata</td>
+<td>Byte array</td>
+<td>Transferred Data</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rwh</td>
+<td>Byte array</td>
+<td>Raw Header</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rwh.etype</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ethertype</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.rwh.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved (16 bits)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.attributeoffset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Attribute Offset</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.blocknum_eightbit</td>
+<td>Unsigned 8-bit integer</td>
+<td>BlockNum_EightBit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.blocknum_ninebit</td>
+<td>Unsigned 16-bit integer</td>
+<td>BlockNum_NineBit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.blocknum_sixteenbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>BlockNum_SixteenBit</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.componentmask</td>
+<td>Unsigned 64-bit integer</td>
+<td>Component Mask</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.drdlid</td>
+<td>Byte array</td>
+<td>SA Packet (Subnet Administration)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.endportlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>EndportLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.sa.inputportnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>InputPortNum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.lid</td>
+<td>Unsigned 16-bit integer</td>
+<td>LID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.outputportnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>OutputPortNum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.portnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortNum</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.position</td>
+<td>Unsigned 8-bit integer</td>
+<td>Position</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.smkey</td>
+<td>Unsigned 64-bit integer</td>
+<td>SM_Key (Verification Key)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sa.subnetadmindata</td>
+<td>Byte array</td>
+<td>Subnet Admin Data</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.serviceassociationrecord.servicekey</td>
+<td>Byte array</td>
+<td>ServiceKey</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.serviceassociationrecord.servicename</td>
+<td>String</td>
+<td>ServiceName</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sltovlmappingtable.sltovlhighbits</td>
+<td>Unsigned 8-bit integer</td>
+<td>SL(x)toVL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sltovlmappingtable.sltovllowbits</td>
+<td>Unsigned 8-bit integer</td>
+<td>SL(x)toVL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sminfo.actcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>ActCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sminfo.guid</td>
+<td>Unsigned 64-bit integer</td>
+<td>GUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sminfo.priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Priority</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sminfo.sm_key</td>
+<td>Unsigned 64-bit integer</td>
+<td>SM_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.sminfo.smstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>SMState</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected</td>
+<td>Byte array</td>
+<td>Subnet Management Packet (Directed Route)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.d</td>
+<td>Unsigned 64-bit integer</td>
+<td>D (Direction Bit)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.drdlid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DrDLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.drslid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DrSLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.hopcount</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hop Count</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.hoppointer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hop Pointer</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.initialpath</td>
+<td>Byte array</td>
+<td>Initial Path</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.reserved28</td>
+<td>Byte array</td>
+<td>Reserved (224 bits)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.returnpath</td>
+<td>Byte array</td>
+<td>Return Path</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smpdirected.smpstatus</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smplid</td>
+<td>Byte array</td>
+<td>Subnet Management Packet (LID Routed)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smplid.mkey</td>
+<td>Unsigned 64-bit integer</td>
+<td>M_Key</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smplid.reserved1024</td>
+<td>Byte array</td>
+<td>Reserved (1024 bits)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smplid.reserved256</td>
+<td>Byte array</td>
+<td>Reserved (256 bits)</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.smplid.smpdata</td>
+<td>Byte array</td>
+<td>SMP Data</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.defaultmulticastnotprimaryport</td>
+<td>Unsigned 8-bit integer</td>
+<td>DefaultMulticastNotPrimaryPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.defaultmulticastprimaryport</td>
+<td>Unsigned 8-bit integer</td>
+<td>DefaultMulticastPrimaryPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.defaultport</td>
+<td>Unsigned 8-bit integer</td>
+<td>DefaultPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.enhancedportzero</td>
+<td>Unsigned 8-bit integer</td>
+<td>EnhancedPortZero</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.filterrawinboundcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>FilterRawInboundCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.filterrawoutboundcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>FilterRawOutboundCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.guid</td>
+<td>Unsigned 64-bit integer</td>
+<td>GUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.guidblock</td>
+<td>Byte array</td>
+<td>GUIDBlock</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.inboundenforcementcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>InboundEnforcementCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.lidsperport</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDsPerPort</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.lifetimevalue</td>
+<td>Unsigned 8-bit integer</td>
+<td>LifeTimeValue</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.linearfdbcap</td>
+<td>Unsigned 16-bit integer</td>
+<td>LinearFDBCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.linearfdbtop</td>
+<td>Unsigned 16-bit integer</td>
+<td>LinearFDBTop</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.multicastfdbcap</td>
+<td>Unsigned 16-bit integer</td>
+<td>MulticastFDBCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.optimizedsltovlmappingprogramming</td>
+<td>Unsigned 8-bit integer</td>
+<td>OptimizedSLtoVLMappingProgramming</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.outboundenforcementcap</td>
+<td>Unsigned 8-bit integer</td>
+<td>OutboundEnforcementCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.partitionenforcementcap</td>
+<td>Unsigned 16-bit integer</td>
+<td>PartitionEnforcementCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.portstatechange</td>
+<td>Unsigned 8-bit integer</td>
+<td>PortStateChange</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.switchinfo.randomfdbcap</td>
+<td>Unsigned 16-bit integer</td>
+<td>RandomFDBCap</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.attributeid</td>
+<td>Unsigned 16-bit integer</td>
+<td>ATTRIBUTEID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.attributemodifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>ATTRIBUTEMODIFIER</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.capabilitymask</td>
+<td>Unsigned 32-bit integer</td>
+<td>CAPABILITYMASK</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.comp_mask</td>
+<td>Unsigned 64-bit integer</td>
+<td>COMP_MASK</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.datavalid</td>
+<td>IPv6 address</td>
+<td>DataValid</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.drhopcount</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRHopCount</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.drnotice</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRNotice</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.drnoticereturnpath</td>
+<td>Byte array</td>
+<td>DRNoticeReturnPath</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.drpathtruncated</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRPathTruncated</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.drslid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DRSLID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.gidaddr</td>
+<td>IPv6 address</td>
+<td>GIDADDR</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.gidaddr1</td>
+<td>IPv6 address</td>
+<td>GIDADDR1</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.gidaddr2</td>
+<td>IPv6 address</td>
+<td>GIDADDR2</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.key</td>
+<td>Unsigned 32-bit integer</td>
+<td>KEY</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.lidaddr</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDADDR</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.lidaddr1</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDADDR1</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.lidaddr2</td>
+<td>Unsigned 16-bit integer</td>
+<td>LIDADDR2</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.linkspeecenabledchange</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkSpeecEnabledChange</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.linkwidthenabledchange</td>
+<td>Unsigned 8-bit integer</td>
+<td>LinkWidthEnabledChange</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.method</td>
+<td>Unsigned 8-bit integer</td>
+<td>METHOD</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.mkey</td>
+<td>Unsigned 64-bit integer</td>
+<td>MKEY</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.nodedescriptionchange</td>
+<td>Unsigned 8-bit integer</td>
+<td>NodeDescriptionChange</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.otherlocalchanges</td>
+<td>Unsigned 8-bit integer</td>
+<td>OtherLocalChanges</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.path_rec</td>
+<td>Byte array</td>
+<td>PATH_REC</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.trap.pkey</td>
+<td>Unsigned 16-bit integer</td>
+<td>PKEY</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.portno</td>
+<td>Unsigned 8-bit integer</td>
+<td>PORTNO</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.qp1</td>
+<td>Unsigned 24-bit integer</td>
+<td>QP1</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.qp2</td>
+<td>Unsigned 24-bit integer</td>
+<td>QP2</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.sl</td>
+<td>Unsigned 8-bit integer</td>
+<td>SL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.swlidaddr</td>
+<td>IPv6 address</td>
+<td>SWLIDADDR</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.systemimageguid</td>
+<td>Unsigned 64-bit integer</td>
+<td>SYSTEMIMAGEGUID</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.trap.wait_for_repath</td>
+<td>Unsigned 8-bit integer</td>
+<td>WAIT_FOR_REPATH</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.variant.crc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Variant CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.vendor</td>
+<td>Byte array</td>
+<td>Unknown/Vendor Specific Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.vendordiag.diagdata</td>
+<td>Byte array</td>
+<td>DiagData</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.vendordiag.nextindex</td>
+<td>Unsigned 16-bit integer</td>
+<td>NextIndex</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.vlarbitrationtable.vl</td>
+<td>Unsigned 8-bit integer</td>
+<td>VL</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>infiniband.vlarbitrationtable.vlweightpairs</td>
+<td>Byte array</td>
+<td>VLWeightPairs</td>
+<td>1.0.6 to 1.2.0</td>
+</tr>
+<tr>
+<td>infiniband.vlarbitrationtable.weight</td>
+<td>Unsigned 8-bit integer</td>
+<td>Weight</td>
+<td>1.0.6 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

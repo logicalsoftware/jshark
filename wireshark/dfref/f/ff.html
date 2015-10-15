@@ -1,0 +1,3596 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: FOUNDATION Fieldbus</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: FOUNDATION Fieldbus</h1>
+<div><b>Protocol field name:</b> ff</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ff.fda</td>
+<td>Boolean</td>
+<td>FDA Session Management Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle</td>
+<td>Boolean</td>
+<td>FDA Idle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.err</td>
+<td>Boolean</td>
+<td>FDA Idle Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.req</td>
+<td>Boolean</td>
+<td>FDA Idle Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.idle.rsp</td>
+<td>Boolean</td>
+<td>FDA Idle Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess</td>
+<td>Boolean</td>
+<td>FDA Open Session</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.err</td>
+<td>Boolean</td>
+<td>FDA Open Session Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req</td>
+<td>Boolean</td>
+<td>FDA Open Session Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.inactivity_close_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>Inactivity Close Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.max_buf_siz</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.max_msg_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.nma_conf_use</td>
+<td>Unsigned 8-bit integer</td>
+<td>NMA Configuration Use</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.sess_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.req.transmit_delay_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmit Delay Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp</td>
+<td>Boolean</td>
+<td>FDA Open Session Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.inactivity_close_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>Inactivity Close Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.max_buf_siz</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.max_msg_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.nma_conf_use</td>
+<td>Unsigned 8-bit integer</td>
+<td>NMA Configuration Use</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.sess_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fda.open_sess.rsp.transmit_delay_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmit Delay Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms</td>
+<td>Boolean</td>
+<td>FMS Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.abort</td>
+<td>Boolean</td>
+<td>FMS Abort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.abort.req</td>
+<td>Boolean</td>
+<td>FMS Abort Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.abort.req.abort_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Abort Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.abort.req.reason_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.abort.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification</td>
+<td>Boolean</td>
+<td>FMS Acknowledge Event Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.err</td>
+<td>Boolean</td>
+<td>FMS Acknowledge Event Notification Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.req</td>
+<td>Boolean</td>
+<td>FMS Acknowledge Event Notification Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.req.ev_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ack_ev_notification.rsp</td>
+<td>Boolean</td>
+<td>FMS Acknowledge Event Notification Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring</td>
+<td>Boolean</td>
+<td>FMS Alter Event Condition Monitoring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.err</td>
+<td>Boolean</td>
+<td>FMS Alter Event Condition Monitoring Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.req</td>
+<td>Boolean</td>
+<td>FMS Alter Event Condition Monitoring Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.req.enabled</td>
+<td>Unsigned 8-bit integer</td>
+<td>Enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.alter_ev_condition_monitoring.rsp</td>
+<td>Boolean</td>
+<td>FMS Alter Event Condition Monitoring Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi</td>
+<td>Boolean</td>
+<td>FMS Create Program Invocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.err</td>
+<td>Boolean</td>
+<td>FMS Create Program Invocation Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.req</td>
+<td>Boolean</td>
+<td>FMS Create Program Invocation Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.req.list_of_dom_idxes.dom_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Domain Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.req.num_of_dom_idxes</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Domain Indexes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.req.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.req.reusable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reusable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.rsp</td>
+<td>Boolean</td>
+<td>FMS Create Program Invocation Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.create_pi.rsp.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list</td>
+<td>Boolean</td>
+<td>FMS Define Variable List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.err</td>
+<td>Boolean</td>
+<td>FMS Define Variable List Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.req</td>
+<td>Boolean</td>
+<td>FMS Define Variable List Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.req.num_of_idxes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Indexes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.rsp</td>
+<td>Boolean</td>
+<td>FMS Define Variable List Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.def_variable_list.rsp.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi</td>
+<td>Boolean</td>
+<td>FMS Delete Program Invocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.err</td>
+<td>Boolean</td>
+<td>FMS Delete Program Invocation Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.req</td>
+<td>Boolean</td>
+<td>FMS Delete Program Invocation Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_pi.rsp</td>
+<td>Boolean</td>
+<td>FMS Delete Program Invocation Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list</td>
+<td>Boolean</td>
+<td>FMS Delete Variable List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.err</td>
+<td>Boolean</td>
+<td>FMS Delete Variable List Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.req</td>
+<td>Boolean</td>
+<td>FMS Delete Variable List Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.del_variable_list.rsp</td>
+<td>Boolean</td>
+<td>FMS Delete Variable List Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg</td>
+<td>Boolean</td>
+<td>FMS Download Segment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.err</td>
+<td>Boolean</td>
+<td>FMS Download Segment Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.req</td>
+<td>Boolean</td>
+<td>FMS Download Segment Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.req.idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.rsp</td>
+<td>Boolean</td>
+<td>FMS Download Segment Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.download_seg.rsp.more_follows</td>
+<td>Unsigned 8-bit integer</td>
+<td>Final Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ev_notification</td>
+<td>Boolean</td>
+<td>FMS Event Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ev_notification.req</td>
+<td>Boolean</td>
+<td>FMS Event Notification Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ev_notification.req.ev_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.ev_notification.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg</td>
+<td>Boolean</td>
+<td>FMS Generic Download Segment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.err</td>
+<td>Boolean</td>
+<td>FMS Generic Download Segment Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.req</td>
+<td>Boolean</td>
+<td>FMS Generic Download Segment Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.req.idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.req.more_follows</td>
+<td>Unsigned 8-bit integer</td>
+<td>More Follows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_download_seg.rsp</td>
+<td>Boolean</td>
+<td>FMS Generic Download Segment Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq</td>
+<td>Boolean</td>
+<td>FMS Generic Initiate Download Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.err</td>
+<td>Boolean</td>
+<td>FMS Generic Initiate Download Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.req</td>
+<td>Boolean</td>
+<td>FMS Generic Initiate Download Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.req.idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_init_download_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Generic Initiate Download Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq</td>
+<td>Boolean</td>
+<td>FMS Generic Terminate Download Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.err</td>
+<td>Boolean</td>
+<td>FMS Generic Terminate Download Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.req</td>
+<td>Boolean</td>
+<td>FMS Generic Terminate Download Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.req.idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Generic Terminate Download Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.gen_terminate_download_seq.rsp.final_result</td>
+<td>Unsigned 8-bit integer</td>
+<td>Final Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od</td>
+<td>Boolean</td>
+<td>FMS Get OD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.err</td>
+<td>Boolean</td>
+<td>FMS Get OD Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.req</td>
+<td>Boolean</td>
+<td>FMS Get OD Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.req.all_attrs</td>
+<td>Unsigned 8-bit integer</td>
+<td>All Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.req.start_idx_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Index Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.rsp</td>
+<td>Boolean</td>
+<td>FMS Get OD Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.rsp.more_follows</td>
+<td>Unsigned 8-bit integer</td>
+<td>More Follows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.rsp.num_of_obj_desc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Object Descriptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.get_od.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id</td>
+<td>Boolean</td>
+<td>FMS Identify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.err</td>
+<td>Boolean</td>
+<td>FMS Identify Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.req</td>
+<td>Boolean</td>
+<td>FMS Identify Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.rsp</td>
+<td>Boolean</td>
+<td>FMS Identify Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.rsp.model_name</td>
+<td>String</td>
+<td>Model Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.rsp.revision</td>
+<td>String</td>
+<td>Revision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.id.rsp.vendor_name</td>
+<td>String</td>
+<td>Vendor Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report</td>
+<td>Boolean</td>
+<td>FMS Information Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report.req</td>
+<td>Boolean</td>
+<td>FMS Information Report Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change</td>
+<td>Boolean</td>
+<td>FMS Information Report On Change with Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change.req</td>
+<td>Boolean</td>
+<td>FMS Information Report On Change with Subindex Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change_with_subidx</td>
+<td>Boolean</td>
+<td>FMS Information Report On Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change_with_subidx.req</td>
+<td>Boolean</td>
+<td>FMS Information Report On Change Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change_with_subidx.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_on_change_with_subidx.req.subidx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_with_subidx</td>
+<td>Boolean</td>
+<td>FMS Information Report with Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_with_subidx.req</td>
+<td>Boolean</td>
+<td>FMS Information Report with Subindex Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_with_subidx.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.info_report_with_subidx.req.subidx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init</td>
+<td>Boolean</td>
+<td>FMS Initiate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.err</td>
+<td>Boolean</td>
+<td>FMS Initiate Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req</td>
+<td>Boolean</td>
+<td>FMS Initiate Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.access_protection_supported_calling</td>
+<td>Unsigned 8-bit integer</td>
+<td>Access Protection Supported Calling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.conn_opt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connect Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.passwd_and_access_grps_calling</td>
+<td>Unsigned 16-bit integer</td>
+<td>Password and Access Groups Calling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.prof_num_calling</td>
+<td>Unsigned 16-bit integer</td>
+<td>Profile Number Calling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.req.ver_od_calling</td>
+<td>Signed 16-bit integer</td>
+<td>Version OD Calling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.rsp</td>
+<td>Boolean</td>
+<td>FMS Initiate Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.rsp.prof_num_called</td>
+<td>Unsigned 16-bit integer</td>
+<td>Profile Number Called</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init.rsp.ver_od_called</td>
+<td>Signed 16-bit integer</td>
+<td>Version OD Called</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq</td>
+<td>Boolean</td>
+<td>FMS Initiate Download Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.err</td>
+<td>Boolean</td>
+<td>FMS Initiate Download Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.req</td>
+<td>Boolean</td>
+<td>FMS Initiate Download Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.req.idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_download_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Initiate Download Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od</td>
+<td>Boolean</td>
+<td>FMS Initiate Put OD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.err</td>
+<td>Boolean</td>
+<td>FMS Initiate Put OD Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.req</td>
+<td>Boolean</td>
+<td>FMS Initiate Put OD Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.req.consequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>Consequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_put_od.rsp</td>
+<td>Boolean</td>
+<td>FMS Initiate Put OD Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq</td>
+<td>Boolean</td>
+<td>FMS Initiate Upload Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.err</td>
+<td>Boolean</td>
+<td>FMS Initiate Upload Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.req</td>
+<td>Boolean</td>
+<td>FMS Initiate Upload Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.init_upload_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Initiate Upload Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill</td>
+<td>Boolean</td>
+<td>FMS Kill</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.err</td>
+<td>Boolean</td>
+<td>FMS Kill Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.req</td>
+<td>Boolean</td>
+<td>FMS Kill Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.kill.rsp</td>
+<td>Boolean</td>
+<td>FMS Kill Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od</td>
+<td>Boolean</td>
+<td>FMS Put OD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.err</td>
+<td>Boolean</td>
+<td>FMS Put OD Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.req</td>
+<td>Boolean</td>
+<td>FMS Put OD Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.req.num_of_obj_desc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Object Descriptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.put_od.rsp</td>
+<td>Boolean</td>
+<td>FMS Put OD Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read</td>
+<td>Boolean</td>
+<td>FMS Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.err</td>
+<td>Boolean</td>
+<td>FMS Read Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.req</td>
+<td>Boolean</td>
+<td>FMS Read Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read.rsp</td>
+<td>Boolean</td>
+<td>FMS Read Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx</td>
+<td>Boolean</td>
+<td>FMS Read with Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.err</td>
+<td>Boolean</td>
+<td>FMS Read with Subindex Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.req</td>
+<td>Boolean</td>
+<td>FMS Read with Subindex Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.req.subidx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.read_with_subidx.rsp</td>
+<td>Boolean</td>
+<td>FMS Read with Subindex Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download</td>
+<td>Boolean</td>
+<td>FMS Request Domain Download</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.err</td>
+<td>Boolean</td>
+<td>FMS Request Domain Download Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.req</td>
+<td>Boolean</td>
+<td>FMS Request Domain Download Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.req.additional_info</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_download.rsp</td>
+<td>Boolean</td>
+<td>FMS Request Domain Download Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload</td>
+<td>Boolean</td>
+<td>FMS Request Domain Upload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.err</td>
+<td>Boolean</td>
+<td>FMS Request Domain Upload Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.req</td>
+<td>Boolean</td>
+<td>FMS Request Domain Upload Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.req.additional_info</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.req_dom_upload.rsp</td>
+<td>Boolean</td>
+<td>FMS Request Domain Upload Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset</td>
+<td>Boolean</td>
+<td>FMS Reset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err</td>
+<td>Boolean</td>
+<td>FMS Reset Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.err.pi_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pi State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.req</td>
+<td>Boolean</td>
+<td>FMS Reset Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.reset.rsp</td>
+<td>Boolean</td>
+<td>FMS Reset Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume</td>
+<td>Boolean</td>
+<td>FMS Resume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err</td>
+<td>Boolean</td>
+<td>FMS Resume Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.err.pi_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pi State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.req</td>
+<td>Boolean</td>
+<td>FMS Resume Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.resume.rsp</td>
+<td>Boolean</td>
+<td>FMS Resume Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start</td>
+<td>Boolean</td>
+<td>FMS Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err</td>
+<td>Boolean</td>
+<td>FMS Start Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.err.pi_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pi State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.req</td>
+<td>Boolean</td>
+<td>FMS Start Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.start.rsp</td>
+<td>Boolean</td>
+<td>FMS Start Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status</td>
+<td>Boolean</td>
+<td>FMS Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.err</td>
+<td>Boolean</td>
+<td>FMS Status Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.req</td>
+<td>Boolean</td>
+<td>FMS Status Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.rsp</td>
+<td>Boolean</td>
+<td>FMS Status Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.rsp.logical_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Logical Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.rsp.physical_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Physical Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.status.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop</td>
+<td>Boolean</td>
+<td>FMS Stop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err</td>
+<td>Boolean</td>
+<td>FMS Stop Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.err.pi_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pi State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.req</td>
+<td>Boolean</td>
+<td>FMS Stop Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.stop.rsp</td>
+<td>Boolean</td>
+<td>FMS Stop Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq</td>
+<td>Boolean</td>
+<td>FMS Terminate Download Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.err</td>
+<td>Boolean</td>
+<td>FMS Terminate Download Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.req</td>
+<td>Boolean</td>
+<td>FMS Terminate Download Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.req.final_result</td>
+<td>Unsigned 32-bit integer</td>
+<td>Final Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_download_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Terminate Download Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od</td>
+<td>Boolean</td>
+<td>FMS Terminate Put OD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err</td>
+<td>Boolean</td>
+<td>FMS Terminate Put OD Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.err.index</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.req</td>
+<td>Boolean</td>
+<td>FMS Terminate Put OD Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_put_od.rsp</td>
+<td>Boolean</td>
+<td>FMS Terminate Put OD Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq</td>
+<td>Boolean</td>
+<td>FMS Terminate Upload Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.err</td>
+<td>Boolean</td>
+<td>FMS Terminate Upload Sequence Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.req</td>
+<td>Boolean</td>
+<td>FMS Terminate Upload Sequence Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.terminate_upload_seq.rsp</td>
+<td>Boolean</td>
+<td>FMS Terminate Upload Sequence Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.unsolicited_status</td>
+<td>Boolean</td>
+<td>FMS Unsolicited Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.unsolicited_status.req</td>
+<td>Boolean</td>
+<td>FMS Unsolicited Status Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.unsolicited_status.req.logical_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Logical Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.unsolicited_status.req.physical_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Physical Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.unsolicited_status.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg</td>
+<td>Boolean</td>
+<td>FMS Upload Segment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.err</td>
+<td>Boolean</td>
+<td>FMS Upload Segment Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.req</td>
+<td>Boolean</td>
+<td>FMS Upload Segment Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.rsp</td>
+<td>Boolean</td>
+<td>FMS Upload Segment Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.upload_seg.rsp.more_follows</td>
+<td>Unsigned 32-bit integer</td>
+<td>More Follows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write</td>
+<td>Boolean</td>
+<td>FMS Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.err</td>
+<td>Boolean</td>
+<td>FMS Write Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.req</td>
+<td>Boolean</td>
+<td>FMS Write Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write.rsp</td>
+<td>Boolean</td>
+<td>FMS Write Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx</td>
+<td>Boolean</td>
+<td>FMS Write with Subindex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.err</td>
+<td>Boolean</td>
+<td>FMS Write with Subindex Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.req</td>
+<td>Boolean</td>
+<td>FMS Write with Subindex Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.req.subidx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.fms.write_with_subidx.rsp</td>
+<td>Boolean</td>
+<td>FMS Write with Subindex Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.hdr</td>
+<td>Boolean</td>
+<td>Message Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.hdr.fda_addr</td>
+<td>Unsigned 32-bit integer</td>
+<td>FDA Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.hdr.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.hdr.ver</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDA Message Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr</td>
+<td>Boolean</td>
+<td>LAN Redundancy Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.diagnostic_msg_intvl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diagnostic Message Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.if_a_to_a_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface AtoA Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.if_a_to_b_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface AtoB Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.if_b_to_a_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface BtoA Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.if_b_to_b_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface BtoB Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.num_of_if_statuses</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Interface Statuses</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.num_of_network_ifs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Network Interfaces</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.diagnostic_msg.req.transmission_if</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Interface</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.aging_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Aging Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.diagnostic_msg_if_a_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.diagnostic_msg_if_a_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.diagnostic_msg_if_b_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.diagnostic_msg_if_b_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.diagnostic_msg_intvl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diagnostic Message Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.lr_attrs_ver</td>
+<td>Unsigned 32-bit integer</td>
+<td>LAN Redundancy Attributes Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.max_msg_num_diff</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Message Number Difference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_info.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_diag_svr_ind_miss_a</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_diag_svr_ind_miss_b</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_diag_svr_ind_recv_a</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_diag_svr_ind_recv_b</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_rem_dev_diag_recv_fault_a</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_rem_dev_diag_recv_fault_b</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.num_x_cable_stat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.get_statistics.rsp.x_cable_stat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.diagnostic_msg</td>
+<td>Boolean</td>
+<td>Diagnostic Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_info</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_info.err</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Information Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_info.req</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Information Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_info.rsp</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Information Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_statistics</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Statistics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_statistics.err</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Statistics Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_statistics.req</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Statistics Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.get_statistics.rsp</td>
+<td>Boolean</td>
+<td>LAN Redundancy Get Statistics Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.put_info</td>
+<td>Boolean</td>
+<td>LAN Redundancy Put Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.put_info.err</td>
+<td>Boolean</td>
+<td>LAN Redundancy Put Information Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.put_info.req</td>
+<td>Boolean</td>
+<td>LAN Redundancy Put Information Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.lr.put_info.rsp</td>
+<td>Boolean</td>
+<td>LAN Redundancy Put Information Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.aging_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Aging Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.diagnostic_msg_if_a_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.diagnostic_msg_if_a_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.diagnostic_msg_if_b_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.diagnostic_msg_if_b_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.diagnostic_msg_intvl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diagnostic Message Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.lr_attrs_ver</td>
+<td>Unsigned 32-bit integer</td>
+<td>LAN Redundancy Attributes Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.max_msg_num_diff</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Message Number Difference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.aging_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Aging Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.diagnostic_msg_if_a_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.diagnostic_msg_if_a_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface A Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.diagnostic_msg_if_b_recv_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Receive Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.diagnostic_msg_if_b_send_addr</td>
+<td>IPv6 address</td>
+<td>Diagnostic Message Interface B Send Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.diagnostic_msg_intvl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diagnostic Message Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.lr_attrs_ver</td>
+<td>Unsigned 32-bit integer</td>
+<td>LAN Redundancy Attributes Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.max_msg_num_diff</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Message Number Difference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.lr.put_info.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm</td>
+<td>Boolean</td>
+<td>SM Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr</td>
+<td>Boolean</td>
+<td>SM Clear Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.err</td>
+<td>Boolean</td>
+<td>SM Clear Address Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.req</td>
+<td>Boolean</td>
+<td>SM Clear Address Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.req.dev_id</td>
+<td>String</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.req.interface_to_clear</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interface to Clear</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_addr.rsp</td>
+<td>Boolean</td>
+<td>SM Clear Address Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info</td>
+<td>Boolean</td>
+<td>SM Clear Assignment Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.err</td>
+<td>Boolean</td>
+<td>SM Clear Assignment Info Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.req</td>
+<td>Boolean</td>
+<td>SM Clear Assignment Info Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.req.dev_id</td>
+<td>String</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.clear_assign_info.rsp</td>
+<td>Boolean</td>
+<td>SM Clear Assignment Info Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc</td>
+<td>Boolean</td>
+<td>SM Device Annunciation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req</td>
+<td>Boolean</td>
+<td>SM Device Annunciation Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.annunc_ver_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Annunciation Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.dev_id</td>
+<td>String</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.h1_live_list.h1_link_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>H1 Link Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.h1_live_list.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.h1_live_list.ver_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.h1_node_addr_ver_num.h1_node_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>H1 Node Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.h1_node_addr_ver_num.ver_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.hse_dev_ver_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Device Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.hse_repeat_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Repeat Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.lr_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>LAN Redundancy Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.max_dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.num_of_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Entries in Version Number List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.operational_ip_addr</td>
+<td>IPv6 address</td>
+<td>Operational IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.dev_annunc.req.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query</td>
+<td>Boolean</td>
+<td>SM Find Tag Query</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query.req</td>
+<td>Boolean</td>
+<td>SM Find Tag Query Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query.req.idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Element Id or VFD Reference or Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query.req.query_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Query Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query.req.tag</td>
+<td>String</td>
+<td>PD Tag or Function Block Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_query.req.vfd_tag</td>
+<td>String</td>
+<td>VFD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply</td>
+<td>Boolean</td>
+<td>SM Find Tag Reply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req</td>
+<td>Boolean</td>
+<td>SM Find Tag Reply Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.dev_id</td>
+<td>String</td>
+<td>Queried Object Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.fda_addr_link_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Queried Object FDA Address Link Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.fda_addr_selector.fda_addr_selector</td>
+<td>Unsigned 16-bit integer</td>
+<td>FDA Address Selector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.h1_node_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Queried Object H1 Node Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.ip_addr</td>
+<td>IPv6 address</td>
+<td>Queried Object IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.num_of_fda_addr_selectors</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of FDA Address Selectors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.od_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Queried Object OD Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.od_ver</td>
+<td>Unsigned 32-bit integer</td>
+<td>Queried Object OD Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.pd_tag</td>
+<td>String</td>
+<td>Queried Object PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.query_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Query Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.find_tag_reply.req.vfd_ref</td>
+<td>Unsigned 32-bit integer</td>
+<td>Queried Object VFD Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id</td>
+<td>Boolean</td>
+<td>SM Identify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.err</td>
+<td>Boolean</td>
+<td>SM Identify Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.req</td>
+<td>Boolean</td>
+<td>SM Identify Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp</td>
+<td>Boolean</td>
+<td>SM Identify Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.annunc_ver_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Annunciation Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.dev_id</td>
+<td>String</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.h1_live_list.h1_link_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>H1 Link Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.h1_live_list.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.h1_live_list.ver_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.h1_node_addr_ver_num.h1_node_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>H1 Node Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.h1_node_addr_ver_num.ver_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.hse_dev_ver_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Device Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.hse_repeat_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Repeat Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.lr_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>LAN Redundancy Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.max_dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.num_of_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Entries in Version Number List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.operational_ip_addr</td>
+<td>IPv6 address</td>
+<td>Operational IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.id.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info</td>
+<td>Boolean</td>
+<td>SM Set Assignment Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.err</td>
+<td>Boolean</td>
+<td>SM Set Assignment Info Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.err.additional_code</td>
+<td>Signed 16-bit integer</td>
+<td>Additional Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.err.additional_desc</td>
+<td>String</td>
+<td>Additional Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.err.err_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.err.err_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req</td>
+<td>Boolean</td>
+<td>SM Set Assignment Info Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.dev_id</td>
+<td>String</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.h1_new_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>H1 New Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.hse_repeat_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Repeat Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.lr_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>LAN Redundancy Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.max_dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.operational_ip_addr</td>
+<td>IPv6 address</td>
+<td>Operational IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.req.pd_tag</td>
+<td>String</td>
+<td>PD Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.rsp</td>
+<td>Boolean</td>
+<td>SM Set Assignment Info Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.rsp.hse_repeat_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>HSE Repeat Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.rsp.max_dev_idx</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Device Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.sm.set_assign_info.rsp.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.trailer</td>
+<td>Boolean</td>
+<td>Message Trailer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.trailer.extended_control_field</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extended Control Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.trailer.invoke_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Invoke Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.trailer.msg_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ff.trailer.time_stamp</td>
+<td>Unsigned 64-bit integer</td>
+<td>Time Stamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,1136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax Generic/Type1/Type2 MAC Header Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax Generic/Type1/Type2 MAC Header Messages</h1>
+<div><b>Protocol field name:</b> wmx.hdr</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wimax.genericGrantSubhd.Default</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scheduling Service Type (Default)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimax.genericGrantSubhd.ExtendedRTPS</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scheduling Service Type (Extended rtPS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeAckType</td>
+<td>Unsigned 16-bit integer</td>
+<td>ACK Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeBsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>BSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeCid</td>
+<td>Unsigned 16-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeLast</td>
+<td>Unsigned 16-bit integer</td>
+<td>Last IE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeMaps</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of ACK Maps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeRsvd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSelAckMap</td>
+<td>Unsigned 16-bit integer</td>
+<td>Selective ACK Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeq1Len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence 1 Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeq2Len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence 2 Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeq3Len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence 3 Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeqAckMap</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence ACK Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeqAckMap2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence ACK Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericArq.FbIeSeqFmt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericCi</td>
+<td>Unsigned 24-bit integer</td>
+<td>CRC Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericCid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Connection ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericCrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericEc</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Encryption Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericEks</td>
+<td>Unsigned 24-bit integer</td>
+<td>Encryption Key Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericEsf</td>
+<td>Unsigned 24-bit integer</td>
+<td>Extended Sub-header Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.Dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>DL Extended Subheader Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.DlSleepCtrlFSWB</td>
+<td>Unsigned 24-bit integer</td>
+<td>Final Sleep Window Base</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.DlSleepCtrlFSWE</td>
+<td>Unsigned 24-bit integer</td>
+<td>Final Sleep Window Exponent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.DlSleepCtrlOP</td>
+<td>Unsigned 24-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.DlSleepCtrlPSCID</td>
+<td>Unsigned 24-bit integer</td>
+<td>Power Saving Class ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.DlSleepCtrlRsv</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqFbType</td>
+<td>Unsigned 24-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqFrameOffset</td>
+<td>Unsigned 24-bit integer</td>
+<td>Frame Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqOfdmaSymbolOffset</td>
+<td>Unsigned 24-bit integer</td>
+<td>OFDMA Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqSlots</td>
+<td>Unsigned 24-bit integer</td>
+<td>Number of Slots</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqSubchannelOffset</td>
+<td>Unsigned 24-bit integer</td>
+<td>Subchannel Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.FbReqUIUC</td>
+<td>Unsigned 24-bit integer</td>
+<td>UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.MimoFbContent</td>
+<td>Unsigned 8-bit integer</td>
+<td>Feedback Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.MimoFbType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.MiniFbContent</td>
+<td>Unsigned 16-bit integer</td>
+<td>Feedback Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.MiniFbType</td>
+<td>Unsigned 16-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.PduSnLong</td>
+<td>Unsigned 16-bit integer</td>
+<td>PDU Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.PduSnShort</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.Rsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.SduSn</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDU Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.SnReqRepInd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>First SN Report Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.SnReqRepInd2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Second SN Report Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.SnReqRsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.Ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL Extended Subheader Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericExtSubhd.UlTxPwr</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL TX Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFastFbSubhd.AllocOffset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFastFbSubhd.FbType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.Bsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Block Sequence Number (BSN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.Fc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fragment Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.FcExt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.Fsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fragment Sequence Number (FSN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.FsnExt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Sequence Number (FSN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.Rsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericFragSubhd.RsvExt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.ExtFl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.ExtFli</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Latency Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.ExtPbr</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extended PiggyBack Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Fl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Fli</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Latency Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Pbr</td>
+<td>Unsigned 16-bit integer</td>
+<td>PiggyBack Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Pm</td>
+<td>Unsigned 16-bit integer</td>
+<td>Poll-Me</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Rsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.Si</td>
+<td>Unsigned 16-bit integer</td>
+<td>Slip Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericGrantSubhd.UGS</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scheduling Service Type (UGS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericHcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Check Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericHt</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Header Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericLen</td>
+<td>Unsigned 24-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericMeshSubhd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Xmt Node Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.Bsn</td>
+<td>Unsigned 24-bit integer</td>
+<td>First Block Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.Fc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.FcExt</td>
+<td>Unsigned 24-bit integer</td>
+<td>Fragment Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.Fsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.FsnExt</td>
+<td>Unsigned 24-bit integer</td>
+<td>Fragment Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.Len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericPackSubhd.LenExt</td>
+<td>Unsigned 24-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericRsv</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType0</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType1</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType2</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType3</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType4</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericType5</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-type Bit 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.genericValueBytes</td>
+<td>Byte array</td>
+<td>Values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Br</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bandwidth Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Br3</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bandwidth Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Connection ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Cinr</td>
+<td>Unsigned 24-bit integer</td>
+<td>CINR Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Dci</td>
+<td>Unsigned 24-bit integer</td>
+<td>DCD Change Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Diuc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Preferred DIUC Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Ec</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Encryption Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Fbssi</td>
+<td>Unsigned 24-bit integer</td>
+<td>FBSS Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1FbType</td>
+<td>Unsigned 24-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Hcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Check Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1HdRm</td>
+<td>Unsigned 24-bit integer</td>
+<td>Headroom to UL Max Power Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Ht</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Header Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Last</td>
+<td>Unsigned 24-bit integer</td>
+<td>Last ARQ BSN or SDU SN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Op</td>
+<td>Unsigned 24-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Period</td>
+<td>Unsigned 24-bit integer</td>
+<td>Preferred CQICH Allocation Period</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1PsCid</td>
+<td>Unsigned 24-bit integer</td>
+<td>Power Saving Class ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Rsv2</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Rsv5</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Rsv7</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1SduSn1</td>
+<td>Unsigned 24-bit integer</td>
+<td>ARQ BSN or MAC SDU SN (1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1SduSn2</td>
+<td>Unsigned 24-bit integer</td>
+<td>ARQ BSN or MAC SDU SN (2)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1SduSn3</td>
+<td>Unsigned 24-bit integer</td>
+<td>ARQ BSN or MAC SDU SN (3)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1Type</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAC Sub-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1UlTxPwr</td>
+<td>Unsigned 24-bit integer</td>
+<td>UL TX Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1UlTxPwr3</td>
+<td>Unsigned 24-bit integer</td>
+<td>UL TX Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type1ValueBytes</td>
+<td>Byte array</td>
+<td>Values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2AmcBitmap</td>
+<td>Unsigned 32-bit integer</td>
+<td>AMC Band Indication Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2AmcCqi1</td>
+<td>Unsigned 32-bit integer</td>
+<td>CQI 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2AmcCqi2</td>
+<td>Unsigned 32-bit integer</td>
+<td>CQI 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2AmcCqi3</td>
+<td>Unsigned 32-bit integer</td>
+<td>CQI 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2AmcCqi4</td>
+<td>Unsigned 32-bit integer</td>
+<td>CQI 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Connection ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Cii</td>
+<td>Unsigned 8-bit integer</td>
+<td>CID Inclusion Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2CinrDevi</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Standard Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2CinrMean</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoAntId</td>
+<td>Unsigned 16-bit integer</td>
+<td>Antenna Grouping Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoAntSel</td>
+<td>Unsigned 16-bit integer</td>
+<td>Antenna Selection Option Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoCodeBkId</td>
+<td>Unsigned 16-bit integer</td>
+<td>Codebook Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoCqi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Average CQI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoStreams</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ClMimoType</td>
+<td>Unsigned 16-bit integer</td>
+<td>Closed-Loop MIMO Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2CombDlAve</td>
+<td>Unsigned 16-bit integer</td>
+<td>Combined DL Average CINR of Active BSs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2CombDlRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2DlAveCinr</td>
+<td>Unsigned 16-bit integer</td>
+<td>DL Average CINR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2DlAveRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2DlChanDcd</td>
+<td>Unsigned 16-bit integer</td>
+<td>DCD Change Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2DlChanDiuc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Preferred DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2DlChanRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Ec</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Encryption Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2FbType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Hcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Check Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Ht</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Header Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2LifeSpan</td>
+<td>Unsigned 16-bit integer</td>
+<td>Life Span of Short-term</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2LifeSpanRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2LtFbId</td>
+<td>Unsigned 16-bit integer</td>
+<td>Long-term Feedback Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2LtFecQam</td>
+<td>Unsigned 16-bit integer</td>
+<td>FEC and QAM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2LtRank</td>
+<td>Unsigned 16-bit integer</td>
+<td>Rank of Precoding Codebook</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoAi</td>
+<td>Unsigned 24-bit integer</td>
+<td>Antenna 0 Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoBpri</td>
+<td>Unsigned 24-bit integer</td>
+<td>Burst Profile Ranking Indicator without CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoBpriCid</td>
+<td>Unsigned 24-bit integer</td>
+<td>Burst Profile Ranking Indicator with CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCid</td>
+<td>Unsigned 24-bit integer</td>
+<td>Connection ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCoef</td>
+<td>Unsigned 16-bit integer</td>
+<td>MIMO Coefficients</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCoefAi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Occurrences of Antenna Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCoefNi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCoefRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCqi</td>
+<td>Unsigned 24-bit integer</td>
+<td>CQI Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCt</td>
+<td>Unsigned 24-bit integer</td>
+<td>CQI Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoCti</td>
+<td>Unsigned 24-bit integer</td>
+<td>Coherent Time Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoDiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Preferred DIUC Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoFbPayload</td>
+<td>Unsigned 16-bit integer</td>
+<td>CQI and Mimo Feedback Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoFbRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoFbType</td>
+<td>Unsigned 16-bit integer</td>
+<td>Mimo Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoMi</td>
+<td>Unsigned 24-bit integer</td>
+<td>MS Matrix Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoPbwi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Preferred Bandwidth Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MimoSlpb</td>
+<td>Unsigned 24-bit integer</td>
+<td>Starting Location of Preferred Bandwidth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MtNumFbTypes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Feedback Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2MtOccuFbType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Occurrences of Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2NoCid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2PhyDiuc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Preferred DIUC Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2PhyHdRm</td>
+<td>Unsigned 24-bit integer</td>
+<td>UL Headroom</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2PhyRsv</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2PhyUlTxPwr</td>
+<td>Unsigned 24-bit integer</td>
+<td>UL TX Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2Type</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Sub-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2UlTxPwr</td>
+<td>Unsigned 16-bit integer</td>
+<td>UL TX Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2UlTxPwrRsv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.type2ValueBytes</td>
+<td>Byte array</td>
+<td>Values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

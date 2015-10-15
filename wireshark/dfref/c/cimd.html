@@ -1,0 +1,392 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Computer Interface to Message Distribution</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Computer Interface to Message Distribution</h1>
+<div><b>Protocol field name:</b> cimd</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>cimd.aoi</td>
+<td>String</td>
+<td>Alphanumeric Originating Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.ce</td>
+<td>String</td>
+<td>Cancel Enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.chksum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.cm</td>
+<td>String</td>
+<td>Cancel Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.da</td>
+<td>String</td>
+<td>Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Coding Scheme</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.cf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Compressed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.cg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Coding Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.chs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.is</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indication Sense</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.it</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indication Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.mc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dcs.mcm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Class Meaning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.drmode</td>
+<td>String</td>
+<td>Delivery Request Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.dt</td>
+<td>String</td>
+<td>Discharge Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.errcode</td>
+<td>String</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.errtext</td>
+<td>String</td>
+<td>Error Text</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.fdta</td>
+<td>String</td>
+<td>First Delivery Time Absolute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.fdtr</td>
+<td>String</td>
+<td>First Delivery Time Relative</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.gpar</td>
+<td>String</td>
+<td>Get Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.mcount</td>
+<td>String</td>
+<td>Message Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.mms</td>
+<td>String</td>
+<td>More Messages To Send</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.oa</td>
+<td>String</td>
+<td>Originating Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.oimsi</td>
+<td>String</td>
+<td>Originating IMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.opcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operation Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.ovma</td>
+<td>String</td>
+<td>Originated Visited MSC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.passwd</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.pcode</td>
+<td>String</td>
+<td>Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.pi</td>
+<td>String</td>
+<td>Protocol Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.pnumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.priority</td>
+<td>String</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.rpath</td>
+<td>String</td>
+<td>Reply Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.saddr</td>
+<td>String</td>
+<td>Subaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.scaddr</td>
+<td>String</td>
+<td>Service Center Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.scts</td>
+<td>String</td>
+<td>Service Centre Time Stamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.sdes</td>
+<td>String</td>
+<td>Service Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.smsct</td>
+<td>String</td>
+<td>SMS Center Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.srr</td>
+<td>String</td>
+<td>Status Report Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.stcode</td>
+<td>String</td>
+<td>Status Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.sterrcode</td>
+<td>String</td>
+<td>Status Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.tclass</td>
+<td>String</td>
+<td>Tariff Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.ud</td>
+<td>String</td>
+<td>User Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.udb</td>
+<td>String</td>
+<td>User Data Binary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.udh</td>
+<td>String</td>
+<td>User Data Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.ui</td>
+<td>String</td>
+<td>User Identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.vpa</td>
+<td>String</td>
+<td>Validity Period Absolute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.vpr</td>
+<td>String</td>
+<td>Validity Period Relative</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cimd.ws</td>
+<td>String</td>
+<td>Window Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

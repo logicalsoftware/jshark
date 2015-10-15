@@ -1,0 +1,992 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax Sub-TLV Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax Sub-TLV Messages</h1>
+<div><b>Protocol field name:</b> wmx.sub</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wmx.cmac_tuple.bsid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BSID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cmac_tuple.cmac.value</td>
+<td>Byte array</td>
+<td>CMAC Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.mac_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.unknown_type</td>
+<td>Byte array</td>
+<td>Unknown Common TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.vendor_id_encoding</td>
+<td>Byte array</td>
+<td>Vendor ID Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.vendor_specific_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Vendor Specific Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.vendor_specific_length_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vendor Specific Length Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.vendor_specific_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vendor Specific Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.common_tlv.vendor_specific_value</td>
+<td>Byte array</td>
+<td>Vendor Specific Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.atm_classifier</td>
+<td>Byte array</td>
+<td>ATM Classifier TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.atm_classifier_tlv</td>
+<td>Unsigned 16-bit integer</td>
+<td>Classifier ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.atm_classifier_vci</td>
+<td>Unsigned 16-bit integer</td>
+<td>VCI Classifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.atm_classifier_vpi</td>
+<td>Unsigned 16-bit integer</td>
+<td>VPI Classifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.atm_switching_encoding</td>
+<td>Unsigned 8-bit integer</td>
+<td>ATM Switching Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.csper.unknown_type</td>
+<td>Byte array</td>
+<td>Unknown CSPER TLV type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.classifier_action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Classifier DSC Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.error_set.error_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.error_set.error_msg</td>
+<td>String</td>
+<td>Error Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.error_set.errored_param</td>
+<td>Byte array</td>
+<td>Errored Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.large_context_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Large Context ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs.vendor_spec</td>
+<td>Byte array</td>
+<td>Vendor-Specific PHS Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_dsc_action</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHS DSC action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule</td>
+<td>Byte array</td>
+<td>PHS Rule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule.phsf</td>
+<td>Byte array</td>
+<td>PHSF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule.phsi</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule.phsm</td>
+<td>Byte array</td>
+<td>PHSM (bit x: 0-don't suppress the (x+1) byte; 1-suppress the (x+1) byte)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule.phss</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHSS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.phs_rule.phsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHSV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule</td>
+<td>Byte array</td>
+<td>Packet Classification Rule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.classifier.action.rule</td>
+<td>Unsigned 8-bit integer</td>
+<td>Classifier Action Rule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.classifier.action.rule.bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit #0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.classifier.action.rule.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dest_mac_address</td>
+<td>Byte array</td>
+<td>802.3/Ethernet Destination MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dst_ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4 Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dst_ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dst_mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Destination MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dst_port_high</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dst-Port High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.dst_port_low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dst-Port Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.eprot1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Eprot1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.eprot2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Eprot2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.ethertype</td>
+<td>Byte array</td>
+<td>Ethertype/IEEE Std 802.2-1998 SAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.index</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Classifier Rule Index (PCRI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.ip_masked_dest_address</td>
+<td>Byte array</td>
+<td>IP Masked Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.ip_masked_src_address</td>
+<td>Byte array</td>
+<td>IP Masked Source Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.ipv6_flow_label</td>
+<td>Unsigned 24-bit integer</td>
+<td>IPv6 Flow Label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.mask_ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.mask_ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.mask_mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC Address Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.phsi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Associated PHSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.pri-high</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pri-High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.pri-low</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pri-Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Classification Rule Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.prot_dest_port_range</td>
+<td>Byte array</td>
+<td>Protocol Destination Port Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.prot_src_port_range</td>
+<td>Byte array</td>
+<td>Protocol Source Port Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.protocol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.range_mask</td>
+<td>Byte array</td>
+<td>ToS/Differentiated Services Codepoint (DSCP) Range And Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4 Source Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Source Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Source MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_mac_address</td>
+<td>Byte array</td>
+<td>802.3/Ethernet Source MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_port_high</td>
+<td>Unsigned 16-bit integer</td>
+<td>Src-Port High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.src_port_low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Src-Port Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.tos-high</td>
+<td>Unsigned 8-bit integer</td>
+<td>ToS-High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.tos-low</td>
+<td>Unsigned 8-bit integer</td>
+<td>ToS-Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.tos-mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>ToS-Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.user_priority</td>
+<td>Byte array</td>
+<td>IEEE Std 802.1D-1998 User_Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.vendor_spec</td>
+<td>Byte array</td>
+<td>Vendor-Specific Classifier Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.vlan_id</td>
+<td>Byte array</td>
+<td>IEEE Std 802.1Q-1998 VLAN_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.vlan_id1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vlan_Id1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.pkt_class_rule.vlan_id2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vlan_Id2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cst.short_format_context_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Short-Format Context ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm.unknown.type</td>
+<td>Byte array</td>
+<td>Unknown Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.akid</td>
+<td>Byte array</td>
+<td>AKID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.associated_gkek_seq_number</td>
+<td>Byte array</td>
+<td>Associated GKEK Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.auth_key</td>
+<td>Byte array</td>
+<td>Auth Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.auth_result_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Auth Result Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.bs_certificate</td>
+<td>Byte array</td>
+<td>BS Certificate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.bs_random</td>
+<td>Byte array</td>
+<td>BS_RANDOM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.ca_certificate</td>
+<td>Byte array</td>
+<td>CA Certificate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.cbc_iv</td>
+<td>Byte array</td>
+<td>CBC IV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.cmac_digest</td>
+<td>Byte array</td>
+<td>CMAC Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.cmac_digest.pn</td>
+<td>Unsigned 32-bit integer</td>
+<td>CMAC Packet Number counter, CMAC_PN_*</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.cmac_digest.value</td>
+<td>Byte array</td>
+<td>CMAC Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.authorize_reject_wait_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Authorize Reject Wait Timeout(in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.authorize_waitout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Authorize Wait Timeout (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.grace_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Authorization Grace Time (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.operational_wait_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operational Wait Timeout (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.reauthorize_waitout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reauthorize Wait Timeout (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.rekey_wait_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rekey Wait Timeout (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.config_settings.tek_grace_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEK Grace Time (in seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.crypto_suite</td>
+<td>Byte array</td>
+<td>Cryptography</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.crypto_suite.lsb</td>
+<td>Unsigned 8-bit integer</td>
+<td>TEK Encryption Algorithm Identifiers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.crypto_suite.middle</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Authentication Algorithm Identifiers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.crypto_suite.msb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Encryption Algorithm Identifiers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.display_string</td>
+<td>String</td>
+<td>Display String</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.eap_payload</td>
+<td>Byte array</td>
+<td>EAP Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.error_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.frame_number</td>
+<td>Unsigned 24-bit integer</td>
+<td>Frame Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.gkek</td>
+<td>Byte array</td>
+<td>GKEK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.gkek_params</td>
+<td>Byte array</td>
+<td>GKEK Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.hmac_digest</td>
+<td>Byte array</td>
+<td>HMAC-Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.key_life_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key Lifetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.key_push_counter</td>
+<td>Unsigned 16-bit integer</td>
+<td>Key Push Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.key_push_modes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Push Modes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.key_seq_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.ms_mac_address</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MS-MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.nonce</td>
+<td>Byte array</td>
+<td>Nonce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.pak_ak_seq_number</td>
+<td>Byte array</td>
+<td>PAK/AK Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.pre_pak</td>
+<td>Byte array</td>
+<td>Pre-PAK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.sa_service_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>SA Service Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.sa_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>SA Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.said</td>
+<td>Unsigned 16-bit integer</td>
+<td>SAID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.sig_bs</td>
+<td>Byte array</td>
+<td>SigBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.sig_ss</td>
+<td>Byte array</td>
+<td>SigSS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.ss_certificate</td>
+<td>Byte array</td>
+<td>SS Certificate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.ss_random</td>
+<td>Byte array</td>
+<td>SS_RANDOM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pkm_msg.pkm_attr.tek</td>
+<td>Byte array</td>
+<td>TEK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authorization Policy Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit0</td>
+<td>Boolean</td>
+<td>RSA-based Authorization At The Initial Network Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit1</td>
+<td>Boolean</td>
+<td>EAP-based Authorization At The Initial Network Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit2</td>
+<td>Boolean</td>
+<td>Authenticated EAP-based Authorization At The Initial Network Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit4</td>
+<td>Boolean</td>
+<td>RSA-based Authorization At Re-entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit5</td>
+<td>Boolean</td>
+<td>EAP-based Authorization At Re-entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit6</td>
+<td>Boolean</td>
+<td>Authenticated EAP-based Authorization At Re-entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.auth_policy_support.bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC (Message Authentication Code) Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit0</td>
+<td>Boolean</td>
+<td>HMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit1</td>
+<td>Boolean</td>
+<td>CMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit1_rsvd</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit2</td>
+<td>Boolean</td>
+<td>64-bit Short-HMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit3</td>
+<td>Boolean</td>
+<td>80-bit Short-HMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit4</td>
+<td>Boolean</td>
+<td>96-bit Short-HMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.bit5</td>
+<td>Boolean</td>
+<td>CMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.mac_mode.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.max_conc_transactions</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum concurrent transactions (0 indicates no limit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.max_suppt_sec_assns</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum number of security associations supported by the SS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.pkm_version_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>PKM Version Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.pkm_version_support.bit0</td>
+<td>Boolean</td>
+<td>PKM version 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.pkm_version_support.bit1</td>
+<td>Boolean</td>
+<td>PKM version 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.pkm_version_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.pn_window_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>PN Window Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.security_negotiation_parameters.unknown.type</td>
+<td>Byte array</td>
+<td>Unknown Security Negotiation Parameter type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.xmac_tuple.hmac_digest</td>
+<td>Byte array</td>
+<td>HMAC Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.xmac_tuple.key_sn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.xmac_tuple.packet_number_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packet Number Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.xmac_tuple.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

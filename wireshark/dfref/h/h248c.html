@@ -1,0 +1,842 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: H.248 Annex C</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: H.248 Annex C</h1>
+<div><b>Protocol field name:</b> h248c</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>h248.pkg.annexc.a2pcdv</td>
+<td>Unsigned 24-bit integer</td>
+<td>A2PCDV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.aal1st</td>
+<td>Unsigned 8-bit integer</td>
+<td>AAL1ST</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.aaltype</td>
+<td>Unsigned 8-bit integer</td>
+<td>AALtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.aclr</td>
+<td>Unsigned 8-bit integer</td>
+<td>ACLR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ACodec</td>
+<td>Byte array</td>
+<td>ACodec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.addlayer3prot</td>
+<td>Unsigned 8-bit integer</td>
+<td>addlayer3prot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.aesa</td>
+<td>Byte array</td>
+<td>AESA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.alc</td>
+<td>Byte array</td>
+<td>ALC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.appcdv</td>
+<td>Unsigned 24-bit integer</td>
+<td>APPCDV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.assign</td>
+<td>Unsigned 8-bit integer</td>
+<td>llidnegot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.atc</td>
+<td>Unsigned 32-bit integer</td>
+<td>ATC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.bbtc</td>
+<td>Unsigned 8-bit integer</td>
+<td>BBTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.bcob</td>
+<td>Unsigned 8-bit integer</td>
+<td>BCOB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.bei</td>
+<td>Boolean</td>
+<td>BEI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.BIR</td>
+<td>Byte array</td>
+<td>BIR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.bit_rate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.bmsdu</td>
+<td>Byte array</td>
+<td>bmsdu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.c2pcdv</td>
+<td>Unsigned 24-bit integer</td>
+<td>C2PCDV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.cbrr</td>
+<td>Unsigned 8-bit integer</td>
+<td>CBRR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ceetd</td>
+<td>Unsigned 16-bit integer</td>
+<td>CEETD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.cid</td>
+<td>Unsigned 32-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.clc</td>
+<td>Byte array</td>
+<td>CLC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.clcack</td>
+<td>Byte array</td>
+<td>CLCack</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.cppcdv</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPPCDV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.databits</td>
+<td>Unsigned 8-bit integer</td>
+<td>databits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.dialedn</td>
+<td>Byte array</td>
+<td>Dialed Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.dialingn</td>
+<td>Byte array</td>
+<td>Dialing Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.dlci</td>
+<td>Unsigned 32-bit integer</td>
+<td>DLCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.duplexmode</td>
+<td>Unsigned 8-bit integer</td>
+<td>duplexmode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.echoci</td>
+<td>Byte array</td>
+<td>ECHOCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ecm</td>
+<td>Unsigned 8-bit integer</td>
+<td>ECM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.encrypt_key</td>
+<td>Unsigned 32-bit integer</td>
+<td>Encrypt Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.encrypt_type</td>
+<td>Byte array</td>
+<td>Encrypttype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.fd</td>
+<td>Boolean</td>
+<td>FD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.flowcontrx</td>
+<td>Unsigned 8-bit integer</td>
+<td>flowcontrx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.flowconttx</td>
+<td>Unsigned 8-bit integer</td>
+<td>flowconttx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.fmsdu</td>
+<td>Byte array</td>
+<td>fmsdu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.gain</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.h222</td>
+<td>Byte array</td>
+<td>H222LogicalChannelParameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.h223</td>
+<td>Byte array</td>
+<td>H223LogicalChannelParameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.h2250</td>
+<td>Byte array</td>
+<td>H2250LogicalChannelParameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.inbandneg</td>
+<td>Unsigned 8-bit integer</td>
+<td>inbandneg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.intrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>UPPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.itc</td>
+<td>Unsigned 8-bit integer</td>
+<td>ITC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.jitterbuf</td>
+<td>Unsigned 32-bit integer</td>
+<td>JitterBuff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.layer2prot</td>
+<td>Unsigned 8-bit integer</td>
+<td>layer2prot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.layer3prot</td>
+<td>Unsigned 8-bit integer</td>
+<td>layer3prot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.llidnegot</td>
+<td>Unsigned 8-bit integer</td>
+<td>llidnegot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.maxcpssdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max CPS SDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.mbs0</td>
+<td>Unsigned 24-bit integer</td>
+<td>MBS0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.mbs1</td>
+<td>Unsigned 24-bit integer</td>
+<td>MBS1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.media</td>
+<td>Unsigned 32-bit integer</td>
+<td>Media</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.Mediatx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mediatx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.meetd</td>
+<td>Unsigned 16-bit integer</td>
+<td>MEETD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.modem</td>
+<td>Unsigned 8-bit integer</td>
+<td>modem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.mult</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Multiplier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.multiframe</td>
+<td>Unsigned 8-bit integer</td>
+<td>multiframe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.nci</td>
+<td>Unsigned 8-bit integer</td>
+<td>NCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.negotiation</td>
+<td>Unsigned 8-bit integer</td>
+<td>UPPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.nicrx</td>
+<td>Unsigned 8-bit integer</td>
+<td>nicrx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.nictx</td>
+<td>Unsigned 8-bit integer</td>
+<td>nictx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.NSAP</td>
+<td>Byte array</td>
+<td>NSAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.num_of_channels</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Channels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.olc</td>
+<td>Byte array</td>
+<td>OLC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.olcack</td>
+<td>Byte array</td>
+<td>OLCack</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.olccnf</td>
+<td>Byte array</td>
+<td>OLCcnf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.olcrej</td>
+<td>Byte array</td>
+<td>OLCrej</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.opmode</td>
+<td>Unsigned 8-bit integer</td>
+<td>OPMODE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.parity</td>
+<td>Unsigned 8-bit integer</td>
+<td>parity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.pcr0</td>
+<td>Unsigned 24-bit integer</td>
+<td>PCR0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.pcr1</td>
+<td>Unsigned 24-bit integer</td>
+<td>PCR1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.pfci</td>
+<td>Unsigned 8-bit integer</td>
+<td>PFCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.porttype</td>
+<td>Unsigned 32-bit integer</td>
+<td>PortType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ppt</td>
+<td>Unsigned 32-bit integer</td>
+<td>PPT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.qosclass</td>
+<td>Unsigned 16-bit integer</td>
+<td>QosClass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.rateadapthdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>rateadapthdr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.rtp_payload</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTP Payload type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.samplepp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Samplepp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sampling_rate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.scr0</td>
+<td>Unsigned 24-bit integer</td>
+<td>SCR0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.scr1</td>
+<td>Unsigned 24-bit integer</td>
+<td>SCR1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.scri</td>
+<td>Unsigned 8-bit integer</td>
+<td>SCRI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdbt</td>
+<td>Unsigned 16-bit integer</td>
+<td>SDBT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_a</td>
+<td>String</td>
+<td>sdp_a</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_b</td>
+<td>String</td>
+<td>sdp_b</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_c</td>
+<td>String</td>
+<td>sdp_c</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_e</td>
+<td>String</td>
+<td>sdp_e</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_i</td>
+<td>String</td>
+<td>sdp_i</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_k</td>
+<td>String</td>
+<td>sdp_k</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_m</td>
+<td>String</td>
+<td>sdp_m</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_o</td>
+<td>String</td>
+<td>sdp_o</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_p</td>
+<td>String</td>
+<td>sdp_p</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_r</td>
+<td>String</td>
+<td>sdp_r</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_s</td>
+<td>String</td>
+<td>sdp_s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_t</td>
+<td>String</td>
+<td>sdp_t</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_u</td>
+<td>String</td>
+<td>sdp_u</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_v</td>
+<td>String</td>
+<td>sdp_v</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sdp_z</td>
+<td>String</td>
+<td>sdp_z</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sid</td>
+<td>Unsigned 32-bit integer</td>
+<td>SID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.silence_supp</td>
+<td>Boolean</td>
+<td>SilenceSupp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sscs</td>
+<td>Byte array</td>
+<td>sscs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.stc</td>
+<td>Unsigned 8-bit integer</td>
+<td>STC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.stopbits</td>
+<td>Unsigned 8-bit integer</td>
+<td>stopbits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.sut</td>
+<td>Byte array</td>
+<td>SUT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.syncasync</td>
+<td>Unsigned 8-bit integer</td>
+<td>SyncAsync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.tci</td>
+<td>Boolean</td>
+<td>TCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.ti</td>
+<td>Boolean</td>
+<td>TI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.timer_cu</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timer CU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.tmr</td>
+<td>Unsigned 8-bit integer</td>
+<td>TMR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.tmsr</td>
+<td>Unsigned 8-bit integer</td>
+<td>TMSR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.transmission_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmission Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.transmode</td>
+<td>Unsigned 8-bit integer</td>
+<td>TransMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.transrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>TransRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.uppc</td>
+<td>Unsigned 8-bit integer</td>
+<td>UPPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.userrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Userrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.USI</td>
+<td>Byte array</td>
+<td>USI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.v76</td>
+<td>Byte array</td>
+<td>V76LogicalChannelParameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.vci</td>
+<td>Unsigned 16-bit integer</td>
+<td>VCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.annexc.vpi</td>
+<td>Unsigned 16-bit integer</td>
+<td>VPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

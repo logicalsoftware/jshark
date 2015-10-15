@@ -1,0 +1,974 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: HomePlug protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: HomePlug protocol</h1>
+<div><b>Protocol field name:</b> homeplug</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>homeplug.bcl</td>
+<td>None</td>
+<td>Bridging Characteristics Local</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcl.hpbda</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Host Proxied DA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcl.hprox_das</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of host proxied DAs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcl.network</td>
+<td>Boolean</td>
+<td>Network/Local</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcl.return</td>
+<td>Boolean</td>
+<td>Return/Set</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcl.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn</td>
+<td>None</td>
+<td>Bridging Characteristics Network</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.bp_da</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Bridged DA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.bp_das</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of bridge proxied DAs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.brda</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Address of Bridge</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.fbn</td>
+<td>Unsigned 8-bit integer</td>
+<td>First Bridge Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.network</td>
+<td>Boolean</td>
+<td>Network</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.return</td>
+<td>Boolean</td>
+<td>Return/Set</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.bcn.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer</td>
+<td>None</td>
+<td>Channel Estimation Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.bda</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Bridged Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.bp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bridge Proxy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.cerv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Estimation Response Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.mod</td>
+<td>Unsigned 8-bit integer</td>
+<td>Modulation Method</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.nbdas</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Bridged Destination Addresses</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.rsvd1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.rsvd2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.rxtmi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receive Tone Map Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.vt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Valid Tone Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cer.vt11</td>
+<td>Unsigned 8-bit integer</td>
+<td>Valid Tone Flags [83-80]</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.cnk</td>
+<td>None</td>
+<td>Confirm Network Encryption Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq</td>
+<td>None</td>
+<td>Host Request</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gclbpl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get/Clear Local Bridge Proxy List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gdv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Device Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gfv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Firmware Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gnek</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Network Encryption Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.grbt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Remote Bridge Table</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gslnm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get/Set Logical Network Mapping</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.gsss</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get/Set Spectral Scaling</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.mid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.nvds</td>
+<td>Unsigned 8-bit integer</td>
+<td>Non-volatile Database Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.reset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.reset.delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Delay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.reset.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hreq.rsl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reset Secondary Loader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp</td>
+<td>None</td>
+<td>Host Response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.gdvr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Device Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.gfvr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Firmware Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.gnekr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Network Encryption Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.gnekr.key</td>
+<td>Unsigned 64-bit integer</td>
+<td>Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.gnekr.select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Select</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.invalid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Invalid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.mid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.hrsp.version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.htag</td>
+<td>None</td>
+<td>Host Tag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.leader</td>
+<td>None</td>
+<td>Loader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.cm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Commit Modules</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.data.address</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.data.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.emd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erase Module Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.gdfv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Device/Firmware Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.gmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get Module Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.lenvms</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erase NVM Sectors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.lrm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read Memory</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.lrnvm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read NVM Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.lsf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Firmware</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.lwm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Write Memory</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.mid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.module.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Module ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.module.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.module.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Module size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.nvmp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get NVM Parameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.nvmp.blocksize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Block Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.nvmp.memorysize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Memory Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.nvmp.pagesize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Page Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.nvmp.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.smd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Module Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.loader.version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mctrl</td>
+<td>None</td>
+<td>MAC Control Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mctrl.ne</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of MAC Data Entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mctrl.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mehdr</td>
+<td>None</td>
+<td>MAC Management Entry Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mehdr.metype</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Entry Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mehdr.mev</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Entry Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.melen</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Entry Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mmentry</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Entry Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.mwr</td>
+<td>None</td>
+<td>Multicast With Response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns</td>
+<td>None</td>
+<td>Network Statistics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.ac</td>
+<td>Boolean</td>
+<td>Action Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.buf_in_use</td>
+<td>Boolean</td>
+<td>Buffer in use</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.bytes40</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bytes in 40 symbols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.bytes40_robo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bytes in 40 symbols in ROBO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.drops</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Drops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.drops_robo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Drops in ROBO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.extended</td>
+<td>Boolean</td>
+<td>Network Statistics is Extended</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.fails</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fails Received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.fails_robo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fails Received in ROBO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.icid</td>
+<td>Unsigned 8-bit integer</td>
+<td>IC_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.msdu_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>MSDU Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.netw_da</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Address of Network DA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.seqn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.toneidx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmit tone map index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.ns.tx_bfr_state</td>
+<td>None</td>
+<td>Transmit Buffer State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr</td>
+<td>None</td>
+<td>Parameters and Statistics Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.rxbp40</td>
+<td>Unsigned 32-bit integer</td>
+<td>Receive Cumulative Bytes per 40-symbol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txack</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit ACK Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txca0lat</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit CA0 Latency Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txca1lat</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit CA1 Latency Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txca2lat</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit CA2 Latency Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txca3lat</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit CA3 Latency Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txcloss</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit Contention Loss Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txcoll</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit Collision Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txfail</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit FAIL Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.psr.txnack</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit NACK Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.rba</td>
+<td>None</td>
+<td>Replace Bridge Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.rce</td>
+<td>None</td>
+<td>Request Channel Estimation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.rce.cev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Estimation Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.rce.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.rps</td>
+<td>None</td>
+<td>Request Parameters and Statistics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.slp</td>
+<td>None</td>
+<td>Set Local Parameters</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.slp.ma</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.snk</td>
+<td>None</td>
+<td>Set Network Encryption Key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.snk.eks</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encryption Key Select</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.snk.nek</td>
+<td>Byte array</td>
+<td>Network Encryption Key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc</td>
+<td>None</td>
+<td>Set Transmit Characteristics</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.cftop</td>
+<td>Boolean</td>
+<td>Contention Free Transmit Override Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.dder</td>
+<td>Boolean</td>
+<td>Disable Default Encryption Receive</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.dees</td>
+<td>Boolean</td>
+<td>Disable EEPROM Save</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.dur</td>
+<td>Boolean</td>
+<td>Disable Unencrypted Receive</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.ebp</td>
+<td>Boolean</td>
+<td>INT51X1 (Host/DTE Option) Enable Backpressure</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.encf</td>
+<td>Boolean</td>
+<td>Encryption Flag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.lco</td>
+<td>Boolean</td>
+<td>Local Consumption Only</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.retry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Retry Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.rexp</td>
+<td>Boolean</td>
+<td>Response Expected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.rsvd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.rsvd2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.txcf</td>
+<td>Boolean</td>
+<td>Transmit Contention Free</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.txeks</td>
+<td>Unsigned 8-bit integer</td>
+<td>EKS to be used for encryption</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.stc.txprio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmit Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.vs</td>
+<td>None</td>
+<td>Vendor Specific</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.vs.dir</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direction</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.vs.mid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.vs.oui</td>
+<td>Unsigned 24-bit integer</td>
+<td>OUI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>homeplug.vs.vd</td>
+<td>Byte array</td>
+<td>Vendor Defined</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

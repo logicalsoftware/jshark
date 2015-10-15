@@ -1,0 +1,698 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax REP-REQ/RSP Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax REP-REQ/RSP Messages</h1>
+<div><b>Protocol field name:</b> wmx.rep</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.rep_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.rep_rsp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown TLV type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_selectivity_report</td>
+<td>Byte array</td>
+<td>Channel Selectivity Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_selectivity_report.bit0</td>
+<td>Boolean</td>
+<td>Include Frequency Selectivity Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_selectivity_report.bit1_7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_type.request</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Type Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.channel_type.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_effective_cinr_request</td>
+<td>Byte array</td>
+<td>Preamble Effective CINR Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_effective_cinr_request.bit0_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type Of Preamble Physical CINR Measurement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_effective_cinr_request.bit2_7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_phy_cinr_request</td>
+<td>Byte array</td>
+<td>Preamble Physical CINR Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_phy_cinr_request.bit0_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type Of Preamble Physical CINR Measurement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_phy_cinr_request.bit2_5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alpha (ave) in multiples of 1/16</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_phy_cinr_request.bit6</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.preamble_phy_cinr_request.bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_request</td>
+<td>Byte array</td>
+<td>Report Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type.bit0</td>
+<td>Boolean</td>
+<td>Include DFS Basic Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type.bit1</td>
+<td>Boolean</td>
+<td>Include CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type.bit2</td>
+<td>Boolean</td>
+<td>Include RSSI Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type.bit3_6</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alpha (ave) in multiples of 1/32</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.report_type.bit7</td>
+<td>Boolean</td>
+<td>Include Current Transmit Power Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_report.cqich_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>The 3 least significant bits of CQICH_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_report.cqich_id_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>The 4 least significant bits of CQICH_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_report.effective_cinr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Effective CINR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_report.report_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Effective CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request</td>
+<td>Byte array</td>
+<td>Zone-specific Effective CINR Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit0_2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type Of Zone On Which CINR Is To Be Reported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit14_15</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit3</td>
+<td>Boolean</td>
+<td>STC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit4</td>
+<td>Boolean</td>
+<td>AAS Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit5_6</td>
+<td>Unsigned 16-bit integer</td>
+<td>PRBS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit7</td>
+<td>Unsigned 16-bit integer</td>
+<td>CINR Measurement Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_effective_cinr_request.bit8_13</td>
+<td>Unsigned 16-bit integer</td>
+<td>PUSC Major Group Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_report.deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Standard Deviation of CINR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_report.mean</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mean of Physical CINR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_report.report_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_report.reserved1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_report.reserved2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request</td>
+<td>Byte array</td>
+<td>Zone-specific Physical CINR Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit0_2</td>
+<td>Unsigned 24-bit integer</td>
+<td>Type Of Zone On Which CINR Is To Be Reported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit14_17</td>
+<td>Unsigned 24-bit integer</td>
+<td>Alpha (ave) in multiples of 1/16</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit18</td>
+<td>Unsigned 24-bit integer</td>
+<td>CINR Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit19_23</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit3</td>
+<td>Boolean</td>
+<td>STC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit4</td>
+<td>Boolean</td>
+<td>AAS Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit5_6</td>
+<td>Unsigned 24-bit integer</td>
+<td>PRBS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit7</td>
+<td>Unsigned 24-bit integer</td>
+<td>CINR Measurement Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_req.zone_spec_phy_cinr_request.bit8_13</td>
+<td>Unsigned 24-bit integer</td>
+<td>PUSC Major Group Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_selectivity_report</td>
+<td>Byte array</td>
+<td>Channel Selectivity Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_selectivity_report.frequency_a</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frequency Selectivity Report a</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_selectivity_report.frequency_b</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frequency Selectivity Report b</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_selectivity_report.frequency_c</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frequency Selectivity Report c</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report</td>
+<td>Byte array</td>
+<td>Channel Type Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report.band_amc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Band AMC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report.enhanced_band_amc</td>
+<td>Byte array</td>
+<td>Enhanced Band AMC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report.safety_channel</td>
+<td>Byte array</td>
+<td>Safety Channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report.sounding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sounding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.channel_type_report.subchannel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Normal Subchannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.current_transmitted_power</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current Transmitted Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_effective_cinr_report</td>
+<td>Byte array</td>
+<td>Preamble Effective CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_effective_cinr_report.configuration_1</td>
+<td>Byte array</td>
+<td>The Estimation Of Effective CINR Measured From Preamble For Frequency Reuse Configuration=1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_effective_cinr_report.configuration_3</td>
+<td>Byte array</td>
+<td>The Estimation Of Effective CINR Measured From Preamble For Frequency Reuse Configuration=3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_phy_cinr_report</td>
+<td>Byte array</td>
+<td>Preamble Physical CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_phy_cinr_report.band_amc_zone</td>
+<td>Byte array</td>
+<td>The Estimation Of Physical CINR Measured From Preamble For Band AMC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_phy_cinr_report.configuration_1</td>
+<td>Byte array</td>
+<td>The Estimation Of Physical CINR Measured From Preamble For Frequency Reuse Configuration=1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.preamble_phy_cinr_report.configuration_3</td>
+<td>Byte array</td>
+<td>The Estimation Of Physical CINR Measured From Preamble For Frequency Reuse Configuration=3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type</td>
+<td>Byte array</td>
+<td>Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report</td>
+<td>Byte array</td>
+<td>Basic Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report.bit0</td>
+<td>Boolean</td>
+<td>Wireless HUMAN Detected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report.bit1</td>
+<td>Boolean</td>
+<td>Unknown Transmission Detected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report.bit2</td>
+<td>Boolean</td>
+<td>Specific Spectrum User Detected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report.bit3</td>
+<td>Boolean</td>
+<td>Channel Not Measured</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.basic_report.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.channel_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.cinr_report</td>
+<td>Byte array</td>
+<td>CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.cinr_report_deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Standard Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.cinr_report_mean</td>
+<td>Unsigned 8-bit integer</td>
+<td>CINR Mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.duration</td>
+<td>Unsigned 24-bit integer</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.frame_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.rssi_report</td>
+<td>Byte array</td>
+<td>RSSI Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.rssi_report_deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>RSSI Standard Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.report_type.rssi_report_mean</td>
+<td>Unsigned 8-bit integer</td>
+<td>RSSI Mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report</td>
+<td>Byte array</td>
+<td>Zone-specific Effective CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report.amc_aas</td>
+<td>Byte array</td>
+<td>AMC AAS Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report.fusc</td>
+<td>Byte array</td>
+<td>FUSC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report.optional_fusc</td>
+<td>Byte array</td>
+<td>Optional FUSC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report.pusc_sc0</td>
+<td>Byte array</td>
+<td>PUSC Zone (use all SC=0)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_effective_cinr_report.pusc_sc1</td>
+<td>Byte array</td>
+<td>PUSC Zone (use all SC=1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report</td>
+<td>Byte array</td>
+<td>Zone-specific Physical CINR Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.amc</td>
+<td>Byte array</td>
+<td>AMC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.fusc</td>
+<td>Byte array</td>
+<td>FUSC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.optional_fusc</td>
+<td>Byte array</td>
+<td>Optional FUSC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.pusc_sc0</td>
+<td>Byte array</td>
+<td>PUSC Zone (use all SC=0)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.pusc_sc1</td>
+<td>Byte array</td>
+<td>PUSC Zone (use all SC=1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rep_rsp.zone_spec_phy_cinr_report.safety_channel</td>
+<td>Byte array</td>
+<td>Safety Channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

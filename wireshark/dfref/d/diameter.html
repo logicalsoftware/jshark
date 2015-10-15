@@ -1,0 +1,6878 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Diameter Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Diameter Protocol</h1>
+<div><b>Protocol field name:</b> diameter</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>diameter.3GPP-Allocate-IP-Type</td>
+<td>Byte array</td>
+<td>3GPP-Allocate-IP-Type</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Allocate-IPType</td>
+<td>Byte array</td>
+<td>3GPP-Allocate-IPType</td>
+<td>1.2.6 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-CAMEL-Charging-Info</td>
+<td>Byte array</td>
+<td>3GPP-CAMEL-Charging-Info</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-CG-Address</td>
+<td>Byte array</td>
+<td>3GPP-CG-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-CG-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-CG-Address Address Family</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-CG-IPv6-Address</td>
+<td>Byte array</td>
+<td>3GPP-CG-IPv6-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Charging-Characteristics</td>
+<td>String</td>
+<td>3GPP-Charging-Characteristics</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Charging-Id</td>
+<td>Signed 32-bit integer</td>
+<td>3GPP-Charging-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-ChargingGatewayaddress</td>
+<td>Byte array</td>
+<td>3GPP-Charging Gateway address</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-ChargingGatewayaddress.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-Charging Gateway address Address Family</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-ChargingGatewayIPv6address</td>
+<td>Byte array</td>
+<td>3GPP-Charging Gateway IPv6 address</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-ChargingID</td>
+<td>Signed 32-bit integer</td>
+<td>3GPP-Charging ID</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSN-Address</td>
+<td>Byte array</td>
+<td>3GPP-GGSN-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSN-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-GGSN-Address Address Family</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSN-IPv6-Address</td>
+<td>Byte array</td>
+<td>3GPP-GGSN-IPv6-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSN-MCC-MNC</td>
+<td>String</td>
+<td>3GPP-GGSN-MCC-MNC</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSNaddress</td>
+<td>Byte array</td>
+<td>3GPP-GGSN address</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSNaddress.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-GGSN address Address Family</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSNIPv6address</td>
+<td>Byte array</td>
+<td>3GPP-GGSN IPv6 address</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GGSNMCC-MNC</td>
+<td>String</td>
+<td>3GPP-GGSN MCC-MNC</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.3</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GPRS-Negotiated-QoS-profile</td>
+<td>String</td>
+<td>3GPP-GPRS-Negotiated-QoS-profile</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-GPRSNegotiatedQoSprofile</td>
+<td>String</td>
+<td>3GPP-GPRS Negotiated QoS profile</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-IMEISV</td>
+<td>Byte array</td>
+<td>3GPP-IMEISV</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-IMSI</td>
+<td>String</td>
+<td>3GPP-IMSI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-IMSI-MCC-MNC</td>
+<td>String</td>
+<td>3GPP-IMSI-MCC-MNC</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-IMSIMCC-MNC</td>
+<td>String</td>
+<td>3GPP-IMSI MCC-MNC</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.3</td>
+</tr>
+<tr>
+<td>diameter.3GPP-IPv6-DNS-Server</td>
+<td>Byte array</td>
+<td>3GPP-IPv6-DNS-Server</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-MS-TimeZone</td>
+<td>Byte array</td>
+<td>3GPP-MS-TimeZone</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-MSTimeZone</td>
+<td>Byte array</td>
+<td>3GPP-MSTimeZone</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Negotiated-DSCP</td>
+<td>Byte array</td>
+<td>3GPP-Negotiated-DSCP</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-NSAPI</td>
+<td>String</td>
+<td>3GPP-NSAPI</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Packet-Filter</td>
+<td>Byte array</td>
+<td>3GPP-Packet-Filter</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-PDP-Type</td>
+<td>Signed 32-bit integer</td>
+<td>3GPP-PDP-Type</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-PDPtype</td>
+<td>Signed 32-bit integer</td>
+<td>3GPP-PDP type</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-RAT-Type</td>
+<td>Byte array</td>
+<td>3GPP-RAT-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Selection-Mode</td>
+<td>String</td>
+<td>3GPP-Selection-Mode</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Session-Stop-Indicator</td>
+<td>String</td>
+<td>3GPP-Session-Stop-Indicator</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SessionStopIndicator</td>
+<td>String</td>
+<td>3GPP-Session Stop Indicator</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSN-Address</td>
+<td>Byte array</td>
+<td>3GPP-SGSN-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSN-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-SGSN-Address Address Family</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSN-IPv6-Address</td>
+<td>Byte array</td>
+<td>3GPP-SGSN-IPv6-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSN-MCC-MNC</td>
+<td>String</td>
+<td>3GPP-SGSN-MCC-MNC</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSNAddress</td>
+<td>Byte array</td>
+<td>3GPP-SGSNAddress</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSNAddress.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>3GPP-SGSNAddress Address Family</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-SGSNMCC-MNC</td>
+<td>String</td>
+<td>3GPP-SGSN MCC-MNC</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.8</td>
+</tr>
+<tr>
+<td>diameter.3GPP-Teardown-Indicator</td>
+<td>Byte array</td>
+<td>3GPP-Teardown-Indicator</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP-TeardownIndicator</td>
+<td>Byte array</td>
+<td>3GPP-Teardown Indicator</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.3GPP-User-Location-Info</td>
+<td>Byte array</td>
+<td>3GPP-User-Location-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.3GPP2-MEID</td>
+<td>Byte array</td>
+<td>3GPP2-MEID</td>
+<td>1.2.2 to 1.2.3</td>
+</tr>
+<tr>
+<td>diameter.Abort-Cause</td>
+<td>Signed 32-bit integer</td>
+<td>Abort-Cause</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acc-Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Acc-Service-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acceptable-Service-Info</td>
+<td>Byte array</td>
+<td>Acceptable-Service-Info</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Charging-Address</td>
+<td>Byte array</td>
+<td>Access-Network-Charging-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Charging-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Access-Network-Charging-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Charging-Identifier</td>
+<td>Byte array</td>
+<td>Access-Network-Charging-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Charging-Identifier-Gx</td>
+<td>Byte array</td>
+<td>Access-Network-Charging-Identifier-Gx</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Charging-Identifier-Value</td>
+<td>Byte array</td>
+<td>Access-Network-Charging-Identifier-Value</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Information</td>
+<td>Byte array</td>
+<td>Access-Network-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Network-Type</td>
+<td>Byte array</td>
+<td>Access-Network-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Access-Restriction-Data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Access-Restriction-Data</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Auth-Method</td>
+<td>Signed 32-bit integer</td>
+<td>Accounting-Auth-Method</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-EAP-Auth-Method</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-EAP-Auth-Method</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Input-Octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-Input-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Input-Packets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-Input-Packets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Multi-Session-Id</td>
+<td>Byte array</td>
+<td>Accounting-Multi-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Output-Octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-Output-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Output-Packets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-Output-Packets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Realtime-Required</td>
+<td>Unsigned 32-bit integer</td>
+<td>Accounting-Realtime-Required</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Record-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Accounting-Record-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Record-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Accounting-Record-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Session-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Accounting-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.13, 1.4.0 to 1.4.2</td>
+</tr>
+<tr>
+<td>diameter.Accounting-Sub-Session-Id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Accounting-Sub-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Application-Id</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Application-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Authentic</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Authentic</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Delay-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Delay-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Input-Gigawords</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Input-Gigawords</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Input-Octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Input-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Input-Packets</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Input-Packets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Interim-Interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Interim-Interval</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Link-Count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Link-Count</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Output-Gigawords</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Output-Gigawords</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Output-Octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Output-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Output-Packets</td>
+<td>Signed 32-bit integer</td>
+<td>Acct-Output-Packets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Session-Id</td>
+<td>Byte array</td>
+<td>Acct-Session-Id</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Session-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Session-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Status-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Status-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Terminate-Cause</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Terminate-Cause</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Tunnel-Client-Endpoint</td>
+<td>String</td>
+<td>Acct-Tunnel-Client-Endpoint</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Tunnel-Connection-ID</td>
+<td>Byte array</td>
+<td>Acct-Tunnel-Connection-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Acct-Tunnel-Packets-Lost</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acct-Tunnel-Packets-Lost</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Accumulated-Cost</td>
+<td>Byte array</td>
+<td>Accumulated-Cost</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Adaptations</td>
+<td>Signed 32-bit integer</td>
+<td>Adaptations</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Additional-Content-Information</td>
+<td>Byte array</td>
+<td>Additional-Content-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Additional-MBMS-Trace-Info</td>
+<td>Byte array</td>
+<td>Additional-MBMS-Trace-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Additional-Type-Information</td>
+<td>String</td>
+<td>Additional-Type-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Address-Data</td>
+<td>String</td>
+<td>Address-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Address-Domain</td>
+<td>Byte array</td>
+<td>Address-Domain</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Address-Realm</td>
+<td>Byte array</td>
+<td>Address-Realm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Address-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Address-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Addressee-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Addressee-Type</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Addressee-TypeAVP</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addressee-Type AVP</td>
+<td>1.0.8 to 1.2.1</td>
+</tr>
+<tr>
+<td>diameter.AF-Application-Identifier</td>
+<td>Byte array</td>
+<td>AF-Application-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AF-Charging-Identifier</td>
+<td>Byte array</td>
+<td>AF-Charging-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AF-Correlation-Information</td>
+<td>Byte array</td>
+<td>AF-Correlation-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Aggregation-Network-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Aggregation-Network-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Alert-Reason</td>
+<td>Signed 32-bit integer</td>
+<td>Alert-Reason</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.All-APN-Configurations-Included-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>All-APN-Configurations-Included-Indicator</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Allocation-Retention-Priority</td>
+<td>Byte array</td>
+<td>Allocation-Retention-Priority</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Alternate-Charged-Party-Address</td>
+<td>String</td>
+<td>Alternate-Charged-Party-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Alternate-Peer</td>
+<td>String</td>
+<td>Alternate-Peer</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Alternative-APN</td>
+<td>String</td>
+<td>Alternative-APN</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AMBR</td>
+<td>Byte array</td>
+<td>AMBR</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AN-GW-Address</td>
+<td>Byte array</td>
+<td>AN-GW-Address</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AN-GW-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>AN-GW-Address Address Family</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AN-Trusted</td>
+<td>Signed 32-bit integer</td>
+<td>AN-Trusted</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ANID</td>
+<td>String</td>
+<td>ANID</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.answer_in</td>
+<td>Frame number</td>
+<td>Answer In</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.answer_to</td>
+<td>Frame number</td>
+<td>Request In</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AoC-Cost-Information</td>
+<td>Byte array</td>
+<td>AoC-Cost-Information</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AoC-Information</td>
+<td>Byte array</td>
+<td>AoC-Information</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AoC-Request-Type</td>
+<td>Signed 32-bit integer</td>
+<td>AoC-Request-Type</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.APN-Aggregate-Max-Bitrate-DL</td>
+<td>Unsigned 32-bit integer</td>
+<td>APN-Aggregate-Max-Bitrate-DL</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.APN-Aggregate-Max-Bitrate-UL</td>
+<td>Unsigned 32-bit integer</td>
+<td>APN-Aggregate-Max-Bitrate-UL</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.APN-Configuration</td>
+<td>Byte array</td>
+<td>APN-Configuration</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.APN-Configuration-Profile</td>
+<td>Byte array</td>
+<td>APN-Configuration-Profile</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.APN-OI-Replacement</td>
+<td>String</td>
+<td>APN-OI-Replacement</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Applic-ID</td>
+<td>String</td>
+<td>Applic-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Class-ID</td>
+<td>String</td>
+<td>Application-Class-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-provided-Called-Party-Address</td>
+<td>String</td>
+<td>Application-provided-Called-Party-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Server</td>
+<td>String</td>
+<td>Application-Server</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Server-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Application-Server-ID</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Server-Information</td>
+<td>Byte array</td>
+<td>Application-Server-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Application-Service-Type</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Application-Session-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Application-Session-ID</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.applicationId</td>
+<td>Unsigned 32-bit integer</td>
+<td>ApplicationId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Challenge-Response</td>
+<td>Byte array</td>
+<td>ARAP-Challenge-Response</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Features</td>
+<td>Byte array</td>
+<td>ARAP-Features</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Password</td>
+<td>Byte array</td>
+<td>ARAP-Password</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Security</td>
+<td>Unsigned 32-bit integer</td>
+<td>ARAP-Security</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Security-Data</td>
+<td>Byte array</td>
+<td>ARAP-Security-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARAP-Zone-Access</td>
+<td>Signed 32-bit integer</td>
+<td>ARAP-Zone-Access</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ARP</td>
+<td>Unsigned 32-bit integer</td>
+<td>ARP</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Associated-Identities</td>
+<td>Byte array</td>
+<td>Associated-Identities</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Associated-Party-Address</td>
+<td>String</td>
+<td>Associated-Party-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Associated-Registered-Identities</td>
+<td>Byte array</td>
+<td>Associated-Registered-Identities</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Auth-Application-Id</td>
+<td>Signed 32-bit integer</td>
+<td>Auth-Application-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Auth-Grace-Period</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth-Grace-Period</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Auth-Request-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth-Request-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Auth-Session-State</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth-Session-State</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Authentication-Info</td>
+<td>Byte array</td>
+<td>Authentication-Info</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Authorised-QoS</td>
+<td>String</td>
+<td>Authorised-QoS</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Authorization-Lifetime</td>
+<td>Signed 32-bit integer</td>
+<td>Authorization-Lifetime</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Authorization-Token</td>
+<td>Byte array</td>
+<td>Authorization-Token</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.AUTN</td>
+<td>Byte array</td>
+<td>AUTN</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Aux-Applic-Info</td>
+<td>String</td>
+<td>Aux-Applic-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp</td>
+<td>Byte array</td>
+<td>AVP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.code</td>
+<td>Unsigned 32-bit integer</td>
+<td>AVP Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>AVP Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.protected</td>
+<td>Boolean</td>
+<td>Protected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.reserved3</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.reserved4</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.reserved5</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.reserved6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.flags.reserved7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.invalid-data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.len</td>
+<td>Unsigned 24-bit integer</td>
+<td>AVP Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.unknown</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.avp.vendorId</td>
+<td>Unsigned 32-bit integer</td>
+<td>AVP Vendor Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bandwidth</td>
+<td>Unknown</td>
+<td>Bandwidth</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Base-Time-Interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Base-Time-Interval</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Basic-Location-Policy-Rules</td>
+<td>Byte array</td>
+<td>Basic-Location-Policy-Rules</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bearer-Control-Mode</td>
+<td>Signed 32-bit integer</td>
+<td>Bearer-Control-Mode</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bearer-Identifier</td>
+<td>Byte array</td>
+<td>Bearer-Identifier</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bearer-Operation</td>
+<td>Signed 32-bit integer</td>
+<td>Bearer-Operation</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bearer-Service</td>
+<td>Byte array</td>
+<td>Bearer-Service</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bearer-Usage</td>
+<td>Signed 32-bit integer</td>
+<td>Bearer-Usage</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Billing-Information</td>
+<td>String</td>
+<td>Billing-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Binding-information</td>
+<td>Byte array</td>
+<td>Binding-information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Binding-Input-List</td>
+<td>Byte array</td>
+<td>Binding-Input-List</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Binding-Output-List</td>
+<td>Byte array</td>
+<td>Binding-Output-List</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.BootstrapInfoCreationTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>BootstrapInfoCreationTime</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Bucket-Depth</td>
+<td>Unknown</td>
+<td>Bucket-Depth</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Call-Barring-Infor-List</td>
+<td>Byte array</td>
+<td>Call-Barring-Infor-List</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Call-ID-SIP-Header</td>
+<td>Byte array</td>
+<td>Call-ID-SIP-Header</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Callback-Id</td>
+<td>String</td>
+<td>Callback-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Callback-Number</td>
+<td>String</td>
+<td>Callback-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Called-Asserted-Identity</td>
+<td>String</td>
+<td>Called-Asserted-Identity</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Called-Party-Address</td>
+<td>String</td>
+<td>Called-Party-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Called-Station-Id</td>
+<td>String</td>
+<td>Called-Station-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Calling-Party-Address</td>
+<td>String</td>
+<td>Calling-Party-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Calling-Station-Id</td>
+<td>String</td>
+<td>Calling-Station-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cancellation-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Cancellation-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Carrier-Select-Routing-Information</td>
+<td>String</td>
+<td>Carrier-Select-Routing-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cause</td>
+<td>Byte array</td>
+<td>Cause</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cause-Code</td>
+<td>Signed 32-bit integer</td>
+<td>Cause-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Correlation-Id</td>
+<td>Byte array</td>
+<td>CC-Correlation-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Input-Octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>CC-Input-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Money</td>
+<td>Byte array</td>
+<td>CC-Money</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Output-Octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>CC-Output-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Request-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>CC-Request-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Request-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>CC-Request-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Service-Specific-Units</td>
+<td>Unsigned 64-bit integer</td>
+<td>CC-Service-Specific-Units</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Session-Failover</td>
+<td>Signed 32-bit integer</td>
+<td>CC-Session-Failover</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Sub-Session-Id</td>
+<td>Unsigned 64-bit integer</td>
+<td>CC-Sub-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>CC-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Total-Octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>CC-Total-Octets</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CC-Unit-Type</td>
+<td>Signed 32-bit integer</td>
+<td>CC-Unit-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cell-Global-Identity</td>
+<td>Byte array</td>
+<td>Cell-Global-Identity</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Change-Condition</td>
+<td>Signed 32-bit integer</td>
+<td>Change-Condition</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Change-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Change-Time</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Algorithm</td>
+<td>Signed 32-bit integer</td>
+<td>CHAP-Algorithm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Auth</td>
+<td>Byte array</td>
+<td>CHAP-Auth</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Challenge</td>
+<td>Byte array</td>
+<td>CHAP-Challenge</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Ident</td>
+<td>Byte array</td>
+<td>CHAP-Ident</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Password</td>
+<td>Byte array</td>
+<td>CHAP-Password</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CHAP-Response</td>
+<td>Byte array</td>
+<td>CHAP-Response</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Characteristic-Selection-Mode</td>
+<td>Signed 32-bit integer</td>
+<td>Charging-Characteristic-Selection-Mode</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Information</td>
+<td>Byte array</td>
+<td>Charging-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-InformationObsoleteCN25</td>
+<td>Byte array</td>
+<td>Charging-Information(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Base-Name</td>
+<td>String</td>
+<td>Charging-Rule-Base-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Definition</td>
+<td>Byte array</td>
+<td>Charging-Rule-Definition</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Install</td>
+<td>Byte array</td>
+<td>Charging-Rule-Install</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Name</td>
+<td>Byte array</td>
+<td>Charging-Rule-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Remove</td>
+<td>Byte array</td>
+<td>Charging-Rule-Remove</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Charging-Rule-Report</td>
+<td>Byte array</td>
+<td>Charging-Rule-Report</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Check-Balance-Result</td>
+<td>Signed 32-bit integer</td>
+<td>Check-Balance-Result</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Civic-Location</td>
+<td>Byte array</td>
+<td>Civic-Location</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CK</td>
+<td>Byte array</td>
+<td>CK</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Class</td>
+<td>Byte array</td>
+<td>Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Class-Identifier</td>
+<td>Signed 32-bit integer</td>
+<td>Class-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Client-Address</td>
+<td>Byte array</td>
+<td>Client-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Client-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Client-Address Address Family</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Client-Identity</td>
+<td>Byte array</td>
+<td>Client-Identity</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.cmd.code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Command Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CN-IP-Multicast-Distribution</td>
+<td>Signed 32-bit integer</td>
+<td>CN-IP-Multicast-Distribution</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CoA-Information</td>
+<td>Byte array</td>
+<td>CoA-Information</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CoA-IP-Address</td>
+<td>Byte array</td>
+<td>CoA-IP-Address</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CoA-IP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>CoA-IP-Address Address Family</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Codec-DataAVP</td>
+<td>String</td>
+<td>Codec-Data AVP</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Complete-Data-List-Included-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>Complete-Data-List-Included-Indicator</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Confidentiality-Key</td>
+<td>Byte array</td>
+<td>Confidentiality-Key</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Confidentiality-KeyObsoleteCN25</td>
+<td>Byte array</td>
+<td>Confidentiality-Key(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Configuration-Token</td>
+<td>Byte array</td>
+<td>Configuration-Token</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Connect-Info</td>
+<td>String</td>
+<td>Connect-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Contact</td>
+<td>Byte array</td>
+<td>Contact</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Content-Class</td>
+<td>Signed 32-bit integer</td>
+<td>Content-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Content-Disposition</td>
+<td>String</td>
+<td>Content-Disposition</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Content-Length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Content-Length</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Content-Size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Content-Size</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Content-Type</td>
+<td>String</td>
+<td>Content-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Context-Identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Context-Identifier</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cost-Information</td>
+<td>Byte array</td>
+<td>Cost-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Cost-Unit</td>
+<td>String</td>
+<td>Cost-Unit</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Credit-Control</td>
+<td>Signed 32-bit integer</td>
+<td>Credit-Control</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Credit-Control-Failure-Handling</td>
+<td>Signed 32-bit integer</td>
+<td>Credit-Control-Failure-Handling</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CSG-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>CSG-Id</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CSG-Information-Reporting</td>
+<td>Signed 32-bit integer</td>
+<td>CSG-Information-Reporting</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CSG-Subscription-Data</td>
+<td>Byte array</td>
+<td>CSG-Subscription-Data</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CUG-Information</td>
+<td>Byte array</td>
+<td>CUG-Information</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.CUI</td>
+<td>String</td>
+<td>CUI</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Currency-Code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Currency-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Current-Location</td>
+<td>Unsigned 32-bit integer</td>
+<td>Current-Location</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Current-Tariff</td>
+<td>Byte array</td>
+<td>Current-Tariff</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Data-Coding-Scheme</td>
+<td>Signed 32-bit integer</td>
+<td>Data-Coding-Scheme</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Data-Reference</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data-Reference</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Default-EPS-Bearer-QoS</td>
+<td>Byte array</td>
+<td>Default-EPS-Bearer-QoS</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Deferred-Location-Even-Type</td>
+<td>String</td>
+<td>Deferred-Location-Even-Type</td>
+<td>1.0.0 to 1.0.8</td>
+</tr>
+<tr>
+<td>diameter.Deferred-Location-Event-Type</td>
+<td>String</td>
+<td>Deferred-Location-Event-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Delegated-IPv6-Prefix</td>
+<td>Byte array</td>
+<td>Delegated-IPv6-Prefix</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Delivery-Report</td>
+<td>Signed 32-bit integer</td>
+<td>Delivery-Report</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Delivery-Report-Requested</td>
+<td>Signed 32-bit integer</td>
+<td>Delivery-Report-Requested</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Delivery-Status</td>
+<td>String</td>
+<td>Delivery-Status</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Deregistration-Reason</td>
+<td>Byte array</td>
+<td>Deregistration-Reason</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Deregistration-ReasonObsoleteCN25</td>
+<td>Byte array</td>
+<td>Deregistration-Reason(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Destination-Host</td>
+<td>String</td>
+<td>Destination-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Destination-Interface</td>
+<td>Byte array</td>
+<td>Destination-Interface</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Destination-Realm</td>
+<td>String</td>
+<td>Destination-Realm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Diagnostics</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diagnostics</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-AKA-Auts</td>
+<td>String</td>
+<td>Digest-AKA-Auts</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Algorithm</td>
+<td>String</td>
+<td>Digest-Algorithm</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Auth-Param</td>
+<td>String</td>
+<td>Digest-Auth-Param</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Digest-CNonce</td>
+<td>String</td>
+<td>Digest-Digest-CNonce</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Domain</td>
+<td>String</td>
+<td>Digest-Domain</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Entity-Body-Hash</td>
+<td>String</td>
+<td>Digest-Entity-Body-Hash</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-HA1</td>
+<td>String</td>
+<td>Digest-HA1</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Method</td>
+<td>String</td>
+<td>Digest-Method</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Nextnonce</td>
+<td>String</td>
+<td>Digest-Nextnonce</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Nonce</td>
+<td>String</td>
+<td>Digest-Nonce</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Nonce-Count</td>
+<td>String</td>
+<td>Digest-Nonce-Count</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Opaque</td>
+<td>String</td>
+<td>Digest-Opaque</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Qop</td>
+<td>String</td>
+<td>Digest-Qop</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Realm</td>
+<td>String</td>
+<td>Digest-Realm</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Response</td>
+<td>String</td>
+<td>Digest-Response</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Response-Auth</td>
+<td>String</td>
+<td>Digest-Response-Auth</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Stale</td>
+<td>String</td>
+<td>Digest-Stale</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-URI</td>
+<td>String</td>
+<td>Digest-URI</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Digest-Username</td>
+<td>String</td>
+<td>Digest-Username</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Direct-Debiting-Failure-Handling</td>
+<td>Signed 32-bit integer</td>
+<td>Direct-Debiting-Failure-Handling</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Disconnect-Cause</td>
+<td>Signed 32-bit integer</td>
+<td>Disconnect-Cause</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Domain-Name</td>
+<td>String</td>
+<td>Domain-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.DRM-Content</td>
+<td>Signed 32-bit integer</td>
+<td>DRM-Content</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.DSA-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>DSA-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.DSAI-Tag</td>
+<td>Byte array</td>
+<td>DSAI-Tag</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.DSR-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>DSR-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Dynamic-Address-Flag</td>
+<td>Signed 32-bit integer</td>
+<td>Dynamic-Address-Flag</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.E-UTRAN-Cell-Global-Identity</td>
+<td>Byte array</td>
+<td>E-UTRAN-Cell-Global-Identity</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.E-UTRAN-Vector</td>
+<td>Byte array</td>
+<td>E-UTRAN-Vector</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.E2E-Sequence</td>
+<td>Byte array</td>
+<td>E2E-Sequence</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EAP-Key-Name</td>
+<td>String</td>
+<td>EAP-Key-Name</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EAP-Master-Session-Key</td>
+<td>Byte array</td>
+<td>EAP-Master-Session-Key</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EAP-Message</td>
+<td>Byte array</td>
+<td>EAP-Message</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EAP-Payload</td>
+<td>Byte array</td>
+<td>EAP-Payload</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EAP-Reissued-Payload</td>
+<td>Byte array</td>
+<td>EAP-Reissued-Payload</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Early-Media-Description</td>
+<td>Byte array</td>
+<td>Early-Media-Description</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Egress-VLAN-Name</td>
+<td>String</td>
+<td>Egress-VLAN-Name</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Egress-VLANID</td>
+<td>Byte array</td>
+<td>Egress-VLANID</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.endtoendid</td>
+<td>Unsigned 32-bit integer</td>
+<td>End-to-End Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Envelope</td>
+<td>Byte array</td>
+<td>Envelope</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Envelope-End-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Envelope-End-Time</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Envelope-Reporting</td>
+<td>Signed 32-bit integer</td>
+<td>Envelope-Reporting</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Envelope-Start-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Envelope-Start-Time</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EPS-Location-Information</td>
+<td>Byte array</td>
+<td>EPS-Location-Information</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EPS-Subscribed-QoS-Profile</td>
+<td>Byte array</td>
+<td>EPS-Subscribed-QoS-Profile</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.EPS-User-State</td>
+<td>Byte array</td>
+<td>EPS-User-State</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Equipment-Status</td>
+<td>Signed 32-bit integer</td>
+<td>Equipment-Status</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Error-Cause</td>
+<td>Signed 32-bit integer</td>
+<td>Error-Cause</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Error-Message</td>
+<td>String</td>
+<td>Error-Message</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Error-Reporting-Host</td>
+<td>String</td>
+<td>Error-Reporting-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Algorithm</td>
+<td>String</td>
+<td>ETSI-Digest-Algorithm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Auth-Param</td>
+<td>String</td>
+<td>ETSI-Digest-Auth-Param</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-CNonce</td>
+<td>String</td>
+<td>ETSI-Digest-CNonce</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Domain</td>
+<td>String</td>
+<td>ETSI-Digest-Domain</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Entity-Body-Hash</td>
+<td>String</td>
+<td>ETSI-Digest-Entity-Body-Hash</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-HA1</td>
+<td>String</td>
+<td>ETSI-Digest-HA1</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Method</td>
+<td>String</td>
+<td>ETSI-Digest-Method</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Nextnonce</td>
+<td>String</td>
+<td>ETSI-Digest-Nextnonce</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Nonce</td>
+<td>String</td>
+<td>ETSI-Digest-Nonce</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Nonce-Count</td>
+<td>String</td>
+<td>ETSI-Digest-Nonce-Count</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Opaque</td>
+<td>String</td>
+<td>ETSI-Digest-Opaque</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-QoP</td>
+<td>String</td>
+<td>ETSI-Digest-QoP</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Realm</td>
+<td>String</td>
+<td>ETSI-Digest-Realm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Response</td>
+<td>String</td>
+<td>ETSI-Digest-Response</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Response-Auth</td>
+<td>String</td>
+<td>ETSI-Digest-Response-Auth</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Stale</td>
+<td>String</td>
+<td>ETSI-Digest-Stale</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-URI</td>
+<td>String</td>
+<td>ETSI-Digest-URI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-Digest-Username</td>
+<td>String</td>
+<td>ETSI-Digest-Username</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-SIP-Authenticate</td>
+<td>Byte array</td>
+<td>ETSI-SIP-Authenticate</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-SIP-Authentication-Info</td>
+<td>Byte array</td>
+<td>ETSI-SIP-Authentication-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ETSI-SIP-Authorization</td>
+<td>Byte array</td>
+<td>ETSI-SIP-Authorization</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event</td>
+<td>String</td>
+<td>Event</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event-Charging-TimeStamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event-Charging-TimeStamp</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event-Report-Indication</td>
+<td>Byte array</td>
+<td>Event-Report-Indication</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event-Timestamp</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event-Trigger</td>
+<td>Signed 32-bit integer</td>
+<td>Event-Trigger</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Event-Type</td>
+<td>Byte array</td>
+<td>Event-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Experimental-Result</td>
+<td>Byte array</td>
+<td>Experimental-Result</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Experimental-Result-Code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Experimental-Result-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Experimental-Use</td>
+<td>Byte array</td>
+<td>Experimental-Use</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Expiration-Date</td>
+<td>Unsigned 32-bit integer</td>
+<td>Expiration-Date</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Expires</td>
+<td>Unsigned 32-bit integer</td>
+<td>Expires</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Expiry-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Expiry-Time</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Exponent</td>
+<td>Signed 32-bit integer</td>
+<td>Exponent</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Extended-Location-Policy-Rules</td>
+<td>Byte array</td>
+<td>Extended-Location-Policy-Rules</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.External-Client</td>
+<td>Byte array</td>
+<td>External-Client</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Failed-AVP</td>
+<td>Byte array</td>
+<td>Failed-AVP</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Feature-List</td>
+<td>Unsigned 32-bit integer</td>
+<td>Feature-List</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Feature-List-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Feature-List-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.File-Repair-Supported</td>
+<td>Signed 32-bit integer</td>
+<td>File-Repair-Supported</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Filter-Id</td>
+<td>String</td>
+<td>Filter-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Final-Unit-Action</td>
+<td>Signed 32-bit integer</td>
+<td>Final-Unit-Action</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Final-Unit-Indication</td>
+<td>Byte array</td>
+<td>Final-Unit-Indication</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Firmware-Revision</td>
+<td>Unsigned 32-bit integer</td>
+<td>Firmware-Revision</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.error</td>
+<td>Boolean</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.mandatory</td>
+<td>Boolean</td>
+<td>Mandatory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.proxyable</td>
+<td>Boolean</td>
+<td>Proxyable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.request</td>
+<td>Boolean</td>
+<td>Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.reserved4</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.reserved5</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.reserved6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.reserved7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.T</td>
+<td>Boolean</td>
+<td>T(Potentially re-transmitted message)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.flags.vendorspecific</td>
+<td>Boolean</td>
+<td>Vendor-Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Description</td>
+<td>String</td>
+<td>Flow-Description</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Direction</td>
+<td>Signed 32-bit integer</td>
+<td>Flow-Direction</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Grouping</td>
+<td>Byte array</td>
+<td>Flow-Grouping</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Information</td>
+<td>Byte array</td>
+<td>Flow-Information</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Label</td>
+<td>Byte array</td>
+<td>Flow-Label</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flow-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Status</td>
+<td>Signed 32-bit integer</td>
+<td>Flow-Status</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flow-Usage</td>
+<td>Signed 32-bit integer</td>
+<td>Flow-Usage</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Flows</td>
+<td>Byte array</td>
+<td>Flows</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-AppleTalk-Link</td>
+<td>Unsigned 32-bit integer</td>
+<td>Framed-AppleTalk-Link</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-AppleTalk-Network</td>
+<td>Unsigned 32-bit integer</td>
+<td>Framed-AppleTalk-Network</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-AppleTalk-Zone</td>
+<td>Byte array</td>
+<td>Framed-AppleTalk-Zone</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Compression</td>
+<td>Signed 32-bit integer</td>
+<td>Framed-Compression</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Interface-Id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Framed-Interface-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IP-Address</td>
+<td>Byte array</td>
+<td>Framed-IP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Framed-IP-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IP-Netmask</td>
+<td>Byte array</td>
+<td>Framed-IP-Netmask</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IP-Netmask.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Framed-IP-Netmask Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IPv6-Prefix</td>
+<td>Byte array</td>
+<td>Framed-IPv6-Prefix</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IPv6-Route</td>
+<td>String</td>
+<td>Framed-IPv6-Route</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-IPX-Network</td>
+<td>String</td>
+<td>Framed-IPX-Network</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Management-Protocol</td>
+<td>Signed 32-bit integer</td>
+<td>Framed-Management-Protocol</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-MTU</td>
+<td>Unsigned 32-bit integer</td>
+<td>Framed-MTU</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Pool</td>
+<td>Byte array</td>
+<td>Framed-Pool</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Protocol</td>
+<td>Signed 32-bit integer</td>
+<td>Framed-Protocol</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Route</td>
+<td>String</td>
+<td>Framed-Route</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Framed-Routing</td>
+<td>Signed 32-bit integer</td>
+<td>Framed-Routing</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.From-SIP-Header</td>
+<td>Byte array</td>
+<td>From-SIP-Header</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.G-S-U-Pool-Identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>G-S-U-Pool-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.G-S-U-Pool-Reference</td>
+<td>Byte array</td>
+<td>G-S-U-Pool-Reference</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GAA-Service-Identifier</td>
+<td>Byte array</td>
+<td>GAA-Service-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GBA-Push-Info</td>
+<td>Byte array</td>
+<td>GBA-Push-Info</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GBA-Type</td>
+<td>Signed 32-bit integer</td>
+<td>GBA-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GBA-UserSecSettings</td>
+<td>Byte array</td>
+<td>GBA-UserSecSettings</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GBA_U-Awareness-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>GBA_U-Awareness-Indicator</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Geodetic-Information</td>
+<td>Byte array</td>
+<td>Geodetic-Information</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Geographical-Information</td>
+<td>Byte array</td>
+<td>Geographical-Information</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Geospatial-Location</td>
+<td>Byte array</td>
+<td>Geospatial-Location</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GERAN-Vector</td>
+<td>Byte array</td>
+<td>GERAN-Vector</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GGSN-Address</td>
+<td>Byte array</td>
+<td>GGSN-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GGSN-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>GGSN-Address Address Family</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Globally-Unique-Address</td>
+<td>Byte array</td>
+<td>Globally-Unique-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GMLC-Address</td>
+<td>Byte array</td>
+<td>GMLC-Address</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GMLC-Restriction</td>
+<td>Signed 32-bit integer</td>
+<td>GMLC-Restriction</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GPRS-Charging-ID</td>
+<td>String</td>
+<td>GPRS-Charging-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GPRS-Subscription-Data</td>
+<td>Byte array</td>
+<td>GPRS-Subscription-Data</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Granted-Service-Unit</td>
+<td>Byte array</td>
+<td>Granted-Service-Unit</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Guaranteed-Bitrate-DL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Guaranteed-Bitrate-DL</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Guaranteed-Bitrate-UL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Guaranteed-Bitrate-UL</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.GUSS-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>GUSS-Timestamp</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Homogeneous-Support-of-IMS-Voice-Over-PS-Sessions</td>
+<td>Signed 32-bit integer</td>
+<td>Homogeneous-Support-of-IMS-Voice-Over-PS-Sessions</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.hopbyhopid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hop-by-Hop Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Host-IP-Address</td>
+<td>Byte array</td>
+<td>Host-IP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Host-IP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Host-IP-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.HPLMN-ODB</td>
+<td>Unsigned 32-bit integer</td>
+<td>HPLMN-ODB</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ICS-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>ICS-Indicator</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IDA-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>IDA-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Identity-Set</td>
+<td>Unsigned 32-bit integer</td>
+<td>Identity-Set</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Idle-Timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle-Timeout</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IDR-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>IDR-Flags</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IK</td>
+<td>Byte array</td>
+<td>IK</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.IM-Information</td>
+<td>Byte array</td>
+<td>IM-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMEI</td>
+<td>String</td>
+<td>IMEI</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Immediate-Response-Preferred</td>
+<td>Unsigned 32-bit integer</td>
+<td>Immediate-Response-Preferred</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Implementation-Specific</td>
+<td>Byte array</td>
+<td>Implementation-Specific</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMS-Charging-Identifier</td>
+<td>String</td>
+<td>IMS-Charging-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMS-Communication-Service-Identifier</td>
+<td>String</td>
+<td>IMS-Communication-Service-Identifier</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMS-Information</td>
+<td>Byte array</td>
+<td>IMS-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMS-Voice-Over-PSSessions-Supported</td>
+<td>Signed 32-bit integer</td>
+<td>IMS-Voice-Over-PSSessions-Supported</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IMSI-Unauthenticated-Flag</td>
+<td>Signed 32-bit integer</td>
+<td>IMSI-Unauthenticated-Flag</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Inband-Security-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Inband-Security-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Incoming-Trunk-Group-ID</td>
+<td>String</td>
+<td>Incoming-Trunk-Group-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Incremental-Cost</td>
+<td>Byte array</td>
+<td>Incremental-Cost</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Ingress-Filters</td>
+<td>Signed 32-bit integer</td>
+<td>Ingress-Filters</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Initial-Gate-Setting</td>
+<td>Byte array</td>
+<td>Initial-Gate-Setting</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Initial-Gate-Setting-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initial-Gate-Setting-ID</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Initial-Recipient-Address</td>
+<td>Byte array</td>
+<td>Initial-Recipient-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Integrity-Key</td>
+<td>Byte array</td>
+<td>Integrity-Key</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Integrity-KeyObsoleteCN25</td>
+<td>Byte array</td>
+<td>Integrity-Key(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Inter-Operator-Identifier</td>
+<td>Byte array</td>
+<td>Inter-Operator-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Interface-Id</td>
+<td>String</td>
+<td>Interface-Id</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Interface-Port</td>
+<td>String</td>
+<td>Interface-Port</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Interface-Text</td>
+<td>String</td>
+<td>Interface-Text</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Interface-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Interface-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IP-CAN-Type</td>
+<td>Signed 32-bit integer</td>
+<td>IP-CAN-Type</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.IP-Connectivity-Status</td>
+<td>Signed 32-bit integer</td>
+<td>IP-Connectivity-Status</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Item-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Item-Number</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.KASME</td>
+<td>Byte array</td>
+<td>KASME</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Kc</td>
+<td>Byte array</td>
+<td>Kc</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Key-ExpiryTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key-ExpiryTime</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Last-UE-Activity-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last-UE-Activity-Time</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-APN</td>
+<td>String</td>
+<td>LCS-APN</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Client-Dialed-By-MS</td>
+<td>String</td>
+<td>LCS-Client-Dialed-By-MS</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Client-External-ID</td>
+<td>String</td>
+<td>LCS-Client-External-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Client-ID</td>
+<td>Byte array</td>
+<td>LCS-Client-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Client-Name</td>
+<td>Byte array</td>
+<td>LCS-Client-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Client-Type</td>
+<td>Signed 32-bit integer</td>
+<td>LCS-Client-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Data-Coding-Scheme</td>
+<td>String</td>
+<td>LCS-Data-Coding-Scheme</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Format-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>LCS-Format-Indicator</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Info</td>
+<td>Byte array</td>
+<td>LCS-Info</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Information</td>
+<td>Byte array</td>
+<td>LCS-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Name-String</td>
+<td>String</td>
+<td>LCS-Name-String</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-PrivacyException</td>
+<td>Byte array</td>
+<td>LCS-PrivacyException</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Requestor-ID</td>
+<td>Byte array</td>
+<td>LCS-Requestor-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.LCS-Requestor-ID-String</td>
+<td>String</td>
+<td>LCS-Requestor-ID-String</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.length</td>
+<td>Unsigned 24-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Line-Identifier</td>
+<td>Byte array</td>
+<td>Line-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Local-Sequence-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local-Sequence-Number</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Area-Identity</td>
+<td>Byte array</td>
+<td>Location-Area-Identity</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Capable</td>
+<td>Byte array</td>
+<td>Location-Capable</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Data</td>
+<td>Byte array</td>
+<td>Location-Data</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Estimate</td>
+<td>String</td>
+<td>Location-Estimate</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Estimate-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Location-Estimate-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Information</td>
+<td>Byte array</td>
+<td>Location-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Location-Type</td>
+<td>Byte array</td>
+<td>Location-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Logical-Access-Id</td>
+<td>Byte array</td>
+<td>Logical-Access-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-IP-Host</td>
+<td>Byte array</td>
+<td>Login-IP-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-IP-Host.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Login-IP-Host Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-IPv6-Host</td>
+<td>Byte array</td>
+<td>Login-IPv6-Host</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-LAT-Group</td>
+<td>Byte array</td>
+<td>Login-LAT-Group</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-LAT-Node</td>
+<td>Byte array</td>
+<td>Login-LAT-Node</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-LAT-Port</td>
+<td>Byte array</td>
+<td>Login-LAT-Port</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-LAT-Service</td>
+<td>Byte array</td>
+<td>Login-LAT-Service</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-Service</td>
+<td>Signed 32-bit integer</td>
+<td>Login-Service</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Login-TCP-Port</td>
+<td>Unsigned 32-bit integer</td>
+<td>Login-TCP-Port</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Loose-Route-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>Loose-Route-Indication</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Low-Balance-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>Low-Balance-Indication</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Management-Policy-Id</td>
+<td>String</td>
+<td>Management-Policy-Id</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Management-Privilege-Level</td>
+<td>Signed 32-bit integer</td>
+<td>Management-Privilege-Level</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Management-Transport-Protection</td>
+<td>Signed 32-bit integer</td>
+<td>Management-Transport-Protection</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Mandatory-Capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mandatory-Capability</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Mandatory-CapabilityObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mandatory-Capability(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Max-Requested-Bandwidth-DL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max-Requested-Bandwidth-DL</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Max-Requested-Bandwidth-UL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max-Requested-Bandwidth-UL</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Maximum-Allowed-Bandwidth-DL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum-Allowed-Bandwidth-DL</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Maximum-Allowed-Bandwidth-UL</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum-Allowed-Bandwidth-UL</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Maximum-Packet-Size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum-Packet-Size</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Maximum-Prioritydeprecated</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum-Priority(deprecated)</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-2G-3G-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-2G-3G-Indicator</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Access-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-Access-Indicator</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-BMSC-SSM-IP-Address</td>
+<td>String</td>
+<td>MBMS-BMSC-SSM-IP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-BMSC-SSM-IPv6-Address</td>
+<td>String</td>
+<td>MBMS-BMSC-SSM-IPv6-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Counting-Information</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-Counting-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Flow-Identifier</td>
+<td>Byte array</td>
+<td>MBMS-Flow-Identifier</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-GGSN-Address</td>
+<td>String</td>
+<td>MBMS-GGSN-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-GGSN-IPv6-Address</td>
+<td>String</td>
+<td>MBMS-GGSN-IPv6-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-GW-Address</td>
+<td>Byte array</td>
+<td>MBMS-GW-Address</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-GW-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>MBMS-GW-Address Address Family</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-HC-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-HC-Indicator</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Information</td>
+<td>Byte array</td>
+<td>MBMS-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Required-QoS</td>
+<td>String</td>
+<td>MBMS-Required-QoS</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Service-Area</td>
+<td>Byte array</td>
+<td>MBMS-Service-Area</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-Service-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Session-Duration</td>
+<td>Unsigned 32-bit integer</td>
+<td>MBMS-Session-Duration</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Session-Identity</td>
+<td>Byte array</td>
+<td>MBMS-Session-Identity</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Session-Identity-Repetition-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>MBMS-Session-Identity-Repetition-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.9, 1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Session-Repetition-Number</td>
+<td>Byte array</td>
+<td>MBMS-Session-Repetition-Number</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-StartStop-Indicatio</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-StartStop-Indicatio</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-StartStop-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-StartStop-Indication</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Time-To-Data-Transfe</td>
+<td>Unsigned 32-bit integer</td>
+<td>MBMS-Time-To-Data-Transfe</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-Time-To-Data-Transfer</td>
+<td>Byte array</td>
+<td>MBMS-Time-To-Data-Transfer</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-User-Data-Mode-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-User-Data-Mode-Indication</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MBMS-User-Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>MBMS-User-Service-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ME-Key-Material</td>
+<td>Byte array</td>
+<td>ME-Key-Material</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Component-Description</td>
+<td>Byte array</td>
+<td>Media-Component-Description</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Component-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Media-Component-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Initiator-Flag</td>
+<td>Signed 32-bit integer</td>
+<td>Media-Initiator-Flag</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Initiator-Party</td>
+<td>String</td>
+<td>Media-Initiator-Party</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Sub-Component</td>
+<td>Byte array</td>
+<td>Media-Sub-Component</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Media-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Media-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Message-Body</td>
+<td>Byte array</td>
+<td>Message-Body</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Message-Class</td>
+<td>Byte array</td>
+<td>Message-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Message-ID</td>
+<td>String</td>
+<td>Message-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Message-Size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message-Size</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Message-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Message-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Metering-Method</td>
+<td>Signed 32-bit integer</td>
+<td>Metering-Method</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Minimum-Policed-Unit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minimum-Policed-Unit</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Algorithm-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Algorithm-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Auth-Input-Data-Length</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Auth-Input-Data-Length</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Authenticator</td>
+<td>Byte array</td>
+<td>MIP-Authenticator</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Authenticator-Length</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Authenticator-Length</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Authenticator-Offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Authenticator-Offset</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Candidate-Home-Agent-Host</td>
+<td>String</td>
+<td>MIP-Candidate-Home-Agent-Host</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Careof-Address</td>
+<td>Byte array</td>
+<td>MIP-Careof-Address</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Careof-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>MIP-Careof-Address Address Family</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-FA-Challenge</td>
+<td>Byte array</td>
+<td>MIP-FA-Challenge</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-FA-to-HA-MSA</td>
+<td>Byte array</td>
+<td>MIP-FA-to-HA-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-FA-to-HA-SPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-FA-to-HA-SPI</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-FA-to-MN-MSA</td>
+<td>Byte array</td>
+<td>MIP-FA-to-MN-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-FA-to-MN-SPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-FA-to-MN-SPI</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Feature-Vector</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Feature-Vector</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Filter-Rule</td>
+<td>String</td>
+<td>MIP-Filter-Rule</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Foreign-Agent-Host</td>
+<td>String</td>
+<td>MIP-Foreign-Agent-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.MIP-HA-to-FA-MSA</td>
+<td>Byte array</td>
+<td>MIP-HA-to-FA-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-HA-to-FA-SPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-HA-to-FA-SPI</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-HA-to-MN-MSA</td>
+<td>Byte array</td>
+<td>MIP-HA-to-MN-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Home-Agent-Address</td>
+<td>Byte array</td>
+<td>MIP-Home-Agent-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Home-Agent-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>MIP-Home-Agent-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Home-Agent-Host</td>
+<td>Byte array</td>
+<td>MIP-Home-Agent-Host</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MAC-Mobility-Data</td>
+<td>Byte array</td>
+<td>MIP-MAC-Mobility-Data</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-AAA-Auth</td>
+<td>Byte array</td>
+<td>MIP-MN-AAA-Auth</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-AAA-SPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-MN-AAA-SPI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-HA-MSA</td>
+<td>Byte array</td>
+<td>MIP-MN-HA-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-HA-SPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-MN-HA-SPI</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-to-FA-MSA</td>
+<td>Byte array</td>
+<td>MIP-MN-to-FA-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MN-to-HA-MSA</td>
+<td>Byte array</td>
+<td>MIP-MN-to-HA-MSA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Mobile-Node-Address</td>
+<td>Byte array</td>
+<td>MIP-Mobile-Node-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Mobile-Node-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>MIP-Mobile-Node-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-MSA-Lifetime</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-MSA-Lifetime</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Nonce</td>
+<td>Byte array</td>
+<td>MIP-Nonce</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Originating-Foreign-AAA</td>
+<td>Byte array</td>
+<td>MIP-Originating-Foreign-AAA</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Previous-FA-Addr</td>
+<td>Byte array</td>
+<td>MIP-Previous-FA-Addr</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.MIP-Previous-FA-Addr.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>MIP-Previous-FA-Addr Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.MIP-Previous-FA-Host</td>
+<td>String</td>
+<td>MIP-Previous-FA-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.MIP-Reg-Reply</td>
+<td>Byte array</td>
+<td>MIP-Reg-Reply</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Reg-Request</td>
+<td>Byte array</td>
+<td>MIP-Reg-Request</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Replay-Mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>MIP-Replay-Mode</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Session-Key</td>
+<td>Byte array</td>
+<td>MIP-Session-Key</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP-Timestamp</td>
+<td>Byte array</td>
+<td>MIP-Timestamp</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP6-Agent-Info</td>
+<td>Byte array</td>
+<td>MIP6-Agent-Info</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP6-Auth-Mode</td>
+<td>Signed 32-bit integer</td>
+<td>MIP6-Auth-Mode</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP6-Feature-Vector</td>
+<td>Unsigned 64-bit integer</td>
+<td>MIP6-Feature-Vector</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MIP6-Home-Link-Prefix</td>
+<td>Byte array</td>
+<td>MIP6-Home-Link-Prefix</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MM-Content-Type</td>
+<td>Byte array</td>
+<td>MM-Content-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MMBox-Storage-Requested</td>
+<td>Signed 32-bit integer</td>
+<td>MMBox-Storage-Requested</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MME-Location-Information</td>
+<td>Byte array</td>
+<td>MME-Location-Information</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MME-User-State</td>
+<td>Byte array</td>
+<td>MME-User-State</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MMS-Information</td>
+<td>Byte array</td>
+<td>MMS-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MMTel-Information</td>
+<td>Byte array</td>
+<td>MMTel-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MO-LR</td>
+<td>Byte array</td>
+<td>MO-LR</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Mobile-Node-Identifier</td>
+<td>String</td>
+<td>Mobile-Node-Identifier</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Monitoring-Key</td>
+<td>Byte array</td>
+<td>Monitoring-Key</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.MSISDN</td>
+<td>Byte array</td>
+<td>MSISDN</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Multi-Round-Time-Out</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multi-Round-Time-Out</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Multiple-Registration-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>Multiple-Registration-Indication</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Multiple-Services-Credit-Control</td>
+<td>Byte array</td>
+<td>Multiple-Services-Credit-Control</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Multiple-Services-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>Multiple-Services-Indicator</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAF-Hostname</td>
+<td>Byte array</td>
+<td>NAF-Hostname</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAF-SA-Identifier</td>
+<td>Byte array</td>
+<td>NAF-SA-Identifier</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-Filter-Rule</td>
+<td>String</td>
+<td>NAS-Filter-Rule</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-Identifier</td>
+<td>Byte array</td>
+<td>NAS-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-IP-Address</td>
+<td>Byte array</td>
+<td>NAS-IP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-IPv6-Address</td>
+<td>Byte array</td>
+<td>NAS-IPv6-Address</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-Port</td>
+<td>Unsigned 32-bit integer</td>
+<td>NAS-Port</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-Port-Id</td>
+<td>String</td>
+<td>NAS-Port-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NAS-Port-Type</td>
+<td>Signed 32-bit integer</td>
+<td>NAS-Port-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Network-Access-Mode</td>
+<td>Signed 32-bit integer</td>
+<td>Network-Access-Mode</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Network-Element-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Network-Element-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Network-Request-Support</td>
+<td>Signed 32-bit integer</td>
+<td>Network-Request-Support</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Next-Tariff</td>
+<td>Byte array</td>
+<td>Next-Tariff</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Node-Functionality</td>
+<td>Unsigned 32-bit integer</td>
+<td>Node-Functionality</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Node-Id</td>
+<td>String</td>
+<td>Node-Id</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Non-3GPP-Access-Information</td>
+<td>Byte array</td>
+<td>Non-3GPP-Access-Information</td>
+<td>1.0.8 to 1.2.1</td>
+</tr>
+<tr>
+<td>diameter.Non-3GPP-IP-Access</td>
+<td>Signed 32-bit integer</td>
+<td>Non-3GPP-IP-Access</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Non-3GPP-IP-Access-APN</td>
+<td>Signed 32-bit integer</td>
+<td>Non-3GPP-IP-Access-APN</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Non-3GPP-User-Data</td>
+<td>Byte array</td>
+<td>Non-3GPP-User-Data</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.NOR-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>NOR-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Notdefinedin.xml</td>
+<td>Byte array</td>
+<td>Not defined in .xml</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Notification-To-UE-User</td>
+<td>Signed 32-bit integer</td>
+<td>Notification-To-UE-User</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Diversions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Diversions</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-of-Messages-Sent</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-of-Messages-Sent</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Messages-Successfully-Exploded</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Messages-Successfully-Exploded</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Messages-Successfully-Sent</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Messages-Successfully-Sent</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Participants</td>
+<td>Signed 32-bit integer</td>
+<td>Number-Of-Participants</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Received-Talk-Bursts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Received-Talk-Bursts</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Requested-Vectors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Requested-Vectors</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Talk-Burst</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Talk-Burst</td>
+<td>1.0.0 to 1.0.8</td>
+</tr>
+<tr>
+<td>diameter.Number-Of-Talk-Bursts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-Of-Talk-Bursts</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Number-Portability-Routing-Information</td>
+<td>String</td>
+<td>Number-Portability-Routing-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.OctetString</td>
+<td>String</td>
+<td>OctetString</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.Offline</td>
+<td>Signed 32-bit integer</td>
+<td>Offline</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Offline-Charging</td>
+<td>Byte array</td>
+<td>Offline-Charging</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.OMC-Id</td>
+<td>Byte array</td>
+<td>OMC-Id</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.One-Time-Notification</td>
+<td>Signed 32-bit integer</td>
+<td>One-Time-Notification</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Online</td>
+<td>Signed 32-bit integer</td>
+<td>Online</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Online-Charging-Flag</td>
+<td>Signed 32-bit integer</td>
+<td>Online-Charging-Flag</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Operator-Determined-Barring</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operator-Determined-Barring</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Operator-Name</td>
+<td>Byte array</td>
+<td>Operator-Name</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Optional-Capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>Optional-Capability</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Optional-CapabilityObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>Optional-Capability(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Origin-AAA-Protocol</td>
+<td>Signed 32-bit integer</td>
+<td>Origin-AAA-Protocol</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Origin-Host</td>
+<td>String</td>
+<td>Origin-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Origin-Realm</td>
+<td>String</td>
+<td>Origin-Realm</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Origin-State-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Origin-State-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-Interface</td>
+<td>Signed 32-bit integer</td>
+<td>Originating-Interface</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-IOI</td>
+<td>String</td>
+<td>Originating-IOI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-Line-Info</td>
+<td>Byte array</td>
+<td>Originating-Line-Info</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-Request</td>
+<td>Signed 32-bit integer</td>
+<td>Originating-Request</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-SCCP-Address</td>
+<td>Byte array</td>
+<td>Originating-SCCP-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originating-SCCP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Originating-SCCP-Address Address Family</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originator</td>
+<td>Signed 32-bit integer</td>
+<td>Originator</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originator-Address</td>
+<td>Byte array</td>
+<td>Originator-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Originator-Interface</td>
+<td>Byte array</td>
+<td>Originator-Interface</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Outgoing-Trunk-Group-ID</td>
+<td>String</td>
+<td>Outgoing-Trunk-Group-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Packet-Filter-Content</td>
+<td>String</td>
+<td>Packet-Filter-Content</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Packet-Filter-Identifier</td>
+<td>Byte array</td>
+<td>Packet-Filter-Identifier</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Packet-Filter-Information</td>
+<td>Byte array</td>
+<td>Packet-Filter-Information</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Packet-Filter-Operation</td>
+<td>Signed 32-bit integer</td>
+<td>Packet-Filter-Operation</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Packet-Filter-Usage</td>
+<td>Signed 32-bit integer</td>
+<td>Packet-Filter-Usage</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Participant-Access-Priority</td>
+<td>Signed 32-bit integer</td>
+<td>Participant-Access-Priority</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Participant-Action-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Participant-Action-Type</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Participant-Group</td>
+<td>Byte array</td>
+<td>Participant-Group</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Participants-Involved</td>
+<td>String</td>
+<td>Participants-Involved</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Password-Retry</td>
+<td>Unsigned 32-bit integer</td>
+<td>Password-Retry</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Path</td>
+<td>Byte array</td>
+<td>Path</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PCC-Rule-Status</td>
+<td>Unsigned 32-bit integer</td>
+<td>PCC-Rule-Status</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDG-Address</td>
+<td>Byte array</td>
+<td>PDG-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDG-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>PDG-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDG-Charging-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>PDG-Charging-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDN-Conncetion-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>PDN-Conncetion-ID</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDN-Connection-ID</td>
+<td>Byte array</td>
+<td>PDN-Connection-ID</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDN-GW-Allocation-Type</td>
+<td>Signed 32-bit integer</td>
+<td>PDN-GW-Allocation-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDN-Type</td>
+<td>Signed 32-bit integer</td>
+<td>PDN-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Address</td>
+<td>Byte array</td>
+<td>PDP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>PDP-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Context</td>
+<td>Byte array</td>
+<td>PDP-Context</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Context-Type</td>
+<td>Signed 32-bit integer</td>
+<td>PDP-Context-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Session-operation</td>
+<td>Unsigned 32-bit integer</td>
+<td>PDP-Session-operation</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PDP-Type</td>
+<td>Byte array</td>
+<td>PDP-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Peak-Traffic-Rate</td>
+<td>Unknown</td>
+<td>Peak-Traffic-Rate</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PHB-Class</td>
+<td>Unsigned 32-bit integer</td>
+<td>PHB-Class</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Physical-Access-ID</td>
+<td>String</td>
+<td>Physical-Access-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Ping-Timestamp</td>
+<td>Byte array</td>
+<td>Ping-Timestamp</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Ping-Timestamp-Secs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ping-Timestamp-Secs</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Ping-Timestamp-Usecs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ping-Timestamp-Usecs</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-Auth-Key</td>
+<td>Byte array</td>
+<td>PKM-Auth-Key</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-CA-Cert</td>
+<td>Byte array</td>
+<td>PKM-CA-Cert</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-Config-Settings</td>
+<td>Byte array</td>
+<td>PKM-Config-Settings</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-Cryptosuite-List</td>
+<td>Byte array</td>
+<td>PKM-Cryptosuite-List</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-SA-Descriptor</td>
+<td>Byte array</td>
+<td>PKM-SA-Descriptor</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PKM-SS-Cert</td>
+<td>Byte array</td>
+<td>PKM-SS-Cert</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PLMN-Client</td>
+<td>Signed 32-bit integer</td>
+<td>PLMN-Client</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PMIP6-DHCP-Server-Address</td>
+<td>Byte array</td>
+<td>PMIP6-DHCP-Server-Address</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PMIP6-DHCP-Server-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>PMIP6-DHCP-Server-Address Address Family</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PMIP6-IPv4-Home-Address</td>
+<td>Byte array</td>
+<td>PMIP6-IPv4-Home-Address</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PMIP6-IPv4-Home-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>PMIP6-IPv4-Home-Address Address Family</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Change-Condition</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-Change-Condition</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Change-Conditions</td>
+<td>Unsigned 32-bit integer</td>
+<td>PoC-Change-Conditions</td>
+<td>1.0.0 to 1.0.8</td>
+</tr>
+<tr>
+<td>diameter.PoC-Change-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>PoC-Change-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Controlling-Address</td>
+<td>String</td>
+<td>PoC-Controlling-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Event-Type</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-Event-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Group-Name</td>
+<td>String</td>
+<td>PoC-Group-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Information</td>
+<td>Byte array</td>
+<td>PoC-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Server-Role</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-Server-Role</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Session-Id</td>
+<td>String</td>
+<td>PoC-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Session-Initiation-type</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-Session-Initiation-type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-Session-Type</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-Session-Type</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-User-Role</td>
+<td>Byte array</td>
+<td>PoC-User-Role</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-User-Role-IDs</td>
+<td>String</td>
+<td>PoC-User-Role-IDs</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PoC-User-Role-info-Units</td>
+<td>Signed 32-bit integer</td>
+<td>PoC-User-Role-info-Units</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Port-Limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Port-Limit</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Port-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Port-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Positioning-Data</td>
+<td>String</td>
+<td>Positioning-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PPKM-SAID</td>
+<td>Byte array</td>
+<td>PPKM-SAID</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Pre-emption-Capability</td>
+<td>Signed 32-bit integer</td>
+<td>Pre-emption-Capability</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Pre-emption-Vulnerability</td>
+<td>Signed 32-bit integer</td>
+<td>Pre-emption-Vulnerability</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Precedence</td>
+<td>Unsigned 32-bit integer</td>
+<td>Precedence</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Primary-CCF-Address</td>
+<td>String</td>
+<td>Primary-CCF-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Primary-Charging-Collection-Function-Name</td>
+<td>String</td>
+<td>Primary-Charging-Collection-Function-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Primary-Charging-Collection-Function-NameObsoleteCN25</td>
+<td>String</td>
+<td>Primary-Charging-Collection-Function-Name(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Primary-Event-Charging-Function-Name</td>
+<td>String</td>
+<td>Primary-Event-Charging-Function-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Primary-Event-Charging-Function-NameObsoleteCN25</td>
+<td>String</td>
+<td>Primary-Event-Charging-Function-Name(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Primary-OCS-Address</td>
+<td>String</td>
+<td>Primary-OCS-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Priority</td>
+<td>Signed 32-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Priority-Level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Priority-Level</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Private-Identity-Request</td>
+<td>Signed 32-bit integer</td>
+<td>Private-Identity-Request</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Product-Name</td>
+<td>String</td>
+<td>Product-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Prompt</td>
+<td>Signed 32-bit integer</td>
+<td>Prompt</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Proxy-Host</td>
+<td>String</td>
+<td>Proxy-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Proxy-Info</td>
+<td>Byte array</td>
+<td>Proxy-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Proxy-State</td>
+<td>Byte array</td>
+<td>Proxy-State</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PS-Append-Free-Format-Data</td>
+<td>Signed 32-bit integer</td>
+<td>PS-Append-Free-Format-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PS-Free-Format-Data</td>
+<td>Byte array</td>
+<td>PS-Free-Format-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PS-Furnish-Charging-Information</td>
+<td>Byte array</td>
+<td>PS-Furnish-Charging-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PS-Information</td>
+<td>Byte array</td>
+<td>PS-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.PUA-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>PUA-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Public-Identity</td>
+<td>String</td>
+<td>Public-Identity</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Public-IdentityObsoleteCN25</td>
+<td>String</td>
+<td>Public-Identity(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.QoS-Class-Identifier</td>
+<td>Signed 32-bit integer</td>
+<td>QoS-Class-Identifier</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Filter-Rule</td>
+<td>String</td>
+<td>QoS-Filter-Rule</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Information</td>
+<td>Byte array</td>
+<td>QoS-Information</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Negotiation</td>
+<td>Signed 32-bit integer</td>
+<td>QoS-Negotiation</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Profile</td>
+<td>Byte array</td>
+<td>QoS-Profile</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Profile-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS-Profile-ID</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Base-Name</td>
+<td>String</td>
+<td>QoS-Rule-Base-Name</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Definition</td>
+<td>Byte array</td>
+<td>QoS-Rule-Definition</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Install</td>
+<td>Byte array</td>
+<td>QoS-Rule-Install</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Name</td>
+<td>Byte array</td>
+<td>QoS-Rule-Name</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Remove</td>
+<td>Byte array</td>
+<td>QoS-Rule-Remove</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Rule-Report</td>
+<td>Byte array</td>
+<td>QoS-Rule-Report</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Subscribed</td>
+<td>String</td>
+<td>QoS-Subscribed</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.QoS-Upgrade</td>
+<td>Signed 32-bit integer</td>
+<td>QoS-Upgrade</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Quota-Consumption-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Quota-Consumption-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Quota-Holding-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Quota-Holding-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RACS-Contact-Point</td>
+<td>String</td>
+<td>RACS-Contact-Point</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RAI</td>
+<td>String</td>
+<td>RAI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RAND</td>
+<td>Byte array</td>
+<td>RAND</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RAT-Frequency-Selection-Priority-ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>RAT-Frequency-Selection-Priority-ID</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RAT-Type</td>
+<td>Signed 32-bit integer</td>
+<td>RAT-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Rate-Element</td>
+<td>Byte array</td>
+<td>Rate-Element</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Rating-Group</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rating-Group</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Re-Auth-Request-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Re-Auth-Request-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Re-Synchronization-Info</td>
+<td>Byte array</td>
+<td>Re-Synchronization-Info</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Read-Reply</td>
+<td>Signed 32-bit integer</td>
+<td>Read-Reply</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Read-Reply-Report-Requested</td>
+<td>Signed 32-bit integer</td>
+<td>Read-Reply-Report-Requested</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Real-Time-Tariff-Information</td>
+<td>Byte array</td>
+<td>Real-Time-Tariff-Information</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reason-Code</td>
+<td>Signed 32-bit integer</td>
+<td>Reason-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reason-CodeObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reason-Code(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Reason-Info</td>
+<td>String</td>
+<td>Reason-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reason-InfoObsoleteCN25</td>
+<td>String</td>
+<td>Reason-Info(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Received-Talk-Burst-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received-Talk-Burst-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Received-Talk-Burst-Volume</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received-Talk-Burst-Volume</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Recipient-Address</td>
+<td>String</td>
+<td>Recipient-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Recipient-Received-Address</td>
+<td>Byte array</td>
+<td>Recipient-Received-Address</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Recipient-SCCP-Address</td>
+<td>Byte array</td>
+<td>Recipient-SCCP-Address</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Recipient-SCCP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Recipient-SCCP-Address Address Family</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Recipients</td>
+<td>Byte array</td>
+<td>Recipients</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Record-Route</td>
+<td>Byte array</td>
+<td>Record-Route</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Address-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Redirect-Address-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Host</td>
+<td>String</td>
+<td>Redirect-Host</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Host-Usage</td>
+<td>Signed 32-bit integer</td>
+<td>Redirect-Host-Usage</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Max-Cache-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Redirect-Max-Cache-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Server</td>
+<td>Byte array</td>
+<td>Redirect-Server</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Redirect-Server-Address</td>
+<td>String</td>
+<td>Redirect-Server-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Refund-Information</td>
+<td>Byte array</td>
+<td>Refund-Information</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Regional-Subscription-Zone-Code</td>
+<td>Byte array</td>
+<td>Regional-Subscription-Zone-Code</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Remaining-Balance</td>
+<td>Byte array</td>
+<td>Remaining-Balance</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reply-Applic-ID</td>
+<td>String</td>
+<td>Reply-Applic-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reply-Message</td>
+<td>String</td>
+<td>Reply-Message</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reply-Path-Requested</td>
+<td>Signed 32-bit integer</td>
+<td>Reply-Path-Requested</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reporting-Level</td>
+<td>Signed 32-bit integer</td>
+<td>Reporting-Level</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reporting-Reason</td>
+<td>Signed 32-bit integer</td>
+<td>Reporting-Reason</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Action</td>
+<td>Unsigned 32-bit integer</td>
+<td>Requested-Action</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Domain</td>
+<td>Unsigned 32-bit integer</td>
+<td>Requested-Domain</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-EUTRAN-Authentication-Info</td>
+<td>Byte array</td>
+<td>Requested-EUTRAN-Authentication-Info</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Information</td>
+<td>Signed 32-bit integer</td>
+<td>Requested-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Key-Lifetime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Requested-Key-Lifetime</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Location-Info</td>
+<td>Byte array</td>
+<td>Requested-Location-Info</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Nodes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Requested-Nodes</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Party-Address</td>
+<td>String</td>
+<td>Requested-Party-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-Service-Unit</td>
+<td>Byte array</td>
+<td>Requested-Service-Unit</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requested-UTRAN-GERAN-Authentication-Info</td>
+<td>Byte array</td>
+<td>Requested-UTRAN-GERAN-Authentication-Info</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Requesting-Node-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Requesting-Node-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7, 1.2.15 to 1.4.0, 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Required-MBMS-Bearer-Capabilities</td>
+<td>String</td>
+<td>Required-MBMS-Bearer-Capabilities</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Required-MBMSBearer-Capabilities</td>
+<td>String</td>
+<td>Required-MBMSBearer-Capabilities</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.9</td>
+</tr>
+<tr>
+<td>diameter.Reservation-Class</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reservation-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reservation-Priority</td>
+<td>Signed 32-bit integer</td>
+<td>Reservation-Priority</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Resource-Allocation-Notification</td>
+<td>Signed 32-bit integer</td>
+<td>Resource-Allocation-Notification</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.resp_time</td>
+<td>Time duration</td>
+<td>Response Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Restoration-Info</td>
+<td>Byte array</td>
+<td>Restoration-Info</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Restricted-Filter-Rule</td>
+<td>String</td>
+<td>Restricted-Filter-Rule</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Result-Code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Result-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Result-Recipient-Address</td>
+<td>Byte array</td>
+<td>Result-Recipient-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Revalidation-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Revalidation-Time</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Roaming-Restricted-Due-To-Unsupported-Feature</td>
+<td>Signed 32-bit integer</td>
+<td>Roaming-Restricted-Due-To-Unsupported-Feature</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Role-Of-Node</td>
+<td>Signed 32-bit integer</td>
+<td>Role-Of-Node</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Route-Record</td>
+<td>String</td>
+<td>Route-Record</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Routeing-Address</td>
+<td>String</td>
+<td>Routeing-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Routeing-Address-Resolution</td>
+<td>Signed 32-bit integer</td>
+<td>Routeing-Address-Resolution</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Routing-Area-Identity</td>
+<td>Byte array</td>
+<td>Routing-Area-Identity</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RR-Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>RR-Bandwidth</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.RS-Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>RS-Bandwidth</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Rule-Activation-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rule-Activation-Time</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Rule-DeActivation-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rule-DeActivation-Time</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Rule-Failure-Code</td>
+<td>Signed 32-bit integer</td>
+<td>Rule-Failure-Code</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Scale-Factor</td>
+<td>Byte array</td>
+<td>Scale-Factor</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SCSCF-Restoration-Info</td>
+<td>Byte array</td>
+<td>SCSCF-Restoration-Info</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Answer-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>SDP-Answer-Timestamp</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Media-components</td>
+<td>Byte array</td>
+<td>SDP-Media-components</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Media-Description</td>
+<td>String</td>
+<td>SDP-Media-Description</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Media-Name</td>
+<td>String</td>
+<td>SDP-Media-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Offer-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>SDP-Offer-Timestamp</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Session-Description</td>
+<td>String</td>
+<td>SDP-Session-Description</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-TimeStamps</td>
+<td>Byte array</td>
+<td>SDP-TimeStamps</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SDP-Type</td>
+<td>Signed 32-bit integer</td>
+<td>SDP-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Secondary-CCF-Address</td>
+<td>String</td>
+<td>Secondary-CCF-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Secondary-Charging-Collection-Function-Name</td>
+<td>String</td>
+<td>Secondary-Charging-Collection-Function-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Secondary-Charging-Collection-Function-NameObsoleteCN25</td>
+<td>String</td>
+<td>Secondary-Charging-Collection-Function-Name(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Secondary-Event-Charging-Function-Name</td>
+<td>String</td>
+<td>Secondary-Event-Charging-Function-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Secondary-Event-Charging-Function-NameObsoleteCN25</td>
+<td>String</td>
+<td>Secondary-Event-Charging-Function-Name(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Secondary-OCS-Address</td>
+<td>String</td>
+<td>Secondary-OCS-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Security-Feature-Request</td>
+<td>Byte array</td>
+<td>Security-Feature-Request</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Security-Feature-Response</td>
+<td>Byte array</td>
+<td>Security-Feature-Response</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Security-Parameter-Index</td>
+<td>Byte array</td>
+<td>Security-Parameter-Index</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Send-Data-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>Send-Data-Indication</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Sender-Address</td>
+<td>String</td>
+<td>Sender-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Sender-Visibility</td>
+<td>Signed 32-bit integer</td>
+<td>Sender-Visibility</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Sequence-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Served-Party-IP-Address</td>
+<td>Byte array</td>
+<td>Served-Party-IP-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Served-Party-IP-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Served-Party-IP-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Served-User-Identity</td>
+<td>Byte array</td>
+<td>Served-User-Identity</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Server-Assignment-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Server-Assignment-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Server-Assignment-TypeObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>Server-Assignment-Type(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Server-Capabilities</td>
+<td>Byte array</td>
+<td>Server-Capabilities</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Server-CapabilitiesObsoleteCN25</td>
+<td>Byte array</td>
+<td>Server-Capabilities(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Server-Name</td>
+<td>String</td>
+<td>Server-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Server-NameObsoleteCN25</td>
+<td>String</td>
+<td>Server-Name(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Service-Area-Identity</td>
+<td>Byte array</td>
+<td>Service-Area-Identity</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Class</td>
+<td>String</td>
+<td>Service-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Configuration</td>
+<td>Byte array</td>
+<td>Service-Configuration</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Context-Id</td>
+<td>String</td>
+<td>Service-Context-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Data-Container</td>
+<td>Byte array</td>
+<td>Service-Data-Container</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Generic-Information</td>
+<td>Byte array</td>
+<td>Service-Generic-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-ID</td>
+<td>String</td>
+<td>Service-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Indication</td>
+<td>Byte array</td>
+<td>Service-Indication</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Info-Status</td>
+<td>Signed 32-bit integer</td>
+<td>Service-Info-Status</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Information</td>
+<td>Byte array</td>
+<td>Service-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Key</td>
+<td>String</td>
+<td>Service-Key</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Mode</td>
+<td>Signed 32-bit integer</td>
+<td>Service-Mode</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Parameter-Info</td>
+<td>Byte array</td>
+<td>Service-Parameter-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Parameter-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service-Parameter-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Parameter-Value</td>
+<td>Byte array</td>
+<td>Service-Parameter-Value</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Selection</td>
+<td>String</td>
+<td>Service-Selection</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Specific-Data</td>
+<td>String</td>
+<td>Service-Specific-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Specific-Info</td>
+<td>Byte array</td>
+<td>Service-Specific-Info</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Specific-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service-Specific-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Service-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Service-URN</td>
+<td>Byte array</td>
+<td>Service-URN</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ServiceTypeIdentity</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServiceTypeIdentity</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Serving-Node-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Serving-Node-Type</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Binding</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session-Binding</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Bundle-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session-Bundle-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Id</td>
+<td>String</td>
+<td>Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Linking-Indicator</td>
+<td>Signed 32-bit integer</td>
+<td>Session-Linking-Indicator</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Priority</td>
+<td>Signed 32-bit integer</td>
+<td>Session-Priority</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Release-Cause</td>
+<td>Signed 32-bit integer</td>
+<td>Session-Release-Cause</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Server-Failover</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session-Server-Failover</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Session-Timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session-Timeout</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGSN-Address</td>
+<td>Byte array</td>
+<td>SGSN-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGSN-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>SGSN-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGSN-Location-Information</td>
+<td>Byte array</td>
+<td>SGSN-Location-Information</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGSN-Number</td>
+<td>Byte array</td>
+<td>SGSN-Number</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGSN-User-State</td>
+<td>Byte array</td>
+<td>SGSN-User-State</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SGW-Change</td>
+<td>Signed 32-bit integer</td>
+<td>SGW-Change</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Signature</td>
+<td>Byte array</td>
+<td>Signature</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Accounting-Information</td>
+<td>Byte array</td>
+<td>SIP-Accounting-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Accounting-Server-URI</td>
+<td>String</td>
+<td>SIP-Accounting-Server-URI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-AOR</td>
+<td>String</td>
+<td>SIP-AOR</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Auth-Data-Item</td>
+<td>Byte array</td>
+<td>SIP-Auth-Data-Item</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Auth-Data-ItemObsoleteCN25</td>
+<td>Byte array</td>
+<td>SIP-Auth-Data-Item(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authenticate</td>
+<td>Byte array</td>
+<td>SIP-Authenticate</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-AuthenticateObsoleteCN25</td>
+<td>Byte array</td>
+<td>SIP-Authenticate(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authentication-Context</td>
+<td>Byte array</td>
+<td>SIP-Authentication-Context</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authentication-ContextObsoleteCN25</td>
+<td>Byte array</td>
+<td>SIP-Authentication-Context(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authentication-Info</td>
+<td>Byte array</td>
+<td>SIP-Authentication-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authentication-Scheme</td>
+<td>String</td>
+<td>SIP-Authentication-Scheme</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authentication-SchemeObsoleteCN25</td>
+<td>String</td>
+<td>SIP-Authentication-Scheme(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Authorization</td>
+<td>Byte array</td>
+<td>SIP-Authorization</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-AuthorizationObsoleteCN25</td>
+<td>Byte array</td>
+<td>SIP-Authorization(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Credit-Control-Server-URI</td>
+<td>String</td>
+<td>SIP-Credit-Control-Server-URI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Deregistration-Reason</td>
+<td>Byte array</td>
+<td>SIP-Deregistration-Reason</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Digest-AuthenticateAVP</td>
+<td>Byte array</td>
+<td>SIP-Digest-Authenticate AVP</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Forking-Indication</td>
+<td>Signed 32-bit integer</td>
+<td>SIP-Forking-Indication</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Item-Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Item-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Item-NumberObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Item-Number(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Mandatory-Capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Mandatory-Capability</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Method</td>
+<td>String</td>
+<td>SIP-Method</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Number-Auth-Items</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Number-Auth-Items</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Number-Auth-ItemsObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Number-Auth-Items(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.SIP-Optional-Capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Optional-Capability</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Reason-Code</td>
+<td>Signed 32-bit integer</td>
+<td>SIP-Reason-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Reason-Info</td>
+<td>String</td>
+<td>SIP-Reason-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Request-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Request-Timestamp</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Request-Timestamp-Fraction</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Request-Timestamp-Fraction</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Response-Timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Response-Timestamp</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Response-Timestamp-Fraction</td>
+<td>Unsigned 32-bit integer</td>
+<td>SIP-Response-Timestamp-Fraction</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Server-Assignment-Type</td>
+<td>Signed 32-bit integer</td>
+<td>SIP-Server-Assignment-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Server-Capabilities</td>
+<td>Byte array</td>
+<td>SIP-Server-Capabilities</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Server-URI</td>
+<td>String</td>
+<td>SIP-Server-URI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Supported-User-Data-Type</td>
+<td>String</td>
+<td>SIP-Supported-User-Data-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-User-Authorization-Type</td>
+<td>Signed 32-bit integer</td>
+<td>SIP-User-Authorization-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-User-Data</td>
+<td>Byte array</td>
+<td>SIP-User-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-User-Data-Already-Available</td>
+<td>Signed 32-bit integer</td>
+<td>SIP-User-Data-Already-Available</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-User-Data-Contents</td>
+<td>Byte array</td>
+<td>SIP-User-Data-Contents</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-User-Data-Type</td>
+<td>String</td>
+<td>SIP-User-Data-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SIP-Visited-Network-Id</td>
+<td>String</td>
+<td>SIP-Visited-Network-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-Discharge-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>SM-Discharge-Time</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-Message-Type</td>
+<td>Signed 32-bit integer</td>
+<td>SM-Message-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-Protocol-ID</td>
+<td>Byte array</td>
+<td>SM-Protocol-ID</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-Service-Type</td>
+<td>Signed 32-bit integer</td>
+<td>SM-Service-Type</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-Status</td>
+<td>Byte array</td>
+<td>SM-Status</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SM-User-Data-Header</td>
+<td>Byte array</td>
+<td>SM-User-Data-Header</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SMS-Information</td>
+<td>Byte array</td>
+<td>SMS-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SMS-Node</td>
+<td>Signed 32-bit integer</td>
+<td>SMS-Node</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SMSC-Address</td>
+<td>Byte array</td>
+<td>SMSC-Address</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SMSC-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>SMSC-Address Address Family</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Software-Version</td>
+<td>String</td>
+<td>Software-Version</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Specific-Action</td>
+<td>Signed 32-bit integer</td>
+<td>Specific-Action</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Specific-APN-Info</td>
+<td>Byte array</td>
+<td>Specific-APN-Info</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SRES</td>
+<td>Byte array</td>
+<td>SRES</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SS-Code</td>
+<td>Byte array</td>
+<td>SS-Code</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.SS-Status</td>
+<td>Byte array</td>
+<td>SS-Status</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Start-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Start-Time</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.State</td>
+<td>Byte array</td>
+<td>State</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Status</td>
+<td>Byte array</td>
+<td>Status</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Status-Code</td>
+<td>String</td>
+<td>Status-Code</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Status-Text</td>
+<td>String</td>
+<td>Status-Text</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.STN-SR</td>
+<td>Byte array</td>
+<td>STN-SR</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Stop-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stop-Time</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Submission-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Submission-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subs-Req-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Subs-Req-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscriber-Role</td>
+<td>Signed 32-bit integer</td>
+<td>Subscriber-Role</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscriber-Status</td>
+<td>Signed 32-bit integer</td>
+<td>Subscriber-Status</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscription-Data</td>
+<td>Byte array</td>
+<td>Subscription-Data</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscription-Id</td>
+<td>Byte array</td>
+<td>Subscription-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscription-Id-Data</td>
+<td>String</td>
+<td>Subscription-Id-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscription-Id-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Subscription-Id-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Subscription-Info</td>
+<td>Byte array</td>
+<td>Subscription-Info</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Supplementary-Service</td>
+<td>Byte array</td>
+<td>Supplementary-Service</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Supported-Applications</td>
+<td>Byte array</td>
+<td>Supported-Applications</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Supported-Features</td>
+<td>Byte array</td>
+<td>Supported-Features</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Supported-Vendor-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Supported-Vendor-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Talk-Burst-Exchange</td>
+<td>Byte array</td>
+<td>Talk-Burst-Exchange</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Talk-Burst-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Talk-Burst-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Talk-Burst-Volume</td>
+<td>Unsigned 32-bit integer</td>
+<td>Talk-Burst-Volume</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tariff-Change-Usage</td>
+<td>Signed 32-bit integer</td>
+<td>Tariff-Change-Usage</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tariff-Information</td>
+<td>Byte array</td>
+<td>Tariff-Information</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tariff-Time-Change</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tariff-Time-Change</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tariff-XML</td>
+<td>String</td>
+<td>Tariff-XML</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Teleservice-List</td>
+<td>Byte array</td>
+<td>Teleservice-List</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Terminal-Information</td>
+<td>Byte array</td>
+<td>Terminal-Information</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Terminal-Type</td>
+<td>Byte array</td>
+<td>Terminal-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Terminating-IOI</td>
+<td>String</td>
+<td>Terminating-IOI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Termination-Action</td>
+<td>Unsigned 32-bit integer</td>
+<td>Termination-Action</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Termination-Cause</td>
+<td>Signed 32-bit integer</td>
+<td>Termination-Cause</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TFT-Filter</td>
+<td>String</td>
+<td>TFT-Filter</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TFT-Packet-Filter-Information</td>
+<td>Byte array</td>
+<td>TFT-Packet-Filter-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TGPP2-MEID</td>
+<td>Byte array</td>
+<td>TGPP2-MEID</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-First-Usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time-First-Usage</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Last-Usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time-Last-Usage</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Quota-Mechanism</td>
+<td>Byte array</td>
+<td>Time-Quota-Mechanism</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Quota-Threshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time-Quota-Threshold</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Quota-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Time-Quota-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Stamps</td>
+<td>Byte array</td>
+<td>Time-Stamps</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Time-Usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time-Usage</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TMGI</td>
+<td>Byte array</td>
+<td>TMGI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TMOD-1</td>
+<td>Byte array</td>
+<td>TMOD-1</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TMOD-2</td>
+<td>Byte array</td>
+<td>TMOD-2</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.To-SIP-Header</td>
+<td>Byte array</td>
+<td>To-SIP-Header</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Token-Rate</td>
+<td>Unknown</td>
+<td>Token-Rate</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Token-Text</td>
+<td>String</td>
+<td>Token-Text</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ToS-Traffic-Class</td>
+<td>Byte array</td>
+<td>ToS-Traffic-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Total-Number-Of-Messages-Exploded</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total-Number-Of-Messages-Exploded</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Total-Number-Of-Messages-Sen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total-Number-Of-Messages-Sen</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Collection-Entity</td>
+<td>Byte array</td>
+<td>Trace-Collection-Entity</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Collection-Entity.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Trace-Collection-Entity Address Family</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Data</td>
+<td>Byte array</td>
+<td>Trace-Data</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Depth</td>
+<td>Signed 32-bit integer</td>
+<td>Trace-Depth</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Depth-List</td>
+<td>Byte array</td>
+<td>Trace-Depth-List</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Trace-Event-List</td>
+<td>Byte array</td>
+<td>Trace-Event-List</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Info</td>
+<td>Byte array</td>
+<td>Trace-Info</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Interface-List</td>
+<td>Byte array</td>
+<td>Trace-Interface-List</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-NE-Type-List</td>
+<td>Byte array</td>
+<td>Trace-NE-Type-List</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trace-Reference</td>
+<td>Byte array</td>
+<td>Trace-Reference</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tracking-Area-Identity</td>
+<td>Byte array</td>
+<td>Tracking-Area-Identity</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Traffic-Data-Volumes</td>
+<td>Byte array</td>
+<td>Traffic-Data-Volumes</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Transaction-Identifier</td>
+<td>Byte array</td>
+<td>Transaction-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Transport-Class</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transport-Class</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trigger</td>
+<td>Byte array</td>
+<td>Trigger</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trigger-Event</td>
+<td>Signed 32-bit integer</td>
+<td>Trigger-Event</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trigger-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Trigger-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Trunk-Group-ID</td>
+<td>Byte array</td>
+<td>Trunk-Group-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.TS-Code</td>
+<td>Byte array</td>
+<td>TS-Code</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Assignment-Id</td>
+<td>Byte array</td>
+<td>Tunnel-Assignment-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Client-Auth-Id</td>
+<td>String</td>
+<td>Tunnel-Client-Auth-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Header-Filter</td>
+<td>String</td>
+<td>Tunnel-Header-Filter</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Header-Length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tunnel-Header-Length</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Information</td>
+<td>Byte array</td>
+<td>Tunnel-Information</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Medium-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Tunnel-Medium-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Password</td>
+<td>Byte array</td>
+<td>Tunnel-Password</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Preference</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tunnel-Preference</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Private-Group-Id</td>
+<td>Byte array</td>
+<td>Tunnel-Private-Group-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Server-Auth-Id</td>
+<td>String</td>
+<td>Tunnel-Server-Auth-Id</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Server-Endpoint</td>
+<td>String</td>
+<td>Tunnel-Server-Endpoint</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunnel-Type</td>
+<td>Signed 32-bit integer</td>
+<td>Tunnel-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Tunneling</td>
+<td>Byte array</td>
+<td>Tunneling</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Type-Number</td>
+<td>Signed 32-bit integer</td>
+<td>Type-Number</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UAR-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>UAR-Flags</td>
+<td>1.2.6 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UE-Id</td>
+<td>Byte array</td>
+<td>UE-Id</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UE-Id-Type</td>
+<td>Signed 32-bit integer</td>
+<td>UE-Id-Type</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UICC-App-Label</td>
+<td>Byte array</td>
+<td>UICC-App-Label</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UICC-Key-Material</td>
+<td>Byte array</td>
+<td>UICC-Key-Material</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UICC-ME</td>
+<td>Signed 32-bit integer</td>
+<td>UICC-ME</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ULA-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>ULA-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.ULR-Flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>ULR-Flags</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.UMTS-Vector</td>
+<td>Byte array</td>
+<td>UMTS-Vector</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Unallocated</td>
+<td>Byte array</td>
+<td>Unallocated</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Unassigned</td>
+<td>Byte array</td>
+<td>Unassigned</td>
+<td>1.2.13 to 1.4.0, 1.4.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Unit-Cost</td>
+<td>Byte array</td>
+<td>Unit-Cost</td>
+<td>1.2.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Unit-Quota-Threshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unit-Quota-Threshold</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Unit-Value</td>
+<td>Byte array</td>
+<td>Unit-Value</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Usage-Monitoring-Information</td>
+<td>Byte array</td>
+<td>Usage-Monitoring-Information</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Usage-Monitoring-Level</td>
+<td>Signed 32-bit integer</td>
+<td>Usage-Monitoring-Level</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Usage-Monitoring-Report</td>
+<td>Signed 32-bit integer</td>
+<td>Usage-Monitoring-Report</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Usage-Monitoring-Support</td>
+<td>Signed 32-bit integer</td>
+<td>Usage-Monitoring-Support</td>
+<td>1.2.8 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Used-Service-Unit</td>
+<td>Byte array</td>
+<td>Used-Service-Unit</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Authorization-Type</td>
+<td>Signed 32-bit integer</td>
+<td>User-Authorization-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Authorization-TypeObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>User-Authorization-Type(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.User-Data</td>
+<td>Byte array</td>
+<td>User-Data</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Data-Already-Available</td>
+<td>Signed 32-bit integer</td>
+<td>User-Data-Already-Available</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Data-Already-AvailableObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>User-Data-Already-Available(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.User-Data-Request-Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>User-Data-Request-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.User-Data-Request-TypeObsolete</td>
+<td>Unsigned 32-bit integer</td>
+<td>User-Data-Request-Type(Obsolete)</td>
+<td>1.2.7 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Data-Request-TypeObsoleteCN25</td>
+<td>Unsigned 32-bit integer</td>
+<td>User-Data-Request-Type(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.User-DataObsoleteCN25</td>
+<td>Byte array</td>
+<td>User-Data(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.User-Equipment-Info</td>
+<td>Byte array</td>
+<td>User-Equipment-Info</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Equipment-Info-Type</td>
+<td>Signed 32-bit integer</td>
+<td>User-Equipment-Info-Type</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Equipment-Info-Value</td>
+<td>Byte array</td>
+<td>User-Equipment-Info-Value</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Id</td>
+<td>String</td>
+<td>User-Id</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Identity</td>
+<td>Byte array</td>
+<td>User-Identity</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Name</td>
+<td>String</td>
+<td>User-Name</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Participating-Type</td>
+<td>Signed 32-bit integer</td>
+<td>User-Participating-Type</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Password</td>
+<td>Byte array</td>
+<td>User-Password</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Priority-Table</td>
+<td>Byte array</td>
+<td>User-Priority-Table</td>
+<td>1.2.13 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-Session-Id</td>
+<td>String</td>
+<td>User-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.User-State</td>
+<td>Signed 32-bit integer</td>
+<td>User-State</td>
+<td>1.2.9 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.V4-Transport-Address</td>
+<td>Byte array</td>
+<td>V4-Transport-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.V6-Transport-address</td>
+<td>Byte array</td>
+<td>V6-Transport-address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Validity-Time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Validity-Time</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Value-Digits</td>
+<td>Signed 64-bit integer</td>
+<td>Value-Digits</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.VAS-ID</td>
+<td>String</td>
+<td>VAS-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.VASP-ID</td>
+<td>String</td>
+<td>VASP-ID</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Vendor-Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vendor-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Vendor-Specific</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vendor-Specific</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Vendor-Specific-Application-Id</td>
+<td>Byte array</td>
+<td>Vendor-Specific-Application-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.vendorId</td>
+<td>Unsigned 32-bit integer</td>
+<td>VendorId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Visited-Network-Identifier</td>
+<td>Byte array</td>
+<td>Visited-Network-Identifier</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Visited-Network-IdentifierObsoleteCN25</td>
+<td>Byte array</td>
+<td>Visited-Network-Identifier(Obsolete CN#25)</td>
+<td>1.2.4 to 1.2.7</td>
+</tr>
+<tr>
+<td>diameter.Visited-PLMN-Id</td>
+<td>Byte array</td>
+<td>Visited-PLMN-Id</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Volume-Quota-Threshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume-Quota-Threshold</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.VPLMN-Dynamic-Address-Allowed</td>
+<td>Signed 32-bit integer</td>
+<td>VPLMN-Dynamic-Address-Allowed</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WAG-Address</td>
+<td>Byte array</td>
+<td>WAG-Address</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WAG-Address.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>WAG-Address Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WAG-PLMN-Id</td>
+<td>Byte array</td>
+<td>WAG-PLMN-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Wildcarded-IMPU</td>
+<td>String</td>
+<td>Wildcarded-IMPU</td>
+<td>1.0.5 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.Wildcarded-PSI</td>
+<td>String</td>
+<td>Wildcarded-PSI</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-Information</td>
+<td>Byte array</td>
+<td>WLAN-Information</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-Radio-Container</td>
+<td>Byte array</td>
+<td>WLAN-Radio-Container</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-Session-Id</td>
+<td>String</td>
+<td>WLAN-Session-Id</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-Technology</td>
+<td>Unsigned 32-bit integer</td>
+<td>WLAN-Technology</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-UE-Local-IPAddress</td>
+<td>Byte array</td>
+<td>WLAN-UE-Local-IPAddress</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.WLAN-UE-Local-IPAddress.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>WLAN-UE-Local-IPAddress Address Family</td>
+<td>1.0.0 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>diameter.XRES</td>
+<td>Byte array</td>
+<td>XRES</td>
+<td>1.0.8 to 1.2.1, 1.2.2 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

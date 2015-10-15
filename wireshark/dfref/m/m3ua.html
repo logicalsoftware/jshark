@@ -1,0 +1,464 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: MTP 3 User Adaptation Layer</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: MTP 3 User Adaptation Layer</h1>
+<div><b>Protocol field name:</b> m3ua</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>m3ua.affected_point_code_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.affected_point_code_pc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Affected point code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.asp_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>ASP identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.cic_range_lower</td>
+<td>Unsigned 16-bit integer</td>
+<td>Lower CIC value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.cic_range_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.cic_range_pc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Originating point code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.cic_range_upper</td>
+<td>Unsigned 16-bit integer</td>
+<td>Upper CIC value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.concerned_dpc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Concerned DPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.concerned_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.congestion_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Congestion level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.congestion_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.correlation_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Correlation Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.deregistration_result_routing_context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Routing context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.deregistration_results_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>De-Registration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.deregistration_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Deregistration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.diagnostic_information</td>
+<td>Byte array</td>
+<td>Diagnostic information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.dpc_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.dpc_pc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Destination point code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.error_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.heartbeat_data</td>
+<td>Byte array</td>
+<td>Heartbeat data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.info_string</td>
+<td>String</td>
+<td>Info string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.local_rk_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local routing key identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.message_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.message_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.message_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.network_appearance</td>
+<td>Unsigned 32-bit integer</td>
+<td>Network appearance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.opc_list_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.opc_list_pc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Originating point code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.parameter_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.parameter_padding</td>
+<td>Byte array</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.parameter_tag</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.parameter_value</td>
+<td>Byte array</td>
+<td>Parameter value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.paramter_trailer</td>
+<td>Byte array</td>
+<td>Trailer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_2_li</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_dpc</td>
+<td>Unsigned 32-bit integer</td>
+<td>DPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_mp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_ni</td>
+<td>Unsigned 8-bit integer</td>
+<td>NI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_opc</td>
+<td>Unsigned 32-bit integer</td>
+<td>OPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_si</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.protocol_data_sls</td>
+<td>Unsigned 8-bit integer</td>
+<td>SLS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.reason</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.registration_result_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local RK-identifier value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.registration_result_routing_context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Routing context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.registration_results_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Registration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.registration_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Registration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.routing_context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Routing context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.si</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.ssn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subsystem number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.status_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.status_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.traffic_mode_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Traffic mode Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.unavailability_cause</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unavailability cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.user_identity</td>
+<td>Unsigned 16-bit integer</td>
+<td>User Identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>m3ua.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mtp3.dpc</td>
+<td>Unsigned 32-bit integer</td>
+<td>DPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mtp3.ni</td>
+<td>Unsigned 8-bit integer</td>
+<td>NI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mtp3.opc</td>
+<td>Unsigned 32-bit integer</td>
+<td>OPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mtp3.pc</td>
+<td>Unsigned 32-bit integer</td>
+<td>PC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mtp3.sls</td>
+<td>Unsigned 8-bit integer</td>
+<td>SLS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,1532 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WebSphere MQ</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WebSphere MQ</h1>
+<div><b>Protocol field name:</b> mq</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>mq.api.completioncode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Completion code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.api.hobj</td>
+<td>Unsigned 32-bit integer</td>
+<td>Object handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.api.reasoncode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reason code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.api.replylength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reply length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.acttoken</td>
+<td>Byte array</td>
+<td>Accounting token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.appname</td>
+<td>String</td>
+<td>Application name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.apptype</td>
+<td>Signed 32-bit integer</td>
+<td>Application type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.qm</td>
+<td>String</td>
+<td>Queue manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.conn.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dh.flagspmr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags PMR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dh.nbrrec</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of records</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dh.offsetor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first OR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dh.offsetpmr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first PMR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.ccsid</td>
+<td>Signed 32-bit integer</td>
+<td>Character set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.destq</td>
+<td>String</td>
+<td>Destination queue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.destqmgr</td>
+<td>String</td>
+<td>Destination queue manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.encoding</td>
+<td>Unsigned 32-bit integer</td>
+<td>Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.format</td>
+<td>String</td>
+<td>Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.putapplname</td>
+<td>String</td>
+<td>Put application name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.putappltype</td>
+<td>Signed 32-bit integer</td>
+<td>Put application type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.putdate</td>
+<td>String</td>
+<td>Put date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.puttime</td>
+<td>String</td>
+<td>Put time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.reason</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.structid</td>
+<td>String</td>
+<td>DLH structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.dlh.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.grpstat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Group status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.matchopt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Match options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.msgtoken</td>
+<td>Byte array</td>
+<td>Message token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.resolvq</td>
+<td>String</td>
+<td>Resolved queue name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.retlen</td>
+<td>Signed 32-bit integer</td>
+<td>Returned length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.segmentation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Segmentation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.sgmtstat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Segment status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.signal1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Signal 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.signal2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Signal 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.structid</td>
+<td>String</td>
+<td>GMO structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.gmo.waitint</td>
+<td>Signed 32-bit integer</td>
+<td>Wait Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.ccsid</td>
+<td>Signed 32-bit integer</td>
+<td>Character set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.encoding</td>
+<td>Unsigned 32-bit integer</td>
+<td>Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.format</td>
+<td>String</td>
+<td>Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.struct</td>
+<td>Byte array</td>
+<td>Struct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.structid</td>
+<td>String</td>
+<td>Structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.head.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.capflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Capability flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ccsid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Character set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.channelname</td>
+<td>String</td>
+<td>Channel name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.hbint</td>
+<td>Unsigned 32-bit integer</td>
+<td>Heartbeat interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.convcap</td>
+<td>Boolean</td>
+<td>Conversion capable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.mqreq</td>
+<td>Boolean</td>
+<td>MQ request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.msgseq</td>
+<td>Boolean</td>
+<td>Message sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.runtime</td>
+<td>Boolean</td>
+<td>Runtime application</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.splitmsg</td>
+<td>Boolean</td>
+<td>Split messages</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.icf.svrsec</td>
+<td>Boolean</td>
+<td>Server connection security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial error flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.ccsid</td>
+<td>Boolean</td>
+<td>Invalid CCSID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.enc</td>
+<td>Boolean</td>
+<td>Invalid encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.fap</td>
+<td>Boolean</td>
+<td>Invalid FAP level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.hbint</td>
+<td>Boolean</td>
+<td>Invalid heartbeat interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.mxmsgpb</td>
+<td>Boolean</td>
+<td>Invalid maximum message per batch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.mxmsgsz</td>
+<td>Boolean</td>
+<td>Invalid message size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.mxtrsz</td>
+<td>Boolean</td>
+<td>Invalid maximum transmission size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.ief.seqwrap</td>
+<td>Boolean</td>
+<td>Invalid sequence wrap value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>FAP level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.maxmsgperbatch</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum messages per batch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.maxmsgsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum message size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.maxtranssize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum transmission size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.qm</td>
+<td>String</td>
+<td>Queue manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.seqwrap</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence wrap value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.structid</td>
+<td>String</td>
+<td>ID structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.unknown2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.unknown4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.unknown5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.id.unknown6</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.charlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Character length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.charvalues</td>
+<td>String</td>
+<td>Char values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.intvalue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Integer value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.nbint</td>
+<td>Unsigned 32-bit integer</td>
+<td>Integer count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.nbsel</td>
+<td>Unsigned 32-bit integer</td>
+<td>Selector count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.inq.sel</td>
+<td>Unsigned 32-bit integer</td>
+<td>Selector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.acttoken</td>
+<td>Byte array</td>
+<td>Accounting token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.appldata</td>
+<td>String</td>
+<td>ApplicationId data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.applname</td>
+<td>String</td>
+<td>Put Application Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.appltype</td>
+<td>Signed 32-bit integer</td>
+<td>Put Application Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.backount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Backount count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.ccsid</td>
+<td>Signed 32-bit integer</td>
+<td>Character set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.correlid</td>
+<td>Byte array</td>
+<td>CorrelationId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.date</td>
+<td>String</td>
+<td>Put date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.encoding</td>
+<td>Unsigned 32-bit integer</td>
+<td>Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.expiry</td>
+<td>Signed 32-bit integer</td>
+<td>Expiry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.feedback</td>
+<td>Unsigned 32-bit integer</td>
+<td>Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.format</td>
+<td>String</td>
+<td>Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.groupid</td>
+<td>Byte array</td>
+<td>GroupId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.lastformat</td>
+<td>String</td>
+<td>Last format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.msgflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.msgid</td>
+<td>Byte array</td>
+<td>MessageId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.msgseqnumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.msgtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.origdata</td>
+<td>String</td>
+<td>Application original data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.persistence</td>
+<td>Unsigned 32-bit integer</td>
+<td>Persistence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.priority</td>
+<td>Signed 32-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.replytoq</td>
+<td>String</td>
+<td>ReplyToQ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.replytoqmgr</td>
+<td>String</td>
+<td>ReplyToQMgr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.report</td>
+<td>Unsigned 32-bit integer</td>
+<td>Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.structid</td>
+<td>String</td>
+<td>MD structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.time</td>
+<td>String</td>
+<td>Put time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.userid</td>
+<td>String</td>
+<td>UserId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.md.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.msh.buflength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buffer length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.msh.msglength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.msh.seqnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.msh.structid</td>
+<td>String</td>
+<td>MSH structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.msh.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.addror</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address of first OR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.addrrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address of first RR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.altsecid</td>
+<td>String</td>
+<td>Alternate security id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.altuserid</td>
+<td>String</td>
+<td>Alternate user id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.dynqname</td>
+<td>String</td>
+<td>Dynamic queue name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.idestcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Invalid destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.kdestcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Known destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.nbrrec</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of records</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.objname</td>
+<td>String</td>
+<td>Object name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.objqmgrname</td>
+<td>String</td>
+<td>Object queue manager name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.objtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Object type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.offsetor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first OR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.offsetrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first RR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.resolvq</td>
+<td>String</td>
+<td>Resolved queue name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.resolvqmgr</td>
+<td>String</td>
+<td>Resolved queue manager name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.structid</td>
+<td>String</td>
+<td>OD structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.udestcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.od.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.open.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.ping.buffer</td>
+<td>Byte array</td>
+<td>Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.ping.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.ping.seqnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.addrrec</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address of first record</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.addrres</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address of first response record</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.flagspmr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags PMR fields</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.idestcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Invalid destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.kdstcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Known destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.nbrrec</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of records</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.offsetpmr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first PMR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.offsetrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset of first RR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.resolvq</td>
+<td>String</td>
+<td>Resolved queue name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.resolvqmgr</td>
+<td>String</td>
+<td>Resolved queue name manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.structid</td>
+<td>String</td>
+<td>PMO structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.timeout</td>
+<td>Signed 32-bit integer</td>
+<td>Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmo.udestcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown destination count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmr.acttoken</td>
+<td>Byte array</td>
+<td>Accounting token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmr.correlid</td>
+<td>Byte array</td>
+<td>Correlation Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmr.feedback</td>
+<td>Unsigned 32-bit integer</td>
+<td>Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmr.groupid</td>
+<td>Byte array</td>
+<td>GroupId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.pmr.msgid</td>
+<td>Byte array</td>
+<td>Message Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.put.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.rr.completioncode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Completion code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.rr.reasoncode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reason code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spai.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spai.msgid</td>
+<td>String</td>
+<td>Message Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spai.unknown1</td>
+<td>String</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spai.unknown2</td>
+<td>String</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spgi.batchint</td>
+<td>Unsigned 32-bit integer</td>
+<td>Batch interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spgi.batchsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Batch size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spgi.maxmsgsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max message size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spgo.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spgo.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.options.blank</td>
+<td>Boolean</td>
+<td>Blank padded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.options.deferred</td>
+<td>Boolean</td>
+<td>Deferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.options.sync</td>
+<td>Boolean</td>
+<td>Syncpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.replength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max reply size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.verb</td>
+<td>Unsigned 32-bit integer</td>
+<td>SPI Verb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spi.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spib.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spib.structid</td>
+<td>String</td>
+<td>SPI Structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spib.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.maxiov</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max InOut Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.maxiv</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max In Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.maxov</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Out Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.nbverb</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of verbs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.spqo.verb</td>
+<td>Unsigned 32-bit integer</td>
+<td>Verb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.status.code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.status.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.status.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.byteorder</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.ccsid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Character set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.cflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.encoding</td>
+<td>Unsigned 32-bit integer</td>
+<td>Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.luwid</td>
+<td>Byte array</td>
+<td>Logical unit of work identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.padding</td>
+<td>Unsigned 16-bit integer</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.seglength</td>
+<td>Unsigned 32-bit integer</td>
+<td>MQ Segment length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.structid</td>
+<td>String</td>
+<td>TSH structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.closechann</td>
+<td>Boolean</td>
+<td>Close channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.confirmreq</td>
+<td>Boolean</td>
+<td>Confirm request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.dlq</td>
+<td>Boolean</td>
+<td>DLQ used</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.error</td>
+<td>Boolean</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.first</td>
+<td>Boolean</td>
+<td>First</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.last</td>
+<td>Boolean</td>
+<td>Last</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.reqacc</td>
+<td>Boolean</td>
+<td>Request accepted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.tcf.reqclose</td>
+<td>Boolean</td>
+<td>Request close</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.tsh.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Segment type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.uid.longuserid</td>
+<td>String</td>
+<td>Long User ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.uid.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.uid.securityid</td>
+<td>Byte array</td>
+<td>Security ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.uid.structid</td>
+<td>String</td>
+<td>UID structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.uid.userid</td>
+<td>String</td>
+<td>User ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.nbxid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Xid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.returnvalue</td>
+<td>Signed 32-bit integer</td>
+<td>Return value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.rmid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resource manager ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transaction Manager Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.endrscan</td>
+<td>Boolean</td>
+<td>ENDRSCAN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.fail</td>
+<td>Boolean</td>
+<td>FAIL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.join</td>
+<td>Boolean</td>
+<td>JOIN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.onephase</td>
+<td>Boolean</td>
+<td>ONEPHASE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.resume</td>
+<td>Boolean</td>
+<td>RESUME</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.startrscan</td>
+<td>Boolean</td>
+<td>STARTRSCAN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.success</td>
+<td>Boolean</td>
+<td>SUCCESS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.tmflags.suspend</td>
+<td>Boolean</td>
+<td>SUSPEND</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xainfo.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xainfo.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xid.bq</td>
+<td>Byte array</td>
+<td>Branch Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xid.bql</td>
+<td>Unsigned 8-bit integer</td>
+<td>Branch Qualifier Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xid.formatid</td>
+<td>Signed 32-bit integer</td>
+<td>Format ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xid.gxid</td>
+<td>Byte array</td>
+<td>Global TransactionId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xa.xid.gxidl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Global TransactionId Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xqh.remoteq</td>
+<td>String</td>
+<td>Remote queue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xqh.remoteqmgr</td>
+<td>String</td>
+<td>Remote queue manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xqh.structid</td>
+<td>String</td>
+<td>XQH structid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mq.xqh.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

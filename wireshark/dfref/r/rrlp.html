@@ -1,0 +1,4862 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Radio Resource LCS Protocol (RRLP)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Radio Resource LCS Protocol (RRLP)</h1>
+<div><b>Protocol field name:</b> rrlp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>rrlp.accuracy</td>
+<td>Unsigned 32-bit integer</td>
+<td>accuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.acquisAssist</td>
+<td>None</td>
+<td>acquisAssist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.AcquisElement</td>
+<td>None</td>
+<td>AcquisElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.acquisitionAssistance</td>
+<td>Boolean</td>
+<td>acquisitionAssistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.acquisList</td>
+<td>Unsigned 32-bit integer</td>
+<td>acquisList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.add_GPS_AssistData</td>
+<td>None</td>
+<td>add-GPS-AssistData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.add_GPS_controlHeader</td>
+<td>None</td>
+<td>add-GPS-controlHeader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.addionalAngle</td>
+<td>None</td>
+<td>addionalAngle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.addionalDoppler</td>
+<td>None</td>
+<td>addionalDoppler</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.addIonosphericModel</td>
+<td>Boolean</td>
+<td>addIonosphericModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.additionalAngle</td>
+<td>None</td>
+<td>additionalAngle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.additionalAssistanceData</td>
+<td>None</td>
+<td>additionalAssistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.additionalDoppler</td>
+<td>None</td>
+<td>additionalDoppler</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.addUTCmodel</td>
+<td>Boolean</td>
+<td>addUTCmodel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.adr</td>
+<td>Unsigned 32-bit integer</td>
+<td>adr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.af0</td>
+<td>Signed 32-bit integer</td>
+<td>af0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.af1</td>
+<td>Signed 32-bit integer</td>
+<td>af1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.af2</td>
+<td>Signed 32-bit integer</td>
+<td>af2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ai0</td>
+<td>Unsigned 32-bit integer</td>
+<td>ai0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ai1</td>
+<td>Unsigned 32-bit integer</td>
+<td>ai1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ai2</td>
+<td>Unsigned 32-bit integer</td>
+<td>ai2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alamanacToa</td>
+<td>Unsigned 32-bit integer</td>
+<td>alamanacToa</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alamanacWNa</td>
+<td>Unsigned 32-bit integer</td>
+<td>alamanacWNa</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alert</td>
+<td>Unsigned 32-bit integer</td>
+<td>alert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alfa0</td>
+<td>Signed 32-bit integer</td>
+<td>alfa0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alfa1</td>
+<td>Signed 32-bit integer</td>
+<td>alfa1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alfa2</td>
+<td>Signed 32-bit integer</td>
+<td>alfa2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.alfa3</td>
+<td>Signed 32-bit integer</td>
+<td>alfa3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanac</td>
+<td>None</td>
+<td>almanac</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacAF0</td>
+<td>Signed 32-bit integer</td>
+<td>almanacAF0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacAF1</td>
+<td>Signed 32-bit integer</td>
+<td>almanacAF1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacAPowerHalf</td>
+<td>Unsigned 32-bit integer</td>
+<td>almanacAPowerHalf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacE</td>
+<td>Unsigned 32-bit integer</td>
+<td>almanacE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.AlmanacElement</td>
+<td>None</td>
+<td>AlmanacElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacKsii</td>
+<td>Signed 32-bit integer</td>
+<td>almanacKsii</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacList</td>
+<td>Unsigned 32-bit integer</td>
+<td>almanacList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacM0</td>
+<td>Signed 32-bit integer</td>
+<td>almanacM0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacOmega0</td>
+<td>Signed 32-bit integer</td>
+<td>almanacOmega0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacOmegaDot</td>
+<td>Signed 32-bit integer</td>
+<td>almanacOmegaDot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacSVhealth</td>
+<td>Unsigned 32-bit integer</td>
+<td>almanacSVhealth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.almanacW</td>
+<td>Signed 32-bit integer</td>
+<td>almanacW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.antiSpoof</td>
+<td>Unsigned 32-bit integer</td>
+<td>antiSpoof</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.assistanceData</td>
+<td>None</td>
+<td>assistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.assistanceDataAck</td>
+<td>None</td>
+<td>assistanceDataAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.assistanceNeeded</td>
+<td>None</td>
+<td>assistanceNeeded</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.assistanceSupported</td>
+<td>None</td>
+<td>assistanceSupported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.auxiliaryInformation</td>
+<td>Boolean</td>
+<td>auxiliaryInformation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.azimuth</td>
+<td>Unsigned 32-bit integer</td>
+<td>azimuth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.b1</td>
+<td>Signed 32-bit integer</td>
+<td>b1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.b2</td>
+<td>Signed 32-bit integer</td>
+<td>b2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.BadSignalElement</td>
+<td>None</td>
+<td>BadSignalElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.badSignalID</td>
+<td>Byte array</td>
+<td>badSignalID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.badSVID</td>
+<td>Unsigned 32-bit integer</td>
+<td>badSVID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bcchCarrier</td>
+<td>Unsigned 32-bit integer</td>
+<td>bcchCarrier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.beta0</td>
+<td>Signed 32-bit integer</td>
+<td>beta0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.beta1</td>
+<td>Signed 32-bit integer</td>
+<td>beta1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.beta2</td>
+<td>Signed 32-bit integer</td>
+<td>beta2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.beta3</td>
+<td>Signed 32-bit integer</td>
+<td>beta3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_cic</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-cic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_cis</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-cis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_crc</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-crc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_crs</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-crs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_cuc</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-cuc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_cus</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-cus</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_deltaN</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-deltaN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_e</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-e</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_i0</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-i0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_idot</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-idot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_m0</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-m0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_omega</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-omega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_omega0</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-omega0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_omegadot</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-omegadot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_sqrtA</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-sqrtA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_tgd</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-tgd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_tgd1</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-tgd1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bitsize_delta_tgd2</td>
+<td>Unsigned 32-bit integer</td>
+<td>bitsize-delta-tgd2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bsic</td>
+<td>Unsigned 32-bit integer</td>
+<td>bsic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.bsicAndCarrier</td>
+<td>None</td>
+<td>bsicAndCarrier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.btsPosition</td>
+<td>Byte array</td>
+<td>btsPosition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.calcAssistanceBTS</td>
+<td>None</td>
+<td>calcAssistanceBTS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.carrier</td>
+<td>Unsigned 32-bit integer</td>
+<td>carrier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.carrierQualityInd</td>
+<td>Unsigned 32-bit integer</td>
+<td>carrierQualityInd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.channelNumber</td>
+<td>Signed 32-bit integer</td>
+<td>channelNumber</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ci</td>
+<td>Unsigned 32-bit integer</td>
+<td>ci</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ciAndLAC</td>
+<td>None</td>
+<td>ciAndLAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavAdot</td>
+<td>Signed 32-bit integer</td>
+<td>cnavAdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavAf0</td>
+<td>Signed 32-bit integer</td>
+<td>cnavAf0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavAf1</td>
+<td>Signed 32-bit integer</td>
+<td>cnavAf1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavAf2</td>
+<td>Signed 32-bit integer</td>
+<td>cnavAf2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCic</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCis</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavClockModel</td>
+<td>None</td>
+<td>cnavClockModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCrc</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCrc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCrs</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCrs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCuc</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCuc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavCus</td>
+<td>Signed 32-bit integer</td>
+<td>cnavCus</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavDeltaA</td>
+<td>Signed 32-bit integer</td>
+<td>cnavDeltaA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavDeltaNo</td>
+<td>Signed 32-bit integer</td>
+<td>cnavDeltaNo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavDeltaNoDot</td>
+<td>Signed 32-bit integer</td>
+<td>cnavDeltaNoDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavDeltaOmegaDot</td>
+<td>Signed 32-bit integer</td>
+<td>cnavDeltaOmegaDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavE</td>
+<td>Unsigned 32-bit integer</td>
+<td>cnavE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavIo</td>
+<td>Signed 32-bit integer</td>
+<td>cnavIo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavIoDot</td>
+<td>Signed 32-bit integer</td>
+<td>cnavIoDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl1ca</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl1ca</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl1cd</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl1cd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl1cp</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl1cp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl2c</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl2c</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl5i5</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl5i5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavISCl5q5</td>
+<td>Signed 32-bit integer</td>
+<td>cnavISCl5q5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavKeplerianSet</td>
+<td>None</td>
+<td>cnavKeplerianSet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavMo</td>
+<td>Signed 32-bit integer</td>
+<td>cnavMo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavOmega</td>
+<td>Signed 32-bit integer</td>
+<td>cnavOmega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavOMEGA0</td>
+<td>Signed 32-bit integer</td>
+<td>cnavOMEGA0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavTgd</td>
+<td>Signed 32-bit integer</td>
+<td>cnavTgd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavToc</td>
+<td>Unsigned 32-bit integer</td>
+<td>cnavToc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavTop</td>
+<td>Unsigned 32-bit integer</td>
+<td>cnavTop</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavURA0</td>
+<td>Signed 32-bit integer</td>
+<td>cnavURA0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavURA1</td>
+<td>Unsigned 32-bit integer</td>
+<td>cnavURA1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavURA2</td>
+<td>Unsigned 32-bit integer</td>
+<td>cnavURA2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cnavURAindex</td>
+<td>Signed 32-bit integer</td>
+<td>cnavURAindex</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.cNo</td>
+<td>Unsigned 32-bit integer</td>
+<td>cNo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.codePhase</td>
+<td>Unsigned 32-bit integer</td>
+<td>codePhase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.codePhaseRMSError</td>
+<td>Unsigned 32-bit integer</td>
+<td>codePhaseRMSError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.codePhaseSearchWindow</td>
+<td>Unsigned 32-bit integer</td>
+<td>codePhaseSearchWindow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.commonGANSSAssistance</td>
+<td>Byte array</td>
+<td>commonGANSSAssistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.component</td>
+<td>Unsigned 32-bit integer</td>
+<td>component</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.controlHeader</td>
+<td>None</td>
+<td>controlHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.databitassistance</td>
+<td>Boolean</td>
+<td>databitassistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dataID</td>
+<td>Byte array</td>
+<td>dataID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaGANSSTOD</td>
+<td>Unsigned 32-bit integer</td>
+<td>deltaGANSSTOD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaGNASSTOD</td>
+<td>Unsigned 32-bit integer</td>
+<td>deltaGNASSTOD</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.deltaPseudoRangeCor2</td>
+<td>Signed 32-bit integer</td>
+<td>deltaPseudoRangeCor2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaPseudoRangeCor3</td>
+<td>Signed 32-bit integer</td>
+<td>deltaPseudoRangeCor3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaRangeRateCor2</td>
+<td>Signed 32-bit integer</td>
+<td>deltaRangeRateCor2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaRangeRateCor3</td>
+<td>Signed 32-bit integer</td>
+<td>deltaRangeRateCor3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaTow</td>
+<td>Unsigned 32-bit integer</td>
+<td>deltaTow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaUT1</td>
+<td>Signed 32-bit integer</td>
+<td>deltaUT1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.deltaUT1dot</td>
+<td>Signed 32-bit integer</td>
+<td>deltaUT1dot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.DGANSSExtensionSgnElement</td>
+<td>None</td>
+<td>DGANSSExtensionSgnElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dganssExtensionSgnList</td>
+<td>Unsigned 32-bit integer</td>
+<td>dganssExtensionSgnList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.DGANSSExtensionSgnTypeElement</td>
+<td>None</td>
+<td>DGANSSExtensionSgnTypeElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dganssRefTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>dganssRefTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.DGANSSSgnElement</td>
+<td>None</td>
+<td>DGANSSSgnElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dganssSgnList</td>
+<td>Unsigned 32-bit integer</td>
+<td>dganssSgnList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dgpsCorrections</td>
+<td>None</td>
+<td>dgpsCorrections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dgpsCorrectionsValidityPeriod</td>
+<td>Unsigned 32-bit integer</td>
+<td>dgpsCorrectionsValidityPeriod</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.DGPSExtensionSatElement</td>
+<td>None</td>
+<td>DGPSExtensionSatElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.differentialCorrections</td>
+<td>Boolean</td>
+<td>differentialCorrections</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.doppler</td>
+<td>Signed 32-bit integer</td>
+<td>doppler</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.doppler0</td>
+<td>Signed 32-bit integer</td>
+<td>doppler0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.doppler1</td>
+<td>Unsigned 32-bit integer</td>
+<td>doppler1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.dopplerUncertainty</td>
+<td>Unsigned 32-bit integer</td>
+<td>dopplerUncertainty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.e-otd</td>
+<td>Boolean</td>
+<td>e-otd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.earthOrientationParam</td>
+<td>Boolean</td>
+<td>earthOrientationParam</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ecefSBASAlmanac</td>
+<td>None</td>
+<td>ecefSBASAlmanac</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.egnos</td>
+<td>Boolean</td>
+<td>egnos</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.elevation</td>
+<td>Unsigned 32-bit integer</td>
+<td>elevation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.eMSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>eMSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.environmentCharacter</td>
+<td>Unsigned 32-bit integer</td>
+<td>environmentCharacter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.eotd</td>
+<td>Boolean</td>
+<td>eotd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.eotdQuality</td>
+<td>None</td>
+<td>eotdQuality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemAF0</td>
+<td>Signed 32-bit integer</td>
+<td>ephemAF0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemAF1</td>
+<td>Signed 32-bit integer</td>
+<td>ephemAF1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemAF2</td>
+<td>Signed 32-bit integer</td>
+<td>ephemAF2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemAODA</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemAODA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemAPowerHalf</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemAPowerHalf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCic</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCis</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCodeOnL2</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemCodeOnL2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCrc</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCrc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCrs</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCrs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCuc</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCuc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemCus</td>
+<td>Signed 32-bit integer</td>
+<td>ephemCus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemDeltaN</td>
+<td>Signed 32-bit integer</td>
+<td>ephemDeltaN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemE</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemerisDeltaScales</td>
+<td>None</td>
+<td>ephemerisDeltaScales</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemerisDeltaSizes</td>
+<td>None</td>
+<td>ephemerisDeltaSizes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemerisExtension</td>
+<td>Boolean</td>
+<td>ephemerisExtension</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemerisExtensionCheck</td>
+<td>Boolean</td>
+<td>ephemerisExtensionCheck</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemerisExtensionDuration</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemerisExtensionDuration</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemFitFlag</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemFitFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemI0</td>
+<td>Signed 32-bit integer</td>
+<td>ephemI0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemIDot</td>
+<td>Signed 32-bit integer</td>
+<td>ephemIDot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemIODC</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemIODC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemL2Pflag</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemL2Pflag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemM0</td>
+<td>Signed 32-bit integer</td>
+<td>ephemM0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemOmegaA0</td>
+<td>Signed 32-bit integer</td>
+<td>ephemOmegaA0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemOmegaADot</td>
+<td>Signed 32-bit integer</td>
+<td>ephemOmegaADot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemSF1Rsvd</td>
+<td>None</td>
+<td>ephemSF1Rsvd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemSVhealth</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemSVhealth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemTgd</td>
+<td>Signed 32-bit integer</td>
+<td>ephemTgd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemToc</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemToc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemToe</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemToe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemURA</td>
+<td>Unsigned 32-bit integer</td>
+<td>ephemURA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ephemW</td>
+<td>Signed 32-bit integer</td>
+<td>ephemW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.errorCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>errorCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.eventOccured</td>
+<td>Byte array</td>
+<td>eventOccured</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.expectedOTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>expectedOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.expOTDUncertainty</td>
+<td>Unsigned 32-bit integer</td>
+<td>expOTDUncertainty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.extended_reference</td>
+<td>None</td>
+<td>extended-reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.extId</td>
+<td>Object identifier</td>
+<td>extId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.extType</td>
+<td>None</td>
+<td>extType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.fineRTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>fineRTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.fixType</td>
+<td>Unsigned 32-bit integer</td>
+<td>fixType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.fracChips</td>
+<td>Unsigned 32-bit integer</td>
+<td>fracChips</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.frameDrift</td>
+<td>Signed 32-bit integer</td>
+<td>frameDrift</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.frameNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>frameNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.futureEventNoted</td>
+<td>Byte array</td>
+<td>futureEventNoted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gagan</td>
+<td>Boolean</td>
+<td>gagan</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.galileo</td>
+<td>Boolean</td>
+<td>galileo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gannsOrbitModelChoice</td>
+<td>Byte array</td>
+<td>gannsOrbitModelChoice</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss</td>
+<td>Boolean</td>
+<td>ganss</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss_AssistData</td>
+<td>None</td>
+<td>ganss-AssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss_controlHeader</td>
+<td>None</td>
+<td>ganss-controlHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_ID1_element</td>
+<td>None</td>
+<td>GANSS-ID1-element</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_ID3_element</td>
+<td>None</td>
+<td>GANSS-ID3-element</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_MsrElement</td>
+<td>None</td>
+<td>GANSS-MsrElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss_MsrElementList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganss-MsrElementList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_MsrSetElement</td>
+<td>None</td>
+<td>GANSS-MsrSetElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_SgnElement</td>
+<td>None</td>
+<td>GANSS-SgnElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss_SgnList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganss-SgnList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSS_SgnTypeElement</td>
+<td>None</td>
+<td>GANSS-SgnTypeElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganss_SgnTypeList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganss-SgnTypeList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAddIonosphericModel</td>
+<td>None</td>
+<td>ganssAddIonosphericModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSAdditionalAssistanceChoices</td>
+<td>Unsigned 32-bit integer</td>
+<td>gANSSAdditionalAssistanceChoices</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSAdditionalAssistanceChoicesForOneGANSS</td>
+<td>None</td>
+<td>GANSSAdditionalAssistanceChoicesForOneGANSS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAdditionalUTCModelChoice</td>
+<td>Byte array</td>
+<td>ganssAdditionalUTCModelChoice</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAddUTCModel</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssAddUTCModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSAlmanacElement</td>
+<td>Unsigned 32-bit integer</td>
+<td>GANSSAlmanacElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAlmanacList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssAlmanacList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAlmanacModel</td>
+<td>None</td>
+<td>ganssAlmanacModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAlmanacModelChoice</td>
+<td>Byte array</td>
+<td>ganssAlmanacModelChoice</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSAssistance</td>
+<td>Byte array</td>
+<td>gANSSAssistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAssistanceData</td>
+<td>Byte array</td>
+<td>ganssAssistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSAssistanceForOneGANSS</td>
+<td>None</td>
+<td>GANSSAssistanceForOneGANSS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSAssistanceSet</td>
+<td>None</td>
+<td>gANSSAssistanceSet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssAuxiliaryInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssAuxiliaryInfo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssBadSignalList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssBadSignalList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssBeginTime</td>
+<td>None</td>
+<td>ganssBeginTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssCarrierPhaseMeasurementRequest</td>
+<td>None</td>
+<td>ganssCarrierPhaseMeasurementRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssClockModel</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssClockModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssClockModelChoice</td>
+<td>Byte array</td>
+<td>ganssClockModelChoice</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssCodePhaseAmbiguity</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssCodePhaseAmbiguity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssCommonAssistData</td>
+<td>None</td>
+<td>ganssCommonAssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSDataBit</td>
+<td>Unsigned 32-bit integer</td>
+<td>GANSSDataBit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDataBitAssist</td>
+<td>None</td>
+<td>ganssDataBitAssist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDataBits</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDataBits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GanssDataBitsElement</td>
+<td>None</td>
+<td>GanssDataBitsElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDataBitsSatList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDataBitsSatList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSDataBitsSgnElement</td>
+<td>None</td>
+<td>GANSSDataBitsSgnElement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDataBitsSgnList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDataBitsSgnList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDataTypeID</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDataTypeID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.ganssDay</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDeltaElementList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDeltaElementList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSDeltaElementList_item</td>
+<td>Byte array</td>
+<td>GANSSDeltaElementList item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDeltaEpochHeader</td>
+<td>None</td>
+<td>ganssDeltaEpochHeader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDiffCorrections</td>
+<td>None</td>
+<td>ganssDiffCorrections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssDiffCorrectionsValidityPeriod</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssDiffCorrectionsValidityPeriod</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEarthOrientParam</td>
+<td>None</td>
+<td>ganssEarthOrientParam</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEndTime</td>
+<td>None</td>
+<td>ganssEndTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSEphemerisDeltaEpoch</td>
+<td>None</td>
+<td>GANSSEphemerisDeltaEpoch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssephemerisDeltasMatrix</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssephemerisDeltasMatrix</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEphemerisExtCheck</td>
+<td>None</td>
+<td>ganssEphemerisExtCheck</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEphemerisExtension</td>
+<td>None</td>
+<td>ganssEphemerisExtension</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEphemerisHeader</td>
+<td>None</td>
+<td>ganssEphemerisHeader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEphExtDay</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssEphExtDay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssEphExtTOD</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssEphExtTOD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSGenericAssistDataElement</td>
+<td>None</td>
+<td>GANSSGenericAssistDataElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssGenericAssistDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssGenericAssistDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssID</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssID1</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssID1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssID3</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssID3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssIonoModel</td>
+<td>None</td>
+<td>ganssIonoModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssIonosphericModel</td>
+<td>None</td>
+<td>ganssIonosphericModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssIonoStormFlags</td>
+<td>None</td>
+<td>ganssIonoStormFlags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssLocationInfo</td>
+<td>None</td>
+<td>ganssLocationInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssMeasureInfo</td>
+<td>None</td>
+<td>ganssMeasureInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssMsrSetList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssMsrSetList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssMultiFreqMeasurementRequest</td>
+<td>None</td>
+<td>ganssMultiFreqMeasurementRequest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssNavigationModel</td>
+<td>None</td>
+<td>ganssNavigationModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssOrbitModel</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssOrbitModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSPositioningMethodTypes</td>
+<td>Byte array</td>
+<td>gANSSPositioningMethodTypes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssPositionMethod</td>
+<td>Byte array</td>
+<td>ganssPositionMethod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSPositionMethods</td>
+<td>Unsigned 32-bit integer</td>
+<td>gANSSPositionMethods</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssRealTimeIntegrity</td>
+<td>None</td>
+<td>ganssRealTimeIntegrity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSReferenceOrbit</td>
+<td>None</td>
+<td>GANSSReferenceOrbit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssReferenceSet</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssReferenceSet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssReferenceTime</td>
+<td>None</td>
+<td>ganssReferenceTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssRefLocation</td>
+<td>None</td>
+<td>ganssRefLocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssRefMeasAssistList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssRefMeasAssistList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssRefMeasAssitList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssRefMeasAssitList</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.ganssRefMeasurementAssist</td>
+<td>None</td>
+<td>ganssRefMeasurementAssist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSRefMeasurementElement</td>
+<td>None</td>
+<td>GANSSRefMeasurementElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssRefTimeInfo</td>
+<td>None</td>
+<td>ganssRefTimeInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSSatelliteElement</td>
+<td>None</td>
+<td>GANSSSatelliteElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssSatelliteList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssSatelliteList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssSatEventsInfo</td>
+<td>None</td>
+<td>ganssSatEventsInfo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssSignalID</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssSignalID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gANSSSignals</td>
+<td>Byte array</td>
+<td>gANSSSignals</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssSignalType</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssSignalType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssStatusHealth</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssStatusHealth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTimeID</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTimeID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTimeModel</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTimeModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GANSSTimeModelElement</td>
+<td>None</td>
+<td>GANSSTimeModelElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTimeModelRefTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTimeModelRefTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTOD</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTOD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTOD_GSMTimeAssociation</td>
+<td>None</td>
+<td>ganssTOD-GSMTimeAssociation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTODFrac</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTODFrac</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTODGSMTimeAssociationMeasurementRequest</td>
+<td>None</td>
+<td>ganssTODGSMTimeAssociationMeasurementRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTODm</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTODm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssTODUncertainty</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssTODUncertainty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcA0</td>
+<td>Signed 32-bit integer</td>
+<td>ganssUtcA0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcA1</td>
+<td>Signed 32-bit integer</td>
+<td>ganssUtcA1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcDeltaTls</td>
+<td>Signed 32-bit integer</td>
+<td>ganssUtcDeltaTls</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcDeltaTlsf</td>
+<td>Signed 32-bit integer</td>
+<td>ganssUtcDeltaTlsf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcDN</td>
+<td>Signed 32-bit integer</td>
+<td>ganssUtcDN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUTCModel</td>
+<td>None</td>
+<td>ganssUTCModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcTot</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssUtcTot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcWNlsf</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssUtcWNlsf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ganssUtcWNt</td>
+<td>Unsigned 32-bit integer</td>
+<td>ganssUtcWNt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmCA</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloAlmCA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmDeltaIa</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmDeltaIa</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmDeltaTA</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmDeltaTA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmDeltaTdotA</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmDeltaTdotA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmEpsilonA</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloAlmEpsilonA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmHA</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloAlmHA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmLambdaA</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmLambdaA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmMA</td>
+<td>Byte array</td>
+<td>gloAlmMA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmNA</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloAlmNA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmOmegaA</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmOmegaA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmTauA</td>
+<td>Signed 32-bit integer</td>
+<td>gloAlmTauA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloAlmtlambdaA</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloAlmtlambdaA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloDeltaTau</td>
+<td>Signed 32-bit integer</td>
+<td>gloDeltaTau</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloEn</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloEn</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloGamma</td>
+<td>Signed 32-bit integer</td>
+<td>gloGamma</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloM</td>
+<td>Unsigned 32-bit integer</td>
+<td>gloM</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.glonass</td>
+<td>Boolean</td>
+<td>glonass</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.glonassClockModel</td>
+<td>None</td>
+<td>glonassClockModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.glonassECEF</td>
+<td>None</td>
+<td>glonassECEF</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloP1</td>
+<td>Byte array</td>
+<td>gloP1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloP2</td>
+<td>Boolean</td>
+<td>gloP2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloTau</td>
+<td>Signed 32-bit integer</td>
+<td>gloTau</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloX</td>
+<td>Signed 32-bit integer</td>
+<td>gloX</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloXdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloXdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloXdotdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloXdotdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloY</td>
+<td>Signed 32-bit integer</td>
+<td>gloY</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloYdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloYdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloYdotdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloYdotdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloZ</td>
+<td>Signed 32-bit integer</td>
+<td>gloZ</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloZdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloZdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gloZdotdot</td>
+<td>Signed 32-bit integer</td>
+<td>gloZdotdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gnssTOID</td>
+<td>Unsigned 32-bit integer</td>
+<td>gnssTOID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gps</td>
+<td>Boolean</td>
+<td>gps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gps_AssistData</td>
+<td>None</td>
+<td>gps-AssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gps_MeasureInfo</td>
+<td>None</td>
+<td>gps-MeasureInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPS_MsrElement</td>
+<td>None</td>
+<td>GPS-MsrElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gps_msrList</td>
+<td>Unsigned 32-bit integer</td>
+<td>gps-msrList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPS_MsrSetElement</td>
+<td>None</td>
+<td>GPS-MsrSetElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsAssistance</td>
+<td>Byte array</td>
+<td>gpsAssistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsAssistanceData</td>
+<td>Byte array</td>
+<td>gpsAssistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsBeginTime</td>
+<td>None</td>
+<td>gpsBeginTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsBitNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsBitNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsClockModel</td>
+<td>None</td>
+<td>gpsClockModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsDeltaElementList</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsDeltaElementList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPSDeltaElementList_item</td>
+<td>Byte array</td>
+<td>GPSDeltaElementList item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsDeltaEpochHeader</td>
+<td>None</td>
+<td>gpsDeltaEpochHeader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsEndTime</td>
+<td>None</td>
+<td>gpsEndTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPSEphemerisDeltaEpoch</td>
+<td>None</td>
+<td>GPSEphemerisDeltaEpoch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsephemerisDeltaMatrix</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsephemerisDeltaMatrix</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsEphemerisExtension</td>
+<td>None</td>
+<td>gpsEphemerisExtension</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsEphemerisExtensionCheck</td>
+<td>None</td>
+<td>gpsEphemerisExtensionCheck</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsEphemerisHeader</td>
+<td>None</td>
+<td>gpsEphemerisHeader</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsMsrSetList</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsMsrSetList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsOrbitModel</td>
+<td>None</td>
+<td>gpsOrbitModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPSReferenceOrbit</td>
+<td>None</td>
+<td>GPSReferenceOrbit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsReferenceSet</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsReferenceSet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsReferenceTimeUncertainty</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsReferenceTimeUncertainty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsSatEventsInfo</td>
+<td>None</td>
+<td>gpsSatEventsInfo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTime</td>
+<td>None</td>
+<td>gpsTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTimeAssistanceMeasurementRequest</td>
+<td>None</td>
+<td>gpsTimeAssistanceMeasurementRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTOW</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsTOW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTOW23b</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsTOW23b</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTowAssist</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsTowAssist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.GPSTOWAssist_item</td>
+<td>None</td>
+<td>GPSTOWAssist</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.GPSTOWAssistElement</td>
+<td>None</td>
+<td>GPSTOWAssistElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsTowSubms</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsTowSubms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gpsWeek</td>
+<td>Unsigned 32-bit integer</td>
+<td>gpsWeek</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.gsmTime</td>
+<td>None</td>
+<td>gsmTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.identityNotPresent</td>
+<td>None</td>
+<td>identityNotPresent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.identityPresent</td>
+<td>None</td>
+<td>identityPresent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.intCodePhase</td>
+<td>Unsigned 32-bit integer</td>
+<td>intCodePhase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.integerCodePhase</td>
+<td>Unsigned 32-bit integer</td>
+<td>integerCodePhase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.iod</td>
+<td>Unsigned 32-bit integer</td>
+<td>iod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ioda</td>
+<td>Unsigned 32-bit integer</td>
+<td>ioda</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.iode</td>
+<td>Unsigned 32-bit integer</td>
+<td>iode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.iodMSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>iodMSB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoModel</td>
+<td>None</td>
+<td>ionoModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionosphericModel</td>
+<td>None</td>
+<td>ionosphericModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoStormFlag1</td>
+<td>Unsigned 32-bit integer</td>
+<td>ionoStormFlag1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoStormFlag2</td>
+<td>Unsigned 32-bit integer</td>
+<td>ionoStormFlag2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoStormFlag3</td>
+<td>Unsigned 32-bit integer</td>
+<td>ionoStormFlag3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoStormFlag4</td>
+<td>Unsigned 32-bit integer</td>
+<td>ionoStormFlag4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ionoStormFlag5</td>
+<td>Unsigned 32-bit integer</td>
+<td>ionoStormFlag5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacAF0</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacAF0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacAF1</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacAF1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacAPowerHalf</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacAPowerHalf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacDeltaI</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacDeltaI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacE</td>
+<td>Unsigned 32-bit integer</td>
+<td>kepAlmanacE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacM0</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacM0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacOmega0</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacOmega0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacOmegaDot</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacOmegaDot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepAlmanacW</td>
+<td>Signed 32-bit integer</td>
+<td>kepAlmanacW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerAPowerHalf</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerAPowerHalf</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerAPowerHalfLSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerAPowerHalfLSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.keplerCic</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerCis</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerCrc</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCrc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerCrs</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCrs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerCuc</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCuc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerCus</td>
+<td>Signed 32-bit integer</td>
+<td>keplerCus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerDeltaN</td>
+<td>Signed 32-bit integer</td>
+<td>keplerDeltaN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerE</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerELSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerELSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.keplerI0</td>
+<td>Signed 32-bit integer</td>
+<td>keplerI0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianAlmanacSet</td>
+<td>None</td>
+<td>keplerianAlmanacSet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianGLONASS</td>
+<td>None</td>
+<td>keplerianGLONASS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianMidiAlmanac</td>
+<td>None</td>
+<td>keplerianMidiAlmanac</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianNAVAlmanac</td>
+<td>None</td>
+<td>keplerianNAVAlmanac</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianReducedAlmanac</td>
+<td>None</td>
+<td>keplerianReducedAlmanac</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerianSet</td>
+<td>None</td>
+<td>keplerianSet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerIDot</td>
+<td>Signed 32-bit integer</td>
+<td>keplerIDot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerM0</td>
+<td>Signed 32-bit integer</td>
+<td>keplerM0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerOmega0</td>
+<td>Signed 32-bit integer</td>
+<td>keplerOmega0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerOmegaDot</td>
+<td>Signed 32-bit integer</td>
+<td>keplerOmegaDot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerToe</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerToe</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.keplerToeLSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>keplerToeLSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.keplerW</td>
+<td>Signed 32-bit integer</td>
+<td>keplerW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kepSVHealth</td>
+<td>Unsigned 32-bit integer</td>
+<td>kepSVHealth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.kp</td>
+<td>Byte array</td>
+<td>kp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.locationError</td>
+<td>None</td>
+<td>locationError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.locationInfo</td>
+<td>None</td>
+<td>locationInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.locErrorReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>locErrorReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.masas</td>
+<td>Boolean</td>
+<td>masas</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.measureResponseTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>measureResponseTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.methodType</td>
+<td>Unsigned 32-bit integer</td>
+<td>methodType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmaf0</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmaf0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmaf1</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmaf1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmDeltaI</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmDeltaI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmE</td>
+<td>Unsigned 32-bit integer</td>
+<td>midiAlmE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmL1Health</td>
+<td>Boolean</td>
+<td>midiAlmL1Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmL2Health</td>
+<td>Boolean</td>
+<td>midiAlmL2Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmL5Health</td>
+<td>Boolean</td>
+<td>midiAlmL5Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmMo</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmMo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmOmega</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmOmega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmOmega0</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmOmega0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmOmegaDot</td>
+<td>Signed 32-bit integer</td>
+<td>midiAlmOmegaDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.midiAlmSqrtA</td>
+<td>Unsigned 32-bit integer</td>
+<td>midiAlmSqrtA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model1</td>
+<td>Boolean</td>
+<td>model1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model2</td>
+<td>Boolean</td>
+<td>model2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model3</td>
+<td>Boolean</td>
+<td>model3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model4</td>
+<td>Boolean</td>
+<td>model4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model5</td>
+<td>Boolean</td>
+<td>model5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model6</td>
+<td>Boolean</td>
+<td>model6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model7</td>
+<td>Boolean</td>
+<td>model7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.model8</td>
+<td>Boolean</td>
+<td>model8</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.modernizedGPS</td>
+<td>Boolean</td>
+<td>modernizedGPS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.moreAssDataToBeSent</td>
+<td>Unsigned 32-bit integer</td>
+<td>moreAssDataToBeSent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.mpathDet</td>
+<td>Unsigned 32-bit integer</td>
+<td>mpathDet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.mpathIndic</td>
+<td>Unsigned 32-bit integer</td>
+<td>mpathIndic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msAssisted</td>
+<td>None</td>
+<td>msAssisted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msAssistedEOTD</td>
+<td>Boolean</td>
+<td>msAssistedEOTD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msAssistedGPS</td>
+<td>Boolean</td>
+<td>msAssistedGPS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msAssistedPref</td>
+<td>Unsigned 32-bit integer</td>
+<td>msAssistedPref</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msBased</td>
+<td>Unsigned 32-bit integer</td>
+<td>msBased</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msBasedEOTD</td>
+<td>Boolean</td>
+<td>msBasedEOTD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msBasedGPS</td>
+<td>Boolean</td>
+<td>msBasedGPS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msBasedPref</td>
+<td>Unsigned 32-bit integer</td>
+<td>msBasedPref</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.MsrAssistBTS</td>
+<td>None</td>
+<td>MsrAssistBTS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.MsrAssistBTS_R98_ExpOTD</td>
+<td>None</td>
+<td>MsrAssistBTS-R98-ExpOTD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrAssistData</td>
+<td>None</td>
+<td>msrAssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrAssistData_R98_ExpOTD</td>
+<td>None</td>
+<td>msrAssistData-R98-ExpOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrAssistList</td>
+<td>Unsigned 32-bit integer</td>
+<td>msrAssistList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrAssistList_R98_ExpOTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>msrAssistList-R98-ExpOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrPositionReq</td>
+<td>None</td>
+<td>msrPositionReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.msrPositionRsp</td>
+<td>None</td>
+<td>msrPositionRsp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.multiFrameCarrier</td>
+<td>None</td>
+<td>multiFrameCarrier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.multiFrameOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>multiFrameOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.multipleMeasurementSets</td>
+<td>Byte array</td>
+<td>multipleMeasurementSets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.multipleSets</td>
+<td>None</td>
+<td>multipleSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nA</td>
+<td>Unsigned 32-bit integer</td>
+<td>nA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.na_ESRK_Request</td>
+<td>None</td>
+<td>na-ESRK-Request</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.navaf0</td>
+<td>Signed 32-bit integer</td>
+<td>navaf0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navaf1</td>
+<td>Signed 32-bit integer</td>
+<td>navaf1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navaf2</td>
+<td>Signed 32-bit integer</td>
+<td>navaf2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmaf0</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmaf0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmaf1</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmaf1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmDeltaI</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmDeltaI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmE</td>
+<td>Unsigned 32-bit integer</td>
+<td>navAlmE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmMo</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmMo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmOmega</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmOmega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmOMEGADOT</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmOMEGADOT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmOMEGAo</td>
+<td>Signed 32-bit integer</td>
+<td>navAlmOMEGAo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmSqrtA</td>
+<td>Unsigned 32-bit integer</td>
+<td>navAlmSqrtA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAlmSVHealth</td>
+<td>Unsigned 32-bit integer</td>
+<td>navAlmSVHealth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navAPowerHalf</td>
+<td>Unsigned 32-bit integer</td>
+<td>navAPowerHalf</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCic</td>
+<td>Signed 32-bit integer</td>
+<td>navCic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCis</td>
+<td>Signed 32-bit integer</td>
+<td>navCis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navClockModel</td>
+<td>None</td>
+<td>navClockModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCrc</td>
+<td>Signed 32-bit integer</td>
+<td>navCrc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCrs</td>
+<td>Signed 32-bit integer</td>
+<td>navCrs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCuc</td>
+<td>Signed 32-bit integer</td>
+<td>navCuc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navCus</td>
+<td>Signed 32-bit integer</td>
+<td>navCus</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navDeltaN</td>
+<td>Signed 32-bit integer</td>
+<td>navDeltaN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navE</td>
+<td>Unsigned 32-bit integer</td>
+<td>navE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navFitFlag</td>
+<td>Unsigned 32-bit integer</td>
+<td>navFitFlag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navI0</td>
+<td>Signed 32-bit integer</td>
+<td>navI0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navIDot</td>
+<td>Signed 32-bit integer</td>
+<td>navIDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navigationModel</td>
+<td>None</td>
+<td>navigationModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navKeplerianSet</td>
+<td>None</td>
+<td>navKeplerianSet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navM0</td>
+<td>Signed 32-bit integer</td>
+<td>navM0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.NavModelElement</td>
+<td>None</td>
+<td>NavModelElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navModelList</td>
+<td>Unsigned 32-bit integer</td>
+<td>navModelList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navOmega</td>
+<td>Signed 32-bit integer</td>
+<td>navOmega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navOmegaA0</td>
+<td>Signed 32-bit integer</td>
+<td>navOmegaA0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navOmegaADot</td>
+<td>Signed 32-bit integer</td>
+<td>navOmegaADot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navTgd</td>
+<td>Signed 32-bit integer</td>
+<td>navTgd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navToc</td>
+<td>Unsigned 32-bit integer</td>
+<td>navToc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navToe</td>
+<td>Unsigned 32-bit integer</td>
+<td>navToe</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.navURA</td>
+<td>Unsigned 32-bit integer</td>
+<td>navURA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nborTimeSlot</td>
+<td>Unsigned 32-bit integer</td>
+<td>nborTimeSlot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nbrOfMeasurements</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrOfMeasurements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nbrOfReferenceBTSs</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrOfReferenceBTSs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nbrOfSets</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrOfSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.neighborIdentity</td>
+<td>Unsigned 32-bit integer</td>
+<td>neighborIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.newNaviModelUC</td>
+<td>None</td>
+<td>newNaviModelUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.newSatelliteAndModelUC</td>
+<td>None</td>
+<td>newSatelliteAndModelUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nonBroadcastIndFlag</td>
+<td>Unsigned 32-bit integer</td>
+<td>nonBroadcastIndFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.nonGANSSpositionMethods</td>
+<td>Byte array</td>
+<td>nonGANSSpositionMethods</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.notPresent</td>
+<td>None</td>
+<td>notPresent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.numOfMeasurements</td>
+<td>Unsigned 32-bit integer</td>
+<td>numOfMeasurements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.oldSatelliteAndModel</td>
+<td>None</td>
+<td>oldSatelliteAndModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_FirstSetMsrs</td>
+<td>Unsigned 32-bit integer</td>
+<td>otd-FirstSetMsrs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_FirstSetMsrs_R98_Ext</td>
+<td>Unsigned 32-bit integer</td>
+<td>otd-FirstSetMsrs-R98-Ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_MeasureInfo</td>
+<td>None</td>
+<td>otd-MeasureInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_MeasureInfo_5_Ext</td>
+<td>Unsigned 32-bit integer</td>
+<td>otd-MeasureInfo-5-Ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_MeasureInfo_R98_Ext</td>
+<td>None</td>
+<td>otd-MeasureInfo-R98-Ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.OTD_MsrElementRest</td>
+<td>None</td>
+<td>OTD-MsrElementRest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otd_MsrsOfOtherSets</td>
+<td>Unsigned 32-bit integer</td>
+<td>otd-MsrsOfOtherSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otdMsrFirstSets</td>
+<td>None</td>
+<td>otdMsrFirstSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otdMsrFirstSets_R98_Ext</td>
+<td>None</td>
+<td>otdMsrFirstSets-R98-Ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otdMsrRestSets</td>
+<td>Unsigned 32-bit integer</td>
+<td>otdMsrRestSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.otdValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>otdValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pcs_Extensions</td>
+<td>None</td>
+<td>pcs-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.PDU</td>
+<td>None</td>
+<td>PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pmX</td>
+<td>Signed 32-bit integer</td>
+<td>pmX</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pmXdot</td>
+<td>Signed 32-bit integer</td>
+<td>pmXdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pmY</td>
+<td>Signed 32-bit integer</td>
+<td>pmY</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pmYdot</td>
+<td>Signed 32-bit integer</td>
+<td>pmYdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.posCapabilities</td>
+<td>None</td>
+<td>posCapabilities</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.posCapabilityReq</td>
+<td>None</td>
+<td>posCapabilityReq</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.posCapabilityRsp</td>
+<td>None</td>
+<td>posCapabilityRsp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.posData</td>
+<td>Byte array</td>
+<td>posData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.posEstimate</td>
+<td>Byte array</td>
+<td>posEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.positionInstruct</td>
+<td>None</td>
+<td>positionInstruct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.positionMethod</td>
+<td>Unsigned 32-bit integer</td>
+<td>positionMethod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.present</td>
+<td>None</td>
+<td>present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.PrivateExtension</td>
+<td>None</td>
+<td>PrivateExtension</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.privateExtensionList</td>
+<td>Unsigned 32-bit integer</td>
+<td>privateExtensionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.PrivateExtensionList_item</td>
+<td>None</td>
+<td>PrivateExtensionList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.protocolError</td>
+<td>None</td>
+<td>protocolError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pseudoRangeCor</td>
+<td>Signed 32-bit integer</td>
+<td>pseudoRangeCor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.pseuRangeRMSErr</td>
+<td>Unsigned 32-bit integer</td>
+<td>pseuRangeRMSErr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.qzss</td>
+<td>Boolean</td>
+<td>qzss</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rangeRateCor</td>
+<td>Signed 32-bit integer</td>
+<td>rangeRateCor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.realTimeIntegrity</td>
+<td>Unsigned 32-bit integer</td>
+<td>realTimeIntegrity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmDeltaA</td>
+<td>Signed 32-bit integer</td>
+<td>redAlmDeltaA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmL1Health</td>
+<td>Boolean</td>
+<td>redAlmL1Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmL2Health</td>
+<td>Boolean</td>
+<td>redAlmL2Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmL5Health</td>
+<td>Boolean</td>
+<td>redAlmL5Health</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmOmega0</td>
+<td>Signed 32-bit integer</td>
+<td>redAlmOmega0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.redAlmPhi0</td>
+<td>Signed 32-bit integer</td>
+<td>redAlmPhi0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.refBTSList</td>
+<td>Unsigned 32-bit integer</td>
+<td>refBTSList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceAssistData</td>
+<td>None</td>
+<td>referenceAssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceCI</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceFN</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceFN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceFNMSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceFNMSB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceFrame</td>
+<td>None</td>
+<td>referenceFrame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceFrameMSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceFrameMSB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceIdentity</td>
+<td>None</td>
+<td>referenceIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ReferenceIdentityType</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReferenceIdentityType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceLAC</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceLAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceLocation</td>
+<td>Boolean</td>
+<td>referenceLocation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceMeasurementInformation</td>
+<td>Boolean</td>
+<td>referenceMeasurementInformation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceRelation</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceRelation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceTime</td>
+<td>None</td>
+<td>referenceTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceTimeSlot</td>
+<td>Unsigned 32-bit integer</td>
+<td>referenceTimeSlot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.referenceWGS84</td>
+<td>None</td>
+<td>referenceWGS84</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.refFrame</td>
+<td>Unsigned 32-bit integer</td>
+<td>refFrame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.refFrameNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>refFrameNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.refLocation</td>
+<td>None</td>
+<td>refLocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.refQuality</td>
+<td>Unsigned 32-bit integer</td>
+<td>refQuality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel5_AssistanceData_Extension</td>
+<td>None</td>
+<td>rel5-AssistanceData-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel5_MsrPosition_Req_extension</td>
+<td>None</td>
+<td>rel5-MsrPosition-Req-extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel7_AssistanceData_Extension</td>
+<td>None</td>
+<td>rel7-AssistanceData-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel7_MsrPosition_Req_extension</td>
+<td>None</td>
+<td>rel7-MsrPosition-Req-extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel98_AssistanceData_Extension</td>
+<td>None</td>
+<td>rel98-AssistanceData-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel98_Ext_ExpOTD</td>
+<td>None</td>
+<td>rel98-Ext-ExpOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel98_MsrPosition_Req_extension</td>
+<td>None</td>
+<td>rel98-MsrPosition-Req-extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel_5_MsrPosition_Rsp_Extension</td>
+<td>None</td>
+<td>rel-5-MsrPosition-Rsp-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel_5_ProtocolError_Extension</td>
+<td>None</td>
+<td>rel-5-ProtocolError-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel_7_MsrPosition_Rsp_Extension</td>
+<td>None</td>
+<td>rel-7-MsrPosition-Rsp-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel_98_Ext_MeasureInfo</td>
+<td>None</td>
+<td>rel-98-Ext-MeasureInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.rel_98_MsrPosition_Rsp_Extension</td>
+<td>None</td>
+<td>rel-98-MsrPosition-Rsp-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.relativeAlt</td>
+<td>Signed 32-bit integer</td>
+<td>relativeAlt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.relativeEast</td>
+<td>Signed 32-bit integer</td>
+<td>relativeEast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.relativeNorth</td>
+<td>Signed 32-bit integer</td>
+<td>relativeNorth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.requestIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.requiredResponseTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>requiredResponseTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.reserved1</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.reserved2</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.reserved3</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.reserved4</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.roughRTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>roughRTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.SatElement</td>
+<td>None</td>
+<td>SatElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.satelliteID</td>
+<td>Unsigned 32-bit integer</td>
+<td>satelliteID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.satList</td>
+<td>Unsigned 32-bit integer</td>
+<td>satList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.satStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>satStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbagYgDotDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbagYgDotDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbas</td>
+<td>Boolean</td>
+<td>sbas</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAccuracy</td>
+<td>Byte array</td>
+<td>sbasAccuracy</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAgf1</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAgf1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAgfo</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAgfo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmDataID</td>
+<td>Unsigned 32-bit integer</td>
+<td>sbasAlmDataID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmHealth</td>
+<td>Byte array</td>
+<td>sbasAlmHealth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmTo</td>
+<td>Unsigned 32-bit integer</td>
+<td>sbasAlmTo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmXg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmXg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmXgdot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmXgdot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmYg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmYg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmYgDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmYgDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmZg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmZg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasAlmZgDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasAlmZgDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasClockModel</td>
+<td>None</td>
+<td>sbasClockModel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasECEF</td>
+<td>None</td>
+<td>sbasECEF</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasID</td>
+<td>Unsigned 32-bit integer</td>
+<td>sbasID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasTo</td>
+<td>Unsigned 32-bit integer</td>
+<td>sbasTo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasXg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasXg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasXgDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasXgDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasXgDotDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasXgDotDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasYg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasYg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasYgDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasYgDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasZg</td>
+<td>Signed 32-bit integer</td>
+<td>sbasZg</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasZgDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasZgDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sbasZgDotDot</td>
+<td>Signed 32-bit integer</td>
+<td>sbasZgDotDot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_cic</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-cic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_cis</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-cis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_crc</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-crc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_crs</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-crs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_cuc</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-cuc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_cus</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-cus</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_deltaN</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-deltaN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_e</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-e</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_i0</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-i0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_idot</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-idot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_m0</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-m0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_omega</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-omega</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_omega0</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-omega0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_omegadot</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-omegadot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_sqrtA</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-sqrtA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_tgd</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-tgd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_tgd1</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-tgd1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.scale_delta_tgd2</td>
+<td>Signed 32-bit integer</td>
+<td>scale-delta-tgd2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.SeqOf_BadSatelliteSet_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOf-BadSatelliteSet</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOf_GANSSDataBits_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOf-GANSSDataBits</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfAcquisElement_item</td>
+<td>None</td>
+<td>SeqOfAcquisElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfAlmanacElement_item</td>
+<td>None</td>
+<td>SeqOfAlmanacElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfBadSignalElement_item</td>
+<td>None</td>
+<td>SeqOfBadSignalElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfDGANSSSgnElement_item</td>
+<td>None</td>
+<td>SeqOfDGANSSSgnElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSS_MsrSetElement_item</td>
+<td>None</td>
+<td>SeqOfGANSS-MsrSetElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSS_SgnElement_item</td>
+<td>None</td>
+<td>SeqOfGANSS-SgnElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSS_SgnTypeElement_item</td>
+<td>None</td>
+<td>SeqOfGANSS-SgnTypeElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSSAlmanacElement_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOfGANSSAlmanacElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSSGenericAssistDataElement_item</td>
+<td>None</td>
+<td>SeqOfGANSSGenericAssistDataElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSSRefMeasurementElement_item</td>
+<td>None</td>
+<td>SeqOfGANSSRefMeasurementElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSSSatelliteElement_item</td>
+<td>None</td>
+<td>SeqOfGANSSSatelliteElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGANSSTimeModel_item</td>
+<td>None</td>
+<td>SeqOfGANSSTimeModel</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGPS_MsrElement_item</td>
+<td>None</td>
+<td>SeqOfGPS-MsrElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfGPS_MsrSetElement_item</td>
+<td>None</td>
+<td>SeqOfGPS-MsrSetElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfMsrAssistBTS_item</td>
+<td>None</td>
+<td>SeqOfMsrAssistBTS</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfMsrAssistBTS_R98_ExpOTD_item</td>
+<td>None</td>
+<td>SeqOfMsrAssistBTS-R98-ExpOTD</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfNavModelElement_item</td>
+<td>None</td>
+<td>SeqOfNavModelElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfOTD_FirstSetMsrs_item</td>
+<td>None</td>
+<td>SeqOfOTD-FirstSetMsrs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfOTD_FirstSetMsrs_R98_Ext_item</td>
+<td>None</td>
+<td>SeqOfOTD-FirstSetMsrs-R98-Ext</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfOTD_MsrElementRest_item</td>
+<td>None</td>
+<td>SeqOfOTD-MsrElementRest</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfOTD_MsrsOfOtherSets_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOfOTD-MsrsOfOtherSets</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfReferenceIdentityType_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOfReferenceIdentityType</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfSatElement_item</td>
+<td>None</td>
+<td>SeqOfSatElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfSgnTypeElement_item</td>
+<td>None</td>
+<td>SeqOfSgnTypeElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfStandardClockModelElement_item</td>
+<td>None</td>
+<td>SeqOfStandardClockModelElement</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfSystemInfoAssistBTS_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOfSystemInfoAssistBTS</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SeqOfSystemInfoAssistBTS_R98_ExpOTD_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SeqOfSystemInfoAssistBTS-R98-ExpOTD</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rrlp.SgnTypeElement</td>
+<td>None</td>
+<td>SgnTypeElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sgnTypeList</td>
+<td>Unsigned 32-bit integer</td>
+<td>sgnTypeList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal1</td>
+<td>Boolean</td>
+<td>signal1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal2</td>
+<td>Boolean</td>
+<td>signal2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal3</td>
+<td>Boolean</td>
+<td>signal3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal4</td>
+<td>Boolean</td>
+<td>signal4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal5</td>
+<td>Boolean</td>
+<td>signal5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal6</td>
+<td>Boolean</td>
+<td>signal6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal7</td>
+<td>Boolean</td>
+<td>signal7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signal8</td>
+<td>Boolean</td>
+<td>signal8</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.signalsAvailable</td>
+<td>Byte array</td>
+<td>signalsAvailable</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.smlc_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>smlc-code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.specificGANSSAssistance</td>
+<td>Unsigned 32-bit integer</td>
+<td>specificGANSSAssistance</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.sqrtAMBS</td>
+<td>Unsigned 32-bit integer</td>
+<td>sqrtAMBS</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.stanClockAF0</td>
+<td>Signed 32-bit integer</td>
+<td>stanClockAF0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanClockAF1</td>
+<td>Signed 32-bit integer</td>
+<td>stanClockAF1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanClockAF2</td>
+<td>Signed 32-bit integer</td>
+<td>stanClockAF2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanClockTgd</td>
+<td>Signed 32-bit integer</td>
+<td>stanClockTgd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanClockToc</td>
+<td>Unsigned 32-bit integer</td>
+<td>stanClockToc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanClockTocLSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>stanClockTocLSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.standalone</td>
+<td>Boolean</td>
+<td>standalone</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.standaloneGPS</td>
+<td>Boolean</td>
+<td>standaloneGPS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.StandardClockModelElement</td>
+<td>None</td>
+<td>StandardClockModelElement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.standardClockModelList</td>
+<td>Unsigned 32-bit integer</td>
+<td>standardClockModelList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stanModelID</td>
+<td>Unsigned 32-bit integer</td>
+<td>stanModelID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stationaryIndication</td>
+<td>Unsigned 32-bit integer</td>
+<td>stationaryIndication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stdOfEOTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>stdOfEOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.stdResolution</td>
+<td>Unsigned 32-bit integer</td>
+<td>stdResolution</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.svHealth</td>
+<td>Byte array</td>
+<td>svHealth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.svHealthMSB</td>
+<td>Byte array</td>
+<td>svHealthMSB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.svid</td>
+<td>Unsigned 32-bit integer</td>
+<td>svid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.svIDMask</td>
+<td>Byte array</td>
+<td>svIDMask</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.SystemInfoAssistBTS</td>
+<td>Unsigned 32-bit integer</td>
+<td>SystemInfoAssistBTS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.SystemInfoAssistBTS_R98_ExpOTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>SystemInfoAssistBTS-R98-ExpOTD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.systemInfoAssistData</td>
+<td>None</td>
+<td>systemInfoAssistData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.systemInfoAssistData_R98_ExpOTD</td>
+<td>None</td>
+<td>systemInfoAssistData-R98-ExpOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.systemInfoAssistList</td>
+<td>Unsigned 32-bit integer</td>
+<td>systemInfoAssistList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.systemInfoAssistListR98_ExpOTD</td>
+<td>Unsigned 32-bit integer</td>
+<td>systemInfoAssistListR98-ExpOTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.systemInfoIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>systemInfoIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tA0</td>
+<td>Signed 32-bit integer</td>
+<td>tA0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tA1</td>
+<td>Signed 32-bit integer</td>
+<td>tA1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tA2</td>
+<td>Signed 32-bit integer</td>
+<td>tA2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.taCorrection</td>
+<td>Unsigned 32-bit integer</td>
+<td>taCorrection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tauC</td>
+<td>Signed 32-bit integer</td>
+<td>tauC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.teop</td>
+<td>Unsigned 32-bit integer</td>
+<td>teop</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tgd</td>
+<td>Signed 32-bit integer</td>
+<td>tgd</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.threeDLocation</td>
+<td>Byte array</td>
+<td>threeDLocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeAssistanceMeasurements</td>
+<td>None</td>
+<td>timeAssistanceMeasurements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeAtEstimation</td>
+<td>None</td>
+<td>timeAtEstimation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeModelGNSS-GNSS</td>
+<td>Boolean</td>
+<td>timeModelGNSS-GNSS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeModelGNSS-UTC</td>
+<td>Boolean</td>
+<td>timeModelGNSS-UTC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeofEstimation</td>
+<td>None</td>
+<td>timeofEstimation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeRelation</td>
+<td>None</td>
+<td>timeRelation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeSlot</td>
+<td>Unsigned 32-bit integer</td>
+<td>timeSlot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.timeSlotScheme</td>
+<td>Unsigned 32-bit integer</td>
+<td>timeSlotScheme</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tlmRsvdBits</td>
+<td>Unsigned 32-bit integer</td>
+<td>tlmRsvdBits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.tlmWord</td>
+<td>Unsigned 32-bit integer</td>
+<td>tlmWord</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.toa</td>
+<td>Unsigned 32-bit integer</td>
+<td>toa</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.toaMeasurementsOfRef</td>
+<td>None</td>
+<td>toaMeasurementsOfRef</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.toeMSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>toeMSB</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>rrlp.transaction_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>transaction-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.udre</td>
+<td>Unsigned 32-bit integer</td>
+<td>udre</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.udreGrowthRate</td>
+<td>Unsigned 32-bit integer</td>
+<td>udreGrowthRate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.udreValidityTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>udreValidityTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.ulPseudoSegInd</td>
+<td>Unsigned 32-bit integer</td>
+<td>ulPseudoSegInd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.useMultipleSets</td>
+<td>Unsigned 32-bit integer</td>
+<td>useMultipleSets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcA0</td>
+<td>Signed 32-bit integer</td>
+<td>utcA0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcA0wnt</td>
+<td>Signed 32-bit integer</td>
+<td>utcA0wnt</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcA1</td>
+<td>Signed 32-bit integer</td>
+<td>utcA1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcA1wnt</td>
+<td>Signed 32-bit integer</td>
+<td>utcA1wnt</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcA2</td>
+<td>Signed 32-bit integer</td>
+<td>utcA2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcDeltaTls</td>
+<td>Signed 32-bit integer</td>
+<td>utcDeltaTls</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcDeltaTlsf</td>
+<td>Signed 32-bit integer</td>
+<td>utcDeltaTlsf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcDN</td>
+<td>Signed 32-bit integer</td>
+<td>utcDN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcModel</td>
+<td>None</td>
+<td>utcModel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcModel2</td>
+<td>None</td>
+<td>utcModel2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcModel3</td>
+<td>None</td>
+<td>utcModel3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcModel4</td>
+<td>None</td>
+<td>utcModel4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcStandardID</td>
+<td>Unsigned 32-bit integer</td>
+<td>utcStandardID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcTot</td>
+<td>Unsigned 32-bit integer</td>
+<td>utcTot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcWNlsf</td>
+<td>Unsigned 32-bit integer</td>
+<td>utcWNlsf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcWNot</td>
+<td>Unsigned 32-bit integer</td>
+<td>utcWNot</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.utcWNt</td>
+<td>Unsigned 32-bit integer</td>
+<td>utcWNt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.validityPeriod</td>
+<td>Unsigned 32-bit integer</td>
+<td>validityPeriod</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.velEstimate</td>
+<td>Byte array</td>
+<td>velEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.velocityRequested</td>
+<td>None</td>
+<td>velocityRequested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.waas</td>
+<td>Boolean</td>
+<td>waas</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.weekNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>weekNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rrlp.wholeChips</td>
+<td>Unsigned 32-bit integer</td>
+<td>wholeChips</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

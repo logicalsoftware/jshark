@@ -1,0 +1,824 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GSM A-I/F GPRS Mobility and Session Management</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GSM A-I/F GPRS Mobility and Session Management</h1>
+<div><b>Protocol field name:</b> gsm_a_gm</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_gmm_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP GPRS Mobility Management Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_sm_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP GPRS Session Management Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.ac_ref_nr</td>
+<td>Unsigned 8-bit integer</td>
+<td>A&C reference number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.acc_cap_struct_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length in bits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.acc_tech_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Access Technology Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.apc</td>
+<td>Boolean</td>
+<td>APC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>gmm Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.ciph_key_seq_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ciphering key sequence number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.fop</td>
+<td>Boolean</td>
+<td>Follow-on proceed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.for</td>
+<td>Boolean</td>
+<td>Follow-on request pending</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.force_to_standby</td>
+<td>Unsigned 8-bit integer</td>
+<td>Force to standby</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.gprs_timer_unit</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.gprs_timer_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timer value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.gps_a</td>
+<td>Boolean</td>
+<td>GPS-A</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.gps_b</td>
+<td>Boolean</td>
+<td>GPS-B</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.gps_c</td>
+<td>Boolean</td>
+<td>GPS-C</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.imeisv_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMEISV request</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.otd_a</td>
+<td>Boolean</td>
+<td>OTD-A</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.otd_b</td>
+<td>Boolean</td>
+<td>OTD-B</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac</td>
+<td>Unsigned 8-bit integer</td>
+<td>Routing Area Code (RAC)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.8psk_pow_cap_pres</td>
+<td>Boolean</td>
+<td>8PSK Power Capability Bits</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.cdma2000_cap</td>
+<td>Boolean</td>
+<td>CDMA 2000 Radio Access Technology Capability</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.comp_int_meas_cap</td>
+<td>Boolean</td>
+<td>Controlled early Classmark Sending</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.dtm_egprs_multi_slot_cls_pres</td>
+<td>Boolean</td>
+<td>DTM EGPRS Multi Slot Class</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.geran_feat_pkg</td>
+<td>Boolean</td>
+<td>GERAN Feature Package 1</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.multislot_capability</td>
+<td>Boolean</td>
+<td>Multislot capability struct</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.single_slt_dtm</td>
+<td>Boolean</td>
+<td>Single Slot DTM</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.umts_128_tdd_ra_cap</td>
+<td>Boolean</td>
+<td>UMTS 1.28 Mcps TDD Radio Access Technology Capability</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.umts_384_tdd_ra_cap</td>
+<td>Boolean</td>
+<td>UMTS 3.84 Mcps TDD Radio Access Technology Capability</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.rac.umts_fdd_cap</td>
+<td>Boolean</td>
+<td>UMTS FDD Radio Access Technology Capability</td>
+<td>1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.res_of_attach</td>
+<td>Unsigned 8-bit integer</td>
+<td>Result of attach</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.serv_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>(SM_VALUE) Switch-Measure</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.sm.ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.sms</td>
+<td>Unsigned 8-bit integer</td>
+<td>SMS_VALUE (Switch-Measure-Switch)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.tmsi_flag</td>
+<td>Boolean</td>
+<td>TMSI flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.type_of_attach</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of attach</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.type_of_ciph_alg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of ciphering algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.type_of_identity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of identity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gm.update_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Update type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.cn_spec_drs_cycle_len_coef</td>
+<td>Unsigned 8-bit integer</td>
+<td>CN Specific DRX cycle length coefficient</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.csfb</td>
+<td>Boolean</td>
+<td>CSFB Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.epc</td>
+<td>Boolean</td>
+<td>EPC Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.ext_gea_bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended GEA bits</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea1</td>
+<td>Boolean</td>
+<td>GEA/1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea2</td>
+<td>Boolean</td>
+<td>GEA/2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea3</td>
+<td>Boolean</td>
+<td>GEA/3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea4</td>
+<td>Boolean</td>
+<td>GEA/4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea5</td>
+<td>Boolean</td>
+<td>GEA/5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea6</td>
+<td>Boolean</td>
+<td>GEA/6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.gea7</td>
+<td>Boolean</td>
+<td>GEA/7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.isr</td>
+<td>Boolean</td>
+<td>ISR support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.lcs</td>
+<td>Boolean</td>
+<td>LCS VA capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.pfc</td>
+<td>Boolean</td>
+<td>PFC feature mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.ps_irat_iu</td>
+<td>Boolean</td>
+<td>PS inter-RAT HO to UTRAN Iu mode capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.ps_irat_s1</td>
+<td>Boolean</td>
+<td>PS inter-RAT HO to E-UTRAN S1 mode capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.rev</td>
+<td>Boolean</td>
+<td>Revision level indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.smdch</td>
+<td>Boolean</td>
+<td>SM capabilities via dedicated channels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.smgprs</td>
+<td>Boolean</td>
+<td>SM capabilities via GPRS channels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.solsa</td>
+<td>Boolean</td>
+<td>SoLSA Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.srvcc_to_geran</td>
+<td>Boolean</td>
+<td>SRVCC to GERAN/UTRAN capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.ss_scr_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS Screening Indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.net_cap.ucs2</td>
+<td>Boolean</td>
+<td>UCS2 support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.non_drx_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Non-DRX timer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.gmm.split_on_ccch</td>
+<td>Boolean</td>
+<td>SPLIT on CCCH</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.ptmsi_sig</td>
+<td>Unsigned 24-bit integer</td>
+<td>P-TMSI Signature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.ptmsi_sig2</td>
+<td>Unsigned 24-bit integer</td>
+<td>P-TMSI Signature 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.ber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Residual Bit Error Rate (BER)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.del_of_err_sdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery of erroneous SDUs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.del_order</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery order</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.delay_cls</td>
+<td>Unsigned 8-bit integer</td>
+<td>Quality of Service Delay class</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.guar_bitrate_downl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bitrate for downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.guar_bitrate_downl_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bitrate for downlink (extended)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.guar_bitrate_upl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bitrate for uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.guar_bitrate_upl_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bitrate for uplink (extended)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.max_bitrate_downl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bitrate for downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.max_bitrate_downl_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bitrate for downlink (extended)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.max_bitrate_upl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bitrate for uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.max_bitrate_upl_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bitrate for uplink (extended)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.mean_throughput</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mean throughput</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.peak_throughput</td>
+<td>Unsigned 8-bit integer</td>
+<td>Peak throughput</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.prec_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Precedence class</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.sdu_err_rat</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDU error ratio</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.signalling_ind</td>
+<td>Boolean</td>
+<td>Signalling indication</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.source_stat_desc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source statistics description</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.traf_handl_prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic handling priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.traff_hdl_pri</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic handling priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.traffic_cls</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic class</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.qos.trans_delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transfer delay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>SM Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.cause_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>SM Cause 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.enh_nsapi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Enhanced NSAPI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.ip4_address</td>
+<td>IPv4 address</td>
+<td>IPv4 adress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.ip4_mask</td>
+<td>IPv4 address</td>
+<td>IPv4 address mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.ip6_address</td>
+<td>IPv6 address</td>
+<td>IPv6 adress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.ip6_mask</td>
+<td>IPv6 address</td>
+<td>IPv6 adress mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.llc_sapi</td>
+<td>Unsigned 8-bit integer</td>
+<td>LLC SAPI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.packet_flow_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Flow Identifier (PFI)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.pdp_type_org</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDP type organization</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.req_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.tdi</td>
+<td>Boolean</td>
+<td>Tear Down Indicator (TDI)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sm.tmgi</td>
+<td>Unsigned 24-bit integer</td>
+<td>Temporary Mobile Group Identity (TMGI)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.e_bit</td>
+<td>Boolean</td>
+<td>E bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.flow_label_type</td>
+<td>Unsigned 24-bit integer</td>
+<td>Flow Label Type</td>
+<td>1.4.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.ip4_address</td>
+<td>IPv4 address</td>
+<td>IPv4 adress</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_a.tft.ip4_mask</td>
+<td>IPv4 address</td>
+<td>IPv4 address mask</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_a.tft.ip6_address</td>
+<td>IPv6 address</td>
+<td>IPv6 adress</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_a.tft.ip6_mask</td>
+<td>IPv6 address</td>
+<td>IPv6 adress mask</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_a.tft.op_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFT operation code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.param_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.pkt_flt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of packet filters</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.pkt_flt_dir</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet filter direction</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.pkt_flt_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet filter identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.port_high</td>
+<td>Unsigned 16-bit integer</td>
+<td>High limit port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.port_low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Low limit port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.protocol_header</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol/header</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.security</td>
+<td>Unsigned 32-bit integer</td>
+<td>IPSec security parameter index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.tft.traffic_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a_gm.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

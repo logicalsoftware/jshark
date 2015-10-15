@@ -1,0 +1,692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: File Replication Service DFS-R</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: File Replication Service DFS-R</h1>
+<div><b>Protocol field name:</b> frstrans</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncPoll.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncPoll.response</td>
+<td>None</td>
+<td>Response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncResponseContext.response</td>
+<td>None</td>
+<td>Response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncResponseContext.sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncResponseContext.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncVersionVectorResponse.epoque_vector</td>
+<td>None</td>
+<td>Epoque Vector</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncVersionVectorResponse.epoque_vector_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Epoque Vector Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncVersionVectorResponse.version_vector</td>
+<td>None</td>
+<td>Version Vector</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncVersionVectorResponse.version_vector_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Vector Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_AsyncVersionVectorResponse.vv_generation</td>
+<td>Unsigned 64-bit integer</td>
+<td>Vv Generation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_CheckConnectivity.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_CheckConnectivity.replica_set_guid</td>
+<td>GUID or UUID</td>
+<td>Replica Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.day</td>
+<td>Unsigned 32-bit integer</td>
+<td>Day</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.day_of_week</td>
+<td>Unsigned 32-bit integer</td>
+<td>Day Of Week</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.hour</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hour</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.machine_guid</td>
+<td>GUID or UUID</td>
+<td>Machine Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.milli_seconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>Milli Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.minute</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.month</td>
+<td>Unsigned 32-bit integer</td>
+<td>Month</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.second</td>
+<td>Unsigned 32-bit integer</td>
+<td>Second</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EpoqueVector.year</td>
+<td>Unsigned 32-bit integer</td>
+<td>Year</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.downstream_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Downstream Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.downstream_protocol_version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Downstream Protocol Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.replica_set_guid</td>
+<td>GUID or UUID</td>
+<td>Replica Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.upstream_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Upstream Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishConnection.upstream_protocol_version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Upstream Protocol Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishSession.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_EstablishSession.content_set_guid</td>
+<td>GUID or UUID</td>
+<td>Content Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.buffer_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buffer Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.data_buffer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Buffer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.frs_update</td>
+<td>None</td>
+<td>Frs Update</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.is_end_of_file</td>
+<td>Unsigned 32-bit integer</td>
+<td>Is End Of File</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.rdc_desired</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rdc Desired</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.rdc_file_info</td>
+<td>None</td>
+<td>Rdc File Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.server_context</td>
+<td>Byte array</td>
+<td>Server Context</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.size_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size Read</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_InitializeFileTransferAsync.staging_policy</td>
+<td>Unsigned 16-bit integer</td>
+<td>Staging Policy</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.compression_algorithm</td>
+<td>Unsigned 16-bit integer</td>
+<td>Compression Algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.file_size_estimate</td>
+<td>Unsigned 64-bit integer</td>
+<td>File Size Estimate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.on_disk_file_size</td>
+<td>Unsigned 64-bit integer</td>
+<td>On Disk File Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.rdc_filter_parameters</td>
+<td>None</td>
+<td>Rdc Filter Parameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.rdc_minimum_compatible_version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Rdc Minimum Compatible Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.rdc_signature_levels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rdc Signature Levels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcFileInfo.rdc_version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Rdc Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterFilterMax.max_window_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Window Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterFilterMax.min_horizon_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min Horizon Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterFilterPoint.max_chunk_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Chunk Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterFilterPoint.min_chunk_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min Chunk Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterGeneric.chunker_parameters</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chunker Parameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterGeneric.chunker_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Chunker Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameters.rdc_chunker_algorithm</td>
+<td>Unsigned 16-bit integer</td>
+<td>Rdc Chunker Algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameters.u</td>
+<td>None</td>
+<td>U</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterUnion.filter_generic</td>
+<td>None</td>
+<td>Filter Generic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterUnion.filter_max</td>
+<td>None</td>
+<td>Filter Max</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RdcParameterUnion.filter_point</td>
+<td>None</td>
+<td>Filter Point</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.content_set_guid</td>
+<td>GUID or UUID</td>
+<td>Content Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.credits_available</td>
+<td>Unsigned 32-bit integer</td>
+<td>Credits Available</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.frs_update</td>
+<td>None</td>
+<td>Frs Update</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.gvsn_db_guid</td>
+<td>GUID or UUID</td>
+<td>Gvsn Db Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.gvsn_version</td>
+<td>Unsigned 64-bit integer</td>
+<td>Gvsn Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.hash_requested</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hash Requested</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.update_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Update Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.update_request_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Update Request Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.update_status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Update Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.version_vector_diff</td>
+<td>None</td>
+<td>Version Vector Diff</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestUpdates.version_vector_diff_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Vector Diff Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.change_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Change Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.connection_guid</td>
+<td>GUID or UUID</td>
+<td>Connection Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.content_set_guid</td>
+<td>GUID or UUID</td>
+<td>Content Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.request_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Request Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_RequestVersionVector.vv_generation</td>
+<td>Unsigned 64-bit integer</td>
+<td>Vv Generation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_TransportFlags.FRSTRANS_TRANSPORT_SUPPORTS_RDC_SIMILARITY</td>
+<td>Boolean</td>
+<td>Frstrans Transport Supports Rdc Similarity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.attributes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Attributes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.clock</td>
+<td>Date/Time stamp</td>
+<td>Clock</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.content_set_guid</td>
+<td>GUID or UUID</td>
+<td>Content Set Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.create_time</td>
+<td>Date/Time stamp</td>
+<td>Create Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.fence</td>
+<td>Date/Time stamp</td>
+<td>Fence</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.gsvn_db_guid</td>
+<td>GUID or UUID</td>
+<td>Gsvn Db Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.gsvn_version</td>
+<td>Unsigned 64-bit integer</td>
+<td>Gsvn Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.name_conflict</td>
+<td>Unsigned 32-bit integer</td>
+<td>Name Conflict</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.parent_db_guid</td>
+<td>GUID or UUID</td>
+<td>Parent Db Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.parent_version</td>
+<td>Unsigned 64-bit integer</td>
+<td>Parent Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.present</td>
+<td>Unsigned 32-bit integer</td>
+<td>Present</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.rdc_similarity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rdc Similarity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.sha1_hash</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sha1 Hash</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.uid_db_guid</td>
+<td>GUID or UUID</td>
+<td>Uid Db Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_Update.uid_version</td>
+<td>Unsigned 64-bit integer</td>
+<td>Uid Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_VersionVector.db_guid</td>
+<td>GUID or UUID</td>
+<td>Db Guid</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_VersionVector.high</td>
+<td>Unsigned 64-bit integer</td>
+<td>High</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.frstrans_VersionVector.low</td>
+<td>Unsigned 64-bit integer</td>
+<td>Low</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>frstrans.werror</td>
+<td>Unsigned 32-bit integer</td>
+<td>Windows Error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

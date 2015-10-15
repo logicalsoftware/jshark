@@ -1,0 +1,938 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: DOCSIS Appendix C TLV's</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: DOCSIS Appendix C TLV's</h1>
+<div><b>Protocol field name:</b> docsis_tlv</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>docsis_tlv.auth_block</td>
+<td>Byte array</td>
+<td>30 Auth Block</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.bpi</td>
+<td>Byte array</td>
+<td>17 Baseline Privacy Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.bpi_en</td>
+<td>Boolean</td>
+<td>29 Privacy Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.actstate</td>
+<td>Boolean</td>
+<td>.6 Activation State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.dot1q</td>
+<td>Byte array</td>
+<td>.11 802.1Q Classifier Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.dot1q.ethertype</td>
+<td>Unsigned 16-bit integer</td>
+<td>..2 VLAN id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.dot1q.userpri</td>
+<td>Unsigned 16-bit integer</td>
+<td>..1 User Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.dot1q.vendorspec</td>
+<td>Byte array</td>
+<td>..43 Vendor Specific Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.dscact</td>
+<td>Unsigned 8-bit integer</td>
+<td>.7 DSC Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.err</td>
+<td>Byte array</td>
+<td>.8 Error Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.err.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>..2 Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.err.msg</td>
+<td>String</td>
+<td>..3 Error Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.err.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>..1 Param Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.eth</td>
+<td>Byte array</td>
+<td>.10 Ethernet Classifier Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.eth.dmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>..1 Dest Mac Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.eth.ethertype</td>
+<td>Unsigned 24-bit integer</td>
+<td>..3 Ethertype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.eth.smac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>..2 Source Mac Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>.2 Classifier ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip</td>
+<td>Byte array</td>
+<td>.9 IP Classifier Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.dmask</td>
+<td>IPv4 address</td>
+<td>..6 Destination Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.dportend</td>
+<td>Unsigned 16-bit integer</td>
+<td>..10 Dest Port End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.dportstart</td>
+<td>Unsigned 16-bit integer</td>
+<td>..9 Dest Port Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.dst</td>
+<td>IPv4 address</td>
+<td>..4 Destination Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.ipproto</td>
+<td>Unsigned 16-bit integer</td>
+<td>..2 IP Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.smask</td>
+<td>IPv4 address</td>
+<td>..5 Source Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.sportend</td>
+<td>Unsigned 16-bit integer</td>
+<td>..8 Source Port End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.sportstart</td>
+<td>Unsigned 16-bit integer</td>
+<td>..7 Source Port Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.src</td>
+<td>IPv4 address</td>
+<td>..3 Source Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ip.tosmask</td>
+<td>Byte array</td>
+<td>..1 Type Of Service Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.ref</td>
+<td>Unsigned 8-bit integer</td>
+<td>.1 Classifier Ref</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.rulepri</td>
+<td>Unsigned 8-bit integer</td>
+<td>.5 Rule Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.sflowid</td>
+<td>Unsigned 16-bit integer</td>
+<td>.4 Service Flow ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.sflowref</td>
+<td>Unsigned 16-bit integer</td>
+<td>.3 Service Flow Ref</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.clsfr.vendor</td>
+<td>Byte array</td>
+<td>.43 Vendor Specific Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cmmic</td>
+<td>Byte array</td>
+<td>6 CM MIC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cmtsmic</td>
+<td>Byte array</td>
+<td>7 CMTS MIC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos</td>
+<td>Byte array</td>
+<td>4 COS Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>.1 Class ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.maxdown</td>
+<td>Unsigned 32-bit integer</td>
+<td>.2 Max Downstream Rate (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.maxup</td>
+<td>Unsigned 32-bit integer</td>
+<td>.3 Max Upstream Rate (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.maxupburst</td>
+<td>Unsigned 16-bit integer</td>
+<td>.6 Maximum Upstream Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.mingrntdup</td>
+<td>Unsigned 32-bit integer</td>
+<td>.5 Guaranteed Upstream Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.privacy_enable</td>
+<td>Boolean</td>
+<td>.7 COS Privacy Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.sid</td>
+<td>Unsigned 16-bit integer</td>
+<td>.2 Service ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cos.upchnlpri</td>
+<td>Unsigned 8-bit integer</td>
+<td>.4 Upstream Channel Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cosign_cvc</td>
+<td>Byte array</td>
+<td>33 Co-Signer CVC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.cpe_ether</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>14 CPE Ethernet Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.downclsfr</td>
+<td>Byte array</td>
+<td>23 Downstream Classifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.downfreq</td>
+<td>Unsigned 32-bit integer</td>
+<td>1 Downstream Frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.downsflow</td>
+<td>Byte array</td>
+<td>25 Downstream Service Flow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.hmac_digest</td>
+<td>Byte array</td>
+<td>27 HMAC Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.key_seq</td>
+<td>Byte array</td>
+<td>31 Key Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.map.docsver</td>
+<td>Unsigned 8-bit integer</td>
+<td>.2 Docsis Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.maxclass</td>
+<td>Unsigned 16-bit integer</td>
+<td>28 Max # of Classifiers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.maxcpe</td>
+<td>Unsigned 8-bit integer</td>
+<td>18 Max # of CPE's</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap</td>
+<td>Byte array</td>
+<td>5 Modem Capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.concat</td>
+<td>Boolean</td>
+<td>.1 Concatenation Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.dcc</td>
+<td>Boolean</td>
+<td>.12 DCC Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.dot1pfiltering</td>
+<td>Unsigned 8-bit integer</td>
+<td>.9 802.1P Filtering Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.dot1qfilt</td>
+<td>Unsigned 8-bit integer</td>
+<td>.9 802.1Q Filtering Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.downsaid</td>
+<td>Unsigned 8-bit integer</td>
+<td>.7 # Downstream SAIDs Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.frag</td>
+<td>Boolean</td>
+<td>.3 Fragmentation Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.igmp</td>
+<td>Boolean</td>
+<td>.5 IGMP Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.numtaps</td>
+<td>Unsigned 8-bit integer</td>
+<td>.11 # Xmit Equalizer Taps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.phs</td>
+<td>Boolean</td>
+<td>.4 PHS Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.privacy</td>
+<td>Boolean</td>
+<td>.6 Privacy Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.tapspersym</td>
+<td>Unsigned 8-bit integer</td>
+<td>.10 Xmit Equalizer Taps/Sym</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mcap.upsid</td>
+<td>Unsigned 8-bit integer</td>
+<td>.8 # Upstream SAIDs Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.mfgr_cvc</td>
+<td>Byte array</td>
+<td>32 Manufacturer CVC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.modemaddr</td>
+<td>IPv4 address</td>
+<td>12 Modem IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.netaccess</td>
+<td>Boolean</td>
+<td>3 Network Access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs</td>
+<td>Byte array</td>
+<td>26 PHS Rules</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.classid</td>
+<td>Unsigned 16-bit integer</td>
+<td>.2 Classifier Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.classref</td>
+<td>Unsigned 8-bit integer</td>
+<td>.1 Classifier Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.dscaction</td>
+<td>Unsigned 8-bit integer</td>
+<td>.5 DSC Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.err</td>
+<td>Byte array</td>
+<td>.6 Error Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.err.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>..2 Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.err.msg</td>
+<td>String</td>
+<td>..3 Error Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.err.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>..1 Param Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.phsf</td>
+<td>Byte array</td>
+<td>.7 PHS Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.phsi</td>
+<td>Unsigned 8-bit integer</td>
+<td>.8 PHS Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.phsm</td>
+<td>Byte array</td>
+<td>.9 PHS Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.phss</td>
+<td>Unsigned 8-bit integer</td>
+<td>.10 PHS Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.phsv</td>
+<td>Boolean</td>
+<td>.11 PHS Verify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.sflowid</td>
+<td>Unsigned 16-bit integer</td>
+<td>.4 Service flow Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.sflowref</td>
+<td>Unsigned 16-bit integer</td>
+<td>.3 Service flow reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.phs.vendorspec</td>
+<td>Byte array</td>
+<td>.43 PHS Vendor Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.rng_tech</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Technique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.act_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>.12 Timeout for Active Params (secs)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.adm_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>.13 Timeout for Admitted Params (secs)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.assumed_min_pkt_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>.11 Assumed Min Reserved Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.cname</td>
+<td>String</td>
+<td>.4 Service Class Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.err</td>
+<td>Byte array</td>
+<td>.5 Error Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.err.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>..2 Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.err.msg</td>
+<td>String</td>
+<td>..3 Error Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.err.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>..1 Param Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.grnts_per_intvl</td>
+<td>Unsigned 8-bit integer</td>
+<td>.22 Grants Per Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>.2 Service Flow Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.iptos_overwrite</td>
+<td>Unsigned 16-bit integer</td>
+<td>.23 IP TOS Overwrite</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.max_down_lat</td>
+<td>Unsigned 32-bit integer</td>
+<td>.14 Maximum Downstream Latency (usec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.maxburst</td>
+<td>Unsigned 32-bit integer</td>
+<td>.9 Maximum Burst (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.maxconcat</td>
+<td>Unsigned 16-bit integer</td>
+<td>.14 Max Concat Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.maxtrafrate</td>
+<td>Unsigned 32-bit integer</td>
+<td>.8 Maximum Sustained Traffic Rate (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.mintrafrate</td>
+<td>Unsigned 32-bit integer</td>
+<td>.10 Minimum Traffic Rate (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.nom_grant_intvl</td>
+<td>Unsigned 32-bit integer</td>
+<td>.20 Nominal Grant Interval (usec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.nominal_polling</td>
+<td>Unsigned 32-bit integer</td>
+<td>.17 Nominal Polling Interval(usec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.qos</td>
+<td>Unsigned 8-bit integer</td>
+<td>.6 QOS Parameter Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.ref</td>
+<td>Unsigned 16-bit integer</td>
+<td>.1 Service Flow Ref</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.reqxmitpol</td>
+<td>Unsigned 32-bit integer</td>
+<td>.16 Request/Transmission Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.schedtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>.15 Scheduling Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.sid</td>
+<td>Unsigned 16-bit integer</td>
+<td>.3 Service Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.tol_grant_jitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>.21 Tolerated Grant Jitter (usec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.toler_jitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>.18 Tolerated Poll Jitter (usec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.trafpri</td>
+<td>Unsigned 8-bit integer</td>
+<td>.7 Traffic Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.ugs_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>.19 Unsolicited Grant Size (bytes)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.ugs_timeref</td>
+<td>Unsigned 32-bit integer</td>
+<td>.24 UGS Time Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sflow.vendorspec</td>
+<td>Byte array</td>
+<td>.43 Vendor Specific Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.snmp_access</td>
+<td>Byte array</td>
+<td>10 SNMP Write Access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.snmp_obj</td>
+<td>Byte array</td>
+<td>11 SNMP Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.snmpv3</td>
+<td>Byte array</td>
+<td>34 SNMPv3 Kickstart Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.snmpv3.publicnum</td>
+<td>Byte array</td>
+<td>.2 SNMPv3 Kickstart Manager Public Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.snmpv3.secname</td>
+<td>String</td>
+<td>.1 SNMPv3 Kickstart Security Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.subsfltrgrps</td>
+<td>Byte array</td>
+<td>37 Subscriber Management Filter Groups</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.subsipentry</td>
+<td>IPv4 address</td>
+<td>Subscriber Management CPE IP Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.subsiptable</td>
+<td>Byte array</td>
+<td>36 Subscriber Management CPE IP Table</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.subsmgmtctrl</td>
+<td>Byte array</td>
+<td>35 Subscriber Management Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.svcunavail</td>
+<td>Byte array</td>
+<td>13 Service Not Available Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.svcunavail.classid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Not Available: (Class ID)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.svcunavail.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Not Available (Code)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.svcunavail.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Not Available (Type)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sw_upg_file</td>
+<td>String</td>
+<td>9 Software Upgrade File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.sw_upg_srvr</td>
+<td>IPv4 address</td>
+<td>21 Software Upgrade Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.tftp_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>19 TFTP Server Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.tftpmodemaddr</td>
+<td>IPv4 address</td>
+<td>20 TFTP Server Provisioned Modem Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.upchid</td>
+<td>Unsigned 8-bit integer</td>
+<td>2 Upstream Channel ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.upclsfr</td>
+<td>Byte array</td>
+<td>22 Upstream Classifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.upsflow</td>
+<td>Byte array</td>
+<td>24 Upstream Service Flow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.vendorid</td>
+<td>Byte array</td>
+<td>8 Vendor ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>docsis_tlv.vendorspec</td>
+<td>Byte array</td>
+<td>43 Vendor Specific Encodings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

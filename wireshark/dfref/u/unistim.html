@@ -1,0 +1,1994 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: UNISTIM Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: UNISTIM Protocol</h1>
+<div><b>Protocol field name:</b> unistim</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>uftp.blocksize</td>
+<td>Unsigned 32-bit integer</td>
+<td>UFTP Datablock Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>uftp.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>UFTP CMD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>uftp.datablock</td>
+<td>Byte array</td>
+<td>UFTP Data Block</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>uftp.filename</td>
+<td>String</td>
+<td>UFTP Filename</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>uftp.limit</td>
+<td>Unsigned 8-bit integer</td>
+<td>UFTP Datablock Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.acd.super.control</td>
+<td>Boolean</td>
+<td>ACD Supervisor Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.add</td>
+<td>Unsigned 8-bit integer</td>
+<td>UNISTIM CMD Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.alert.cad.sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alerting Cadence Select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.alert.warb.select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alerting Warbler Select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.apb.operation.data</td>
+<td>Byte array</td>
+<td>APB Operation Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.apb.param.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>APB Operation Parameter Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.apb.volume.rpt</td>
+<td>Unsigned 8-bit integer</td>
+<td>APB Volume Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.arrow.direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Arrow Display Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.aa.vol.rpt</td>
+<td>Boolean</td>
+<td>Audio Manager Auto Adjust Volume RPT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.adj.volume</td>
+<td>Boolean</td>
+<td>Query Audio Manager Adjustable Receive Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.alerting</td>
+<td>Boolean</td>
+<td>Query Audio Manager Alerting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.apb.number</td>
+<td>Unsigned 8-bit integer</td>
+<td>APB Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.apb.op.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>APB Operation Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.attenuated.on</td>
+<td>Boolean</td>
+<td>Audio Manager Transducer Tone Attenuated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.attr</td>
+<td>Boolean</td>
+<td>Query Audio Manager Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.bytes.per.frame</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bytes Per Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.def.volume</td>
+<td>Boolean</td>
+<td>Query Audio Manager Default Receive Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.desired.jitter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Desired Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.direction.codes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Stream Direction Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.frf.11</td>
+<td>Boolean</td>
+<td>FRF.11 Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.handset</td>
+<td>Boolean</td>
+<td>Query Audio Manager Handset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.hd.on.air</td>
+<td>Boolean</td>
+<td>HD On Air</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.headset</td>
+<td>Boolean</td>
+<td>Query Audio Manager Headset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.hs.on.air</td>
+<td>Boolean</td>
+<td>HS On Air</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.max.tone</td>
+<td>Boolean</td>
+<td>Audio Manager Enable Max Tone Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.mute</td>
+<td>Boolean</td>
+<td>Audio Manager Mute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.nat.ip</td>
+<td>IPv4 address</td>
+<td>NAT IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.nat.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>NAT Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.options</td>
+<td>Boolean</td>
+<td>Query Audio Manager Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.opts.adj.vol</td>
+<td>Boolean</td>
+<td>Audio Manager Adjust Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Precedence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.rtcp.bucket.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTCP Bucket ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.rtp.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.rx.tx</td>
+<td>Boolean</td>
+<td>Audio Manager RX or TX</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.rx.vol.ceiling</td>
+<td>Boolean</td>
+<td>RX Volume at Ceiling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.rx.vol.floor</td>
+<td>Boolean</td>
+<td>RX Volume at Floor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.sample.rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sample Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.sidetone.disable</td>
+<td>Boolean</td>
+<td>Disable Sidetone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.squelch</td>
+<td>Boolean</td>
+<td>Audio Manager Noise Squelch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.stream.direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Stream Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.stream.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Manager Stream ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.stream.state</td>
+<td>Boolean</td>
+<td>Audio Stream State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.tone.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tone Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.transducer.on</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Manager Transducer Based Tone On</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.type.service</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.volume.adj</td>
+<td>Boolean</td>
+<td>Volume Adjustments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.volume.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Manager Default Receive Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.audio.volume.up</td>
+<td>Boolean</td>
+<td>Volume Up</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.auto.adj.rx.vol</td>
+<td>Boolean</td>
+<td>Auto Adjust RX Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.auto.noise.squelch</td>
+<td>Boolean</td>
+<td>Automatic Squelch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.attrs</td>
+<td>Boolean</td>
+<td>Query Basic Manager Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.code</td>
+<td>Boolean</td>
+<td>Query Basic Manager Prod Eng Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.eeprom.data</td>
+<td>Byte array</td>
+<td>EEProm Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.element.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Element ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.eng.code</td>
+<td>String</td>
+<td>Product Engineering Code for phone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.fw</td>
+<td>Boolean</td>
+<td>Query Basic Switch Firmware</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.fw.ver</td>
+<td>String</td>
+<td>Basic Phone Firmware Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.gray</td>
+<td>Boolean</td>
+<td>Query Basic Manager Gray Mkt Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.hw.id</td>
+<td>Byte array</td>
+<td>Basic Phone Hardware ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.hwid</td>
+<td>Boolean</td>
+<td>Query Basic Manager Hardware ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.opts</td>
+<td>Boolean</td>
+<td>Query Basic Manager Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.query</td>
+<td>Unsigned 8-bit integer</td>
+<td>Query Basic Manager</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.secure</td>
+<td>Boolean</td>
+<td>Basic Switch Options Secure Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.basic.type</td>
+<td>Boolean</td>
+<td>Query Basic Manager Phone Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.bit.fields</td>
+<td>Boolean</td>
+<td>FLAGS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.day</td>
+<td>Unsigned 8-bit integer</td>
+<td>Day</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.hour</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hour</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.minute</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.month</td>
+<td>Unsigned 8-bit integer</td>
+<td>Month</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Broadcast Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.second</td>
+<td>Unsigned 8-bit integer</td>
+<td>Second</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Broadcast Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.broadcast.year</td>
+<td>Unsigned 8-bit integer</td>
+<td>Year</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.cadence.select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cadence Select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.clear.bucket</td>
+<td>Boolean</td>
+<td>Clear Bucket Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.config.element</td>
+<td>Unsigned 8-bit integer</td>
+<td>Configure Network Element</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.conspic.prog.keys</td>
+<td>Boolean</td>
+<td>Conspicuous and Programmable Keys Same</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.context.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Context Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.current.rx.vol.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current RX Volume Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.current.rx.vol.range</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current RX Volume Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.current.volume.rpt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current APB Volume Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.cursor.blink</td>
+<td>Boolean</td>
+<td>Should Cursor Blink</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.cursor.move.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cursor Movement Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.cursor.skey.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Soft Key Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.date.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Date Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.destructive.active</td>
+<td>Boolean</td>
+<td>Destructive/Additive</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.diag.enabled</td>
+<td>Boolean</td>
+<td>Diagnostic Command Enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.call.timer.delay</td>
+<td>Boolean</td>
+<td>Call Timer Delay</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.call.timer.display</td>
+<td>Boolean</td>
+<td>Call Timer Display</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.call.timer.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Call Timer ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.call.timer.mode</td>
+<td>Boolean</td>
+<td>Call Timer Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.call.timer.reset</td>
+<td>Boolean</td>
+<td>Call Timer Reset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.char.address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Character Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.all.sks</td>
+<td>Boolean</td>
+<td>Clear All Soft Key Labels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.context</td>
+<td>Boolean</td>
+<td>Context Field in InfoBar</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.date</td>
+<td>Boolean</td>
+<td>Date Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.left</td>
+<td>Boolean</td>
+<td>Clear Left</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line</td>
+<td>Boolean</td>
+<td>Line Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line1</td>
+<td>Boolean</td>
+<td>Line 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line2</td>
+<td>Boolean</td>
+<td>Line 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line3</td>
+<td>Boolean</td>
+<td>Line 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line4</td>
+<td>Boolean</td>
+<td>Line 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line5</td>
+<td>Boolean</td>
+<td>Line 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line6</td>
+<td>Boolean</td>
+<td>Line 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line7</td>
+<td>Boolean</td>
+<td>Line 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.line8</td>
+<td>Boolean</td>
+<td>Line 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.numeric</td>
+<td>Boolean</td>
+<td>Numeric Index Field in InfoBar</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.right</td>
+<td>Boolean</td>
+<td>Clear Right</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon1</td>
+<td>Boolean</td>
+<td>Status Bar Icon 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon2</td>
+<td>Boolean</td>
+<td>Status Bar Icon 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon3</td>
+<td>Boolean</td>
+<td>Status Bar Icon 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon4</td>
+<td>Boolean</td>
+<td>Status Bar Icon 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon5</td>
+<td>Boolean</td>
+<td>Status Bar Icon 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon6</td>
+<td>Boolean</td>
+<td>Status Bar Icon 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon7</td>
+<td>Boolean</td>
+<td>Status Bar Icon 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sbar.icon8</td>
+<td>Boolean</td>
+<td>Status Bar Icon 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.sk.label.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Soft Key Label ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key1</td>
+<td>Boolean</td>
+<td>Soft Key 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key2</td>
+<td>Boolean</td>
+<td>Soft Key 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key3</td>
+<td>Boolean</td>
+<td>Soft Key 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key4</td>
+<td>Boolean</td>
+<td>Soft Key 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key5</td>
+<td>Boolean</td>
+<td>Soft Key 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key6</td>
+<td>Boolean</td>
+<td>Soft Key 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key7</td>
+<td>Boolean</td>
+<td>Soft Key 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.soft.key8</td>
+<td>Boolean</td>
+<td>Soft Key 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.softkey</td>
+<td>Boolean</td>
+<td>Soft Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.softkey.label</td>
+<td>Boolean</td>
+<td>Soft Key Label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.clear.time</td>
+<td>Boolean</td>
+<td>Time Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.context.field</td>
+<td>Unsigned 8-bit integer</td>
+<td>Context Info Bar Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.context.format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Context Info Bar Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.cursor.move</td>
+<td>Boolean</td>
+<td>Cursor Move</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.date.format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Date Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.highlight</td>
+<td>Boolean</td>
+<td>Highlight</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.hightlight</td>
+<td>Boolean</td>
+<td>Highlight</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>unistim.display.line.number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Line Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.shift.left</td>
+<td>Boolean</td>
+<td>Shift Left</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.shift.right</td>
+<td>Boolean</td>
+<td>Shift Right</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.statusbar.icon</td>
+<td>Boolean</td>
+<td>Status Bar Icon</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.text.tag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tag for text</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.time.format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.use.date.format</td>
+<td>Boolean</td>
+<td>Use Date Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.use.time.format</td>
+<td>Boolean</td>
+<td>Use Time Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.display.write.address.char.pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character Position or Soft-Label Key ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.distructive.active</td>
+<td>Boolean</td>
+<td>Distructive/Additive</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>unistim.dont.force.active</td>
+<td>Boolean</td>
+<td>Don't Force Active</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Download Server Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.address</td>
+<td>Unsigned 32-bit integer</td>
+<td>Download Server Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.failover</td>
+<td>Unsigned 8-bit integer</td>
+<td>Download Failover Server ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Download Server ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Download Server Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.download.retry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Download Retry Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.dynam.cksum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Phone EEProm Dynamic Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.early.packet.thresh</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threshold in x/8000 sec where packets are too early</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.eeprom.insane</td>
+<td>Boolean</td>
+<td>EEProm Insane</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.eeprom.unsafe</td>
+<td>Boolean</td>
+<td>EEProm Unsafe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.enable.annexa</td>
+<td>Boolean</td>
+<td>Enable Annex A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.enable.annexb</td>
+<td>Boolean</td>
+<td>Enable Annex B</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.enable.diag</td>
+<td>Boolean</td>
+<td>Network Manager Enable DIAG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.enable.network.rel.udp</td>
+<td>Boolean</td>
+<td>Network Manager Enable RUDP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.exist.copy.key</td>
+<td>Boolean</td>
+<td>Copy Key Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.exist.hd.key</td>
+<td>Boolean</td>
+<td>Headset Key Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.exist.mute.key</td>
+<td>Boolean</td>
+<td>Mute Key Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.exist.mwi.key</td>
+<td>Boolean</td>
+<td>Message Waiting Indicator Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.exist.quit.key</td>
+<td>Boolean</td>
+<td>Quit Key Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.far.ip.address</td>
+<td>IPv4 address</td>
+<td>Distant IP Address for RT[C]P</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.far.rtcp.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Distant RTCP Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.far.rtp.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Distant RTP Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.field.context</td>
+<td>Boolean</td>
+<td>Context Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.field.numeric</td>
+<td>Boolean</td>
+<td>Numeric Index Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.field.text.line</td>
+<td>Boolean</td>
+<td>Text Line</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.generic.data</td>
+<td>String</td>
+<td>DATA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.handsfree.support</td>
+<td>Boolean</td>
+<td>Handsfree supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.high.water.mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>Threshold of audio frames where jitter buffer removes frames</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.hilite.end.pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Highlight End Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.hilite.start.pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Highlight Start Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.icon.cadence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Icon Cadence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.icon.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Icon ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.icon.state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Icon State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.icon.types</td>
+<td>Unsigned 8-bit integer</td>
+<td>Icon Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.invalid.msg</td>
+<td>Boolean</td>
+<td>Received Invalid MSG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.it.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>IT (Phone) Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.enable.vol</td>
+<td>Boolean</td>
+<td>Enable Volume Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.feedback</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Keypad Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.icon.admin.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Admin Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.icon.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Icon ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.led.cadence</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Cadence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.led.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.name</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.send.release</td>
+<td>Boolean</td>
+<td>Send Key Release</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.key.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.cadence.off.time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicator Cadence Off Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.cadence.on.time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicator Cadence On Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.led.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Led ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.logical.icon.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Logical Icon ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.phone.icon.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Icon ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.repeat.time.one</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Repeat Timer 1 Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.repeat.time.two</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Repeat Timer 2 Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.keys.user.timeout.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>User Activity Timeout Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.late.packet.thresh</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threshold in x/8000 sec where packets are too late</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.layer.all.skeys</td>
+<td>Boolean</td>
+<td>All Softkeys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.layer.display.duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display Duration (20ms steps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.layer.once.cyclic</td>
+<td>Boolean</td>
+<td>Layer Softkey Once/Cyclic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.layer.softkey.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Softkey ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>UNISTIM CMD Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.line.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Line Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.local.rtcp.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Phone RTCP Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.local.rtp.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Phone RTP Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.max.vol</td>
+<td>Boolean</td>
+<td>Max Volume</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.nat.address.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAT Address Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.nat.listen.address</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAT Listen Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.nat.listen.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>NAT Listen Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.file.server.address</td>
+<td>IPv4 address</td>
+<td>File Server IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.file.server.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>File Server Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.file.xfer.mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>File Transfer Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.force.download</td>
+<td>Boolean</td>
+<td>Force Download</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.local.xfer.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local XFer Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.phone.primary.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Primary Server ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.use.local.port</td>
+<td>Boolean</td>
+<td>Use Custom Local Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.net.use.server.port</td>
+<td>Boolean</td>
+<td>Use Custom Server Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.netconfig.cksum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Phone EEProm Net Config Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.network.phone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Cmd (phone)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.network.switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Cmd (switch)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.num</td>
+<td>Unsigned 32-bit integer</td>
+<td>RUDP Seq Num</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.num.conspic.keys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Conspicuous Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.num.nav.keys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Navigation Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.num.prog.keys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Programmable Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.num.soft.keys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Soft Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.number.dload.chars</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Downloadable Chars</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.number.dload.icons</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Freeform Icon Downloads</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.number.lines</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Lines</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.numeric.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Numeric Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.open.audio.stream.rpt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Open Stream Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.pay</td>
+<td>Unsigned 8-bit integer</td>
+<td>UNISTIM Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.address.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Address Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.char.pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.charsets</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character Sets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.contrast.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Contrast Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.ether</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Phone Ethernet Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.icon.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Icon Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.listen.address</td>
+<td>IPv4 address</td>
+<td>Phone Listen Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.listen.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Phone Listen Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.phone.softkeys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Softkeys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.position.skey</td>
+<td>Boolean</td>
+<td>Softkey Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.attributes</td>
+<td>Boolean</td>
+<td>Query Network Manager Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.diagnostic</td>
+<td>Boolean</td>
+<td>Query Network Manager Diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.managers</td>
+<td>Boolean</td>
+<td>Query Network Manager Managers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.options</td>
+<td>Boolean</td>
+<td>Query Network Manager Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.sanity</td>
+<td>Boolean</td>
+<td>Query Network Manager Sanity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.query.serverInfo</td>
+<td>Boolean</td>
+<td>Query Network Manager Server Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.receive.empty</td>
+<td>Boolean</td>
+<td>Receive Buffer Unexpectedly Empty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.receive.enable</td>
+<td>Boolean</td>
+<td>RX Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.receive.overflow</td>
+<td>Boolean</td>
+<td>Receive Buffer Overflow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.recovery.high</td>
+<td>Unsigned 16-bit integer</td>
+<td>Recovery Procedure Idle High Boundary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.recovery.low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Recovery Procedure Idle Low Boundary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.resolve.far.ip</td>
+<td>IPv4 address</td>
+<td>Resolve Far End IP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.resolve.far.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Resolve Far End Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.resolve.phone.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Resolve Phone Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.rpt.rtcp.buk.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Report RTCP Bucket ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.rpt.src.desc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Report Source Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.rtcp.bucket.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>RTCP Bucket ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.rudp.active</td>
+<td>Boolean</td>
+<td>Reliable UDP Active</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.rx.stream.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receive Stream Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.sdes.rtcp.bucket</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTCP Bucket Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.server.action.byte</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.server.failover.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Failover Server ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.server.ip.address</td>
+<td>IPv4 address</td>
+<td>IP address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.server.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.server.retry.count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of times to Retry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.softkey.layer.num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Softkey Layer Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.softkey.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Softkey Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.softlabel.key.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Soft-Label Key width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.source.desc.item</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Description Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.special.tone.select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Special Tone Select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.static.cksum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Basic Phone EEProm Static Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.stream.based.tone.rx.tx</td>
+<td>Boolean</td>
+<td>Stream Based Tone RX or TX</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.stream.tone.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Stream Based Tone ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.stream.tone.mute</td>
+<td>Boolean</td>
+<td>Stream Based Tone Mute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.stream.volume.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Stream Based Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.switch.terminal.id</td>
+<td>IPv4 address</td>
+<td>Terminal ID assigned by Switch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.terminal.id</td>
+<td>IPv4 address</td>
+<td>Terminal ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.time.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Phone Time Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.tone.volume.range</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tone Volume Range in Steps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.trans.list.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transducer List Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.trans.overflow</td>
+<td>Boolean</td>
+<td>Transmit Buffer Overflow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.transducer.pairs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Audio Transducer Pair</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.transducer.routing</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transducer Routing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.transmit.enable</td>
+<td>Boolean</td>
+<td>TX Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>RUDP Pkt type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.visual.tones</td>
+<td>Boolean</td>
+<td>Enable Visual Tones</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.vocoder.config.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vocoder Config Param</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.vocoder.entity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vocoder Entity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.vocoder.frames.per.packet</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frames Per Packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.vocoder.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vocoder Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.warbler.select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Warbler Select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.watchdog.timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Watchdog Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.addres.softkey.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Soft Key ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.context</td>
+<td>Boolean</td>
+<td>Context Field in the Info Bar</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.line</td>
+<td>Boolean</td>
+<td>Write A Line</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.line.number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.numeric</td>
+<td>Boolean</td>
+<td>Is Address Numeric</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.softkey</td>
+<td>Boolean</td>
+<td>Write a SoftKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>unistim.write.address.softkey.label</td>
+<td>Boolean</td>
+<td>Write A Softkey Label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

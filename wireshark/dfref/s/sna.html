@@ -1,0 +1,1304 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Systems Network Architecture</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Systems Network Architecture</h1>
+<div><b>Protocol field name:</b> sna</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>sna.control.05.delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Channel Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.05.ptp</td>
+<td>Boolean</td>
+<td>Point-to-point</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.05.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Address Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.0e.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.0e.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.hprkey</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Vector HPR Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Vector Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.control.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Vector Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.gds</td>
+<td>None</td>
+<td>GDS Variable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.gds.cont</td>
+<td>Boolean</td>
+<td>Continuation Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.gds.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>GDS Variable Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.gds.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type of Variable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.frh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Priority Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr</td>
+<td>None</td>
+<td>Network Layer Packet Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Layer Packet Header Byte 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Layer Packet Header Byte 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.anr</td>
+<td>Byte array</td>
+<td>Automatic Network Routing Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.fra</td>
+<td>Byte array</td>
+<td>Function Routing Address Entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.ft</td>
+<td>Unsigned 8-bit integer</td>
+<td>Function Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.slowdn1</td>
+<td>Boolean</td>
+<td>Slowdown 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.slowdn2</td>
+<td>Boolean</td>
+<td>Slowdown 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Switching Mode Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.tpf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Priority Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.nhdr.tspi</td>
+<td>Boolean</td>
+<td>Time Sensitive Packet Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr</td>
+<td>None</td>
+<td>RTP Transport Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.8</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTP Transport Packet Header Byte 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.9</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTP Transport Packet Header Byte 9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.bsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Byte Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.cqfi</td>
+<td>Boolean</td>
+<td>Connection Qualifier Field Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.dlf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Length Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.eomi</td>
+<td>Boolean</td>
+<td>End Of Message Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.lmi</td>
+<td>Boolean</td>
+<td>Last Message Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data Offset/4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0d.arb</td>
+<td>Boolean</td>
+<td>ARB Flow Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0d.dedicated</td>
+<td>Boolean</td>
+<td>Dedicated RTP Connection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0d.reliable</td>
+<td>Boolean</td>
+<td>Reliable Connection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0d.target</td>
+<td>Boolean</td>
+<td>Target Resource ID Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0d.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connection Setup Byte 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.abspbeg</td>
+<td>Unsigned 32-bit integer</td>
+<td>ABSP Begin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.abspend</td>
+<td>Unsigned 32-bit integer</td>
+<td>ABSP End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.echo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status Acknowledge Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.gap</td>
+<td>Boolean</td>
+<td>Gap Detected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.idle</td>
+<td>Boolean</td>
+<td>RTP Idle Packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.nabsp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of ABSP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.rseq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.stat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0e.sync</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status Report Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.0f.bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Client Bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.10.tcid</td>
+<td>Byte array</td>
+<td>Transport Connection Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.12.sense</td>
+<td>Byte array</td>
+<td>Sense Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.rr.2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Return Route TG Descriptor Byte 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.rr.bfe</td>
+<td>Boolean</td>
+<td>BF Entry Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.rr.key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.rr.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.rr.num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of TG Control Vectors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Switching Information Byte 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.alive</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTP Alive Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.dirsearch</td>
+<td>Boolean</td>
+<td>Directory Search Required on Path Switch Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.limitres</td>
+<td>Boolean</td>
+<td>Limited Resource Link Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.maxpsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Packet Size On Return Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.mnpsrscv</td>
+<td>Boolean</td>
+<td>MNPS RSCV Retention Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.mobility</td>
+<td>Boolean</td>
+<td>Mobility Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.ncescope</td>
+<td>Boolean</td>
+<td>NCE Scope Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.refifo</td>
+<td>Boolean</td>
+<td>Resequencing (REFIFO) Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.14.si.switch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Path Switch Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Adaptive Rate Based Segment Byte 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Adaptive Rate Based Segment Byte 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.arb</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARB Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.field1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Field 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.field2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Field 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.field3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Field 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.field4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Field 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.parity</td>
+<td>Boolean</td>
+<td>Parity Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.raa</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Adjustment Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.raterep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Reply Correlator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.ratereq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Request Correlator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.22.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional Segment Length/4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.optional.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional Segment Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.osi</td>
+<td>Boolean</td>
+<td>Optional Segments Present Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.rasapi</td>
+<td>Boolean</td>
+<td>Reply ASAP Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.retryi</td>
+<td>Boolean</td>
+<td>Retry Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.setupi</td>
+<td>Boolean</td>
+<td>Setup Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.somi</td>
+<td>Boolean</td>
+<td>Start Of Message Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.sri</td>
+<td>Boolean</td>
+<td>Session Request Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.nlp.thdr.tcid</td>
+<td>Byte array</td>
+<td>Transport Connection Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh</td>
+<td>None</td>
+<td>Request/Response Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request/Response Header Byte 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request/Response Header Byte 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request/Response Header Byte 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.bbi</td>
+<td>Boolean</td>
+<td>Begin Bracket Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.bci</td>
+<td>Boolean</td>
+<td>Begin Chain Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.cdi</td>
+<td>Boolean</td>
+<td>Change Direction Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.cebi</td>
+<td>Boolean</td>
+<td>Conditional End Bracket Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.csi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Code Selection Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.dr1</td>
+<td>Boolean</td>
+<td>Definite Response 1 Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.dr2</td>
+<td>Boolean</td>
+<td>Definite Response 2 Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.ebi</td>
+<td>Boolean</td>
+<td>End Bracket Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.eci</td>
+<td>Boolean</td>
+<td>End Chain Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.edi</td>
+<td>Boolean</td>
+<td>Enciphered Data Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.eri</td>
+<td>Boolean</td>
+<td>Exception Response Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.fi</td>
+<td>Boolean</td>
+<td>Format Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.lcci</td>
+<td>Boolean</td>
+<td>Length-Checked Compression Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.pdi</td>
+<td>Boolean</td>
+<td>Padded Data Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.pi</td>
+<td>Boolean</td>
+<td>Pacing Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.qri</td>
+<td>Boolean</td>
+<td>Queued Response Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.rlwi</td>
+<td>Boolean</td>
+<td>Request Larger Window Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.rri</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request/Response Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.rti</td>
+<td>Boolean</td>
+<td>Response Type Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.ru_category</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request/Response Unit Category</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.rh.sdi</td>
+<td>Boolean</td>
+<td>Sense Data Included</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th</td>
+<td>None</td>
+<td>Transmission Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Header Byte 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.cmd_fmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.cmd_sn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Command Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.cmd_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.daf</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination Address Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.dcf</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data Count Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.def</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination Element Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.dsaf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Destination Subarea Address Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.efi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Expedited Flow Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.er_vr_supp_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>ER and VR Support Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.ern</td>
+<td>Unsigned 8-bit integer</td>
+<td>Explicit Route Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.fid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Format Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.iern</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial Explicit Route Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.lsid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Session Identification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.mft</td>
+<td>Boolean</td>
+<td>MPR FID4 Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.mpf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mapping Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.nlp_cp</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLP Count or Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.nlpoi</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLP Offset Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.ntwk_prty</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.oaf</td>
+<td>Unsigned 16-bit integer</td>
+<td>Origin Address Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.odai</td>
+<td>Unsigned 8-bit integer</td>
+<td>ODAI Assignment Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.oef</td>
+<td>Unsigned 16-bit integer</td>
+<td>Origin Element Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.osaf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Origin Subarea Address Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.piubf</td>
+<td>Unsigned 8-bit integer</td>
+<td>PIU Blocking Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.sa</td>
+<td>Byte array</td>
+<td>Session Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.snai</td>
+<td>Boolean</td>
+<td>SNA Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.snf</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence Number Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.tg_nonfifo_ind</td>
+<td>Boolean</td>
+<td>Transmission Group Non-FIFO Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.tg_snf</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmission Group Sequence Number Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.tg_sweep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Group Sweep</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.tgsf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Group Segmenting Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.tpf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Priority Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_cwi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Virtual Route Change Window Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_cwri</td>
+<td>Unsigned 16-bit integer</td>
+<td>Virtual Route Change Window Reply Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_pac_cnt_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>Virtual Route Pacing Count Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_rwi</td>
+<td>Boolean</td>
+<td>Virtual Route Reset Window Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_snf_send</td>
+<td>Unsigned 16-bit integer</td>
+<td>Virtual Route Send Sequence Number Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vr_sqti</td>
+<td>Unsigned 16-bit integer</td>
+<td>Virtual Route Sequence and Type Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vrn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Virtual Route Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vrprq</td>
+<td>Boolean</td>
+<td>Virtual Route Pacing Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.th.vrprs</td>
+<td>Boolean</td>
+<td>Virtual Route Pacing Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid</td>
+<td>None</td>
+<td>XID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.0</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Byte 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.format</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Node Identification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.idblock</td>
+<td>Unsigned 32-bit integer</td>
+<td>ID Block</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.idnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>ID Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.10</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Type 3 Byte 10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.11</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Type 3 Byte 11</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.12</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Type 3 Byte 12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.15</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID Type 3 Byte 15</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.8</td>
+<td>Unsigned 16-bit integer</td>
+<td>Characteristics of XID sender</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.actpu</td>
+<td>Boolean</td>
+<td>ACTPU suppression indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.asend_bind</td>
+<td>Boolean</td>
+<td>Adaptive BIND pacing support as sender</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.asend_recv</td>
+<td>Boolean</td>
+<td>Adaptive BIND pacing support as receiver</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.branch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Branch Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.brnn</td>
+<td>Boolean</td>
+<td>Option Set 1123 Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.cp</td>
+<td>Boolean</td>
+<td>Control Point Services</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.cpchange</td>
+<td>Boolean</td>
+<td>CP name change support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.cpcp</td>
+<td>Boolean</td>
+<td>CP-CP session support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.dedsvc</td>
+<td>Boolean</td>
+<td>Dedicated SVC Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.dlc</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID DLC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.dlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>DLC Dependent Section Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.dlur</td>
+<td>Boolean</td>
+<td>Dependent LU Requester Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.dlus</td>
+<td>Boolean</td>
+<td>DLUS Served LU Registration Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.exbn</td>
+<td>Boolean</td>
+<td>Extended HPR Border Node</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.gener_bind</td>
+<td>Boolean</td>
+<td>Whole BIND PIU generated indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.genodai</td>
+<td>Boolean</td>
+<td>Generalized ODAI Usage Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.initself</td>
+<td>Boolean</td>
+<td>INIT-SELF support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.negcomp</td>
+<td>Boolean</td>
+<td>Negotiation Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.negcsup</td>
+<td>Boolean</td>
+<td>Negotiation Complete Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.nonact</td>
+<td>Boolean</td>
+<td>Nonactivation Exchange</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.nwnode</td>
+<td>Boolean</td>
+<td>Sender is network node</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.pacing</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qualifier for adaptive BIND pacing support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.partg</td>
+<td>Boolean</td>
+<td>Parallel TG Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.pbn</td>
+<td>Boolean</td>
+<td>Peripheral Border Node</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.pucap</td>
+<td>Boolean</td>
+<td>PU Capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.quiesce</td>
+<td>Boolean</td>
+<td>Quiesce TG Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.recve_bind</td>
+<td>Boolean</td>
+<td>Whole BIND PIU required indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.stand_bind</td>
+<td>Boolean</td>
+<td>Stand-Alone BIND Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.state</td>
+<td>Unsigned 16-bit integer</td>
+<td>XID exchange state indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.tg</td>
+<td>Unsigned 8-bit integer</td>
+<td>XID TG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sna.xid.type3.tgshare</td>
+<td>Boolean</td>
+<td>TG Sharing Prohibited Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

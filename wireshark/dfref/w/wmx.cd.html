@@ -1,0 +1,878 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax DCD/UCD Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax DCD/UCD Messages</h1>
+<div><b>Protocol field name:</b> wmx.cd</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wimax.dcd.dl_burst_profile_multiple_fec_types</td>
+<td>Unsigned 8-bit integer</td>
+<td>Downlink Burst Profile for Multiple FEC Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.asr</td>
+<td>Unsigned 8-bit integer</td>
+<td>ASR (Anchor Switch Report) Slot Length (M) and Switching Period (L)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.asr.l</td>
+<td>Unsigned 8-bit integer</td>
+<td>ASR Switching Period (L)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.asr.m</td>
+<td>Unsigned 8-bit integer</td>
+<td>ASR Slot Length (M)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.bs_eirp</td>
+<td>Signed 16-bit integer</td>
+<td>BS EIRP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.bs_id</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Base Station ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.bs_restart_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>BS Restart Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.diuc_entry_threshold</td>
+<td>Unknown</td>
+<td>DIUC Minimum Entry Threshold (in 0.25 dB units)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.diuc_exit_threshold</td>
+<td>Unknown</td>
+<td>DIUC Mandatory Exit Threshold (in 0.25 dB units)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.fec</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Code Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.freq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.burst.tcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>TCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.channel_nr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Nr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.config_change_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Configuration Change Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.default_physical_cinr_meas_averaging_parameter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default Averaging Parameter for Physical CINR Measurements (in multiples of 1/16)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.default_rssi_and_cinr_averaging_parameter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default RSSI and CINR Averaging Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.default_rssi_meas_averaging_parameter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default Averaging Parameter for RSSI Measurements (in multiples of 1/16)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_amc_allocated_phy_bands_bitmap</td>
+<td>Byte array</td>
+<td>DL AMC Allocated Physical Bands Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_burst_profile_diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_burst_profile_rsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_channel_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition</td>
+<td>Byte array</td>
+<td>DL Region Definition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.num_region</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Regions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.num_subchannels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.num_symbols</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of OFDMA Symbols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.subchannel_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subchannel Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.dl_region_definition.symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.eirxp</td>
+<td>Signed 16-bit integer</td>
+<td>EIRXP (IR, max)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.frame_duration</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.frame_duration_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Duration Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.frame_nr</td>
+<td>Unsigned 24-bit integer</td>
+<td>Frame Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.frequency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Downlink Center Frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.h_add_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>H_add Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.h_arq_ack_delay_ul_burst</td>
+<td>Unsigned 8-bit integer</td>
+<td>H-ARQ ACK Delay for UL Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.h_delete_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>H_delete Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ho_type_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>HO Type Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ho_type_support.fbss_ho</td>
+<td>Unsigned 8-bit integer</td>
+<td>FBSS HO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ho_type_support.ho</td>
+<td>Unsigned 8-bit integer</td>
+<td>HO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ho_type_support.mdho</td>
+<td>Unsigned 8-bit integer</td>
+<td>MDHO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ho_type_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.hysteresis_margin</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hysteresis Margin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.mac_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.maximum_retransmission</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Retransmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.noise_interference</td>
+<td>Unsigned 8-bit integer</td>
+<td>Noise and Interference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.paging_group_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Paging Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.paging_interval_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Paging Interval Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.permutation_type_broadcast_region_in_harq_zone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Permutation Type for Broadcast Region in HARQ Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.phy_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHY Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.power_adjustment</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Adjustment Rule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.rtg</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.switch_frame</td>
+<td>Unsigned 24-bit integer</td>
+<td>Channel Switch Frame Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.time_trigger_duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time to Trigger Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.trigger_averaging_duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Trigger Averaging Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.trigger_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Trigger Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.ttg</td>
+<td>Unsigned 16-bit integer</td>
+<td>TTG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.tusc1</td>
+<td>Unsigned 16-bit integer</td>
+<td>TUSC1 permutation active subchannels bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.tusc2</td>
+<td>Unsigned 16-bit integer</td>
+<td>TUSC2 permutation active subchannels bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.type_function_action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type/Function/Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.type_function_action.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.type_function_action.function</td>
+<td>Unsigned 8-bit integer</td>
+<td>Function</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.type_function_action.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.dcd.unknown_tlv_value</td>
+<td>Byte array</td>
+<td>Unknown DCD Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.dcd</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.ucd</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.allow_aas_beam_select_message</td>
+<td>Signed 8-bit integer</td>
+<td>Allow AAS Beam Select Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_amc.allocation_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band AMC Allocation Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_amc.allocation_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band AMC Allocation Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_amc.release_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band AMC Release Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_amc.release_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band AMC Release Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_amc.retry_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band AMC Retry Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.band_status.report_max_period</td>
+<td>Unsigned 8-bit integer</td>
+<td>Band Status Report MAC Period</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.bandwidth_request</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bandwidth Request Codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.burst.fec</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Code Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.burst.ranging_data_ratio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Data Ratio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.burst.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.burst.uiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.bw_req_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bandwidth Request Opportunity Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.cqich_band_amc_transition_delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>CQICH Band AMC-Transition Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.frequency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.handover_ranging_codes</td>
+<td>Signed 8-bit integer</td>
+<td>Handover Ranging Codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.harq_ack_delay_dl_burst</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ ACK Delay for DL Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.initial_ranging_codes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial Ranging Codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.initial_ranging_interval</td>
+<td>Signed 8-bit integer</td>
+<td>Number of Frames Between Initial Ranging Interval Allocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.lower_bound_aas_preamble</td>
+<td>Signed 8-bit integer</td>
+<td>Lower Bound AAS Preamble (in units of 0.25 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.max_level_power_offset_adjustment</td>
+<td>Signed 8-bit integer</td>
+<td>Maximum Level of Power Offset Adjustment (in units of 0.1 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.max_number_of_retransmission_in_ul_harq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number of Retransmission in UL-HARQ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.min_level_power_offset_adjustment</td>
+<td>Signed 8-bit integer</td>
+<td>Minimum Level of Power Offset Adjustment (in units of 0.1 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.ms_specific_down_power_offset_adjustment_step</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS-specific Down Power Offset Adjustment Step (in units of 0.01 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.ms_specific_up_power_offset_adjustment_step</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS-specific Up Power Offset Adjustment Step (in units of 0.01 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.normalized_cn.channel_sounding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Normalized C/N for Channel Sounding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.normalized_cn.override_2</td>
+<td>String</td>
+<td>Normalized C/N Override 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.normalized_cn.override_first_line</td>
+<td>Unsigned 8-bit integer</td>
+<td>Normalized C/N Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.normalized_cn.override_list</td>
+<td>String</td>
+<td>Normalized C/N Value List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.optional_permutation_ul_allocated_subchannels_bitmap</td>
+<td>Byte array</td>
+<td>Optional permutation UL allocated subchannels bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.periodic_ranging_codes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Periodic Ranging Codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.permutation_base</td>
+<td>Unsigned 8-bit integer</td>
+<td>Permutation Base</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.ranging_req_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ranging Request Opportunity Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.res_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Contention-based Reservation Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.safety_channel_release_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Safety Channel Release Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.size_of_cqich_id_field</td>
+<td>Unsigned 8-bit integer</td>
+<td>Size of CQICH_ID Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.start_of_ranging_codes_group</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start of Ranging Codes Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.subchan.bitmap</td>
+<td>Byte array</td>
+<td>UL Allocated Subchannels Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.subchan.codes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Periodic Ranging Codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.subchan.num_chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.subchan.num_sym</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of OFDMA Symbols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report</td>
+<td>Unsigned 24-bit integer</td>
+<td>Tx Power Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.a_p_avg</td>
+<td>Unsigned 8-bit integer</td>
+<td>A p_avg (in multiples of 1/16)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.a_p_avg_icqch</td>
+<td>Unsigned 8-bit integer</td>
+<td>A p_avg (in multiples of 1/16) when ICQCH is allocated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interval (expressed as power of 2)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.interval_icqch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interval When ICQCH is Allocated (expressed as power of 2)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.tx_power_report.threshold_icqch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Threshold When ICQCH is Allocated to SS (in dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown UCD Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.fast_feedback_region</td>
+<td>Byte array</td>
+<td>Fast Feedback Region</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.harq_ack_region</td>
+<td>Byte array</td>
+<td>HARQ ACK Region</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.multiple_fec_types</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink Burst Profile for Multiple FEC Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.ranging_region</td>
+<td>Byte array</td>
+<td>Ranging Region</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.relative_power_offset_ul_burst_mac_mgmt_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Relative Power Offset UL Burst Containing MAC Mgmt Msg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.relative_power_offset_ul_harq_burst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Relative Power Offset UL HARQ Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.sounding_region</td>
+<td>Byte array</td>
+<td>Sounding Region</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.ul_initial_transmit_timing</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL Initial Transmit Timing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.uplink_burst_profile.ul_pusc_subchannel_rotation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink PUSC Subchannel Rotation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.upper_bound_aas_preamble</td>
+<td>Signed 8-bit integer</td>
+<td>Upper Bound AAS Preamble (in units of 0.25 dB)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ucd.use_cqich_indication_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Use CQICH Indication Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

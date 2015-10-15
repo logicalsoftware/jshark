@@ -1,0 +1,770 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Inter-Asterisk eXchange v2</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Inter-Asterisk eXchange v2</h1>
+<div><b>Protocol field name:</b> iax2</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>iax2.abstime</td>
+<td>Date/Time stamp</td>
+<td>Absolute Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.call</td>
+<td>Unsigned 32-bit integer</td>
+<td>Call identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.adpcm</td>
+<td>Boolean</td>
+<td>ADPCM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.alaw</td>
+<td>Boolean</td>
+<td>Raw A-law data (G.711)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.g723_1</td>
+<td>Boolean</td>
+<td>G.723.1 compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.g726</td>
+<td>Boolean</td>
+<td>G.726 compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.g729a</td>
+<td>Boolean</td>
+<td>G.729a Audio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.gsm</td>
+<td>Boolean</td>
+<td>GSM compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.h261</td>
+<td>Boolean</td>
+<td>H.261 video</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.h263</td>
+<td>Boolean</td>
+<td>H.263 video</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.ilbc</td>
+<td>Boolean</td>
+<td>iLBC Free compressed Audio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.jpeg</td>
+<td>Boolean</td>
+<td>JPEG images</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.lpc10</td>
+<td>Boolean</td>
+<td>LPC10, 180 samples/frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.png</td>
+<td>Boolean</td>
+<td>PNG images</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.slinear</td>
+<td>Boolean</td>
+<td>Raw 16-bit Signed Linear (8000 Hz) PCM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.speex</td>
+<td>Boolean</td>
+<td>SPEEX Audio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.cap.ulaw</td>
+<td>Boolean</td>
+<td>Raw mu-law data (G.711)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.control.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control subclass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.dst_call</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination call</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.dtmf.subclass</td>
+<td>String</td>
+<td>DTMF subclass (digit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment</td>
+<td>Frame number</td>
+<td>IAX2 Fragment data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment.error</td>
+<td>Frame number</td>
+<td>Defragmentation error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment.multipletails</td>
+<td>Boolean</td>
+<td>Multiple tail fragments found</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment.overlap</td>
+<td>Boolean</td>
+<td>Fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment.overlap.conflict</td>
+<td>Boolean</td>
+<td>Conflicting data in fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragment.toolongfragment</td>
+<td>Boolean</td>
+<td>Fragment too long</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.fragments</td>
+<td>None</td>
+<td>IAX2 Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.aesprovisioning</td>
+<td>String</td>
+<td>AES Provisioning info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.app_addr.sinaddr</td>
+<td>IPv4 address</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.app_addr.sinfamily</td>
+<td>Unsigned 16-bit integer</td>
+<td>Family</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.app_addr.sinport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.auth.challenge</td>
+<td>String</td>
+<td>Challenge data for MD5/RSA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.auth.md5</td>
+<td>String</td>
+<td>MD5 challenge result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.auth.methods</td>
+<td>Unsigned 16-bit integer</td>
+<td>Authentication method(s)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.auth.rsa</td>
+<td>String</td>
+<td>RSA challenge result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.autoanswer</td>
+<td>None</td>
+<td>Request auto-answering</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.call_no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Call number of peer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.called_context</td>
+<td>String</td>
+<td>Context for number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.called_number</td>
+<td>String</td>
+<td>Number/extension being called</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.calling_ani</td>
+<td>String</td>
+<td>Calling number ANI for billing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.calling_name</td>
+<td>String</td>
+<td>Name of caller</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.calling_number</td>
+<td>String</td>
+<td>Calling number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.callingpres</td>
+<td>Unsigned 8-bit integer</td>
+<td>Calling presentation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.callingtns</td>
+<td>Unsigned 16-bit integer</td>
+<td>Calling transit network select</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.callington</td>
+<td>Unsigned 8-bit integer</td>
+<td>Calling type of number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>Actual codec capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.cause</td>
+<td>String</td>
+<td>Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.causecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hangup cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.codecprefs</td>
+<td>String</td>
+<td>Codec negotiation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.cpe_adsi</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPE ADSI capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.dataformat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data call format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.datetime</td>
+<td>Date/Time stamp</td>
+<td>Date/Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.datetime.raw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Date/Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.devicetype</td>
+<td>String</td>
+<td>Device type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.dialplan_status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dialplan status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.dnid</td>
+<td>String</td>
+<td>Originally dialed DNID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.enckey</td>
+<td>String</td>
+<td>Encryption key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.encryption</td>
+<td>Unsigned 16-bit integer</td>
+<td>Encryption format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.firmwarever</td>
+<td>Unsigned 16-bit integer</td>
+<td>Firmware version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.format</td>
+<td>Unsigned 32-bit integer</td>
+<td>Desired codec format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.fwblockdata</td>
+<td>String</td>
+<td>Firmware block of data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.fwblockdesc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Firmware block description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.iax_unknown</td>
+<td>Byte array</td>
+<td>Unknown IAX command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.language</td>
+<td>String</td>
+<td>Desired language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.moh</td>
+<td>None</td>
+<td>Request musiconhold with QUELCH</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.msg_count</td>
+<td>Signed 16-bit integer</td>
+<td>How many messages waiting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.password</td>
+<td>String</td>
+<td>Password for authentication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.provisioning</td>
+<td>String</td>
+<td>Provisioning info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.provver</td>
+<td>Unsigned 32-bit integer</td>
+<td>Provisioning version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rdnis</td>
+<td>String</td>
+<td>Referring DNIS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.refresh</td>
+<td>Signed 16-bit integer</td>
+<td>When to refresh registration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrdelay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max playout delay in ms for received frames</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrdropped</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dropped frames (presumably by jitterbuffer)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrjitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received jitter (as in RFC1889)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrloss</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received loss (high byte loss pct, low 24 bits loss count, as in rfc1889)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrooo</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame received out of order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.rrpkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total frames received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.samplingrate</td>
+<td>Unsigned 16-bit integer</td>
+<td>Supported sampling rates</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.serviceident</td>
+<td>String</td>
+<td>Service identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>IAX subclass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.transferid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transfer Request Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.unknownbyte</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.unknownlong</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.unknownshort</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.unknownstring</td>
+<td>String</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.username</td>
+<td>String</td>
+<td>Username (peer or user) for authentication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iax.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Protocol version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.iseqno</td>
+<td>Unsigned 16-bit integer</td>
+<td>Inbound seq.no.</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.lateness</td>
+<td>Time duration</td>
+<td>Lateness</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.modem.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Modem subclass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.oseqno</td>
+<td>Unsigned 16-bit integer</td>
+<td>Outbound seq.no.</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.packet_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled IAX2 length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.reassembled_in</td>
+<td>Frame number</td>
+<td>IAX2 fragment, reassembled in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.retransmission</td>
+<td>Boolean</td>
+<td>Retransmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.src_call</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source call</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown subclass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.call.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.call.scallno</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source call number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.call.ts</td>
+<td>Unsigned 16-bit integer</td>
+<td>Timestamp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.cmddata</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.cmddata.ts</td>
+<td>Boolean</td>
+<td>Trunk timestamps</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.metacmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Meta command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.trunk.ncalls</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of calls</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.video.codec</td>
+<td>Unsigned 32-bit integer</td>
+<td>CODEC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.video.marker</td>
+<td>Unsigned 16-bit integer</td>
+<td>Marker</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.video.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Video Subclass (compressed codec no)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.voice.codec</td>
+<td>Unsigned 32-bit integer</td>
+<td>CODEC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>iax2.voice.subclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Voice Subclass (compressed codec no)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

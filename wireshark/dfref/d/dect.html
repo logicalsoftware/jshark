@@ -1,0 +1,860 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: DECT Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: DECT Protocol</h1>
+<div><b>Protocol field name:</b> dect</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>dect.afield</td>
+<td>Byte array</td>
+<td>A-Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.head</td>
+<td>Unsigned 8-bit integer</td>
+<td>A-Field Header</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.head.BA</td>
+<td>Unsigned 8-bit integer</td>
+<td>BA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.head.Q1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Q1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.head.Q2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Q2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.head.TA</td>
+<td>Unsigned 8-bit integer</td>
+<td>TA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.rcrc</td>
+<td>Unsigned 8-bit integer</td>
+<td>A-Field R-CRC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail</td>
+<td>None</td>
+<td>A-Field Tail</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.BasicConCtrl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cmd</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Encr.Cmd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cmd1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Encr.Cmd2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cmd2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Mh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mh</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Mh.attr</td>
+<td>None</td>
+<td>Mh</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Mh.fmid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Mh/FMID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Mt.Mh.pmid</td>
+<td>Unsigned 24-bit integer</td>
+<td>Mh/PMID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Nt</td>
+<td>Byte array</td>
+<td>RFPI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.BsData</td>
+<td>None</td>
+<td>Bs Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.CN</td>
+<td>Unsigned 8-bit integer</td>
+<td>CN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.ExtFlag</td>
+<td>Unsigned 8-bit integer</td>
+<td>ExtFlag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.FillBits</td>
+<td>None</td>
+<td>FillBits</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.InfoType</td>
+<td>Unsigned 8-bit integer</td>
+<td>InfoType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.InfoType.FillBits</td>
+<td>Unsigned 8-bit integer</td>
+<td>FillBits</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.RFPI</td>
+<td>None</td>
+<td>InfoType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.SDU</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bs SDU</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.SlotPairs</td>
+<td>None</td>
+<td>SlotPairs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.SN</td>
+<td>Unsigned 8-bit integer</td>
+<td>SN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Pt.SP</td>
+<td>Unsigned 8-bit integer</td>
+<td>SP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.CA</td>
+<td>None</td>
+<td>CA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.CN</td>
+<td>Unsigned 8-bit integer</td>
+<td>CN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A20</td>
+<td>Unsigned 8-bit integer</td>
+<td>A20</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A23</td>
+<td>Unsigned 8-bit integer</td>
+<td>A23</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A24</td>
+<td>Unsigned 8-bit integer</td>
+<td>A24</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A25</td>
+<td>Unsigned 8-bit integer</td>
+<td>A25</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A26</td>
+<td>Unsigned 8-bit integer</td>
+<td>A26</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A27</td>
+<td>Unsigned 8-bit integer</td>
+<td>A27</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A28</td>
+<td>Unsigned 8-bit integer</td>
+<td>A28</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A29</td>
+<td>Unsigned 8-bit integer</td>
+<td>A29</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A30</td>
+<td>Unsigned 8-bit integer</td>
+<td>A30</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A31</td>
+<td>Unsigned 8-bit integer</td>
+<td>A31</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A32</td>
+<td>Unsigned 8-bit integer</td>
+<td>A32</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A33</td>
+<td>Unsigned 8-bit integer</td>
+<td>A33</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A34</td>
+<td>Unsigned 8-bit integer</td>
+<td>A34</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A35</td>
+<td>Unsigned 8-bit integer</td>
+<td>A35</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A36</td>
+<td>Unsigned 8-bit integer</td>
+<td>A36</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A37</td>
+<td>Unsigned 8-bit integer</td>
+<td>A37</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A38</td>
+<td>Unsigned 8-bit integer</td>
+<td>A38</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A39</td>
+<td>Unsigned 8-bit integer</td>
+<td>A39</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A40</td>
+<td>Unsigned 8-bit integer</td>
+<td>A40</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A41</td>
+<td>Unsigned 8-bit integer</td>
+<td>A41</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A42</td>
+<td>Unsigned 8-bit integer</td>
+<td>A42</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A43</td>
+<td>Unsigned 8-bit integer</td>
+<td>A43</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A44</td>
+<td>Unsigned 8-bit integer</td>
+<td>A44</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A45</td>
+<td>Unsigned 8-bit integer</td>
+<td>A45</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A46</td>
+<td>Unsigned 8-bit integer</td>
+<td>A46</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.A47</td>
+<td>Unsigned 8-bit integer</td>
+<td>A47</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.CRFPEnc</td>
+<td>Unsigned 8-bit integer</td>
+<td>CRFP Enc</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.CRFPHops</td>
+<td>Unsigned 8-bit integer</td>
+<td>CRFP Hops</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.MACIpq</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Ipq</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.MACSusp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Suspend</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.REPCap</td>
+<td>Unsigned 8-bit integer</td>
+<td>REP Cap.</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.REPHops</td>
+<td>Unsigned 16-bit integer</td>
+<td>REP Hops</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Efp.Sync</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sync</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Esc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Esc</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A12</td>
+<td>Unsigned 8-bit integer</td>
+<td>A12</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A13</td>
+<td>Unsigned 8-bit integer</td>
+<td>A13</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A14</td>
+<td>Unsigned 8-bit integer</td>
+<td>A14</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A15</td>
+<td>Unsigned 8-bit integer</td>
+<td>A15</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A16</td>
+<td>Unsigned 8-bit integer</td>
+<td>A16</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A17</td>
+<td>Unsigned 8-bit integer</td>
+<td>A17</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A18</td>
+<td>Unsigned 8-bit integer</td>
+<td>A18</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A19</td>
+<td>Unsigned 8-bit integer</td>
+<td>A19</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A20</td>
+<td>Unsigned 8-bit integer</td>
+<td>A20</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A21</td>
+<td>Unsigned 8-bit integer</td>
+<td>A21</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A22</td>
+<td>Unsigned 8-bit integer</td>
+<td>A22</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A23</td>
+<td>Unsigned 8-bit integer</td>
+<td>A23</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A24</td>
+<td>Unsigned 8-bit integer</td>
+<td>A24</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A25</td>
+<td>Unsigned 8-bit integer</td>
+<td>A25</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A26</td>
+<td>Unsigned 8-bit integer</td>
+<td>A26</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A27</td>
+<td>Unsigned 8-bit integer</td>
+<td>A27</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A28</td>
+<td>Unsigned 8-bit integer</td>
+<td>A28</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A29</td>
+<td>Unsigned 8-bit integer</td>
+<td>A29</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A30</td>
+<td>Unsigned 8-bit integer</td>
+<td>A30</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A31</td>
+<td>Unsigned 8-bit integer</td>
+<td>A31</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A32</td>
+<td>Unsigned 8-bit integer</td>
+<td>A32</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A33</td>
+<td>Unsigned 8-bit integer</td>
+<td>A33</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A34</td>
+<td>Unsigned 8-bit integer</td>
+<td>A34</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A35</td>
+<td>Unsigned 8-bit integer</td>
+<td>A35</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A36</td>
+<td>Unsigned 8-bit integer</td>
+<td>A36</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A37</td>
+<td>Unsigned 8-bit integer</td>
+<td>A37</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A38</td>
+<td>Unsigned 8-bit integer</td>
+<td>A38</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A39</td>
+<td>Unsigned 8-bit integer</td>
+<td>A39</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A40</td>
+<td>Unsigned 8-bit integer</td>
+<td>A40</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A41</td>
+<td>Unsigned 8-bit integer</td>
+<td>A41</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A42</td>
+<td>Unsigned 8-bit integer</td>
+<td>A42</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A43</td>
+<td>Unsigned 8-bit integer</td>
+<td>A43</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A44</td>
+<td>Unsigned 8-bit integer</td>
+<td>A44</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A45</td>
+<td>Unsigned 8-bit integer</td>
+<td>A45</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A46</td>
+<td>Unsigned 8-bit integer</td>
+<td>A46</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Fp.A47</td>
+<td>Unsigned 8-bit integer</td>
+<td>A47</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Mc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mc</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Mfn.Mfn</td>
+<td>Byte array</td>
+<td>Multiframe Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Mfn.Spare</td>
+<td>Unsigned 16-bit integer</td>
+<td>Spare Bits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.NR</td>
+<td>Unsigned 8-bit integer</td>
+<td>NR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.PSCN</td>
+<td>Unsigned 8-bit integer</td>
+<td>PSCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Qh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qh</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.SN</td>
+<td>Unsigned 8-bit integer</td>
+<td>SN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.SP</td>
+<td>Unsigned 8-bit integer</td>
+<td>SP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Spr1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spr1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Spr2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spr2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.afield.tail.Qt.Txs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Txs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.bfield</td>
+<td>Byte array</td>
+<td>B-Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.bfield.data</td>
+<td>None</td>
+<td>B-Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.bfield.descrdata</td>
+<td>None</td>
+<td>Descrambled Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.bfield.framenumber</td>
+<td>None</td>
+<td>B-Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.bfield.xcrc</td>
+<td>Unsigned 8-bit integer</td>
+<td>B-Field X-CRC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.cc</td>
+<td>None</td>
+<td>Columns</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.cc.afield</td>
+<td>String</td>
+<td>A-Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.cc.bfield</td>
+<td>String</td>
+<td>B-Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.cc.TA</td>
+<td>String</td>
+<td>TA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.framenumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame#</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.preamble</td>
+<td>Byte array</td>
+<td>Preamble</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.rssi</td>
+<td>Unsigned 8-bit integer</td>
+<td>RSSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.slot</td>
+<td>Unsigned 16-bit integer</td>
+<td>Slot</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.tranceivermode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tranceiver-Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dect.type</td>
+<td>Byte array</td>
+<td>Packet-Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

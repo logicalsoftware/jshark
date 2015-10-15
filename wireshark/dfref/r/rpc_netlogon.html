@@ -1,0 +1,1952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Microsoft Network Logon</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Microsoft Network Logon</h1>
+<div><b>Protocol field name:</b> rpc_netlogon</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>netlogon.acct.expiry_time</td>
+<td>Date/Time stamp</td>
+<td>Acct Expiry Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.acct_desc</td>
+<td>String</td>
+<td>Acct Desc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.acct_name</td>
+<td>String</td>
+<td>Acct Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.alias_name</td>
+<td>String</td>
+<td>Alias Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.alias_rid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alias RID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.attrs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.audit_retention_period</td>
+<td>Time duration</td>
+<td>Audit Retention Period</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.auditing_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Auditing Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.auth.data</td>
+<td>Byte array</td>
+<td>Auth Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.auth.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.auth_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.authoritative</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authoritative</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.bad_pw_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bad PW Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.bad_pw_count16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bad PW Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.blob</td>
+<td>Byte array</td>
+<td>BLOB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.blob.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.challenge</td>
+<td>Byte array</td>
+<td>Challenge</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_current_data</td>
+<td>Byte array</td>
+<td>Cipher Current Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_current_set_time</td>
+<td>Date/Time stamp</td>
+<td>Cipher Current Set Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cipher Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_maxlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cipher Max Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_old_data</td>
+<td>Byte array</td>
+<td>Cipher Old Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.cipher_old_set_time</td>
+<td>Date/Time stamp</td>
+<td>Cipher Old Set Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.client.site_name</td>
+<td>String</td>
+<td>Client Site Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.client_dns_name</td>
+<td>String</td>
+<td>Client DNS Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.clientchallenge</td>
+<td>Byte array</td>
+<td>Client Challenge</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.clientcred</td>
+<td>Byte array</td>
+<td>Client Credential</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.codepage</td>
+<td>Unsigned 16-bit integer</td>
+<td>Codepage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.computer_name</td>
+<td>String</td>
+<td>Computer Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.country</td>
+<td>Unsigned 16-bit integer</td>
+<td>Country</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.credential</td>
+<td>Byte array</td>
+<td>Credential</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.data.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length of Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.data.package_name</td>
+<td>String</td>
+<td>SSP Package Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.database_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Database Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.db_create_time</td>
+<td>Date/Time stamp</td>
+<td>DB Create Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.db_modify_time</td>
+<td>Date/Time stamp</td>
+<td>DB Modify Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.address</td>
+<td>String</td>
+<td>DC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.address_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>DC Address Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Domain Controller Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.closest</td>
+<td>Boolean</td>
+<td>Closest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.dns_controller</td>
+<td>Boolean</td>
+<td>DNS Controller</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.dns_domain</td>
+<td>Boolean</td>
+<td>DNS Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.dns_forest</td>
+<td>Boolean</td>
+<td>DNS Forest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.ds</td>
+<td>Boolean</td>
+<td>DS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.gc</td>
+<td>Boolean</td>
+<td>GC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.good_timeserv</td>
+<td>Boolean</td>
+<td>Good Timeserv</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.kdc</td>
+<td>Boolean</td>
+<td>KDC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.ldap</td>
+<td>Boolean</td>
+<td>LDAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.ndnc</td>
+<td>Boolean</td>
+<td>NDNC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.pdc</td>
+<td>Boolean</td>
+<td>PDC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.timeserv</td>
+<td>Boolean</td>
+<td>Timeserv</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.flags.writable</td>
+<td>Boolean</td>
+<td>Writable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.name</td>
+<td>String</td>
+<td>DC Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dc.site_name</td>
+<td>String</td>
+<td>DC Site Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.delta_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Delta Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dir_drive</td>
+<td>String</td>
+<td>Dir Drive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dns.forest_name</td>
+<td>String</td>
+<td>DNS Forest Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dns_domain</td>
+<td>String</td>
+<td>DNS Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dns_host</td>
+<td>String</td>
+<td>DNS Host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dnsdomaininfo</td>
+<td>None</td>
+<td>DnsDomainInfo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.domain_create_time</td>
+<td>Date/Time stamp</td>
+<td>Domain Create Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.domain_modify_time</td>
+<td>Date/Time stamp</td>
+<td>Domain Modify Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dos.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>DOS error code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.downlevel_domain</td>
+<td>String</td>
+<td>Downlevel Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy</td>
+<td>String</td>
+<td>Dummy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy1 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long10</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy10 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy2 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy3 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy4 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long5</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy5 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long6</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy6 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long7</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy7 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long8</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy8 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy.long9</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dummy9 Long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.dummy_string</td>
+<td>String</td>
+<td>Dummy String</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.encryption.types</td>
+<td>Unsigned 32-bit integer</td>
+<td>Supported Encryption Types</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.event_audit_option</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Audit Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.extra.flags.dc_firsthop</td>
+<td>Boolean</td>
+<td> DC at the end of the first hop of cross forest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.extra.flags.rodc_ntlm</td>
+<td>Boolean</td>
+<td>Request is a NTLM auth passed by a RODC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.extra.flags.rodc_to_dc</td>
+<td>Boolean</td>
+<td>Request from a RODC to a DC from another domain</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.extra.flags.rootdc</td>
+<td>Boolean</td>
+<td>Request passed to DC of root forest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.extra_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extra Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.full_name</td>
+<td>String</td>
+<td>Full Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.avoid_self</td>
+<td>Boolean</td>
+<td>Avoid Self</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.background_only</td>
+<td>Boolean</td>
+<td>Background Only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.ds_preferred</td>
+<td>Boolean</td>
+<td>DS Preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.ds_required</td>
+<td>Boolean</td>
+<td>DS Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.force_rediscovery</td>
+<td>Boolean</td>
+<td>Force Rediscovery</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.gc_server_required</td>
+<td>Boolean</td>
+<td>GC Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.good_timeserv_preferred</td>
+<td>Boolean</td>
+<td>Timeserv Preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.ip_required</td>
+<td>Boolean</td>
+<td>IP Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.is_dns_name</td>
+<td>Boolean</td>
+<td>Is DNS Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.is_flat_name</td>
+<td>Boolean</td>
+<td>Is Flat Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.kdc_required</td>
+<td>Boolean</td>
+<td>KDC Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.only_ldap_needed</td>
+<td>Boolean</td>
+<td>Only LDAP Needed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.pdc_required</td>
+<td>Boolean</td>
+<td>PDC Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.return_dns_name</td>
+<td>Boolean</td>
+<td>Return DNS Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.return_flat_name</td>
+<td>Boolean</td>
+<td>Return Flat Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.timeserv_required</td>
+<td>Boolean</td>
+<td>Timeserv Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.get_dcname.request.flags.writable_required</td>
+<td>Boolean</td>
+<td>Writable Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.group_desc</td>
+<td>String</td>
+<td>Group Desc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.group_name</td>
+<td>String</td>
+<td>Group Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.group_rid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Group RID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.groups.attrs.enabled</td>
+<td>Boolean</td>
+<td>Enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.groups.attrs.enabled_by_default</td>
+<td>Boolean</td>
+<td>Enabled By Default</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.groups.attrs.mandatory</td>
+<td>Boolean</td>
+<td>Mandatory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.handle</td>
+<td>String</td>
+<td>Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.home_dir</td>
+<td>String</td>
+<td>Home Dir</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.kickoff_time</td>
+<td>Date/Time stamp</td>
+<td>Kickoff Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.last_logoff_time</td>
+<td>Date/Time stamp</td>
+<td>Last Logoff Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.level16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lm_chal_resp</td>
+<td>Byte array</td>
+<td>LM Chal resp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lm_owf_pwd</td>
+<td>Byte array</td>
+<td>LM Pwd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lm_owf_pwd.encrypted</td>
+<td>Byte array</td>
+<td>Encrypted LM Pwd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lm_pwd_present</td>
+<td>Unsigned 8-bit integer</td>
+<td>LM PWD Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logoff_time</td>
+<td>Date/Time stamp</td>
+<td>Logoff Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon.dnslogondomainname</td>
+<td>String</td>
+<td>DNS Logon Domain name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon.upn</td>
+<td>String</td>
+<td>UPN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_attempts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Logon Attempts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Logon Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_count16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Logon Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Logon ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_script</td>
+<td>String</td>
+<td>Logon Script</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.logon_time</td>
+<td>Date/Time stamp</td>
+<td>Logon Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lsapolicy.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lsapolicy.pointer</td>
+<td>Byte array</td>
+<td>Pointer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.lsapolicy.referentID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Referent ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.max_audit_event_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Audit Event Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.max_log_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Log Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.max_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.max_working_set_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Working Set Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.min_passwd_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min Password Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.min_working_set_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Min Working Set Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.modify_count</td>
+<td>Unsigned 64-bit integer</td>
+<td>Modify Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.neg_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Negotiation options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.next_reference</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.nonpaged_pool_limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Non-Paged Pool Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.nt_chal_resp</td>
+<td>Byte array</td>
+<td>NT Chal resp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.nt_owf_pwd</td>
+<td>Byte array</td>
+<td>NT Pwd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.nt_pwd_present</td>
+<td>Unsigned 8-bit integer</td>
+<td>NT PWD Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.num_dc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num DCs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.num_deltas</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Deltas</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.num_other_groups</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Other Groups</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.num_rids</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num RIDs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.num_sid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Extra SID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.num_trusts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Trusts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.oem_info</td>
+<td>String</td>
+<td>OEM Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.os.version</td>
+<td>String</td>
+<td>OS version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pac.data</td>
+<td>Byte array</td>
+<td>Pac Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pac.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pac Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.page_file_limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Page File Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.paged_pool_limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Paged Pool Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.param_ctrl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Param Ctrl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.parameters</td>
+<td>String</td>
+<td>Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.parent_index</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parent Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.passwd_history_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Passwd History Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pdc_connection_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>PDC Connection Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.principal</td>
+<td>String</td>
+<td>Principal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.priv</td>
+<td>Unsigned 32-bit integer</td>
+<td>Priv</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.privilege_control</td>
+<td>Unsigned 32-bit integer</td>
+<td>Privilege Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.privilege_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Privilege Entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.privilege_name</td>
+<td>String</td>
+<td>Privilege Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.profile_path</td>
+<td>String</td>
+<td>Profile Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pwd_age</td>
+<td>Time duration</td>
+<td>PWD Age</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pwd_can_change_time</td>
+<td>Date/Time stamp</td>
+<td>PWD Can Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pwd_expired</td>
+<td>Unsigned 8-bit integer</td>
+<td>PWD Expired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pwd_last_set_time</td>
+<td>Date/Time stamp</td>
+<td>PWD Last Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.pwd_must_change_time</td>
+<td>Date/Time stamp</td>
+<td>PWD Must Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Return code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.reference</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.resourcegroupcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>ResourceGroup count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.restart_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>Restart State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.rid</td>
+<td>Unsigned 32-bit integer</td>
+<td>User RID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.sec_chan_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sec Chan Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.bind.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.bind.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.bind_ack.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.bind_ack.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.bind_ack.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown3</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.digest</td>
+<td>Byte array</td>
+<td>Packet Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.flags</td>
+<td>Byte array</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.host</td>
+<td>String</td>
+<td>Host</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.dns_domain</td>
+<td>String</td>
+<td>DNS Domain</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.dns_host</td>
+<td>String</td>
+<td>DNS Host</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags.dns_domain</td>
+<td>Boolean</td>
+<td>DNS Domain</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags.dns_host</td>
+<td>Boolean</td>
+<td>DNS Host</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags.nb_domain</td>
+<td>Boolean</td>
+<td>NetBios Domain</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags.nb_host</td>
+<td>Boolean</td>
+<td>NetBios Host</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_flags.nb_host_utf8</td>
+<td>Boolean</td>
+<td>NetBios Host(UTF8)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.message_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.nb_domain</td>
+<td>String</td>
+<td>NetBios Domain</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.nb_host</td>
+<td>String</td>
+<td>NetBios Host</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nl_auth_message.nb_host_utf8</td>
+<td>String</td>
+<td>NetBios Host(UTF8)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.nonce</td>
+<td>Byte array</td>
+<td>Nonce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.sealalg</td>
+<td>Unsigned 16-bit integer</td>
+<td>Seal algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.seq</td>
+<td>Byte array</td>
+<td>Sequence No</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.sig</td>
+<td>Byte array</td>
+<td>Signature</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>netlogon.secchan.signalg</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sign algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.secchan.verifier</td>
+<td>None</td>
+<td>Secure Channel Verifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.security_information</td>
+<td>Unsigned 32-bit integer</td>
+<td>Security Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.sensitive_data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.sensitive_data_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensitive Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.sensitive_data_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.serial_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Serial Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.server</td>
+<td>String</td>
+<td>Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.serverchallenge</td>
+<td>Byte array</td>
+<td>Server Challenge</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.servercred</td>
+<td>Byte array</td>
+<td>Server Credential</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.serverrid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Account RID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.site_name</td>
+<td>String</td>
+<td>Site Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.sync_context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sync Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.system_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>System Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.tc_connection_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>TC Connection Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.time_limit</td>
+<td>Time duration</td>
+<td>Time Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.timestamp</td>
+<td>Date/Time stamp</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.cross_organization</td>
+<td>Boolean</td>
+<td>Cross Organization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.forest_transitive</td>
+<td>Boolean</td>
+<td>Forest Transitive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.non_transitive</td>
+<td>Boolean</td>
+<td>Non Transitive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.quarantined_domain</td>
+<td>Boolean</td>
+<td>Quarantined Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.treat_as_external</td>
+<td>Boolean</td>
+<td>Treat As External</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.uplevel_only</td>
+<td>Boolean</td>
+<td>Uplevel Only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.attribs.within_forest</td>
+<td>Boolean</td>
+<td>Within Forest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.extention</td>
+<td>String</td>
+<td>Trust extension</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.extention.maxcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.extention_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.extention_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.in_forest</td>
+<td>Boolean</td>
+<td>In Forest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.inbound</td>
+<td>Boolean</td>
+<td>Inbound Trust</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.native_mode</td>
+<td>Boolean</td>
+<td>Native Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.outbound</td>
+<td>Boolean</td>
+<td>Outbound Trust</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.primary</td>
+<td>Boolean</td>
+<td>Primary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust.flags.tree_root</td>
+<td>Boolean</td>
+<td>Tree Root</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust_attribs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trust_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.trusted_dc</td>
+<td>String</td>
+<td>Trusted DC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.unknown.char</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown char</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.unknown.long</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown long</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.unknown.short</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown short</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.unknown_string</td>
+<td>String</td>
+<td>Unknown string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.account_auto_locked</td>
+<td>Boolean</td>
+<td>Account Auto Locked</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.account_disabled</td>
+<td>Boolean</td>
+<td>Account Disabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.dont_expire_password</td>
+<td>Boolean</td>
+<td>Don't Expire Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.dont_require_preauth</td>
+<td>Boolean</td>
+<td>Don't Require PreAuth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.encrypted_text_password_allowed</td>
+<td>Boolean</td>
+<td>Encrypted Text Password Allowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.home_directory_required</td>
+<td>Boolean</td>
+<td>Home Directory Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.interdomain_trust_account</td>
+<td>Boolean</td>
+<td>Interdomain trust Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.mns_logon_account</td>
+<td>Boolean</td>
+<td>MNS Logon Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.normal_account</td>
+<td>Boolean</td>
+<td>Normal Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.not_delegated</td>
+<td>Boolean</td>
+<td>Not Delegated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.password_not_required</td>
+<td>Boolean</td>
+<td>Password Not Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.server_trust_account</td>
+<td>Boolean</td>
+<td>Server Trust Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.smartcard_required</td>
+<td>Boolean</td>
+<td>SmartCard Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.temp_duplicate_account</td>
+<td>Boolean</td>
+<td>Temp Duplicate Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.trusted_for_delegation</td>
+<td>Boolean</td>
+<td>Trusted For Delegation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.use_des_key_only</td>
+<td>Boolean</td>
+<td>Use DES Key Only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.account_control.workstation_trust_account</td>
+<td>Boolean</td>
+<td>Workstation Trust Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.flags.extra_sids</td>
+<td>Boolean</td>
+<td>Extra SIDs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user.flags.resource_groups</td>
+<td>Boolean</td>
+<td>Resource Groups</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user_account_control</td>
+<td>Unsigned 32-bit integer</td>
+<td>User Account Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>User Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.user_session_key</td>
+<td>Byte array</td>
+<td>User Session Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.validation_level</td>
+<td>Unsigned 16-bit integer</td>
+<td>Validation Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.werr.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>WERR error code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.wkst.fqdn</td>
+<td>String</td>
+<td>Wkst FQDN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.wkst.name</td>
+<td>String</td>
+<td>Wkst Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.wkst.os</td>
+<td>String</td>
+<td>Wkst OS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.wkst.site_name</td>
+<td>String</td>
+<td>Wkst Site Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.wksts</td>
+<td>String</td>
+<td>Workstations</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>netlogon.workstation.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Workstation Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na1</td>
+<td>Boolean</td>
+<td>Account lockout</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na10</td>
+<td>Boolean</td>
+<td>BDC handling Changelogs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na100</td>
+<td>Boolean</td>
+<td>Refusal of password change</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na1000</td>
+<td>Boolean</td>
+<td>Avoid replication account database</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na10000</td>
+<td>Boolean</td>
+<td>DNS trusts supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na100000</td>
+<td>Boolean</td>
+<td>Not used 1000000</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na2</td>
+<td>Boolean</td>
+<td>NT3.5 BDC continious update</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na20</td>
+<td>Boolean</td>
+<td>Restarting full DC sync</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na200</td>
+<td>Boolean</td>
+<td>SendToSam</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na2000</td>
+<td>Boolean</td>
+<td>Avoid replication Auth database</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na20000</td>
+<td>Boolean</td>
+<td>ServerPasswordSet2 supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na200000</td>
+<td>Boolean</td>
+<td>Not used 2000000</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na4</td>
+<td>Boolean</td>
+<td>RC4 encryption</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na40</td>
+<td>Boolean</td>
+<td>Handle multiple SIDs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na400</td>
+<td>Boolean</td>
+<td>Generic pass-through</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na4000</td>
+<td>Boolean</td>
+<td>Strong key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na40000</td>
+<td>Boolean</td>
+<td>GetDomainInfo supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na400000</td>
+<td>Boolean</td>
+<td>Not used 4000000</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na8</td>
+<td>Boolean</td>
+<td>Promotion count(deprecated)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na80</td>
+<td>Boolean</td>
+<td>DatabaseRedo call</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na800</td>
+<td>Boolean</td>
+<td>Concurent RPC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na8000</td>
+<td>Boolean</td>
+<td>Transitive trusts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na80000</td>
+<td>Boolean</td>
+<td>Cross forest trust</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na800000</td>
+<td>Boolean</td>
+<td>Not used 8000000</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ntlmssp.neg_flags.na8000000</td>
+<td>Boolean</td>
+<td>Not used 80000000</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

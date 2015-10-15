@@ -1,0 +1,1454 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Skinny Client Control Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Skinny Client Control Protocol</h1>
+<div><b>Protocol field name:</b> skinny</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>skinny.activeConferenceOnRegistration</td>
+<td>Unsigned 32-bit integer</td>
+<td>ActiveConferenceOnRegistration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.activeForward</td>
+<td>Unsigned 32-bit integer</td>
+<td>Active Forward</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.activeStreamsOnRegistration</td>
+<td>Unsigned 32-bit integer</td>
+<td>ActiveStreamsOnRegistration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.addParticipantResults</td>
+<td>Unsigned 32-bit integer</td>
+<td>AddParticipantResults</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.alarmParam1</td>
+<td>Unsigned 32-bit integer</td>
+<td>AlarmParam1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.alarmParam2</td>
+<td>IPv4 address</td>
+<td>AlarmParam2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.alarmSeverity</td>
+<td>Unsigned 32-bit integer</td>
+<td>AlarmSeverity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.annexNandWFutureUse</td>
+<td>Unsigned 32-bit integer</td>
+<td>AnnexNandWFutureUse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.annPlayMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>annPlayMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.annPlayStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>AnnPlayStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.appConfID</td>
+<td>Unsigned 8-bit integer</td>
+<td>AppConfID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.appData</td>
+<td>Unsigned 8-bit integer</td>
+<td>AppData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.appID</td>
+<td>Unsigned 32-bit integer</td>
+<td>AppID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.appInstanceID</td>
+<td>Unsigned 32-bit integer</td>
+<td>AppInstanceID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.applicationID</td>
+<td>Unsigned 32-bit integer</td>
+<td>ApplicationID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.audioCapCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>AudioCapCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.auditParticipantResults</td>
+<td>Unsigned 32-bit integer</td>
+<td>AuditParticipantResults</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bandwidth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.bitRate</td>
+<td>Unsigned 32-bit integer</td>
+<td>BitRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.buttonCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>ButtonCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.buttonDefinition</td>
+<td>Unsigned 8-bit integer</td>
+<td>ButtonDefinition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.buttonInstanceNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>InstanceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.buttonOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>ButtonOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.calledParty</td>
+<td>String</td>
+<td>CalledParty</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.calledPartyName</td>
+<td>String</td>
+<td>Called Party Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.callIdentifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Call Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.callingPartyName</td>
+<td>String</td>
+<td>Calling Party Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.callSelectStat</td>
+<td>Unsigned 32-bit integer</td>
+<td>CallSelectStat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.callState</td>
+<td>Unsigned 32-bit integer</td>
+<td>CallState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.callType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Call Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.capCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>CapCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.clockConversionCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>ClockConversionCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.clockDivisor</td>
+<td>Unsigned 32-bit integer</td>
+<td>ClockDivisor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.conferenceID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Conference ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.confServiceNum</td>
+<td>Unsigned 32-bit integer</td>
+<td>ConfServiceNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.country</td>
+<td>Unsigned 32-bit integer</td>
+<td>Country</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.createConfResults</td>
+<td>Unsigned 32-bit integer</td>
+<td>CreateConfResults</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.customPictureFormatCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>CustomPictureFormatCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.data</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.dataCapCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>DataCapCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.dateMilliseconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>Milliseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.dateSeconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>Seconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.dateTemplate</td>
+<td>String</td>
+<td>DateTemplate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.day</td>
+<td>Unsigned 32-bit integer</td>
+<td>Day</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.dayOfWeek</td>
+<td>Unsigned 32-bit integer</td>
+<td>DayOfWeek</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deleteConfResults</td>
+<td>Unsigned 32-bit integer</td>
+<td>DeleteConfResults</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.detectInterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>HF Detect Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deviceName</td>
+<td>String</td>
+<td>DeviceName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deviceResetType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reset Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deviceTone</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deviceType</td>
+<td>Unsigned 32-bit integer</td>
+<td>DeviceType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.deviceUnregisterStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unregister Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.directoryNumber</td>
+<td>String</td>
+<td>Directory Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.displayMessage</td>
+<td>String</td>
+<td>DisplayMessage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.displayName</td>
+<td>String</td>
+<td>DisplayName</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.displayPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>DisplayPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.DSCPValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>DSCPValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.echoCancelType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Echo Cancel Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.endOfAnnAck</td>
+<td>Unsigned 32-bit integer</td>
+<td>EndOfAnnAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.featureID</td>
+<td>Unsigned 32-bit integer</td>
+<td>FeatureID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.featureIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>FeatureIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.featureStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>FeatureStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.featureTextLabel</td>
+<td>String</td>
+<td>FeatureTextLabel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.firstGOB</td>
+<td>Unsigned 32-bit integer</td>
+<td>FirstGOB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.firstMB</td>
+<td>Unsigned 32-bit integer</td>
+<td>FirstMB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.format</td>
+<td>Unsigned 32-bit integer</td>
+<td>Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.forwardAllActive</td>
+<td>Unsigned 32-bit integer</td>
+<td>Forward All</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.forwardBusyActive</td>
+<td>Unsigned 32-bit integer</td>
+<td>Forward Busy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.forwardNoAnswerActive</td>
+<td>Unsigned 32-bit integer</td>
+<td>Forward NoAns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.forwardNumber</td>
+<td>String</td>
+<td>Forward Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.fqdn</td>
+<td>String</td>
+<td>FullyQualifiedDisplayName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.g723BitRate</td>
+<td>Unsigned 32-bit integer</td>
+<td>G723 BitRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.h263_capability_bitfield</td>
+<td>Unsigned 32-bit integer</td>
+<td>H263_capability_bitfield</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.headsetMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Headset Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.hearingConfPartyMask</td>
+<td>Unsigned 32-bit integer</td>
+<td>HearingConfPartyMask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.hookFlashDetectMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hook Flash Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.hour</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hour</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.ipAddress</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.isConferenceCreator</td>
+<td>Unsigned 32-bit integer</td>
+<td>IsConferenceCreator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.jitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.keepAliveInterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>KeepAliveInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.lampMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>LampMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.last</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.latency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Latency(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.layout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Layout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.layoutCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>LayoutCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.levelPreferenceCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>LevelPreferenceCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.lineDirNumber</td>
+<td>String</td>
+<td>Line Dir Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.lineInstance</td>
+<td>Unsigned 32-bit integer</td>
+<td>Line Instance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.lineNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>LineNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.locale</td>
+<td>Unsigned 32-bit integer</td>
+<td>Locale</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.longTermPictureIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>LongTermPictureIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.matrixConfPartyID</td>
+<td>Unsigned 32-bit integer</td>
+<td>MatrixConfPartyID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxBitRate</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxBitRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxBW</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxBW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxConferences</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxConferences</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxFramesPerPacket</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaxFramesPerPacket</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxStreams</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxStreams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.maxStreamsPerConf</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxStreamsPerConf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.mediaEnunciationType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enunciation Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.messageid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.messageTimeOutValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.microphoneMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Microphone Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.millisecondPacketSize</td>
+<td>Unsigned 32-bit integer</td>
+<td>MS/Packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.minBitRate</td>
+<td>Unsigned 32-bit integer</td>
+<td>MinBitRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.minute</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.miscCommandType</td>
+<td>Unsigned 32-bit integer</td>
+<td>MiscCommandType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.modelNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>ModelNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.modifyConfResults</td>
+<td>Unsigned 32-bit integer</td>
+<td>ModifyConfResults</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.month</td>
+<td>Unsigned 32-bit integer</td>
+<td>Month</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.MPI</td>
+<td>Unsigned 32-bit integer</td>
+<td>MPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.multicastIpAddress</td>
+<td>IPv4 address</td>
+<td>Multicast Ip Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.multicastPort</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multicast Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.notify</td>
+<td>String</td>
+<td>Notify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberLines</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Lines</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfActiveParticipants</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfActiveParticipants</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfEntries</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfEntries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfGOBs</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfGOBs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfInServiceStreams</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfInServiceStreams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfMBs</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfMBs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfOutOfServiceStreams</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfOutOfServiceStreams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberOfReservedParticipants</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfReservedParticipants</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.numberSpeedDials</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of SpeedDials</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.octetsRecv</td>
+<td>Unsigned 32-bit integer</td>
+<td>Octets Received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.octetsSent</td>
+<td>Unsigned 32-bit integer</td>
+<td>Octets Sent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.openReceiveChannelStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>OpenReceiveChannelStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.originalCalledParty</td>
+<td>String</td>
+<td>Original Called Party</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.originalCalledPartyName</td>
+<td>String</td>
+<td>Original Called Party Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.packetsLost</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets Lost</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.packetsRecv</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets Received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.packetsSent</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets Sent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.participantEntry</td>
+<td>Unsigned 32-bit integer</td>
+<td>ParticipantEntry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.passThruData</td>
+<td>Unsigned 8-bit integer</td>
+<td>PassThruData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.passThruPartyID</td>
+<td>Unsigned 32-bit integer</td>
+<td>PassThruPartyID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.payload_rfc_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Payload_rfc_number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.payloadCapability</td>
+<td>Unsigned 32-bit integer</td>
+<td>PayloadCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.payloadDtmf</td>
+<td>Unsigned 32-bit integer</td>
+<td>PayloadDtmf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.payloadType</td>
+<td>Unsigned 32-bit integer</td>
+<td>PayloadType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.pictureFormatCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>PictureFormatCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.pictureHeight</td>
+<td>Unsigned 32-bit integer</td>
+<td>PictureHeight</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.pictureNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>PictureNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.pictureWidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>PictureWidth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.pixelAspectRatio</td>
+<td>Unsigned 32-bit integer</td>
+<td>PixelAspectRatio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.portNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>Port Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.precedenceValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Precedence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.protocolDependentData</td>
+<td>Unsigned 32-bit integer</td>
+<td>ProtocolDependentData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.receptionStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReceptionStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.recoveryReferencePictureCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>RecoveryReferencePictureCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.remoteIpAddr</td>
+<td>IPv4 address</td>
+<td>Remote Ip Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.remotePortNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.resourceTypes</td>
+<td>Unsigned 32-bit integer</td>
+<td>ResourceType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.ringMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ring Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.ringType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ring Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.routingID</td>
+<td>Unsigned 32-bit integer</td>
+<td>routingID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.RTPPayloadFormat</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTPPayloadFormat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.secondaryKeepAliveInterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>SecondaryKeepAliveInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.sequenceFlag</td>
+<td>Unsigned 32-bit integer</td>
+<td>SequenceFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serverIdentifier</td>
+<td>String</td>
+<td>Server Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serverIpAddress</td>
+<td>IPv4 address</td>
+<td>Server Ip Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serverListenPort</td>
+<td>Unsigned 32-bit integer</td>
+<td>Server Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serverName</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceNum</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServiceNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServiceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceResourceCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServiceResourceCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceURL</td>
+<td>String</td>
+<td>ServiceURL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceURLDisplayName</td>
+<td>String</td>
+<td>ServiceURLDisplayName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.serviceURLIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceURLIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.sessionType</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.silenceSuppression</td>
+<td>Unsigned 32-bit integer</td>
+<td>Silence Suppression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>SoftKeyCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyEvent</td>
+<td>Unsigned 32-bit integer</td>
+<td>SoftKeyEvent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyInfoIndex</td>
+<td>Unsigned 16-bit integer</td>
+<td>SoftKeyInfoIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyLabel</td>
+<td>String</td>
+<td>SoftKeyLabel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap</td>
+<td>Unsigned 16-bit integer</td>
+<td>SoftKeyMap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.0</td>
+<td>Boolean</td>
+<td>SoftKey0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.1</td>
+<td>Boolean</td>
+<td>SoftKey1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.10</td>
+<td>Boolean</td>
+<td>SoftKey10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.11</td>
+<td>Boolean</td>
+<td>SoftKey11</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.12</td>
+<td>Boolean</td>
+<td>SoftKey12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.13</td>
+<td>Boolean</td>
+<td>SoftKey13</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.14</td>
+<td>Boolean</td>
+<td>SoftKey14</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.15</td>
+<td>Boolean</td>
+<td>SoftKey15</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.2</td>
+<td>Boolean</td>
+<td>SoftKey2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.3</td>
+<td>Boolean</td>
+<td>SoftKey3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.4</td>
+<td>Boolean</td>
+<td>SoftKey4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.5</td>
+<td>Boolean</td>
+<td>SoftKey5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.6</td>
+<td>Boolean</td>
+<td>SoftKey6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.7</td>
+<td>Boolean</td>
+<td>SoftKey7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.8</td>
+<td>Boolean</td>
+<td>SoftKey8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyMap.9</td>
+<td>Boolean</td>
+<td>SoftKey9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SoftKeyOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeySetCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>SoftKeySetCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeySetDescription</td>
+<td>Unsigned 8-bit integer</td>
+<td>SoftKeySet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeySetOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SoftKeySetOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.softKeyTemplateIndex</td>
+<td>Unsigned 8-bit integer</td>
+<td>SoftKeyTemplateIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.speakerMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Speaker</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.speedDialDirNum</td>
+<td>String</td>
+<td>SpeedDial Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.speedDialDisplay</td>
+<td>String</td>
+<td>SpeedDial Display</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.speedDialNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>SpeedDialNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stationInstance</td>
+<td>Unsigned 32-bit integer</td>
+<td>StationInstance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stationIpPort</td>
+<td>Unsigned 16-bit integer</td>
+<td>StationIpPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stationKeypadButton</td>
+<td>Unsigned 32-bit integer</td>
+<td>KeypadButton</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stationUserId</td>
+<td>Unsigned 32-bit integer</td>
+<td>StationUserId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.statsProcessingType</td>
+<td>Unsigned 32-bit integer</td>
+<td>StatsProcessingType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stillImageTransmission</td>
+<td>Unsigned 32-bit integer</td>
+<td>StillImageTransmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stimulus</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stimulus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.stimulusInstance</td>
+<td>Unsigned 32-bit integer</td>
+<td>StimulusInstance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.temporalSpatialTradeOff</td>
+<td>Unsigned 32-bit integer</td>
+<td>TemporalSpatialTradeOff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.temporalSpatialTradeOffCapability</td>
+<td>Unsigned 32-bit integer</td>
+<td>TemporalSpatialTradeOffCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.timeStamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.tokenRejWaitTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Retry Wait Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.totalButtonCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>TotalButtonCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.totalSoftKeyCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>TotalSoftKeyCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.totalSoftKeySetCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>TotalSoftKeySetCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.transactionID</td>
+<td>Unsigned 32-bit integer</td>
+<td>TransactionID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.transmitOrReceive</td>
+<td>Unsigned 32-bit integer</td>
+<td>TransmitOrReceive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.transmitPreference</td>
+<td>Unsigned 32-bit integer</td>
+<td>TransmitPreference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.userName</td>
+<td>String</td>
+<td>Username</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.videoCapCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>VideoCapCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>skinny.year</td>
+<td>Unsigned 32-bit integer</td>
+<td>Year</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

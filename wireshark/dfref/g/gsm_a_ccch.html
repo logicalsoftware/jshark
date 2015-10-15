@@ -1,0 +1,1652 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GSM CCCH</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GSM CCCH</h1>
+<div><b>Protocol field name:</b> gsm_a_ccch</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gsm_a.algorithm_identifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>Algorithm identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.bcc</td>
+<td>Unsigned 8-bit integer</td>
+<td>BCC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.bcch_arfcn</td>
+<td>Unsigned 16-bit integer</td>
+<td>BCCH ARFCN(RF channel number)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_rr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Radio Resources Management Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.ncc</td>
+<td>Unsigned 8-bit integer</td>
+<td>NCC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.1800_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>1800 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.1800_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>1800 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.1900_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>1900 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.1900_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>1900 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.3g_ba_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>3G BA-IND</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.3g_ba_used</td>
+<td>Unsigned 8-bit integer</td>
+<td>3G-BA-USED</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.3g_ccn_active</td>
+<td>Boolean</td>
+<td>3G CCN Active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.3g_search_prio</td>
+<td>Boolean</td>
+<td>3G Search Prio</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.3g_wait</td>
+<td>Unsigned 8-bit integer</td>
+<td>3G Wait</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.400_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>400 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.400_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>400 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.700_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>700 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.700_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>700 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.810_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>810 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.810_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>810 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.850_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>850 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.900_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>900 Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.900_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>900 Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.absolute_index_start_emr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Absolute Index Start EMR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.acc</td>
+<td>Unsigned 16-bit integer</td>
+<td>ACC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.access_burst_type</td>
+<td>Boolean</td>
+<td>Access Burst Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.acs</td>
+<td>Boolean</td>
+<td>ACS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.alpha</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alpha</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.amr_config</td>
+<td>Unsigned 8-bit integer</td>
+<td>AMR Configuration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.amr_hysteresis</td>
+<td>Unsigned 8-bit integer</td>
+<td>AMR Hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.amr_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>AMR Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.apdu_data</td>
+<td>Byte array</td>
+<td>APDU Data</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.apdu_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>APDU Flags</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.apdu_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>APDU ID</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.arfcn</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.arfcn_first</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARFCN First</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.arfcn_index</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARFCN Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.arfcn_range</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARFCN Range</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.att</td>
+<td>Unsigned 8-bit integer</td>
+<td>ATT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ba_freq</td>
+<td>Unsigned 16-bit integer</td>
+<td>BA Freq</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ba_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>BA-IND</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ba_list_pref_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of BA List Pref</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ba_used</td>
+<td>Unsigned 8-bit integer</td>
+<td>BA-USED</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.band_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Band Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bandwidth_fdd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bandwidth FDD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bandwidth_tdd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bandwidth TDD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bcch_change_mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>BCCH Change Mark</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bcch_freq_ncell</td>
+<td>Unsigned 8-bit integer</td>
+<td>BCCH-FREQ-NCELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bep_period</td>
+<td>Unsigned 8-bit integer</td>
+<td>BEP Period</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bs_ag_blks_res</td>
+<td>Unsigned 8-bit integer</td>
+<td>BS_AG_BLKS_RES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bs_cv_max</td>
+<td>Unsigned 8-bit integer</td>
+<td>BS CV Max</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bs_pa_mfrms</td>
+<td>Unsigned 8-bit integer</td>
+<td>BS-PA-MFRMS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bsic</td>
+<td>Unsigned 8-bit integer</td>
+<td>BSIC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bsic_ncell</td>
+<td>Unsigned 8-bit integer</td>
+<td>BSIC-NCELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bsic_seen</td>
+<td>Boolean</td>
+<td>BSIC Seen</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.bss_paging_coordination</td>
+<td>Boolean</td>
+<td>BSS Paging Coordination</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.carrier_ind</td>
+<td>Boolean</td>
+<td>Carrier Indication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cbq</td>
+<td>Unsigned 8-bit integer</td>
+<td>CBQ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cbq3</td>
+<td>Unsigned 8-bit integer</td>
+<td>CBQ3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ccch_conf</td>
+<td>Unsigned 8-bit integer</td>
+<td>CCCH-CONF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ccn_active</td>
+<td>Boolean</td>
+<td>CCN Active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cell_barr_access</td>
+<td>Unsigned 8-bit integer</td>
+<td>CELL_BARR_ACCESS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cell_reselect_hyst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cell Reselection Hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cell_reselect_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cell Reselect Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.channel_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.channel_mode2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Mode 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.control_ack_type</td>
+<td>Boolean</td>
+<td>Control Ack Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.CR</td>
+<td>Unsigned 8-bit integer</td>
+<td>CR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.cv_bep</td>
+<td>Unsigned 8-bit integer</td>
+<td>CV BEP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dedicated_mode_mbms_notification_support</td>
+<td>Boolean</td>
+<td>Dedicated Mode MBMS Notification Support</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dedicated_mode_or_tbf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dedicated mode or TBF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.drx_timer_max</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRX Timer Max</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dtm_enhancements_capability</td>
+<td>Boolean</td>
+<td>DTM Enhancements Capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dtm_support</td>
+<td>Boolean</td>
+<td>DTM Support</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dtx_bcch</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTX (BCCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dtx_sacch</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTX (SACCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dtx_used</td>
+<td>Boolean</td>
+<td>DTX-USED</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.dyn_arfcn_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of Dynamic Mapping</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.egprs_packet_channel_request</td>
+<td>Boolean</td>
+<td>EGPRS Packet Channel Request</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ext_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>EXT-IND</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ext_utbf_no_data</td>
+<td>Boolean</td>
+<td>Ext UTBF No Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_multirat_reporting</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Multirat Reporting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_qmin</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Qmin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_qmin_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Qmin Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_qoffset</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Qoffset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_rep_quant</td>
+<td>Boolean</td>
+<td>FDD Rep Quant</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_reporting_threshold_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD Reporting Threshold 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_rscpmin</td>
+<td>Unsigned 8-bit integer</td>
+<td>FDD RSCPmin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.fdd_uarfcn</td>
+<td>Unsigned 16-bit integer</td>
+<td>FDD UARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.frequency_scrolling</td>
+<td>Boolean</td>
+<td>Frequency Scrolling</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.gprs_ms_txpwr_max_cch</td>
+<td>Unsigned 8-bit integer</td>
+<td>GPRS MS TxPwr Max CCH</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.gprs_resumption_ack</td>
+<td>Boolean</td>
+<td>Ack</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.Group_cipher_key_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Group cipher key number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.gsm_band</td>
+<td>Unsigned 8-bit integer</td>
+<td>GSM Band</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.gsm_report_type</td>
+<td>Boolean</td>
+<td>Report Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ho_ref_val</td>
+<td>Unsigned 8-bit integer</td>
+<td>Handover reference value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.hsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>HSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ICMI</td>
+<td>Unsigned 8-bit integer</td>
+<td>ICMI: Initial Codec Mode Indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.inc_skip_arfcn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Increment skip ARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.index_start_3g</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index Start 3G</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.invalid_bsic_reporting</td>
+<td>Boolean</td>
+<td>Invalid BSIC Reporting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.last_segment</td>
+<td>Boolean</td>
+<td>Last Segment</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.lowest_arfcn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lowest ARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.lsa_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>LSA Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ma_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>MA Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.max_lapdm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max LAPDm</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.max_retrans</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max retrans</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.MBMS_broadcast</td>
+<td>Boolean</td>
+<td>MBMS Broadcast</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.MBMS_multicast</td>
+<td>Boolean</td>
+<td>MBMS Multicast</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mean_bep_gmsk</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mean BEP GMSK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.meas_valid</td>
+<td>Boolean</td>
+<td>MEAS-VALID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mi_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Measurement Information Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mi_index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Measurement Information Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mnci_support</td>
+<td>Boolean</td>
+<td>MNCI Support</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mobile_time_difference</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mobile Timing Difference value (in half bit periods)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mp_change_mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>Measurement Parameter Change Mark</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ms_txpwr_max_cch</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS TXPWR MAX CCH</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.mscr</td>
+<td>Unsigned 8-bit integer</td>
+<td>MSCR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.multiband_reporting</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiband Reporting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.multiple_tbf_capability</td>
+<td>Boolean</td>
+<td>Multiple TBF Capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.multirate_speech_ver</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multirate speech version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.n_avg_i</td>
+<td>Unsigned 8-bit integer</td>
+<td>N Avg I</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nbr_rcvd_blocks</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nb Rcvd Blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nc_non_drx_period</td>
+<td>Unsigned 8-bit integer</td>
+<td>NC Non DRX Period</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nc_reporting_period_i</td>
+<td>Unsigned 8-bit integer</td>
+<td>NC Reporting Period I</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nc_reporting_period_t</td>
+<td>Unsigned 8-bit integer</td>
+<td>NC Reporting Period T</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.ncc_permitted</td>
+<td>Unsigned 8-bit integer</td>
+<td>NCC Permitted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nch_position</td>
+<td>Unsigned 8-bit integer</td>
+<td>NCH Position</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.NCSB</td>
+<td>Unsigned 8-bit integer</td>
+<td>NSCB: Noise Suppression Control Bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.neci</td>
+<td>Unsigned 8-bit integer</td>
+<td>NECI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.network_control_order</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Control Order</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nln_pch</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLN (PCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nln_sacch</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLN (SACCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nln_status_pch</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLN Status (PCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nln_status_sacch</td>
+<td>Unsigned 8-bit integer</td>
+<td>NLN Status (SACCH)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nmo</td>
+<td>Unsigned 8-bit integer</td>
+<td>NMO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.no_ncell_m</td>
+<td>Unsigned 8-bit integer</td>
+<td>NO-NCELL-M</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.nw_ext_utbf</td>
+<td>Boolean</td>
+<td>NW Ext UTBF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.page_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.paging_channel_restructuring</td>
+<td>Boolean</td>
+<td>Paging Channel Restructuring</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pan_dec</td>
+<td>Unsigned 8-bit integer</td>
+<td>PAN Dec</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pan_inc</td>
+<td>Unsigned 8-bit integer</td>
+<td>PAN Inc</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pan_max</td>
+<td>Unsigned 8-bit integer</td>
+<td>PAN Max</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pbcch_pb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pb</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pbcch_tn</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pbcch_tsc</td>
+<td>Unsigned 8-bit integer</td>
+<td>TSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pc_meas_chan</td>
+<td>Boolean</td>
+<td>PC Meas Chan</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.penalty_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Penalty Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pfc_feature_mode</td>
+<td>Boolean</td>
+<td>PFC Feature Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pow_cmd_atc</td>
+<td>Boolean</td>
+<td>ATC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pow_cmd_epc</td>
+<td>Boolean</td>
+<td>EPC_mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pow_cmd_fpcepc</td>
+<td>Boolean</td>
+<td>FPC_EPC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pow_cmd_pow</td>
+<td>Unsigned 8-bit integer</td>
+<td>POWER LEVEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.power_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.prio_thr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Prio Thr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.priority_access_thr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Priority Access Thr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.psi1_repeat_period</td>
+<td>Unsigned 8-bit integer</td>
+<td>PSI1 Repeat Period</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.pwrc</td>
+<td>Boolean</td>
+<td>PWRC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.qsearch_c</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qsearch C</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.qsearch_c_initial</td>
+<td>Boolean</td>
+<td>QSearch C Initial</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.qsearch_i</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qsearch I</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.qsearch_p</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qsearch P</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rac</td>
+<td>Unsigned 8-bit integer</td>
+<td>RAC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.radio_link_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Link Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.range_higher</td>
+<td>Unsigned 16-bit integer</td>
+<td>Range Higher</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.range_lower</td>
+<td>Unsigned 16-bit integer</td>
+<td>Range Lower</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.range_nb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Ranges</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.re</td>
+<td>Boolean</td>
+<td>RE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.reduced_latency_access</td>
+<td>Boolean</td>
+<td>Reduced Latency Access</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rep_priority</td>
+<td>Boolean</td>
+<td>Rep Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.report_type</td>
+<td>Boolean</td>
+<td>Report Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.reporting_quantity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reporting Quantity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.reporting_rate</td>
+<td>Boolean</td>
+<td>Reporting Rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rfl_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>RFL Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rfn</td>
+<td>Unsigned 16-bit integer</td>
+<td>RFN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rr_2_pseudo_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>L2 Pseudo Length value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.RRcause</td>
+<td>Unsigned 8-bit integer</td>
+<td>RR cause value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxlev_access_min</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXLEV-ACCESS-MIN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxlev_full_serv_cell</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXLEV-FULL-SERVING-CELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxlev_ncell</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXLEV-NCELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxlev_sub_serv_cell</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXLEV-SUB-SERVING-CELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxqual_full_serv_cell</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXQUAL-FULL-SERVING-CELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.rxqual_sub_serv_cell</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXQUAL-SUB-SERVING-CELL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.SC</td>
+<td>Unsigned 8-bit integer</td>
+<td>SC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.scale</td>
+<td>Boolean</td>
+<td>Scale</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.scale_ord</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scale Ord</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.seq_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.serving_band_reporting</td>
+<td>Unsigned 8-bit integer</td>
+<td>Serving Band Reporting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b1</td>
+<td>Boolean</td>
+<td>4,75 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b2</td>
+<td>Boolean</td>
+<td>5,15 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b3</td>
+<td>Boolean</td>
+<td>5,90 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b4</td>
+<td>Boolean</td>
+<td>6,70 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b5</td>
+<td>Boolean</td>
+<td>7,40 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b6</td>
+<td>Boolean</td>
+<td>7,95 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b7</td>
+<td>Boolean</td>
+<td>10,2 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v1b8</td>
+<td>Boolean</td>
+<td>12,2 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v2b1</td>
+<td>Boolean</td>
+<td>6,60 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v2b2</td>
+<td>Boolean</td>
+<td>8,85 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v2b3</td>
+<td>Boolean</td>
+<td>12,65 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v2b4</td>
+<td>Boolean</td>
+<td>15,85 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.set_of_amr_codec_modes_v2b5</td>
+<td>Boolean</td>
+<td>23,85 kbit/s codec rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.sgsnr</td>
+<td>Boolean</td>
+<td>SGSNR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si13_change_mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI13 Change Mark</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si13_position</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI13 Position</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si13alt_position</td>
+<td>Boolean</td>
+<td>SI13alt Position</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2n_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2n Support</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2quater_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2quater Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2quater_index</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2quater Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2quater_position</td>
+<td>Boolean</td>
+<td>SI2quater Position</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2ter_3g_change_mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2ter 3G Change Mark</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2ter_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2ter Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2ter_index</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2ter Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si2ter_mp_change_mark</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI2ter Measurement Parameter Change Mark</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si_change_field</td>
+<td>Unsigned 8-bit integer</td>
+<td>SI Change Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.si_status_ind</td>
+<td>Boolean</td>
+<td>SI Status Ind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.spgc_ccch_sup</td>
+<td>Boolean</td>
+<td>SPGC CCCH Sup</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.start_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.suspension_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Suspension cause value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.sync_ind_nci</td>
+<td>Boolean</td>
+<td>Normal cell indication(NCI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.sync_ind_rot</td>
+<td>Boolean</td>
+<td>Report Observed Time Difference(ROT)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.T1prim</td>
+<td>Unsigned 8-bit integer</td>
+<td>T1'</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.T2</td>
+<td>Unsigned 8-bit integer</td>
+<td>T2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.T3</td>
+<td>Unsigned 16-bit integer</td>
+<td>T3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.t3168</td>
+<td>Unsigned 8-bit integer</td>
+<td>T3168</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.t3192</td>
+<td>Unsigned 8-bit integer</td>
+<td>T3192</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.t3212</td>
+<td>Unsigned 8-bit integer</td>
+<td>T3212</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.t_avg_t</td>
+<td>Unsigned 8-bit integer</td>
+<td>T Avg T</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.t_avg_w</td>
+<td>Unsigned 8-bit integer</td>
+<td>T Avg W</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.target_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Target mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tdd_multirat_reporting</td>
+<td>Unsigned 8-bit integer</td>
+<td>TDD Multirat Reporting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tdd_qoffset</td>
+<td>Unsigned 8-bit integer</td>
+<td>TDD Qoffset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tdd_reporting_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>TDD Reporting Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tdd_reporting_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>TDD Reporting Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tdd_uarfcn</td>
+<td>Unsigned 16-bit integer</td>
+<td>TDD UARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.temporary_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Temporary Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.time_diff</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time difference value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.timing_adv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timing advance value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tlli</td>
+<td>Unsigned 32-bit integer</td>
+<td>TLLI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tmsi_ptmsi</td>
+<td>Unsigned 32-bit integer</td>
+<td>TMSI/P-TMSI Value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.tx_integer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tx-integer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.utran_freq_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of UTRAN freq list</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.vbs_vgcs_inband_notifications</td>
+<td>Boolean</td>
+<td>Inband Notifications</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.vbs_vgcs_inband_pagings</td>
+<td>Boolean</td>
+<td>Inband Pagings</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr.wait_indication</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wait Indication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_cdma200_cm_cng_msg_req</td>
+<td>Boolean</td>
+<td>CDMA2000 CLASSMARK CHANGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_chnl_needed_ch1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_chnl_needed_ch2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_chnl_needed_ch3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_chnl_needed_ch4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel 4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_cm_cng_msg_req</td>
+<td>Boolean</td>
+<td>CLASSMARK CHANGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_format_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Format Identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_geran_iu_cm_cng_msg_req</td>
+<td>Boolean</td>
+<td>GERAN IU MODE CLASSMARK CHANGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_sync_ind_si</td>
+<td>Unsigned 8-bit integer</td>
+<td>Synchronization indication(SI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.rr_utran_cm_cng_msg_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>UTRAN CLASSMARK CHANGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a_rr.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a_rr_ra</td>
+<td>Unsigned 8-bit integer</td>
+<td>Random Access Information (RA)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

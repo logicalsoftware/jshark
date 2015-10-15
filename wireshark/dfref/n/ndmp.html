@@ -1,0 +1,1202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Network Data Management Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Network Data Management Protocol</h1>
+<div><b>Protocol field name:</b> ndmp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ndmp.addr.ip</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.addr.ipc</td>
+<td>Byte array</td>
+<td>IPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.addr.loop_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Loop ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.addr.tcp_port</td>
+<td>Unsigned 32-bit integer</td>
+<td>TCP Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.addr_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.addr_types</td>
+<td>None</td>
+<td>Addr Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth.challenge</td>
+<td>Byte array</td>
+<td>Challenge</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth.digest</td>
+<td>Byte array</td>
+<td>Digest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth.id</td>
+<td>String</td>
+<td>ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth.types</td>
+<td>None</td>
+<td>Auth types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.auth_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.destination_dir</td>
+<td>String</td>
+<td>Destination Dir</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.new_name</td>
+<td>String</td>
+<td>New Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.operation</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.original_path</td>
+<td>String</td>
+<td>Original Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.other_name</td>
+<td>String</td>
+<td>Other Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.state.invalid_ebr</td>
+<td>Boolean</td>
+<td>EstimatedBytesLeft valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bu.state.invalid_etr</td>
+<td>Boolean</td>
+<td>EstimatedTimeLeft valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.backup_direct</td>
+<td>Boolean</td>
+<td>Backup direct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.backup_file_history</td>
+<td>Boolean</td>
+<td>Backup file history</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.backup_filelist</td>
+<td>Boolean</td>
+<td>Backup file list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.backup_incremental</td>
+<td>Boolean</td>
+<td>Backup incremental</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.backup_utf8</td>
+<td>Boolean</td>
+<td>Backup UTF8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.recover_direct</td>
+<td>Boolean</td>
+<td>Recover direct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.recover_filelist</td>
+<td>Boolean</td>
+<td>Recover file list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.recover_incremental</td>
+<td>Boolean</td>
+<td>Recover incremental</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.attr.recover_utf8</td>
+<td>Boolean</td>
+<td>Recover UTF8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.default_env</td>
+<td>None</td>
+<td>Default Env</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.env.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.env.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.info</td>
+<td>None</td>
+<td>Butype Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.butype.name</td>
+<td>String</td>
+<td>Butype Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.bytes_left_to_read</td>
+<td>Signed 64-bit integer</td>
+<td>Bytes left to read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.class.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Class ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.class.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Class Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.connected</td>
+<td>Unsigned 32-bit integer</td>
+<td>Connected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.connected.reason</td>
+<td>String</td>
+<td>Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.bytes_processed</td>
+<td>Unsigned 64-bit integer</td>
+<td>Bytes Processed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.est_bytes_remain</td>
+<td>Unsigned 64-bit integer</td>
+<td>Est Bytes Remain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.est_time_remain</td>
+<td>Time duration</td>
+<td>Est Time Remain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.halted</td>
+<td>Unsigned 32-bit integer</td>
+<td>Halted Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.state</td>
+<td>Unsigned 32-bit integer</td>
+<td>State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.data.written</td>
+<td>Unsigned 64-bit integer</td>
+<td>Data Written</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.dirs</td>
+<td>None</td>
+<td>Dirs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.cdb_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>CDB length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.datain</td>
+<td>Byte array</td>
+<td>Data in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.datain_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data in length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.dataout</td>
+<td>Byte array</td>
+<td>Data out</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.dataout_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data out length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.flags.data_in</td>
+<td>Boolean</td>
+<td>DATA_IN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.flags.data_out</td>
+<td>Boolean</td>
+<td>DATA_OUT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.sns_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sense data length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.execute_cdb.timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.ext_version</td>
+<td>None</td>
+<td>Class and version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.ext_version_list</td>
+<td>None</td>
+<td>Ext Version List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.ext_version_list.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ext Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file</td>
+<td>String</td>
+<td>File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.atime</td>
+<td>Date/Time stamp</td>
+<td>atime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.ctime</td>
+<td>Date/Time stamp</td>
+<td>ctime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.fattr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fattr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.fh_info</td>
+<td>Unsigned 64-bit integer</td>
+<td>FH Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.fs_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>File FS Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.group</td>
+<td>Unsigned 32-bit integer</td>
+<td>Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.invalid_atime</td>
+<td>Boolean</td>
+<td>Invalid atime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.invalid_ctime</td>
+<td>Boolean</td>
+<td>Invalid ctime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.invalid_group</td>
+<td>Boolean</td>
+<td>Invalid group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.links</td>
+<td>Unsigned 32-bit integer</td>
+<td>Links</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.mtime</td>
+<td>Date/Time stamp</td>
+<td>mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.names</td>
+<td>None</td>
+<td>File Names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.node</td>
+<td>Unsigned 64-bit integer</td>
+<td>Node</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.owner</td>
+<td>Unsigned 32-bit integer</td>
+<td>Owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.parent</td>
+<td>Unsigned 64-bit integer</td>
+<td>Parent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.size</td>
+<td>Unsigned 64-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.stats</td>
+<td>None</td>
+<td>File Stats</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.file.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>File Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.files</td>
+<td>None</td>
+<td>Files</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fraglen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fragment Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment</td>
+<td>Frame number</td>
+<td>NDMP fragment</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment.error</td>
+<td>Frame number</td>
+<td>NDMP defragmentation error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment.multiple_tails</td>
+<td>Boolean</td>
+<td>NDMP has multiple tail fragments</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment.overlap</td>
+<td>Boolean</td>
+<td>NDMP fragment overlap</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment.overlap.conflicts</td>
+<td>Boolean</td>
+<td>NDMP fragment overlapping with conflicting data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragment.too_long_fragment</td>
+<td>Boolean</td>
+<td>NDMP fragment too long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fragments</td>
+<td>None</td>
+<td>NDMP fragments</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.avail_size</td>
+<td>Unsigned 64-bit integer</td>
+<td>Avail Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.env</td>
+<td>None</td>
+<td>Env variables</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.env.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.env.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.info</td>
+<td>None</td>
+<td>FS Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.invalid.avail_size</td>
+<td>Boolean</td>
+<td>Available size invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.invalid.total_inodes</td>
+<td>Boolean</td>
+<td>Total number of inodes invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.invalid.total_size</td>
+<td>Boolean</td>
+<td>Total size invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.invalid.used_inodes</td>
+<td>Boolean</td>
+<td>Used number of inodes is invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.invalid.used_size</td>
+<td>Boolean</td>
+<td>Used size invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.logical_device</td>
+<td>String</td>
+<td>Logical Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.physical_device</td>
+<td>String</td>
+<td>Physical Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.status</td>
+<td>String</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.total_inodes</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total Inodes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.total_size</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.type</td>
+<td>String</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.used_inodes</td>
+<td>Unsigned 64-bit integer</td>
+<td>Used Inodes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.fs.used_size</td>
+<td>Unsigned 64-bit integer</td>
+<td>Used Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.halt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Halt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.halt.reason</td>
+<td>String</td>
+<td>Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.header</td>
+<td>None</td>
+<td>NDMP Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.hostid</td>
+<td>String</td>
+<td>HostID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.hostname</td>
+<td>String</td>
+<td>Hostname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.lastfrag</td>
+<td>Boolean</td>
+<td>Last Fragment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.log.message</td>
+<td>String</td>
+<td>Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.log.message.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.log.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.mover.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.mover.pause</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.mover.state</td>
+<td>Unsigned 32-bit integer</td>
+<td>State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.msg</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.msg_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.nlist</td>
+<td>None</td>
+<td>Nlist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.nodes</td>
+<td>None</td>
+<td>Nodes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.os.type</td>
+<td>String</td>
+<td>OS Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.os.version</td>
+<td>String</td>
+<td>OS Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.reassembled.in</td>
+<td>Frame number</td>
+<td>Reassembled in</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled NDMP length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.record.num</td>
+<td>Unsigned 32-bit integer</td>
+<td>Record Num</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.record.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Record Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.reply_sequence</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reply Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.request_frame</td>
+<td>Frame number</td>
+<td>Request In</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.resid_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resid Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.response_frame</td>
+<td>Frame number</td>
+<td>Response In</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.controller</td>
+<td>Unsigned 32-bit integer</td>
+<td>Controller</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.info</td>
+<td>None</td>
+<td>SCSI Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.lun</td>
+<td>Unsigned 32-bit integer</td>
+<td>LUN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.scsi.model</td>
+<td>String</td>
+<td>Model</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.seek.position</td>
+<td>Unsigned 64-bit integer</td>
+<td>Seek Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.sequence</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.server.product</td>
+<td>String</td>
+<td>Product</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.server.revision</td>
+<td>String</td>
+<td>Revision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.server.vendor</td>
+<td>String</td>
+<td>Vendor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.attr.rewind</td>
+<td>Boolean</td>
+<td>Device supports rewind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.attr.unload</td>
+<td>Boolean</td>
+<td>Device supports unload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.cap.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.cap.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.capability</td>
+<td>None</td>
+<td>Tape Capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.dev_cap</td>
+<td>None</td>
+<td>Device Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.flags.error</td>
+<td>Boolean</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.flags.no_rewind</td>
+<td>Boolean</td>
+<td>No rewind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.flags.unload</td>
+<td>Boolean</td>
+<td>Unload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.flags.write_protect</td>
+<td>Boolean</td>
+<td>Write protect</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.info</td>
+<td>None</td>
+<td>Tape Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.block_no</td>
+<td>Boolean</td>
+<td>Block no</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.block_size</td>
+<td>Boolean</td>
+<td>Block size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.file_num</td>
+<td>Boolean</td>
+<td>Invalid file num</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.partition</td>
+<td>Boolean</td>
+<td>Invalid partition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.soft_errors</td>
+<td>Boolean</td>
+<td>Soft errors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.space_remain</td>
+<td>Boolean</td>
+<td>Space remain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.invalid.total_space</td>
+<td>Boolean</td>
+<td>Total space</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.model</td>
+<td>String</td>
+<td>Model</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.mtio.op</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.open_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.block_no</td>
+<td>Unsigned 32-bit integer</td>
+<td>block_no</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.block_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>block_size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.file_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>file_num</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.partition</td>
+<td>Unsigned 32-bit integer</td>
+<td>partition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.soft_errors</td>
+<td>Unsigned 32-bit integer</td>
+<td>soft_errors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.space_remain</td>
+<td>Unsigned 64-bit integer</td>
+<td>space_remain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tape.status.total_space</td>
+<td>Unsigned 64-bit integer</td>
+<td>total_space</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tcp.default_env</td>
+<td>None</td>
+<td>Default Env</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tcp.env.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tcp.env.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.tcp.port_list</td>
+<td>None</td>
+<td>TCP Ports</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.time</td>
+<td>Time duration</td>
+<td>Time from request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.timestamp</td>
+<td>Date/Time stamp</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.window.length</td>
+<td>Unsigned 64-bit integer</td>
+<td>Window Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp.window.offset</td>
+<td>Unsigned 64-bit integer</td>
+<td>Window Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ndmp_class_list</td>
+<td>None</td>
+<td>Ext Class List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

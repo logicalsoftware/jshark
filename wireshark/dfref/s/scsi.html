@@ -1,0 +1,1154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: SCSI</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: SCSI</h1>
+<div><b>Protocol field name:</b> scsi</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>scsi.cdb.alloclen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.alloclen16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Allocation Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.alloclen32</td>
+<td>Unsigned 32-bit integer</td>
+<td>Allocation Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.control</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.mode.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mode Sense/Select Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.paramlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.paramlen16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.cdb.paramlen24</td>
+<td>Unsigned 24-bit integer</td>
+<td>Parameter List Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment</td>
+<td>Frame number</td>
+<td>SCSI DATA Fragment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment.error</td>
+<td>Frame number</td>
+<td>Defragmentation error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment.multipletails</td>
+<td>Boolean</td>
+<td>Multiple tail fragments found</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment.overlap</td>
+<td>Boolean</td>
+<td>Fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment.overlap.conflict</td>
+<td>Boolean</td>
+<td>Conflicting data in fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragment.toolongfragment</td>
+<td>Boolean</td>
+<td>Fragment too long</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.fragments</td>
+<td>None</td>
+<td>SCSI Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.acaflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.acc</td>
+<td>Boolean</td>
+<td>ACC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.add_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Additional Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.aerc</td>
+<td>Boolean</td>
+<td>AERC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.bque</td>
+<td>Boolean</td>
+<td>BQue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.bqueflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.cmdque</td>
+<td>Boolean</td>
+<td>CmdQue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.cmdt.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>CMDT Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.devtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.encserv</td>
+<td>Boolean</td>
+<td>EncServ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.evpd.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>EVPD Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.hisup</td>
+<td>Boolean</td>
+<td>HiSup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.linked</td>
+<td>Boolean</td>
+<td>Linked</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.mchngr</td>
+<td>Boolean</td>
+<td>MChngr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.multip</td>
+<td>Boolean</td>
+<td>MultiP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.normaca</td>
+<td>Boolean</td>
+<td>NormACA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.peripheral</td>
+<td>Unsigned 8-bit integer</td>
+<td>Peripheral</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.preipheral</td>
+<td>Unsigned 8-bit integer</td>
+<td>Peripheral</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>scsi.inquiry.product_id</td>
+<td>String</td>
+<td>Product Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.product_rev</td>
+<td>String</td>
+<td>Product Revision Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.protect</td>
+<td>Boolean</td>
+<td>Protect</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.qualifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.rdf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response Data Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.reladr</td>
+<td>Boolean</td>
+<td>RelAdr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.reladrflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.removable</td>
+<td>Boolean</td>
+<td>Removable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.rmbflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.sccs</td>
+<td>Boolean</td>
+<td>SCCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.sccsflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.sync</td>
+<td>Boolean</td>
+<td>Sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.tpc</td>
+<td>Boolean</td>
+<td>3PC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.tpgs</td>
+<td>Unsigned 8-bit integer</td>
+<td>TPGS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.trmtsk</td>
+<td>Boolean</td>
+<td>TrmTsk</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.vendor_id</td>
+<td>String</td>
+<td>Vendor Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.vendor_specific</td>
+<td>Byte array</td>
+<td>Vendor Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.inquiry.version_desc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Version Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.page_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Page Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.param.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Param Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.param_data</td>
+<td>Byte array</td>
+<td>Parameter Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.param_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.parameter_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pc.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>PC Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pcr</td>
+<td>Boolean</td>
+<td>PCR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.ds</td>
+<td>Boolean</td>
+<td>DS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.du</td>
+<td>Boolean</td>
+<td>DU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.etc</td>
+<td>Boolean</td>
+<td>ETC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.lbin</td>
+<td>Boolean</td>
+<td>LBIN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.lp</td>
+<td>Boolean</td>
+<td>LP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.tmc</td>
+<td>Unsigned 8-bit integer</td>
+<td>TMC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.pf.tsd</td>
+<td>Boolean</td>
+<td>TSD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ppc</td>
+<td>Boolean</td>
+<td>PPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ppc.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPC Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.sp</td>
+<td>Boolean</td>
+<td>SP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.aif</td>
+<td>Boolean</td>
+<td>automatic interface failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.cff</td>
+<td>Boolean</td>
+<td>cooling fan failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.cm</td>
+<td>Boolean</td>
+<td>cleaning media</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.cn</td>
+<td>Boolean</td>
+<td>clean now</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.cp</td>
+<td>Boolean</td>
+<td>clean periodic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.dire</td>
+<td>Boolean</td>
+<td>diagnostics required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.dm</td>
+<td>Boolean</td>
+<td>drive maintenance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.dpie</td>
+<td>Boolean</td>
+<td>dual port interface error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.drhu</td>
+<td>Boolean</td>
+<td>drive humidity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.drtm</td>
+<td>Boolean</td>
+<td>drive temperature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.drvo</td>
+<td>Boolean</td>
+<td>drive voltage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.dwf</td>
+<td>Boolean</td>
+<td>download failed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.ecm</td>
+<td>Boolean</td>
+<td>expired cleaning media</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.em</td>
+<td>Boolean</td>
+<td>eject media</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.fe</td>
+<td>Boolean</td>
+<td>forced eject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.fwf</td>
+<td>Boolean</td>
+<td>firmware failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.he</td>
+<td>Boolean</td>
+<td>hard error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.hwa</td>
+<td>Boolean</td>
+<td>hardware a</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.hwb</td>
+<td>Boolean</td>
+<td>hardware b</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.ict</td>
+<td>Boolean</td>
+<td>invalid cleaning tape</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.if</td>
+<td>Boolean</td>
+<td>interface</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.lofa</td>
+<td>Boolean</td>
+<td>loading failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.lost</td>
+<td>Boolean</td>
+<td>lost statistics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.mcicf</td>
+<td>Boolean</td>
+<td>memory chip in cartridge failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.media</td>
+<td>Boolean</td>
+<td>media</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.ml</td>
+<td>Boolean</td>
+<td>media life</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.ndg</td>
+<td>Boolean</td>
+<td>not data grade</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.nml</td>
+<td>Boolean</td>
+<td>nearing media life</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.nr</td>
+<td>Boolean</td>
+<td>no removal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.nsod</td>
+<td>Boolean</td>
+<td>no start of data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.pc</td>
+<td>Boolean</td>
+<td>power consumption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.pefa</td>
+<td>Boolean</td>
+<td>periodic failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.psf</td>
+<td>Boolean</td>
+<td>power supply failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.rf</td>
+<td>Boolean</td>
+<td>read failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.rmcf</td>
+<td>Boolean</td>
+<td>removable mechanical cartridge failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.rof</td>
+<td>Boolean</td>
+<td>read only format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.rr</td>
+<td>Boolean</td>
+<td>retention requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.rw</td>
+<td>Boolean</td>
+<td>Read Warning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.tdcol</td>
+<td>Boolean</td>
+<td>tape directory corrupted on load</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.tduau</td>
+<td>Boolean</td>
+<td>tape directory invalid at unload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.tsarf</td>
+<td>Boolean</td>
+<td>tape system area read failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.tsawf</td>
+<td>Boolean</td>
+<td>tape system area write failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.uf</td>
+<td>Boolean</td>
+<td>unsupported format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.umcf</td>
+<td>Boolean</td>
+<td>unrecoverable mechanical cartridge failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.uuf</td>
+<td>Boolean</td>
+<td>unrecoverable unload failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.wf</td>
+<td>Boolean</td>
+<td>write failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.wmicf</td>
+<td>Boolean</td>
+<td>worm medium integrity check failed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.wmoa</td>
+<td>Boolean</td>
+<td>worm medium overwrite attempted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.wp</td>
+<td>Boolean</td>
+<td>write protect</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.log.ta.ww</td>
+<td>Boolean</td>
+<td>write warning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.lun</td>
+<td>Unsigned 16-bit integer</td>
+<td>LUN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.mmc.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>MMC-5 Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.mrie</td>
+<td>Unsigned 8-bit integer</td>
+<td>MRIE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.pc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.qerr</td>
+<td>Boolean</td>
+<td>Queue Error Management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.qmod</td>
+<td>Unsigned 8-bit integer</td>
+<td>Queue Algorithm Modifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.sbc.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SBC-2 Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.smc.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SMC-2 Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.spc.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SPC-2 Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.ssc.pagecode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SSC-2 Page Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.tac</td>
+<td>Boolean</td>
+<td>Task Aborted Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.mode.tst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Task Set Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.persresv.scope</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reservation Scope</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.persresv.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reservation Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.persresvin.svcaction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.persresvout.svcaction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.proto</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled SCSI DATA length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.reassembled_in</td>
+<td>Frame number</td>
+<td>Reassembled SCSI DATA in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.release.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Release Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.release.thirdpartyid</td>
+<td>Byte array</td>
+<td>Third-Party ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.reportluns.lun</td>
+<td>Unsigned 8-bit integer</td>
+<td>LUN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.reportluns.mlun</td>
+<td>Byte array</td>
+<td>Multi-level LUN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.request_frame</td>
+<td>Frame number</td>
+<td>Request in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.response_frame</td>
+<td>Frame number</td>
+<td>Response in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.addlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Additional Sense Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.asc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Additional Sense Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.ascascq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Additional Sense Code+Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.ascq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Additional Sense Code Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.errtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>SNS Error Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.fru</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Replaceable Unit Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.info</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sense Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sense Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.sns.sksv</td>
+<td>Boolean</td>
+<td>SKSV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.addcdblen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Additional CDB Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.opcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SPC-2 Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.resv.key</td>
+<td>Byte array</td>
+<td>Reservation Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.resv.scopeaddr</td>
+<td>Byte array</td>
+<td>Scope Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.sb.bufid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Buffer ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.select_report</td>
+<td>Unsigned 8-bit integer</td>
+<td>Select Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.senddiag.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self-Test Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.senddiag.devoff</td>
+<td>Boolean</td>
+<td>Device Offline</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.senddiag.pf</td>
+<td>Boolean</td>
+<td>PF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.senddiag.st</td>
+<td>Boolean</td>
+<td>Self Test</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.senddiag.unitoff</td>
+<td>Boolean</td>
+<td>Unit Offline</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.svcaction</td>
+<td>Unsigned 16-bit integer</td>
+<td>Service Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.wb.bufoff</td>
+<td>Unsigned 24-bit integer</td>
+<td>Buffer Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.spc.wb.mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>scsi.time</td>
+<td>Time duration</td>
+<td>Time from request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ssci.mode.rac</td>
+<td>Boolean</td>
+<td>Report a Check</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

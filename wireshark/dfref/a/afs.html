@@ -1,0 +1,1568 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Andrew File System (AFS)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Andrew File System (AFS)</h1>
+<div><b>Protocol field name:</b> afs</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>afs.backup</td>
+<td>Boolean</td>
+<td>Backup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.backup.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.backup.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos</td>
+<td>Boolean</td>
+<td>BOS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.baktime</td>
+<td>Date/Time stamp</td>
+<td>Backup Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.cell</td>
+<td>String</td>
+<td>Cell</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.cmd</td>
+<td>String</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.content</td>
+<td>String</td>
+<td>Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.date</td>
+<td>Unsigned 32-bit integer</td>
+<td>Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.error</td>
+<td>String</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.file</td>
+<td>String</td>
+<td>File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.host</td>
+<td>String</td>
+<td>Host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.instance</td>
+<td>String</td>
+<td>Instance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.key</td>
+<td>Byte array</td>
+<td>Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.keychecksum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.keymodtime</td>
+<td>Date/Time stamp</td>
+<td>Key Modification Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.keyspare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key Spare 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.kvno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.newtime</td>
+<td>Date/Time stamp</td>
+<td>New Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.oldtime</td>
+<td>Date/Time stamp</td>
+<td>Old Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.parm</td>
+<td>String</td>
+<td>Parm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.spare1</td>
+<td>String</td>
+<td>Spare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.spare2</td>
+<td>String</td>
+<td>Spare2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.spare3</td>
+<td>String</td>
+<td>Spare3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.status</td>
+<td>Signed 32-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.statusdesc</td>
+<td>String</td>
+<td>Status Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.type</td>
+<td>String</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.bos.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb</td>
+<td>Boolean</td>
+<td>Callback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.callback.expires</td>
+<td>Date/Time stamp</td>
+<td>Expires</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.callback.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.callback.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.fid.uniq</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (Uniqifier)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.fid.vnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (VNode)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.fid.volume</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (Volume)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.cb.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.error</td>
+<td>Boolean</td>
+<td>Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.error.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs</td>
+<td>Boolean</td>
+<td>File Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.a</td>
+<td>Boolean</td>
+<td>_A_dminister</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.count.negative</td>
+<td>Unsigned 32-bit integer</td>
+<td>ACL Count (Negative)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.count.positive</td>
+<td>Unsigned 32-bit integer</td>
+<td>ACL Count (Positive)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.d</td>
+<td>Boolean</td>
+<td>_D_elete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.datasize</td>
+<td>Unsigned 32-bit integer</td>
+<td>ACL Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.entity</td>
+<td>String</td>
+<td>Entity (User/Group)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.i</td>
+<td>Boolean</td>
+<td>_I_nsert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.k</td>
+<td>Boolean</td>
+<td>_L_ock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.l</td>
+<td>Boolean</td>
+<td>_L_ookup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.r</td>
+<td>Boolean</td>
+<td>_R_ead</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.acl.w</td>
+<td>Boolean</td>
+<td>_W_rite</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.callback.expires</td>
+<td>Time duration</td>
+<td>Expires</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.callback.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.callback.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.cps.spare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>CPS Spare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.cps.spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>CPS Spare2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.cps.spare3</td>
+<td>Unsigned 32-bit integer</td>
+<td>CPS Spare3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.fid.uniq</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (Uniqifier)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.fid.vnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (VNode)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.fid.volume</td>
+<td>Unsigned 32-bit integer</td>
+<td>FileID (Volume)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.flength</td>
+<td>Unsigned 32-bit integer</td>
+<td>FLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.flength64</td>
+<td>Unsigned 64-bit integer</td>
+<td>FLength64</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.ipaddr</td>
+<td>IPv4 address</td>
+<td>IP Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.length64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Length64</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.motd</td>
+<td>String</td>
+<td>Message of the Day</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.newname</td>
+<td>String</td>
+<td>New Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.offlinemsg</td>
+<td>String</td>
+<td>Offline Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.offset64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Offset64</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.oldname</td>
+<td>String</td>
+<td>Old Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.anonymousaccess</td>
+<td>Unsigned 32-bit integer</td>
+<td>Anonymous Access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.author</td>
+<td>Unsigned 32-bit integer</td>
+<td>Author</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.calleraccess</td>
+<td>Unsigned 32-bit integer</td>
+<td>Caller Access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.clientmodtime</td>
+<td>Date/Time stamp</td>
+<td>Client Modification Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.dataversion</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.dataversionhigh</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Version (High)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.filetype</td>
+<td>Unsigned 32-bit integer</td>
+<td>File Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.group</td>
+<td>Unsigned 32-bit integer</td>
+<td>Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.interfaceversion</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.linkcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Link Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.fsync</td>
+<td>Boolean</td>
+<td>FSync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.setgroup</td>
+<td>Boolean</td>
+<td>Set Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.setmode</td>
+<td>Boolean</td>
+<td>Set Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.setmodtime</td>
+<td>Boolean</td>
+<td>Set Modification Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.setowner</td>
+<td>Boolean</td>
+<td>Set Owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mask.setsegsize</td>
+<td>Boolean</td>
+<td>Set Segment Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unix Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.owner</td>
+<td>Unsigned 32-bit integer</td>
+<td>Owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.parentunique</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parent Unique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.parentvnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parent VNode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.segsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Segment Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.servermodtime</td>
+<td>Date/Time stamp</td>
+<td>Server Modification Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.spare3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.spare4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.status.synccounter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sync Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.symlink.content</td>
+<td>String</td>
+<td>Symlink Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.symlink.name</td>
+<td>String</td>
+<td>Symlink Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.timestamp</td>
+<td>Date/Time stamp</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.token</td>
+<td>Byte array</td>
+<td>Token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.viceid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vice ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.vicelocktype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vice Lock Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volname</td>
+<td>String</td>
+<td>Volume Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare1</td>
+<td>Date/Time stamp</td>
+<td>Volume Creation Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare5</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.volsync.spare6</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.xstats.clientversion</td>
+<td>Unsigned 32-bit integer</td>
+<td>Client Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.xstats.collnumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>Collection Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.xstats.timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>XStats Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.fs.xstats.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>XStats Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth</td>
+<td>Boolean</td>
+<td>KAuth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.kvno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.princ</td>
+<td>String</td>
+<td>Principal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.kauth.realm</td>
+<td>String</td>
+<td>Realm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot</td>
+<td>Boolean</td>
+<td>Protection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.flag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.gid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.maxgid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.maxuid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum User ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.newid</td>
+<td>Unsigned 32-bit integer</td>
+<td>New ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.oldid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Old ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.pos</td>
+<td>Unsigned 32-bit integer</td>
+<td>Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.prot.uid</td>
+<td>Unsigned 32-bit integer</td>
+<td>User ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.repframe</td>
+<td>Frame number</td>
+<td>Reply Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.reqframe</td>
+<td>Frame number</td>
+<td>Request Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.rmtsys</td>
+<td>Boolean</td>
+<td>Rmtsys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.rmtsys.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.time</td>
+<td>Time duration</td>
+<td>Time from request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik</td>
+<td>Boolean</td>
+<td>Ubik</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.activewrite</td>
+<td>Unsigned 32-bit integer</td>
+<td>Active Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.addr</td>
+<td>IPv4 address</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.amsyncsite</td>
+<td>Unsigned 32-bit integer</td>
+<td>Am Sync Site</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.anyreadlocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Any Read Locks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.anywritelocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Any Write Locks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.beaconsincedown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Beacon Since Down</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.currentdb</td>
+<td>Unsigned 32-bit integer</td>
+<td>Current DB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.currenttran</td>
+<td>Unsigned 32-bit integer</td>
+<td>Current Transaction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.epochtime</td>
+<td>Date/Time stamp</td>
+<td>Epoch Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.file</td>
+<td>Unsigned 32-bit integer</td>
+<td>File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.interface</td>
+<td>IPv4 address</td>
+<td>Interface Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.isclone</td>
+<td>Unsigned 32-bit integer</td>
+<td>Is Clone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastbeaconsent</td>
+<td>Date/Time stamp</td>
+<td>Last Beacon Sent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastvote</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last Vote</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastvotetime</td>
+<td>Date/Time stamp</td>
+<td>Last Vote Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastyesclaim</td>
+<td>Date/Time stamp</td>
+<td>Last Yes Claim</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastyeshost</td>
+<td>IPv4 address</td>
+<td>Last Yes Host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastyesstate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last Yes State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lastyesttime</td>
+<td>Date/Time stamp</td>
+<td>Last Yes Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lockedpages</td>
+<td>Unsigned 32-bit integer</td>
+<td>Locked Pages</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.locktype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lowesthost</td>
+<td>IPv4 address</td>
+<td>Lowest Host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.lowesttime</td>
+<td>Date/Time stamp</td>
+<td>Lowest Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.now</td>
+<td>Date/Time stamp</td>
+<td>Now</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.nservers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Servers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.position</td>
+<td>Unsigned 32-bit integer</td>
+<td>Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.recoverystate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recovery State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.site</td>
+<td>IPv4 address</td>
+<td>Site</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.state</td>
+<td>Unsigned 32-bit integer</td>
+<td>State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.synchost</td>
+<td>IPv4 address</td>
+<td>Sync Host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.syncsiteuntil</td>
+<td>Date/Time stamp</td>
+<td>Sync Site Until</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.synctime</td>
+<td>Date/Time stamp</td>
+<td>Sync Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.tidcounter</td>
+<td>Unsigned 32-bit integer</td>
+<td>TID Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.up</td>
+<td>Unsigned 32-bit integer</td>
+<td>Up</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.version.counter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.version.epoch</td>
+<td>Date/Time stamp</td>
+<td>Epoch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.voteend</td>
+<td>Date/Time stamp</td>
+<td>Vote Ends</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.votestart</td>
+<td>Date/Time stamp</td>
+<td>Vote Started</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.votetype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vote Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.writelockedpages</td>
+<td>Unsigned 32-bit integer</td>
+<td>Write Locked Pages</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.ubik.writetran</td>
+<td>Unsigned 32-bit integer</td>
+<td>Write Transaction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.update</td>
+<td>Boolean</td>
+<td>Update</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.update.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb</td>
+<td>Boolean</td>
+<td>VLDB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.bkvol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Backup Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.bump</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bumped Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.clonevol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Clone Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.flags.bkexists</td>
+<td>Boolean</td>
+<td>Backup Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.flags.dfsfileset</td>
+<td>Boolean</td>
+<td>DFS Fileset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.flags.roexists</td>
+<td>Boolean</td>
+<td>Read-Only Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.flags.rwexists</td>
+<td>Boolean</td>
+<td>Read/Write Exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.index</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.name</td>
+<td>String</td>
+<td>Volume Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.nextindex</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next Volume Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.numservers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Servers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.partition</td>
+<td>String</td>
+<td>Partition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.rovol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Read-Only Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.rwvol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Read-Write Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.server</td>
+<td>IPv4 address</td>
+<td>Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.serverflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Server Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.serverip</td>
+<td>IPv4 address</td>
+<td>Server IP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.serveruniq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Server Unique Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.serveruuid</td>
+<td>Byte array</td>
+<td>Server UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare5</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare6</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare7</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare8</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.spare9</td>
+<td>Unsigned 32-bit integer</td>
+<td>Spare 9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vldb.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol</td>
+<td>Boolean</td>
+<td>Volume Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol.errcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol.name</td>
+<td>String</td>
+<td>Volume Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afs.vol.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

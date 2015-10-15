@@ -1,0 +1,692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: PPI Packet Header</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: PPI Packet Header</h1>
+<div><b>Protocol field name:</b> ppi</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.freq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Channel frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Channel type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.2ghz</td>
+<td>Boolean</td>
+<td>2 GHz spectrum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.5ghz</td>
+<td>Boolean</td>
+<td>5 GHz spectrum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.cck</td>
+<td>Boolean</td>
+<td>Complementary Code Keying (CCK)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.dynamic</td>
+<td>Boolean</td>
+<td>Dynamic CCK-OFDM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.gfsk</td>
+<td>Boolean</td>
+<td>Gaussian Frequency Shift Keying (GFSK)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.ofdm</td>
+<td>Boolean</td>
+<td>Orthogonal Frequency-Division Multiplexing (OFDM)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.passive</td>
+<td>Boolean</td>
+<td>Passive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.chan.type.turbo</td>
+<td>Boolean</td>
+<td>Turbo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.dbm.antnoise</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.dbm.antsignal</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.fhss.hopset</td>
+<td>Unsigned 8-bit integer</td>
+<td>FHSS hopset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.fhss.pattern</td>
+<td>Unsigned 8-bit integer</td>
+<td>FHSS pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.flags.fcs</td>
+<td>Boolean</td>
+<td>FCS present flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.flags.fcs-invalid</td>
+<td>Boolean</td>
+<td>FCS validity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.flags.phy-err</td>
+<td>Boolean</td>
+<td>PHY error flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.flags.tsft</td>
+<td>Boolean</td>
+<td>TSFT flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.rate</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-common.tsft</td>
+<td>Unsigned 64-bit integer</td>
+<td>TSFT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.freq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extended channel frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Channel type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.2ghz</td>
+<td>Boolean</td>
+<td>2 GHz spectrum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.5ghz</td>
+<td>Boolean</td>
+<td>5 GHz spectrum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.cck</td>
+<td>Boolean</td>
+<td>Complementary Code Keying (CCK)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.dynamic</td>
+<td>Boolean</td>
+<td>Dynamic CCK-OFDM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.gfsk</td>
+<td>Boolean</td>
+<td>Gaussian Frequency Shift Keying (GFSK)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.ofdm</td>
+<td>Boolean</td>
+<td>Orthogonal Frequency-Division Multiplexing (OFDM)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.passive</td>
+<td>Boolean</td>
+<td>Passive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211-mac-phy.ext-chan.type.turbo</td>
+<td>Boolean</td>
+<td>Turbo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant0.noise</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 0 noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant0.signal</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 0 signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant1.noise</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 1 noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant1.signal</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 1 signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant2.noise</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 2 noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant2.signal</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 2 signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant3.noise</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 3 noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.dbmant3.signal</td>
+<td>Signed 8-bit integer</td>
+<td>dBm antenna 3 signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.emv0</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-0</td>
+<td>1.0.0 to 1.0.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.emv1</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-1</td>
+<td>1.0.0 to 1.0.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.emv2</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-2</td>
+<td>1.0.0 to 1.0.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.emv3</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-3</td>
+<td>1.0.0 to 1.0.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.evm0</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-0</td>
+<td>1.0.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.evm1</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-1</td>
+<td>1.0.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.evm2</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-2</td>
+<td>1.0.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.evm3</td>
+<td>Unsigned 32-bit integer</td>
+<td>EVM-3</td>
+<td>1.0.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.mcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>MCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.num_streams</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of spatial streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant0ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 0 control RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant0ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 0 extension RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant1ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 1 control RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant1ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 1 extension RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant2ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 2 control RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant2ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 2 extension RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant3ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 3 control RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.ant3ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Antenna 3 extension RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac-phy.rssi.combined</td>
+<td>Unsigned 8-bit integer</td>
+<td>RSSI combined</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.ampdu</td>
+<td>Frame number</td>
+<td>A-MPDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.ampdu.count</td>
+<td>Unsigned 16-bit integer</td>
+<td>MPDU count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.ampdu.reassembled</td>
+<td>None</td>
+<td>Reassembled A-MPDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.ampdu.reassembled_in</td>
+<td>Frame number</td>
+<td>Reassembled A-MPDU in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.ampdu_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>AMPDU-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>MAC flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.agg</td>
+<td>Boolean</td>
+<td>Aggregate flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.delim_crc_error_after</td>
+<td>Boolean</td>
+<td>A-MPDU Delimiter CRC error after this frame flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.greenfield</td>
+<td>Boolean</td>
+<td>Greenfield flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.ht20_40</td>
+<td>Boolean</td>
+<td>HT20/HT40 flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.more_agg</td>
+<td>Boolean</td>
+<td>More aggregates flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.more_desc</td>
+<td>Boolean</td>
+<td>Debug Flag (more desc)</td>
+<td>1.0.0 to 1.0.1</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.rx.duplicate</td>
+<td>Boolean</td>
+<td>Duplicate RX flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.flags.rx.short_guard_interval</td>
+<td>Boolean</td>
+<td>RX Short Guard Interval (SGI) flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.num_delimiters</td>
+<td>Unsigned 8-bit integer</td>
+<td>Num-Delimiters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.80211n-mac.reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errors</td>
+<td>1.0.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.data</td>
+<td>Boolean</td>
+<td>Data Error</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.error1</td>
+<td>Boolean</td>
+<td>Error 1</td>
+<td>1.0.1 to 1.0.5</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.error2</td>
+<td>Boolean</td>
+<td>Error 2</td>
+<td>1.0.1 to 1.0.5</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.error3</td>
+<td>Boolean</td>
+<td>Error 3</td>
+<td>1.0.1 to 1.0.5</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.fcs</td>
+<td>Boolean</td>
+<td>FCS Error</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.sequence</td>
+<td>Boolean</td>
+<td>Sequence Error</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.errors.symbol</td>
+<td>Boolean</td>
+<td>Symbol Error</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.flags.fcs_present</td>
+<td>Boolean</td>
+<td>FCS Present Flag</td>
+<td>1.0.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.flags.flag2</td>
+<td>Boolean</td>
+<td>Flag 2</td>
+<td>1.0.1 to 1.0.5</td>
+</tr>
+<tr>
+<td>ppi.8023_extension.flags.flag3</td>
+<td>Boolean</td>
+<td>Flag 3</td>
+<td>1.0.1 to 1.0.5</td>
+</tr>
+<tr>
+<td>ppi.aggregation_extension.interface_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface ID</td>
+<td>1.0.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.cap-info</td>
+<td>Byte array</td>
+<td>Capture information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.dlt</td>
+<td>Unsigned 32-bit integer</td>
+<td>DLT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.field_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Field length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.field_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Field type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.flags.alignment</td>
+<td>Boolean</td>
+<td>Alignment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.flags.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Header length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.proc-info</td>
+<td>Byte array</td>
+<td>Process information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.spectrum-map</td>
+<td>Byte array</td>
+<td>Radio spectrum map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ppi.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

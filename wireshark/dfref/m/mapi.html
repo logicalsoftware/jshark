@@ -1,0 +1,734 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Exchange 5.5 EMSMDB</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Exchange 5.5 EMSMDB</h1>
+<div><b>Protocol field name:</b> mapi</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>mapi.DATA_BLOB.data</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.DATA_BLOB.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.decrypted.data</td>
+<td>Byte array</td>
+<td>Decrypted data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.decrypted.data.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.decrypted.data.maxlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.decrypted.data.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.alloc_space</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alloc Space</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.code_page</td>
+<td>Unsigned 32-bit integer</td>
+<td>Code Page</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.emsmdb_client_version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Emsmdb Client Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.input_locale</td>
+<td>None</td>
+<td>Input Locale</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.org_group</td>
+<td>String</td>
+<td>Org Group</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.session_nb</td>
+<td>Unsigned 16-bit integer</td>
+<td>Session Nb</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.store_version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Store Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.unknown3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.unknown4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoConnect.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.mapi_request</td>
+<td>None</td>
+<td>Mapi Request</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.mapi_response</td>
+<td>None</td>
+<td>Mapi Response</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.max_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REPL_UNION.mapi_GetProps</td>
+<td>None</td>
+<td>Mapi Getprops</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REPL_UNION.mapi_OpenFolder</td>
+<td>None</td>
+<td>Mapi Openfolder</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REPL_UNION.mapi_Release</td>
+<td>None</td>
+<td>Mapi Release</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REQ.opnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Opnum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REQ_UNION.mapi_GetProps</td>
+<td>None</td>
+<td>Mapi Getprops</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REQ_UNION.mapi_OpenFolder</td>
+<td>None</td>
+<td>Mapi Openfolder</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REQ_UNION.mapi_OpenMsgStore</td>
+<td>None</td>
+<td>Mapi Openmsgstore</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcDoRpc_MAPI_REQ_UNION.mapi_Release</td>
+<td>None</td>
+<td>Mapi Release</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.notif_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Notif Len</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.notifkey</td>
+<td>Unsigned 8-bit integer</td>
+<td>Notifkey</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.retval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Retval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.sockaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sockaddr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.sockaddr_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sockaddr Len</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.ulEventMask</td>
+<td>Unsigned 16-bit integer</td>
+<td>Uleventmask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRRegisterPushNotification.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.EcRUnregisterPushNotification.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.encap_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.encrypted_data</td>
+<td>Byte array</td>
+<td>Encrypted data</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.FILETIME.dwHighDateTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dwhighdatetime</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.FILETIME.dwLowDateTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dwlowdatetime</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.handle</td>
+<td>Byte array</td>
+<td>Handle</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.hnd</td>
+<td>Byte array</td>
+<td>Context Handle</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.input_locale.language</td>
+<td>Unsigned 32-bit integer</td>
+<td>Language</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.input_locale.method</td>
+<td>Unsigned 32-bit integer</td>
+<td>Method</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.LPSTR.lppszA</td>
+<td>None</td>
+<td>Lppsza</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.mapi_request.mapi_req</td>
+<td>None</td>
+<td>Mapi Req</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.mapi_response.mapi_repl</td>
+<td>None</td>
+<td>Mapi Repl</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.MAPISTATUS_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>MAPISTATUS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.notification_payload</td>
+<td>Byte array</td>
+<td>Notification payload</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.notification_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Notification port</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_recipients.codepage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Codepage</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_recipients.RecipClass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipclass</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_recipients.recipients_headers</td>
+<td>None</td>
+<td>Recipients Headers</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_req.folder_handle_idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Folder Handle Idx</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_req.folder_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Folder Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_req.max_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_req.message_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Message Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.OpenMessage_req.message_permissions</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Permissions</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.pdu.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Return code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.RecipExchange.addr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addr Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.RecipExchange.organization_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Organization Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipient_displayname_7bit.lpszA</td>
+<td>None</td>
+<td>Lpsza</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipient_type.EXCHANGE</td>
+<td>None</td>
+<td>Exchange</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipient_type.SMTP</td>
+<td>None</td>
+<td>Smtp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.bitmask</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bitmask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.layout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Layout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.prop_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Prop Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.prop_values</td>
+<td>None</td>
+<td>Prop Values</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Recipient Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.recipients_headers.username</td>
+<td>None</td>
+<td>Username</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue.ulPropTag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ulproptag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.b</td>
+<td>Unsigned 8-bit integer</td>
+<td>B</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.d</td>
+<td>Signed 64-bit integer</td>
+<td>D</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.dbl</td>
+<td>Signed 64-bit integer</td>
+<td>Dbl</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.err</td>
+<td>Unsigned 32-bit integer</td>
+<td>Err</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.ft</td>
+<td>None</td>
+<td>Ft</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.i</td>
+<td>Unsigned 16-bit integer</td>
+<td>I</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.l</td>
+<td>Unsigned 32-bit integer</td>
+<td>L</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.lpguid</td>
+<td>GUID or UUID</td>
+<td>Lpguid</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.lpszA</td>
+<td>None</td>
+<td>Lpsza</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SPropValue_CTR.lpszW</td>
+<td>None</td>
+<td>Lpszw</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.SRow.ulRowFlags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ulrowflags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevCriticalError</td>
+<td>Boolean</td>
+<td>Fnevcriticalerror</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevExtended</td>
+<td>Boolean</td>
+<td>Fnevextended</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevNewMail</td>
+<td>Boolean</td>
+<td>Fnevnewmail</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevObjectCopied</td>
+<td>Boolean</td>
+<td>Fnevobjectcopied</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevObjectCreated</td>
+<td>Boolean</td>
+<td>Fnevobjectcreated</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevObjectDeleted</td>
+<td>Boolean</td>
+<td>Fnevobjectdeleted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevObjectModified</td>
+<td>Boolean</td>
+<td>Fnevobjectmodified</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevObjectMoved</td>
+<td>Boolean</td>
+<td>Fnevobjectmoved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevReservedForMapi</td>
+<td>Boolean</td>
+<td>Fnevreservedformapi</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevSearchComplete</td>
+<td>Boolean</td>
+<td>Fnevsearchcomplete</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevStatusObjectModified</td>
+<td>Boolean</td>
+<td>Fnevstatusobjectmodified</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.ulEventType.fnevTableModified</td>
+<td>Boolean</td>
+<td>Fnevtablemodified</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mapi.unknown_long</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown long</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.unknown_short</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown short</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>mapi.unknown_string</td>
+<td>String</td>
+<td>Unknown string</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

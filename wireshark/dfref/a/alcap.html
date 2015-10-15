@@ -1,0 +1,1010 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: AAL type 2 signalling protocol (Q.2630)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: AAL type 2 signalling protocol (Q.2630)</h1>
+<div><b>Protocol field name:</b> alcap</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>alcap.acc.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Congestion Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.bitrate.avg.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Average Backwards Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.bitrate.avg.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Average Forward Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.bitrate.max.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Backwards Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.bitrate.max.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Forward Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.sdusize.avg.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Average Backwards CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.sdusize.avg.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Average Forward CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.sdusize.max.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Backwards CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.alc.sdusize.max.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Forward CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.coding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause Coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.diag</td>
+<td>Byte array</td>
+<td>Diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.diag.field_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.diag.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.diag.msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.diag.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cau.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause Value (ITU)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ceid.cid</td>
+<td>Unsigned 8-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ceid.pathid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Path ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.compat</td>
+<td>Byte array</td>
+<td>Message Compatibility</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.compat.general.ii</td>
+<td>Unsigned 8-bit integer</td>
+<td>General II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.compat.general.sni</td>
+<td>Unsigned 8-bit integer</td>
+<td>General SNI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.compat.pass.ii</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pass-On II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.compat.pass.sni</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pass-On SNI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.cp.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.dnsea.addr</td>
+<td>Byte array</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.dsaid</td>
+<td>Unsigned 32-bit integer</td>
+<td>DSAID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.fbw.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.hc.codepoint</td>
+<td>Unsigned 8-bit integer</td>
+<td>Codepoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Leg's cause value in REL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.cid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Leg's channel id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.dnsea</td>
+<td>String</td>
+<td>Leg's destination NSAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.dsaid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Leg's ECF OSA id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.msg</td>
+<td>Frame number</td>
+<td>a message of this leg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.onsea</td>
+<td>String</td>
+<td>Leg's originating NSAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.osaid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Leg's ERQ OSA id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.pathid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Leg's path id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.leg.sugr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Leg's SUGR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.msg_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.onsea.addr</td>
+<td>Byte array</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.osaid</td>
+<td>Unsigned 32-bit integer</td>
+<td>OSAID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.param.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pfbw.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.bitrate.avg.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Average Backwards Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.bitrate.avg.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Average Forward Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.bitrate.max.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Backwards Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.bitrate.max.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Forward Bit Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.sdusize.max.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Backwards CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.plc.sdusize.max.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Forward CPS SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.cas</td>
+<td>Unsigned 8-bit integer</td>
+<td>CAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Circuit Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.dtmf</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTMF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.fax</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.lb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.max_fmdata_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len of FM Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.mfr1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.mfr2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.oui</td>
+<td>Byte array</td>
+<td>OUI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.pcm</td>
+<td>Unsigned 8-bit integer</td>
+<td>PCM Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.profile.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.profile.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.rc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssiae.syn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Synchronization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssime.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssime.lb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssime.max</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pssime.mult</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiplier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pt.codepoint</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS Codepoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbws.stt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Traffic Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.pvbwt.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.cas</td>
+<td>Unsigned 8-bit integer</td>
+<td>CAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Circuit Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.dtmf</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTMF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.fax</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.max_fmdata_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len of FM Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.mfr1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.mfr2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.oui</td>
+<td>Byte array</td>
+<td>OUI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.pcm</td>
+<td>Unsigned 8-bit integer</td>
+<td>PCM Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.profile.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssia.profile.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.cas</td>
+<td>Unsigned 8-bit integer</td>
+<td>CAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Circuit Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.dtmf</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTMF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.fax</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.lb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.max_fmdata_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len of FM Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.mfr1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.mfr2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multi-Frequency R2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.oui</td>
+<td>Byte array</td>
+<td>OUI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.pcm</td>
+<td>Unsigned 8-bit integer</td>
+<td>PCM Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.profile.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.profile.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Profile Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.rc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssiae.syn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Synchronization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssim.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssim.max</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssim.mult</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiplier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssime.frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssime.lb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssime.max</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssime.mult</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiplier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisa.sscop.max_sdu_len.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Backwards</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisa.sscop.max_sdu_len.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Forward</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisa.sscop.max_uu_len.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Backwards</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisa.sscop.max_uu_len.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Forward</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisa.sssar.max_len.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Forward</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisu.sssar.max_len.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Maximum Len of SSSAR-SDU Forward</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.ssisu.ted</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transmission Error Detection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.suci</td>
+<td>Unsigned 8-bit integer</td>
+<td>SUCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.sugr</td>
+<td>Byte array</td>
+<td>SUGR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.sut.sut_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>SUT Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.sut.transport</td>
+<td>Byte array</td>
+<td>SUT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.unknown.field</td>
+<td>Byte array</td>
+<td>Unknown Field Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbws.stt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Traffic Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.bitrate.bw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Backwards Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.bitrate.fw</td>
+<td>Unsigned 24-bit integer</td>
+<td>Peak CPS Forward Bitrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.bucket_size.bw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Backwards CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.bucket_size.fw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Peak Forward CPS Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.max_size.bw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backwards CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>alcap.vbwt.max_size.fw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forward CPS Packet Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,572 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: ZigBee Device Profile</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: ZigBee Device Profile</h1>
+<div><b>Protocol field name:</b> zbee.zdp</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>zbee.zdp.addr_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.app.device</td>
+<td>Unsigned 16-bit integer</td>
+<td>Application Device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.app.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Application Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.assoc_device</td>
+<td>Unsigned 16-bit integer</td>
+<td>Associated Device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.assoc_device_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Associated Device Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.dst</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.dst64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Destination</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.dst_ep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Endpoint</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.src</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.src64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Source</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.bind.src_ep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Endpoint</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cache</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cache</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.channel_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel List Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cinfo.alloc</td>
+<td>Boolean</td>
+<td>Allocate Short Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cinfo.alt_coord</td>
+<td>Boolean</td>
+<td>Alternate Coordinator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cinfo.ffd</td>
+<td>Boolean</td>
+<td>Full-Function Device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cinfo.power</td>
+<td>Boolean</td>
+<td>AC Power</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cinfo.security</td>
+<td>Boolean</td>
+<td>Security Capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.cluster</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cluster</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.complex</td>
+<td>String</td>
+<td>Complex Descriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.complex_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Complex Descriptor Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.device</td>
+<td>Unsigned 16-bit integer</td>
+<td>Device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Duration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.endpoint</td>
+<td>Unsigned 8-bit integer</td>
+<td>Endpoint</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.ep_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Endpoint Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.ext_addr</td>
+<td>Unsigned 64-bit integer</td>
+<td>Extended Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.in_cluster</td>
+<td>Unsigned 16-bit integer</td>
+<td>Input Cluster</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.in_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Cluster Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.leave.children</td>
+<td>Boolean</td>
+<td>Remove Children</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.leave.rejoin</td>
+<td>Boolean</td>
+<td>Rejoin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.manager</td>
+<td>Unsigned 16-bit integer</td>
+<td>Network Manager</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.complex</td>
+<td>Boolean</td>
+<td>Complex Descriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.freq.2400mhz</td>
+<td>Boolean</td>
+<td>2.4GHz Band</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.freq.868mhz</td>
+<td>Boolean</td>
+<td>868MHz Band</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.freq.900mhz</td>
+<td>Boolean</td>
+<td>900MHz Band</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.manufacturer</td>
+<td>Unsigned 16-bit integer</td>
+<td>Manufacturer Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.max_buffer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Buffer Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.max_transfer</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Transfer Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node.user</td>
+<td>Boolean</td>
+<td>User Descriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.node_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node Descriptor Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.out_cluster</td>
+<td>Unsigned 16-bit integer</td>
+<td>Output Cluster</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.out_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Cluster Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.avail.ac</td>
+<td>Boolean</td>
+<td>Available AC Power</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.avail.disp</td>
+<td>Boolean</td>
+<td>Available Disposeable Battery</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.avail.rech</td>
+<td>Boolean</td>
+<td>Available Rechargeable Battery</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.level</td>
+<td>Unsigned 16-bit integer</td>
+<td>Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.mode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power.source.ac</td>
+<td>Boolean</td>
+<td>Using AC Power</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.power_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Descriptor Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.profile</td>
+<td>Unsigned 16-bit integer</td>
+<td>Profile</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.replacement</td>
+<td>Unsigned 64-bit integer</td>
+<td>Replacement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.replacement_ep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Replacement Endpoint</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.req_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.scan_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scan Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.seqno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.server.bak_bind</td>
+<td>Boolean</td>
+<td>Backup Binding Table Cache</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.server.bak_trust</td>
+<td>Boolean</td>
+<td>Backup Trust Center</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.server.pri_bind</td>
+<td>Boolean</td>
+<td>Primary Binding Table Cache</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.server.pri_disc</td>
+<td>Boolean</td>
+<td>Primary Discovery Cache</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.server.pri_trust</td>
+<td>Boolean</td>
+<td>Primary Trust Center</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.significance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Significance</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.simple_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Descriptor Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.simple_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Descriptor Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.simple_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Descriptor Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.table_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Table Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.table_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Table Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.target</td>
+<td>Unsigned 16-bit integer</td>
+<td>Target</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.target64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Target</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.target_ep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Target Endpoint</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.tx_fail</td>
+<td>Unsigned 16-bit integer</td>
+<td>Failed Transmissions</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.tx_total</td>
+<td>Unsigned 16-bit integer</td>
+<td>Total Transmissions</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.update_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Update ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.user</td>
+<td>String</td>
+<td>User Descriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>zbee.zdp.user_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>User Descriptor Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

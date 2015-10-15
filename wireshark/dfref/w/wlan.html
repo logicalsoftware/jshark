@@ -1,0 +1,746 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: IEEE 802.11 wireless LAN</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: IEEE 802.11 wireless LAN</h1>
+<div><b>Protocol field name:</b> wlan</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>chan.chan_adapt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Adaptable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_content</td>
+<td>Unsigned 8-bit integer</td>
+<td>Contents</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_tx_pow</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tx Power</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>chan.chan_uknown</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Channels</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ACF</td>
+<td>Unsigned 32-bit integer</td>
+<td>Application Contents Field (ACF)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ACID</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Class ID (ACID)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ACM</td>
+<td>String</td>
+<td>Application Context Mask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ACM.contents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Application Context Mask Contents (ACM)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ACM.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Context Mask (ACM) Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.addressing</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addressing</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service (IEE802.11) Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.contents</td>
+<td>Unsigned 8-bit integer</td>
+<td>Provider Service Table Contents</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.ipv6addr</td>
+<td>IPv6 address</td>
+<td>Internet Protocol V6 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Provider Service Table Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.macaddr</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Medium Access Control Address (MAC addr)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.providerCount</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of Providers announcing their Services</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.serviceport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Service Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pst.timingQuality</td>
+<td>Unsigned 16-bit integer</td>
+<td>Timing Quality</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>radiotap.dbm_antnoise</td>
+<td>Signed 32-bit integer</td>
+<td>SSI Noise (dBm)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.addr</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Source or Destination address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.aid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Association ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.analysis.retransmission</td>
+<td>None</td>
+<td>Retransmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.analysis.retransmission_frame</td>
+<td>Frame number</td>
+<td>Retransmission of frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.antenna</td>
+<td>Unsigned 32-bit integer</td>
+<td>Antenna</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.basic.tidinfo</td>
+<td>Unsigned 16-bit integer</td>
+<td>TID for which a Basic BlockAck frame is requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.bm</td>
+<td>Byte array</td>
+<td>Block Ack Bitmap</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.control</td>
+<td>Unsigned 16-bit integer</td>
+<td>Block Ack Request Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.control.ackpolicy</td>
+<td>Boolean</td>
+<td>BAR Ack Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.control.cbitmap</td>
+<td>Boolean</td>
+<td>Compressed Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.control.multitid</td>
+<td>Boolean</td>
+<td>Multi-TID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.mtid.tid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic Identifier (TID) Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.mtid.tidinfo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of TIDs Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ba.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Ack Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bar.compressed.tidinfo</td>
+<td>Unsigned 16-bit integer</td>
+<td>TID for which a BlockAck frame is requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bar.control</td>
+<td>Unsigned 16-bit integer</td>
+<td>Block Ack Request (BAR) Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bar.mtid.tidinfo.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bar.mtid.tidinfo.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Multi-TID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bar.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Ack Request Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.bssid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BSS Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ccmp.extiv</td>
+<td>String</td>
+<td>CCMP Ext. Initialization Vector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.channel_frequency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Channel frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.controlwrap.addr1</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>First Address of Contained Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.da</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Destination address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.data_rate</td>
+<td>Unsigned 64-bit integer</td>
+<td>Data Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.dbm_antsignal</td>
+<td>Signed 32-bit integer</td>
+<td>SSI Signal (dBm)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.duration</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Control Field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.ds</td>
+<td>Unsigned 8-bit integer</td>
+<td>DS status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.frag</td>
+<td>Boolean</td>
+<td>More Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.fromds</td>
+<td>Boolean</td>
+<td>From DS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.moredata</td>
+<td>Boolean</td>
+<td>More Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.order</td>
+<td>Boolean</td>
+<td>Order flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.protected</td>
+<td>Boolean</td>
+<td>Protected flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.pwrmgt</td>
+<td>Boolean</td>
+<td>PWR MGT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.retry</td>
+<td>Boolean</td>
+<td>Retry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.tods</td>
+<td>Boolean</td>
+<td>To DS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.type_subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type/Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fc.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame check sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fcs_bad</td>
+<td>Boolean</td>
+<td>Bad</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fcs_good</td>
+<td>Boolean</td>
+<td>Good</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.frag</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment</td>
+<td>Frame number</td>
+<td>802.11 Fragment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment.error</td>
+<td>Frame number</td>
+<td>Defragmentation error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment.multipletails</td>
+<td>Boolean</td>
+<td>Multiple tail fragments found</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment.overlap</td>
+<td>Boolean</td>
+<td>Fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment.overlap.conflict</td>
+<td>Boolean</td>
+<td>Conflicting data in fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragment.toolongfragment</td>
+<td>Boolean</td>
+<td>Fragment too long</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.fragments</td>
+<td>None</td>
+<td>802.11 Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.hosttime</td>
+<td>Unsigned 64-bit integer</td>
+<td>Host timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.mactime</td>
+<td>Unsigned 64-bit integer</td>
+<td>MAC timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.normrssi_antnoise</td>
+<td>Unsigned 32-bit integer</td>
+<td>Normalized RSSI Noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.normrssi_antsignal</td>
+<td>Unsigned 32-bit integer</td>
+<td>Normalized RSSI Signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.ack</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ack Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.amsdupresent</td>
+<td>Boolean</td>
+<td>Payload Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.bit4</td>
+<td>Boolean</td>
+<td>QoS bit 4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.buf_state_indicated</td>
+<td>Boolean</td>
+<td>Buffer State Indicated</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.eosp</td>
+<td>Boolean</td>
+<td>EOSP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.fc_content</td>
+<td>Unsigned 16-bit integer</td>
+<td>Content</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>wlan.qos.highest_pri_buf_ac</td>
+<td>Unsigned 8-bit integer</td>
+<td>Highest-Priority Buffered AC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.priority</td>
+<td>Unsigned 16-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.qap_buf_load</td>
+<td>Unsigned 8-bit integer</td>
+<td>QAP Buffered Load</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.queue_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Queue Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.txop_dur_req</td>
+<td>Unsigned 16-bit integer</td>
+<td>TXOP Duration Requested</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.qos.txop_limit</td>
+<td>Unsigned 16-bit integer</td>
+<td>TXOP Limit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ra</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Receiver address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.rawrssi_antnoise</td>
+<td>Unsigned 32-bit integer</td>
+<td>Raw RSSI Noise</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.rawrssi_antsignal</td>
+<td>Unsigned 32-bit integer</td>
+<td>Raw RSSI Signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled 802.11 length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.reassembled_in</td>
+<td>Frame number</td>
+<td>Reassembled 802.11 in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.sa</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Source address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.seq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.signal_strength</td>
+<td>Unsigned 8-bit integer</td>
+<td>Signal Strength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.ta</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Transmitter address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.tkip.extiv</td>
+<td>String</td>
+<td>TKIP Ext. Initialization Vector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.wep.icv</td>
+<td>Unsigned 32-bit integer</td>
+<td>WEP ICV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.wep.iv</td>
+<td>Unsigned 24-bit integer</td>
+<td>Initialization Vector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.wep.key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wlan.wep.weakiv</td>
+<td>Boolean</td>
+<td>Weak IV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: CSM_ENCAPS</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: CSM_ENCAPS</h1>
+<div><b>Protocol field name:</b> csm_encaps</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>csm_encaps.channel</td>
+<td>Unsigned 16-bit integer</td>
+<td>Channel Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.ctrl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.ctrl.ack</td>
+<td>Boolean</td>
+<td>Packet Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.ctrl.ack_suppress</td>
+<td>Boolean</td>
+<td>ACK Suppress Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.ctrl.endian</td>
+<td>Boolean</td>
+<td>Endian Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.function_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Function Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.opcode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param10</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param11</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 11</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param12</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param13</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 13</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param14</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 14</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param15</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 15</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 16</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param17</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 17</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param18</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 18</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param19</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 19</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param20</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 20</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param21</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 21</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param22</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 22</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param23</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 23</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param24</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 24</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param25</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 25</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param26</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 26</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param27</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 27</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param28</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 28</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param29</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 29</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param30</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 30</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param31</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 31</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param32</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 32</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param33</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 33</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param34</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 34</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param35</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 35</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param36</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 36</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param37</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 37</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param38</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 38</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param39</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 39</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param40</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 40</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param6</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param7</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param8</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.param9</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter 9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.seq_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>csm_encaps.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Peer Network Resolution Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Peer Network Resolution Protocol</h1>
+<div><b>Protocol field name:</b> pnrp</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>pnrp.encodedCPA</td>
+<td>None</td>
+<td>Encoded CPA structure</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.binaryAuthority</td>
+<td>Byte array</td>
+<td>Binary Authoriy</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.classifierHash</td>
+<td>Byte array</td>
+<td>Classifiert Hash</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.expirationDate</td>
+<td>Unsigned 64-bit integer</td>
+<td>CPA expiration Date</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.abit</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA contains Binary (A)uthority field </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.cbit</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA contains (C)lassifier Hash </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.fbit</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA contains (F)riendly Name </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.rbit</td>
+<td>Unsigned 8-bit integer</td>
+<td>This is a (r)evoke CPA</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.ubit</td>
+<td>Unsigned 8-bit integer</td>
+<td>Friendly Name in (U)TF-8 </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.flags.xbit</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA has E(X)tended Payload </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.friendlyName</td>
+<td>String</td>
+<td>Friendly Name of PNRP ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.lenght</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.serviceLocation</td>
+<td>Byte array</td>
+<td>Service Location</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.vMajor</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA Major Version </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.encodedCPA.vMinor</td>
+<td>Unsigned 8-bit integer</td>
+<td>CPA Minor Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.header</td>
+<td>None</td>
+<td>Header</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.header.fieldID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Header FieldID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.header.lenght</td>
+<td>Unsigned 16-bit integer</td>
+<td>Header length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.header.messageID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.ident</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ident</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.flags.0bit</td>
+<td>Unsigned 16-bit integer</td>
+<td>0 bit - reserved: </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.flags.Abit</td>
+<td>Unsigned 16-bit integer</td>
+<td>A bit: </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.flags.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.precision</td>
+<td>Unsigned 16-bit integer</td>
+<td>Precision</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.reasonCode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.lookupControls.resolveCriteria</td>
+<td>Unsigned 8-bit integer</td>
+<td>Resolve Criteria</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.messageType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.publicKey.objID</td>
+<td>String</td>
+<td>Public Key Object Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.publicKey.publicKeyData</td>
+<td>String</td>
+<td>Public Key Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ack.flags.Nbit</td>
+<td>Boolean</td>
+<td>(N)ot found Bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ack.flags.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.Bbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>(B)usy</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.Lbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>(L)eaf Set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.Nbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>(N)ot found</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.reserved1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.authority.flags.reserved3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.certChain</td>
+<td>Byte array</td>
+<td>Certificate Chain </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.classifier.arrayLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>Array Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.classifier.entryLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>Entry Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.classifier.unicodeCount</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Unicode Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ElementFieldType</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type of Array Entry </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.flood.flags.Dbit</td>
+<td>Boolean</td>
+<td>(D)on't send ACK</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.flood.flags.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.hashednonce</td>
+<td>Byte array</td>
+<td>Hashed Nonce</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.headerAck</td>
+<td>Unsigned 32-bit integer</td>
+<td>ACKed Header ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.idArray.Entrylength</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length of each Array Entry </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.idArray.Length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length of Array </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.idArray.NumEnries</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Entries</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags.Abit</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPA should (a)ppear in response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags.Cbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>(C)ertificate Chain sent in Authority response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags.reserved1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.inquire.flags.Xbit</td>
+<td>Unsigned 16-bit integer</td>
+<td>E(X)tended Payload sent in Authority response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ipv6Address</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ipv6EndpointArray.ArrayLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>Array Length:</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ipv6EndpointArray.EntryLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>Entry Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.ipv6EndpointArray.NumberOfEntries</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Entries:</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Segment length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.nonce</td>
+<td>Byte array</td>
+<td>Nonce</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.pnrpID</td>
+<td>Byte array</td>
+<td>PNRP ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.routeEntry.addressCount</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.routeEntry.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.routeEntry.portNumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.solicitType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Solicit Type </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.splitControls.authorityBuffer</td>
+<td>Unsigned 16-bit integer</td>
+<td>Authority Buffer Size:</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.segment.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Segment Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.signature.data</td>
+<td>Byte array</td>
+<td>Signature </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.vMajor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Major</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pnrp.vMinor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Minor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

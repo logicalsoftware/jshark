@@ -1,0 +1,7988 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Intelligent Platform Management Interface</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Intelligent Platform Management Interface</h1>
+<div><b>Protocol field name:</b> ipmi</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ClearSEL.datafield.BytesToRead</td>
+<td>Unsigned 8-bit integer</td>
+<td>'R' (0x52)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.ErasureProgress.EraProg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erasure Progress</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.ErasureProgress.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.NextSELRecordID</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action for Clear SEL</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.OffsetIntoRecord</td>
+<td>Unsigned 8-bit integer</td>
+<td>'L' (0x4C)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.ReservationID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ClearSEL.datafield.SELRecordID</td>
+<td>Unsigned 8-bit integer</td>
+<td>'C' (0x43)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>FRUControl.datafield.FRUControlOption</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Control Option</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>FRUControl.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>FRUControl.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.datafield.channelno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.datafield.compinfo</td>
+<td>Boolean</td>
+<td>Compabillity information</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.datafield.max_priv_lev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Requested Maximum Privilege Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.anonymouslogin_status_b0</td>
+<td>Boolean</td>
+<td>Anonymous Login enabled</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.anonymouslogin_status_b1</td>
+<td>Boolean</td>
+<td>Null usernames enabled</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.anonymouslogin_status_b2</td>
+<td>Boolean</td>
+<td>Non-null usernames enabled</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.Auth_Cap_comp_info</td>
+<td>Boolean</td>
+<td>Compabillity information</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.auth_types_b0</td>
+<td>Boolean</td>
+<td>None</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.auth_types_b1</td>
+<td>Boolean</td>
+<td>MD2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.auth_types_b2</td>
+<td>Boolean</td>
+<td>MD5</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.auth_types_b4</td>
+<td>Boolean</td>
+<td>OEM proprietary (per OEM identified by the IANA OEM ID in the RMCP Ping Response)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.channelno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.ext_cap_b0</td>
+<td>Boolean</td>
+<td>Channel supports IPMI v1.5 connections</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.ext_cap_b1</td>
+<td>Boolean</td>
+<td>Channel supports IPMI v2.0 connections</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.oemaux</td>
+<td>Unsigned 8-bit integer</td>
+<td>OEM auxiliary data</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.oemid</td>
+<td>Unsigned 24-bit integer</td>
+<td>OEM ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.per_mess_auth_status</td>
+<td>Boolean</td>
+<td>Per-message Authentication is enabled</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetChannelAuthCap.resp.user_level_auth_status</td>
+<td>Boolean</td>
+<td>User Level Authentication status</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.AuxiliaryFirmwareRevisionInfomation</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auxiliary Firmware Revision Infomation</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.Bridge</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bridge Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.Chassis</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.DeviceAvailable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Available</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.DeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.DeviceRevision</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Revision</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.DeviceSDR</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device SDR</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.FRUInventoryDevice</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Inventory Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.IPMBEventGenerator</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMB Event Generator</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.IPMBEventReceiver</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMB Event Receiver</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.IPMIRevision</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI Revision</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.MajorFirmwareRevision</td>
+<td>Unsigned 8-bit integer</td>
+<td>Major Firmware Revision</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.ManufactureID</td>
+<td>Unsigned 24-bit integer</td>
+<td>Manufacture ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.MinorFirmwareRevision</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Firmware Revision</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.ProductID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Product ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.SDRRepositoryDevice</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDR Repository Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.SELDevice</td>
+<td>Unsigned 8-bit integer</td>
+<td>SEL Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceID.datafield.SensorDevice</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceLocatorRecordID.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceLocatorRecordID.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceLocatorRecordID.datafield.RecordID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDR.datafield.BytesToRead</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bytes to read (number)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDR.datafield.OffsetIntoRecord</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDR.datafield.RecordID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID of record to Get</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDR.datafield.ReservationID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.DeviceLUN3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device LUN 3</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.DeviceLUNs0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device LUN 0</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.DeviceLUNs1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device LUN 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.DeviceLUNs2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device LUN 2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.Dynamicpopulation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dynamic population</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.Flag.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of the Sensors in device</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetDeviceSDRInfo.datafield.SensorPopulationChangeIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>SensorPopulation Change Indicator </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFanLevel.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFanLevel.datafield.LocalControlFanLevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control Fan Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFanLevel.datafield.OverrideFanLevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override Fan Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFanLevel.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUActivationPolicy.datafield.FRUActivationPolicy.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Locked Bit</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUActivationPolicy.datafield.FRUActivationPolicy.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Deactivation-Locked Bit</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUActivationPolicy.datafield.FRUActivationPolicy.Bit72</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...2 Reserverd</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUActivationPolicy.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUActivationPolicy.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUInventoryAreaInfo.datafield.FRUInventoryAreaSize</td>
+<td>Unsigned 16-bit integer</td>
+<td>FRU Inventory area size in bytes</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUInventoryAreaInfo.datafield.ReservationID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUInventoryAreaInfo.datafield.ResponseDataByte4.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device is accessed by bytes or words ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRUInventoryAreaInfo.datafield.ResponseDataByte4.Bit71</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.ApplicationSpecificLEDCount</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Specific LED Count</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.LedProperties.BlueLED</td>
+<td>Unsigned 8-bit integer</td>
+<td>BlueLED</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.LedProperties.LED1</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.LedProperties.LED2</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.LedProperties.LED3</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED3</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.LedProperties.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedProperties.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LampTestDuration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lamp Test Duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LEDFunction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...3 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LEDID</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LEDState.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPM Controller has a Local Control State ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LEDState.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override State</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LEDState.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lamp Test</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LocalControlColor.ColorVal</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LocalControlColor.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...4 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LocalControlLEDFunction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control LED Function</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LocalControlOffduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control Off-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.LocalControlOnduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control On-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.OverrideStateColor.ColorVal</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.OverrideStateColor.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...4 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.OverrideStateLEDFunction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override State LED Function</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.OverrideStateOffduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override State Off-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.OverrideStateOnduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override State On-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetFRULedState.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.DefaultLEDColorLocalControl.Color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default LED Color (Local Control State)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.DefaultLEDColorLocalControl.Reserved.bit7-4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.DefaultLEDColorOverride.Color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default LED Color (Override State)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.DefaultLEDColorOverride.Reserved.bit7-4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.AMBER</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support AMBER ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.BLUE</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support BLUE ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.GREEN</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support GREEN ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.ORANGE</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support ORANGE ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.RED</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support RED ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.Reserved.bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.Reserved.bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDColorCapabilities.WHITE</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Support WHITE ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.LEDID</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetLedColorCapabilities.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPICMGProperties.datafield.FRUDeviceIDforIPMController</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID for IPM Controller</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPICMGProperties.datafield.MaxFRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPICMGProperties.datafield.PICMGExtensionVersion</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Extension Version</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPICMGProperties.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.DelayToStablePower</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delay To Stable Power</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.PowerDraw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Draw</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.PowerMultiplier</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Multiplier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.PowerType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.Properties</td>
+<td>Unsigned 8-bit integer</td>
+<td>Properties</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.Properties.DynamicPowerCon</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dynamic Power Configuration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.Properties.PowerLevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetPowerLevel.datafield.Properties.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELEntry.datafield.BytesToRead</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bytes to read</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELEntry.datafield.NextSELRecordID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Next SEL Record ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELEntry.datafield.OffsetIntoRecord</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELEntry.datafield.ReservationID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELEntry.datafield.SELRecordID</td>
+<td>Unsigned 16-bit integer</td>
+<td>SEL Record ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.AdditionTimestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent addition timestamp</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.Entries</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of log entries in SEL</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.EraseTimestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent erase timestamp</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.FreeSpace</td>
+<td>Unsigned 16-bit integer</td>
+<td>Free Space in bytes</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Get SEL Allocation Information command supported ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserve SEL command supported ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partial Add SEL Entry command supported ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Bit3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delete SEL command supported ?</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Overflow Flag</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.OperationSupport.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.ReservationID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSELInfo.datafield.SELVersion</td>
+<td>Unsigned 8-bit integer</td>
+<td>SEL Version</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorHysteresis.datafield.NegativegoingThresholdHysteresisValue</td>
+<td>Unsigned 8-bit integer</td>
+<td>Negative-going Threshold Hysteresis Value</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorHysteresis.datafield.PositivegoingThresholdHysteresisValue</td>
+<td>Unsigned 8-bit integer</td>
+<td>Positive-going Threshold Hysteresis Value</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorHysteresis.datafield.ReservedForHysteresisMask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved for future ' Hysteresis Mask ' definition</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorHysteresis.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte2.Bit5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 5</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte2.Bit6</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 6</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte2.Bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 0</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit0_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 0</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit1_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit2_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 3</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit3_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 3</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 4</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit4_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 4</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 5</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit5_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 5</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit6</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 6</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte3.Bit76_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...6 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 0</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 4</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 5</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit6</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 6</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.ResponseDataByte4.Bit7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorReading.datafield.Sensorreading</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Reading</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit3</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit4</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit5</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.ControlByte.Bit76</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...6 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.LowerCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.LowerNonCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.LowerNonRecoverableThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.UpperCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.UpperNonCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>GetSensorThresholds.datafield.UpperNonRecoverableThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>impi.bootopt06.bootinfo_timestamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Boot Info Timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app00.dev.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app00.dev.provides_dev_sdr</td>
+<td>Boolean</td>
+<td>Device provides Device SDRs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app00.dev.rev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Revision (binary encoded)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.bridge</td>
+<td>Boolean</td>
+<td>Bridge</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.chassis</td>
+<td>Boolean</td>
+<td>Chassis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.fru</td>
+<td>Boolean</td>
+<td>FRU Inventory</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.ipmb_ev_gen</td>
+<td>Boolean</td>
+<td>Event Generator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.ipmb_ev_recv</td>
+<td>Boolean</td>
+<td>Event Receiver</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.sdr</td>
+<td>Boolean</td>
+<td>SDR Repository</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.sel</td>
+<td>Boolean</td>
+<td>SEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ads.sensor</td>
+<td>Boolean</td>
+<td>Sensor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.dev.avail</td>
+<td>Boolean</td>
+<td>Device availability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.fw.aux</td>
+<td>Byte array</td>
+<td>Auxiliary Firmware Revision Information</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.fw.major</td>
+<td>Unsigned 8-bit integer</td>
+<td>Major Firmware Revision (binary encoded)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.fw.minor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Firmware Revision (BCD encoded)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.ipmi.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.manufacturer</td>
+<td>Unsigned 24-bit integer</td>
+<td>Manufacturer ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app01.product</td>
+<td>Unsigned 16-bit integer</td>
+<td>Product ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self-test error bitfield</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.bb_fw</td>
+<td>Boolean</td>
+<td>Controller update boot block firmware corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.bmc_fru</td>
+<td>Boolean</td>
+<td>Cannot access BMC FRU device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.ipmb_sig</td>
+<td>Boolean</td>
+<td>IPMB signal lines do not respond</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.iua</td>
+<td>Boolean</td>
+<td>Internal Use Area of BMC FRU corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.oper_fw</td>
+<td>Boolean</td>
+<td>Controller operational firmware corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.sdr</td>
+<td>Boolean</td>
+<td>Cannot access SDR Repository</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.sdr_empty</td>
+<td>Boolean</td>
+<td>SDR Repository is empty</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.fail.sel</td>
+<td>Boolean</td>
+<td>Cannot access SEL device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app04.self_test_result</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self test result</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app05.devspec</td>
+<td>Byte array</td>
+<td>Device-specific parameters</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app06.devpwr.enum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Power State enumeration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app06.devpwr.set</td>
+<td>Boolean</td>
+<td>Device Power State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app06.syspwr.enum</td>
+<td>Unsigned 8-bit integer</td>
+<td>System Power State enumeration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app06.syspwr.set</td>
+<td>Boolean</td>
+<td>System Power State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app07.devpwr</td>
+<td>Unsigned 8-bit integer</td>
+<td>ACPI Device Power State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app07.syspwr</td>
+<td>Unsigned 8-bit integer</td>
+<td>ACPI System Power State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app08.guid</td>
+<td>GUID or UUID</td>
+<td>GUID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.exp_flags.biosfrb2</td>
+<td>Boolean</td>
+<td>BIOS FRB2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.exp_flags.biospost</td>
+<td>Boolean</td>
+<td>BIOS/POST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.exp_flags.oem</td>
+<td>Boolean</td>
+<td>OEM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.exp_flags.osload</td>
+<td>Boolean</td>
+<td>OS Load</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.exp_flags.sms_os</td>
+<td>Boolean</td>
+<td>SMS/OS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.initial_countdown</td>
+<td>Unsigned 16-bit integer</td>
+<td>Initial countdown value (100ms/count)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.pretimeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pre-timeout interval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.timer_action.interrupt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pre-timeout interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.timer_action.timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timeout action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.timer_use.dont_log</td>
+<td>Boolean</td>
+<td>Don't log</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.timer_use.dont_stop</td>
+<td>Boolean</td>
+<td>Don't stop timer on Set Watchdog command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app24.timer_use.timer_use</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timer use</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.exp_flags.biosfrb2</td>
+<td>Boolean</td>
+<td>BIOS FRB2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.exp_flags.biospost</td>
+<td>Boolean</td>
+<td>BIOS/POST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.exp_flags.oem</td>
+<td>Boolean</td>
+<td>OEM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.exp_flags.osload</td>
+<td>Boolean</td>
+<td>OS Load</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.exp_flags.sms_os</td>
+<td>Boolean</td>
+<td>SMS/OS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.initial_countdown</td>
+<td>Unsigned 16-bit integer</td>
+<td>Initial countdown value (100ms/count)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.pretimeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pre-timeout interval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.timer_action.interrupt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Pre-timeout interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.timer_action.timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timeout action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.timer_use.dont_log</td>
+<td>Boolean</td>
+<td>Don't log</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.timer_use.started</td>
+<td>Boolean</td>
+<td>Started</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app25.timer_use.timer_use</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timer user</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.emb</td>
+<td>Boolean</td>
+<td>Event Message Buffer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.emb_full_intr</td>
+<td>Boolean</td>
+<td>Event Message Buffer Full Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.oem0</td>
+<td>Boolean</td>
+<td>OEM 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.oem1</td>
+<td>Boolean</td>
+<td>OEM 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.oem2</td>
+<td>Boolean</td>
+<td>OEM 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.rmq_intr</td>
+<td>Boolean</td>
+<td>Receive Message Queue Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2e.bmc_global_enables.sel</td>
+<td>Boolean</td>
+<td>System Event Logging</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.emb</td>
+<td>Boolean</td>
+<td>Event Message Buffer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.emb_full_intr</td>
+<td>Boolean</td>
+<td>Event Message Buffer Full Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.oem0</td>
+<td>Boolean</td>
+<td>OEM 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.oem1</td>
+<td>Boolean</td>
+<td>OEM 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.oem2</td>
+<td>Boolean</td>
+<td>OEM 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.rmq_intr</td>
+<td>Boolean</td>
+<td>Receive Message Queue Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app2f.bmc_global_enables.sel</td>
+<td>Boolean</td>
+<td>System Event Logging</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.emb</td>
+<td>Boolean</td>
+<td>Event Message Buffer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.oem0</td>
+<td>Boolean</td>
+<td>OEM 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.oem1</td>
+<td>Boolean</td>
+<td>OEM 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.oem2</td>
+<td>Boolean</td>
+<td>OEM 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.rmq</td>
+<td>Boolean</td>
+<td>Receive Message Queue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app30.byte1.wd_pretimeout</td>
+<td>Boolean</td>
+<td>Watchdog pre-timeout interrupt flag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.emb</td>
+<td>Boolean</td>
+<td>Event Message Buffer Full</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.oem0</td>
+<td>Boolean</td>
+<td>OEM 0 data available</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.oem1</td>
+<td>Boolean</td>
+<td>OEM 1 data available</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.oem2</td>
+<td>Boolean</td>
+<td>OEM 2 data available</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.rmq</td>
+<td>Boolean</td>
+<td>Receive Message Available</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app31.byte1.wd_pretimeout</td>
+<td>Boolean</td>
+<td>Watchdog pre-timeout interrupt occurred</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app32.rq_chno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app32.rq_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app32.rs_chno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app32.rs_state</td>
+<td>Boolean</td>
+<td>Channel State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app34.auth</td>
+<td>Boolean</td>
+<td>Authentication required</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app34.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app34.encrypt</td>
+<td>Boolean</td>
+<td>Encryption required</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app34.track</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tracking</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rq_chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rq_ipmi20</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version compatibility</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rq_priv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Requested privilege level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_auth_md2</td>
+<td>Boolean</td>
+<td>MD2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_auth_md5</td>
+<td>Boolean</td>
+<td>MD5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_auth_none</td>
+<td>Boolean</td>
+<td>No auth</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_auth_oem</td>
+<td>Boolean</td>
+<td>OEM Proprietary authentication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_auth_straight</td>
+<td>Boolean</td>
+<td>Straight password/key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_ipmi15_conn</td>
+<td>Boolean</td>
+<td>IPMI v1.5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_ipmi20</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version compatibility</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_ipmi20_conn</td>
+<td>Boolean</td>
+<td>IPMI v2.0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_kg_status</td>
+<td>Boolean</td>
+<td>KG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_oem_aux</td>
+<td>Unsigned 8-bit integer</td>
+<td>OEM Auxiliary data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_oem_iana</td>
+<td>Unsigned 24-bit integer</td>
+<td>OEM ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_permsg</td>
+<td>Boolean</td>
+<td>Per-message Authentication disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_user_anon</td>
+<td>Boolean</td>
+<td>Anonymous login enabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_user_nonnull</td>
+<td>Boolean</td>
+<td>Non-null usernames enabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_user_null</td>
+<td>Boolean</td>
+<td>Null usernames enabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app38.rs_userauth</td>
+<td>Boolean</td>
+<td>User-level Authentication disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app39.authtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app39.challenge</td>
+<td>Byte array</td>
+<td>Challenge</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app39.temp_session</td>
+<td>Unsigned 32-bit integer</td>
+<td>Temporary Session ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app39.user</td>
+<td>String</td>
+<td>User Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.authcode</td>
+<td>Byte array</td>
+<td>Challenge string/Auth Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.authtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.authtype_session</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Type for session</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.inbound_seq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initial Inbound Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.maxpriv_session</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Privilege Level for session</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.outbound_seq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initial Outbound Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.privlevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Requested Maximum Privilege Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3a.session_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3b.new_priv</td>
+<td>Unsigned 8-bit integer</td>
+<td>New Privilege Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3b.req_priv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Requested Privilege Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3c.session_handle</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session handle</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.app3c.session_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bad_checksum</td>
+<td>Boolean</td>
+<td>Bad checksum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt00.sip</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set In Progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt01.spsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Partition Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt02.spscan.discovered</td>
+<td>Boolean</td>
+<td>Service Partition discovered</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt02.spscan.request</td>
+<td>Boolean</td>
+<td>Request BIOS to scan for specified service partition</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt03.bmcboot.cctrl_timeout</td>
+<td>Boolean</td>
+<td>Chassis Control command not received within 60s timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt03.bmcboot.pef</td>
+<td>Boolean</td>
+<td>Reset/power cycle caused by PEF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt03.bmcboot.powerup</td>
+<td>Boolean</td>
+<td>Power up via pushbutton or wake event</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt03.bmcboot.softreset</td>
+<td>Boolean</td>
+<td>Pushbutton reset / soft reset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt03.bmcboot.wd_timeout</td>
+<td>Boolean</td>
+<td>Reset/power cycle caused by watchdog timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.bootinit_ack.bios</td>
+<td>Boolean</td>
+<td>BIOS/POST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.bootinit_ack.oem</td>
+<td>Boolean</td>
+<td>OEM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.bootinit_ack.os</td>
+<td>Boolean</td>
+<td>OS / Service Partition</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.bootinit_ack.osloader</td>
+<td>Boolean</td>
+<td>OS Loader</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.bootinit_ack.sms</td>
+<td>Boolean</td>
+<td>SMS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt04.write_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Write mask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.bios_muxctl_override</td>
+<td>Unsigned 8-bit integer</td>
+<td>BIOS Mux Control Override</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.bios_shared_override</td>
+<td>Boolean</td>
+<td>BIOS Shared Mode Override</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.bios_verbosity</td>
+<td>Unsigned 8-bit integer</td>
+<td>BIOS verbosity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.boot_flags_valid</td>
+<td>Boolean</td>
+<td>Boot flags valid</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.bootdev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Boot Device Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.boottype</td>
+<td>Boolean</td>
+<td>Boot type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.byte5</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data 5 (reserved)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.cmos_clear</td>
+<td>Boolean</td>
+<td>CMOS Clear</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.console_redirection</td>
+<td>Unsigned 8-bit integer</td>
+<td>Console redirection</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.lock_kbd</td>
+<td>Boolean</td>
+<td>Lock Keyboard</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.lock_sleep</td>
+<td>Boolean</td>
+<td>Lock Out Sleep Button</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.lockout_poweroff</td>
+<td>Boolean</td>
+<td>Lock out (power off / sleep request) via Power Button</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.lockout_reset</td>
+<td>Boolean</td>
+<td>Lock out Reset buttons</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.permanent</td>
+<td>Boolean</td>
+<td>Permanency</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.progress_traps</td>
+<td>Boolean</td>
+<td>Force Progress Event Traps</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.pwd_bypass</td>
+<td>Boolean</td>
+<td>User password bypass</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt05.screen_blank</td>
+<td>Boolean</td>
+<td>Screen Blank</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt06.chan_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt06.session_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt07.block_data</td>
+<td>Byte array</td>
+<td>Block data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.bootopt07.block_selector</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.bridge</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis Bridge Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.cap.diag_int</td>
+<td>Boolean</td>
+<td>Diagnostic Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.cap.fpl</td>
+<td>Boolean</td>
+<td>Front Panel Lockout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.cap.intrusion</td>
+<td>Boolean</td>
+<td>Intrusion sensor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.cap.power_interlock</td>
+<td>Boolean</td>
+<td>Power interlock</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.fru_info</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis FRU Info Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.sdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis SDR Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis SEL Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch00.sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis System Management Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.ctl_fault</td>
+<td>Boolean</td>
+<td>Power Control Fault</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.fault</td>
+<td>Boolean</td>
+<td>Power Fault</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.interlock</td>
+<td>Boolean</td>
+<td>Interlock</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.overload</td>
+<td>Boolean</td>
+<td>Overload</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.policy</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Restore Policy</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.cur_pwr.powered</td>
+<td>Boolean</td>
+<td>Power is on</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.diagintr_allowed</td>
+<td>Boolean</td>
+<td>Diagnostic interrupt disable allowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.diagintr_disabled</td>
+<td>Boolean</td>
+<td>Diagnostic interrupt disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.poweroff_allowed</td>
+<td>Boolean</td>
+<td>Poweroff disable allowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.poweroff_disabled</td>
+<td>Boolean</td>
+<td>Poweroff disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.reset_allowed</td>
+<td>Boolean</td>
+<td>Reset disable allowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.reset_disabled</td>
+<td>Boolean</td>
+<td>Reset disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.standby_allowed</td>
+<td>Boolean</td>
+<td>Standby disable allowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.fpb.standby_disabled</td>
+<td>Boolean</td>
+<td>Standby disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.identstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis Identify state (if supported)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.identsupp</td>
+<td>Boolean</td>
+<td>Chassis Identify command and state info supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.last.ac_failed</td>
+<td>Boolean</td>
+<td>AC failed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.last.down_by_fault</td>
+<td>Boolean</td>
+<td>Last power down caused by power fault</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.last.interlock</td>
+<td>Boolean</td>
+<td>Last power down caused by a power interlock being activated</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.last.on_via_ipmi</td>
+<td>Boolean</td>
+<td>Last `Power is on' state was entered via IPMI command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.last.overload</td>
+<td>Boolean</td>
+<td>Last power down caused by a power overload</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.misc.drive</td>
+<td>Boolean</td>
+<td>Drive Fault</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.misc.fan</td>
+<td>Boolean</td>
+<td>Cooling/fan fault detected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.misc.fpl_active</td>
+<td>Boolean</td>
+<td>Front Panel Lockout active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch01.misc.intrusion</td>
+<td>Boolean</td>
+<td>Chassis intrusion active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch02.chassis_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch04.interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Identify Interval in seconds</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch04.perm_on</td>
+<td>Boolean</td>
+<td>Turn on Identify indefinitely</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.bridge</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis Bridge Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.flags.fpl</td>
+<td>Boolean</td>
+<td>Provides Front Panel Lockout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.flags.intrusion</td>
+<td>Boolean</td>
+<td>Provides intrusion sensor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.fru_info</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis FRU Info Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.sdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis SDR Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis SEL Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch05.sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chassis System Management Device Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch06.rq_policy</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Restore Policy</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch06.rs_support.poweroff</td>
+<td>Boolean</td>
+<td>Staying powered off</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch06.rs_support.powerup</td>
+<td>Boolean</td>
+<td>Always powering up</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch06.rs_support.restore</td>
+<td>Boolean</td>
+<td>Restoring previous state</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch07.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Restart Cause</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch07.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch08.data</td>
+<td>None</td>
+<td>Boot option parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch08.selector</td>
+<td>Unsigned 8-bit integer</td>
+<td>Boot option parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch08.valid</td>
+<td>Boolean</td>
+<td>Validity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rq_block_select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rq_param_select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rq_set_select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rs_param_data</td>
+<td>Byte array</td>
+<td>Configuration parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rs_param_select</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rs_param_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch09.rs_valid</td>
+<td>Boolean</td>
+<td>Parameter Valid</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch0f.counter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Counter reading</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.ch0f.minpercnt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minutes per count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp00.sip</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set In Progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp01.alert_startup</td>
+<td>Boolean</td>
+<td>PEF Alert Startup Delay disable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp01.event_msg</td>
+<td>Boolean</td>
+<td>Enable Event Messages for PEF actions</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp01.pef</td>
+<td>Boolean</td>
+<td>Enable PEF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp01.startup</td>
+<td>Boolean</td>
+<td>PEF Startup Delay disable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.alert</td>
+<td>Boolean</td>
+<td>Enable Alert action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.diag_intr</td>
+<td>Boolean</td>
+<td>Enable Diagnostic Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.oem_action</td>
+<td>Boolean</td>
+<td>Enable OEM action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.pwr_cycle</td>
+<td>Boolean</td>
+<td>Enable Power Cycle action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.pwr_down</td>
+<td>Boolean</td>
+<td>Enable Power Down action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp02.reset</td>
+<td>Boolean</td>
+<td>Enable Reset action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp03.startup</td>
+<td>Unsigned 8-bit integer</td>
+<td>PEF Startup delay</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp04.alert_startup</td>
+<td>Unsigned 8-bit integer</td>
+<td>PEF Alert Startup delay</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp05.num_evfilters</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Event Filters</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp06.data</td>
+<td>Byte array</td>
+<td>Filter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp06.filter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter number (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp07.data</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter data (byte 1)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp07.filter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter number (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp08.policies</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Alert Policy Entries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp09.data</td>
+<td>Byte array</td>
+<td>Entry data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp09.entry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Entry number (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp10.guid</td>
+<td>GUID or UUID</td>
+<td>GUID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp10.useval</td>
+<td>Boolean</td>
+<td>Used to fill the GUID field in PET Trap</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp11.num_alertstr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Alert Strings</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp12.alert_stringsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert String Selector (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp12.alert_stringset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set number for string</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp12.byte1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert String Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp12.evfilter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp13.blocksel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp13.string</td>
+<td>String</td>
+<td>String data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp13.stringsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>String selector (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp14.num_gct</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Group Control Table entries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.delayed</td>
+<td>Boolean</td>
+<td>Immediate/Delayed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.force</td>
+<td>Boolean</td>
+<td>Request/Force</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.gctsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Group control table entry selector (set selector)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.group_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Group ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.member_check</td>
+<td>Boolean</td>
+<td>Member ID check disabled</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.operation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15.retries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Retries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.cp15_member_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Member ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.data.crc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data checksum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.byte3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Dir/Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data1.b2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data1.b3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data1.offs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.data3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.evdir</td>
+<td>Boolean</td>
+<td>Event Direction</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.evmrev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Message Revision</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.evtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.sensor_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor #</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.evt.sensor_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.broadcast</td>
+<td>Unsigned 8-bit integer</td>
+<td>Broadcast message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.completion</td>
+<td>Unsigned 8-bit integer</td>
+<td>Completion Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.crc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Checksum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.netfn</td>
+<td>Unsigned 8-bit integer</td>
+<td>NetFN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.sequence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.signature</td>
+<td>Byte array</td>
+<td>Signature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.source</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.src_lun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source LUN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.target</td>
+<td>Unsigned 8-bit integer</td>
+<td>Target Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.header.trg_lun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Target LUN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp0</td>
+<td>Boolean</td>
+<td>Component 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp1</td>
+<td>Boolean</td>
+<td>Component 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp2</td>
+<td>Boolean</td>
+<td>Component 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp3</td>
+<td>Boolean</td>
+<td>Component 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp4</td>
+<td>Boolean</td>
+<td>Component 4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp5</td>
+<td>Boolean</td>
+<td>Component 5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp6</td>
+<td>Boolean</td>
+<td>Component 6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.hpm1.comp7</td>
+<td>Boolean</td>
+<td>Component 7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan00.sip</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set In Progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan03.ip</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan04.ipsrc</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Address Source</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan05.mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan06.subnet</td>
+<td>IPv4 address</td>
+<td>Subnet Mask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan07.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan07.precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Precedence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan07.tos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of service</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan07.ttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time-to-live</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan08.rmcp_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Primary RMCP Port Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan09.rmcp_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Secondary RMCP Port Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan10.arp_interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Gratuitous ARP interval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan10.gratuitous</td>
+<td>Boolean</td>
+<td>Gratuitous ARPs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan10.responses</td>
+<td>Boolean</td>
+<td>ARP responses</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan12.def_gw_ip</td>
+<td>IPv4 address</td>
+<td>Default Gateway Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan13.def_gw_mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Default Gateway MAC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan14.bkp_gw_ip</td>
+<td>IPv4 address</td>
+<td>Backup Gateway Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan15.bkp_gw_mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Backup Gateway MAC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan16.comm_string</td>
+<td>String</td>
+<td>Community String</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan17.num_dst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Destinations</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan18.ack</td>
+<td>Boolean</td>
+<td>Alert Acknowledged</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan18.dst_selector</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan18.dst_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan18.retries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Retries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan18.tout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timeout/Retry Interval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.addr_format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Format</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.address</td>
+<td>Byte array</td>
+<td>Address (format unknown)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.dst_selector</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.gw_sel</td>
+<td>Boolean</td>
+<td>Gateway selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.ip</td>
+<td>IPv4 address</td>
+<td>Alerting IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan19.mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Alerting MAC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan20.vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>VLAN ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan20.vlan_id_enable</td>
+<td>Boolean</td>
+<td>VLAN ID Enable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan21.vlan_prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>VLAN Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan22.num_cs_entries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Cipher Suite Entries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan23.cs_entry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cipher Suite ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan24.priv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Privilege Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.addr_format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Format</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address (format unknown)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.cfi</td>
+<td>Boolean</td>
+<td>CFI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.dst_selector</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.uprio</td>
+<td>Unsigned 16-bit integer</td>
+<td>User priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lan25.vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>VLAN ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lanXX.md2</td>
+<td>Boolean</td>
+<td>MD2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lanXX.md5</td>
+<td>Boolean</td>
+<td>MD5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lanXX.none</td>
+<td>Boolean</td>
+<td>None</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lanXX.oem</td>
+<td>Boolean</td>
+<td>OEM Proprietary</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.lanXX.passwd</td>
+<td>Boolean</td>
+<td>Straight password/key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.led.color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.led.function</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Function</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.led.on_duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>On-duration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.chan</td>
+<td>Unsigned 32-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.grpid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Grouping ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.iface</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.ports</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ports</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.linkinfo.type_ext</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type extension</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.message</td>
+<td>Byte array</td>
+<td>Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.msg.ccode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Completion Code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.confhdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Confidentiality Header</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.csum1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Checksum 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.csum2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Checksum 2</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.nlfield</td>
+<td>Unsigned 8-bit integer</td>
+<td>NetFn/LUN</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.nlfield.netfn</td>
+<td>Unsigned 8-bit integer</td>
+<td>NetFn</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.nlfield.rqlun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request LUN</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.rqaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request Address</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.rsaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response Address</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.slfield</td>
+<td>Unsigned 8-bit integer</td>
+<td>Seq/LUN</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.slfield.rslun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response LUN</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.msg.slfield.seq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.picmg00.ipmc_fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID for IPMC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg00.max_fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max FRU Device ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg00.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Extension Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rq_addr_key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rq_addr_key_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Key Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rq_fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rq_site_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_hwaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hardware Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_ipmbaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMB-0 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_rsrv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (shall be 0xFF)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_site_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg01.rs_site_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg04.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg04.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.app_leds</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application-specific LED Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.blue_led</td>
+<td>Boolean</td>
+<td>BLUE LED</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.led1</td>
+<td>Boolean</td>
+<td>LED 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.led2</td>
+<td>Boolean</td>
+<td>LED 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg05.led3</td>
+<td>Boolean</td>
+<td>LED 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_amber</td>
+<td>Boolean</td>
+<td>Amber</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_blue</td>
+<td>Boolean</td>
+<td>Blue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_green</td>
+<td>Boolean</td>
+<td>Green</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_orange</td>
+<td>Boolean</td>
+<td>Orange</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_red</td>
+<td>Boolean</td>
+<td>Red</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.cap_white</td>
+<td>Boolean</td>
+<td>White</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.def_local</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default LED Color in Local Control state</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.def_override</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default LED Color in Override state</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg06.ledid</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg07.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg07.ledid</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.lamptest_duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lamp test duration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.ledid</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.state_lamptest</td>
+<td>Boolean</td>
+<td>Lamp Test</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.state_local</td>
+<td>Boolean</td>
+<td>Local Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg08.state_override</td>
+<td>Boolean</td>
+<td>Override</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg09.ipmba</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMB-A State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg09.ipmbb</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMB-B State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0a.deactivation</td>
+<td>Boolean</td>
+<td>Deactivation-Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0a.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0a.locked</td>
+<td>Boolean</td>
+<td>Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0a.msk_deactivation</td>
+<td>Boolean</td>
+<td>Deactivation-Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0a.msk_locked</td>
+<td>Boolean</td>
+<td>Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0b.deactivation</td>
+<td>Boolean</td>
+<td>Deactivation-Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0b.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0b.locked</td>
+<td>Boolean</td>
+<td>Locked bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0c.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0c.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0d.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0d.recordid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0d.start</td>
+<td>Unsigned 16-bit integer</td>
+<td>Search after record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg0e.state</td>
+<td>Unsigned 8-bit integer</td>
+<td>State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg10.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg10.ipmc_loc</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMC Location</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg10.nslots</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of spanned slots</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg11.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg11.power_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg11.set_to_desired</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Present Levels to Desired</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delay to stable power</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.dynamic</td>
+<td>Boolean</td>
+<td>Dynamic Power Configuration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.pwd_lvl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.pwr_draw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power draw</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.pwr_mult</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power multiplier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg12.pwr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg13.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg14.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg14.local_control</td>
+<td>Boolean</td>
+<td>Local Control Mode Supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg14.speed_max</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Speed Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg14.speed_min</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum Speed Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg14.speed_norm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Normal Operating Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg15.fan_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg15.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg15.local_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control Enable State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg16.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg16.local_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control Enable State</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg16.local_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Control Fan Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg16.override_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Override Fan Level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg17.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg17.resid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bused Resource ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg17.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg18.li_key</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Info Key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg18.li_key_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Info Key Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg18.link_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg18.sensor_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1b.addr_active</td>
+<td>Unsigned 8-bit integer</td>
+<td>Active Shelf Manager IPMB Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1b.addr_backup</td>
+<td>Unsigned 8-bit integer</td>
+<td>Backup Shelf Manager IPMB Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1c.fan_enable_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Enable state</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1c.fan_policy_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Policy Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1c.fan_site_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Tray Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1c.site_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1c.site_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1d.coverage</td>
+<td>Unsigned 8-bit integer</td>
+<td>Coverage</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1d.fan_enable_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Policy</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1d.fan_site_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Tray Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1d.site_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1d.site_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1e.cap_diagintr</td>
+<td>Boolean</td>
+<td>Diagnostic interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1e.cap_reboot</td>
+<td>Boolean</td>
+<td>Graceful reboot</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1e.cap_warmreset</td>
+<td>Boolean</td>
+<td>Warm Reset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1e.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1f.rq_fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1f.rq_lockid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Lock ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1f.rq_op</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1f.rs_lockid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Lock ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg1f.rs_tstamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last Commit Timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg20.count</td>
+<td>Byte array</td>
+<td>Count written</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg20.data</td>
+<td>Byte array</td>
+<td>Data to write</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg20.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg20.lockid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Lock ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg20.offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Offset to write</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.addr_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.addr_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.addr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.ip_addr</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.is_shm</td>
+<td>Boolean</td>
+<td>Shelf Manager IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.max_unavail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Unavailable Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.rmcp_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>RMCP Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.site_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.site_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Site Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg21.tstamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Shelf IP Address Last Change Timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg22.feed_idx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Feed Index</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg22.pwr_alloc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Power Feed Allocation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg22.update_cnt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Update Counter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.auto_rollback</td>
+<td>Boolean</td>
+<td>Automatic Rollback supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.auto_rollback_override</td>
+<td>Boolean</td>
+<td>Automatic Rollback Overridden</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.deferred_activate</td>
+<td>Boolean</td>
+<td>Deferred Activation supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.hpm1_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>HPM.1 version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.inaccessibility_tout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Inaccessibility timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.ipmc_degraded</td>
+<td>Boolean</td>
+<td>IPMC degraded during upgrade</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.manual_rollback</td>
+<td>Boolean</td>
+<td>Manual Rollback supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.rollback_tout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rollback timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.self_test</td>
+<td>Boolean</td>
+<td>Self-Test supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.selftest_tout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self-test timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.services_affected</td>
+<td>Boolean</td>
+<td>Services affected by upgrade</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.upgrade_tout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Upgrade timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2e.upgrade_undesirable</td>
+<td>Boolean</td>
+<td>Firmware Upgrade Undesirable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2f.comp_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Component ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2f.comp_prop</td>
+<td>Unsigned 8-bit integer</td>
+<td>Component property selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg2f.prop_data</td>
+<td>Byte array</td>
+<td>Unknown property data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg31.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Upgrade action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg32.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg32.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg32.sec_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Section Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg32.sec_offs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Section Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg33.comp_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Component ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg33.img_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Image Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg34.ccode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Last command completion code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg34.cmd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command in progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg34.percent</td>
+<td>Unsigned 8-bit integer</td>
+<td>Completion estimate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg35.rollback_override</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rollback Override Policy</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self-test error bitfield</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.bb_fw</td>
+<td>Boolean</td>
+<td>Controller update boot block firmware corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.bmc_fru</td>
+<td>Boolean</td>
+<td>Cannot access BMC FRU device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.ipmb_sig</td>
+<td>Boolean</td>
+<td>IPMB signal lines do not respond</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.iua</td>
+<td>Boolean</td>
+<td>Internal Use Area of BMC FRU corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.oper_fw</td>
+<td>Boolean</td>
+<td>Controller operational firmware corrupted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.sdr</td>
+<td>Boolean</td>
+<td>Cannot access SDR Repository</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.sdr_empty</td>
+<td>Boolean</td>
+<td>SDR Repository is empty</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.fail.sel</td>
+<td>Boolean</td>
+<td>Cannot access SEL device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg36.self_test_result</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self test result</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.picmg37.percent</td>
+<td>Unsigned 8-bit integer</td>
+<td>Estimated percentage complete</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop00.cold_reset</td>
+<td>Boolean</td>
+<td>Payload cold reset required</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop00.deferred_activation</td>
+<td>Boolean</td>
+<td>Deferred firmware activation supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop00.firmware_comparison</td>
+<td>Boolean</td>
+<td>Firmware comparison supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop00.preparation</td>
+<td>Boolean</td>
+<td>Prepare Components action required</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop00.rollback</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rollback/Backup support</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop01.fw_aux</td>
+<td>Byte array</td>
+<td>Auxiliary Firmware Revision Information</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop01.fw_major</td>
+<td>Unsigned 8-bit integer</td>
+<td>Major Firmware Revision (binary encoded)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop01.fw_minor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Firmware Revision (BCD encoded)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.prop02.desc</td>
+<td>String</td>
+<td>Description string</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.response_in</td>
+<td>Frame number</td>
+<td>Response in</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.response_time</td>
+<td>Time duration</td>
+<td>Responded in</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.response_to</td>
+<td>Frame number</td>
+<td>Response to</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se00.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Receiver slave address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se00.lun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Receiver LUN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se01.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Receiver slave address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se01.lun</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Receiver LUN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.alert</td>
+<td>Boolean</td>
+<td>Alert</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.diag_intr</td>
+<td>Boolean</td>
+<td>Diagnostic Interrupt</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.oem_action</td>
+<td>Boolean</td>
+<td>OEM Action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.oem_filter</td>
+<td>Boolean</td>
+<td>OEM Event Record Filtering supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.pwr_cycle</td>
+<td>Boolean</td>
+<td>Power Cycle</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.pwr_down</td>
+<td>Boolean</td>
+<td>Power Down</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.action.reset</td>
+<td>Boolean</td>
+<td>Reset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.entries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of event filter table entries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se10.pef_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>PEF Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se11.rq_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timeout value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se11.rs_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timeout value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se12.byte1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se12.data</td>
+<td>None</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se12.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.byte1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.data</td>
+<td>Byte array</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.getrev</td>
+<td>Boolean</td>
+<td>Get Parameter Revision only</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.rev.compat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Oldest forward-compatible</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.rev.present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se13.set</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se14.processed_by</td>
+<td>Boolean</td>
+<td>Set Record ID for last record processed by</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se14.rid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se15.lastrec</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID for last record in SEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se15.proc_bmc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Last BMC Processed Event Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se15.proc_sw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Last SW Processed Event Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se15.tstamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent addition timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.dst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.gen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Generator ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.op</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.send_string</td>
+<td>Boolean</td>
+<td>Send Alert String</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert Immediate Status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se16.string_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>String selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.evdata1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.evdata2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.evdata3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Data 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.evsrc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Source Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.sensor_dev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.sensor_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.seq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se17.tstamp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local Timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rq_op</td>
+<td>Boolean</td>
+<td>Operation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_change</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sensor Population Change Indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_lun0</td>
+<td>Boolean</td>
+<td>LUN0 has sensors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_lun1</td>
+<td>Boolean</td>
+<td>LUN1 has sensors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_lun2</td>
+<td>Boolean</td>
+<td>LUN2 has sensors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_lun3</td>
+<td>Boolean</td>
+<td>LUN3 has sensors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of sensors in device for LUN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_population</td>
+<td>Boolean</td>
+<td>Sensor population</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se20.rs_sdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Total Number of SDRs in the device</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bytes to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.next</td>
+<td>Unsigned 16-bit integer</td>
+<td>Next record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.recdata</td>
+<td>Byte array</td>
+<td>Record data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.record</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se21.rid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se22.resid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se23.rq_reading</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reading</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se23.rq_sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se23.rs_next_reading</td>
+<td>Unsigned 8-bit integer</td>
+<td>Next reading</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se24.hyst_neg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Negative-going hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se24.hyst_pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Positive-going hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se24.mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved for future 'hysteresis mask'</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se24.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se25.hyst_neg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Negative-going hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se25.hyst_pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Positive-going hysteresis</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se25.mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved for future 'hysteresis mask'</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se25.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se27.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se28.fl_action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se28.fl_evm</td>
+<td>Boolean</td>
+<td>Event Messages</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se28.fl_scan</td>
+<td>Boolean</td>
+<td>Scanning</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se28.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se29.fl_evm</td>
+<td>Boolean</td>
+<td>Event Messages</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se29.fl_scan</td>
+<td>Boolean</td>
+<td>Scanning</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se29.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2a.fl_sel</td>
+<td>Boolean</td>
+<td>Re-arm Events</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2a.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2b.fl_evm</td>
+<td>Boolean</td>
+<td>Event Messages</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2b.fl_scan</td>
+<td>Boolean</td>
+<td>Sensor scanning</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2b.fl_unavail</td>
+<td>Boolean</td>
+<td>Reading/status unavailable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2b.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_0</td>
+<td>Boolean</td>
+<td>At or below LNC threshold / State 0 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_1</td>
+<td>Boolean</td>
+<td>At or below LC threshold / State 1 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_2</td>
+<td>Boolean</td>
+<td>At or below LNR threshold / State 2 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_3</td>
+<td>Boolean</td>
+<td>At or above UNC threshold / State 3 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_4</td>
+<td>Boolean</td>
+<td>At or above UC threshold / State 4 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_5</td>
+<td>Boolean</td>
+<td>At or above UNR threshold / State 5 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_6</td>
+<td>Boolean</td>
+<td>Reserved / State 6 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.b1_7</td>
+<td>Boolean</td>
+<td>Reserved / State 7 asserted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.reading</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Reading</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2d.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2e.evtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event/Reading type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2e.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2e.stype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2f.evtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event/Reading type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2f.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.se2f.stype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial03.basic</td>
+<td>Boolean</td>
+<td>Basic Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial03.connmode</td>
+<td>Boolean</td>
+<td>Connection Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial03.ppp</td>
+<td>Boolean</td>
+<td>PPP Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial03.terminal</td>
+<td>Boolean</td>
+<td>Terminal Mode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial04.timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session Inactivity Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_dest1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_dest2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_dest3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_list</td>
+<td>Boolean</td>
+<td>Callback to list of possible numbers</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_prespec</td>
+<td>Boolean</td>
+<td>Callback to pre-specified number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cb_user</td>
+<td>Boolean</td>
+<td>Callback to user-specifiable number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.cbcp</td>
+<td>Boolean</td>
+<td>CBCP Callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.ipmi</td>
+<td>Boolean</td>
+<td>IPMI Callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial05.no_cb</td>
+<td>Boolean</td>
+<td>No callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial06.dcd</td>
+<td>Boolean</td>
+<td>Close on DCD Loss</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial06.inactivity</td>
+<td>Boolean</td>
+<td>Session Inactivity Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial07.bitrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial07.dtrhangup</td>
+<td>Boolean</td>
+<td>DTR Hang-up</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial07.flowctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flow Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.esc_powerup</td>
+<td>Boolean</td>
+<td>Power-up/wakeup via ESC-^</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.esc_reset</td>
+<td>Boolean</td>
+<td>Hard reset via ESC-R-ESC-r-ESC-R</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.esc_switch1</td>
+<td>Boolean</td>
+<td>BMC-to-Baseboard switch via ESC-Q</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.esc_switch2</td>
+<td>Boolean</td>
+<td>Baseboard-to-BMC switch via ESC-(</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.ping_callback</td>
+<td>Boolean</td>
+<td>Serial/Modem Connection Active during callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.ping_direct</td>
+<td>Boolean</td>
+<td>Serial/Modem Connection Active during direct call</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.ping_retry</td>
+<td>Boolean</td>
+<td>Retry Serial/Modem Connection Active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.sharing</td>
+<td>Boolean</td>
+<td>Serial Port Sharing</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.switch_authcap</td>
+<td>Boolean</td>
+<td>Baseboard-to-BMC switch on Get Channel Auth Capabilities</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.switch_dcdloss</td>
+<td>Boolean</td>
+<td>Switch to BMC on DCD loss</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial08.switch_rmcp</td>
+<td>Boolean</td>
+<td>Switch to BMC on IPMI-RMCP pattern</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial09.ring_dead</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ring Dead Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial09.ring_duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ring Duration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial10.init_str</td>
+<td>String</td>
+<td>Modem Init String</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial10.set_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set selector (16-byte block #)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial11.esc_seq</td>
+<td>String</td>
+<td>Modem Escape Sequence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial12.hangup_seq</td>
+<td>String</td>
+<td>Modem Hang-up Sequence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial13.dial_cmd</td>
+<td>String</td>
+<td>Modem Dial Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial14.page_blackout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Blackout Interval (minutes)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial15.comm_string</td>
+<td>String</td>
+<td>Community String</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial16.ndest</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of non-volatile Alert Destinations</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.ack</td>
+<td>Boolean</td>
+<td>Alert Acknowledge</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.ack_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert Acknowledge Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.alert_ack_timeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert Acknowledge Timeout</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.alert_retries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alert retries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.call_retries</td>
+<td>Unsigned 8-bit integer</td>
+<td>Call retries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.dest_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.dest_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.dialstr_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dial String Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.ipaddr_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination IP Address Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.ppp_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Set Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.tap_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial17.unknown</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination-specific (format unknown)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial18.call_retry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Call Retry Interval</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.bitrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit rate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.charsize</td>
+<td>Boolean</td>
+<td>Character size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.destsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.dtrhangup</td>
+<td>Boolean</td>
+<td>DTR Hang-up</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.flowctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flow Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.parity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial19.stopbits</td>
+<td>Boolean</td>
+<td>Stop bits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial20.num_dial_strings</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Dial Strings</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial21.blockno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial21.dialsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dial String Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial21.dialstr</td>
+<td>String</td>
+<td>Dial string</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial22.num_ipaddrs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Alert Destination IP Addresses</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial23.destsel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination IP Address selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial23.ipaddr</td>
+<td>IPv4 address</td>
+<td>Destination IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial24.num_tap_accounts</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of TAP Accounts</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial25.dialstr_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dial String Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial25.tap_acct</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial25.tapsrv_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Service Settings Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial26.tap_acct</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial26.tap_passwd</td>
+<td>String</td>
+<td>TAP Password</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial27.tap_acct</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial27.tap_pager_id</td>
+<td>String</td>
+<td>TAP Pager ID String</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.confirm</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Confirmation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.ctrl_esc</td>
+<td>Unsigned 32-bit integer</td>
+<td>TAP Control-character escaping mask</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.ipmi_n4</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI N4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.ipmi_t6</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI T6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.srvtype</td>
+<td>String</td>
+<td>TAP 'SST' Service Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_n1</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP N1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_n2</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP N2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_n3</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP N3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_t1</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP T1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_t2</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP T2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_t3</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP T3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_t4</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP T4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tap_t5</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP T5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial28.tapsrv_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>TAP Service Settings Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.deletectl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delete control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.echo</td>
+<td>Boolean</td>
+<td>Echo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.handshake</td>
+<td>Boolean</td>
+<td>Handshake</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.i_newline</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input newline sequence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.lineedit</td>
+<td>Boolean</td>
+<td>Line Editing</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.o_newline</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output newline sequence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial29.op</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Operation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.accm</td>
+<td>Boolean</td>
+<td>ACCM Negotiation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.addr_comp</td>
+<td>Boolean</td>
+<td>Address and Ctl Field Compression</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.filter</td>
+<td>Boolean</td>
+<td>Filtering incoming chars</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.ipaddr</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Address negotiation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.negot_ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>BMC negotiates link parameters</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.proto_comp</td>
+<td>Boolean</td>
+<td>Protocol Field Compression</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.snoopctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Snoop ACCM Control</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.snooping</td>
+<td>Boolean</td>
+<td>System Negotiation Snooping</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.xmit_addr_comp</td>
+<td>Boolean</td>
+<td>Transmit with Address and Ctl Field Compression</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial30.xmit_proto_comp</td>
+<td>Boolean</td>
+<td>Transmit with Protocol Field Compression</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial31.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Primary RMCP Port Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial32.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Secondary RMCP Port Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial33.auth_proto</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Link Authentication Protocol</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial34.chap_name</td>
+<td>String</td>
+<td>CHAP Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial35.recv_accm</td>
+<td>Unsigned 32-bit integer</td>
+<td>Receive ACCM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial35.xmit_accm</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmit ACCM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial36.snoop_accm</td>
+<td>Unsigned 32-bit integer</td>
+<td>Snoop Receive ACCM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial37.num_ppp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of PPP Accounts</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial38.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial38.dialstr_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dial String Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial39.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial39.ipaddr</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial40.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial40.username</td>
+<td>String</td>
+<td>User Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial41.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial41.userdomain</td>
+<td>String</td>
+<td>User Domain</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial42.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial42.userpass</td>
+<td>String</td>
+<td>User Password</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial43.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial43.auth_proto</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Auth Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial44.acct_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>PPP Account Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial44.hold_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connection Hold Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial45.dst_ipaddr</td>
+<td>IPv4 address</td>
+<td>Destination IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial45.src_ipaddr</td>
+<td>IPv4 address</td>
+<td>Source IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial46.tx_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmit Buffer Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial47.rx_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Receive Buffer Size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial48.ipaddr</td>
+<td>IPv4 address</td>
+<td>Remote Console IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial49.blockno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial49.dialstr</td>
+<td>String</td>
+<td>Dial string</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial50.115200</td>
+<td>Boolean</td>
+<td>115200</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial50.19200</td>
+<td>Boolean</td>
+<td>19200</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial50.38400</td>
+<td>Boolean</td>
+<td>38400</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial50.57600</td>
+<td>Boolean</td>
+<td>57600</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial50.9600</td>
+<td>Boolean</td>
+<td>9600</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.chan_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Serial controller channel number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.conn_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connector number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.ipmi_channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.ipmi_sharing</td>
+<td>Boolean</td>
+<td>Used with IPMI Serial Port Sharing</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.ipmi_sol</td>
+<td>Boolean</td>
+<td>Used with IPMI Serial-over-LAN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial51.port_assoc_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Serial Port Association Entry</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial52.port_assoc_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Serial Port Association Entry</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial52_chan_name</td>
+<td>Byte array</td>
+<td>Channel Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial52_conn_name</td>
+<td>Byte array</td>
+<td>Connector Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.serial53.port_assoc_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Serial Port Association Entry</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.session.authcode</td>
+<td>Byte array</td>
+<td>Authentication Code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.authtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.oem.iana</td>
+<td>Byte array</td>
+<td>OEM IANA</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.oem.payloadid</td>
+<td>Byte array</td>
+<td>OEM Payload ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.payloadtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Payload Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.payloadtype.auth</td>
+<td>Boolean</td>
+<td>Authenticated</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.payloadtype.enc</td>
+<td>Boolean</td>
+<td>Encryption</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session.sequence</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Sequence Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ipmi.session_handle</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session handle</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_0</td>
+<td>Boolean</td>
+<td>Assertion for LNC (going low) / state bit 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_1</td>
+<td>Boolean</td>
+<td>Assertion for LNC (going high) / state bit 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_10</td>
+<td>Boolean</td>
+<td>Assertion for UNR (going low) / state bit 10</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_11</td>
+<td>Boolean</td>
+<td>Assertion for UNR (going high) / state bit 11</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_12</td>
+<td>Boolean</td>
+<td>Reserved / Assertion for state bit 12</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_13</td>
+<td>Boolean</td>
+<td>Reserved / Assertion for state bit 13</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_14</td>
+<td>Boolean</td>
+<td>Reserved / Assertion for state bit 14</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_2</td>
+<td>Boolean</td>
+<td>Assertion for LC (going low) / state bit 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_3</td>
+<td>Boolean</td>
+<td>Assertion for LC (going high) / state bit 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_4</td>
+<td>Boolean</td>
+<td>Assertion for LNR (going low) / state bit 4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_5</td>
+<td>Boolean</td>
+<td>Assertion for LNR (going high) / state bit 5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_6</td>
+<td>Boolean</td>
+<td>Assertion for UNC (going low) / state bit 6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_7</td>
+<td>Boolean</td>
+<td>Assertion for UNC (going high) / state bit 7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_8</td>
+<td>Boolean</td>
+<td>Assertion for UC (going low) / state bit 8</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.a_9</td>
+<td>Boolean</td>
+<td>Assertion for UC (going high) / state bit 9</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_0</td>
+<td>Boolean</td>
+<td>Deassertion for LNC (going low) / state bit 0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_1</td>
+<td>Boolean</td>
+<td>Deassertion for LNC (going high) / state bit 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_10</td>
+<td>Boolean</td>
+<td>Deassertion for UNR (going low) / state bit 10</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_11</td>
+<td>Boolean</td>
+<td>Deassertion for UNR (going high) / state bit 11</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_12</td>
+<td>Boolean</td>
+<td>Reserved / Deassertion for state bit 12</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_13</td>
+<td>Boolean</td>
+<td>Reserved / Deassertion for state bit 13</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_14</td>
+<td>Boolean</td>
+<td>Reserved / Deassertion for state bit 14</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_2</td>
+<td>Boolean</td>
+<td>Deassertion for LC (going low) / state bit 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_3</td>
+<td>Boolean</td>
+<td>Deassertion for LC (going high) / state bit 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_4</td>
+<td>Boolean</td>
+<td>Deassertion for LNR (going low) / state bit 4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_5</td>
+<td>Boolean</td>
+<td>Deassertion for LNR (going high) / state bit 5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_6</td>
+<td>Boolean</td>
+<td>Deassertion for UNC (going low) / state bit 6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_7</td>
+<td>Boolean</td>
+<td>Deassertion for UNC (going high) / state bit 7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_8</td>
+<td>Boolean</td>
+<td>Deassertion for UC (going low) / state bit 8</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.d_9</td>
+<td>Boolean</td>
+<td>Deassertion for UC (going high) / state bit 9</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.lc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lower Critical Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.lnc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lower Non-Critical Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.lnr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Lower Non-Recoverable Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.lc</td>
+<td>Boolean</td>
+<td>Lower Critical</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.lnc</td>
+<td>Boolean</td>
+<td>Lower Non-Critical</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.lnr</td>
+<td>Boolean</td>
+<td>Lower Non-Recoverable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.uc</td>
+<td>Boolean</td>
+<td>Upper Critical</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.unc</td>
+<td>Boolean</td>
+<td>Upper Non-Critical</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.mask.unr</td>
+<td>Boolean</td>
+<td>Upper Non-Recoverable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.sensor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.uc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Upper Critical Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.unc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Upper Non-Critical Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.seXX.unr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Upper Non-Recoverable Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st10.access</td>
+<td>Boolean</td>
+<td>Device is accessed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st10.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st10.size</td>
+<td>Unsigned 16-bit integer</td>
+<td>FRU Inventory area size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st11.count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Count to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st11.data</td>
+<td>Byte array</td>
+<td>Requested data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st11.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st11.offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Offset to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st11.ret_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Returned count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st12.data</td>
+<td>Byte array</td>
+<td>Requested data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st12.fruid</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st12.offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Offset to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st12.ret_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Returned count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.free_space</td>
+<td>Unsigned 16-bit integer</td>
+<td>Free Space</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_allocinfo</td>
+<td>Boolean</td>
+<td>Get SDR Repository Allocation Info</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_delete</td>
+<td>Boolean</td>
+<td>Delete SDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_overflow</td>
+<td>Boolean</td>
+<td>Overflow</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_partial_add</td>
+<td>Boolean</td>
+<td>Partial Add SDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_reserve</td>
+<td>Boolean</td>
+<td>Reserve SDR Repository</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.op_update</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDR Repository Update</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.rec_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record Count</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.sdr_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDR Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.ts_add</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent addition timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st20.ts_erase</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent erase timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st21.free</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of free units</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st21.largest</td>
+<td>Unsigned 16-bit integer</td>
+<td>Largest free block (in units)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st21.maxrec</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum record size (in units)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st21.size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Allocation unit size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st21.units</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of allocation units</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st22.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.added_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID for added record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bytes to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.data</td>
+<td>Byte array</td>
+<td>Record Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.next</td>
+<td>Unsigned 16-bit integer</td>
+<td>Next Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st23.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st24.data</td>
+<td>Byte array</td>
+<td>SDR Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.added_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID for added record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.data</td>
+<td>Byte array</td>
+<td>SDR Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.inprogress</td>
+<td>Unsigned 8-bit integer</td>
+<td>In progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st25.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st26.del_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Deleted Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st26.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st26.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st27.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st27.clr</td>
+<td>String</td>
+<td>Confirmation (should be CLR)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st27.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st27.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erasure Status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st28.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st29.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st2c.init_agent</td>
+<td>Boolean</td>
+<td>Initialization agent</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st2c.init_state</td>
+<td>Boolean</td>
+<td>Initialization</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.free_space</td>
+<td>Unsigned 16-bit integer</td>
+<td>Free Space</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.op_allocinfo</td>
+<td>Boolean</td>
+<td>Get SEL Allocation Info</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.op_delete</td>
+<td>Boolean</td>
+<td>Delete SEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.op_overflow</td>
+<td>Boolean</td>
+<td>Overflow</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.op_partial_add</td>
+<td>Boolean</td>
+<td>Partial Add SEL Entry</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.op_reserve</td>
+<td>Boolean</td>
+<td>Reserve SEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.rec_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Entries</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.sel_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>SEL Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.ts_add</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent addition timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st40.ts_erase</td>
+<td>Unsigned 32-bit integer</td>
+<td>Most recent erase timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st41.free</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of free units</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st41.largest</td>
+<td>Unsigned 16-bit integer</td>
+<td>Largest free block (in units)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st41.maxrec</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum record size (in units)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st41.size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Allocation unit size</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st41.units</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of allocation units</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st42.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.added_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID for added record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bytes to read</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.data</td>
+<td>Byte array</td>
+<td>Record Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.next</td>
+<td>Unsigned 16-bit integer</td>
+<td>Next Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st43.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st44.data</td>
+<td>Byte array</td>
+<td>SDR Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.added_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID for added record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.data</td>
+<td>Byte array</td>
+<td>Record Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.inprogress</td>
+<td>Unsigned 8-bit integer</td>
+<td>In progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset into record</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st45.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st46.del_rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Deleted Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st46.rec_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Record ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st46.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st47.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>Action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st47.clr</td>
+<td>String</td>
+<td>Confirmation (should be CLR)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st47.rsrv_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st47.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erasure Status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st48.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st49.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.bytes</td>
+<td>Byte array</td>
+<td>Log status bytes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.iana</td>
+<td>Unsigned 24-bit integer</td>
+<td>OEM IANA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.log_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Log type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.num_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of entries in MCA Log</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.ts_add</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last addition timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5a.unknown</td>
+<td>Byte array</td>
+<td>Unknown log format (cannot parse data)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.bytes</td>
+<td>Byte array</td>
+<td>Log status bytes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.iana</td>
+<td>Unsigned 24-bit integer</td>
+<td>OEM IANA</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.log_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Log type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.num_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of entries in MCA Log</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.ts_add</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last addition timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.st5b.unknown</td>
+<td>Byte array</td>
+<td>Unknown log format (cannot parse data)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr01.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr01.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr01.param_data</td>
+<td>Byte array</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.getrev</td>
+<td>Boolean</td>
+<td>Get parameter revision only</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.param_data</td>
+<td>Byte array</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.rev.compat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Oldest forward-compatible</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.rev.present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Present parameter revision</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr02.set</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr03.arp_resp</td>
+<td>Boolean</td>
+<td>BMC-generated ARP responses</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr03.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr03.gratuitous_arp</td>
+<td>Boolean</td>
+<td>Gratuitous ARPs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr03.status_arp_resp</td>
+<td>Boolean</td>
+<td>ARP Response status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr03.status_gratuitous_arp</td>
+<td>Boolean</td>
+<td>Gratuitous ARP status</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.clear</td>
+<td>Boolean</td>
+<td>Statistics</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.dr_udpproxy</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dropped UDP Proxy Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_ipaddr_err</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received IP Address Errors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_iphdr_err</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received IP Header Errors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_ippkts</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received IP Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_ippkts_frag</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received Fragmented IP Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_udppkts</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received UDP Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_udpproxy</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received UDP Proxy Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.rx_validrmcp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Received Valid RMCP Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr04.tx_ippkts</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transmitted IP Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr10.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr10.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr10.param_data</td>
+<td>Byte array</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.getrev</td>
+<td>Boolean</td>
+<td>Get parameter revision only</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.param</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.param_data</td>
+<td>Byte array</td>
+<td>Parameter data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.rev.compat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Oldest forward-compatible</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.rev.present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Present parameter revision</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr11.set</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.alert</td>
+<td>Boolean</td>
+<td>Alert in progress</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.msg</td>
+<td>Boolean</td>
+<td>IPMI/OEM messaging active</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.mux_setting</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mux Setting</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.mux_state</td>
+<td>Boolean</td>
+<td>Mux set to</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.req</td>
+<td>Boolean</td>
+<td>Request</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.sw_to_bmc</td>
+<td>Boolean</td>
+<td>Requests to switch to BMC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr12.sw_to_sys</td>
+<td>Boolean</td>
+<td>Requests to switch to system</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.code1</td>
+<td>String</td>
+<td>Last code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.code2</td>
+<td>String</td>
+<td>2nd code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.code3</td>
+<td>String</td>
+<td>3rd code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.code4</td>
+<td>String</td>
+<td>4th code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr13.code5</td>
+<td>String</td>
+<td>5th code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr14.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr14.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr14.data</td>
+<td>Byte array</td>
+<td>Block data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr15.block</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr15.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr15.data</td>
+<td>Byte array</td>
+<td>Block data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.bytes</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bytes to send</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.dst_addr</td>
+<td>IPv4 address</td>
+<td>Destination IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.dst_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.src_addr</td>
+<td>IPv4 address</td>
+<td>Source IP Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr16.src_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr17.block_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr17.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr17.clear</td>
+<td>Boolean</td>
+<td>Clear buffer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr17.data</td>
+<td>Byte array</td>
+<td>Block Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr17.size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of received bytes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr18.ipmi_ver</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPMI Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr18.state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session state</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr19.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr19.dest_sel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination selector</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr1a.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr1a.user</td>
+<td>Unsigned 8-bit integer</td>
+<td>User ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr1b.chan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.tr1b.user</td>
+<td>Unsigned 8-bit integer</td>
+<td>User ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cap_cbcp</td>
+<td>Boolean</td>
+<td>CBCP callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cap_ipmi</td>
+<td>Boolean</td>
+<td>IPMI callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cbcp_from_list</td>
+<td>Boolean</td>
+<td>Callback to one from list of numbers</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cbcp_nocb</td>
+<td>Boolean</td>
+<td>No callback</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cbcp_prespec</td>
+<td>Boolean</td>
+<td>Callback to pre-specified number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.cbcp_user</td>
+<td>Boolean</td>
+<td>Callback to user-specified number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.dst1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.dst2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ipmi.trXX.dst3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Callback destination 3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_discrete_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset from Event/Reading Code for threshold event</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_discrete_54</td>
+<td>Unsigned 8-bit integer</td>
+<td>[5,4] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_discrete_76</td>
+<td>Unsigned 8-bit integer</td>
+<td>[7,6] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_OEM_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset from Event/Reading Type Code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_OEM_54</td>
+<td>Unsigned 8-bit integer</td>
+<td>[5,4] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_OEM_76</td>
+<td>Unsigned 8-bit integer</td>
+<td>[7,6] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_threshold_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset from Event/Reading Code for threshold event</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_threshold_54</td>
+<td>Unsigned 8-bit integer</td>
+<td>[5,4] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData1_threshold_76</td>
+<td>Unsigned 8-bit integer</td>
+<td>[7,6] </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData2_discrete_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional offset from Event/Reading Type Code for previous discrete event state (0x0f if unspecified)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData2_discrete_74</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional offset from 'Severity' Event/Reading Code(0x0f if unspecified)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData2_OEM_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional OEM code or offset from Event/Reading Type Code for previous event state(0x0f if unspecified)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData2_OEM_74</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional OEM code bits or offset from 'Severity' Event/Reading Type Code(0x0f if unspecified)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData2_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>reading that triggered event</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData3_discrete</td>
+<td>Unsigned 8-bit integer</td>
+<td>Optional OEM code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventData3_threshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>threshold value that triggered event</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventDirAndEventType.EventDir</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Direction</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EventType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.EvMRev</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Message Revision</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.HotSwapEvent_CurrentState</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current State</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.HotSwapEvent_EventData2_74</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause of State Change</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.HotSwapEvent_FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.HotSwapEvent_HotSwapEvent_PreviousState</td>
+<td>Unsigned 8-bit integer</td>
+<td>Previous State</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor #</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>PEM.datafield.SensorType</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ReserveDeviceSDRRepository.datafield.ReservationID</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reservation ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFanLevel.datafield.FanLevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fan Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFanLevel.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFanLevel.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivation.datafield.FRUActivationDeactivation</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Activation/Deactivation</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivation.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivation.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicyMaskBit.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 0</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicyMaskBit.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 1</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicyMaskBit.Bit72</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...2 Reserverd</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicySetBit.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set or Clear Locked</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicySetBit.Bit0_ignored</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set or Clear Locked</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicySetBit.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set or Clear Deactivation-Locked</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicySetBit.Bit1_ignored</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set or Clear Deactivation-Locked</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUActivationPolicySetBit.Bit72</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...2 Reserverd</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRUActivationPolicy.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.Color.ColorVal</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.Color.Reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...4 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.LEDFunction</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED Function</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.LEDID</td>
+<td>Unsigned 8-bit integer</td>
+<td>LED ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.Offduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Off-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.Onduration</td>
+<td>Unsigned 8-bit integer</td>
+<td>On-duration</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetFRULedState.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetPowerLevel.datafield.FRUDeviceID</td>
+<td>Unsigned 8-bit integer</td>
+<td>FRU Device ID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetPowerLevel.datafield.PICMGIdentifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>PICMG Identifier</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetPowerLevel.datafield.PowerLevel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetPowerLevel.datafield.SetPresentLevelsToDesiredLevels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Present Levels to Desired Levels</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorHysteresis.datafield.NegativegoingThresholdHysteresisValue</td>
+<td>Unsigned 8-bit integer</td>
+<td>Negative-going Threshold Hysteresis Value</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorHysteresis.datafield.PositivegoingThresholdHysteresisValue</td>
+<td>Unsigned 8-bit integer</td>
+<td>Positive-going Threshold Hysteresis Value</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorHysteresis.datafield.ReservedForHysteresisMask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved for future ' Hysteresis Mask ' definition</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorHysteresis.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit0</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit1</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit2</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit3</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit4</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit5</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.ControlByte.Bit76</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7...6 Reserved</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.LowerCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.LowerNonCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.LowerNonRecoverableThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>lower non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.SensorNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sensor Number</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.UpperCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.UpperNonCriticalThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-critical threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>SetSensorThresholds.datafield.UpperNonRecoverableThreshold</td>
+<td>Unsigned 8-bit integer</td>
+<td>upper non-recoverable threshold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

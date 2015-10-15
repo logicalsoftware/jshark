@@ -1,0 +1,692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GPRS Tunneling Protocol V2</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GPRS Tunneling Protocol V2</h1>
+<div><b>Protocol field name:</b> gtpv2</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gtp.oi</td>
+<td>Boolean</td>
+<td>OI (Operation Indication)</td>
+<td>1.2.0 to 1.2.2</td>
+</tr>
+<tr>
+<td>gtpv2.address_digits</td>
+<td>String</td>
+<td>Address digits</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ambr_down</td>
+<td>Unsigned 32-bit integer</td>
+<td>AMBR Downlink(Aggregate Maximum Bit Rate for Downlink)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ambr_up</td>
+<td>Unsigned 32-bit integer</td>
+<td>AMBR Uplink (Aggregate Maximum Bit Rate for Uplink)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.apn</td>
+<td>String</td>
+<td>APN (Access Point Name)</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.apn_rest</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN Restriction</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_control_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bearer Control Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_flag</td>
+<td>Boolean</td>
+<td>Bearer Flags(PPC(Prohibit Payload Compression) True-SGSN attempts to compress the payload, False-SGSN doesn't attempt to compress the payload)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_gbr_down</td>
+<td>Unsigned 64-bit integer</td>
+<td>Guaranteed Bit Rate For Downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_gbr_up</td>
+<td>Unsigned 64-bit integer</td>
+<td>Guaranteed Bit Rate For Uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_label_qci</td>
+<td>Unsigned 8-bit integer</td>
+<td>Label (QCI)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_mbr_down</td>
+<td>Unsigned 64-bit integer</td>
+<td>Maximum Bit Rate For Downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_mbr_up</td>
+<td>Unsigned 64-bit integer</td>
+<td>Maximum Bit Rate For Uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_pci</td>
+<td>Boolean</td>
+<td>PCI (Pre-emption Capability)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_pl</td>
+<td>Unsigned 8-bit integer</td>
+<td>PL (Priority Level)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.bearer_qos_pvi</td>
+<td>Boolean</td>
+<td>PVI (Pre-emption Vulnerability)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.cause_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.CauseMisc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Miscellaneous Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.CauseNas</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAS Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.CauseProtocol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.CauseRadioNetwork</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Network Layer Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.CauseTransport</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transport Layer Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.charging_characteristic</td>
+<td>Unsigned 16-bit integer</td>
+<td>Charging Characteristic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.charging_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Charging id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.cng_rep_act</td>
+<td>Unsigned 8-bit integer</td>
+<td>Change Reporting Action</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.container_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Container Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.cr</td>
+<td>Unsigned 8-bit integer</td>
+<td>CR flag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.cs</td>
+<td>Boolean</td>
+<td>Cause Source (CS: True-Error originated by remote node, False-Error originated by Node sending the Message)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.daf</td>
+<td>Boolean</td>
+<td>DAF (Dual Address Bearer Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.delay_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delay Value (In integer multiples of 50 milliseconds or zero)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.dfi</td>
+<td>Boolean</td>
+<td>DFI (Direct Forwarding Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.dtf</td>
+<td>Boolean</td>
+<td>DTF (Direct Tunnel Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ebi</td>
+<td>Unsigned 8-bit integer</td>
+<td>EPS Bearer ID (EBI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.enterprise_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enterprise ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_gre_key</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEID/GRE Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_interface_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interface Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_ipv4</td>
+<td>IPv4 address</td>
+<td>F-TEID IPv4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_ipv6</td>
+<td>IPv6 address</td>
+<td>F-TEID IPv6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_v4</td>
+<td>Boolean</td>
+<td>V4 (True-IPV4 address field Exists,False-Doesn't Exist in F-TEID)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.f_teid_v6</td>
+<td>Boolean</td>
+<td>V6 (True-IPV6 address field Exists,False-Doesn't Exist in F-TEID)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flow_qos_gbr_down</td>
+<td>Unsigned 64-bit integer</td>
+<td>Guaranteed Bit Rate For Downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flow_qos_gbr_up</td>
+<td>Unsigned 64-bit integer</td>
+<td>Guaranteed Bit Rate For Uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flow_qos_label_qci</td>
+<td>Unsigned 8-bit integer</td>
+<td>Label (QCI)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flow_qos_mbr_down</td>
+<td>Unsigned 64-bit integer</td>
+<td>Maximum Bit Rate For Downlink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.flow_qos_mbr_up</td>
+<td>Unsigned 64-bit integer</td>
+<td>Maximum Bit Rate For Uplink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.hi</td>
+<td>Boolean</td>
+<td>HI (Handover Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ie_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>IE Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ie_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>IE Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.imsi</td>
+<td>String</td>
+<td>IMSI(International Mobile Subscriber Identity number)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.instance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Instance</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ip_address_ipv4</td>
+<td>IPv4 address</td>
+<td>IP address IPv4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ip_address_ipv6</td>
+<td>IPv6 address</td>
+<td>IP address IPv6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.israi</td>
+<td>Boolean</td>
+<td>ISRAI (Idle mode Signalling Reduction Activation Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.isrsi</td>
+<td>Boolean</td>
+<td>ISRSI (Idle mode Signalling Reduction Supported Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.mei</td>
+<td>String</td>
+<td>MEI(Mobile Equipment Identity)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.message_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.msg_lengt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.msv</td>
+<td>Boolean</td>
+<td>MSV (MS Validated)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.node_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.oi</td>
+<td>Boolean</td>
+<td>OI (Operation Indication)</td>
+<td>1.2.2 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.p</td>
+<td>Unsigned 8-bit integer</td>
+<td>P</td>
+<td>1.4.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pdn_ipv4</td>
+<td>IPv4 address</td>
+<td>PDN IPv4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pdn_ipv6</td>
+<td>IPv6 address</td>
+<td>PDN IPv6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pdn_ipv6_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv6 Prefix Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pdn_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDN Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pt</td>
+<td>Boolean</td>
+<td>PT (Protocol Type)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.pti</td>
+<td>Unsigned 8-bit integer</td>
+<td>Procedure Transaction Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.rat_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>RAT Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.rec</td>
+<td>Unsigned 8-bit integer</td>
+<td>Restart Counter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.selec_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Selection Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.seq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.sgwci</td>
+<td>Boolean</td>
+<td>SGWCI (SGW Change Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.si</td>
+<td>Boolean</td>
+<td>SI (Scope Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.spare</td>
+<td>Unsigned 16-bit integer</td>
+<td>Spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.t</td>
+<td>Unsigned 8-bit integer</td>
+<td>T</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.target_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Target Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.tdi</td>
+<td>Boolean</td>
+<td>TDI (Teardown Indication)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.teid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tunnel Endpoint Identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ti</td>
+<td>Byte array</td>
+<td>Transaction Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ue_time_zone</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time Zone</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.ue_time_zone_dst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Daylight Saving Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_cgi_ci</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cell Identity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_cgi_flg</td>
+<td>Boolean</td>
+<td>CGI Present Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_cgi_lac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Location Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_ecgi_eci</td>
+<td>Unsigned 32-bit integer</td>
+<td>ECI (E-UTRAN Cell Identifier)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_ecgi_eci_spare</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_ecgi_flg</td>
+<td>Boolean</td>
+<td>ECGI Present Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_rai_flg</td>
+<td>Boolean</td>
+<td>RAI Present Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_rai_lac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Location Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_rai_rac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Routing Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_sai_flg</td>
+<td>Boolean</td>
+<td>SAI Present Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_sai_lac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Location Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_sai_sac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Service Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_tai_flg</td>
+<td>Boolean</td>
+<td>TAI Present Flag)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.uli_tai_tac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Tracking Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtpv2.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

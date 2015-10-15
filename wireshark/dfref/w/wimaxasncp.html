@@ -1,0 +1,4334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMAX ASN Control Plane Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMAX ASN Control Plane Protocol</h1>
+<div><b>Protocol field name:</b> wimaxasncp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wimaxasncp.authentication_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.context_delivery_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.data_path_control_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.function_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Function Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.ho_control_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.message_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.ms_state_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.msid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MSID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.opid</td>
+<td>Unsigned 8-bit integer</td>
+<td>OP ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.paging_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.qos_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.r3_mobility_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.reauthentication_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.reserved1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.rrm_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.session_msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv</td>
+<td>Byte array</td>
+<td>TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accept_Reject_Indicator</td>
+<td>Byte array</td>
+<td>Accept/Reject Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accept_Reject_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Bulk_Session_Flow</td>
+<td>Byte array</td>
+<td>Accounting Bulk Session/Flow</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Bulk_Session_Flow_Volume_Counts</td>
+<td>Byte array</td>
+<td>Accounting Bulk Session Flow Volume Counts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Context</td>
+<td>Byte array</td>
+<td>Accounting Context</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Extension</td>
+<td>Byte array</td>
+<td>Accounting Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Extension.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_IP_Address</td>
+<td>Byte array</td>
+<td>Accounting IP Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_IP_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_IP_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Number_of_Bulk_Sessions_Flows</td>
+<td>Byte array</td>
+<td>Accounting Number of Bulk Sessions/Flows</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Number_of_Bulk_Sessions_Flows.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Accounting_Session_Flow_Volume_Counts</td>
+<td>Byte array</td>
+<td>Accounting Session/Flow Volume Counts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Action_Code</td>
+<td>Byte array</td>
+<td>Action Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Action_Code.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Action_Time</td>
+<td>Byte array</td>
+<td>Action Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Action_Time.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK</td>
+<td>Byte array</td>
+<td>AK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_Context</td>
+<td>Byte array</td>
+<td>AK Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_ID</td>
+<td>Byte array</td>
+<td>AK ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_ID.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_Lifetime</td>
+<td>Byte array</td>
+<td>AK Lifetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_Lifetime.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_SN</td>
+<td>Byte array</td>
+<td>AK SN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.AK_SN.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_ASN_GW_ID_Anchor_DPF_Identifier</td>
+<td>Byte array</td>
+<td>Anchor ASN GW ID / Anchor DPF Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_ASN_GW_ID_Anchor_DPF_Identifier.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_ASN_GW_ID_Anchor_DPF_Identifier.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_ASN_GW_ID_Anchor_DPF_Identifier.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_Authenticator_ID</td>
+<td>Byte array</td>
+<td>Anchor Authenticator ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_Authenticator_ID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_Authenticator_ID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_Authenticator_ID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_MM_Context</td>
+<td>Byte array</td>
+<td>Anchor MM Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Destination</td>
+<td>Byte array</td>
+<td>Anchor PC Relocation Destination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Destination.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Destination.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Destination.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Request_Response</td>
+<td>Byte array</td>
+<td>Anchor PC Relocation Request Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PC_Relocation_Request_Response.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PCID_Anchor_Paging_Controller_ID</td>
+<td>Byte array</td>
+<td>Anchor PCID - Anchor Paging Controller ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PCID_Anchor_Paging_Controller_ID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PCID_Anchor_Paging_Controller_ID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Anchor_PCID_Anchor_Paging_Controller_ID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Ack_Type</td>
+<td>Byte array</td>
+<td>ARQ Ack Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Ack_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_BLOCK_LIFETIME</td>
+<td>Byte array</td>
+<td>ARQ_BLOCK_LIFETIME</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_BLOCK_LIFETIME.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_BLOCK_SIZE</td>
+<td>Byte array</td>
+<td>ARQ_BLOCK_SIZE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_BLOCK_SIZE.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Context</td>
+<td>Byte array</td>
+<td>ARQ Context</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_DELIVER_IN_ORDER</td>
+<td>Byte array</td>
+<td>ARQ_DELIVER_IN_ORDER</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_DELIVER_IN_ORDER.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Enable</td>
+<td>Byte array</td>
+<td>ARQ Enable</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Enable.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RETRY_TIMEOUT_Receiver_Delay</td>
+<td>Byte array</td>
+<td>ARQ_RETRY_TIMEOUT-Receiver Delay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RETRY_TIMEOUT_Receiver_Delay.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RETRY_TIMEOUT_Transmitter_Delay</td>
+<td>Byte array</td>
+<td>ARQ_RETRY_TIMEOUT-Transmitter Delay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RETRY_TIMEOUT_Transmitter_Delay.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RX_PURGE_TIMEOUT</td>
+<td>Byte array</td>
+<td>ARQ_RX_PURGE_TIMEOUT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_RX_PURGE_TIMEOUT.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Support</td>
+<td>Byte array</td>
+<td>ARQ Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_SYNC_LOSS_TIMEOUT</td>
+<td>Byte array</td>
+<td>ARQ_SYNC_LOSS_TIMEOUT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_SYNC_LOSS_TIMEOUT.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_WINDOW_SIZE</td>
+<td>Byte array</td>
+<td>ARQ WINDOW SIZE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ARQ_WINDOW_SIZE.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Associated_PHSI</td>
+<td>Byte array</td>
+<td>Associated PHSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Associated_PHSI.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Auth_IND</td>
+<td>Byte array</td>
+<td>Auth-IND</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Auth_IND.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authentication_Complete</td>
+<td>Byte array</td>
+<td>Authentication Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authentication_Result</td>
+<td>Byte array</td>
+<td>Authentication Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authentication_Result.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authenticator_Identifier</td>
+<td>Byte array</td>
+<td>Authenticator Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authenticator_Identifier.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authenticator_Identifier.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authenticator_Identifier.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authorization_Policy</td>
+<td>Byte array</td>
+<td>Authorization Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Authorization_Policy.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Client</td>
+<td>Byte array</td>
+<td>Available Client</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Client.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Radio_Resource_DL</td>
+<td>Byte array</td>
+<td>Available Radio Resource DL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Radio_Resource_DL.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Radio_Resource_UL</td>
+<td>Byte array</td>
+<td>Available Radio Resource UL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Available_Radio_Resource_UL.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BE_Data_Delivery_Service</td>
+<td>Byte array</td>
+<td>BE Data Delivery Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_HO_RSP_Code</td>
+<td>Byte array</td>
+<td>BS HO RSP Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_HO_RSP_Code.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_ID</td>
+<td>Byte array</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_ID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_ID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_ID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_Info</td>
+<td>Byte array</td>
+<td>BS Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_originated_EAP_Start_Flag</td>
+<td>Byte array</td>
+<td>BS-originated EAP-Start Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_Switching_Timer</td>
+<td>Byte array</td>
+<td>BS Switching Timer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.BS_Switching_Timer.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Capabilities_for_Construction_and_Transmission_of_MAC_PDUs</td>
+<td>Byte array</td>
+<td>Capabilities for Construction and Transmission of MAC PDUs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Capabilities_for_Construction_and_Transmission_of_MAC_PDUs.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Care_Of_Address_CoA</td>
+<td>Byte array</td>
+<td>Care-Of Address (CoA)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Care_Of_Address_CoA.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CID</td>
+<td>Byte array</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CID.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_PHS_Options_and_SDU_Encapsulation_Support_Type</td>
+<td>Byte array</td>
+<td>Classification/PHS Options and SDU Encapsulation Support Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_PHS_Options_and_SDU_Encapsulation_Support_Type.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_Result</td>
+<td>Byte array</td>
+<td>Classification Result</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_Result.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_Rule_Index</td>
+<td>Byte array</td>
+<td>Classification Rule Index</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classification_Rule_Index.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier</td>
+<td>Byte array</td>
+<td>Classifier</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Action</td>
+<td>Byte array</td>
+<td>Classifier Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Action.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Rule_Priority</td>
+<td>Byte array</td>
+<td>Classifier Rule Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Rule_Priority.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Type</td>
+<td>Byte array</td>
+<td>Classifier Type</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Classifier_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CMAC_KEY_COUNT</td>
+<td>Byte array</td>
+<td>CMAC_KEY_COUNT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CMAC_KEY_COUNT.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Combined_Resource_Indicator</td>
+<td>Byte array</td>
+<td>Combined Resource Indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Combined_Resources_Required</td>
+<td>Byte array</td>
+<td>Combined Resources Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Combined_Resources_Required.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Context_Purpose_Indicator</td>
+<td>Byte array</td>
+<td>Context Purpose Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Context_Purpose_Indicator.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Control_Plane_Indicator</td>
+<td>Byte array</td>
+<td>Control Plane Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Control_Plane_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Correlation_ID</td>
+<td>Byte array</td>
+<td>Correlation ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Correlation_ID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cryptographic_Suite</td>
+<td>Byte array</td>
+<td>Cryptographic Suite</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cryptographic_Suite.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CS_Type</td>
+<td>Byte array</td>
+<td>CS Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.CS_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Downlink_Octets</td>
+<td>Byte array</td>
+<td>Cumulative Downlink Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Downlink_Octets.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Downlink_Packets</td>
+<td>Byte array</td>
+<td>Cumulative Downlink Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Downlink_Packets.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Uplink_Octets</td>
+<td>Byte array</td>
+<td>Cumulative Uplink Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Uplink_Octets.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Uplink_Packets</td>
+<td>Byte array</td>
+<td>Cumulative Uplink Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Cumulative_Uplink_Packets.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Current_Transmit_Power</td>
+<td>Byte array</td>
+<td>Current Transmit Power</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Current_Transmit_Power.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Delivery_Trigger</td>
+<td>Byte array</td>
+<td>Data Delivery Trigger</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Delivery_Trigger.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Integrity</td>
+<td>Byte array</td>
+<td>Data Integrity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Integrity.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Integrity_Info</td>
+<td>Byte array</td>
+<td>Data Integrity Info</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Integrity_Info.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Encapsulation_Type</td>
+<td>Byte array</td>
+<td>Data Path Encapsulation Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Encapsulation_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Establishment_Option</td>
+<td>Byte array</td>
+<td>Data Path Establishment Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Establishment_Option.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_ID</td>
+<td>Byte array</td>
+<td>Data Path ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_ID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Info</td>
+<td>Byte array</td>
+<td>Data Path Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Integrity_Mechanism</td>
+<td>Byte array</td>
+<td>Data Path Integrity Mechanism</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Integrity_Mechanism.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Type</td>
+<td>Byte array</td>
+<td>Data Path Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Data_Path_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DCD_Setting</td>
+<td>Byte array</td>
+<td>DCD Setting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DCD_Setting.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DCD_UCD_Configuration_Change_Count</td>
+<td>Byte array</td>
+<td>DCD/UCD Configuration Change Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DCD_UCD_Configuration_Change_Count.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Destination_Identifier</td>
+<td>Byte array</td>
+<td>Destination Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Destination_Identifier.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Destination_Identifier.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Destination_Identifier.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Device_Authentication_Indicator</td>
+<td>Byte array</td>
+<td>Device Authentication Indicator</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Device_Authentication_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key</td>
+<td>Byte array</td>
+<td>DHCP Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key_ID</td>
+<td>Byte array</td>
+<td>DHCP Key ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key_ID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key_Lifetime</td>
+<td>Byte array</td>
+<td>DHCP Key Lifetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Key_Lifetime.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Proxy_Info</td>
+<td>Byte array</td>
+<td>DHCP Proxy Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Address</td>
+<td>Byte array</td>
+<td>DHCP Relay Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Address.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Address.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Relay_Info</td>
+<td>Byte array</td>
+<td>DHCP Relay Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_Address</td>
+<td>Byte array</td>
+<td>DHCP Server Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_Address.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_Address.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DHCP_Server_List</td>
+<td>Byte array</td>
+<td>DHCP Server List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Direction</td>
+<td>Byte array</td>
+<td>Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Direction.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DL_PHY_Quality_Info</td>
+<td>Byte array</td>
+<td>DL PHY Quality Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DL_PHY_Quality_Info.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DL_PHY_Service_Level</td>
+<td>Byte array</td>
+<td>DL PHY Service Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DL_PHY_Service_Level.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Downlink_Octets_at_Tariff_Switch</td>
+<td>Byte array</td>
+<td>Downlink Octets at Tariff Switch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Downlink_Octets_at_Tariff_Switch.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Downlink_Packets_at_Tariff_Switch</td>
+<td>Byte array</td>
+<td>Downlink Packets at Tariff Switch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Downlink_Packets_at_Tariff_Switch.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DSx_Flow_Control</td>
+<td>Byte array</td>
+<td>DSx Flow Control</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.DSx_Flow_Control.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Duration_Quota</td>
+<td>Byte array</td>
+<td>Duration Quota</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Duration_Quota.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Duration_Threshold</td>
+<td>Byte array</td>
+<td>Duration Threshold</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Duration_Threshold.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.EAP_Payload</td>
+<td>Byte array</td>
+<td>EAP Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.EAP_Payload.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.EIK</td>
+<td>Byte array</td>
+<td>EIK</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.EIK.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ERT_VR_Data_Delivery_Service</td>
+<td>Byte array</td>
+<td>ERT-VR Data Delivery Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Exit_IDLE_Mode_Operation_Indication</td>
+<td>Byte array</td>
+<td>Exit IDLE Mode Operation Indication</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Exit_IDLE_Mode_Operation_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Extended_Subheader_Capability</td>
+<td>Byte array</td>
+<td>Extended Subheader Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Extended_Subheader_Capability.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key</td>
+<td>Byte array</td>
+<td>FA-HA Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key_Lifetime</td>
+<td>Byte array</td>
+<td>FA-HA Key Lifetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key_Lifetime.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key_SPI</td>
+<td>Byte array</td>
+<td>FA-HA Key SPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_HA_Key_SPI.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_IP_Address</td>
+<td>Byte array</td>
+<td>FA IP Address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_IP_Address.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_Relocation_Indication</td>
+<td>Byte array</td>
+<td>FA Relocation Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_Relocation_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_Revoke_Reason</td>
+<td>Byte array</td>
+<td>FA Revoke Reason</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_Revoke_Reason.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.FA_Security_Infop</td>
+<td>Byte array</td>
+<td>FA Security Infop</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Failure_Indication</td>
+<td>Byte array</td>
+<td>Failure Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Failure_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Full_DCD_Setting</td>
+<td>Byte array</td>
+<td>Full DCD Setting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Full_DCD_Setting.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Full_UCD_Setting</td>
+<td>Byte array</td>
+<td>Full UCD Setting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Full_UCD_Setting.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Global_Service_Class_Change</td>
+<td>Byte array</td>
+<td>Global Service Class Change</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Global_Service_Class_Change.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Global_Service_Class_Name</td>
+<td>Byte array</td>
+<td>Global Service Class Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Global_Service_Class_Name.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HA_IP_Address</td>
+<td>Byte array</td>
+<td>HA IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HA_IP_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HA_IP_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Handover_Indication_Readiness_Timer</td>
+<td>Byte array</td>
+<td>Handover Indication Readiness Timer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Handover_Indication_Readiness_Timer.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HARQ_Chase_Combining_and_CC_IR_Buffer_Capability</td>
+<td>Byte array</td>
+<td>HARQ Chase Combining and CC-IR Buffer Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HARQ_Chase_Combining_and_CC_IR_Buffer_Capability.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Authorization_policy_support</td>
+<td>Byte array</td>
+<td>HO Authorization policy support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Authorization_policy_support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Confirm_Type</td>
+<td>Byte array</td>
+<td>HO Confirm Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Confirm_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_ID</td>
+<td>Byte array</td>
+<td>HO ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_ID.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Process_Optimization</td>
+<td>Byte array</td>
+<td>HO Process Optimization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Process_Optimization.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Process_Optimization_MS_Timer</td>
+<td>Byte array</td>
+<td>HO Process Optimization MS Timer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Process_Optimization_MS_Timer.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Supported</td>
+<td>Byte array</td>
+<td>HO Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Supported.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Trigger_Metric_Support</td>
+<td>Byte array</td>
+<td>HO Trigger Metric Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Trigger_Metric_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Type</td>
+<td>Byte array</td>
+<td>HO Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.HO_Type.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Home_Address_HoA</td>
+<td>Byte array</td>
+<td>Home Address (HoA)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Home_Address_HoA.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Idle_Mode_Exit_Indicator</td>
+<td>Byte array</td>
+<td>Idle Mode Exit Indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Idle_Mode_Exit_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IDLE_Mode_Info</td>
+<td>Byte array</td>
+<td>IDLE Mode Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IDLE_Mode_Retain_Info</td>
+<td>Byte array</td>
+<td>IDLE Mode Retain Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IDLE_Mode_Retain_Info.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Idle_Mode_Timeout</td>
+<td>Byte array</td>
+<td>Idle Mode Timeout</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Idle_Mode_Timeout.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IM_Auth_Indication</td>
+<td>Byte array</td>
+<td>IM Auth Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IM_Auth_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask</td>
+<td>Byte array</td>
+<td>IP Destination Address and Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask.value.ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask.value.ipv4_mask</td>
+<td>IPv4 address</td>
+<td>IPv4 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask.value.ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Destination_Address_and_Mask.value.ipv6_mask</td>
+<td>IPv6 address</td>
+<td>IPv6 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Remained_Time</td>
+<td>Byte array</td>
+<td>IP Remained Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Remained_Time.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask</td>
+<td>Byte array</td>
+<td>IP Source Address and Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask.value.ipv4</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask.value.ipv4_mask</td>
+<td>IPv4 address</td>
+<td>IPv4 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask.value.ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_Source_Address_and_Mask.value.ipv6_mask</td>
+<td>IPv6 address</td>
+<td>IPv6 Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_TOS_DSCP_Range_and_Mask</td>
+<td>Byte array</td>
+<td>IP TOS/DSCP Range and Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.IP_TOS_DSCP_Range_and_Mask.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Key_Change_Indicator</td>
+<td>Byte array</td>
+<td>Key Change Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Key_Change_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.L_BSID</td>
+<td>Byte array</td>
+<td>L-BSID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.L_BSID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.L_BSID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.L_BSID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Location_Update_Status</td>
+<td>Byte array</td>
+<td>Location Update Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Location_Update_Status.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Location_Update_Success_Failure_Indication</td>
+<td>Byte array</td>
+<td>Location Update Success/Failure Indication</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Location_Update_Success_Failure_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.LU_Result_Indicator</td>
+<td>Byte array</td>
+<td>LU Result Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.LU_Result_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_ertPS_Support</td>
+<td>Byte array</td>
+<td>MAC ertPS Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_ertPS_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_Header_and_Extended_Sub_Header_Support</td>
+<td>Byte array</td>
+<td>MAC Header and Extended Sub-Header Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_Header_and_Extended_Sub_Header_Support.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_Mode</td>
+<td>Byte array</td>
+<td>MAC Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MAC_Mode.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_amount_of_MAC_Level_Data_per_DL_Frame</td>
+<td>Byte array</td>
+<td>Maximum amount of MAC Level Data per DL Frame</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_amount_of_MAC_Level_Data_per_DL_Frame.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_amount_of_MAC_Level_Data_per_UL_Frame</td>
+<td>Byte array</td>
+<td>Maximum amount of MAC Level Data per UL Frame</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_amount_of_MAC_Level_Data_per_UL_Frame.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Latency</td>
+<td>Byte array</td>
+<td>Maximum Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Latency.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_MAC_Data_per_Frame_Support</td>
+<td>Byte array</td>
+<td>Maximum MAC Data per Frame Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Burst_per_Frame_Capability_in_HARQ</td>
+<td>Byte array</td>
+<td>Maximum Number of Burst per Frame Capability in HARQ</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Burst_per_Frame_Capability_in_HARQ.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Bursts_Transmitted_Concurrently_to_the_MS</td>
+<td>Byte array</td>
+<td>Maximum Number of Bursts Transmitted Concurrently to the MS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Bursts_Transmitted_Concurrently_to_the_MS.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Classifier</td>
+<td>Byte array</td>
+<td>Maximum Number of Classifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Classifier.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Supported_Security_Associations</td>
+<td>Byte array</td>
+<td>Maximum Number of Supported Security Associations</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Number_of_Supported_Security_Associations.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Sustained_Traffic_Rate</td>
+<td>Byte array</td>
+<td>Maximum Sustained Traffic Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Sustained_Traffic_Rate.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Traffic_Burst</td>
+<td>Byte array</td>
+<td>Maximum Traffic Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Traffic_Burst.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Transmit_Power</td>
+<td>Byte array</td>
+<td>Maximum Transmit Power</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Maximum_Transmit_Power.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Media_Flow_Description_in_SDP_Format</td>
+<td>Byte array</td>
+<td>Media Flow Description in SDP Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Media_Flow_Description_in_SDP_Format.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Media_Flow_Type</td>
+<td>Byte array</td>
+<td>Media Flow Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Media_Flow_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Minimum_Reserved_Traffic_Rate</td>
+<td>Byte array</td>
+<td>Minimum Reserved Traffic Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Minimum_Reserved_Traffic_Rate.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MIP4_Info</td>
+<td>Byte array</td>
+<td>MIP4 Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MIP4_Security_Info</td>
+<td>Byte array</td>
+<td>MIP4 Security Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_Key</td>
+<td>Byte array</td>
+<td>MN-FA Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_Key.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_Key_Lifetime</td>
+<td>Byte array</td>
+<td>MN-FA Key Lifetime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_Key_Lifetime.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_SPI</td>
+<td>Byte array</td>
+<td>MN-FA SPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MN_FA_SPI.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Mobility_Features_Supported</td>
+<td>Byte array</td>
+<td>Mobility Features Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Mobility_Features_Supported.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Authorization_Context</td>
+<td>Byte array</td>
+<td>MS Authorization Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_FA_Context</td>
+<td>Byte array</td>
+<td>MS FA Context</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Handover_Retransmission_Timer</td>
+<td>Byte array</td>
+<td>MS Handover Retransmission Timer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Handover_Retransmission_Timer.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_HO_Connections_Parameters_Proc_Time</td>
+<td>Byte array</td>
+<td>MS HO Connections Parameters Proc Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_HO_Connections_Parameters_Proc_Time.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_HO_TEK_Proc_Time</td>
+<td>Byte array</td>
+<td>MS HO TEK Proc Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_HO_TEK_Proc_Time.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_ID</td>
+<td>Byte array</td>
+<td>MS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_ID.value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Info</td>
+<td>Byte array</td>
+<td>MS Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Mobility_Mode</td>
+<td>Byte array</td>
+<td>MS Mobility Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Mobility_Mode.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_NAI</td>
+<td>Byte array</td>
+<td>MS NAI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_NAI.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Networking_Context</td>
+<td>Byte array</td>
+<td>MS Networking Context</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Security_Context</td>
+<td>Byte array</td>
+<td>MS Security Context</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.MS_Security_History</td>
+<td>Byte array</td>
+<td>MS Security History</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Network_assisted_HO_Supported</td>
+<td>Byte array</td>
+<td>Network assisted HO Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Network_assisted_HO_Supported.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Network_Exit_Indicator</td>
+<td>Byte array</td>
+<td>Network Exit Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Network_Exit_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Newer_TEK_Parameters</td>
+<td>Byte array</td>
+<td>Newer TEK Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.NRT_VR_Data_Delivery_Service</td>
+<td>Byte array</td>
+<td>NRT-VR Data Delivery Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.NSP_ID</td>
+<td>Byte array</td>
+<td>NSP ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.NSP_ID.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Number_of_DL_Transport_CIDs_Support</td>
+<td>Byte array</td>
+<td>Number of DL Transport CIDs Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Number_of_DL_Transport_CIDs_Support.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Number_of_UL_Transport_CIDs_Support</td>
+<td>Byte array</td>
+<td>Number of UL Transport CIDs Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Number_of_UL_Transport_CIDs_Support.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_MAP_Capability</td>
+<td>Byte array</td>
+<td>OFDMA MAP Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_MAP_Capability.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_MS_CSIT_Capability</td>
+<td>Byte array</td>
+<td>OFDMA MS CSIT Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_MS_CSIT_Capability.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_Parameter_Set</td>
+<td>Byte array</td>
+<td>OFDMA Parameter Set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_Parameter_Set.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_CINR_Measurement_Capability</td>
+<td>Byte array</td>
+<td>OFDMA SS CINR Measurement Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_CINR_Measurement_Capability.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_demodulator</td>
+<td>Byte array</td>
+<td>OFDMA SS demodulator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_demodulator.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_demodulator_for_MIMO_Support</td>
+<td>Byte array</td>
+<td>OFDMA SS demodulator for MIMO Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_demodulator_for_MIMO_Support.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_FFT_Sizes</td>
+<td>Byte array</td>
+<td>OFDMA SS FFT Sizes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_FFT_Sizes.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_modulator</td>
+<td>Byte array</td>
+<td>OFDMA SS modulator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_modulator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_modulator_for_MIMO_Support</td>
+<td>Byte array</td>
+<td>OFDMA SS modulator for MIMO Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_modulator_for_MIMO_Support.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Permutation_support</td>
+<td>Byte array</td>
+<td>OFDMA SS Permutation support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Permutation_support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Uplink_Power_Control_Scheme_Switching_Delay</td>
+<td>Byte array</td>
+<td>OFDMA SS Uplink Power Control Scheme Switching Delay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Uplink_Power_Control_Scheme_Switching_Delay.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Uplink_Power_Control_Support</td>
+<td>Byte array</td>
+<td>OFDMA SS Uplink Power Control Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.OFDMA_SS_Uplink_Power_Control_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Offline_Accounting_Context</td>
+<td>Byte array</td>
+<td>Offline Accounting Context</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Old_Anchor_PCID</td>
+<td>Byte array</td>
+<td>Old Anchor PCID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Old_Anchor_PCID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Old_Anchor_PCID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Old_Anchor_PCID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Older_TEK_Parameters</td>
+<td>Byte array</td>
+<td>Older TEK Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Packet_Classification_Rule_Media_Flow_Description</td>
+<td>Byte array</td>
+<td>Packet Classification Rule / Media Flow Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Packing_Support</td>
+<td>Byte array</td>
+<td>Packing Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Packing_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Announce_Timer</td>
+<td>Byte array</td>
+<td>Paging Announce Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Announce_Timer.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Cause</td>
+<td>Byte array</td>
+<td>Paging Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Cause.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Controller_Identifier</td>
+<td>Byte array</td>
+<td>Paging Controller Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Controller_Identifier.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Controller_Identifier.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Controller_Identifier.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Cycle</td>
+<td>Byte array</td>
+<td>Paging Cycle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Cycle.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Group_ID</td>
+<td>Byte array</td>
+<td>Paging Group ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Group_ID.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Information</td>
+<td>Byte array</td>
+<td>Paging Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Interval_Length</td>
+<td>Byte array</td>
+<td>Paging Interval Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Interval_Length.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Offset</td>
+<td>Byte array</td>
+<td>Paging Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Offset.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Preference</td>
+<td>Byte array</td>
+<td>Paging Preference</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Preference.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Start_Stop</td>
+<td>Byte array</td>
+<td>Paging Start/Stop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Paging_Start_Stop.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PC_Relocation_Indication</td>
+<td>Byte array</td>
+<td>PC Relocation Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PC_Relocation_Indication.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PGID_Paging_Group_ID</td>
+<td>Byte array</td>
+<td>PGID - Paging Group ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PGID_Paging_Group_ID.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHS_Rule</td>
+<td>Byte array</td>
+<td>PHS Rule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHS_Rule_Action</td>
+<td>Byte array</td>
+<td>PHS Rule Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHS_Rule_Action.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHS_Support</td>
+<td>Byte array</td>
+<td>PHS Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHS_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSF</td>
+<td>Byte array</td>
+<td>PHSF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSF.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSI</td>
+<td>Byte array</td>
+<td>PHSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSI.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSM</td>
+<td>Byte array</td>
+<td>PHSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSM.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSS</td>
+<td>Byte array</td>
+<td>PHSS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSS.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSV</td>
+<td>Byte array</td>
+<td>PHSV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PHSV.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM2</td>
+<td>Byte array</td>
+<td>PKM2</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM2.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM2_Message_Code</td>
+<td>Byte array</td>
+<td>PKM2 Message Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM2_Message_Code.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM_Context</td>
+<td>Byte array</td>
+<td>PKM Context</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM_Context.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM_Flow_Control</td>
+<td>Byte array</td>
+<td>PKM Flow Control</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PKM_Flow_Control.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMIP4_Client_Location</td>
+<td>Byte array</td>
+<td>PMIP4 Client Location</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMIP4_Client_Location.value</td>
+<td>IPv4 address</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMK2_SN</td>
+<td>Byte array</td>
+<td>PMK2 SN</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMK2_SN.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMK_SN</td>
+<td>Byte array</td>
+<td>PMK SN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PMK_SN.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PN_Counter</td>
+<td>Byte array</td>
+<td>PN Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PN_Counter.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PN_Window_Size</td>
+<td>Byte array</td>
+<td>PN Window Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PN_Window_Size.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Pool_ID</td>
+<td>Byte array</td>
+<td>Pool-ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Pool_ID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Pool_Multiplier</td>
+<td>Byte array</td>
+<td>Pool-Multiplier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Pool_Multiplier.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Power_Saving_Class_Capability</td>
+<td>Byte array</td>
+<td>Power Saving Class Capability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Power_Saving_Class_Capability.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PPAC</td>
+<td>Byte array</td>
+<td>PPAC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.PPAQ</td>
+<td>Byte array</td>
+<td>PPAQ</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Preamble_Index_Sub_channel_Index</td>
+<td>Byte array</td>
+<td>Preamble Index/Sub-channel Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Preamble_Index_Sub_channel_Index.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Prepaid_Server</td>
+<td>Byte array</td>
+<td>Prepaid Server</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Prepaid_Server.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Prepaid_Server.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol</td>
+<td>Byte array</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol.value.protocol</td>
+<td>Unsigned 16-bit integer</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Destination_Port_Range</td>
+<td>Byte array</td>
+<td>Protocol Destination Port Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Destination_Port_Range.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Destination_Port_Range.value.port_high</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Destination_Port_Range.value.port_low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Source_Port_Range</td>
+<td>Byte array</td>
+<td>Protocol Source Port Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Source_Port_Range.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Source_Port_Range.value.port_high</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Protocol_Source_Port_Range.value.port_low</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.QoS_Parameters</td>
+<td>Byte array</td>
+<td>QoS Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Quota_Identifier</td>
+<td>Byte array</td>
+<td>Quota Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Quota_Identifier.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Media_Flow_Description_in_SDP_format</td>
+<td>Byte array</td>
+<td>R3 Media Flow Description in SDP format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Media_Flow_Description_in_SDP_format.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Operation_Status</td>
+<td>Byte array</td>
+<td>R3 Operation Status</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Operation_Status.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Release_Reason</td>
+<td>Byte array</td>
+<td>R3 Release Reason</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.R3_Release_Reason.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Radio_Resource_Fluctuation</td>
+<td>Byte array</td>
+<td>Radio Resource Fluctuation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Radio_Resource_Fluctuation.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Rating_Group_ID</td>
+<td>Byte array</td>
+<td>Rating-Group-ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Rating_Group_ID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RECEIVER_ARQ_ACK_PROCESSING_TIME</td>
+<td>Byte array</td>
+<td>RECEIVER_ARQ_ACK_PROCESSING TIME</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RECEIVER_ARQ_ACK_PROCESSING_TIME.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Reduced_Resources_Code</td>
+<td>Byte array</td>
+<td>Reduced Resources Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.REG_Context</td>
+<td>Byte array</td>
+<td>REG Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.REG_Context.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Registeration_Lifetime</td>
+<td>Byte array</td>
+<td>Registeration Lifetime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Registeration_Lifetime.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Registration_Type</td>
+<td>Byte array</td>
+<td>Registration Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Registration_Type.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relative_Delay</td>
+<td>Byte array</td>
+<td>Relative Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relative_Delay.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Destination_ID</td>
+<td>Byte array</td>
+<td>Relocation Destination ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Destination_ID.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Destination_ID.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Destination_ID.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Response</td>
+<td>Byte array</td>
+<td>Relocation Response</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Response.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Success_Indication</td>
+<td>Byte array</td>
+<td>Relocation Success Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Relocation_Success_Indication.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Request_Transmission_Policy</td>
+<td>Byte array</td>
+<td>Request/Transmission Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Request_Transmission_Policy.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Reservation_Action</td>
+<td>Byte array</td>
+<td>Reservation Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Reservation_Action.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Reservation_Result</td>
+<td>Byte array</td>
+<td>Reservation Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Reservation_Result.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Resource_Quota</td>
+<td>Byte array</td>
+<td>Resource Quota</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Resource_Quota.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Resource_Threshold</td>
+<td>Byte array</td>
+<td>Resource Threshold</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Resource_Threshold.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Response_Code</td>
+<td>Byte array</td>
+<td>Response Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Response_Code.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Result_Code</td>
+<td>Byte array</td>
+<td>Result Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Result_Code.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ROHC_ECRTP_Context_ID</td>
+<td>Byte array</td>
+<td>ROHC/ECRTP Context ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.ROHC_ECRTP_Context_ID.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Round_Trip_Delay</td>
+<td>Byte array</td>
+<td>Round Trip Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Round_Trip_Delay.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Absolute_Threshold_Value_J</td>
+<td>Byte array</td>
+<td>RRM Absolute Threshold Value J</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Absolute_Threshold_Value_J.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Averaging_Time_T</td>
+<td>Byte array</td>
+<td>RRM Averaging Time T</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Averaging_Time_T.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_BS_Info</td>
+<td>Byte array</td>
+<td>RRM BS Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_BS_MS_PHY_Quality_Info</td>
+<td>Byte array</td>
+<td>RRM BS-MS PHY Quality Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Relative_Threshold_RT</td>
+<td>Byte array</td>
+<td>RRM Relative Threshold RT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Relative_Threshold_RT.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Reporting_Characteristics</td>
+<td>Byte array</td>
+<td>RRM Reporting Characteristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Reporting_Characteristics.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Reporting_Period_P</td>
+<td>Byte array</td>
+<td>RRM Reporting Period P</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Reporting_Period_P.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Spare_Capacity_Report_Type</td>
+<td>Byte array</td>
+<td>RRM Spare Capacity Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRM_Spare_Capacity_Report_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRP</td>
+<td>Byte array</td>
+<td>RRP</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRP.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRQ</td>
+<td>Byte array</td>
+<td>RRQ</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RRQ.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RT_VR_Data_Delivery_Service</td>
+<td>Byte array</td>
+<td>RT-VR Data Delivery Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RxPN_Counter</td>
+<td>Byte array</td>
+<td>RxPN Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.RxPN_Counter.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Descriptor</td>
+<td>Byte array</td>
+<td>SA Descriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Index</td>
+<td>Byte array</td>
+<td>SA Index</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Index.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Service_Type</td>
+<td>Byte array</td>
+<td>SA Service Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Service_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Type</td>
+<td>Byte array</td>
+<td>SA Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SA_Type.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SAID</td>
+<td>Byte array</td>
+<td>SAID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SAID.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SBC_Context</td>
+<td>Byte array</td>
+<td>SBC Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SBC_Context.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_BSN_Map</td>
+<td>Byte array</td>
+<td>SDU BSN Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_BSN_Map.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_Info</td>
+<td>Byte array</td>
+<td>SDU Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_Size</td>
+<td>Byte array</td>
+<td>SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_Size.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_SN</td>
+<td>Byte array</td>
+<td>SDU SN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SDU_SN.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Security_Negotiation_Parameters</td>
+<td>Byte array</td>
+<td>Security Negotiation Parameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Authorization_Code</td>
+<td>Byte array</td>
+<td>Service Authorization Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Authorization_Code.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Class_Name</td>
+<td>Byte array</td>
+<td>Service Class Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Class_Name.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_ID</td>
+<td>Byte array</td>
+<td>Service-ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_ID.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Level_Prediction</td>
+<td>Byte array</td>
+<td>Service Level Prediction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Service_Level_Prediction.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Serving_Target_Indicator</td>
+<td>Byte array</td>
+<td>Serving/Target Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Serving_Target_Indicator.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SF_Classification</td>
+<td>Byte array</td>
+<td>SF Classification</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SF_Classification.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SF_Info</td>
+<td>Byte array</td>
+<td>SF Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SFID</td>
+<td>Byte array</td>
+<td>SFID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.SFID.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Sleep_Mode_Recovery_Time</td>
+<td>Byte array</td>
+<td>Sleep Mode Recovery Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Sleep_Mode_Recovery_Time.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Source_Identifier</td>
+<td>Byte array</td>
+<td>Source Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Source_Identifier.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Source_Identifier.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Source_Identifier.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Spare_Capacity_Indicator</td>
+<td>Byte array</td>
+<td>Spare Capacity Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Spare_Capacity_Indicator.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.State</td>
+<td>Byte array</td>
+<td>State</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.State.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Subscriber_Transition_Gaps</td>
+<td>Byte array</td>
+<td>Subscriber Transition Gaps</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Subscriber_Transition_Gaps.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.System_Resource_Retain_Timer</td>
+<td>Byte array</td>
+<td>System Resource Retain Timer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.System_Resource_Retain_Timer.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_Care_of_Address</td>
+<td>Byte array</td>
+<td>Target Care-of Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_Care_of_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_Care_of_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_FA_IP_Address</td>
+<td>Byte array</td>
+<td>Target FA IP Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_FA_IP_Address.bsid_value</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>BS ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_FA_IP_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Target_FA_IP_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK</td>
+<td>Byte array</td>
+<td>TEK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK_Lifetime</td>
+<td>Byte array</td>
+<td>TEK Lifetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK_Lifetime.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK_SN</td>
+<td>Byte array</td>
+<td>TEK SN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.TEK_SN.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Termination_Action</td>
+<td>Byte array</td>
+<td>Termination Action</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Termination_Action.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.The_number_of_DL_HARQ_Channels</td>
+<td>Byte array</td>
+<td>The number of DL HARQ Channels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.The_number_of_DL_HARQ_Channels.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.The_number_of_UL_HARQ_Channel</td>
+<td>Byte array</td>
+<td>The number of UL HARQ Channel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.The_number_of_UL_HARQ_Channel.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Time_Stamp</td>
+<td>Byte array</td>
+<td>Time Stamp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Time_Stamp.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Tolerated_Jitter</td>
+<td>Byte array</td>
+<td>Tolerated Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Tolerated_Jitter.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Number_of_Provisioned_Service_Flows</td>
+<td>Byte array</td>
+<td>Total Number of Provisioned Service Flows</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Number_of_Provisioned_Service_Flows.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Slots_DL</td>
+<td>Byte array</td>
+<td>Total Slots DL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Slots_DL.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Slots_UL</td>
+<td>Byte array</td>
+<td>Total Slots UL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Total_Slots_UL.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Traffic_Priority_QoS_Priority</td>
+<td>Byte array</td>
+<td>Traffic Priority/QoS Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Traffic_Priority_QoS_Priority.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Tunnel_Endpoint</td>
+<td>Byte array</td>
+<td>Tunnel Endpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Tunnel_Endpoint.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Tunnel_Endpoint.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UCD_Setting</td>
+<td>Byte array</td>
+<td>UCD Setting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UCD_Setting.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UGS_Data_Delivery_Service</td>
+<td>Byte array</td>
+<td>UGS Data Delivery Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UL_PHY_Quality_Info</td>
+<td>Byte array</td>
+<td>UL PHY Quality Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UL_PHY_Quality_Info.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UL_PHY_Service_Level</td>
+<td>Byte array</td>
+<td>UL PHY Service Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.UL_PHY_Service_Level.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unknown</td>
+<td>Byte array</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unknown.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unsolicited_Grant_Interval</td>
+<td>Byte array</td>
+<td>Unsolicited Grant Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unsolicited_Grant_Interval.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unsolicited_Polling_Interval</td>
+<td>Byte array</td>
+<td>Unsolicited Polling Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Unsolicited_Polling_Interval.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Update_Reason</td>
+<td>Byte array</td>
+<td>Update Reason</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Update_Reason.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Control_Channel_Support</td>
+<td>Byte array</td>
+<td>Uplink Control Channel Support</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Control_Channel_Support.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Octets_at_Tariff_Switch</td>
+<td>Byte array</td>
+<td>Uplink Octets at Tariff Switch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Octets_at_Tariff_Switch.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Packets_at_Tariff_Switch</td>
+<td>Byte array</td>
+<td>Uplink Packets at Tariff Switch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Uplink_Packets_at_Tariff_Switch.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VAAA_IP_Address</td>
+<td>Byte array</td>
+<td>VAAA IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VAAA_IP_Address.ipv4_value</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VAAA_IP_Address.ipv6_value</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VAAA_Realm</td>
+<td>Byte array</td>
+<td>VAAA Realm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VAAA_Realm.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Vendor_Specific</td>
+<td>Byte array</td>
+<td>Vendor Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Vendor_Specific.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Vendor_Specific.value.vendor_id</td>
+<td>Unsigned 24-bit integer</td>
+<td>Vendor ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Vendor_Specific.value.vendor_rest_of_info</td>
+<td>Byte array</td>
+<td>Rest of Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Volume_Quota</td>
+<td>Byte array</td>
+<td>Volume Quota</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Volume_Quota.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Volume_Threshold</td>
+<td>Byte array</td>
+<td>Volume Threshold</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.Volume_Threshold.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VolumeUsed</td>
+<td>Byte array</td>
+<td>VolumeUsed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv.VolumeUsed.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_bitflags16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_bitflags32</td>
+<td>Unsigned 32-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_bitflags8</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_bytes</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_protocol</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.tlv_value_vendor_id</td>
+<td>Unsigned 24-bit integer</td>
+<td>Vendor ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.transaction_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Transaction ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wimaxasncp.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

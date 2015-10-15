@@ -1,0 +1,1436 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax SBC-REQ/RSP Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax SBC-REQ/RSP Messages</h1>
+<div><b>Protocol field name:</b> wmx.sbc</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.sbc_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.sbc_rsp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>Association Type Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.bit0</td>
+<td>Boolean</td>
+<td>Scanning Without Association: association not supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.bit1</td>
+<td>Boolean</td>
+<td>Association Level 0: scanning or association without coordination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.bit2</td>
+<td>Boolean</td>
+<td>Association Level 1: association with coordination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.bit3</td>
+<td>Boolean</td>
+<td>Association Level 2: network assisted association</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.bit4</td>
+<td>Boolean</td>
+<td>Desired Association Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.association_type_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.auth_policy</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authorization Policy Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.auth_policy.802_16</td>
+<td>Boolean</td>
+<td>IEEE 802.16 Privacy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.auth_policy.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.bw_alloc_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bandwidth Allocation Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.bw_alloc_support.duplex</td>
+<td>Boolean</td>
+<td>Duplex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.bw_alloc_support.rsvd0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.bw_alloc_support.rsvd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.curr_transmit_power</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current transmitted power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.effective_cinr_measure_permutation_zone.data_subcarriers</td>
+<td>Boolean</td>
+<td>Effective CINR Measurement For A Permutation Zone From Data Subcarriers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.effective_cinr_measure_permutation_zone.pilot_subcarriers</td>
+<td>Boolean</td>
+<td>Effective CINR Measurement For A Permutation Zone From Pilot Subcarriers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.effective_cinr_measure_permutation_zone_preamble</td>
+<td>Boolean</td>
+<td>Effective CINR Measurement For A Permutation Zone From Preamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.extension_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extension Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.extension_capability.bit0</td>
+<td>Boolean</td>
+<td>Supported Extended Subheader Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.extension_capability.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.frequency_selectivity_characterization_report</td>
+<td>Boolean</td>
+<td>Frequency Selectivity Characterization Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability</td>
+<td>Unsigned 16-bit integer</td>
+<td>HARQ Chase Combining And CC-IR Buffer Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.aggregation_flag_dl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Aggregation Flag For DL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.aggregation_flag_ul</td>
+<td>Unsigned 16-bit integer</td>
+<td>Aggregation Flag for UL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.dl_harq_buffering_capability_for_chase_combining</td>
+<td>Unsigned 16-bit integer</td>
+<td>Downlink HARQ Buffering Capability For Chase Combining (K)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.reserved1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.ul_harq_buffering_capability_for_chase_combining</td>
+<td>Unsigned 16-bit integer</td>
+<td>Uplink HARQ buffering capability for chase combining (K)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability</td>
+<td>Unsigned 16-bit integer</td>
+<td>HARQ Incremental Buffer Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.aggregation_flag_for_dl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Aggregation Flag for DL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.aggregation_flag_for_ul</td>
+<td>Unsigned 16-bit integer</td>
+<td>Aggregation Flag For UL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.dl_incremental_redundancy_ctc</td>
+<td>Unsigned 16-bit integer</td>
+<td>NEP Value Indicating Downlink HARQ Buffering Capability For Incremental Redundancy CTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_incremental_redundancy_buffer_capability.ul_incremental_redundancy_ctc</td>
+<td>Unsigned 16-bit integer</td>
+<td>NEP Value Indicating Uplink HARQ Buffering Capability For Incremental Redundancy CTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.harq_map_capability</td>
+<td>Boolean</td>
+<td>H-ARQ MAP Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>HO Trigger Metric Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support.bit0</td>
+<td>Boolean</td>
+<td>BS CINR Mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support.bit1</td>
+<td>Boolean</td>
+<td>BS RSSI Mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support.bit2</td>
+<td>Boolean</td>
+<td>BS Relative Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support.bit3</td>
+<td>Boolean</td>
+<td>BS RTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ho_trigger_metric_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.mac_pdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Capabilities For Construction And Transmission Of MAC PDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.mac_pdu.bit0</td>
+<td>Boolean</td>
+<td>Ability To Receive Requests Piggybacked With Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.mac_pdu.bit1</td>
+<td>Boolean</td>
+<td>Ability To Use 3-bit FSN Values Used When Forming MAC PDUs On Non-ARQ Connections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.mac_pdu.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_num_bst_per_frm_capability_harq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number Of Burst Per Frame Capability In HARQ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_dl_harq_bst_per_harq_per_frm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Numbers Of DL HARQ Bursts Per HARQ Enabled Of MS Per Frame (default(0)=1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_ul_harq_bst</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number Of UL HARQ Burst Per HARQ Enabled MS Per Frame (default(0)=1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_ul_harq_per_frm_include_one_non_harq_bst</td>
+<td>Boolean</td>
+<td>Whether The Maximum Number Of UL HARQ Bursts Per Frame (i.e. Bits# 2-0) Includes The One Non-HARQ Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_security_associations</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number Of Security Association Supported By The SS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.max_transmit_power</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Transmit Power</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.number_dl_arq_ack_channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>The Number Of DL HARQ ACK Channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.number_ul_arq_ack_channel</td>
+<td>Unsigned 8-bit integer</td>
+<td>The Number Of UL HARQ ACK Channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_aas_capabilities.rsvd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_aas_capability</td>
+<td>Unsigned 16-bit integer</td>
+<td>OFDMA AAS Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_aas_diversity_map_scan</td>
+<td>Boolean</td>
+<td>AAS Diversity Map Scan (AAS DLFP)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_aas_fbck_rsp_support</td>
+<td>Boolean</td>
+<td>AAS-FBCK-RSP Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_aas_zone</td>
+<td>Boolean</td>
+<td>AAS Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_downlink_aas_preamble</td>
+<td>Boolean</td>
+<td>Downlink AAS Preamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.dl_region_definition_support</td>
+<td>Boolean</td>
+<td>DL Region Definition Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.extended_harq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Support For Extended HARQ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.extended_harq_ie_capability</td>
+<td>Boolean</td>
+<td>Extended HARQ IE Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.harq_map_capability</td>
+<td>Boolean</td>
+<td>HARQ MAP Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.sub_map_capability_first_zone</td>
+<td>Boolean</td>
+<td>Sub MAP Capability For First Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_map_capability.sub_map_capability_other_zones</td>
+<td>Boolean</td>
+<td>Sub MAP Capability For Other Zones</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA MS CSIT Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.csit_compatibility_type_a</td>
+<td>Boolean</td>
+<td>CSIT Compatibility Type A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.csit_compatibility_type_b</td>
+<td>Boolean</td>
+<td>CSIT Compatibility Type B</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.max_num_simultaneous_sounding_instructions</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Number Of Simultaneous Sounding Instructions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.power_assignment_capability</td>
+<td>Boolean</td>
+<td>Power Assignment Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.sounding_response_time_capability</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sounding Response Time Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_csit_capability.type_a_support</td>
+<td>Boolean</td>
+<td>SS Does Not Support P Values Of 9 And 18 When Supporting CSIT Type A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl</td>
+<td>Boolean</td>
+<td>OFDMA MS Demodulator For MIMO Support In DL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit0</td>
+<td>Boolean</td>
+<td>2-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit1</td>
+<td>Boolean</td>
+<td>2-antenna STC Matrix B, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit10</td>
+<td>Boolean</td>
+<td>3-antenna STC Matrix C, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit11</td>
+<td>Boolean</td>
+<td>3-antenna STC Matrix C, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit12</td>
+<td>Boolean</td>
+<td>Capable Of Calculating Precoding Weight</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit13</td>
+<td>Boolean</td>
+<td>Capable Of Adaptive Rate Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit14</td>
+<td>Boolean</td>
+<td>Capable Of Calculating Channel Matrix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit15</td>
+<td>Boolean</td>
+<td>Capable Of Antenna Grouping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit16</td>
+<td>Boolean</td>
+<td>Capable Of Antenna Selection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit17</td>
+<td>Boolean</td>
+<td>Capable Of Codebook Based Precoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit18</td>
+<td>Boolean</td>
+<td>Capable Of Long-term Precoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit19</td>
+<td>Boolean</td>
+<td>Capable Of MIMO Midamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit2</td>
+<td>Boolean</td>
+<td>Four Receive Antennas</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit3</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit4</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix B, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit5</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix B, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit6</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix C, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit7</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix C, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit8</td>
+<td>Boolean</td>
+<td>3-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit9</td>
+<td>Boolean</td>
+<td>3-antenna STC Matrix B</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_multiple_dl_burst_profile_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA Multiple Downlink Burst Profile Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_multiple_dl_burst_profile_support.dl_bst_profile_for_multiple_fec</td>
+<td>Boolean</td>
+<td>Downlink burst profile for multiple FEC types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_multiple_dl_burst_profile_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_multiple_dl_burst_profile_support.ul_burst_profile_for_multiple_fec_types</td>
+<td>Boolean</td>
+<td>Uplink burst profile for multiple FEC types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA parameters sets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.harq_parameters_set</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ parameters set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.mac_set_a</td>
+<td>Unsigned 8-bit integer</td>
+<td>Support OFDMA MAC parameters set A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.mac_set_b</td>
+<td>Unsigned 8-bit integer</td>
+<td>Support OFDMA MAC parameters set B</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.phy_set_a</td>
+<td>Unsigned 8-bit integer</td>
+<td>Support OFDMA PHY parameter set A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.phy_set_b</td>
+<td>Unsigned 8-bit integer</td>
+<td>Support OFDMA PHY parameter set B</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_parameters_sets.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_cinr_measure_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS CINR Measurement Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_mimo_uplink_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS MIMO uplink support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_mimo_uplink_support.2_antenna_sm_with_vertical_coding</td>
+<td>Unsigned 8-bit integer</td>
+<td>2-antenna SM with vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_mimo_uplink_support.2_antenna_sttd</td>
+<td>Unsigned 8-bit integer</td>
+<td>2-antenna STTD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_mimo_uplink_support.single_antenna_coop_sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Single-antenna cooperative SM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS Modulator For MIMO Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_adaptive_rate_control</td>
+<td>Boolean</td>
+<td>Capable Of Adaptive Rate Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_beamforming</td>
+<td>Boolean</td>
+<td>Capable Of Beamforming</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_spatial_multiplexing</td>
+<td>Boolean</td>
+<td>Capable of spatial multiplexing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_transmit_diversity</td>
+<td>Boolean</td>
+<td>Capable of transmit diversity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_two_antenna</td>
+<td>Unsigned 8-bit integer</td>
+<td>Capable of two antenna</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_single_antenna</td>
+<td>Boolean</td>
+<td>Capable of single antenna transmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.collaborative_sm_with_one_antenna</td>
+<td>Boolean</td>
+<td>Capable of collaborative SM with one antenna</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.collaborative_sm_with_two_antennas</td>
+<td>Unsigned 8-bit integer</td>
+<td>Collaborative SM with two antennas</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_a</td>
+<td>Boolean</td>
+<td>Capable of 2-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_b_horizontal</td>
+<td>Boolean</td>
+<td>Capable of 2-antenna STC Matrix B, Horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_b_vertical</td>
+<td>Boolean</td>
+<td>Capable of 2-antenna STC Matrix B, Vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_modulator_for_mimo_support.two_transmit_antennas</td>
+<td>Boolean</td>
+<td>Two transmit antennas</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_uplink_power_control_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS uplink power control support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_uplink_power_control_support.aas_preamble</td>
+<td>Unsigned 8-bit integer</td>
+<td>AAS preamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_uplink_power_control_support.minimum_num_of_frames</td>
+<td>Unsigned 8-bit integer</td>
+<td>The Minimum Number Of Frames That SS Takes To Switch From The Open Loop Power Control Scheme To The Closed Loop Power Control Scheme Or Vice Versa</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_uplink_power_control_support.open_loop</td>
+<td>Unsigned 8-bit integer</td>
+<td>Open loop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_ss_uplink_power_control_support.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ofdma_uplink_aas_preamble</td>
+<td>Boolean</td>
+<td>Uplink AAS Preamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.phy_cinr_measure_permutation_zone.data_subcarriers</td>
+<td>Boolean</td>
+<td>Physical CINR Measurement For A Permutation Zone From Data Subcarriers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.phy_cinr_measure_permutation_zone.pilot_subcarriers</td>
+<td>Boolean</td>
+<td>Physical CINR Measurement For A Permutation Zone From Pilot Subcarriers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.phy_cinr_measure_preamble</td>
+<td>Boolean</td>
+<td>Physical CINR Measurement From The Preamble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.pkm_flow_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>PKM Flow Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Save Class Types Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability.bit0</td>
+<td>Boolean</td>
+<td>Power Save Class Type I</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability.bit1</td>
+<td>Boolean</td>
+<td>Power Save Class Type II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability.bit2</td>
+<td>Boolean</td>
+<td>Power Save Class Type III</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability.bits34</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Power Save Class Type Instances Supported From Class Type I and II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.power_save_class_types_capability.bits567</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Power Save Class Type Instances Supported From Class Type III</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_chain_enable</td>
+<td>Boolean</td>
+<td>Private Map Chain Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_map_concurrency</td>
+<td>Unsigned 8-bit integer</td>
+<td>Private Map Chain Concurrency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_map_dl_frame_offset</td>
+<td>Boolean</td>
+<td>Private Map DL Frame Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_map_support</td>
+<td>Boolean</td>
+<td>Private Map Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_map_support.ofdma_aas</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA AAS Private Map Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_map_support.reduced</td>
+<td>Boolean</td>
+<td>Reduced Private Map Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.private_ul_frame_offset</td>
+<td>Boolean</td>
+<td>Private Map UL Frame Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.sdma_pilot_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDMA Pilot Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.sdma_pilot_capability.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.sdma_pilot_capability.sdma_pilot_pattern_support_for_amc_zone</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDMA Pilot Patterns Support For AMC Zone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator</td>
+<td>Byte array</td>
+<td>OFDMA SS Demodulator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.64qam</td>
+<td>Boolean</td>
+<td>64-QAM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.btc</td>
+<td>Boolean</td>
+<td>BTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.cc_with_optional_interleaver</td>
+<td>Boolean</td>
+<td>CC with Optional Interleaver</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.ctc</td>
+<td>Boolean</td>
+<td>CTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.dedicated_pilots</td>
+<td>Boolean</td>
+<td>Dedicated Pilots</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.harq.cc.ir</td>
+<td>Boolean</td>
+<td>HARQ CC_IR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.harq.chase</td>
+<td>Boolean</td>
+<td>HARQ Chase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.harq.ctc.ir</td>
+<td>Boolean</td>
+<td>HARQ CTC_IR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.ldpc</td>
+<td>Boolean</td>
+<td>LDPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.a</td>
+<td>Boolean</td>
+<td>2-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.b.horizontal</td>
+<td>Boolean</td>
+<td>2-antenna STC Matrix B, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.b.vertical</td>
+<td>Boolean</td>
+<td>2-antenna STC Matrix B, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.a</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.b.horizontal</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix B, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.b.vertical</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix B, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.c.horizontal</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix C, horizontal coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.c.vertical</td>
+<td>Boolean</td>
+<td>4-antenna STC Matrix C, vertical coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.mimo.support</td>
+<td>Unsigned 16-bit integer</td>
+<td>OFDMA SS Demodulator For MIMO Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.reserved1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.reserved2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_demodulator.stc</td>
+<td>Boolean</td>
+<td>STC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS FFT Sizes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.1024</td>
+<td>Boolean</td>
+<td>FFT-1024</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.128</td>
+<td>Boolean</td>
+<td>FFT-128</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.2048</td>
+<td>Boolean</td>
+<td>FFT-2048</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.256</td>
+<td>Boolean</td>
+<td>FFT-256</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.512</td>
+<td>Boolean</td>
+<td>FFT-512</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_fft_sizes.rsvd2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_mimo_ul_support.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_minimum_num_of_frames</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS minimum number of frames</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA SS Modulator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.64qam</td>
+<td>Boolean</td>
+<td>64-QAM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.btc</td>
+<td>Boolean</td>
+<td>BTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.cc_ir</td>
+<td>Boolean</td>
+<td>CC_IR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.ctc</td>
+<td>Boolean</td>
+<td>CTC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.ctc_ir</td>
+<td>Boolean</td>
+<td>CTC_IR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.harq_chase</td>
+<td>Boolean</td>
+<td>HARQ Chase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.ldpc</td>
+<td>Boolean</td>
+<td>LDPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_modulator.stc</td>
+<td>Boolean</td>
+<td>STC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFMDA SS Permutation Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.amc_1x6</td>
+<td>Boolean</td>
+<td>AMC 1x6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.amc_2x3</td>
+<td>Boolean</td>
+<td>AMC 2x3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.amc_3x2</td>
+<td>Boolean</td>
+<td>AMC 3x2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.amc_support_harq_map</td>
+<td>Boolean</td>
+<td>AMC Support With H-ARQ Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.optimal_fusc</td>
+<td>Boolean</td>
+<td>Optional FUSC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.optimal_pusc</td>
+<td>Boolean</td>
+<td>Optional PUSC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.tusc1_support</td>
+<td>Boolean</td>
+<td>TUSC1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ss_permutation_support.tusc2_support</td>
+<td>Boolean</td>
+<td>TUSC2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ssrtg</td>
+<td>Unsigned 8-bit integer</td>
+<td>SSRTG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ssttg</td>
+<td>Unsigned 8-bit integer</td>
+<td>SSTTG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.support_2_concurrent_cqi_channels</td>
+<td>Boolean</td>
+<td>Support for 2 Concurrent CQI Channels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.transition_gaps</td>
+<td>Unsigned 16-bit integer</td>
+<td>Subscriber Transition Gaps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink Control Channel Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.3bit_mimo_fast_feedback</td>
+<td>Boolean</td>
+<td>3-bit MIMO Fast-feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.diuc_cqi_fast_feedback</td>
+<td>Boolean</td>
+<td>DIUC-CQI Fast-feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.enhanced_fast_feedback</td>
+<td>Boolean</td>
+<td>Enhanced Fast_feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.measurement_report</td>
+<td>Boolean</td>
+<td>A Measurement Report Shall Be Performed On The Last DL Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.primary_secondary_fast_feedback</td>
+<td>Boolean</td>
+<td>Primary/Secondary FAST_FEEDBACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.uep_fast_feedback</td>
+<td>Boolean</td>
+<td>UEP Fast-feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.ul_ctl_channel_support.ul_ack</td>
+<td>Boolean</td>
+<td>UL ACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown SBC type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sbc_ss_fft_sizes_rsvd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

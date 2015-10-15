@@ -1,0 +1,4610 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Server Service</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Server Service</h1>
+<div><b>Protocol field name:</b> srvsvc</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>srvsvc.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.sec_desc_buf_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sec Desc Buf Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.CSC_CACHE_AUTO_REINT</td>
+<td>Boolean</td>
+<td>Csc Cache Auto Reint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.CSC_CACHE_VDO</td>
+<td>Boolean</td>
+<td>Csc Cache Vdo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.FLAGS_ACCESS_BASED_DIRECTORY_ENUM</td>
+<td>Boolean</td>
+<td>Flags Access Based Directory Enum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.FLAGS_ALLOW_NAMESPACE_CACHING</td>
+<td>Boolean</td>
+<td>Flags Allow Namespace Caching</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.FLAGS_FORCE_SHARED_DELETE</td>
+<td>Boolean</td>
+<td>Flags Force Shared Delete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.FLAGS_RESTRICT_EXCLUSIVE_OPENS</td>
+<td>Boolean</td>
+<td>Flags Restrict Exclusive Opens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.SHARE_1005_FLAGS_DFS_ROOT</td>
+<td>Boolean</td>
+<td>Share 1005 Flags Dfs Root</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_DFSFlags.SHARE_1005_FLAGS_IN_DFS</td>
+<td>Boolean</td>
+<td>Share 1005 Flags In Dfs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevControl.device_name</td>
+<td>String</td>
+<td>Device Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevControl.opcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevControl.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevGetInfo.device_name</td>
+<td>String</td>
+<td>Device Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevGetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo0.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo1.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo1.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo1.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevInfo1.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQEnum.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQGetInfo.queue_name</td>
+<td>String</td>
+<td>Queue Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQGetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQGetInfo.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo0.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo1.device</td>
+<td>String</td>
+<td>Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo1.devices</td>
+<td>String</td>
+<td>Devices</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo1.num_ahead</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Ahead</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo1.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQInfo1.users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQPurge.queue_name</td>
+<td>String</td>
+<td>Queue Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQPurge.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQPurgeSelf.computer_name</td>
+<td>String</td>
+<td>Computer Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQPurgeSelf.queue_name</td>
+<td>String</td>
+<td>Queue Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQPurgeSelf.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQSetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQSetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQSetInfo.parm_error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQSetInfo.queue_name</td>
+<td>String</td>
+<td>Queue Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetCharDevQSetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo0.conn_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Conn Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.conn_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Conn Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.conn_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Conn Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.conn_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Conn Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.num_open</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Open</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.num_users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.share</td>
+<td>String</td>
+<td>Share</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetConnInfo1.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.maxlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskInfo.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskInfo.disks</td>
+<td>None</td>
+<td>Disks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetDiskInfo0.disk</td>
+<td>None</td>
+<td>Disk</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileClose.fid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileClose.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr.ctr2</td>
+<td>None</td>
+<td>Ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr.ctr3</td>
+<td>None</td>
+<td>Ctr3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr2.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr3.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileCtr3.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileEnum.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileGetInfo.fid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileGetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo.info2</td>
+<td>None</td>
+<td>Info2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo.info3</td>
+<td>None</td>
+<td>Info3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo2.fid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo3.fid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo3.num_locks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Locks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo3.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo3.permissions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Permissions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetFileInfo3.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetGetFileSecurity.file</td>
+<td>String</td>
+<td>File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetGetFileSecurity.sd_buf</td>
+<td>None</td>
+<td>Sd Buf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetGetFileSecurity.securityinformation</td>
+<td>None</td>
+<td>Securityinformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetGetFileSecurity.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetGetFileSecurity.share</td>
+<td>String</td>
+<td>Share</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetNameValidate.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetNameValidate.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetNameValidate.name_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetNameValidate.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.can_path</td>
+<td>Unsigned 8-bit integer</td>
+<td>Can Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.maxbuf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxbuf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.pathflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathflags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.pathtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.prefix</td>
+<td>String</td>
+<td>Prefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCanonicalize.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCompare.path1</td>
+<td>String</td>
+<td>Path1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCompare.path2</td>
+<td>String</td>
+<td>Path2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCompare.pathflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathflags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCompare.pathtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathCompare.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathType.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathType.pathflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathflags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathType.pathtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pathtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPathType.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPRNameCompare.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPRNameCompare.name1</td>
+<td>String</td>
+<td>Name1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPRNameCompare.name2</td>
+<td>String</td>
+<td>Name2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPRNameCompare.name_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetPRNameCompare.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTOD.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTOD.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.day</td>
+<td>Unsigned 32-bit integer</td>
+<td>Day</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.elapsed</td>
+<td>Unsigned 32-bit integer</td>
+<td>Elapsed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.hours</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hours</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.hunds</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hunds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.mins</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mins</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.month</td>
+<td>Unsigned 32-bit integer</td>
+<td>Month</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.msecs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Msecs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.secs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Secs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.timezone</td>
+<td>Signed 32-bit integer</td>
+<td>Timezone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.tinterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tinterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.weekday</td>
+<td>Unsigned 32-bit integer</td>
+<td>Weekday</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetRemoteTODInfo.year</td>
+<td>Unsigned 32-bit integer</td>
+<td>Year</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.emulated_server_unc</td>
+<td>String</td>
+<td>Emulated Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.servicebits</td>
+<td>Unsigned 32-bit integer</td>
+<td>Servicebits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.servicebitsofinterest</td>
+<td>Unsigned 32-bit integer</td>
+<td>Servicebitsofinterest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.transport</td>
+<td>String</td>
+<td>Transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerSetServiceBitsEx.updateimmediately</td>
+<td>Unsigned 32-bit integer</td>
+<td>Updateimmediately</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerStatisticsGet.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerStatisticsGet.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerStatisticsGet.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerStatisticsGet.service</td>
+<td>String</td>
+<td>Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerStatisticsGet.stat</td>
+<td>None</td>
+<td>Stat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerTransportAddEx.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerTransportAddEx.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetServerTransportAddEx.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr.ctr10</td>
+<td>None</td>
+<td>Ctr10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr.ctr2</td>
+<td>None</td>
+<td>Ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr.ctr502</td>
+<td>None</td>
+<td>Ctr502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr10.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr10.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr2.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr502.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessCtr502.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessDel.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessDel.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessDel.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessEnum.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo0.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.idle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.num_open</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Open</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo1.user_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>User Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo10.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo10.idle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo10.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo10.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.client_type</td>
+<td>String</td>
+<td>Client Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.idle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.num_open</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Open</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo2.user_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>User Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.client</td>
+<td>String</td>
+<td>Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.client_type</td>
+<td>String</td>
+<td>Client Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.idle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.num_open</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Open</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.transport</td>
+<td>String</td>
+<td>Transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.user</td>
+<td>String</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSessInfo502.user_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>User Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetFileSecurity.file</td>
+<td>String</td>
+<td>File</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetFileSecurity.sd_buf</td>
+<td>None</td>
+<td>Sd Buf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetFileSecurity.securityinformation</td>
+<td>None</td>
+<td>Securityinformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetFileSecurity.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetFileSecurity.share</td>
+<td>String</td>
+<td>Share</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetServiceBits.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetServiceBits.servicebits</td>
+<td>Unsigned 32-bit integer</td>
+<td>Servicebits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetServiceBits.transport</td>
+<td>String</td>
+<td>Transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSetServiceBits.updateimmediately</td>
+<td>Unsigned 32-bit integer</td>
+<td>Updateimmediately</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareAdd.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareAdd.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareAdd.parm_error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareAdd.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCheck.device_name</td>
+<td>String</td>
+<td>Device Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCheck.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCheck.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1004</td>
+<td>None</td>
+<td>Ctr1004</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1005</td>
+<td>None</td>
+<td>Ctr1005</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1006</td>
+<td>None</td>
+<td>Ctr1006</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1007</td>
+<td>None</td>
+<td>Ctr1007</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr1501</td>
+<td>None</td>
+<td>Ctr1501</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr2</td>
+<td>None</td>
+<td>Ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr501</td>
+<td>None</td>
+<td>Ctr501</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr.ctr502</td>
+<td>None</td>
+<td>Ctr502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1004.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1004.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1005.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1005.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1006.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1006.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1007.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1007.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1501.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr1501.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr2.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr501.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr501.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr502.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareCtr502.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDel.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDel.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDel.share_name</td>
+<td>String</td>
+<td>Share Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelCommit.hnd</td>
+<td>Byte array</td>
+<td>Hnd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelStart.hnd</td>
+<td>Byte array</td>
+<td>Hnd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelStart.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelStart.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelStart.share</td>
+<td>String</td>
+<td>Share</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelSticky.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelSticky.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareDelSticky.share_name</td>
+<td>String</td>
+<td>Share Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareEnumAll.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareGetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareGetInfo.share_name</td>
+<td>String</td>
+<td>Share Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1004</td>
+<td>None</td>
+<td>Info1004</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1005</td>
+<td>None</td>
+<td>Info1005</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1006</td>
+<td>None</td>
+<td>Info1006</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1007</td>
+<td>None</td>
+<td>Info1007</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info1501</td>
+<td>None</td>
+<td>Info1501</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info2</td>
+<td>None</td>
+<td>Info2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info501</td>
+<td>None</td>
+<td>Info501</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo.info502</td>
+<td>None</td>
+<td>Info502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo0.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1004.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1005.dfs_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dfs Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1006.max_users</td>
+<td>Signed 32-bit integer</td>
+<td>Max Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1007.alternate_directory_name</td>
+<td>String</td>
+<td>Alternate Directory Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo1007.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.current_users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Current Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.max_users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.permissions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Permissions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo2.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo501.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo501.csc_policy</td>
+<td>Unsigned 32-bit integer</td>
+<td>Csc Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo501.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo501.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.current_users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Current Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.max_users</td>
+<td>Signed 32-bit integer</td>
+<td>Max Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.path</td>
+<td>String</td>
+<td>Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.permissions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Permissions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.sd</td>
+<td>None</td>
+<td>Sd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareInfo502.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareSetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareSetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareSetInfo.parm_error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareSetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetShareSetInfo.share_name</td>
+<td>String</td>
+<td>Share Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvGetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info100</td>
+<td>None</td>
+<td>Info100</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1005</td>
+<td>None</td>
+<td>Info1005</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info101</td>
+<td>None</td>
+<td>Info101</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1010</td>
+<td>None</td>
+<td>Info1010</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1016</td>
+<td>None</td>
+<td>Info1016</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1017</td>
+<td>None</td>
+<td>Info1017</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1018</td>
+<td>None</td>
+<td>Info1018</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info102</td>
+<td>None</td>
+<td>Info102</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1107</td>
+<td>None</td>
+<td>Info1107</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1501</td>
+<td>None</td>
+<td>Info1501</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1502</td>
+<td>None</td>
+<td>Info1502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1503</td>
+<td>None</td>
+<td>Info1503</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1506</td>
+<td>None</td>
+<td>Info1506</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1509</td>
+<td>None</td>
+<td>Info1509</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1510</td>
+<td>None</td>
+<td>Info1510</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1511</td>
+<td>None</td>
+<td>Info1511</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1512</td>
+<td>None</td>
+<td>Info1512</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1513</td>
+<td>None</td>
+<td>Info1513</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1514</td>
+<td>None</td>
+<td>Info1514</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1515</td>
+<td>None</td>
+<td>Info1515</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1516</td>
+<td>None</td>
+<td>Info1516</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1518</td>
+<td>None</td>
+<td>Info1518</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1520</td>
+<td>None</td>
+<td>Info1520</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1521</td>
+<td>None</td>
+<td>Info1521</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1522</td>
+<td>None</td>
+<td>Info1522</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1523</td>
+<td>None</td>
+<td>Info1523</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1524</td>
+<td>None</td>
+<td>Info1524</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1525</td>
+<td>None</td>
+<td>Info1525</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1528</td>
+<td>None</td>
+<td>Info1528</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1529</td>
+<td>None</td>
+<td>Info1529</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1530</td>
+<td>None</td>
+<td>Info1530</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1533</td>
+<td>None</td>
+<td>Info1533</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1534</td>
+<td>None</td>
+<td>Info1534</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1535</td>
+<td>None</td>
+<td>Info1535</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1536</td>
+<td>None</td>
+<td>Info1536</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1537</td>
+<td>None</td>
+<td>Info1537</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1538</td>
+<td>None</td>
+<td>Info1538</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1539</td>
+<td>None</td>
+<td>Info1539</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1540</td>
+<td>None</td>
+<td>Info1540</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1541</td>
+<td>None</td>
+<td>Info1541</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1542</td>
+<td>None</td>
+<td>Info1542</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1543</td>
+<td>None</td>
+<td>Info1543</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1544</td>
+<td>None</td>
+<td>Info1544</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1545</td>
+<td>None</td>
+<td>Info1545</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1546</td>
+<td>None</td>
+<td>Info1546</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1547</td>
+<td>None</td>
+<td>Info1547</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1548</td>
+<td>None</td>
+<td>Info1548</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1549</td>
+<td>None</td>
+<td>Info1549</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1550</td>
+<td>None</td>
+<td>Info1550</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1552</td>
+<td>None</td>
+<td>Info1552</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1553</td>
+<td>None</td>
+<td>Info1553</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1554</td>
+<td>None</td>
+<td>Info1554</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1555</td>
+<td>None</td>
+<td>Info1555</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info1556</td>
+<td>None</td>
+<td>Info1556</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info402</td>
+<td>None</td>
+<td>Info402</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info403</td>
+<td>None</td>
+<td>Info403</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info502</td>
+<td>None</td>
+<td>Info502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info503</td>
+<td>None</td>
+<td>Info503</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo.info599</td>
+<td>None</td>
+<td>Info599</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo100.platform_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo100.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1005.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.platform_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.server_type</td>
+<td>None</td>
+<td>Server Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.version_major</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Major</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo101.version_minor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Minor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1010.disc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Disc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1016.hidden</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hidden</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1017.announce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Announce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1018.anndelta</td>
+<td>Unsigned 32-bit integer</td>
+<td>Anndelta</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.anndelta</td>
+<td>Unsigned 32-bit integer</td>
+<td>Anndelta</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.announce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Announce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.comment</td>
+<td>String</td>
+<td>Comment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.disc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Disc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.hidden</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hidden</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.licenses</td>
+<td>Unsigned 32-bit integer</td>
+<td>Licenses</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.platform_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.server_type</td>
+<td>None</td>
+<td>Server Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.userpath</td>
+<td>String</td>
+<td>Userpath</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.version_major</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Major</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo102.version_minor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Minor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1107.users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1501.sessopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1502.sessvcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessvcs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1503.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1506.maxworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1509.maxrawbuflen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxrawbuflen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1510.sessusers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessusers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1511.sesscons</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesscons</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1512.maxnonpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxnonpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1513.maxpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1514.enablesoftcompat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesoftcompat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1515.enableforcedlogoff</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableforcedlogoff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1516.timesource</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timesource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1518.lmannounce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lmannounce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1520.maxcopyreadlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopyreadlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1521.maxcopywritelen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopywritelen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1522.minkeepsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1523.maxkeepsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxkeepsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1524.minkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1525.maxkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1528.scavtimeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Scavtimeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1529.minrcvqueue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minrcvqueue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1530.minfreeworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1533.maxmpxct</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxmpxct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1534.oplockbreakwait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakwait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1535.oplockbreakresponsewait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakresponsewait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1536.enableoplocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1537.enableoplockforceclose</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplockforceclose</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1538.enablefcbopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablefcbopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1539.enableraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1540.enablesharednetdrives</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesharednetdrives</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1541.minfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1542.maxfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1543.initsesstable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initsesstable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1544.initconntable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initconntable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1545.initfiletable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initfiletable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1546.initsearchtable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initsearchtable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1547.alertsched</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alertsched</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1548.errortreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errortreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1549.networkerrortreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Networkerrortreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1550.diskspacetreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diskspacetreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1552.maxlinkdelay</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxlinkdelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1553.minlinkthroughput</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minlinkthroughput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1554.linkinfovalidtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Linkinfovalidtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1555.scavqosinfoupdatetime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Scavqosinfoupdatetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo1556.maxworkitemidletime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitemidletime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.accessalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Accessalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.activelocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Activelocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.alerts</td>
+<td>String</td>
+<td>Alerts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.alertsched</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alertsched</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.alist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.chdevjobs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevjobs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.chdevqs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevqs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.chdevs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.connections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Connections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.diskalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diskalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.erroralert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Erroralert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.glist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Glist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.guestaccount</td>
+<td>String</td>
+<td>Guestaccount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.lanmask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lanmask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.logonalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Logonalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.maxaudits</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxaudits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.netioalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Netioalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.numadmin</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numadmin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.numbigbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numbigbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.numfiletasks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numfiletasks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.openfiles</td>
+<td>Unsigned 32-bit integer</td>
+<td>Openfiles</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.security</td>
+<td>Unsigned 32-bit integer</td>
+<td>Security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.sessopen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.sessreqs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessreqs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.sesssvc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesssvc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.shares</td>
+<td>Unsigned 32-bit integer</td>
+<td>Shares</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.sizereqbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sizereqbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.srvheuristics</td>
+<td>String</td>
+<td>Srvheuristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo402.ulist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ulist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.accessalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Accessalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.activelocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Activelocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.alerts</td>
+<td>String</td>
+<td>Alerts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.alertsched</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alertsched</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.alist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.auditedevents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auditedevents</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.auditprofile</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auditprofile</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.autopath</td>
+<td>String</td>
+<td>Autopath</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.chdevjobs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevjobs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.chdevqs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevqs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.chdevs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Chdevs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.connections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Connections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.diskalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diskalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.eroralert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Eroralert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.glist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Glist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.guestaccount</td>
+<td>String</td>
+<td>Guestaccount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.lanmask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lanmask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.logonalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Logonalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.maxaudits</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxaudits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.netioalert</td>
+<td>Unsigned 32-bit integer</td>
+<td>Netioalert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.numadmin</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numadmin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.numbigbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numbigbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.numfiletasks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numfiletasks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.openfiles</td>
+<td>Unsigned 32-bit integer</td>
+<td>Openfiles</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.security</td>
+<td>Unsigned 32-bit integer</td>
+<td>Security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.sessopen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.sessreqs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessreqs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.sesssvc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesssvc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.shares</td>
+<td>Unsigned 32-bit integer</td>
+<td>Shares</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.sizereqbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sizereqbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.srvheuristics</td>
+<td>String</td>
+<td>Srvheuristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo403.ulist_mtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ulist Mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.acceptdownlevelapis</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acceptdownlevelapis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.enableforcedlogoff</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableforcedlogoff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.enablesoftcompat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesoftcompat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.initworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.irpstacksize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Irpstacksize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.lmannounce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lmannounce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.maxnonpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxnonpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.maxpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.maxrawbuflen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxrawbuflen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.maxworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.rawworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rawworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.sessconns</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessconns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.sessopen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.sesssvc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesssvc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.sessusers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessusers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.sizereqbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sizereqbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo502.timesource</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timesource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.acceptdownlevelapis</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acceptdownlevelapis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enablefcbopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablefcbopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enableforcedlogoff</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableforcedlogoff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enableoplockforceclose</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplockforceclose</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enableoplocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enableraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enablesharednetdrives</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesharednetdrives</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.enablesoftcompat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesoftcompat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.initworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.irpstacksize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Irpstacksize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.lmannounce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lmannounce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxcopyreadlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopyreadlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxcopywritelen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopywritelen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxkeepsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxkeepsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxmpxct</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxmpxct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxnonpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxnonpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxrawbuflen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxrawbuflen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.maxworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.minfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.minfreeworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.minkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.minkeepsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.minrcvqueue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minrcvqueue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.numlockthreads</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numlockthreads</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.oplockbreakresponsewait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakresponsewait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.oplockbreakwait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakwait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.rawworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rawworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.scavtimeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Scavtimeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.sessconns</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessconns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.sessopen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.sesssvc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesssvc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.sessusers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessusers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.sizereqbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sizereqbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.threadcountadd</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threadcountadd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.threadpriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threadpriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.timesource</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timesource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo503.xactmemsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Xactmemsize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.acceptdownlevelapis</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acceptdownlevelapis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.alertsched</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alertsched</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.diskspacetreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Diskspacetreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enablefcbopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablefcbopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enableforcedlogoff</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableforcedlogoff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enableoplockforceclose</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplockforceclose</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enableoplocks</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableoplocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enableraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enableraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enablesharednetdrives</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesharednetdrives</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.enablesoftcompat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enablesoftcompat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.errortreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errortreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.initconntable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initconntable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.initfiletable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initfiletable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.initsearchtable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initsearchtable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.initsesstable</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initsesstable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.initworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.irpstacksize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Irpstacksize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.linkinfovalidtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Linkinfovalidtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.lmannounce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lmannounce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxcopyreadlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopyreadlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxcopywritelen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxcopywritelen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxlinkdelay</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxlinkdelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxmpxct</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxmpxct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxnonpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxnonpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxpagedmemoryusage</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxpagedmemoryusage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxrawbuflen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxrawbuflen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxworkitemidletime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitemidletime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.maxworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maxworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minfreeconnections</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeconnections</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minfreeworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minfreeworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minkeepcomplsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepcomplsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minkeepsearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minkeepsearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minlinkthroughput</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minlinkthroughput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.minrcvqueue</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minrcvqueue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.networkerrortreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Networkerrortreshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.numlockthreads</td>
+<td>Unsigned 32-bit integer</td>
+<td>Numlockthreads</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.opensearch</td>
+<td>Unsigned 32-bit integer</td>
+<td>Opensearch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.oplockbreakresponsewait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakresponsewait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.oplockbreakwait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Oplockbreakwait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.rawworkitems</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rawworkitems</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.scavqosinfoupdatetime</td>
+<td>Unsigned 32-bit integer</td>
+<td>Scavqosinfoupdatetime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.scavtimeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Scavtimeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.sessconns</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessconns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.sessopen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessopen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.sesssvc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sesssvc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.sessusers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sessusers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.sizereqbufs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sizereqbufs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.threadcountadd</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threadcountadd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.threadpriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>Threadpriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.timesource</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timesource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvInfo599.xactmemsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Xactmemsize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvSetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvSetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvSetInfo.parm_error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetSrvSetInfo.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportAdd.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportAdd.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportAdd.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr.ctr2</td>
+<td>None</td>
+<td>Ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr.ctr3</td>
+<td>None</td>
+<td>Ctr3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr2.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr3.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportCtr3.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportDel.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportDel.transport</td>
+<td>None</td>
+<td>Transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportDel.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.server_unc</td>
+<td>String</td>
+<td>Server Unc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.totalentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Totalentries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportEnum.transports</td>
+<td>None</td>
+<td>Transports</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo.info2</td>
+<td>None</td>
+<td>Info2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo.info3</td>
+<td>None</td>
+<td>Info3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo0.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo0.addr_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo0.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo0.net_addr</td>
+<td>String</td>
+<td>Net Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo0.vcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vcs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.addr_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.net_addr</td>
+<td>String</td>
+<td>Net Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo1.vcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vcs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.addr_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.net_addr</td>
+<td>String</td>
+<td>Net Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.transport_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transport Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo2.vcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vcs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.addr_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.net_addr</td>
+<td>String</td>
+<td>Net Addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.password</td>
+<td>Unsigned 8-bit integer</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.password_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Password Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.transport_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transport Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_NetTransportInfo3.vcs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vcs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_SessionUserFlags.SESS_GUEST</td>
+<td>Boolean</td>
+<td>Sess Guest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_SessionUserFlags.SESS_NOENCRYPTION</td>
+<td>Boolean</td>
+<td>Sess Noencryption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.avresponse</td>
+<td>Unsigned 32-bit integer</td>
+<td>Avresponse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.bigbufneed</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bigbufneed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.bytesrcvd_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bytesrcvd High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.bytesrcvd_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bytesrcvd Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.bytessent_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bytessent High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.bytessent_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bytessent Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.devopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Devopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.fopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.jobsqueued</td>
+<td>Unsigned 32-bit integer</td>
+<td>Jobsqueued</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.permerrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Permerrors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.pwerrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pwerrors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.reqbufneed</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reqbufneed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.serrorout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Serrorout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.sopens</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sopens</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.start</td>
+<td>Unsigned 32-bit integer</td>
+<td>Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.stimeouts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stimeouts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_Statistics.syserrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Syserrors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.srvsvc_TransportFlags.SVTI2_REMAP_PIPE_NAMES</td>
+<td>Boolean</td>
+<td>Svti2 Remap Pipe Names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srvsvc.werror</td>
+<td>Unsigned 32-bit integer</td>
+<td>Windows Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,812 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: NIS+</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: NIS+</h1>
+<div><b>Protocol field name:</b> nisplus</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>.nisplus.dummy</td>
+<td>Byte array</td>
+<td> </td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>nisplus.access.mask</td>
+<td>None</td>
+<td>access mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.aticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>aticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.attr</td>
+<td>None</td>
+<td>Attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.attr.name</td>
+<td>String</td>
+<td>name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.attr.val</td>
+<td>Byte array</td>
+<td>val</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.attributes</td>
+<td>None</td>
+<td>Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.callback.status</td>
+<td>Boolean</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.checkpoint.dticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>dticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.checkpoint.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.checkpoint.zticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>zticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.cookie</td>
+<td>Byte array</td>
+<td>cookie</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.cticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>cticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.ctime</td>
+<td>Date/Time stamp</td>
+<td>ctime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory</td>
+<td>None</td>
+<td>directory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask</td>
+<td>None</td>
+<td>mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.group_create</td>
+<td>Boolean</td>
+<td>GROUP CREATE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.group_destroy</td>
+<td>Boolean</td>
+<td>GROUP DESTROY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.group_modify</td>
+<td>Boolean</td>
+<td>GROUP MODIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.group_read</td>
+<td>Boolean</td>
+<td>GROUP READ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.nobody_create</td>
+<td>Boolean</td>
+<td>NOBODY CREATE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.nobody_destroy</td>
+<td>Boolean</td>
+<td>NOBODY DESTROY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.nobody_modify</td>
+<td>Boolean</td>
+<td>NOBODY MODIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.nobody_read</td>
+<td>Boolean</td>
+<td>NOBODY READ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.owner_create</td>
+<td>Boolean</td>
+<td>OWNER CREATE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.owner_destroy</td>
+<td>Boolean</td>
+<td>OWNER DESTROY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.owner_modify</td>
+<td>Boolean</td>
+<td>OWNER MODIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.owner_read</td>
+<td>Boolean</td>
+<td>OWNER READ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.world_create</td>
+<td>Boolean</td>
+<td>WORLD CREATE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.world_destroy</td>
+<td>Boolean</td>
+<td>WORLD DESTROY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.world_modify</td>
+<td>Boolean</td>
+<td>WORLD MODIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask.world_read</td>
+<td>Boolean</td>
+<td>WORLD READ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.mask_list</td>
+<td>None</td>
+<td>mask list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.name</td>
+<td>String</td>
+<td>directory name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.ttl</td>
+<td>Unsigned 32-bit integer</td>
+<td>ttl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.directory.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.dticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>dticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.dummy</td>
+<td>Byte array</td>
+<td>dummy</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.dump.dir</td>
+<td>String</td>
+<td>directory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.dump.time</td>
+<td>Date/Time stamp</td>
+<td>time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.endpoint</td>
+<td>None</td>
+<td>endpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.endpoint.family</td>
+<td>String</td>
+<td>family</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.endpoint.proto</td>
+<td>String</td>
+<td>proto</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.endpoint.uaddr</td>
+<td>String</td>
+<td>addr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.endpoints</td>
+<td>None</td>
+<td>nis endpoints</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry</td>
+<td>None</td>
+<td>entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.col</td>
+<td>None</td>
+<td>column</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.cols</td>
+<td>None</td>
+<td>columns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags.asn</td>
+<td>Boolean</td>
+<td>ASN.1</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags.binary</td>
+<td>Boolean</td>
+<td>BINARY</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags.encrypted</td>
+<td>Boolean</td>
+<td>ENCRYPTED</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags.modified</td>
+<td>Boolean</td>
+<td>MODIFIED</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nisplus.entry.flags.xdr</td>
+<td>Boolean</td>
+<td>XDR</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask</td>
+<td>None</td>
+<td>mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask.asn</td>
+<td>Boolean</td>
+<td>ASN.1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask.binary</td>
+<td>Boolean</td>
+<td>BINARY</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask.encrypted</td>
+<td>Boolean</td>
+<td>ENCRYPTED</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask.modified</td>
+<td>Boolean</td>
+<td>MODIFIED</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.mask.xdr</td>
+<td>Boolean</td>
+<td>XDR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.type</td>
+<td>String</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.entry.val</td>
+<td>String</td>
+<td>val</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.fd.dir.data</td>
+<td>Byte array</td>
+<td>data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.fd.dirname</td>
+<td>String</td>
+<td>dirname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.fd.requester</td>
+<td>String</td>
+<td>requester</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.fd.sig</td>
+<td>Byte array</td>
+<td>signature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.group</td>
+<td>None</td>
+<td>Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.group.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.group.name</td>
+<td>String</td>
+<td>group name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.grps</td>
+<td>None</td>
+<td>Groups</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.ib.bufsize</td>
+<td>Unsigned 32-bit integer</td>
+<td>bufsize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.ib.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.key.data</td>
+<td>Byte array</td>
+<td>key data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.key.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.link</td>
+<td>None</td>
+<td>link</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.log.entries</td>
+<td>None</td>
+<td>log entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.log.entry</td>
+<td>None</td>
+<td>log entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.log.entry.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.log.principal</td>
+<td>String</td>
+<td>principal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.log.time</td>
+<td>Date/Time stamp</td>
+<td>time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.mtime</td>
+<td>Date/Time stamp</td>
+<td>mtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object</td>
+<td>None</td>
+<td>NIS Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.domain</td>
+<td>String</td>
+<td>domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.group</td>
+<td>String</td>
+<td>group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.name</td>
+<td>String</td>
+<td>name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.oid</td>
+<td>None</td>
+<td>Object Identity Verifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.owner</td>
+<td>String</td>
+<td>owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.private</td>
+<td>Byte array</td>
+<td>private</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.ttl</td>
+<td>Unsigned 32-bit integer</td>
+<td>ttl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.object.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.ping.dir</td>
+<td>String</td>
+<td>directory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.ping.time</td>
+<td>Date/Time stamp</td>
+<td>time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.procedure_v3</td>
+<td>Unsigned 32-bit integer</td>
+<td>V3 Procedure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.server</td>
+<td>None</td>
+<td>server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.server.name</td>
+<td>String</td>
+<td>name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.servers</td>
+<td>None</td>
+<td>nis servers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table</td>
+<td>None</td>
+<td>table</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.col</td>
+<td>None</td>
+<td>column</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.col.flags</td>
+<td>None</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.col.name</td>
+<td>String</td>
+<td>column name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.cols</td>
+<td>None</td>
+<td>columns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.asn</td>
+<td>Boolean</td>
+<td>asn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.binary</td>
+<td>Boolean</td>
+<td>binary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.casesensitive</td>
+<td>Boolean</td>
+<td>casesensitive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.encrypted</td>
+<td>Boolean</td>
+<td>encrypted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.modified</td>
+<td>Boolean</td>
+<td>modified</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.searchable</td>
+<td>Boolean</td>
+<td>searchable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.flags.xdr</td>
+<td>Boolean</td>
+<td>xdr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.maxcol</td>
+<td>Unsigned 16-bit integer</td>
+<td>max columns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.path</td>
+<td>String</td>
+<td>path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.separator</td>
+<td>Unsigned 8-bit integer</td>
+<td>separator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.table.type</td>
+<td>String</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.tag</td>
+<td>None</td>
+<td>tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.tag.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.tag.value</td>
+<td>String</td>
+<td>value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.taglist</td>
+<td>None</td>
+<td>taglist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nisplus.zticks</td>
+<td>Unsigned 32-bit integer</td>
+<td>zticks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

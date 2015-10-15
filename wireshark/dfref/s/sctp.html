@@ -1,0 +1,896 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Stream Control Transmission Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Stream Control Transmission Protocol</h1>
+<div><b>Protocol field name:</b> sctp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>sctp.abort_t_bit</td>
+<td>Boolean</td>
+<td>T-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acknowledges TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.ack_frame</td>
+<td>Frame number</td>
+<td>Chunk acknowledged in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.acked</td>
+<td>Frame number</td>
+<td>This chunk is acked in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.adapation_layer_indication</td>
+<td>Unsigned 32-bit integer</td>
+<td>Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.asconf_ack_serial_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Serial number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.asconf_serial_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Serial number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cause code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_information</td>
+<td>Byte array</td>
+<td>Cause information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cause length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_measure_of_staleness</td>
+<td>Unsigned 32-bit integer</td>
+<td>Measure of staleness in usec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_missing_parameter_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Missing parameter type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_nr_of_missing_parameters</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of missing parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_padding</td>
+<td>Byte array</td>
+<td>Cause padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_stream_identifier</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cause_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.checksum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.checksum_bad</td>
+<td>Boolean</td>
+<td>Bad checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_bit_1</td>
+<td>Boolean</td>
+<td>Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_bit_2</td>
+<td>Boolean</td>
+<td>Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chunk flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Chunk length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_padding</td>
+<td>Byte array</td>
+<td>Chunk padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chunk type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_type_to_auth</td>
+<td>Unsigned 8-bit integer</td>
+<td>Chunk type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.chunk_value</td>
+<td>Byte array</td>
+<td>Chunk value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cookie</td>
+<td>Byte array</td>
+<td>Cookie</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.correlation_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Correlation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cumulative_tsn_ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cumulative TSN Ack</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.cwr_lowest_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lowest TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_b_bit</td>
+<td>Boolean</td>
+<td>B-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_e_bit</td>
+<td>Boolean</td>
+<td>E-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_i_bit</td>
+<td>Boolean</td>
+<td>I-Bit</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_payload_proto_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Payload protocol identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_sid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_ssn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.data_u_bit</td>
+<td>Boolean</td>
+<td>U-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.dstport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.duplicate</td>
+<td>Frame number</td>
+<td>Fragment already seen in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.ecne_lowest_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lowest TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.forward_tsn_sid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.forward_tsn_ssn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.forward_tsn_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>New cumulative TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.fragment</td>
+<td>Frame number</td>
+<td>SCTP Fragment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.fragments</td>
+<td>None</td>
+<td>Reassembled SCTP Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.hmac</td>
+<td>Byte array</td>
+<td>HMAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.hmac_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>HMAC identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.init_credit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Advertised receiver window credit (a_rwnd)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.init_initial_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initial TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.init_initiate_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initiate tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.init_nr_in_streams</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of inbound streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.init_nr_out_streams</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of outbound streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initack_credit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Advertised receiver window credit (a_rwnd)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initack_initial_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initial TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initack_initiate_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initiate tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initack_nr_in_streams</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of inbound streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initack_nr_out_streams</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of outbound streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.initiate_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Initiate tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_a_rwnd</td>
+<td>Unsigned 32-bit integer</td>
+<td>Advertised receiver window credit (a_rwnd)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_cumulative_tsn_ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cumulative TSN ACK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_duplicate_tsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duplicate TSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_gap_block_end</td>
+<td>Unsigned 16-bit integer</td>
+<td>End</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_gap_block_end_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>End TSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_gap_block_start</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_gap_block_start_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Start TSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_nounce_sum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nounce sum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_nr_gap_block_end</td>
+<td>Unsigned 16-bit integer</td>
+<td>End</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_nr_gap_block_end_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>End TSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_nr_gap_block_start</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_nr_gap_block_start_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Start TSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_number_of_duplicated_tsns</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of duplicated TSNs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_number_of_gap_blocks</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of gap acknowledgement blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_number_of_nr_gap_blocks</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of nr-gap acknowledgement blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_number_of_tsns_gap_acked</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of TSNs in gap acknowledgement blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_number_of_tsns_nr_gap_acked</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of TSNs in nr-gap acknowledgement blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.nr_sack_reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_bit_1</td>
+<td>Boolean</td>
+<td>Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_bit_2</td>
+<td>Boolean</td>
+<td>Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_cookie_preservative_incr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Suggested Cookie life-span increment (msec)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_heartbeat_information</td>
+<td>Byte array</td>
+<td>Heartbeat information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_hostname</td>
+<td>String</td>
+<td>Hostname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_ipv4_address</td>
+<td>IPv4 address</td>
+<td>IP Version 4 address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_ipv6_address</td>
+<td>IPv6 address</td>
+<td>IP Version 6 address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_padding</td>
+<td>Byte array</td>
+<td>Parameter padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_receivers_next_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Receivers next TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_senders_last_assigned_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Senders last assigned TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_senders_next_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Senders next TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_state_cookie</td>
+<td>Byte array</td>
+<td>State cookie</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_stream_reset_request_sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stream reset request sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_stream_reset_response_result</td>
+<td>Unsigned 32-bit integer</td>
+<td>Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_stream_reset_response_sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stream reset response sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_stream_reset_sid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stream Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_supported_addres_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Supported address type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.parameter_value</td>
+<td>Byte array</td>
+<td>Parameter value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pckdrop_b_bit</td>
+<td>Boolean</td>
+<td>B-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pckdrop_m_bit</td>
+<td>Boolean</td>
+<td>M-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pckdrop_t_bit</td>
+<td>Boolean</td>
+<td>T-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pktdrop_bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bandwidth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pktdrop_datafield</td>
+<td>Byte array</td>
+<td>Data field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pktdrop_queuesize</td>
+<td>Unsigned 32-bit integer</td>
+<td>Queuesize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pktdrop_reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.pktdrop_truncated_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Truncated length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.random_number</td>
+<td>Byte array</td>
+<td>Random number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.reassembled_in</td>
+<td>Frame number</td>
+<td>Reassembled Message in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.retransmission</td>
+<td>Frame number</td>
+<td>This TSN is a retransmission of one in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.retransmission_time</td>
+<td>Time duration</td>
+<td>Retransmitted after</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.retransmitted</td>
+<td>Frame number</td>
+<td>This TSN is retransmitted in frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.retransmitted_after_ack</td>
+<td>Frame number</td>
+<td>Chunk was acked prior to retransmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.retransmitted_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>TSN was retransmitted this many times</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.rtt</td>
+<td>Time duration</td>
+<td>The RTT to ACK the chunk was</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_a_rwnd</td>
+<td>Unsigned 32-bit integer</td>
+<td>Advertised receiver window credit (a_rwnd)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_cumulative_tsn_ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cumulative TSN ACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_duplicate_tsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duplicate TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_gap_block_end</td>
+<td>Unsigned 16-bit integer</td>
+<td>End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_gap_block_end_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>End TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_gap_block_start</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_gap_block_start_tsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Start TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_nounce_sum</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nounce sum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_number_of_duplicated_tsns</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of duplicated TSNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_number_of_gap_blocks</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of gap acknowledgement blocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.sack_number_of_tsns_gap_acked</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of TSNs in gap acknowledgement blocks</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.shared_key_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Shared key identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.shutdown_complete_t_bit</td>
+<td>Boolean</td>
+<td>T-Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.shutdown_cumulative_tsn_ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cumulative TSN Ack</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.srcport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.supported_chunk_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Supported chunk type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sctp.verification_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>Verification tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

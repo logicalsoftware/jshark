@@ -1,0 +1,2372 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: ISO 8571 FTAM</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: ISO 8571 FTAM</h1>
+<div><b>Protocol field name:</b> ftam</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ftam._untag_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>_untag item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.abstract_Syntax_name</td>
+<td>Object identifier</td>
+<td>abstract-Syntax-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.abstract_Syntax_not_supported</td>
+<td>None</td>
+<td>abstract-Syntax-not-supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.abstract_Syntax_Pattern</td>
+<td>None</td>
+<td>abstract-Syntax-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.access-class</td>
+<td>Boolean</td>
+<td>access-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.access_context</td>
+<td>None</td>
+<td>access-context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.access_control</td>
+<td>Unsigned 32-bit integer</td>
+<td>access-control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Access_Control_Element</td>
+<td>None</td>
+<td>Access-Control-Element</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.access_passwords</td>
+<td>None</td>
+<td>access-passwords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.account</td>
+<td>String</td>
+<td>account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.action_list</td>
+<td>Byte array</td>
+<td>action-list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.action_result</td>
+<td>Signed 32-bit integer</td>
+<td>action-result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.activity_identifier</td>
+<td>Signed 32-bit integer</td>
+<td>activity-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.actual_values</td>
+<td>Unsigned 32-bit integer</td>
+<td>actual-values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.actual_values_item</td>
+<td>None</td>
+<td>actual-values</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.ae</td>
+<td>Unsigned 32-bit integer</td>
+<td>ae</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.AND_Set</td>
+<td>Unsigned 32-bit integer</td>
+<td>AND-Set</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.AND_Set_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>AND-Set item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.any_match</td>
+<td>None</td>
+<td>any-match</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.ap</td>
+<td>Unsigned 32-bit integer</td>
+<td>ap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_extension_names</td>
+<td>Unsigned 32-bit integer</td>
+<td>attribute-extension-names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Attribute_Extension_Names_item</td>
+<td>None</td>
+<td>Attribute-Extension-Names</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.Attribute_Extension_Set</td>
+<td>None</td>
+<td>Attribute-Extension-Set</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Attribute_Extension_Set_Name</td>
+<td>None</td>
+<td>Attribute-Extension-Set-Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_extensions</td>
+<td>Unsigned 32-bit integer</td>
+<td>attribute-extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Attribute_Extensions_item</td>
+<td>None</td>
+<td>Attribute-Extensions</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.attribute_extensions_pattern</td>
+<td>Unsigned 32-bit integer</td>
+<td>attribute-extensions-pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Attribute_Extensions_Pattern_item</td>
+<td>None</td>
+<td>Attribute-Extensions-Pattern item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_groups</td>
+<td>Byte array</td>
+<td>attribute-groups</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_names</td>
+<td>Byte array</td>
+<td>attribute-names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_value_assertions</td>
+<td>Unsigned 32-bit integer</td>
+<td>attribute-value-assertions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attribute_value_asset_tions</td>
+<td>Unsigned 32-bit integer</td>
+<td>attribute-value-asset-tions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.attributes</td>
+<td>None</td>
+<td>attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.begin_end</td>
+<td>Signed 32-bit integer</td>
+<td>begin-end</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.boolean_value</td>
+<td>Boolean</td>
+<td>boolean-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.bulk_Data_PDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>bulk-Data-PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.bulk_transfer_number</td>
+<td>Signed 32-bit integer</td>
+<td>bulk-transfer-number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.change-attribute</td>
+<td>Boolean</td>
+<td>change-attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.change_attribute</td>
+<td>Signed 32-bit integer</td>
+<td>change-attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.change_attribute_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>change-attribute-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.charging</td>
+<td>Unsigned 32-bit integer</td>
+<td>charging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.charging_unit</td>
+<td>String</td>
+<td>charging-unit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.charging_value</td>
+<td>Signed 32-bit integer</td>
+<td>charging-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.checkpoint_identifier</td>
+<td>Signed 32-bit integer</td>
+<td>checkpoint-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.checkpoint_window</td>
+<td>Signed 32-bit integer</td>
+<td>checkpoint-window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.child_objects</td>
+<td>Unsigned 32-bit integer</td>
+<td>child-objects</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Child_Objects_Attribute_item</td>
+<td>String</td>
+<td>Child-Objects-Attribute item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.child_objects_Pattern</td>
+<td>None</td>
+<td>child-objects-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.complete_pathname</td>
+<td>Unsigned 32-bit integer</td>
+<td>complete-pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.concurrency_access</td>
+<td>None</td>
+<td>concurrency-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.concurrency_control</td>
+<td>None</td>
+<td>concurrency-control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.concurrent-access</td>
+<td>Boolean</td>
+<td>concurrent-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.concurrent_bulk_transfer_number</td>
+<td>Signed 32-bit integer</td>
+<td>concurrent-bulk-transfer-number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.concurrent_recovery_point</td>
+<td>Signed 32-bit integer</td>
+<td>concurrent-recovery-point</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.consecutive-access</td>
+<td>Boolean</td>
+<td>consecutive-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.constraint_set_abstract_Syntax_Pattern</td>
+<td>None</td>
+<td>constraint-set-abstract-Syntax-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.constraint_set_and_abstract_Syntax</td>
+<td>None</td>
+<td>constraint-set-and-abstract-Syntax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.constraint_set_name</td>
+<td>Object identifier</td>
+<td>constraint-set-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.constraint_Set_Pattern</td>
+<td>None</td>
+<td>constraint-Set-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.contents_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>contents-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.contents_type_list</td>
+<td>Unsigned 32-bit integer</td>
+<td>contents-type-list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.contents_type_Pattern</td>
+<td>Unsigned 32-bit integer</td>
+<td>contents-type-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.create_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>create-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_creation</td>
+<td>Unsigned 32-bit integer</td>
+<td>date-and-time-of-creation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_creation_Pattern</td>
+<td>None</td>
+<td>date-and-time-of-creation-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_attribute_modification</td>
+<td>Unsigned 32-bit integer</td>
+<td>date-and-time-of-last-attribute-modification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_attribute_modification_Pattern</td>
+<td>None</td>
+<td>date-and-time-of-last-attribute-modification-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_modification</td>
+<td>Unsigned 32-bit integer</td>
+<td>date-and-time-of-last-modification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_modification_Pattern</td>
+<td>None</td>
+<td>date-and-time-of-last-modification-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_read_access</td>
+<td>Unsigned 32-bit integer</td>
+<td>date-and-time-of-last-read-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.date_and_time_of_last_read_access_Pattern</td>
+<td>None</td>
+<td>date-and-time-of-last-read-access-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.define_contexts</td>
+<td>Unsigned 32-bit integer</td>
+<td>define-contexts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.define_contexts_item</td>
+<td>Unknown</td>
+<td>define-contexts</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.degree_of_overlap</td>
+<td>Signed 32-bit integer</td>
+<td>degree-of-overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.delete-Object</td>
+<td>Boolean</td>
+<td>delete-Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.delete_Object</td>
+<td>Signed 32-bit integer</td>
+<td>delete-Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.delete_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>delete-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.delete_values</td>
+<td>Unsigned 32-bit integer</td>
+<td>delete-values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.delete_values_item</td>
+<td>None</td>
+<td>delete-values</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.destination_file_directory</td>
+<td>Unsigned 32-bit integer</td>
+<td>destination-file-directory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.diagnostic</td>
+<td>Unsigned 32-bit integer</td>
+<td>diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.diagnostic_type</td>
+<td>Signed 32-bit integer</td>
+<td>diagnostic-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.document_type</td>
+<td>None</td>
+<td>document-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.document_type_name</td>
+<td>Object identifier</td>
+<td>document-type-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.document_type_Pattern</td>
+<td>None</td>
+<td>document-type-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.enable_fadu_locking</td>
+<td>Boolean</td>
+<td>enable-fadu-locking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.enhanced-file-management</td>
+<td>Boolean</td>
+<td>enhanced-file-management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.enhanced-filestore-management</td>
+<td>Boolean</td>
+<td>enhanced-filestore-management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.equality_comparision</td>
+<td>Byte array</td>
+<td>equality-comparision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.equals-matches</td>
+<td>Boolean</td>
+<td>equals-matches</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.erase</td>
+<td>Signed 32-bit integer</td>
+<td>erase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.erase_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>erase-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.error_action</td>
+<td>Signed 32-bit integer</td>
+<td>error-action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.error_identifier</td>
+<td>Signed 32-bit integer</td>
+<td>error-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.error_observer</td>
+<td>Signed 32-bit integer</td>
+<td>error-observer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.error_Source</td>
+<td>Signed 32-bit integer</td>
+<td>error-Source</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.exclusive</td>
+<td>Boolean</td>
+<td>exclusive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extend</td>
+<td>Signed 32-bit integer</td>
+<td>extend</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extend_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>extend-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension</td>
+<td>Boolean</td>
+<td>extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Extension_Attribute</td>
+<td>None</td>
+<td>Extension-Attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Extension_Attribute_identifier</td>
+<td>Object identifier</td>
+<td>Extension-Attribute-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_attribute_names</td>
+<td>Unsigned 32-bit integer</td>
+<td>extension-attribute-names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_attribute_names_item</td>
+<td>Unknown</td>
+<td>extension-attribute-names</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.extension_attribute_Pattern</td>
+<td>None</td>
+<td>extension-attribute-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_set_attribute_Patterns</td>
+<td>Unsigned 32-bit integer</td>
+<td>extension-set-attribute-Patterns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_set_attribute_Patterns_item</td>
+<td>None</td>
+<td>extension-set-attribute-Patterns item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_set_attributes</td>
+<td>Unsigned 32-bit integer</td>
+<td>extension-set-attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.extension_set_attributes_item</td>
+<td>None</td>
+<td>extension-set-attributes</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.extension_set_identifier</td>
+<td>Object identifier</td>
+<td>extension-set-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f-erase</td>
+<td>Boolean</td>
+<td>f-erase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f-extend</td>
+<td>Boolean</td>
+<td>f-extend</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f-insert</td>
+<td>Boolean</td>
+<td>f-insert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f-read</td>
+<td>Boolean</td>
+<td>f-read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f-replace</td>
+<td>Boolean</td>
+<td>f-replace</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_begin_group_request</td>
+<td>None</td>
+<td>f-begin-group-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_begin_group_response</td>
+<td>None</td>
+<td>f-begin-group-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_cancel_request</td>
+<td>None</td>
+<td>f-cancel-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_cancel_response</td>
+<td>None</td>
+<td>f-cancel-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_attrib_reques</td>
+<td>None</td>
+<td>f-Change-attrib-reques</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_attrib_respon</td>
+<td>None</td>
+<td>f-Change-attrib-respon</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_Iink_attrib_response</td>
+<td>None</td>
+<td>f-Change-Iink-attrib-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_link_attrib_request</td>
+<td>None</td>
+<td>f-Change-link-attrib-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_prefix_request</td>
+<td>None</td>
+<td>f-Change-prefix-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_Change_prefix_response</td>
+<td>None</td>
+<td>f-Change-prefix-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_close_request</td>
+<td>None</td>
+<td>f-close-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_close_response</td>
+<td>None</td>
+<td>f-close-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_copy_request</td>
+<td>None</td>
+<td>f-copy-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_copy_response</td>
+<td>None</td>
+<td>f-copy-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_create_directory_request</td>
+<td>None</td>
+<td>f-create-directory-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_create_directory_response</td>
+<td>None</td>
+<td>f-create-directory-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_create_request</td>
+<td>None</td>
+<td>f-create-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_create_response</td>
+<td>None</td>
+<td>f-create-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_data_end_request</td>
+<td>None</td>
+<td>f-data-end-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_delete_request</td>
+<td>None</td>
+<td>f-delete-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_delete_response</td>
+<td>None</td>
+<td>f-delete-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_deselect_request</td>
+<td>None</td>
+<td>f-deselect-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_deselect_response</td>
+<td>None</td>
+<td>f-deselect-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_end_group_request</td>
+<td>None</td>
+<td>f-end-group-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_end_group_response</td>
+<td>None</td>
+<td>f-end-group-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_erase_request</td>
+<td>None</td>
+<td>f-erase-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_erase_response</td>
+<td>None</td>
+<td>f-erase-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_Change_attrib_request</td>
+<td>None</td>
+<td>f-group-Change-attrib-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_Change_attrib_response</td>
+<td>None</td>
+<td>f-group-Change-attrib-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_copy_request</td>
+<td>None</td>
+<td>f-group-copy-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_copy_response</td>
+<td>None</td>
+<td>f-group-copy-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_delete_request</td>
+<td>None</td>
+<td>f-group-delete-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_delete_response</td>
+<td>None</td>
+<td>f-group-delete-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_list_request</td>
+<td>None</td>
+<td>f-group-list-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_list_response</td>
+<td>None</td>
+<td>f-group-list-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_move_request</td>
+<td>None</td>
+<td>f-group-move-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_move_response</td>
+<td>None</td>
+<td>f-group-move-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_select_request</td>
+<td>None</td>
+<td>f-group-select-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_group_select_response</td>
+<td>None</td>
+<td>f-group-select-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_initialize_request</td>
+<td>None</td>
+<td>f-initialize-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_initialize_response</td>
+<td>None</td>
+<td>f-initialize-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_link_request</td>
+<td>None</td>
+<td>f-link-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_link_response</td>
+<td>None</td>
+<td>f-link-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_list_request</td>
+<td>None</td>
+<td>f-list-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_list_response</td>
+<td>None</td>
+<td>f-list-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_locate_request</td>
+<td>None</td>
+<td>f-locate-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_locate_response</td>
+<td>None</td>
+<td>f-locate-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_move_request</td>
+<td>None</td>
+<td>f-move-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_move_response</td>
+<td>None</td>
+<td>f-move-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_open_request</td>
+<td>None</td>
+<td>f-open-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_open_response</td>
+<td>None</td>
+<td>f-open-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_p_abort_request</td>
+<td>None</td>
+<td>f-p-abort-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_read_attrib_request</td>
+<td>None</td>
+<td>f-read-attrib-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_read_attrib_response</td>
+<td>None</td>
+<td>f-read-attrib-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_read_link_attrib_request</td>
+<td>None</td>
+<td>f-read-link-attrib-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_read_link_attrib_response</td>
+<td>None</td>
+<td>f-read-link-attrib-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_read_request</td>
+<td>None</td>
+<td>f-read-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_recover_request</td>
+<td>None</td>
+<td>f-recover-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_recover_response</td>
+<td>None</td>
+<td>f-recover-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_restart_request</td>
+<td>None</td>
+<td>f-restart-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_restart_response</td>
+<td>None</td>
+<td>f-restart-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_select_another_request</td>
+<td>None</td>
+<td>f-select-another-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_select_another_response</td>
+<td>None</td>
+<td>f-select-another-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_select_request</td>
+<td>None</td>
+<td>f-select-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_select_response</td>
+<td>None</td>
+<td>f-select-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_terminate_request</td>
+<td>None</td>
+<td>f-terminate-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_terminate_response</td>
+<td>None</td>
+<td>f-terminate-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_transfer_end_request</td>
+<td>None</td>
+<td>f-transfer-end-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_transfer_end_response</td>
+<td>None</td>
+<td>f-transfer-end-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_u_abort_request</td>
+<td>None</td>
+<td>f-u-abort-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_unlink_request</td>
+<td>None</td>
+<td>f-unlink-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_unlink_response</td>
+<td>None</td>
+<td>f-unlink-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.f_write_request</td>
+<td>None</td>
+<td>f-write-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.fadu-locking</td>
+<td>Boolean</td>
+<td>fadu-locking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.fadu_lock</td>
+<td>Signed 32-bit integer</td>
+<td>fadu-lock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.fadu_number</td>
+<td>Signed 32-bit integer</td>
+<td>fadu-number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.file-access</td>
+<td>Boolean</td>
+<td>file-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.file_access_data_unit_identity</td>
+<td>Unsigned 32-bit integer</td>
+<td>file-access-data-unit-identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.file_access_data_unit_Operation</td>
+<td>Signed 32-bit integer</td>
+<td>file-access-data-unit-Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.file_PDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>file-PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.filestore_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>filestore-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.first_last</td>
+<td>Signed 32-bit integer</td>
+<td>first-last</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.fSM_PDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>fSM-PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.ftam_quality_of_Service</td>
+<td>Signed 32-bit integer</td>
+<td>ftam-quality-of-Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.fTAM_Regime_PDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>fTAM-Regime-PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.functional_units</td>
+<td>Byte array</td>
+<td>functional-units</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.further_details</td>
+<td>String</td>
+<td>further-details</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.future_Object_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>future-Object-size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.future_object_size_Pattern</td>
+<td>None</td>
+<td>future-object-size-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.graphicString</td>
+<td>String</td>
+<td>graphicString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.greater-than-matches</td>
+<td>Boolean</td>
+<td>greater-than-matches</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.group-manipulation</td>
+<td>Boolean</td>
+<td>group-manipulation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.grouping</td>
+<td>Boolean</td>
+<td>grouping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity</td>
+<td>String</td>
+<td>identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_last_attribute_modifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>identity-last-attribute-modifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_creator</td>
+<td>Unsigned 32-bit integer</td>
+<td>identity-of-creator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_creator_Pattern</td>
+<td>None</td>
+<td>identity-of-creator-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_last_attribute_modifier_Pattern</td>
+<td>None</td>
+<td>identity-of-last-attribute-modifier-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_last_modifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>identity-of-last-modifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_last_modifier_Pattern</td>
+<td>None</td>
+<td>identity-of-last-modifier-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_last_reader</td>
+<td>Unsigned 32-bit integer</td>
+<td>identity-of-last-reader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.identity_of_last_reader_Pattern</td>
+<td>None</td>
+<td>identity-of-last-reader-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.implementation_information</td>
+<td>String</td>
+<td>implementation-information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.incomplete_pathname</td>
+<td>Unsigned 32-bit integer</td>
+<td>incomplete-pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.initial_attributes</td>
+<td>None</td>
+<td>initial-attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.initiator_identity</td>
+<td>String</td>
+<td>initiator-identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.insert</td>
+<td>Signed 32-bit integer</td>
+<td>insert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.insert_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>insert-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.insert_values</td>
+<td>Unsigned 32-bit integer</td>
+<td>insert-values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.insert_values_item</td>
+<td>None</td>
+<td>insert-values</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.integer_value</td>
+<td>Signed 32-bit integer</td>
+<td>integer-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.last_member_indicator</td>
+<td>Boolean</td>
+<td>last-member-indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.last_transfer_end_read_request</td>
+<td>Signed 32-bit integer</td>
+<td>last-transfer-end-read-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.last_transfer_end_read_response</td>
+<td>Signed 32-bit integer</td>
+<td>last-transfer-end-read-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.last_transfer_end_write_request</td>
+<td>Signed 32-bit integer</td>
+<td>last-transfer-end-write-request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.last_transfer_end_write_response</td>
+<td>Signed 32-bit integer</td>
+<td>last-transfer-end-write-response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.legal_quailfication_Pattern</td>
+<td>None</td>
+<td>legal-quailfication-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.legal_qualification</td>
+<td>Unsigned 32-bit integer</td>
+<td>legal-qualification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.less-than-matches</td>
+<td>Boolean</td>
+<td>less-than-matches</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.level_number</td>
+<td>Signed 32-bit integer</td>
+<td>level-number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.limited-file-management</td>
+<td>Boolean</td>
+<td>limited-file-management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.limited-filestore-management</td>
+<td>Boolean</td>
+<td>limited-filestore-management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.link</td>
+<td>Boolean</td>
+<td>link</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.link_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>link-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.linked_Object</td>
+<td>Unsigned 32-bit integer</td>
+<td>linked-Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.linked_Object_Pattern</td>
+<td>None</td>
+<td>linked-Object-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.location</td>
+<td>Unsigned 32-bit integer</td>
+<td>location</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.management-class</td>
+<td>Boolean</td>
+<td>management-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.match_bitstring</td>
+<td>Byte array</td>
+<td>match-bitstring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.maximum_set_size</td>
+<td>Signed 32-bit integer</td>
+<td>maximum-set-size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.name_list</td>
+<td>Unsigned 32-bit integer</td>
+<td>name-list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.name_list_item</td>
+<td>None</td>
+<td>name-list</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.nBS9</td>
+<td>None</td>
+<td>nBS9</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.no-access</td>
+<td>Boolean</td>
+<td>no-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.no-value-available-matches</td>
+<td>Boolean</td>
+<td>no-value-available-matches</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.no_value_available</td>
+<td>None</td>
+<td>no-value-available</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Node_Name</td>
+<td>None</td>
+<td>Node-Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.not-required</td>
+<td>Boolean</td>
+<td>not-required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.number_of_characters_match</td>
+<td>Signed 32-bit integer</td>
+<td>number-of-characters-match</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object-manipulation</td>
+<td>Boolean</td>
+<td>object-manipulation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_availabiiity_Pattern</td>
+<td>None</td>
+<td>object-availabiiity-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_availability</td>
+<td>Unsigned 32-bit integer</td>
+<td>object-availability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_identifier_value</td>
+<td>Object identifier</td>
+<td>object-identifier-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>object-size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_size_Pattern</td>
+<td>None</td>
+<td>object-size-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_type</td>
+<td>Signed 32-bit integer</td>
+<td>object-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.object_type_Pattern</td>
+<td>None</td>
+<td>object-type-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.objects_attributes_list</td>
+<td>Unsigned 32-bit integer</td>
+<td>objects-attributes-list</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.octetString</td>
+<td>Byte array</td>
+<td>octetString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.operation_result</td>
+<td>Unsigned 32-bit integer</td>
+<td>operation-result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.OR_Set_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>OR-Set</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.override</td>
+<td>Signed 32-bit integer</td>
+<td>override</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.parameter</td>
+<td>None</td>
+<td>parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pass</td>
+<td>Boolean</td>
+<td>pass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pass_passwords</td>
+<td>Unsigned 32-bit integer</td>
+<td>pass-passwords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Pass_Passwords_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pass-Passwords</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.Password</td>
+<td>Unsigned 32-bit integer</td>
+<td>Password</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.passwords</td>
+<td>None</td>
+<td>passwords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.path_access_control</td>
+<td>Unsigned 32-bit integer</td>
+<td>path-access-control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.path_access_passwords</td>
+<td>Unsigned 32-bit integer</td>
+<td>path-access-passwords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pathname</td>
+<td>Unsigned 32-bit integer</td>
+<td>pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Pathname_item</td>
+<td>String</td>
+<td>Pathname item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pathname_Pattern</td>
+<td>None</td>
+<td>pathname-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pathname_value</td>
+<td>Unsigned 32-bit integer</td>
+<td>pathname-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.pathname_value_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>pathname-value item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.permitted_actions</td>
+<td>Byte array</td>
+<td>permitted-actions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.permitted_actions_Pattern</td>
+<td>None</td>
+<td>permitted-actions-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.presentation_action</td>
+<td>Boolean</td>
+<td>presentation-action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.presentation_tontext_management</td>
+<td>Boolean</td>
+<td>presentation-tontext-management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.primaty_pathname</td>
+<td>Unsigned 32-bit integer</td>
+<td>primaty-pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.primaty_pathname_Pattern</td>
+<td>None</td>
+<td>primaty-pathname-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.private</td>
+<td>Boolean</td>
+<td>private</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.private_use</td>
+<td>Unsigned 32-bit integer</td>
+<td>private-use</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.processing_mode</td>
+<td>Byte array</td>
+<td>processing-mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.proposed</td>
+<td>Unsigned 32-bit integer</td>
+<td>proposed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.protocol_Version</td>
+<td>Byte array</td>
+<td>protocol-Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.random-Order</td>
+<td>Boolean</td>
+<td>random-Order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read</td>
+<td>Signed 32-bit integer</td>
+<td>read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-access-control</td>
+<td>Boolean</td>
+<td>read-access-control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-attribute</td>
+<td>Boolean</td>
+<td>read-attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-Child-objects</td>
+<td>Boolean</td>
+<td>read-Child-objects</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-contents-type</td>
+<td>Boolean</td>
+<td>read-contents-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-date-and-time-of-creation</td>
+<td>Boolean</td>
+<td>read-date-and-time-of-creation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-date-and-time-of-last-attribute-modification</td>
+<td>Boolean</td>
+<td>read-date-and-time-of-last-attribute-modification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-date-and-time-of-last-modification</td>
+<td>Boolean</td>
+<td>read-date-and-time-of-last-modification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-date-and-time-of-last-read-access</td>
+<td>Boolean</td>
+<td>read-date-and-time-of-last-read-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-future-Object-size</td>
+<td>Boolean</td>
+<td>read-future-Object-size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-identity-of-creator</td>
+<td>Boolean</td>
+<td>read-identity-of-creator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-identity-of-last-attribute-modifier</td>
+<td>Boolean</td>
+<td>read-identity-of-last-attribute-modifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-identity-of-last-modifier</td>
+<td>Boolean</td>
+<td>read-identity-of-last-modifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-identity-of-last-reader</td>
+<td>Boolean</td>
+<td>read-identity-of-last-reader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-l8gal-qualifiCatiOnS</td>
+<td>Boolean</td>
+<td>read-l8gal-qualifiCatiOnS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-legal-qualifiCatiOnS</td>
+<td>Boolean</td>
+<td>read-legal-qualifiCatiOnS</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.read-linked-Object</td>
+<td>Boolean</td>
+<td>read-linked-Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-Object-availability</td>
+<td>Boolean</td>
+<td>read-Object-availability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-Object-size</td>
+<td>Boolean</td>
+<td>read-Object-size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-Object-type</td>
+<td>Boolean</td>
+<td>read-Object-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-path-access-control</td>
+<td>Boolean</td>
+<td>read-path-access-control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-pathname</td>
+<td>Boolean</td>
+<td>read-pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-permitted-actions</td>
+<td>Boolean</td>
+<td>read-permitted-actions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-primary-pathname</td>
+<td>Boolean</td>
+<td>read-primary-pathname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-private-use</td>
+<td>Boolean</td>
+<td>read-private-use</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read-storage-account</td>
+<td>Boolean</td>
+<td>read-storage-account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read_attribute</td>
+<td>Signed 32-bit integer</td>
+<td>read-attribute</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read_attribute_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>read-attribute-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.Read_Attributes</td>
+<td>None</td>
+<td>Read-Attributes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.read_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>read-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.recovefy_Point</td>
+<td>Signed 32-bit integer</td>
+<td>recovefy-Point</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.recovery</td>
+<td>Boolean</td>
+<td>recovery</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.recovery_mode</td>
+<td>Signed 32-bit integer</td>
+<td>recovery-mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.recovety_Point</td>
+<td>Signed 32-bit integer</td>
+<td>recovety-Point</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.referent_indicator</td>
+<td>Boolean</td>
+<td>referent-indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.relational_camparision</td>
+<td>Byte array</td>
+<td>relational-camparision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.relational_comparision</td>
+<td>Byte array</td>
+<td>relational-comparision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.relative</td>
+<td>Signed 32-bit integer</td>
+<td>relative</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.remove_contexts</td>
+<td>Unsigned 32-bit integer</td>
+<td>remove-contexts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.remove_contexts_item</td>
+<td>Unknown</td>
+<td>remove-contexts</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.replace</td>
+<td>Signed 32-bit integer</td>
+<td>replace</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.replace_password</td>
+<td>Unsigned 32-bit integer</td>
+<td>replace-password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.request_Operation_result</td>
+<td>Signed 32-bit integer</td>
+<td>request-Operation-result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.request_type</td>
+<td>Signed 32-bit integer</td>
+<td>request-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.requested_access</td>
+<td>Byte array</td>
+<td>requested-access</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.reset</td>
+<td>Boolean</td>
+<td>reset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.resource_identifier</td>
+<td>String</td>
+<td>resource-identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.restart-data-transfer</td>
+<td>Boolean</td>
+<td>restart-data-transfer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.retrieval_scope</td>
+<td>Signed 32-bit integer</td>
+<td>retrieval-scope</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.reverse-traversal</td>
+<td>Boolean</td>
+<td>reverse-traversal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.root_directory</td>
+<td>Unsigned 32-bit integer</td>
+<td>root-directory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.scope</td>
+<td>Unsigned 32-bit integer</td>
+<td>scope</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.security</td>
+<td>Boolean</td>
+<td>security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.service_class</td>
+<td>Byte array</td>
+<td>service-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.shared</td>
+<td>Boolean</td>
+<td>shared</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.shared_ASE_infonnation</td>
+<td>None</td>
+<td>shared-ASE-infonnation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.shared_ASE_information</td>
+<td>None</td>
+<td>shared-ASE-information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.significance_bitstring</td>
+<td>Byte array</td>
+<td>significance-bitstring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.single_name</td>
+<td>None</td>
+<td>single-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.state_result</td>
+<td>Signed 32-bit integer</td>
+<td>state-result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.storage</td>
+<td>Boolean</td>
+<td>storage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.storage_account</td>
+<td>Unsigned 32-bit integer</td>
+<td>storage-account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.storage_account_Pattern</td>
+<td>None</td>
+<td>storage-account-Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.string_match</td>
+<td>None</td>
+<td>string-match</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.string_value</td>
+<td>Unsigned 32-bit integer</td>
+<td>string-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.string_value_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>string-value item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.substring_match</td>
+<td>String</td>
+<td>substring-match</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.success_Object_count</td>
+<td>Signed 32-bit integer</td>
+<td>success-Object-count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.success_Object_names</td>
+<td>Unsigned 32-bit integer</td>
+<td>success-Object-names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.success_Object_names_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>success-Object-names</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>ftam.suggested_delay</td>
+<td>Signed 32-bit integer</td>
+<td>suggested-delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.target_object</td>
+<td>Unsigned 32-bit integer</td>
+<td>target-object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.threshold</td>
+<td>Signed 32-bit integer</td>
+<td>threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.time_and_date_value</td>
+<td>String</td>
+<td>time-and-date-value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.transfer-and-management-class</td>
+<td>Boolean</td>
+<td>transfer-and-management-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.transfer-class</td>
+<td>Boolean</td>
+<td>transfer-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.transfer_number</td>
+<td>Signed 32-bit integer</td>
+<td>transfer-number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.transfer_window</td>
+<td>Signed 32-bit integer</td>
+<td>transfer-window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.traversal</td>
+<td>Boolean</td>
+<td>traversal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.unconstrained-class</td>
+<td>Boolean</td>
+<td>unconstrained-class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.unknown</td>
+<td>None</td>
+<td>unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.unstructured_binary</td>
+<td>Byte array</td>
+<td>ISO FTAM unstructured binary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.unstructured_text</td>
+<td>String</td>
+<td>ISO FTAM unstructured text</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.version-1</td>
+<td>Boolean</td>
+<td>version-1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.version-2</td>
+<td>Boolean</td>
+<td>version-2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ftam.write</td>
+<td>Boolean</td>
+<td>write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

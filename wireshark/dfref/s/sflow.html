@@ -1,0 +1,1568 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: InMon sFlow</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: InMon sFlow</h1>
+<div><b>Protocol field name:</b> sflow</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>sflow.agent</td>
+<td>IPv4 address</td>
+<td>agent address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.agent.addresstype</td>
+<td>Unsigned 32-bit integer</td>
+<td>address type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.agent.v6</td>
+<td>IPv6 address</td>
+<td>agent address</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.as</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Router</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.community</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gateway Community</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.communityEntries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gateway Communities</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsAlignmentErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsAlignmentErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsCarrierSenseErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsCarrierSenseErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsDeferredTransmissions</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsDeferredTransmissions</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsExcessiveCollisions</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsExcessiveCollisions</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsFCSErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsFCSErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsFrameTooLongs</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsFrameTooLongs</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsInternalMacReceiveErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsInternalMacReceiveErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsInternalMacTransmitErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsInternalMacTransmitErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsLateCollisions</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsLateCollisions</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsMultipleCollisionFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsMultipleCollisionFrames</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsSingleCollisionFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsSingleCollisionFrames</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsSQETestErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsSQETestErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.eth.dot3StatsSymbolErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>dot3StatsSymbolErrors</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.numrecords</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of records</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.recordlength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recordlength</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.recordtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type of counters</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.samplinginterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling interval</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.seqno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence number</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.sourceidindex</td>
+<td>Unsigned 24-bit integer</td>
+<td>Source ID index</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.cs.sourceidtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source ID type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.dst_ipv4</td>
+<td>IPv4 address</td>
+<td>Dst IP</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.dst_ipv6</td>
+<td>IPv6 address</td>
+<td>Dst IP</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.dst_port</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dst Port</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.dstAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Destination</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.dstASentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Destinations</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.extended_information_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extended information type</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ethernet.dstmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Ethertype</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ethernet.framelength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Framelength</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ethernet.srcmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Ethertype</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ethernet.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ethertype</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ifindexin</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input interface index</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.ifindexout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output interface index</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.multipleoutputs</td>
+<td>Boolean</td>
+<td>Multiple outputs</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.numoutinterfaces</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of interfaces</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.numrecords</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of records</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.pool</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample pool</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.rawheader</td>
+<td>Byte array</td>
+<td>Header of sampled packet</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.rawheader.framelength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Framelength</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.rawheader.headerlength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Headerlength</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.rawheader.protocol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Header protocol</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.rawheader.stripped</td>
+<td>Unsigned 32-bit integer</td>
+<td>Stripped bytes</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.recordlength</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recordlength</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.recordtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.samplingrate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling rate</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.seqno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample sequence number</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.sourceidindex</td>
+<td>Unsigned 24-bit integer</td>
+<td>Source ID index</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.fs.sourceidtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source ID type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.header</td>
+<td>Byte array</td>
+<td>Header of sampled packet</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.header_protocol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Header protocol</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.ifdirection</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Direction</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinbcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Broadcast Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifindex</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface index</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifindisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Discarded Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinerr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Errors</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinmcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Multicast Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinoct</td>
+<td>Unsigned 64-bit integer</td>
+<td>Input Octets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinpkt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Packets</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.ifinucast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input unicast packets</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifinunk</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Unknown Protocol Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutbcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Broadcast Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutdisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Discarded Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifouterr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Errors</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutmcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Multicast Packets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutoct</td>
+<td>Unsigned 64-bit integer</td>
+<td>Output Octets</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutpkt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Packets</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.ifoutucast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output unicast packets</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifpromisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Promiscuous Mode</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifspeed</td>
+<td>Unsigned 64-bit integer</td>
+<td>Interface Speed</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifstatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Status</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.ifstatus.admin</td>
+<td>Unsigned 32-bit integer</td>
+<td>If admin status</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifstatus.oper</td>
+<td>Unsigned 32-bit integer</td>
+<td>If oper status</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ifstatus.unused</td>
+<td>Unsigned 32-bit integer</td>
+<td>If status (unused)</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.iftype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Type</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ip_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>TCP Flags</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ip_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>IP Packet Length</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.ip_protocol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Protocol</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.localpref</td>
+<td>Unsigned 32-bit integer</td>
+<td>localpref</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.nexthop</td>
+<td>IPv4 address</td>
+<td>Next hop</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.nexthop.dst_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next hop destination mask</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.nexthop.src_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next hop source mask</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.numsamples</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumSamples</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.packet_information_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.peerAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Peer</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.pri.in</td>
+<td>Unsigned 32-bit integer</td>
+<td>Incoming 802.1p priority</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.pri.out</td>
+<td>Unsigned 32-bit integer</td>
+<td>Outgoing 802.1p priority</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>Priority</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sample.enterprise</td>
+<td>Unsigned 32-bit integer</td>
+<td>sFlow sample type enterprise</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sample.enterprisetype</td>
+<td>Unsigned 32-bit integer</td>
+<td>sFlow sample type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sample.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample length</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sample.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>sFlow sample type</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sampletype</td>
+<td>Unsigned 32-bit integer</td>
+<td>sFlow sample type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sflow.sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence number</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.src_ipv4</td>
+<td>IPv4 address</td>
+<td>Src IP</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.src_ipv6</td>
+<td>IPv6 address</td>
+<td>Src IP</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.src_port</td>
+<td>Unsigned 32-bit integer</td>
+<td>Src Port</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.srcAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Source</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sub_agent_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sub-agent ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.sysuptime</td>
+<td>Unsigned 32-bit integer</td>
+<td>SysUptime</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.tos</td>
+<td>Unsigned 32-bit integer</td>
+<td>ToS</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>datagram version</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.vlan.in</td>
+<td>Unsigned 32-bit integer</td>
+<td>Incoming 802.1Q VLAN</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow.vlan.out</td>
+<td>Unsigned 32-bit integer</td>
+<td>Outgoing 802.1Q VLAN</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>sflow_245.agent</td>
+<td>IPv4 address</td>
+<td>Agent address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.agent.v6</td>
+<td>IPv6 address</td>
+<td>Agent address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.as</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Router</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.broadcastPkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Broadcast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.community</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gateway Community</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.communityEntries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gateway Communities</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.counters_record_format</td>
+<td>Unsigned 32-bit integer</td>
+<td>Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.discards</td>
+<td>Unsigned 32-bit integer</td>
+<td>Discards</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12HCInHighPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>HC In High Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12HCInNormPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>HC In Normal Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12HCOutHighPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>HC Out High Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InDataErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>In Data Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InHighPriorityFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>In High Priority Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InHighPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>In High Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InIPMErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>In IPM Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InNormPriorityFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>In Normal Priority Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InNormPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>In Normal Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InNullAddressedFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>In Null Addressed Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12InOversizeFrameErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>In Oversize Frame Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12OutHighPriorityFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>Out High Priority Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12OutHighPriorityOctets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Out High Priority Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot12TransitionIntoTrainings</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transition Into Trainings</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsAlignmentErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Alignment Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsCarrierSenseErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Carrier Sense Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsDeferredTransmissions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Deferred Transmissions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsExcessiveCollisions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Excessive Collisions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsFCSErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>FCS Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsFrameTooLongs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame Too Longs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsInternalMacReceiveErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Internal Mac Receive Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsInternalMacTransmitErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Internal Mac Transmit Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsLateCollisions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Late Collisions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsMultipleCollisionFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multiple Collision Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsSingleCollisionFrames</td>
+<td>Unsigned 32-bit integer</td>
+<td>Single Collision Frames</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsSQETestErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>SQE Test Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot3StatsSymbolErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Symbol Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsAbortTransErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Abort Trans Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsACErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>AC Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsBurstErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Burst Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsFrameCopiedErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame Copied Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsFreqErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Freq Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsHardErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hard Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsInternalErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Internal Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsLineErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Line Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsLobeWires</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lobe Wires</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsLostFrameErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lost Frame Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsReceiveCongestions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Receive Congestions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsRecoveries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recoveries</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsRemoves</td>
+<td>Unsigned 32-bit integer</td>
+<td>Removes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsSignalLoss</td>
+<td>Unsigned 32-bit integer</td>
+<td>Signal Loss</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsSingles</td>
+<td>Unsigned 32-bit integer</td>
+<td>Singles</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsSoftErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Soft Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsTokenErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Token Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dot5StatsTransmitBeacons</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmit Beacons</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dstAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Destination</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.dstASentries</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Destinations</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.extended_information_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extended information type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.flow_record_format</td>
+<td>Unsigned 32-bit integer</td>
+<td>Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.header</td>
+<td>Byte array</td>
+<td>Header of sampled packet</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.header_protocol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Header protocol</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ieee80211_version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifdirection</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Direction</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinbcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Broadcast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifindex</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface index</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifindisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Discarded Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinerr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinmcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Multicast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinoct</td>
+<td>Unsigned 64-bit integer</td>
+<td>Input Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinpkt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifinunk</td>
+<td>Unsigned 32-bit integer</td>
+<td>Input Unknown Protocol Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifoutbcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Broadcast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifoutdisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Discarded Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifouterr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Errors</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifoutmcast</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Multicast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifoutoct</td>
+<td>Unsigned 64-bit integer</td>
+<td>Output Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifoutpkt</td>
+<td>Unsigned 32-bit integer</td>
+<td>Output Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifpromisc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Promiscuous Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifspeed</td>
+<td>Unsigned 64-bit integer</td>
+<td>Interface Speed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ifstatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.iftype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interface Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ipv4_des</td>
+<td>IPv4 address</td>
+<td>Destination IP address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ipv4_precedence_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Precedence</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ipv4_src</td>
+<td>IPv4 address</td>
+<td>Source IP address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ipv6_des</td>
+<td>IPv6 address</td>
+<td>Destination IP address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ipv6_src</td>
+<td>IPv6 address</td>
+<td>Source IP address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.localpref</td>
+<td>Unsigned 32-bit integer</td>
+<td>localpref</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.multicastPkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multicast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.nexthop</td>
+<td>IPv4 address</td>
+<td>Next hop</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.nexthop.dst_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next hop destination mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.nexthop.src_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next hop source mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.numsamples</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumSamples</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.packet_information_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.peerAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Peer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.pri.in</td>
+<td>Unsigned 32-bit integer</td>
+<td>Incoming 802.1p priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.pri.out</td>
+<td>Unsigned 32-bit integer</td>
+<td>Outgoing 802.1p priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.sampletype</td>
+<td>Unsigned 32-bit integer</td>
+<td>sFlow sample type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.sequence_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.srcAS</td>
+<td>Unsigned 32-bit integer</td>
+<td>AS Source</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.sub_agent_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sub-agent ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.sysuptime</td>
+<td>Unsigned 32-bit integer</td>
+<td>SysUptime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.ucastPkts</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unicast Packets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Datagram version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.vlan.in</td>
+<td>Unsigned 32-bit integer</td>
+<td>Incoming 802.1Q VLAN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.vlan.out</td>
+<td>Unsigned 32-bit integer</td>
+<td>Outgoing 802.1Q VLAN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_245.vlan_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>VLAN ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.channel_busy_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>On Channel Busy (ms)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.counter_data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Counters data length (byte)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.cpu_1m</td>
+<td>Unsigned 32-bit integer</td>
+<td>1m CPU Load (100 = 1%)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.cpu_5m</td>
+<td>Unsigned 32-bit integer</td>
+<td>5m CPU Load (100 = 1%)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.cpu_5s</td>
+<td>Unsigned 32-bit integer</td>
+<td>5s CPU Load (100 = 1%)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11ACKFailureCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>ACK Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11AssociatedStationCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Associated Station Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11FailedCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Failed Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11FCSErrorCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>FCS Error Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11FrameDuplicateCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Frame Duplicate Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11MulticastReceivedFrameCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multicast Received Frame Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11MulticastTransmittedFrameCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multicast Transmitted Frame Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11MultipleRetryCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Multiple Retry Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11QoSCFPollsLostCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS CF Polls Lost Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11QoSCFPollsReceivedCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS CF Polls Received Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11QoSCFPollsUnusableCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS CF Polls Unusable Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11QoSCFPollsUnusedCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS CF Polls Unused Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11QoSDiscardedFragmentCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>QoS Discarded Fragment Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11ReceivedFragmentCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Received Fragment Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11RetryCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Retry Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11RTSFailureCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11RTSSuccessCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTS Success Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11TransmittedFragmentCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmitted Fragment Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11TransmittedFrameCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transmitted Frame Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.dot11WEPUndecryptableCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>WEP Undecryptable Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.elapsed_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Elapsed Time (ms)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.flow_data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flow data length (byte)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.free_memory</td>
+<td>Unsigned 64-bit integer</td>
+<td>Free Memory</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.on_channel_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>On Channel (ms)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.sample_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sample length (byte)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sflow_5.total_memory</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total Memory</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,632 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax RNG-REQ/RSP Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax RNG-REQ/RSP Messages</h1>
+<div><b>Protocol field name:</b> wmx.rng</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.rng_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.rng_rsp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.activate</td>
+<td>Boolean</td>
+<td>Activation of Power Saving Class (Types 1 and 2 only)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.class_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Saving Class ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.class_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Saving Class Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.definition_present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Definition of Power Saving Class present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.final_sleep_window_base</td>
+<td>Unsigned 8-bit integer</td>
+<td>Final-sleep window base (measured in frames)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.final_sleep_window_exp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Final-sleep window exponent (measured in frames)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.first_sleep_window_frame</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start frame number for first sleep window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.included_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>CID of connection to be included into the Power Saving Class.</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.initial_sleep_window</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial-sleep window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.listening_window</td>
+<td>Unsigned 8-bit integer</td>
+<td>Listening window duration (measured in frames)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.mgmt_connection_direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direction for management connection added to Power Saving Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.slpid</td>
+<td>Unsigned 8-bit integer</td>
+<td>SLPID assigned by the BS whenever an MS is instructed to enter sleep mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng.power_save.trf_ind_required</td>
+<td>Boolean</td>
+<td>BS shall transmit at least one TRF-IND message during each listening window of the Power Saving Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.aas_broadcast</td>
+<td>Boolean</td>
+<td>AAS broadcast capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.anomalies.max_power</td>
+<td>Boolean</td>
+<td>Meaning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.anomalies.min_power</td>
+<td>Boolean</td>
+<td>Meaning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.anomalies.timing_adj</td>
+<td>Boolean</td>
+<td>Meaning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.cmac_key_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>CMAC Key Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.dl_burst_profile.ccc</td>
+<td>Unsigned 8-bit integer</td>
+<td>LSB of CCC of DCD associated with DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.dl_burst_profile.diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.ho_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID from the target BS for use in initial ranging during MS handover to it</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.power_down_indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power down Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.ranging_purpose.ho_indication</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS HO indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.ranging_purpose.loc_update_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location Update Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.ranging_purpose.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.repetition_coding_level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Repetition coding level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.serving_bs_id</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Former serving BS ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.ss_mac_address</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>SS MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_req.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.aas_broadcast</td>
+<td>Boolean</td>
+<td>AAS broadcast permission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.akid</td>
+<td>Byte array</td>
+<td>AKId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.basic_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Basic CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.bs_random</td>
+<td>Byte array</td>
+<td>BS_Random</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.config_change_count_of_dcd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Configuration Change Count value of DCD defining DIUC associated burst profile</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.dl_freq_override</td>
+<td>Unsigned 32-bit integer</td>
+<td>Downlink Frequency Override</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.dl_op_burst_prof.ccc</td>
+<td>Unsigned 16-bit integer</td>
+<td>CCC value of DCD defining the burst profile associated with DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.dl_op_burst_prof.diuc</td>
+<td>Unsigned 16-bit integer</td>
+<td>The least robust DIUC that may be used by the BS for transmissions to the SS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.dl_op_burst_profile</td>
+<td>Unsigned 16-bit integer</td>
+<td>Downlink Operational Burst Profile</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.dl_op_burst_profile_ofdma</td>
+<td>Unsigned 16-bit integer</td>
+<td>Downlink Operational Burst Profile for OFDMA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.eight_bit_frame_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>The 8 least significant bits of the frame number of the OFDMA frame where the SS sent the ranging code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.frame_number</td>
+<td>Unsigned 24-bit integer</td>
+<td>Frame number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>HO ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization</td>
+<td>Unsigned 16-bit integer</td>
+<td>HO Process Optimization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.omit_network_address</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.omit_reg_req</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.omit_sbc_req</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.omit_tftp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.omit_time_of_day</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.perform_reauthentication</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bits #1-2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.post_ho_reentry</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #14: Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.send_notification</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.transfer_or_sharing</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.trigger_higher_layer_protocol</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #13</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.unsolicited_reg_rsp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.unsolicited_sbc_rsp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ho_process_optimization.virtual_sdu_sn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit #11</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.least_robust_diuc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Least Robust DIUC that may be used by the BS for transmissions to the MS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.location_update_response</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location Update Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.offset_freq_adjust</td>
+<td>Signed 32-bit integer</td>
+<td>Offset Frequency Adjust</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.opportunity_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial ranging opportunity number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.paging_cycle</td>
+<td>Unsigned 16-bit integer</td>
+<td>Paging Cycle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.paging_group_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Paging Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.paging_information</td>
+<td>Byte array</td>
+<td>Paging Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.paging_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Paging Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.power_level_adjust</td>
+<td>Unknown</td>
+<td>Power Level Adjust</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.primary_mgmt_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Primary Management CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ranging_code_index</td>
+<td>Unsigned 32-bit integer</td>
+<td>The ranging code index that was sent by the SS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ranging_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ranging_subchannel</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ranging code attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.repetition_coding_indication</td>
+<td>Unsigned 16-bit integer</td>
+<td>Repetition Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.resource_retain_flag</td>
+<td>Boolean</td>
+<td>The connection information for the MS is</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.service_level_prediction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Level Prediction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ss_mac_address</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>SS MAC Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.subchannel_reference</td>
+<td>Unsigned 32-bit integer</td>
+<td>OFDMA subchannel reference used to transmit the ranging code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.time_symbol_reference</td>
+<td>Unsigned 32-bit integer</td>
+<td>OFDM time symbol reference used to transmit the ranging code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.timing_adjust</td>
+<td>Unknown</td>
+<td>Timing Adjust</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.tlv_value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ul_chan_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink Channel ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.ul_chan_id_override</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink channel ID Override</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.rng_rsp.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

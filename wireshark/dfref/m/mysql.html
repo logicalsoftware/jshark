@@ -1,0 +1,710 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: MySQL Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: MySQL Protocol</h1>
+<div><b>Protocol field name:</b> mysql</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>mysql.affected_rows</td>
+<td>Unsigned 64-bit integer</td>
+<td>Affected Rows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps</td>
+<td>Unsigned 16-bit integer</td>
+<td>Caps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.cd</td>
+<td>Boolean</td>
+<td>Connect With Database</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.cp</td>
+<td>Boolean</td>
+<td>Can use compression protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.cu</td>
+<td>Boolean</td>
+<td>Speaks 4.1 protocol (new flag)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.fr</td>
+<td>Boolean</td>
+<td>Found Rows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ia</td>
+<td>Boolean</td>
+<td>Interactive Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ii</td>
+<td>Boolean</td>
+<td>Ignore sigpipes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.is</td>
+<td>Boolean</td>
+<td>Ignore Spaces before '('</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.lf</td>
+<td>Boolean</td>
+<td>Long Column Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.li</td>
+<td>Boolean</td>
+<td>Can Use LOAD DATA LOCAL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.lp</td>
+<td>Boolean</td>
+<td>Long Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.mr</td>
+<td>Boolean</td>
+<td>Supports multiple results</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ms</td>
+<td>Boolean</td>
+<td>Supports multiple statements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ns</td>
+<td>Boolean</td>
+<td>Don't Allow database.table.column</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ob</td>
+<td>Boolean</td>
+<td>ODBC Client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.rs</td>
+<td>Boolean</td>
+<td>Speaks 4.1 protocol (old flag)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.sc</td>
+<td>Boolean</td>
+<td>Can do 4.1 authentication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.sl</td>
+<td>Boolean</td>
+<td>Switch to SSL after handshake</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.caps.ta</td>
+<td>Boolean</td>
+<td>Knows about transactions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.charset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Charset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.eof</td>
+<td>Unsigned 8-bit integer</td>
+<td>EOF</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.error.message</td>
+<td>String</td>
+<td>Error message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.error_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.exec_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (unused)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.exec_iter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Iterations (unused)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.extcaps</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ext. Caps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.extra</td>
+<td>Unsigned 64-bit integer</td>
+<td>Extra data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.catalog</td>
+<td>String</td>
+<td>Catalog</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.charsetnr</td>
+<td>Unsigned 16-bit integer</td>
+<td>Charset number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.db</td>
+<td>String</td>
+<td>Database</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.decimals</td>
+<td>Unsigned 8-bit integer</td>
+<td>Decimals</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.default</td>
+<td>String</td>
+<td>Default</td>
+<td>1.4.1 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.auto_increment</td>
+<td>Boolean</td>
+<td>Auto increment</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.binary</td>
+<td>Boolean</td>
+<td>Binary</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.blob</td>
+<td>Boolean</td>
+<td>Blob</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.enum</td>
+<td>Boolean</td>
+<td>Enum</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.multiple_key</td>
+<td>Boolean</td>
+<td>Multiple key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.not_null</td>
+<td>Boolean</td>
+<td>Not null</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.primary_key</td>
+<td>Boolean</td>
+<td>Primary key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.set</td>
+<td>Boolean</td>
+<td>Set</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.timestamp</td>
+<td>Boolean</td>
+<td>Timestamp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.unique_key</td>
+<td>Boolean</td>
+<td>Unique key</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.unsigned</td>
+<td>Boolean</td>
+<td>Unsigned</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.flags.zero_fill</td>
+<td>Boolean</td>
+<td>Zero fill</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.org_name</td>
+<td>String</td>
+<td>Original name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.org_table</td>
+<td>String</td>
+<td>Original table</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.table</td>
+<td>String</td>
+<td>Table</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.field.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.insert_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Last INSERT ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.max_packet</td>
+<td>Unsigned 24-bit integer</td>
+<td>MAX Packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.message</td>
+<td>String</td>
+<td>Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.num_fields</td>
+<td>Unsigned 64-bit integer</td>
+<td>Number of fields</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.num_rows</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rows to fetch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.opcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.option</td>
+<td>Unsigned 16-bit integer</td>
+<td>Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.packet_length</td>
+<td>Unsigned 24-bit integer</td>
+<td>Packet Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.packet_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.param</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.parameter</td>
+<td>String</td>
+<td>Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.passwd</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.payload</td>
+<td>String</td>
+<td>Payload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.protocol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.query</td>
+<td>String</td>
+<td>Statement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.refresh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Refresh Option</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.response_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.grants</td>
+<td>Boolean</td>
+<td>reload permissions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.hosts</td>
+<td>Boolean</td>
+<td>flush hosts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.log</td>
+<td>Boolean</td>
+<td>flush logfiles</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.master</td>
+<td>Boolean</td>
+<td>flush master status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.slave</td>
+<td>Boolean</td>
+<td>flush slave status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.status</td>
+<td>Boolean</td>
+<td>reset statistics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.tables</td>
+<td>Boolean</td>
+<td>flush tables</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.rfsh.threads</td>
+<td>Boolean</td>
+<td>empty thread cache</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.row.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.row.text</td>
+<td>String</td>
+<td>text</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.salt</td>
+<td>String</td>
+<td>Salt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.salt2</td>
+<td>String</td>
+<td>Salt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.schema</td>
+<td>String</td>
+<td>Schema</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.sqlstate</td>
+<td>String</td>
+<td>SQL state</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.ac</td>
+<td>Boolean</td>
+<td>AUTO_COMMIT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.bi</td>
+<td>Boolean</td>
+<td>Bad index used</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.bs</td>
+<td>Boolean</td>
+<td>No backslash escapes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.cr</td>
+<td>Boolean</td>
+<td>Cursor exists</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.dr</td>
+<td>Boolean</td>
+<td>database dropped</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.it</td>
+<td>Boolean</td>
+<td>In transaction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.lr</td>
+<td>Boolean</td>
+<td>Last row sebd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.mr</td>
+<td>Boolean</td>
+<td>More results</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.mu</td>
+<td>Boolean</td>
+<td>Multi query - more resultsets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stat.ni</td>
+<td>Boolean</td>
+<td>No index used</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.stmt_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Statement ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.thd_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Thread ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.thread_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Thread ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.unused</td>
+<td>String</td>
+<td>Unused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.user</td>
+<td>String</td>
+<td>Username</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mysql.warnings</td>
+<td>Unsigned 16-bit integer</td>
+<td>Warnings</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

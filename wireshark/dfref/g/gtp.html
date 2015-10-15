@@ -1,0 +1,968 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GPRS Tunneling Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GPRS Tunneling Protocol</h1>
+<div><b>Protocol field name:</b> gtp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gtp.apn</td>
+<td>String</td>
+<td>APN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.bssgp_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>BSSGP Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char</td>
+<td>Unsigned 16-bit integer</td>
+<td>Charging characteristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_f</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flat rate charging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_h</td>
+<td>Unsigned 16-bit integer</td>
+<td>Hot billing charging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_n</td>
+<td>Unsigned 16-bit integer</td>
+<td>Normal charging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_p</td>
+<td>Unsigned 16-bit integer</td>
+<td>Prepaid charging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_r</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_char_s</td>
+<td>Unsigned 16-bit integer</td>
+<td>Spare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Charging ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_ipv4</td>
+<td>IPv4 address</td>
+<td>CG address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.chrg_ipv6</td>
+<td>IPv6 address</td>
+<td>CG address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cksn_ksi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ciphering Key Sequence Number (CKSN)/Key Set Identifier (KSI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.mbs_cnt_inf</td>
+<td>Boolean</td>
+<td>MBMS Counting Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.mbs_srv_type</td>
+<td>Boolean</td>
+<td>MBMS Service Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.no_qos_neg</td>
+<td>Boolean</td>
+<td>No QoS negotiation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.nrsn</td>
+<td>Boolean</td>
+<td>NRSN bit field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.ppc</td>
+<td>Boolean</td>
+<td>Prohibit Payload Compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.cmn_flg.ran_pcd_rd</td>
+<td>Boolean</td>
+<td>RAN Procedures Ready</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.dti</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direct Tunnel Indicator (DTI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ei</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Indication (EI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_apn_res</td>
+<td>Unsigned 8-bit integer</td>
+<td>Restriction Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_flow_label</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow Label Data I</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_geo_loc_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Geographic Location Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extension identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_imeisv</td>
+<td>String</td>
+<td>IMEI(SV)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_rat_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>RAT Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_sac</td>
+<td>Unsigned 16-bit integer</td>
+<td>SAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ext_val</td>
+<td>Byte array</td>
+<td>Extension value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.e</td>
+<td>Boolean</td>
+<td>Is Next Extension Header present?</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.payload</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.pn</td>
+<td>Boolean</td>
+<td>Is N-PDU number present?</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.s</td>
+<td>Boolean</td>
+<td>Is Sequence Number present?</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.snn</td>
+<td>Boolean</td>
+<td>Is SNDCP N-PDU included?</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flags.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flow_ii</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow Label Data II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flow_label</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.flow_sig</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow label Signalling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.gcsi</td>
+<td>Unsigned 8-bit integer</td>
+<td>GPRS-CSI (GCSI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.gsn_addr_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>GSN Address Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.gsn_addr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>GSN Address Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.gsn_ipv4</td>
+<td>IPv4 address</td>
+<td>GSN address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.gsn_ipv6</td>
+<td>IPv6 address</td>
+<td>GSN address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.imsi</td>
+<td>String</td>
+<td>IMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.lac</td>
+<td>Unsigned 16-bit integer</td>
+<td>LAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.map_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAP cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mbms_sa_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>MBMS service area code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mbms_ses_dur_days</td>
+<td>Unsigned 8-bit integer</td>
+<td>Estimated session duration days</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mbms_ses_dur_s</td>
+<td>Unsigned 24-bit integer</td>
+<td>Estimated session duration seconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mbs_2g_3g_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>MBMS 2G/3G Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mcc</td>
+<td>Unsigned 16-bit integer</td>
+<td>MCC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.message</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.mnc</td>
+<td>Unsigned 8-bit integer</td>
+<td>MNC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ms_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS not reachable reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ms_valid</td>
+<td>Boolean</td>
+<td>MS validated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.msisdn</td>
+<td>String</td>
+<td>MSISDN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.next</td>
+<td>Unsigned 8-bit integer</td>
+<td>Next extension header type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.no_of_mbms_sa_codes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of MBMS service area codes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.no_of_vectors</td>
+<td>Unsigned 8-bit integer</td>
+<td>No of Vectors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.node_ipv4</td>
+<td>IPv4 address</td>
+<td>Node address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.node_ipv6</td>
+<td>IPv6 address</td>
+<td>Node address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.npdu_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>N-PDU Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.nsapi</td>
+<td>Unsigned 8-bit integer</td>
+<td>NSAPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.pkt_flow_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Flow ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.prim.flags.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ps_handover_xid_par_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>PS Handover XID parameter length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ps_handover_xid_sapi</td>
+<td>Unsigned 8-bit integer</td>
+<td>PS Handover XID SAPI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ptmsi</td>
+<td>Unsigned 32-bit integer</td>
+<td>P-TMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ptmsi_sig</td>
+<td>Unsigned 24-bit integer</td>
+<td>P-TMSI Signature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_al_ret_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation/Retention priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_del_err_sdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery of erroneous SDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_del_order</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_guar_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for downlink</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_guar_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for uplink</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_max_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for downlink</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_max_sdu_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum SDU size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_max_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for uplink</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_mean</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS mean</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_peak</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS peak</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS precedence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_reliability</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS reliability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_reliabilty</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS reliability</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gtp.qos_res_ber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Residual BER</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_sdu_err_ratio</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDU Error ratio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_spare1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_spare2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_spare3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_traf_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_traf_handl_prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic handling priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_trans_delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transfer delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.qos_version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rab_gtp_dn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Downlink GTP-U seq number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rab_gtp_up</td>
+<td>Unsigned 16-bit integer</td>
+<td>Uplink GTP-U seq number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rab_pdu_dn</td>
+<td>Unsigned 16-bit integer</td>
+<td>Downlink next PDCP-PDU seq number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rab_pdu_up</td>
+<td>Unsigned 16-bit integer</td>
+<td>Uplink next PDCP-PDU seq number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rac</td>
+<td>Unsigned 8-bit integer</td>
+<td>RAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ranap_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>RANAP cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.recovery</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recovery</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.reorder</td>
+<td>Boolean</td>
+<td>Reordering required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.response_in</td>
+<td>Frame number</td>
+<td>Response In</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.response_to</td>
+<td>Frame number</td>
+<td>Response To</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rnc_ipv4</td>
+<td>IPv4 address</td>
+<td>RNC address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rnc_ipv6</td>
+<td>IPv6 address</td>
+<td>RNC address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rp_nsapi</td>
+<td>Unsigned 8-bit integer</td>
+<td>NSAPI in Radio Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rp_sms</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Priority SMS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.rp_spare</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.security_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Security Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.sel_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Selection mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.seq_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.sig_ind</td>
+<td>Boolean</td>
+<td>Signalling Indication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.sndcp_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>SNDCP N-PDU LLC Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.src_stat_desc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source Statistics Descriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.targetid</td>
+<td>Unsigned 32-bit integer</td>
+<td>TargetID</td>
+<td>1.0.0 to 1.2.5</td>
+</tr>
+<tr>
+<td>gtp.targetRNC_ID</td>
+<td>None</td>
+<td>targetRNC-ID</td>
+<td>1.2.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tear_ind</td>
+<td>Boolean</td>
+<td>Teardown Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.teid</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.teid_cp</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEID Control Plane</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.teid_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEID Data I</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.teid_ii</td>
+<td>Unsigned 32-bit integer</td>
+<td>TEID Data II</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tft_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFT operation code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tft_eval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Evaluation precedence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tft_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of packet filters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tft_spare</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFT spare bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tid</td>
+<td>String</td>
+<td>TID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.time</td>
+<td>Time duration</td>
+<td>Time</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.time_2_dta_tr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time to MBMS Data Transfer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tlli</td>
+<td>Unsigned 32-bit integer</td>
+<td>TLLI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.tr_comm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet transfer command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.trace_ref</td>
+<td>Unsigned 16-bit integer</td>
+<td>Trace reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.trace_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Trace type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ulink_teid_cp</td>
+<td>Unsigned 32-bit integer</td>
+<td>Uplink TEID Control Plane</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.ulink_teid_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Uplink TEID Data I</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.unknown</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown data (length)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.user_addr_pdp_org</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDP type organization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.user_addr_pdp_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDP type number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.user_ipv4</td>
+<td>IPv4 address</td>
+<td>End user address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gtp.user_ipv6</td>
+<td>IPv6 address</td>
+<td>End user address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

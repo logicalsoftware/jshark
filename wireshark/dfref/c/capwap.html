@@ -1,0 +1,1022 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Control And Provisioning of Wireless Access Points</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Control And Provisioning of Wireless Access Points</h1>
+<div><b>Protocol field name:</b> capwap</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>capwap.control.header</td>
+<td>None</td>
+<td>Control Header</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.message_element_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Element Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.message_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.message_type.enterprise_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Type (Enterprise Number)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.message_type.enterprise_specific</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type (Enterprise Specific)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.header.sequence_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.active_wtp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Active WTPs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.dtls_policy</td>
+<td>None</td>
+<td>DTLS Policy Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.dtls_policy.c</td>
+<td>Boolean</td>
+<td>Clear Text Data Channel Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.dtls_policy.d</td>
+<td>Boolean</td>
+<td>DTLS-Enabled Data Channel Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.dtls_policy.r</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.limit</td>
+<td>Unsigned 16-bit integer</td>
+<td>Limit Stations</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.max_wtp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max WTPs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.rmac_field</td>
+<td>Unsigned 8-bit integer</td>
+<td>R-MAC Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.security</td>
+<td>None</td>
+<td>Security Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.security.r</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.security.s</td>
+<td>Boolean</td>
+<td>AC supports the pre-shared</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.security.x</td>
+<td>Boolean</td>
+<td>AC supports X.509 Certificate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_descriptor.stations</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stations</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.hardware_version</td>
+<td>String</td>
+<td>AC Hardware Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>AC Information Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.software_version</td>
+<td>String</td>
+<td>AC Software Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>AC Information Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.value</td>
+<td>Byte array</td>
+<td>AC Information Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_information.vendor</td>
+<td>Unsigned 32-bit integer</td>
+<td>AC Information Vendor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_name</td>
+<td>String</td>
+<td>AC Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ac_name_with_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>AC Name Priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.capwap_control_wtp_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>CAPWAP Control WTP Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.capwap_timers_discovery</td>
+<td>Unsigned 8-bit integer</td>
+<td>CAPWAP Timers Discovery (Sec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.capwap_timers_echo_request</td>
+<td>Unsigned 8-bit integer</td>
+<td>CAPWAP Timers Echo Request (Sec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.decryption_error_report_period.interval</td>
+<td>Unsigned 16-bit integer</td>
+<td>Decryption Error Report Report Interval (Sec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.decryption_error_report_period.radio_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Decryption Error Report Period Radio ID </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.discovery_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discovery Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.idle_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Idle Timeout (Sec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211__wtp_radio_info.radio_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_rate_set.radio_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_rate_set.rate_set</td>
+<td>Byte array</td>
+<td>Rate Set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.flags_a</td>
+<td>Boolean</td>
+<td>Flag A</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.flags_c</td>
+<td>Boolean</td>
+<td>Flag C</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.key</td>
+<td>Byte array</td>
+<td>Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Mac Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.pairwire_rsc</td>
+<td>Byte array</td>
+<td>Pairwise RSC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_station_session_key.pairwire_tsc</td>
+<td>Byte array</td>
+<td>Pairwise TSC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_wtp_info_radio.radio_type_a</td>
+<td>Boolean</td>
+<td>Radio Type 802.11a</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_wtp_info_radio.radio_type_b</td>
+<td>Boolean</td>
+<td>Radio Type 802.11g</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_wtp_info_radio.radio_type_g</td>
+<td>Boolean</td>
+<td>Radio Type 802.11g</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_wtp_info_radio.radio_type_n</td>
+<td>Boolean</td>
+<td>Radio Type 802.11n</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.ieee80211_wtp_info_radio.radio_type_reserved</td>
+<td>Byte array</td>
+<td>Radio Type Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.location_data</td>
+<td>String</td>
+<td>Location Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.maximum_message_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Message Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.message_element.ac_ipv4_list</td>
+<td>IPv4 address</td>
+<td>AC IPv4 List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.message_element.ac_ipv6_list</td>
+<td>IPv6 address</td>
+<td>AC IPv6 List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.message_element.capwap_control_ipv4</td>
+<td>IPv4 address</td>
+<td>CAPWAP Control IP Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.message_element.capwap_control_ipv6</td>
+<td>IPv6 address</td>
+<td>CAPWAP Control IP Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.radio_admin.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Administrative ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.radio_admin.state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Administrative State</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.radio_op_state.radio_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Operational Cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.radio_op_state.radio_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Operational ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.radio_op_state.radio_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio Operational State</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.result_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Result Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.session_id</td>
+<td>Byte array</td>
+<td>Session ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.statistics_timer</td>
+<td>Unsigned 16-bit integer</td>
+<td>Statistics Timer (Sec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.vsp.vendor_data</td>
+<td>Byte array</td>
+<td>Vendor Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.vsp.vendor_element_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Vendor Element ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.vsp.vendor_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vendor Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.base_mac_address</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Base Mac Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Board Data Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Board Data Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.value</td>
+<td>Byte array</td>
+<td>Board Data Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.vendor</td>
+<td>Unsigned 32-bit integer</td>
+<td>WTP Board Data Vendor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.wtp_board_id</td>
+<td>String</td>
+<td>WTP Board ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.wtp_board_revision</td>
+<td>String</td>
+<td>WTP Board Revision</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.wtp_model_number</td>
+<td>String</td>
+<td>WTP Model Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_board_data.wtp_serial_number</td>
+<td>String</td>
+<td>WTP Serial Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.active_software_version</td>
+<td>String</td>
+<td>WTP Active Software Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.boot_version</td>
+<td>String</td>
+<td>WTP Boot Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.encrypt_capabilities</td>
+<td>Unsigned 16-bit integer</td>
+<td>Encryption Capabilities</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.encrypt_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (Encrypt)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.encrypt_wbid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encrypt WBID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.hardware_version</td>
+<td>String</td>
+<td>WTP Hardware Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Descriptor Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.max_radios</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Radios</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.number_encrypt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encryption Capabilities (Number)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.other_software_version</td>
+<td>String</td>
+<td>WTP Other Software Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.radio_in_use</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio in use</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Descriptor Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.value</td>
+<td>Byte array</td>
+<td>Descriptor Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_descriptor.vendor</td>
+<td>Unsigned 32-bit integer</td>
+<td>WTP Descriptor Vendor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_fallback</td>
+<td>Unsigned 8-bit integer</td>
+<td>WTP Fallback</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_frame_tunnel_mode</td>
+<td>None</td>
+<td>WTP Frame Tunnel Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_frame_tunnel_mode.e</td>
+<td>Boolean</td>
+<td>802.3 Frame Tunnel Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_frame_tunnel_mode.l</td>
+<td>Boolean</td>
+<td>Local Bridging</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_frame_tunnel_mode.n</td>
+<td>Boolean</td>
+<td>Native Frame Tunnel Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_frame_tunnel_mode.r</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_mac_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>WTP MAC Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_name</td>
+<td>String</td>
+<td>WTP Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.ac_initiated_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>AC Initiated Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.hw_failure_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>HW Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.last_failure_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Last Failure Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.link_failure_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Link Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.other_failure_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Other Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.reboot_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reboot Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.sw_failure_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>SW Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.control.message_element.wtp_reboot_statistics.unknown_failure_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown Failure Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment</td>
+<td>Frame number</td>
+<td>Message fragment</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment.error</td>
+<td>Frame number</td>
+<td>Message defragmentation error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment.multiple_tails</td>
+<td>Boolean</td>
+<td>Message has multiple tail fragments</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment.overlap</td>
+<td>Boolean</td>
+<td>Message fragment overlap</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment.overlap.conflicts</td>
+<td>Boolean</td>
+<td>Message fragment overlapping with conflicting data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragment.too_long_fragment</td>
+<td>Boolean</td>
+<td>Message fragment too long</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.fragments</td>
+<td>None</td>
+<td>Message fragments</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header</td>
+<td>None</td>
+<td>Header</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.f</td>
+<td>Boolean</td>
+<td>Fragment</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.k</td>
+<td>Boolean</td>
+<td>Keep-Alive</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.l</td>
+<td>Boolean</td>
+<td>Last Fragment</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.m</td>
+<td>Boolean</td>
+<td>Radio MAC header</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.r</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.t</td>
+<td>Boolean</td>
+<td>Payload Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.flags.w</td>
+<td>Boolean</td>
+<td>Wireless header</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.fragment.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.fragment.offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.fragment.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.mac.data</td>
+<td>Byte array</td>
+<td>MAC address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.mac.eui48</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.mac.eui64</td>
+<td>Byte array</td>
+<td>MAC address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.mac.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.padding</td>
+<td>Byte array</td>
+<td>Padding for 4 Byte Alignement</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.rid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Radio ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wbid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wireless Binding ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data</td>
+<td>Byte array</td>
+<td>Wireless data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.dw</td>
+<td>Byte array</td>
+<td>Wireless data ieee80211 Destination WLANs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.dw.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Wireless data ieee80211 Destination Wlan reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.dw.wlan_id_bitmap</td>
+<td>Unsigned 16-bit integer</td>
+<td>Wireless data ieee80211 Destination Wlan Id bitmap</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.fi</td>
+<td>Byte array</td>
+<td>Wireless data ieee80211 Frame Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.fi.data_rate</td>
+<td>Unsigned 16-bit integer</td>
+<td>Wireless data ieee80211 Data Rate (Mbps)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.fi.rssi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wireless data ieee80211 RSSI (dBm)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.data.ieee80211.fi.snr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wireless data ieee80211 SNR (dB)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.header.wireless.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wireless length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.message_element</td>
+<td>None</td>
+<td>Message Element</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.message_element.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.message_element.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.message_element.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.preamble</td>
+<td>None</td>
+<td>Preamble</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.preamble.reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.preamble.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.preamble.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.reassembled.in</td>
+<td>Frame number</td>
+<td>Reassembled in</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>capwap.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled CAPWAP length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

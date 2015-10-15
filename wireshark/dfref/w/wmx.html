@@ -1,0 +1,1112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax Protocol</h1>
+<div><b>Protocol field name:</b> wmx</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wmx.cdma.ranging_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma.ranging_subchannel_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Sub-Channel Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma.ranging_symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.allocation_repetition</td>
+<td>Unsigned 16-bit integer</td>
+<td>Repetition Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.bw_req</td>
+<td>Boolean</td>
+<td>BW Request Mandatory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.duration</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.frame_number_index</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Number Index (LSBs of relevant frame number)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.ranging_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.ranging_subchannel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Subchannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.ranging_symbol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ranging Symbol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.cdma_allocation.uiuc</td>
+<td>Unsigned 16-bit integer</td>
+<td>UIUC For Transmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.allocation_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.allocation_mode_rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.band_index</td>
+<td>Byte array</td>
+<td>Band Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.bin_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>BIN Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.bit_map</td>
+<td>Byte array</td>
+<td>BIT MAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.bit_map_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>BIT MAP Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.companded_sc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Companded SC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.diuc_num_of_subchannels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.diuc_repetition_coding_indication</td>
+<td>Unsigned 8-bit integer</td>
+<td>Repetition Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.diuc_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.dl_map_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DL-MAP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.nb_bitmap</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Bits For Band BITMAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.nep_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nep Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.nsch_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nsch Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.num_bands</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Bands</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.num_subchannels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.reserved_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DL-MAP Reserved Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.shortened_diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Shortened DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.shortened_uiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Shortened UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_dlmap.ul_map_append</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL-MAP Append</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.allocation_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.allocation_mode_rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.band_index</td>
+<td>Byte array</td>
+<td>Band Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.bin_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>BIN Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.companded_sc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Companded SC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.cqi_region_change_indication</td>
+<td>Boolean</td>
+<td>CQI Region Change Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.harq_region_change_indication</td>
+<td>Boolean</td>
+<td>HARQ Region Change Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.nb_bitmap</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Bits For Band BITMAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.nep_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nep Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.nsch_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nsch Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.num_bands</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Bands</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.num_subchannels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.reserved_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL-MAP Reserved Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.shortened_uiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Shortened UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_num_of_ofdma_symbols</td>
+<td>Unsigned 24-bit integer</td>
+<td>Number Of OFDMA Symbols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_num_of_subchannels</td>
+<td>Unsigned 24-bit integer</td>
+<td>Number Of Subchannels</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_ofdma_symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>OFDMA Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_ranging_method</td>
+<td>Unsigned 24-bit integer</td>
+<td>Ranging Method</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_repetition_coding_indication</td>
+<td>Unsigned 8-bit integer</td>
+<td>Repetition Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_reserved1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.uiuc_subchannel_offset</td>
+<td>Unsigned 24-bit integer</td>
+<td>Subchannel Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.compact_ulmap.ul_map_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>UL-MAP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.aas_dl</td>
+<td>Byte array</td>
+<td>AAS_DL_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.channel_measurement</td>
+<td>Byte array</td>
+<td>Channel_Measurement_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.cid_switch</td>
+<td>Byte array</td>
+<td>CID_Switch_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.data_location</td>
+<td>Byte array</td>
+<td>Data_location_in_another_BS_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.diuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.dl_pusc_burst_allocation</td>
+<td>Byte array</td>
+<td>DL_PUSC_Burst_Allocation_in_Other_Segment_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.harq_map_pointer</td>
+<td>Byte array</td>
+<td>HARQ_Map_Pointer_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.mimo_dl_basic</td>
+<td>Byte array</td>
+<td>MIMO_DL_Basic_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.mimo_dl_enhanced</td>
+<td>Byte array</td>
+<td>MIMO_DL_Enhanced_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.phymod_dl</td>
+<td>Byte array</td>
+<td>PHYMOD_DL_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.stc_zone</td>
+<td>Byte array</td>
+<td>STC_Zone_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.ul_interference_and_noise_level</td>
+<td>Byte array</td>
+<td>UL_interference_and_noise_level_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_diuc_dependent_ie.unknown_diuc</td>
+<td>Byte array</td>
+<td>Unknown Extended DIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc.unknown_uiuc</td>
+<td>Byte array</td>
+<td>Unknown Extended UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.aas_ul</td>
+<td>Byte array</td>
+<td>AAS_UL_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.cqich_alloc</td>
+<td>Byte array</td>
+<td>CQICH Allocation IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.fast_ranging</td>
+<td>Byte array</td>
+<td>Fast Ranging IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.fast_tracking</td>
+<td>Byte array</td>
+<td>UL-MAP Fast Tracking IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mimo_ul_basic</td>
+<td>Byte array</td>
+<td>MIMO UL Basic IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.cid</td>
+<td>Unsigned 24-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.ctype</td>
+<td>Unsigned 8-bit integer</td>
+<td>C Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.duration</td>
+<td>Unsigned 8-bit integer</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.padding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.repetition</td>
+<td>Unsigned 24-bit integer</td>
+<td>Repetition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.mini_subchannel_alloc.uiuc</td>
+<td>Unsigned 24-bit integer</td>
+<td>UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.phymod_ul</td>
+<td>Byte array</td>
+<td>UL-MAP Physical Modifier IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.power_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.power_measurement_frame</td>
+<td>Unsigned 8-bit integer</td>
+<td>Power Measurement Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.uiuc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended UIUC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.ul_allocation_start</td>
+<td>Byte array</td>
+<td>UL Allocation Start IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.ul_pusc_burst_allocation</td>
+<td>Byte array</td>
+<td>UL_PUSC_Burst_Allocation_in_Other_Segment_IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extended_uiuc_ie.ul_zone</td>
+<td>Byte array</td>
+<td>UL Zone IE (not implemented)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.dl_map_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>DL-MAP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.harq_mode</td>
+<td>Unsigned 16-bit integer</td>
+<td>HARQ Mode Switch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extension Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.subtype</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extension Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.time_diversity_mbs</td>
+<td>Byte array</td>
+<td>Time Diversity MBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.ul_map_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>UL-MAP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.extension_type.unknown_sub_type</td>
+<td>Byte array</td>
+<td>Unknown Extension Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.coding_indication</td>
+<td>Unsigned 24-bit integer</td>
+<td>Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.dl_map_length</td>
+<td>Unsigned 24-bit integer</td>
+<td>DL Map Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.repetition_coding_indication</td>
+<td>Unsigned 24-bit integer</td>
+<td>Repetition Coding Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.reserved1</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.reserved2</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group0</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group1</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group2</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group3</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group4</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.fch.subchannel_group5</td>
+<td>Unsigned 24-bit integer</td>
+<td>Sub-Channel Group 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.burst</td>
+<td>Byte array</td>
+<td>Fast Feedback Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.ffb_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fast Feedback Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.ffb_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fast Feedback Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.num_of_ffbs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of Fast Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.subchannel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Physical Subchannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.ffb.symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.format_config_ie.dl_map_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DL-MAP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.format_config_ie.new_format_indication</td>
+<td>Boolean</td>
+<td>New Format Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.burst</td>
+<td>Byte array</td>
+<td>HARQ ACK Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.hack_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>ACK Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.half_slot_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Half-Slot Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.num_of_hacks</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number Of HARQ ACKs/NACKs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.subchannel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Physical Subchannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.hack.symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.alloc_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Allocation Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.cqi_rep_threshold</td>
+<td>Unsigned 16-bit integer</td>
+<td>CQI Reporting Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.cqich_indicator</td>
+<td>Boolean</td>
+<td>CQICH Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.duration</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.frame_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Frame Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.cqich_control_ie.period</td>
+<td>Unsigned 16-bit integer</td>
+<td>PERIOD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.dl_ie_count</td>
+<td>Unsigned 24-bit integer</td>
+<td>DL IE Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.cid_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>CID Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.indicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>HARQ MAP Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.max_logical_bands</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Logical Bands</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.num_of_broadcast_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.num_of_dl_band_amc_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.num_of_ul_band_amc_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.safety_pattern</td>
+<td>Unsigned 32-bit integer</td>
+<td>Safety Pattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.format_config_ie.subchannel_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Subchannel Type For Band AMC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.harq_control_ie.acid</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ CH ID (ACID)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.harq_control_ie.ai_sn</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ ID Sequence Number(AI_SN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.harq_control_ie.prefix</td>
+<td>Boolean</td>
+<td>Prefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.harq_control_ie.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.harq_control_ie.spid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subpacket ID (SPID)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.indicator</td>
+<td>Unsigned 24-bit integer</td>
+<td>HARQ MAP Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.msg_crc</td>
+<td>Unsigned 32-bit integer</td>
+<td>HARQ MAP Message CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.msg_length</td>
+<td>Unsigned 24-bit integer</td>
+<td>Map Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.num_of_broadcast_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.num_of_dl_band_amc_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.num_of_ul_band_amc_symbol</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number Of Symbols for Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.rcid_ie.cid11</td>
+<td>Unsigned 16-bit integer</td>
+<td>11 LSB Of Basic CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.rcid_ie.cid3</td>
+<td>Unsigned 16-bit integer</td>
+<td>3 LSB Of Basic CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.rcid_ie.cid7</td>
+<td>Unsigned 16-bit integer</td>
+<td>7 LSB Of Basic CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.rcid_ie.normal_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Normal CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.rcid_ie.prefix</td>
+<td>Unsigned 16-bit integer</td>
+<td>Prefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.harq_map.ul_map_appended</td>
+<td>Unsigned 24-bit integer</td>
+<td>HARQ UL-MAP Appended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.pdu.value</td>
+<td>Byte array</td>
+<td>Values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.encoding_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encoding Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.modulation_rate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Modulation Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.num_of_slots</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number Of Slots</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.num_repeat</td>
+<td>Unsigned 8-bit integer</td>
+<td>numRepeat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.permbase</td>
+<td>Unsigned 8-bit integer</td>
+<td>Permbase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.subchannel</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subchannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.subchannelization_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subchannelization Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.phy_attributes.symbol_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Symbol Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.unknown_type</td>
+<td>Byte array</td>
+<td>Unknown MAC Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.values</td>
+<td>Byte array</td>
+<td>Values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

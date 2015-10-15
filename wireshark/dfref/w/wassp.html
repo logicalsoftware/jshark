@@ -1,0 +1,1670 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Wireless Access Station Session Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Wireless Access Station Session Protocol</h1>
+<div><b>Protocol field name:</b> wassp</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wassp.ac.ipaddr</td>
+<td>IPv4 address</td>
+<td>AC-IPADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ac.reg.challenge</td>
+<td>Signed 32-bit integer</td>
+<td>AC_REG_CHALLENGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ac.reg.response</td>
+<td>Signed 32-bit integer</td>
+<td>AC_REG_RESPONSE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.dhcp.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>AP-DHCP-MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.gateway</td>
+<td>IPv4 address</td>
+<td>AP-GATEWAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.img.role</td>
+<td>Unsigned 32-bit integer</td>
+<td>AP-IMG-ROLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.img.to.ram</td>
+<td>Unsigned 32-bit integer</td>
+<td>AP-IMG-TO-RAM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.ipaddr</td>
+<td>IPv4 address</td>
+<td>AP-IPADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap.netmask</td>
+<td>IPv4 address</td>
+<td>AP-NETMASK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap_stats_block</td>
+<td>None</td>
+<td>AP Stats Block</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap_stats_block.dot1x</td>
+<td>None</td>
+<td>DOT1x_STATS_BLOCK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap_stats_block.ether</td>
+<td>None</td>
+<td>Ether Stats</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap_stats_block.radioa</td>
+<td>None</td>
+<td>Radio-A Stats</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ap_stats_block.radiobg</td>
+<td>None</td>
+<td>Radio-B/G Stats</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.bp.pmk</td>
+<td>Signed 32-bit integer</td>
+<td>BP_PMK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.bp.request.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>BP-REQUEST-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.certificate</td>
+<td>Signed 32-bit integer</td>
+<td>CERTIFICATE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.availability.mode</td>
+<td>Signed 32-bit integer</td>
+<td>AVAILABILITY_MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.adm.ctrl.reserve</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_ADM_CTRL_RESERVE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.video.assc</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_VIDEO_ASSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.video.reassc</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_VIDEO_REASSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.video.reserve</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_VIDEO_RESERVE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.voice.assc</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_VOICE_ASSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.bandwidth.voice.reassc</td>
+<td>Signed 32-bit integer</td>
+<td>BANDWIDTH_VOICE_REASSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.blacklist.blacklist.add</td>
+<td>Signed 32-bit integer</td>
+<td>BLACKLIST_BLACKLIST_ADD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.blacklist.del</td>
+<td>Signed 32-bit integer</td>
+<td>BLACKLIST_DEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.country.code</td>
+<td>Signed 32-bit integer</td>
+<td>COUNTRY_CODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.dhcp.assignment</td>
+<td>Signed 32-bit integer</td>
+<td>DHCP_ASSIGNMENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.disc.retry.count</td>
+<td>Signed 32-bit integer</td>
+<td>DISC_RETRY_COUNT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.disc.retry.delay</td>
+<td>Byte array</td>
+<td>DISC_RETRY_DELAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.dns.retry.count</td>
+<td>Signed 32-bit integer</td>
+<td>DNS_RETRY_COUNT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.dns.retry.delay</td>
+<td>Signed 32-bit integer</td>
+<td>DNS_RETRY_DELAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.failover.ac.ip.addr</td>
+<td>Signed 32-bit integer</td>
+<td>FAILOVER_AC_IP_ADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.logging.alarm.sev</td>
+<td>Signed 32-bit integer</td>
+<td>LOGGING_ALARM_SEV</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.macaddr.req</td>
+<td>Signed 32-bit integer</td>
+<td>MACADDR_REQ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.mcast.slp.retry.count</td>
+<td>Signed 32-bit integer</td>
+<td>MCAST_SLP_RETRY_COUNT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.mcast.slp.retry.delay</td>
+<td>Signed 32-bit integer</td>
+<td>MCAST_SLP_RETRY_DELAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.outdoor.enable.environment</td>
+<td>Signed 32-bit integer</td>
+<td>OUTDOOR_ENABLE_ENVIRONMENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.poll.duration</td>
+<td>Signed 32-bit integer</td>
+<td>POLL_DURATION</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.poll.interval</td>
+<td>Signed 32-bit integer</td>
+<td>POLL_INTERVAL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.poll.maintain.client.session</td>
+<td>Signed 32-bit integer</td>
+<td>POLL_MAINTAIN_CLIENT_SESSION</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.a.support.802.11.j</td>
+<td>Signed 32-bit integer</td>
+<td>R_A_SUPPORT_802_11_J</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.acs.ch.list</td>
+<td>Byte array</td>
+<td>R_ACS_CH_LIST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.atpc.en.interval</td>
+<td>Signed 32-bit integer</td>
+<td>R_ATPC_EN_INTERVAL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.b.basic.rates</td>
+<td>Signed 32-bit integer</td>
+<td>R_B_BASIC_RATES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.b.enable</td>
+<td>Signed 32-bit integer</td>
+<td>R_B_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.basic.rate.max</td>
+<td>Signed 32-bit integer</td>
+<td>R_BASIC_RATE_MAX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.basic.rate.min</td>
+<td>Signed 32-bit integer</td>
+<td>R_BASIC_RATE_MIN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.beacon.period</td>
+<td>Signed 32-bit integer</td>
+<td>R_BEACON_PERIOD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.channel</td>
+<td>Signed 32-bit integer</td>
+<td>R_CHANNEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.diversity.rx</td>
+<td>Signed 32-bit integer</td>
+<td>R_DIVERSITY_RX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.diversity.tx</td>
+<td>Signed 32-bit integer</td>
+<td>R_DIVERSITY_TX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.domain.id</td>
+<td>String</td>
+<td>R_DOMAIN_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.dtim.period</td>
+<td>Signed 32-bit integer</td>
+<td>R_DTIM_PERIOD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.enable.radio</td>
+<td>Signed 32-bit integer</td>
+<td>R_ENABLE_RADIO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.fragment.threshold</td>
+<td>Signed 32-bit integer</td>
+<td>R_FRAGMENT_THRESHOLD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.g.basic.rate</td>
+<td>Signed 32-bit integer</td>
+<td>R_G_BASIC_RATE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.g.enable</td>
+<td>Signed 32-bit integer</td>
+<td>R_G_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.g.protect.mode</td>
+<td>Signed 32-bit integer</td>
+<td>R_G_PROTECT_MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.g.protect.rate</td>
+<td>Signed 32-bit integer</td>
+<td>R_G_PROTECT_RATE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.g.protect.type</td>
+<td>Signed 32-bit integer</td>
+<td>R_G_PROTECT_TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.hw.retries</td>
+<td>String</td>
+<td>R_HW_RETRIES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.op.rate.max</td>
+<td>Signed 32-bit integer</td>
+<td>R_OP_RATE_MAX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.op.rate.set</td>
+<td>Signed 32-bit integer</td>
+<td>R_OP_RATE_SET</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.power.level</td>
+<td>Signed 32-bit integer</td>
+<td>R_POWER_LEVEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.radio.id</td>
+<td>Signed 32-bit integer</td>
+<td>R_RADIO_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.rts.threshold</td>
+<td>Signed 32-bit integer</td>
+<td>R_RTS_THRESHOLD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.short.preamble</td>
+<td>Signed 32-bit integer</td>
+<td>R_SHORT_PREAMBLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.tx.power.adj</td>
+<td>Signed 32-bit integer</td>
+<td>R_TX_POWER_ADJ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.tx.power.max</td>
+<td>Signed 32-bit integer</td>
+<td>R_TX_POWER_MAX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.radio.tx.power.min</td>
+<td>Signed 32-bit integer</td>
+<td>R_TX_POWER_MIN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.slp.retry.count</td>
+<td>Signed 32-bit integer</td>
+<td>SLP_RETRY_COUNT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.slp.retry.delay</td>
+<td>Signed 32-bit integer</td>
+<td>SLP_RETRY_DELAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.static.ac.ip.addr</td>
+<td>Signed 32-bit integer</td>
+<td>STATIC_AC_IP_ADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.static.ap.default.gw</td>
+<td>Signed 32-bit integer</td>
+<td>STATIC_AP_DEFAULT_GW</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.static.ap.ip.addr</td>
+<td>Signed 32-bit integer</td>
+<td>STATIC_AP_IP_ADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.static.ap.ip.netmask</td>
+<td>Signed 32-bit integer</td>
+<td>STATIC_AP_IP_NETMASK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.telnet.enable</td>
+<td>Signed 32-bit integer</td>
+<td>TELNET_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.telnet.password</td>
+<td>String</td>
+<td>TELNET_PASSWORD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.telnet.password.entry.mode</td>
+<td>Signed 32-bit integer</td>
+<td>TELNET_PASSWORD_ENTRY_MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.trace.status.config</td>
+<td>Signed 32-bit integer</td>
+<td>TRACE_STATUS_CONFIG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.trace.status.debug</td>
+<td>Signed 32-bit integer</td>
+<td>TRACE_STATUS_DEBUG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.use.bcast.for.disassc</td>
+<td>Signed 32-bit integer</td>
+<td>USE_BCAST_FOR_DISASSC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vlan.tag</td>
+<td>Signed 32-bit integer</td>
+<td>VLAN_TAG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.802.1.x.dyn.rekey</td>
+<td>Signed 32-bit integer</td>
+<td>V_802_1_X_DYN_REKEY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.802.1.x.enable</td>
+<td>Signed 32-bit integer</td>
+<td>V_802_1_X_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.adm.ctrl.video</td>
+<td>Signed 32-bit integer</td>
+<td>V_ADM_CTRL_VIDEO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.adm.ctrl.voice</td>
+<td>Signed 32-bit integer</td>
+<td>V_ADM_CTRL_VOICE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.bridge.mode</td>
+<td>Signed 32-bit integer</td>
+<td>V_BRIDGE_MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.channel.report</td>
+<td>Signed 32-bit integer</td>
+<td>V_CHANNEL_REPORT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.dscp.override.value</td>
+<td>Signed 32-bit integer</td>
+<td>V_DSCP_OVERRIDE_VALUE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.enable.802.11.e</td>
+<td>Signed 32-bit integer</td>
+<td>V_ENABLE_802_11_E</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.enable.802.11.h</td>
+<td>Signed 32-bit integer</td>
+<td>V_ENABLE_802_11_H</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.enable.u.apsd</td>
+<td>Signed 32-bit integer</td>
+<td>V_ENABLE_U_APSD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.enable.wmm</td>
+<td>Signed 32-bit integer</td>
+<td>V_ENABLE_WMM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.legacy.client.priority</td>
+<td>Signed 32-bit integer</td>
+<td>V_LEGACY_CLIENT_PRIORITY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.mu.assoc.retries</td>
+<td>Signed 32-bit integer</td>
+<td>V_MU_ASSOC_RETRIES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.mu.assoc.timeout</td>
+<td>Signed 32-bit integer</td>
+<td>V_MU_ASSOC_TIMEOUT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.okc.enabled</td>
+<td>Signed 32-bit integer</td>
+<td>V_OKC_ENABLED</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.power.backoff</td>
+<td>Signed 32-bit integer</td>
+<td>V_POWER_BACKOFF</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.priority.override</td>
+<td>Signed 32-bit integer</td>
+<td>V_PRIORITY_OVERRIDE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.process.ie.req</td>
+<td>Signed 32-bit integer</td>
+<td>V_PROCESS_IE_REQ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.prop.ie</td>
+<td>Signed 32-bit integer</td>
+<td>V_PROP_IE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.qos.up.value</td>
+<td>Byte array</td>
+<td>V_QOS_UP_VALUE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.radio.id</td>
+<td>Signed 32-bit integer</td>
+<td>V_RADIO_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.ssid.bcast.string</td>
+<td>String</td>
+<td>V_SSID_BCAST_STRING</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.ssid.id</td>
+<td>Signed 32-bit integer</td>
+<td>V_SSID_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.ssid.suppress</td>
+<td>Signed 32-bit integer</td>
+<td>V_SSID_SUPPRESS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.turbo.voice</td>
+<td>Signed 32-bit integer</td>
+<td>V_TURBO_VOICE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.vlan.tag</td>
+<td>Signed 32-bit integer</td>
+<td>V_VLAN_TAG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.vns.id</td>
+<td>Signed 32-bit integer</td>
+<td>V_VNS_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.back.parent</td>
+<td>Signed 32-bit integer</td>
+<td>V_WDS_BACK_PARENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.bridge</td>
+<td>Signed 32-bit integer</td>
+<td>V_WDS_BRIDGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.name</td>
+<td>String</td>
+<td>V_WDS_NAME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.parent</td>
+<td>Signed 32-bit integer</td>
+<td>V_WDS_PARENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.pref.parent</td>
+<td>Signed 32-bit integer</td>
+<td>V_WDS_PREF_PARENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wds.service</td>
+<td>Signed 32-bit integer</td>
+<td>V_WDS_SERVICE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wep.default.key.value</td>
+<td>Signed 32-bit integer</td>
+<td>V_WEP_DEFAULT_KEY_VALUE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wep.key.index</td>
+<td>Signed 32-bit integer</td>
+<td>V_WEP_KEY_INDEX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wpa.cipher.type</td>
+<td>Signed 32-bit integer</td>
+<td>V_WPA_CIPHER_TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wpa.enable</td>
+<td>Signed 32-bit integer</td>
+<td>V_WPA_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wpa.passphrase</td>
+<td>String</td>
+<td>V_WPA_PASSPHRASE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wpa.v2.cipher.type</td>
+<td>Signed 32-bit integer</td>
+<td>V_WPA_V2_CIPHER_TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.config.vns.wpa.v2.enable</td>
+<td>Signed 32-bit integer</td>
+<td>V_WPA_V2_ENABLE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.countdown.time</td>
+<td>Signed 32-bit integer</td>
+<td>COUNTDOWN_TIME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.discover1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discover Header1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.discover2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discover Header2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.discover3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discover Header3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ether</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Discover Ether</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.image.path</td>
+<td>String</td>
+<td>IMAGE-PATH</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.local.bridging</td>
+<td>Unsigned 32-bit integer</td>
+<td>LOCAL-BRIDGING</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.message.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>MESSAGE-TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.mu.mac</td>
+<td>Signed 32-bit integer</td>
+<td>MU_MAC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.mu.pmk.bp</td>
+<td>Signed 32-bit integer</td>
+<td>MU_PMK_BP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.mu.pmkid.bp</td>
+<td>Signed 32-bit integer</td>
+<td>MU_PMKID_BP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.mu.pmkid.list</td>
+<td>Signed 32-bit integer</td>
+<td>MU_PMKID_LIST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.mu.rf.stats.block</td>
+<td>Signed 32-bit integer</td>
+<td>MU_RF_STATS_BLOCK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.network.id</td>
+<td>Signed 32-bit integer</td>
+<td>NETWORK_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.network.info</td>
+<td>Signed 32-bit integer</td>
+<td>NETWORK_INFO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.num.radios</td>
+<td>Signed 32-bit integer</td>
+<td>NUM_RADIOS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.preauth.resp</td>
+<td>Signed 32-bit integer</td>
+<td>PREAUTH_RESP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.product.id</td>
+<td>Signed 32-bit integer</td>
+<td>PRODUCT_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.radio.id</td>
+<td>Signed 32-bit integer</td>
+<td>RADIO_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.radio.info</td>
+<td>Signed 32-bit integer</td>
+<td>RADIO_INFO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.radio.info.ack</td>
+<td>Signed 32-bit integer</td>
+<td>RADIO_INFO_ACK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.random.number</td>
+<td>Byte array</td>
+<td>RANDOM-NUMBER</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.alarm</td>
+<td>None</td>
+<td>RU-ALARM</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.challenge</td>
+<td>Byte array</td>
+<td>RU-CHALLENGE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.challenge.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-CHALLENGE-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.channel.dwell.time</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-CHANNEL-DWELL-TIME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.channel.list</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-CHANNEL-LIST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.config</td>
+<td>None</td>
+<td>RU-CONFIG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.model</td>
+<td>String</td>
+<td>RU-MODEL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.radio.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-RADIO-TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.response</td>
+<td>Byte array</td>
+<td>RU-RESPONSE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-DELAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-INTERVAL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-MODE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.req.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-REQ-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.times</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-TIMES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.scan.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-SCAN-TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.serial.number</td>
+<td>String</td>
+<td>RU-SERIAL-NUMBER</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.session.key</td>
+<td>String</td>
+<td>RU-SESSION-KEY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.soft.version</td>
+<td>String</td>
+<td>RU-SOFT-VERSION</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.state</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-STATE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.trap</td>
+<td>String</td>
+<td>RU-TRAP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.ru.vns.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>RU-VNS-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.seqno</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence No</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.sessionid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.snmp.error.index</td>
+<td>Unsigned 32-bit integer</td>
+<td>SNMP-ERROR-INDEX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.snmp.error.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>SNMP-ERROR-STATUS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.standby.timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>STANDBY-TIMEOUT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.static.bm.ipaddr</td>
+<td>IPv4 address</td>
+<td>STATIC-BM-IPADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.static.bp.gateway</td>
+<td>IPv4 address</td>
+<td>STATIC-BP-GATEWAY</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.static.bp.ipaddr</td>
+<td>IPv4 address</td>
+<td>STATIC-BP-IPADDR</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.static.bp.netmask</td>
+<td>IPv4 address</td>
+<td>STATIC-BP-NETMASK</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.static.config</td>
+<td>Unsigned 32-bit integer</td>
+<td>STATIC-CONFIG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats</td>
+<td>Signed 32-bit integer</td>
+<td>STATS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.ackfailurecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_ACKFailureCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.failedcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_FailedCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.fcserrorcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_FCSErrorCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.frameduplicatecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_FrameDuplicateCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.multicastreceivedframecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_MulticastReceivedFrameCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.multicasttransmittedframecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_MulticastTransmittedFrameCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.multipleretrycount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_MultipleRetryCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.receivedfragementcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_ReceivedFragementCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.retrycount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_RetryCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.rtsfailurecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_RTSFailureCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.rtssuccesscount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_RTSSuccessCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.transmittedfragmentcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_TransmittedFragmentCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.transmittedframecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_TransmittedFrameCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.webundecryptablecount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_WEBUndecryptableCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.wepexcludedcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_WEPExcludedCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot11.wepicverrorcount</td>
+<td>Signed 32-bit integer</td>
+<td>DOT11_WEPICVErrorCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot1x.credent</td>
+<td>Signed 32-bit integer</td>
+<td>DOT1x_CREDENT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.dot1x.enddate</td>
+<td>Signed 32-bit integer</td>
+<td>DOT1x_END_DATE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.allocfailures</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_AllocFailures</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.currentchannel</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_CurrentChannel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.currentpower</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_CurrentPower</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.datatxfailures</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_DataTxFailures</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.devicetype</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_DeviceType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.indatapackets</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_InDataPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.inmgmtpackets</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_InMgmtPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.loadfactor</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_LoadFactor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.mgmttxfailures</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_MgmtTxFailures</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.msgqfailures</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_MsgQFailures</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.nodrmcurrentchannel</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_NoDRMCurrentChannel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.outdatapackets</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_OutDataPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.drm.outmgmtpackets</td>
+<td>Signed 32-bit integer</td>
+<td>DRM_OutMgmtPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.inbcastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InBcastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.indiscards</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InDiscards</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.inerrors</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InErrors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.inmcastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InMcastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.inoctets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InOctets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.inucastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_InUcastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.mtu</td>
+<td>Signed 32-bit integer</td>
+<td>IF_MTU</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outbcastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutBcastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outdiscards</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutDiscards</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outerrors</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutErrors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outmcastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutMCastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outoctets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutOctets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.if.outucastpackets</td>
+<td>Signed 32-bit integer</td>
+<td>IF_OutUcastPackets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.last</td>
+<td>Signed 32-bit integer</td>
+<td>STATS_LAST</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.address</td>
+<td>Signed 32-bit integer</td>
+<td>MU_Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.associationcount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_AssociationCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.authenticationcount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_AuthenticationCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.deassociationcount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_DeAssociationCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.deauthenticationcount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_DeAuthenticationCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.ifindex</td>
+<td>Signed 32-bit integer</td>
+<td>MU_IfIndex</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.reassociationcount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReAssociationCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.receivedbytes</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReceivedBytes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.receivederrors</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReceivedErrors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.receivedframecount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReceivedFrameCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.receivedrate</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReceivedRate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.receivedrssi</td>
+<td>Signed 32-bit integer</td>
+<td>MU_ReceivedRSSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.rf.stats.end</td>
+<td>Signed 32-bit integer</td>
+<td>MU_RF_STATS_END</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.transmittedbytes</td>
+<td>Signed 32-bit integer</td>
+<td>MU_TransmittedBytes</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.transmittederrors</td>
+<td>Signed 32-bit integer</td>
+<td>MU_TransmittedErrors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.transmittedframecount</td>
+<td>Signed 32-bit integer</td>
+<td>MU_TransmittedFrameCount</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.transmittedrate</td>
+<td>Signed 32-bit integer</td>
+<td>MU_TransmittedRate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.mu.transmittedrssi</td>
+<td>Signed 32-bit integer</td>
+<td>MU_TransmittedRSSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.request.type</td>
+<td>Signed 32-bit integer</td>
+<td>STATS_REQUEST_TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.rfc.1213.sysuptime</td>
+<td>Signed 32-bit integer</td>
+<td>RFC_1213_SYSUPTIME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.stats.tlvmax</td>
+<td>Signed 32-bit integer</td>
+<td>TLV_MAX</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>STATUS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discover Subtype</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tftp.server</td>
+<td>IPv4 address</td>
+<td>TFTP-SERVER</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.time</td>
+<td>Signed 32-bit integer</td>
+<td>TIME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv.data</td>
+<td>Byte array</td>
+<td>TlvData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>TlvLength</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>TlvType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv_config</td>
+<td>None</td>
+<td>Config</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv_config.radio</td>
+<td>None</td>
+<td>Config Radio</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.tlv_config.vns</td>
+<td>None</td>
+<td>Config VNS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.vendor.id</td>
+<td>Signed 32-bit integer</td>
+<td>VENDOR_ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.wassp.tunnel.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>WASSP-TUNNEL-TYPE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wassp.wassp.vlan.tag</td>
+<td>Signed 32-bit integer</td>
+<td>WASSP-VLAN-TAG</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

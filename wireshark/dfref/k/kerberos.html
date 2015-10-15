@@ -1,0 +1,1190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Kerberos</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Kerberos</h1>
+<div><b>Protocol field name:</b> kerberos</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>kerberos.addr_ip</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.addr_ipv6</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.addr_nb</td>
+<td>String</td>
+<td>NetBIOS Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.addr_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Addr-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.adtype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.advalue</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.apoptions</td>
+<td>Byte array</td>
+<td>APOptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.apoptions.mutual_required</td>
+<td>Boolean</td>
+<td>Mutual required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.apoptions.reserved</td>
+<td>Boolean</td>
+<td>reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.apoptions.use_session_key</td>
+<td>Boolean</td>
+<td>Use Session Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.aprep.data</td>
+<td>Byte array</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.aprep.enc_part</td>
+<td>None</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.Authenticator</td>
+<td>None</td>
+<td>Authenticator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.authenticator.data</td>
+<td>Byte array</td>
+<td>Authenticator data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.authenticator_vno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Authenticator vno</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.AuthorizationData</td>
+<td>None</td>
+<td>AuthorizationData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.authtime</td>
+<td>String</td>
+<td>Authtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.Checksum</td>
+<td>None</td>
+<td>Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.checksum.checksum</td>
+<td>Byte array</td>
+<td>checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.checksum.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.cname</td>
+<td>None</td>
+<td>Client Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.crealm</td>
+<td>String</td>
+<td>Client Realm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.cred_body</td>
+<td>None</td>
+<td>CRED_BODY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ctime</td>
+<td>String</td>
+<td>ctime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.cusec</td>
+<td>Unsigned 32-bit integer</td>
+<td>cusec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.e_checksum</td>
+<td>None</td>
+<td>e-checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.e_data</td>
+<td>None</td>
+<td>e-data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.e_text</td>
+<td>String</td>
+<td>e-text</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.enc_authorization_data.encrypted</td>
+<td>Byte array</td>
+<td>enc-authorization-data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.enc_priv</td>
+<td>None</td>
+<td>Encrypted PRIV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncAPRepPart</td>
+<td>None</td>
+<td>EncAPRepPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncKDCRepPart</td>
+<td>None</td>
+<td>EncKDCRepPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncKrbCredPart</td>
+<td>None</td>
+<td>EncKrbCredPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncKrbCredPart.encrypted</td>
+<td>Byte array</td>
+<td>enc EncKrbCredPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncKrbPrivPart</td>
+<td>None</td>
+<td>EncKrbPrivPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.encrypted_cred</td>
+<td>None</td>
+<td>EncKrbCredPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.EncTicketPart</td>
+<td>None</td>
+<td>EncTicketPart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.endtime</td>
+<td>String</td>
+<td>End time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.error_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>error_code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.etype</td>
+<td>Signed 32-bit integer</td>
+<td>Encryption type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.etype_info.s2kparams</td>
+<td>Byte array</td>
+<td>Salt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.etype_info.salt</td>
+<td>Byte array</td>
+<td>Salt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.etype_info2.salt</td>
+<td>Byte array</td>
+<td>Salt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.etypes</td>
+<td>None</td>
+<td>Encryption Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.from</td>
+<td>String</td>
+<td>from</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.bdn</td>
+<td>Byte array</td>
+<td>Bnd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.conf</td>
+<td>Boolean</td>
+<td>Conf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.dce-style</td>
+<td>Boolean</td>
+<td>DCE-style</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.deleg</td>
+<td>Boolean</td>
+<td>Deleg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.integ</td>
+<td>Boolean</td>
+<td>Integ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.mutual</td>
+<td>Boolean</td>
+<td>Mutual</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.replay</td>
+<td>Boolean</td>
+<td>Replay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.checksum.flags.sequence</td>
+<td>Boolean</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.dlglen</td>
+<td>Unsigned 16-bit integer</td>
+<td>DlgLen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.dlgopt</td>
+<td>Unsigned 16-bit integer</td>
+<td>DlgOpt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.gssapi.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.hostaddress</td>
+<td>None</td>
+<td>HostAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.hostaddresses</td>
+<td>None</td>
+<td>HostAddresses</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.if_relevant</td>
+<td>None</td>
+<td>IF_RELEVANT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.IF_RELEVANT.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.IF_RELEVANT.value</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdc_req_body</td>
+<td>None</td>
+<td>KDC_REQ_BODY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions</td>
+<td>Byte array</td>
+<td>KDCOptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.allow_postdate</td>
+<td>Boolean</td>
+<td>Allow Postdate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.canonicalize</td>
+<td>Boolean</td>
+<td>Canonicalize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.constrained_delegation</td>
+<td>Boolean</td>
+<td>Constrained Delegation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.disable_transited_check</td>
+<td>Boolean</td>
+<td>Disable Transited Check</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.enc_tkt_in_skey</td>
+<td>Boolean</td>
+<td>Enc-Tkt-in-Skey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.forwardable</td>
+<td>Boolean</td>
+<td>Forwardable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.forwarded</td>
+<td>Boolean</td>
+<td>Forwarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.opt_hardware_auth</td>
+<td>Boolean</td>
+<td>Opt HW Auth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.postdated</td>
+<td>Boolean</td>
+<td>Postdated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.proxiable</td>
+<td>Boolean</td>
+<td>Proxiable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.proxy</td>
+<td>Boolean</td>
+<td>Proxy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.proxyable</td>
+<td>Boolean</td>
+<td>Proxyable</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.renew</td>
+<td>Boolean</td>
+<td>Renew</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.renewable</td>
+<td>Boolean</td>
+<td>Renewable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.renewable_ok</td>
+<td>Boolean</td>
+<td>Renewable OK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcoptions.validate</td>
+<td>Boolean</td>
+<td>Validate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcrep.data</td>
+<td>Byte array</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kdcrep.enc_part</td>
+<td>None</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.key</td>
+<td>None</td>
+<td>key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.key_expiration</td>
+<td>String</td>
+<td>Key Expiration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.keytype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Key type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.keyvalue</td>
+<td>Byte array</td>
+<td>Key value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.KrbCredInfo</td>
+<td>None</td>
+<td>KrbCredInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.KrbCredInfos</td>
+<td>None</td>
+<td>Sequence of KrbCredInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.kvno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Kvno</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.LastReq</td>
+<td>None</td>
+<td>LastReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.LastReqs</td>
+<td>None</td>
+<td>LastReqs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.lr_time</td>
+<td>String</td>
+<td>Lr-time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.lr_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lr-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.midl.fill_bytes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Fill bytes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.midl.hdr_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>HDR Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.midl.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.midl_blob_len</td>
+<td>Unsigned 64-bit integer</td>
+<td>Blob Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.msg.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>MSG Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.name_string</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.name_type</td>
+<td>Signed 32-bit integer</td>
+<td>Name-type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.nonce</td>
+<td>Unsigned 32-bit integer</td>
+<td>Nonce</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PA_ENC_TIMESTAMP.encrypted</td>
+<td>Byte array</td>
+<td>enc PA_ENC_TIMESTAMP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.clientid</td>
+<td>Date/Time stamp</td>
+<td>ClientID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.namelen</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.signature.signature</td>
+<td>Byte array</td>
+<td>Signature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.signature.type</td>
+<td>Signed 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.dns_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>DNS Len</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.dns_name</td>
+<td>String</td>
+<td>DNS Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.dns_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>DNS Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.upn_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>UPN Len</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.upn_name</td>
+<td>String</td>
+<td>UPN Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.upn.upn_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>UPN Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_CLIENT_INFO_TYPE</td>
+<td>Byte array</td>
+<td>PAC_CLIENT_INFO_TYPE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_CONSTRAINED_DELEGATION</td>
+<td>Byte array</td>
+<td>PAC_CONSTRAINED_DELEGATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_CREDENTIAL_TYPE</td>
+<td>Byte array</td>
+<td>PAC_CREDENTIAL_TYPE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_LOGON_INFO</td>
+<td>Byte array</td>
+<td>PAC_LOGON_INFO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_PRIVSVR_CHECKSUM</td>
+<td>Byte array</td>
+<td>PAC_PRIVSVR_CHECKSUM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pac_request.flag</td>
+<td>Boolean</td>
+<td>PAC Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_SERVER_CHECKSUM</td>
+<td>Byte array</td>
+<td>PAC_SERVER_CHECKSUM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PAC_UPN_DNS_INFO</td>
+<td>Byte array</td>
+<td>UPN_DNS_INFO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.padata</td>
+<td>None</td>
+<td>padata</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.padata.type</td>
+<td>Signed 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.padata.value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.patimestamp</td>
+<td>String</td>
+<td>patimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pausec</td>
+<td>Unsigned 32-bit integer</td>
+<td>pausec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pname</td>
+<td>None</td>
+<td>Delegated Principal Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.prealm</td>
+<td>String</td>
+<td>Delegated Principal Realm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.priv_body</td>
+<td>None</td>
+<td>PRIV_BODY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.PRIV_BODY.user_data</td>
+<td>Byte array</td>
+<td>User Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.provsrv_location</td>
+<td>String</td>
+<td>PROVSRV Location</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.pvno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pvno</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.r_address</td>
+<td>None</td>
+<td>R-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.realm</td>
+<td>String</td>
+<td>Realm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.renenw_till</td>
+<td>String</td>
+<td>Renew-till</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.rm.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Record Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.rm.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.rtime</td>
+<td>String</td>
+<td>rtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.s4u2self.auth</td>
+<td>String</td>
+<td>S4U2Self Auth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.s_address</td>
+<td>None</td>
+<td>S-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.SAFE_BODY.timestamp</td>
+<td>String</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.SAFE_BODY.usec</td>
+<td>Unsigned 32-bit integer</td>
+<td>usec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.SAFE_BODY.user_data</td>
+<td>Byte array</td>
+<td>User Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.seq_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Seq Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.smb.nt_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>NT Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.smb.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.sname</td>
+<td>None</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.sq.tickets</td>
+<td>None</td>
+<td>Tickets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.srealm</td>
+<td>String</td>
+<td>SRealm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.starttime</td>
+<td>String</td>
+<td>Start time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.stime</td>
+<td>String</td>
+<td>stime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.subkey</td>
+<td>None</td>
+<td>Subkey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.susec</td>
+<td>Unsigned 32-bit integer</td>
+<td>susec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticket</td>
+<td>None</td>
+<td>Ticket</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticket.data</td>
+<td>Byte array</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticket.enc_part</td>
+<td>None</td>
+<td>enc-part</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags</td>
+<td>None</td>
+<td>Ticket Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.allow_postdate</td>
+<td>Boolean</td>
+<td>Allow Postdate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.forwardable</td>
+<td>Boolean</td>
+<td>Forwardable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.forwarded</td>
+<td>Boolean</td>
+<td>Forwarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.hw_auth</td>
+<td>Boolean</td>
+<td>HW-Auth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.initial</td>
+<td>Boolean</td>
+<td>Initial</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.invalid</td>
+<td>Boolean</td>
+<td>Invalid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.ok_as_delegate</td>
+<td>Boolean</td>
+<td>Ok As Delegate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.postdated</td>
+<td>Boolean</td>
+<td>Postdated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.pre_auth</td>
+<td>Boolean</td>
+<td>Pre-Auth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.proxiable</td>
+<td>Boolean</td>
+<td>Proxiable</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.proxy</td>
+<td>Boolean</td>
+<td>Proxy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.proxyable</td>
+<td>Boolean</td>
+<td>Proxyable</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.renewable</td>
+<td>Boolean</td>
+<td>Renewable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.ticketflags.transited_policy_checked</td>
+<td>Boolean</td>
+<td>Transited Policy Checked</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.till</td>
+<td>String</td>
+<td>till</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.tkt_vno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tkt-vno</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.transited.contents</td>
+<td>Byte array</td>
+<td>Contents</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.transited.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>kerberos.TransitedEncoding</td>
+<td>None</td>
+<td>TransitedEncoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

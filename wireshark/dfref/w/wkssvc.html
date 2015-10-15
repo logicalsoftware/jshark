@@ -1,0 +1,2360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Workstation Service</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Workstation Service</h1>
+<div><b>Protocol field name:</b> wkssvc</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wkssvc.lsa_String.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.lsa_String.name_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.lsa_String.name_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.platform_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.werror</td>
+<td>Unsigned 32-bit integer</td>
+<td>Windows Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_ComputerNamesCtr.computer_name</td>
+<td>String</td>
+<td>Computer Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_ComputerNamesCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_ACCOUNT_CREATE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Account Create</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_ACCOUNT_DELETE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Account Delete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_DEFER_SPN</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Defer Spn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_DOMAIN_JOIN_IF_JOINED</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Domain Join If Joined</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_JOIN_DC_ACCOUNT</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Join Dc Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_JOIN_TYPE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Join Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_JOIN_UNSECURE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Join Unsecure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_JOIN_WITH_NEW_NAME</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Join With New Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_MACHINE_PWD_PASSED</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Machine Pwd Passed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_joinflags.WKSSVC_JOIN_FLAGS_WIN9X_UPGRADE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Win9x Upgrade</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrAddAlternateComputerName.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrAddAlternateComputerName.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrAddAlternateComputerName.NewAlternateMachineName</td>
+<td>String</td>
+<td>Newalternatemachinename</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrAddAlternateComputerName.Reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrAddAlternateComputerName.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrEnumerateComputerNames.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrEnumerateComputerNames.name_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrEnumerateComputerNames.Reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrEnumerateComputerNames.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.num_ous</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Ous</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.ous</td>
+<td>String</td>
+<td>Ous</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus.unknown</td>
+<td>String</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.num_ous</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Ous</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.ous</td>
+<td>String</td>
+<td>Ous</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinableOus2.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinInformation.name_buffer</td>
+<td>String</td>
+<td>Name Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinInformation.name_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrGetJoinInformation.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.account_ou</td>
+<td>String</td>
+<td>Account Ou</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.join_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Join Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain.unknown</td>
+<td>String</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.account_name</td>
+<td>String</td>
+<td>Account Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.admin_account</td>
+<td>String</td>
+<td>Admin Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.encrypted_password</td>
+<td>None</td>
+<td>Encrypted Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.join_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Join Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrJoinDomain2.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrLogonDomainNameAdd.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrLogonDomainNameDel.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrMessageBufferSend.message_buffer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrMessageBufferSend.message_name</td>
+<td>String</td>
+<td>Message Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrMessageBufferSend.message_sender_name</td>
+<td>String</td>
+<td>Message Sender Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrMessageBufferSend.message_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrMessageBufferSend.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRemoveAlternateComputerName.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRemoveAlternateComputerName.AlternateMachineNameToRemove</td>
+<td>String</td>
+<td>Alternatemachinenametoremove</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRemoveAlternateComputerName.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRemoveAlternateComputerName.Reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRemoveAlternateComputerName.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain.NewMachineName</td>
+<td>String</td>
+<td>Newmachinename</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain.RenameOptions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Renameoptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain2.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain2.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain2.NewMachineName</td>
+<td>String</td>
+<td>Newmachinename</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain2.RenameOptions</td>
+<td>Unsigned 32-bit integer</td>
+<td>Renameoptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrRenameMachineInDomain2.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrSetPrimaryComputername.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrSetPrimaryComputername.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrSetPrimaryComputername.primary_name</td>
+<td>String</td>
+<td>Primary Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrSetPrimaryComputername.Reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrSetPrimaryComputername.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain.unjoin_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unjoin Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain2.account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain2.encrypted_password</td>
+<td>None</td>
+<td>Encrypted Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain2.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUnjoinDomain2.unjoin_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unjoin Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseAdd.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseAdd.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseAdd.parm_err</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Err</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseAdd.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseDel.force_cond</td>
+<td>Unsigned 32-bit integer</td>
+<td>Force Cond</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseDel.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseDel.use_name</td>
+<td>String</td>
+<td>Use Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnum.entries_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Entries Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnum.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnum.prefmaxlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Prefmaxlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnum.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr.ctr1</td>
+<td>None</td>
+<td>Ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr.ctr2</td>
+<td>None</td>
+<td>Ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr1.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr2.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumInfo.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseEnumInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfo.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfo.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfo.use_name</td>
+<td>String</td>
+<td>Use Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfoCtr.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfoCtr.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfoCtr.info2</td>
+<td>None</td>
+<td>Info2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseGetInfoCtr.info3</td>
+<td>None</td>
+<td>Info3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo0.local</td>
+<td>String</td>
+<td>Local</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo0.remote</td>
+<td>String</td>
+<td>Remote</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.asg_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Asg Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.local</td>
+<td>String</td>
+<td>Local</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.ref_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ref Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.remote</td>
+<td>String</td>
+<td>Remote</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo1.use_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.asg_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Asg Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.local</td>
+<td>String</td>
+<td>Local</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.ref_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ref Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.remote</td>
+<td>String</td>
+<td>Remote</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.use_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo2.user_name</td>
+<td>String</td>
+<td>User Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo3.unknown1</td>
+<td>String</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrUseInfo3.unknown2</td>
+<td>String</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName.name_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName.Password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName2.Account</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName2.EncryptedPassword</td>
+<td>None</td>
+<td>Encryptedpassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName2.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName2.name_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Name Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrValidateName2.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportAdd.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportAdd.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportAdd.parm_err</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Err</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportAdd.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportDel.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportDel.transport_name</td>
+<td>String</td>
+<td>Transport Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaTransportDel.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserGetInfo.unknown</td>
+<td>String</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo.info0</td>
+<td>None</td>
+<td>Info0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo.info1</td>
+<td>None</td>
+<td>Info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo.info1101</td>
+<td>None</td>
+<td>Info1101</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo0.user_name</td>
+<td>String</td>
+<td>User Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo1.logon_domain</td>
+<td>String</td>
+<td>Logon Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo1.logon_server</td>
+<td>String</td>
+<td>Logon Server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo1.other_domains</td>
+<td>String</td>
+<td>Other Domains</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo1.user_name</td>
+<td>String</td>
+<td>User Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserInfo1101.other_domains</td>
+<td>String</td>
+<td>Other Domains</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserSetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserSetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserSetInfo.parm_err</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Err</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWkstaUserSetInfo.unknown</td>
+<td>String</td>
+<td>Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown1</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown10</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown10</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown11</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown11</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown12</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown13</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown13</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown14</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown14</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown15</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown15</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown16</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown16</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown17</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown17</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown18</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown18</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown19</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown19</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown2</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown20</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown20</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown21</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown21</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown22</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown22</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown23</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown23</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown24</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown24</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown25</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown25</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown26</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown26</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown27</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown27</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown28</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown28</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown29</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown29</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown3</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown30</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown30</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown31</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown31</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown32</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown32</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown33</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown33</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown34</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown34</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown35</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown35</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown36</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown36</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown37</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown37</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown38</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown38</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown39</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown39</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown4</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown40</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown40</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown5</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown6</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown7</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown8</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatistics.unknown9</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown9</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatisticsGet.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatisticsGet.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatisticsGet.unknown2</td>
+<td>String</td>
+<td>Unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatisticsGet.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetrWorkstationStatisticsGet.unknown4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsers.entries_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Entries Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsers.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsers.prefmaxlen</td>
+<td>Unsigned 32-bit integer</td>
+<td>Prefmaxlen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsers.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsers.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr.user0</td>
+<td>None</td>
+<td>User0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr.user1</td>
+<td>None</td>
+<td>User1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr0.entries_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Entries Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr0.user0</td>
+<td>None</td>
+<td>User0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr1.entries_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Entries Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersCtr1.user1</td>
+<td>None</td>
+<td>User1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersInfo.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaEnumUsersInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaGetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaGetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaGetInfo.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info100</td>
+<td>None</td>
+<td>Info100</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info101</td>
+<td>None</td>
+<td>Info101</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1010</td>
+<td>None</td>
+<td>Info1010</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1011</td>
+<td>None</td>
+<td>Info1011</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1012</td>
+<td>None</td>
+<td>Info1012</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1013</td>
+<td>None</td>
+<td>Info1013</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1018</td>
+<td>None</td>
+<td>Info1018</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info102</td>
+<td>None</td>
+<td>Info102</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1023</td>
+<td>None</td>
+<td>Info1023</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1027</td>
+<td>None</td>
+<td>Info1027</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1028</td>
+<td>None</td>
+<td>Info1028</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1032</td>
+<td>None</td>
+<td>Info1032</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1033</td>
+<td>None</td>
+<td>Info1033</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1041</td>
+<td>None</td>
+<td>Info1041</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1042</td>
+<td>None</td>
+<td>Info1042</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1043</td>
+<td>None</td>
+<td>Info1043</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1044</td>
+<td>None</td>
+<td>Info1044</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1045</td>
+<td>None</td>
+<td>Info1045</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1046</td>
+<td>None</td>
+<td>Info1046</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1047</td>
+<td>None</td>
+<td>Info1047</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1048</td>
+<td>None</td>
+<td>Info1048</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1049</td>
+<td>None</td>
+<td>Info1049</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1050</td>
+<td>None</td>
+<td>Info1050</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1051</td>
+<td>None</td>
+<td>Info1051</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1052</td>
+<td>None</td>
+<td>Info1052</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1053</td>
+<td>None</td>
+<td>Info1053</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1054</td>
+<td>None</td>
+<td>Info1054</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1055</td>
+<td>None</td>
+<td>Info1055</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1056</td>
+<td>None</td>
+<td>Info1056</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1057</td>
+<td>None</td>
+<td>Info1057</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1058</td>
+<td>None</td>
+<td>Info1058</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1059</td>
+<td>None</td>
+<td>Info1059</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1060</td>
+<td>None</td>
+<td>Info1060</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1061</td>
+<td>None</td>
+<td>Info1061</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info1062</td>
+<td>None</td>
+<td>Info1062</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo.info502</td>
+<td>None</td>
+<td>Info502</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo100.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo100.platform_id</td>
+<td>None</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo100.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo100.version_major</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Major</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo100.version_minor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Minor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.lan_root</td>
+<td>String</td>
+<td>Lan Root</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.platform_id</td>
+<td>None</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.version_major</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Major</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo101.version_minor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Minor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1010.char_wait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Char Wait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1011.collection_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Collection Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1012.maximum_collection_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Collection Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1013.keep_connection</td>
+<td>Unsigned 32-bit integer</td>
+<td>Keep Connection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1018.session_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.domain_name</td>
+<td>String</td>
+<td>Domain Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.lan_root</td>
+<td>String</td>
+<td>Lan Root</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.logged_on_users</td>
+<td>Unsigned 32-bit integer</td>
+<td>Logged On Users</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.platform_id</td>
+<td>None</td>
+<td>Platform Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.version_major</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Major</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo102.version_minor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Version Minor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1023.size_char_buf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size Char Buf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1027.errorlog_sz</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errorlog Sz</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1028.print_buf_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Print Buf Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1032.wrk_heuristics</td>
+<td>Unsigned 32-bit integer</td>
+<td>Wrk Heuristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1033.max_threads</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Threads</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1041.lock_quota</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Quota</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1042.lock_increment</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Increment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1043.lock_maximum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Maximum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1044.pipe_increment</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pipe Increment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1045.pipe_maximum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pipe Maximum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1046.dormant_file_limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dormant File Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1047.cache_file_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cache File Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1048.use_opportunistic_locking</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Opportunistic Locking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1049.use_unlock_behind</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Unlock Behind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1050.use_close_behind</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Close Behind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1051.buf_named_pipes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Named Pipes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1052.use_lock_read_unlock</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Lock Read Unlock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1053.utilize_nt_caching</td>
+<td>Unsigned 32-bit integer</td>
+<td>Utilize Nt Caching</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1054.use_raw_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Raw Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1055.use_raw_write</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Raw Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1056.use_write_raw_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Write Raw Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1057.use_encryption</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Encryption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1058.buf_files_deny_write</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Files Deny Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1059.buf_read_only_files</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Read Only Files</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1060.force_core_create_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Force Core Create Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1061.use_512_byte_max_transfer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use 512 Byte Max Transfer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo1062.read_ahead_throughput</td>
+<td>Unsigned 32-bit integer</td>
+<td>Read Ahead Throughput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.buf_files_deny_write</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Files Deny Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.buf_named_pipes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Named Pipes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.buf_read_only_files</td>
+<td>Unsigned 32-bit integer</td>
+<td>Buf Read Only Files</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.cache_file_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cache File Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.char_wait</td>
+<td>Unsigned 32-bit integer</td>
+<td>Char Wait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.collection_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Collection Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.dgram_event_reset_freq</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dgram Event Reset Freq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.dormant_file_limit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dormant File Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.force_core_create_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Force Core Create Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.keep_connection</td>
+<td>Unsigned 32-bit integer</td>
+<td>Keep Connection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.lock_increment</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Increment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.lock_maximum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Maximum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.lock_quota</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lock Quota</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.log_election_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Log Election Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.max_commands</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Commands</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.max_illegal_dgram_events</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Illegal Dgram Events</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.max_threads</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Threads</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.maximum_collection_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Collection Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.num_mailslot_buffers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Mailslot Buffers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.num_srv_announce_buffers</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Srv Announce Buffers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.pipe_increment</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pipe Increment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.pipe_maximum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pipe Maximum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.read_ahead_throughput</td>
+<td>Unsigned 32-bit integer</td>
+<td>Read Ahead Throughput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.session_timeout</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.size_char_buf</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size Char Buf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_512_byte_max_transfer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use 512 Byte Max Transfer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_close_behind</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Close Behind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_encryption</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Encryption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_lock_read_unlock</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Lock Read Unlock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_opportunistic_locking</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Opportunistic Locking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_raw_read</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Raw Read</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_raw_write</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Raw Write</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_unlock_behind</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Unlock Behind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.use_write_raw_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Use Write Raw Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaInfo502.utilize_nt_caching</td>
+<td>Unsigned 32-bit integer</td>
+<td>Utilize Nt Caching</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaSetInfo.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaSetInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaSetInfo.parm_error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaSetInfo.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportCtr.ctr0</td>
+<td>None</td>
+<td>Ctr0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportCtr0.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportCtr0.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportEnum.info</td>
+<td>None</td>
+<td>Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportEnum.max_buffer</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Buffer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportEnum.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportEnum.server_name</td>
+<td>String</td>
+<td>Server Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportEnum.total_entries</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total Entries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo.ctr</td>
+<td>None</td>
+<td>Ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo.level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo0.address</td>
+<td>String</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo0.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo0.quality_of_service</td>
+<td>Unsigned 32-bit integer</td>
+<td>Quality Of Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo0.vc_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vc Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_NetWkstaTransportInfo0.wan_link</td>
+<td>Unsigned 32-bit integer</td>
+<td>Wan Link</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_PasswordBuffer.data</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wkssvc.wkssvc_renameflags.WKSSVC_JOIN_FLAGS_ACCOUNT_CREATE</td>
+<td>Boolean</td>
+<td>Wkssvc Join Flags Account Create</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

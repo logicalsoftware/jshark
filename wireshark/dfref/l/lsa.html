@@ -1,0 +1,662 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Microsoft Local Security Architecture</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Microsoft Local Security Architecture</h1>
+<div><b>Protocol field name:</b> lsa</div>
+<div><b>Versions:</b> 1.0.0 to 1.2.0</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>lsa.access_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>Access Mask</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.audit_log_admin</td>
+<td>Boolean</td>
+<td>Administer audit log attributes</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.create_account</td>
+<td>Boolean</td>
+<td>Create special accounts (for assignment of user rights)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.create_priv</td>
+<td>Boolean</td>
+<td>Create a privilege</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.create_secret</td>
+<td>Boolean</td>
+<td>Create a secret object</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.get_privateinfo</td>
+<td>Boolean</td>
+<td>Get sensitive policy information</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.lookup_names</td>
+<td>Boolean</td>
+<td>Lookup Names/SIDs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.server_admin</td>
+<td>Boolean</td>
+<td>Enable/Disable LSA</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.set_audit_requirements</td>
+<td>Boolean</td>
+<td>Change system audit requirements</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.set_default_quota_limits</td>
+<td>Boolean</td>
+<td>Set default quota limits</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.trust_admin</td>
+<td>Boolean</td>
+<td>Modify domain trust relationships</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.view_audit_info</td>
+<td>Boolean</td>
+<td>View system audit requirements</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.access_mask.view_local_info</td>
+<td>Boolean</td>
+<td>View non-sensitive policy information</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.acct</td>
+<td>String</td>
+<td>Account</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.attr</td>
+<td>Unsigned 64-bit integer</td>
+<td>Attr</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.auth.blob</td>
+<td>Byte array</td>
+<td>Auth blob</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.auth.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth Len</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.auth.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Auth Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.auth.update</td>
+<td>Unsigned 64-bit integer</td>
+<td>Update</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.controller</td>
+<td>String</td>
+<td>Controller</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.cur.mtime</td>
+<td>Date/Time stamp</td>
+<td>Current MTime</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.domain</td>
+<td>String</td>
+<td>Domain</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.flat_name</td>
+<td>String</td>
+<td>Flat Name</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.forest</td>
+<td>String</td>
+<td>Forest</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.fqdn_domain</td>
+<td>String</td>
+<td>FQDN</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.hnd</td>
+<td>Byte array</td>
+<td>Context Handle</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.index</td>
+<td>Unsigned 32-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.info.level</td>
+<td>Unsigned 16-bit integer</td>
+<td>Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.info_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Info Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.key</td>
+<td>String</td>
+<td>Key</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.max_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max Count</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.mod.mtime</td>
+<td>Date/Time stamp</td>
+<td>MTime</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.mod.seq_no</td>
+<td>Unsigned 64-bit integer</td>
+<td>Seq No</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.new_pwd</td>
+<td>Byte array</td>
+<td>New Password</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.num_mapped</td>
+<td>Unsigned 32-bit integer</td>
+<td>Num Mapped</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.obj_attr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Attributes</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.obj_attr.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.obj_attr.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.old.mtime</td>
+<td>Date/Time stamp</td>
+<td>Old MTime</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.old_pwd</td>
+<td>Byte array</td>
+<td>Old Password</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.paei.enabled</td>
+<td>Unsigned 8-bit integer</td>
+<td>Auditing enabled</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.paei.settings</td>
+<td>Unsigned 32-bit integer</td>
+<td>Settings</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.log_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Log Size</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.next_audit_record</td>
+<td>Unsigned 32-bit integer</td>
+<td>Next Audit Record</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.percent_full</td>
+<td>Unsigned 32-bit integer</td>
+<td>Percent Full</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.retention_period</td>
+<td>Time duration</td>
+<td>Retention Period</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.shutdown_in_progress</td>
+<td>Unsigned 8-bit integer</td>
+<td>Shutdown in progress</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.pali.time_to_shutdown</td>
+<td>Time duration</td>
+<td>Time to shutdown</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.policy.info</td>
+<td>Unsigned 16-bit integer</td>
+<td>Info Class</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.policy_information</td>
+<td>None</td>
+<td>POLICY INFO</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.privilege.display__name.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size Needed</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.privilege.display_name</td>
+<td>String</td>
+<td>Display Name</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.privilege.name</td>
+<td>String</td>
+<td>Name</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.qos.effective_only</td>
+<td>Unsigned 8-bit integer</td>
+<td>Effective only</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.qos.imp_lev</td>
+<td>Unsigned 16-bit integer</td>
+<td>Impersonation level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.qos.len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.qos.track_ctx</td>
+<td>Unsigned 8-bit integer</td>
+<td>Context Tracking</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.quota.max_wss</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max WSS</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.quota.min_wss</td>
+<td>Unsigned 32-bit integer</td>
+<td>Min WSS</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.quota.non_paged_pool</td>
+<td>Unsigned 32-bit integer</td>
+<td>Non Paged Pool</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.quota.paged_pool</td>
+<td>Unsigned 32-bit integer</td>
+<td>Paged Pool</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.quota.pagefile</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pagefile</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Return code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.remove_all</td>
+<td>Unsigned 8-bit integer</td>
+<td>Remove All</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.resume_handle</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resume Handle</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.rid</td>
+<td>Unsigned 32-bit integer</td>
+<td>RID</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.rid.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>RID Offset</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.rights</td>
+<td>String</td>
+<td>Rights</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.sd_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.secret</td>
+<td>Byte array</td>
+<td>LSA Secret</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.server</td>
+<td>String</td>
+<td>Server</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.server_role</td>
+<td>Unsigned 16-bit integer</td>
+<td>Role</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.sid_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>SID Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.source</td>
+<td>String</td>
+<td>Source</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.attr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Attr</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.attr.non_trans</td>
+<td>Boolean</td>
+<td>Non Transitive</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.attr.tree_parent</td>
+<td>Boolean</td>
+<td>Tree Parent</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.attr.tree_root</td>
+<td>Boolean</td>
+<td>Tree Root</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.attr.uplevel_only</td>
+<td>Boolean</td>
+<td>Upleve only</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.direction</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Direction</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trust.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Trust Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.trusted.info_level</td>
+<td>Unsigned 16-bit integer</td>
+<td>Info Level</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.unknown.char</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unknown char</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.unknown.hyper</td>
+<td>Unsigned 64-bit integer</td>
+<td>Unknown hyper</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.unknown.long</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unknown long</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.unknown.short</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unknown short</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>lsa.unknown_string</td>
+<td>String</td>
+<td>Unknown string</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>nt.luid.high</td>
+<td>Unsigned 32-bit integer</td>
+<td>High</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>nt.luid.low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Low</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

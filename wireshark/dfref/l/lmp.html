@@ -1,0 +1,1142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Link Management Protocol (LMP)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Link Management Protocol (LMP)</h1>
+<div><b>Protocol field name:</b> lmp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>lmp.begin_verify.all_links</td>
+<td>Boolean</td>
+<td>Verify All Links</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.begin_verify.enctype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encoding Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.begin_verify.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.begin_verify.link_type</td>
+<td>Boolean</td>
+<td>Data Link Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.link_verify</td>
+<td>Boolean</td>
+<td>Data-Link is Allocated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.local_ipv4</td>
+<td>IPv4 address</td>
+<td>Data-Link Local ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.local_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data-Link Local ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.port</td>
+<td>Boolean</td>
+<td>Data-Link is Individual Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.remote_ipv4</td>
+<td>IPv4 address</td>
+<td>Data-Link Remote ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link.remote_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data-Link Remote ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link_encoding</td>
+<td>Unsigned 8-bit integer</td>
+<td>LSP Encoding Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data-Link Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link_subobj</td>
+<td>None</td>
+<td>Subobject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.data_link_switching</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interface Switching Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.config_bad_ccid</td>
+<td>Boolean</td>
+<td>Config - Bad CC ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.config_bad_params</td>
+<td>Boolean</td>
+<td>Config - Unacceptable non-negotiable parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.config_renegotiate</td>
+<td>Boolean</td>
+<td>Config - Renegotiate Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.lad_area_id_mismatch</td>
+<td>Boolean</td>
+<td>LAD - Domain Routing Area ID Mismatch detected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.lad_capability_mismatch</td>
+<td>Boolean</td>
+<td>LAD - Capability Mismatch detected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.lad_da_dcn_mismatch</td>
+<td>Boolean</td>
+<td>LAD - DA DCN Mismatch detected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.lad_tcp_id_mismatch</td>
+<td>Boolean</td>
+<td>LAD - TCP ID Mismatch detected</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.lad_unknown_ctype</td>
+<td>Boolean</td>
+<td>LAD - Unknown Object C-Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_bad_data_link</td>
+<td>Boolean</td>
+<td>Summary - Bad Data Link Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_bad_params</td>
+<td>Boolean</td>
+<td>Summary - Unacceptable non-negotiable parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_bad_remote_link_id</td>
+<td>Boolean</td>
+<td>Summary - Bad Remote Link ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_bad_te_link</td>
+<td>Boolean</td>
+<td>Summary - Bad TE Link Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_renegotiate</td>
+<td>Boolean</td>
+<td>Summary - Renegotiate Parametere</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_unknown_dl_ctype</td>
+<td>Boolean</td>
+<td>Summary - Bad Data Link C-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.summary_unknown_tel_ctype</td>
+<td>Boolean</td>
+<td>Summary - Bad TE Link C-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.trace_invalid_msg</td>
+<td>Boolean</td>
+<td>Trace - Invalid Trace Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.trace_unknown_ctype</td>
+<td>Boolean</td>
+<td>Trace - Unknown Object C-Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.trace_unsupported_type</td>
+<td>Boolean</td>
+<td>Trace - Unsupported trace type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.verify_te_link_id</td>
+<td>Boolean</td>
+<td>Verification - TE Link ID Configuration Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.verify_unknown_ctype</td>
+<td>Boolean</td>
+<td>Verification - Unknown Object C-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.verify_unsupported_link</td>
+<td>Boolean</td>
+<td>Verification - Unsupported for this TE-Link</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.verify_unsupported_transport</td>
+<td>Boolean</td>
+<td>Verification - Transport Unsupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.error.verify_unwilling</td>
+<td>Boolean</td>
+<td>Verification - Unwilling to Verify at this time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.hdr.ccdown</td>
+<td>Boolean</td>
+<td>ControlChannelDown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.hdr.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>LMP Header - Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.hdr.reboot</td>
+<td>Boolean</td>
+<td>Reboot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.hellodeadinterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>HelloDeadInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.hellointerval</td>
+<td>Unsigned 32-bit integer</td>
+<td>HelloInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_encoding</td>
+<td>Unsigned 8-bit integer</td>
+<td>LSP Encoding Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_info_subobj</td>
+<td>None</td>
+<td>Subobject</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_pri_area_id</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_pri_rc_pc_addr</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_pri_rc_pc_id</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_sec_area_id</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_sec_rc_pc_addr</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_sec_rc_pc_id</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.lad_switching</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interface Switching Capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_ccid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local CCID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_da_dcn_addr</td>
+<td>IPv4 address</td>
+<td>Local DA DCN Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_interfaceid_ipv4</td>
+<td>IPv4 address</td>
+<td>Local Interface ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_interfaceid_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local Interface ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_area_id</td>
+<td>IPv4 address</td>
+<td>Area ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_comp_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Component Link ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_node_id</td>
+<td>IPv4 address</td>
+<td>Node ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_sc_pc_addr</td>
+<td>IPv4 address</td>
+<td>SC PC Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_sc_pc_id</td>
+<td>IPv4 address</td>
+<td>SC PC ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_lad_telink_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>TE Link ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_linkid_ipv4</td>
+<td>IPv4 address</td>
+<td>Local Link ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_linkid_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local Link ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.local_nodeid</td>
+<td>IPv4 address</td>
+<td>Local Node ID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.messageid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message-ID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.messageid_ack</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message-ID Ack Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.beginverify</td>
+<td>Boolean</td>
+<td>BeginVerify Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.beginverifyack</td>
+<td>Boolean</td>
+<td>BeginVerifyAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.beginverifynack</td>
+<td>Boolean</td>
+<td>BeginVerifyNack Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.channelstatus</td>
+<td>Boolean</td>
+<td>ChannelStatus Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.channelstatusack</td>
+<td>Boolean</td>
+<td>ChannelStatusAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.channelstatusrequest</td>
+<td>Boolean</td>
+<td>ChannelStatusRequest Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.channelstatusresponse</td>
+<td>Boolean</td>
+<td>ChannelStatusResponse Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.config</td>
+<td>Boolean</td>
+<td>Config Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.configack</td>
+<td>Boolean</td>
+<td>ConfigAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.confignack</td>
+<td>Boolean</td>
+<td>ConfigNack Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.discoveryresp</td>
+<td>Boolean</td>
+<td>DiscoveryResponse Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.discoveryrespack</td>
+<td>Boolean</td>
+<td>DiscoveryResponseAck Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.discoveryrespnack</td>
+<td>Boolean</td>
+<td>DiscoveryResponseNack Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.endverify</td>
+<td>Boolean</td>
+<td>EndVerify Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.endverifyack</td>
+<td>Boolean</td>
+<td>EndVerifyAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.hello</td>
+<td>Boolean</td>
+<td>HELLO Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.inserttrace</td>
+<td>Boolean</td>
+<td>InsertTrace Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.inserttraceack</td>
+<td>Boolean</td>
+<td>InsertTraceAck Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.inserttracenack</td>
+<td>Boolean</td>
+<td>InsertTraceNack Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.linksummary</td>
+<td>Boolean</td>
+<td>LinkSummary Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.linksummaryack</td>
+<td>Boolean</td>
+<td>LinkSummaryAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.linksummarynack</td>
+<td>Boolean</td>
+<td>LinkSummaryNack Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.serviceconfig</td>
+<td>Boolean</td>
+<td>ServiceConfig Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.serviceconfigack</td>
+<td>Boolean</td>
+<td>ServiceConfigAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.serviceconfignack</td>
+<td>Boolean</td>
+<td>ServiceConfigNack Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.test</td>
+<td>Boolean</td>
+<td>Test Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.teststatusack</td>
+<td>Boolean</td>
+<td>TestStatusAck Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.teststatusfailure</td>
+<td>Boolean</td>
+<td>TestStatusFailure Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.teststatussuccess</td>
+<td>Boolean</td>
+<td>TestStatusSuccess Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracemismatch</td>
+<td>Boolean</td>
+<td>TraceMismatch Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracemismatchack</td>
+<td>Boolean</td>
+<td>TraceMismatchAck Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracemonitor</td>
+<td>Boolean</td>
+<td>TraceMonitor Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracemonitorack</td>
+<td>Boolean</td>
+<td>TraceMonitorAck Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracemonitornack</td>
+<td>Boolean</td>
+<td>TraceMonitorNack Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracereport</td>
+<td>Boolean</td>
+<td>TraceReport Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracerequest</td>
+<td>Boolean</td>
+<td>TraceRequest Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.msg.tracerequestnack</td>
+<td>Boolean</td>
+<td>TraceRequestNack Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.begin_verify</td>
+<td>None</td>
+<td>BEGIN_VERIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.begin_verify_ack</td>
+<td>None</td>
+<td>BEGIN_VERIFY_ACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.ccid</td>
+<td>None</td>
+<td>CCID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.channel_status</td>
+<td>None</td>
+<td>CHANNEL_STATUS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.channel_status_request</td>
+<td>None</td>
+<td>CHANNEL_STATUS_REQUEST</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.config</td>
+<td>None</td>
+<td>CONFIG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.ctype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Object C-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.dadcnaddr</td>
+<td>None</td>
+<td>DA_DCN_ADDRESS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.data_link</td>
+<td>None</td>
+<td>DATA_LINK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.error</td>
+<td>None</td>
+<td>ERROR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.hello</td>
+<td>None</td>
+<td>HELLO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.interfaceid</td>
+<td>None</td>
+<td>INTERFACE_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.linkid</td>
+<td>None</td>
+<td>LINK_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.localladinfo</td>
+<td>None</td>
+<td>LOCAL_LAD_INFO</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.messageid</td>
+<td>None</td>
+<td>MESSAGE_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.Nodeid</td>
+<td>None</td>
+<td>NODE_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.serviceconfig</td>
+<td>None</td>
+<td>SERVICE_CONFIG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.te_link</td>
+<td>None</td>
+<td>TE_LINK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.trace</td>
+<td>None</td>
+<td>TRACE</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.trace_req</td>
+<td>None</td>
+<td>TRACE REQ</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.obj.verifyid</td>
+<td>None</td>
+<td>VERIFY_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.object</td>
+<td>Unsigned 8-bit integer</td>
+<td>LOCAL_CCID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_ccid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote CCID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_da_dcn_addr</td>
+<td>IPv4 address</td>
+<td>Remote DA DCN Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_interfaceid_ipv4</td>
+<td>IPv4 address</td>
+<td>Remote Interface ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_interfaceid_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Interface ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_linkid_ipv4</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Link ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_linkid_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Link ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.remote_nodeid</td>
+<td>IPv4 address</td>
+<td>Remote Node ID Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.rxseqnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>RxSeqNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cct</td>
+<td>Unsigned 8-bit integer</td>
+<td>Contiguous Concatenation Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa</td>
+<td>Unsigned 8-bit integer</td>
+<td>Client Port Service Attributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.line_overhead</td>
+<td>Boolean</td>
+<td>Line/MS Overhead Transparency Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.local_ifid</td>
+<td>IPv4 address</td>
+<td>Local interface id of the client interface referred to</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.max_ncc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number of Contiguously Concatenated Components</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.max_nvc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum Number of Virtually Concatenated Components</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.min_ncc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum Number of Contiguously Concatenated Components</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.min_nvc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum Number of Contiguously Concatenated Components</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.path_overhead</td>
+<td>Boolean</td>
+<td>Path/VC Overhead Transparency Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.cpsa.section_overhead</td>
+<td>Boolean</td>
+<td>Section/RS Overhead Transparency Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.diversity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network Diversity Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.diversity.link</td>
+<td>Boolean</td>
+<td>Link diversity supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.diversity.node</td>
+<td>Boolean</td>
+<td>Node diversity supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.diversity.srlg</td>
+<td>Boolean</td>
+<td>SRLG diversity supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.tcm</td>
+<td>Unsigned 8-bit integer</td>
+<td>TCM Monitoring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.transparency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Network Transparency Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.transparency.loh</td>
+<td>Boolean</td>
+<td>Standard LOH/MSOH transparency supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.transparency.soh</td>
+<td>Boolean</td>
+<td>Standard SOH/RSOH transparency supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.nsa.transparency.tcm</td>
+<td>Boolean</td>
+<td>TCM Monitoring Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.sp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Config - Supported Signalling Protocols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.sp.ldp</td>
+<td>Boolean</td>
+<td>LDP is supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.service_config.sp.rsvp</td>
+<td>Boolean</td>
+<td>RSVP is supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.fault_mgmt</td>
+<td>Boolean</td>
+<td>Fault Management Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.link_verify</td>
+<td>Boolean</td>
+<td>Link Verification Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.local_ipv4</td>
+<td>IPv4 address</td>
+<td>TE-Link Local ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.local_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>TE-Link Local ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.remote_ipv4</td>
+<td>IPv4 address</td>
+<td>TE-Link Remote ID - IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link.remote_unnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>TE-Link Remote ID - Unnumbered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.te_link_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>TE-Link Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.local_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local Trace Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.local_msg</td>
+<td>String</td>
+<td>Local Trace Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.local_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local Trace Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.remote_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Remote Trace Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.remote_msg</td>
+<td>String</td>
+<td>Remote Trace Message</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace.remote_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Remote Trace Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.trace_req.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Trace Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.txseqnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>TxSeqNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>lmp.verifyid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Verify-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

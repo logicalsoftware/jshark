@@ -1,0 +1,1070 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: DirectPlay Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: DirectPlay Protocol</h1>
+<div><b>Protocol field name:</b> dplay</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>dplay.command</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.command_2</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay second command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.dialect.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay dialect version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.dialect.version_2</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay second dialect version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.dplay_str</td>
+<td>String</td>
+<td>DirectPlay action string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.dplay_str_2</td>
+<td>String</td>
+<td>DirectPlay second action string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay session desc flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.acq_voice</td>
+<td>Boolean</td>
+<td>acquire voice</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.can_join</td>
+<td>Boolean</td>
+<td>can join</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.ignored</td>
+<td>Boolean</td>
+<td>ignored</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.migrate_host</td>
+<td>Boolean</td>
+<td>migrate host flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.no_create_players</td>
+<td>Boolean</td>
+<td>no create players flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.no_player_updates</td>
+<td>Boolean</td>
+<td>no player updates</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.no_sess_desc</td>
+<td>Boolean</td>
+<td>no session desc changes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.opt_latency</td>
+<td>Boolean</td>
+<td>optimize for latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.order</td>
+<td>Boolean</td>
+<td>preserve order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.pass_req</td>
+<td>Boolean</td>
+<td>password required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.priv_sess</td>
+<td>Boolean</td>
+<td>private session</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.reliable</td>
+<td>Boolean</td>
+<td>use reliable protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.route</td>
+<td>Boolean</td>
+<td>route via game host</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.short_player_msg</td>
+<td>Boolean</td>
+<td>short player message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.srv_p_only</td>
+<td>Boolean</td>
+<td>get server player only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.unused</td>
+<td>Boolean</td>
+<td>unused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.use_auth</td>
+<td>Boolean</td>
+<td>use authentication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.flags.use_ping</td>
+<td>Boolean</td>
+<td>use ping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.game.guid</td>
+<td>GUID or UUID</td>
+<td>DirectPlay game GUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.instance.guid</td>
+<td>GUID or UUID</td>
+<td>DirectPlay instance guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.message.guid</td>
+<td>GUID or UUID</td>
+<td>Message GUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.create_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset to PackedPlayer struct</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.group_id</td>
+<td>Byte array</td>
+<td>Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.id_to</td>
+<td>Byte array</td>
+<td>ID to</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.password_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset to password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.multi.player_id</td>
+<td>Byte array</td>
+<td>Player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.ping.id_from</td>
+<td>Byte array</td>
+<td>ID From</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.ping.tick_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tick Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.player_msg</td>
+<td>Byte array</td>
+<td>DirectPlay Player to Player message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.dialect</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer dialect version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.fixed_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer fixed size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.flags.in_group</td>
+<td>Boolean</td>
+<td>in group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.flags.nameserver</td>
+<td>Boolean</td>
+<td>is name server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.flags.sending</td>
+<td>Boolean</td>
+<td>sending player on local machine</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.flags.sysplayer</td>
+<td>Boolean</td>
+<td>is system player</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.id</td>
+<td>Byte array</td>
+<td>PackedPlayer ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.long_name_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer long name length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.parent_id</td>
+<td>Byte array</td>
+<td>PackedPlayer parent ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.player_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer player count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.player_data</td>
+<td>Byte array</td>
+<td>PackedPlayer player data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.player_data_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer player data size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.player_id</td>
+<td>Byte array</td>
+<td>PackedPlayer player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.short_name</td>
+<td>String</td>
+<td>PackedPlayer short name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.short_name_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer short name length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.sp_data</td>
+<td>Byte array</td>
+<td>PackedPlayer service provider data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.sp_data_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>PackedPlayer service provider data size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.sysplayer_id</td>
+<td>Byte array</td>
+<td>PackedPlayer system player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.pp.unknown_1</td>
+<td>Byte array</td>
+<td>PackedPlayer unknown 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.saddr.af</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay s_addr_in address family</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.saddr.ip</td>
+<td>IPv4 address</td>
+<td>DirectPlay s_addr_in ip address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.saddr.padding</td>
+<td>Byte array</td>
+<td>DirectPlay s_addr_in null padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.saddr.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>DirectPlay s_addr_in port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.capi</td>
+<td>Byte array</td>
+<td>SecDesc CAPI provider ptr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.capi_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>SecDesc CAPI provider type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.enc_alg</td>
+<td>Unsigned 32-bit integer</td>
+<td>SecDesc encryption algorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>SecDesc flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>SecDesc struct size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sd.sspi</td>
+<td>Byte array</td>
+<td>SecDesc SSPI provider ptr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.curr_players</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay current players</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay session desc length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.max_players</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay max players</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.name_ptr</td>
+<td>Byte array</td>
+<td>Session description name pointer placeholder</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.pw_ptr</td>
+<td>Byte array</td>
+<td>Session description password pointer placeholder</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.res_1</td>
+<td>Byte array</td>
+<td>Session description reserved 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.res_2</td>
+<td>Byte array</td>
+<td>Session description reserved 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.user_1</td>
+<td>Byte array</td>
+<td>Session description user defined 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.user_2</td>
+<td>Byte array</td>
+<td>Session description user defined 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.user_3</td>
+<td>Byte array</td>
+<td>Session description user defined 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.sess_desc.user_4</td>
+<td>Byte array</td>
+<td>Session description user defined 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay package size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.dialect</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer dialect version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.flags.in_group</td>
+<td>Boolean</td>
+<td>in group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.flags.nameserver</td>
+<td>Boolean</td>
+<td>is name server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.flags.sending</td>
+<td>Boolean</td>
+<td>sending player on local machine</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.flags.sysplayer</td>
+<td>Boolean</td>
+<td>is system player</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.id</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.parent_id</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer parent ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pd_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer player data length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer player info mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.long_name</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer have long name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.parent_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer have parent ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.pd_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer player data length info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.player_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer player count info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.short_name</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer have short name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.shortcut_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer shortcut count info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.pim.sp_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer service provider length info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.player_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer player count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.player_data</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer player data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.player_id</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.short_name</td>
+<td>String</td>
+<td>SuperPackedPlayer short name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.shortcut_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer shortcut count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.shortcut_id</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer shortcut ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.sp_data</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer service provider data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.sp_data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperPackedPlayer service provider data length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.spp.sysplayer_id</td>
+<td>Byte array</td>
+<td>SuperPackedPlayer system player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.token</td>
+<td>Unsigned 32-bit integer</td>
+<td>DirectPlay token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.all</td>
+<td>Boolean</td>
+<td>Enumerate all sessions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enum Session flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.game.guid</td>
+<td>GUID or UUID</td>
+<td>DirectPlay game GUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.joinable</td>
+<td>Boolean</td>
+<td>Enumerate joinable sessions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.password</td>
+<td>String</td>
+<td>Session password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.password_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enum Sessions password offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type02.pw_req</td>
+<td>Boolean</td>
+<td>Enumerate sessions requiring a password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_01.game_name</td>
+<td>String</td>
+<td>Enum Session Reply game name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_01.name_offs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Enum Session Reply name offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>Player ID request flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags.local</td>
+<td>Boolean</td>
+<td>is local player</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags.name_server</td>
+<td>Boolean</td>
+<td>is name server</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags.secure</td>
+<td>Boolean</td>
+<td>is secure session</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags.sys_player</td>
+<td>Boolean</td>
+<td>is system player</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_05.flags.unknown</td>
+<td>Boolean</td>
+<td>unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.capi</td>
+<td>String</td>
+<td>CAPI provider</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.capi_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>CAPI provider offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.dpid</td>
+<td>Byte array</td>
+<td>DirectPlay ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.hresult</td>
+<td>Unsigned 32-bit integer</td>
+<td>Request player HRESULT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.sspi</td>
+<td>String</td>
+<td>SSPI provider</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_07.sspi_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSPI provider offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_0f.data_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_0f.id_to</td>
+<td>Byte array</td>
+<td>ID to</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_0f.player_data</td>
+<td>Byte array</td>
+<td>Player Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_0f.player_id</td>
+<td>Byte array</td>
+<td>Player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.create_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Create Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.group_id</td>
+<td>Byte array</td>
+<td>Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.id_to</td>
+<td>Byte array</td>
+<td>ID to</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.password_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Password Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.player_id</td>
+<td>Byte array</td>
+<td>Player ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_13.tick_count</td>
+<td>Byte array</td>
+<td>Tick count? Looks like an ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.data_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Data Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.message.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.packet_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packet Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.packet_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packet offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_15.total_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_1a.id_to</td>
+<td>Byte array</td>
+<td>ID From</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_1a.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_1a.password_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Password Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_1a.sess_name_ofs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Session Name Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_1a.session_name</td>
+<td>String</td>
+<td>Session Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.desc_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply description offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.game_name</td>
+<td>String</td>
+<td>SuperEnumPlayers Reply game name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.group_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply group count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.id</td>
+<td>Byte array</td>
+<td>ID of the forwarded player</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.name_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply name offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.packed_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply packed offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.pass_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply password offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.password</td>
+<td>String</td>
+<td>SuperEnumPlayers Reply Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.player_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply player count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dplay.type_29.shortcut_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>SuperEnumPlayers Reply shortcut count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

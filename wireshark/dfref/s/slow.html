@@ -1,0 +1,800 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Slow Protocols</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Slow Protocols</h1>
+<div><b>Protocol field name:</b> slow</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>slow.esmc.event_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.itu_oui</td>
+<td>Byte array</td>
+<td>ITU-OUI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.itu_subtype</td>
+<td>Unsigned 16-bit integer</td>
+<td>ITU Subtype</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.padding</td>
+<td>Byte array</td>
+<td>Padding</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.ql</td>
+<td>Unsigned 8-bit integer</td>
+<td>SSM Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.timestamp</td>
+<td>Signed 32-bit integer</td>
+<td>Timestamp (ns)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.timestamp_valid_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timestamp Valid Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.tlv</td>
+<td>None</td>
+<td>ESMC TLV</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.tlv_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>TLV Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.tlv_ql_unused</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unused</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.tlv_ts_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.tlv_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.esmc.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorInfo</td>
+<td>Unsigned 8-bit integer</td>
+<td>Actor Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorInfoLen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Actor Information Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorKey</td>
+<td>Unsigned 16-bit integer</td>
+<td>Actor Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorPort</td>
+<td>Unsigned 16-bit integer</td>
+<td>Actor Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorPortPriority</td>
+<td>Unsigned 16-bit integer</td>
+<td>Actor Port Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState</td>
+<td>Unsigned 8-bit integer</td>
+<td>Actor State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.activity</td>
+<td>Boolean</td>
+<td>LACP Activity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.aggregation</td>
+<td>Boolean</td>
+<td>Aggregation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.collecting</td>
+<td>Boolean</td>
+<td>Collecting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.defaulted</td>
+<td>Boolean</td>
+<td>Defaulted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.distributing</td>
+<td>Boolean</td>
+<td>Distributing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.expired</td>
+<td>Boolean</td>
+<td>Expired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.synchronization</td>
+<td>Boolean</td>
+<td>Synchronization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorState.timeout</td>
+<td>Boolean</td>
+<td>LACP Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorSysPriority</td>
+<td>Unsigned 16-bit integer</td>
+<td>Actor System Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.actorSystem</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Actor System</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.coll_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.collectorInfo</td>
+<td>Unsigned 8-bit integer</td>
+<td>Collector Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.collectorInfoLen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Collector Information Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.collectorMaxDelay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Collector Max Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerInfo</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partner Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerInfoLen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partner Information Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerKey</td>
+<td>Unsigned 16-bit integer</td>
+<td>Partner Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerPort</td>
+<td>Unsigned 16-bit integer</td>
+<td>Partner Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerPortPriority</td>
+<td>Unsigned 16-bit integer</td>
+<td>Partner Port Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partner State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.activity</td>
+<td>Boolean</td>
+<td>LACP Activity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.aggregation</td>
+<td>Boolean</td>
+<td>Aggregation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.collecting</td>
+<td>Boolean</td>
+<td>Collecting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.defaulted</td>
+<td>Boolean</td>
+<td>Defaulted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.distributing</td>
+<td>Boolean</td>
+<td>Distributing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.expired</td>
+<td>Boolean</td>
+<td>Expired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.synchronization</td>
+<td>Boolean</td>
+<td>Synchronization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerState.timeout</td>
+<td>Boolean</td>
+<td>LACP Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerSysPriority</td>
+<td>Unsigned 16-bit integer</td>
+<td>Partner System Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.partnerSystem</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Partner System</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.term_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.termInfo</td>
+<td>Unsigned 8-bit integer</td>
+<td>Terminator Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.termLen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Terminator Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.lacp.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>LACP Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.requesterPort</td>
+<td>Unsigned 16-bit integer</td>
+<td>Requester Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.requesterSystem</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Requester System</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.requesterTransId</td>
+<td>Unsigned 32-bit integer</td>
+<td>Requester Transaction ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.tlvLen</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.tlvType</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.marker.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>OAMPDU code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efeErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errored Frames</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efeThreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errored Frame Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efeTotalErrors</td>
+<td>Unsigned 64-bit integer</td>
+<td>Error Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efeTotalEvents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efeWindow</td>
+<td>Unsigned 16-bit integer</td>
+<td>Errored Frame Window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efpeThreshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errored Frame Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efpeTotalErrors</td>
+<td>Unsigned 64-bit integer</td>
+<td>Error Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efpeTotalEvents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efpeWindow</td>
+<td>Unsigned 32-bit integer</td>
+<td>Errored Frame Window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efsseThreshold</td>
+<td>Unsigned 16-bit integer</td>
+<td>Errored Frame Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efsseTotalErrors</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efsseTotalEvents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.efsseWindow</td>
+<td>Unsigned 16-bit integer</td>
+<td>Errored Frame Window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.espeErrors</td>
+<td>Unsigned 64-bit integer</td>
+<td>Errored Symbols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.espeThreshold</td>
+<td>Unsigned 64-bit integer</td>
+<td>Errored Symbol Threshold</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.espeTotalErrors</td>
+<td>Unsigned 64-bit integer</td>
+<td>Error Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.espeTotalEvents</td>
+<td>Unsigned 32-bit integer</td>
+<td>Event Running Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.espeWindow</td>
+<td>Unsigned 64-bit integer</td>
+<td>Errored Symbol Window</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.timestamp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Event Timestamp (100ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.event.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.criticalEvent</td>
+<td>Boolean</td>
+<td>Critical Event</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.dyingGasp</td>
+<td>Boolean</td>
+<td>Dying Gasp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.linkFault</td>
+<td>Boolean</td>
+<td>Link Fault</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.localEvaluating</td>
+<td>Boolean</td>
+<td>Local Evaluating</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.localStable</td>
+<td>Boolean</td>
+<td>Local Stable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.remoteEvaluating</td>
+<td>Boolean</td>
+<td>Remote Evaluating</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.flags.remoteStable</td>
+<td>Boolean</td>
+<td>Remote Stable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.oamConfig</td>
+<td>Unsigned 8-bit integer</td>
+<td>OAM Configuration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.oamConfig.mode</td>
+<td>Boolean</td>
+<td>OAM Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.oampduConfig</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max OAMPDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.oui</td>
+<td>Byte array</td>
+<td>Organizationally Unique Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.revision</td>
+<td>Unsigned 16-bit integer</td>
+<td>TLV Revision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.state</td>
+<td>Unsigned 8-bit integer</td>
+<td>OAM DTE States</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.state.muxiplexer</td>
+<td>Boolean</td>
+<td>Muxiplexer Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.state.parser</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parser Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.vendor</td>
+<td>Byte array</td>
+<td>Vendor Specific Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.info.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.lpbk.commands</td>
+<td>Unsigned 8-bit integer</td>
+<td>Commands</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.lpbk.commands.disable</td>
+<td>Boolean</td>
+<td>Disable Remote Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.lpbk.commands.enable</td>
+<td>Boolean</td>
+<td>Enable Remote Loopback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.attribute</td>
+<td>Unsigned 16-bit integer</td>
+<td>Leaf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.binding</td>
+<td>Unsigned 16-bit integer</td>
+<td>Leaf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.branch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Branch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.indication</td>
+<td>Unsigned 8-bit integer</td>
+<td>Variable indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.object</td>
+<td>Unsigned 16-bit integer</td>
+<td>Leaf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.package</td>
+<td>Unsigned 16-bit integer</td>
+<td>Leaf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.value</td>
+<td>Byte array</td>
+<td>Variable Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.oam.variable.width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Variable Width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>slow.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Slow Protocols subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

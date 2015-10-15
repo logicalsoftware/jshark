@@ -1,0 +1,968 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Direct Message Profile</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Direct Message Profile</h1>
+<div><b>Protocol field name:</b> dmp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>dmp.ack</td>
+<td>None</td>
+<td>Acknowledgement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.ack_diagnostic</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ack Diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.ack_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ack Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.ack_rec_list</td>
+<td>None</td>
+<td>Recipient List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.acp127recip</td>
+<td>String</td>
+<td>ACP127 Recipient</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.acp127recip_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>ACP127 Recipient</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.action</td>
+<td>Boolean</td>
+<td>Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_encoding</td>
+<td>Boolean</td>
+<td>Address Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_ext</td>
+<td>Boolean</td>
+<td>Address Extended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_form</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Form</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_length1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Length (bits 4-0)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_length2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Length (bits 9-5)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_type_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Type Extended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.addr_unknown</td>
+<td>Byte array</td>
+<td>Unknown encoded address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.ack_first_sent_in</td>
+<td>Frame number</td>
+<td>Retransmission of Acknowledgement sent in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.ack_in</td>
+<td>Frame number</td>
+<td>Acknowledgement in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.ack_missing</td>
+<td>None</td>
+<td>Acknowledgement missing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.ack_time</td>
+<td>Time duration</td>
+<td>Acknowledgement Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.dup_ack_no</td>
+<td>Unsigned 32-bit integer</td>
+<td>Duplicate ACK #</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.msg_first_sent_in</td>
+<td>Frame number</td>
+<td>Retransmission of Message sent in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.msg_in</td>
+<td>Frame number</td>
+<td>Message in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.msg_missing</td>
+<td>None</td>
+<td>Message missing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.notif_first_sent_in</td>
+<td>Frame number</td>
+<td>Retransmission of Notification sent in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.notif_in</td>
+<td>Frame number</td>
+<td>Notification in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.notif_time</td>
+<td>Time duration</td>
+<td>Notification Reply Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.report_first_sent_in</td>
+<td>Frame number</td>
+<td>Retransmission of Report sent in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.report_in</td>
+<td>Frame number</td>
+<td>Report in</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.report_time</td>
+<td>Time duration</td>
+<td>Report Reply Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.retrans_no</td>
+<td>Unsigned 32-bit integer</td>
+<td>Retransmission #</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.retrans_time</td>
+<td>Time duration</td>
+<td>Retransmission Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.total_retrans_time</td>
+<td>Time duration</td>
+<td>Total Retransmission Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.analysis.total_time</td>
+<td>Time duration</td>
+<td>Total Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.asn1_per</td>
+<td>Byte array</td>
+<td>ASN.1 PER-encoded OR-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.auth_discarded</td>
+<td>Boolean</td>
+<td>Authorizing users discarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body</td>
+<td>None</td>
+<td>Message Body</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.compression</td>
+<td>Unsigned 8-bit integer</td>
+<td>Compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.data</td>
+<td>None</td>
+<td>User data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.eit</td>
+<td>Unsigned 8-bit integer</td>
+<td>EIT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.plain</td>
+<td>String</td>
+<td>Message Body</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.structured</td>
+<td>Byte array</td>
+<td>Structured Body</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body.uncompressed</td>
+<td>None</td>
+<td>Uncompressed User data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.body_format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Body format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.checksum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.checksum_bad</td>
+<td>Boolean</td>
+<td>Bad</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.checksum_good</td>
+<td>Boolean</td>
+<td>Good</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.checksum_used</td>
+<td>Boolean</td>
+<td>Checksum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.cont_id_discarded</td>
+<td>Boolean</td>
+<td>Content Identifier discarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.content_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Content Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.delivery_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.direct_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direct Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.direct_addr1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direct Address (bits 6-0)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.direct_addr2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direct Address (bits 12-7)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.direct_addr3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direct Address (bits 18-13)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.dl_expansion_prohib</td>
+<td>Boolean</td>
+<td>DL expansion prohibited</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.dr</td>
+<td>None</td>
+<td>Delivery Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.dtg</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.dtg.sign</td>
+<td>Boolean</td>
+<td>DTG in the</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.dtg.val</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTG Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.envelope</td>
+<td>None</td>
+<td>Envelope</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.envelope_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.expiry_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Expiry Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.expiry_time_val</td>
+<td>Unsigned 8-bit integer</td>
+<td>Expiry Time Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.ext_rec_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extended Recipient Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.heading_flags</td>
+<td>None</td>
+<td>Heading Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.hop_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hop Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>DMP Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.importance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Importance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.info_present</td>
+<td>Boolean</td>
+<td>Info Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.message</td>
+<td>None</td>
+<td>Message Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.mission_pol_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mission Policy Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.msg_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.msg_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.nat_pol_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>National Policy Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.ndr</td>
+<td>None</td>
+<td>Non-Delivery Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.not_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>Notification Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.notif_discard_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discard Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.notif_non_rec_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Non-Receipt Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.notif_on_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>ON Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.notif_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Notification Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.notification</td>
+<td>None</td>
+<td>Notification Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.nrn</td>
+<td>None</td>
+<td>Non-Receipt Notification (NRN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.on</td>
+<td>None</td>
+<td>Other Notification (ON)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.or_name</td>
+<td>None</td>
+<td>ASN.1 BER-encoded OR-name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.originator</td>
+<td>None</td>
+<td>Originator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Precedence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.protocol_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipient Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recipient Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no_ext</td>
+<td>Boolean</td>
+<td>Recipient Number Extended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipient Number Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no_offset1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipient Number (bits 3-0)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no_offset2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipient Number (bits 9-4)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_no_offset3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recipient Number (bits 14-10)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rec_present</td>
+<td>Boolean</td>
+<td>Recipient Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.receipt_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receipt Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.receipt_time_val</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receipt Time Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.recip_reassign_prohib</td>
+<td>Boolean</td>
+<td>Recipient reassign prohibited</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.recipient</td>
+<td>None</td>
+<td>Recipient Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rep_rec</td>
+<td>Unsigned 8-bit integer</td>
+<td>Report Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.report</td>
+<td>None</td>
+<td>Report Content</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.report_diagnostic</td>
+<td>Unsigned 8-bit integer</td>
+<td>Diagnostic (X.411)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.report_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason (X.411)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.report_type</td>
+<td>Boolean</td>
+<td>Report Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.reporting_name</td>
+<td>None</td>
+<td>Reporting Name Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.rn</td>
+<td>None</td>
+<td>Receipt Notification (RN)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Security Categories</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.bit7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.cl</td>
+<td>Boolean</td>
+<td>Clear</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.cs</td>
+<td>Boolean</td>
+<td>Crypto Security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.ex</td>
+<td>Boolean</td>
+<td>Exclusive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_cat.ne</td>
+<td>Boolean</td>
+<td>National Eyes Only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Security Classification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sec_pol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Security Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic</td>
+<td>String</td>
+<td>SIC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_bitmap</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length Bitmap (0 = 3 bytes, 1 = 4-8 bytes)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7-4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_bits_any</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bit 7-4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_key</td>
+<td>None</td>
+<td>SICs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_key.chars</td>
+<td>Boolean</td>
+<td>Valid Characters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_key.num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of SICs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_key.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.sic_key.values</td>
+<td>Unsigned 8-bit integer</td>
+<td>Content Byte</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.subj_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Subject Message Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.subject</td>
+<td>String</td>
+<td>Subject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.subject_discarded</td>
+<td>Boolean</td>
+<td>Subject discarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.subm_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>Submission Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.subm_time_value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Submission Time Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.suppl_info</td>
+<td>String</td>
+<td>Supplementary Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.suppl_info_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Supplementary Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.time_diff</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time Difference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.time_diff_present</td>
+<td>Boolean</td>
+<td>Time Diff</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.time_diff_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Time Difference Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dmp.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

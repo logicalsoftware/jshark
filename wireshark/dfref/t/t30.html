@@ -1,0 +1,722 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: T.30</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: T.30</h1>
+<div><b>Protocol field name:</b> t30</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>t30.Address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.Control</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.FacsimileControl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Facsimile Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.100x100cg</td>
+<td>Boolean</td>
+<td>100 pels/25.4 mm x 100 lines/25.4 mm for colour/gray scale</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.1200x1200</td>
+<td>Boolean</td>
+<td>1200 pels/25.4 mm x 1200 lines/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.12c</td>
+<td>Boolean</td>
+<td>12 bits/pel component</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.300x300</td>
+<td>Boolean</td>
+<td>300x300 pels/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.300x600</td>
+<td>Boolean</td>
+<td>300 pels/25.4 mm x 600 lines/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.3gmn</td>
+<td>Boolean</td>
+<td>3rd Generation Mobile Network</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.400x800</td>
+<td>Boolean</td>
+<td>400 pels/25.4 mm x 800 lines/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.600x1200</td>
+<td>Boolean</td>
+<td>600 pels/25.4 mm x 1200 lines/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.600x600</td>
+<td>Boolean</td>
+<td>600 pels/25.4 mm x 600 lines/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.acn2c</td>
+<td>Boolean</td>
+<td>Alternative cipher number 2 capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.acn3c</td>
+<td>Boolean</td>
+<td>Alternative cipher number 3 capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ahsn2</td>
+<td>Boolean</td>
+<td>Alternative hashing system number 2 capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ahsn3</td>
+<td>Boolean</td>
+<td>Alternative hashing system number 3 capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.bft</td>
+<td>Boolean</td>
+<td>Binary File Transfer (BFT)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.btm</td>
+<td>Boolean</td>
+<td>Basic Transfer Mode (BTM)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.bwmrcp</td>
+<td>Boolean</td>
+<td>Black and white mixed raster content profile (MRCbw)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.cg1200x1200</td>
+<td>Boolean</td>
+<td>Colour/gray scale 1200 pels/25.4 mm x 1200 lines/25.4 mm resolution</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.cg300</td>
+<td>Boolean</td>
+<td>Colour/gray-scale 300 pels/25.4 mm x 300 lines/25.4 mm or 400 pels/25.4 mm x 400 lines/25.4 mm resolution</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.cg600x600</td>
+<td>Boolean</td>
+<td>Colour/gray scale 600 pels/25.4 mm x 600 lines/25.4 mm resolution</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.cgr</td>
+<td>Boolean</td>
+<td>Custom gamut range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ci</td>
+<td>Boolean</td>
+<td>Custom illuminant</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.cm</td>
+<td>Boolean</td>
+<td>Compress/Uncompress mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.country_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ITU-T Country code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dnc</td>
+<td>Boolean</td>
+<td>Digital network capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.do</td>
+<td>Boolean</td>
+<td>Duplex operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dspcam</td>
+<td>Boolean</td>
+<td>Double sided printing capability (alternate mode)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dspccm</td>
+<td>Boolean</td>
+<td>Double sided printing capability (continuous mode)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dsr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data signalling rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dsr_dcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data signalling rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.dtm</td>
+<td>Boolean</td>
+<td>Document Transfer Mode (DTM)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ebft</td>
+<td>Boolean</td>
+<td>Extended BFT Negotiations capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ecm</td>
+<td>Boolean</td>
+<td>Error correction mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.edi</td>
+<td>Boolean</td>
+<td>Electronic Data Interchange (EDI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ext</td>
+<td>Boolean</td>
+<td>Extension indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.fcm</td>
+<td>Boolean</td>
+<td>Full colour mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.fs_dcm</td>
+<td>Boolean</td>
+<td>Frame size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.fvc</td>
+<td>Boolean</td>
+<td>Field valid capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.hfx40</td>
+<td>Boolean</td>
+<td>HFX40 cipher capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.hfx40i</td>
+<td>Boolean</td>
+<td>HFX40-I hashing capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.hkm</td>
+<td>Boolean</td>
+<td>HKM key management capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ibrp</td>
+<td>Boolean</td>
+<td>Inch based resolution preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ira</td>
+<td>Boolean</td>
+<td>Internet Routing Address (IRA)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.isp</td>
+<td>Boolean</td>
+<td>Internet Selective Polling Address (ISP)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.jpeg</td>
+<td>Boolean</td>
+<td>JPEG coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.mbrp</td>
+<td>Boolean</td>
+<td>Metric based resolution preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.mm</td>
+<td>Boolean</td>
+<td>Mixed mode (Annex E/T.4)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.mslt_dcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum scan line time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.msltchr</td>
+<td>Boolean</td>
+<td>Minimum scan line time capability for higher resolutions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.msltcr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum scan line time capability at the receiver</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.mspc</td>
+<td>Boolean</td>
+<td>Multiple selective polling capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.naleg</td>
+<td>Boolean</td>
+<td>North American Legal (215.9 x 355.6 mm) capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.nalet</td>
+<td>Boolean</td>
+<td>North American Letter (215.9 x 279.4 mm) capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.non_standard_cap</td>
+<td>Byte array</td>
+<td>Non-standard capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ns</td>
+<td>Boolean</td>
+<td>No subsampling (1:1:1)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.number</td>
+<td>String</td>
+<td>Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.oc</td>
+<td>Boolean</td>
+<td>Override capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.op</td>
+<td>Boolean</td>
+<td>Octets preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.passw</td>
+<td>Boolean</td>
+<td>Password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.pht</td>
+<td>Boolean</td>
+<td>Preferred Huffman tables</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.pi</td>
+<td>Boolean</td>
+<td>Plane interleave</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.plmss</td>
+<td>Boolean</td>
+<td>Page length maximum strip size for T.44 (Mixed Raster Content)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.pm26</td>
+<td>Boolean</td>
+<td>Processable mode 26 (ITU T T.505)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.ps</td>
+<td>Boolean</td>
+<td>Polled Subaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.r16x15</td>
+<td>Boolean</td>
+<td>R16x15.4 lines/mm and/or 400x400 pels/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.r8x15</td>
+<td>Boolean</td>
+<td>R8x15.4 lines/mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.res</td>
+<td>Boolean</td>
+<td>R8x7.7 lines/mm and/or 200x200 pels/25.4 mm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rfo</td>
+<td>Boolean</td>
+<td>Receiver fax operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rl_dcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recording length capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rlc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recording length capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rsa</td>
+<td>Boolean</td>
+<td>RSA key management capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rtfc</td>
+<td>Boolean</td>
+<td>Ready to transmit a facsimile document (polling)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rtif</td>
+<td>Boolean</td>
+<td>Real-time Internet fax (ITU T T.38)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rts</td>
+<td>Boolean</td>
+<td>Resolution type selection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rttcmmd</td>
+<td>Boolean</td>
+<td>Ready to transmit a character or mixed mode document (polling)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rttd</td>
+<td>Boolean</td>
+<td>Ready to transmit a data file (polling)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rw_dcs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recording width</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.rwc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recording width capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.sc</td>
+<td>Boolean</td>
+<td>Subaddressing capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.sdmc</td>
+<td>Unsigned 8-bit integer</td>
+<td>SharedDataMemory capacity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.sit</td>
+<td>Boolean</td>
+<td>Sender Identification transmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.sm</td>
+<td>Boolean</td>
+<td>Store and forward Internet fax- Simple mode (ITU-T T.37)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.sp</td>
+<td>Boolean</td>
+<td>Selective polling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.spcbft</td>
+<td>Boolean</td>
+<td>Simple Phase C BFT Negotiations capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.spscb</td>
+<td>Boolean</td>
+<td>Single-progression sequential coding (ITU-T T.85) basic capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.spsco</td>
+<td>Boolean</td>
+<td>Single-progression sequential coding (ITU-T T.85) optional L0 capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t43</td>
+<td>Boolean</td>
+<td>T.43 coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t441</td>
+<td>Boolean</td>
+<td>T.44 (Mixed Raster Content)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t442</td>
+<td>Boolean</td>
+<td>T.44 (Mixed Raster Content)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t443</td>
+<td>Boolean</td>
+<td>T.44 (Mixed Raster Content)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t45</td>
+<td>Boolean</td>
+<td>T.45 (run length colour encoding)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.t6</td>
+<td>Boolean</td>
+<td>T.6 coding capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.tdcc</td>
+<td>Boolean</td>
+<td>Two dimensional coding capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.v8c</td>
+<td>Boolean</td>
+<td>V.8 capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.fif.vc32k</td>
+<td>Boolean</td>
+<td>Voice coding with 32k ADPCM (ITU T G.726)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.pps.fcf2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Post-message command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.t4.block_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.t4.data</td>
+<td>Byte array</td>
+<td>T.4 Facsimile data field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.t4.frame_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.t4.frame_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>T.4 Frame number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>t30.t4.page_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

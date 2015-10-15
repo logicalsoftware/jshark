@@ -1,0 +1,2246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: PROFINET IO</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: PROFINET IO</h1>
+<div><b>Protocol field name:</b> pn_io</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>pn_io.ack_seq_num</td>
+<td>Unsigned 16-bit integer</td>
+<td>AckSeqNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.actual_local_time_stamp</td>
+<td>Unsigned 64-bit integer</td>
+<td>ActualLocalTimeStamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.add_flags</td>
+<td>None</td>
+<td>AddFlags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.add_val1</td>
+<td>Unsigned 16-bit integer</td>
+<td>AdditionalValue1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.add_val2</td>
+<td>Unsigned 16-bit integer</td>
+<td>AdditionalValue2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.address_resolution_properties</td>
+<td>Unsigned 32-bit integer</td>
+<td>AddressResolutionProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.adjust_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>AdjustProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_dst_endpoint</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmDstEndpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier</td>
+<td>None</td>
+<td>AlarmSpecifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier.ardiagnosis</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARDiagnosisState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier.channel</td>
+<td>Unsigned 16-bit integer</td>
+<td>ChannelDiagnosis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier.manufacturer</td>
+<td>Unsigned 16-bit integer</td>
+<td>ManufacturerSpecificDiagnosis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier.sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>SequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_specifier.submodule</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubmoduleDiagnosisState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_src_endpoint</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmSrcEndpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarm_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_properties</td>
+<td>Unsigned 32-bit integer</td>
+<td>AlarmCRProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_properties.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_properties.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_properties.transport</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_tagheaderhigh</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmCRTagHeaderHigh</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_tagheaderlow</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmCRTagHeaderLow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.alarmcr_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>AlarmCRType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.api</td>
+<td>None</td>
+<td>API</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties</td>
+<td>Unsigned 32-bit integer</td>
+<td>ARProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.acknowledge_companion_ar</td>
+<td>Unsigned 32-bit integer</td>
+<td>AcknowledgeCompanionAR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.companion_ar</td>
+<td>Unsigned 32-bit integer</td>
+<td>CompanionAR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.data_rate</td>
+<td>Unsigned 32-bit integer</td>
+<td>DataRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.device_access</td>
+<td>Unsigned 32-bit integer</td>
+<td>DeviceAccess</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.parametrization_server</td>
+<td>Unsigned 32-bit integer</td>
+<td>ParametrizationServer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.pull_module_alarm_allowed</td>
+<td>Unsigned 32-bit integer</td>
+<td>PullModuleAlarmAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.reserved_1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved_1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.state</td>
+<td>Unsigned 32-bit integer</td>
+<td>State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_properties.supervisor_takeover_allowed</td>
+<td>Unsigned 32-bit integer</td>
+<td>SupervisorTakeoverAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ar_uuid</td>
+<td>GUID or UUID</td>
+<td>ARUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.args_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>ArgsLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.args_max</td>
+<td>Unsigned 32-bit integer</td>
+<td>ArgsMaximum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.array</td>
+<td>None</td>
+<td>Array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.array_act_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>ActualCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.array_max_count</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaximumCount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.array_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block</td>
+<td>None</td>
+<td>Block</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block_header</td>
+<td>None</td>
+<td>BlockHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>BlockLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>BlockType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block_version_high</td>
+<td>Unsigned 8-bit integer</td>
+<td>BlockVersionHigh</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.block_version_low</td>
+<td>Unsigned 8-bit integer</td>
+<td>BlockVersionLow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_error_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>ChannelErrorType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>ChannelNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>ChannelProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.accumulative</td>
+<td>Unsigned 16-bit integer</td>
+<td>Accumulative</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.direction</td>
+<td>Unsigned 16-bit integer</td>
+<td>Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.maintenance_demanded</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaintenanceDemanded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.maintenance_required</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaintenanceRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.specifier</td>
+<td>Unsigned 16-bit integer</td>
+<td>Specifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.channel_properties.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.check_sync_mode</td>
+<td>Unsigned 16-bit integer</td>
+<td>CheckSyncMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.check_sync_mode.cable_delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>CableDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.check_sync_mode.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.check_sync_mode.sync_master</td>
+<td>Unsigned 16-bit integer</td>
+<td>SyncMaster</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cminitiator_activitytimeoutfactor</td>
+<td>Unsigned 16-bit integer</td>
+<td>CMInitiatorActivityTimeoutFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cminitiator_mac_add</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>CMInitiatorMacAdd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cminitiator_station_name</td>
+<td>String</td>
+<td>CMInitiatorStationName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cminitiator_udprtport</td>
+<td>Unsigned 16-bit integer</td>
+<td>CMInitiatorUDPRTPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cminitiator_uuid</td>
+<td>GUID or UUID</td>
+<td>CMInitiatorObjectUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cmresponder_macadd</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>CMResponderMacAdd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cmresponder_udprtport</td>
+<td>Unsigned 16-bit integer</td>
+<td>CMResponderUDPRTPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_block_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>ControlBlockProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_block_properties.appl_ready</td>
+<td>Unsigned 16-bit integer</td>
+<td>ControlBlockProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_block_properties.appl_ready0</td>
+<td>Unsigned 16-bit integer</td>
+<td>ApplicationReady</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command</td>
+<td>None</td>
+<td>ControlCommand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.applready</td>
+<td>Unsigned 16-bit integer</td>
+<td>ApplicationReady</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.done</td>
+<td>Unsigned 16-bit integer</td>
+<td>Done</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.prmend</td>
+<td>Unsigned 16-bit integer</td>
+<td>PrmEnd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.ready_for_companion</td>
+<td>Unsigned 16-bit integer</td>
+<td>ReadyForCompanion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.ready_for_rt_class3</td>
+<td>Unsigned 16-bit integer</td>
+<td>ReadyForRT Class 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.control_command.release</td>
+<td>Unsigned 16-bit integer</td>
+<td>Release</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.controller_appl_cycle_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>ControllerApplicationCycleFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.cycle_counter</td>
+<td>Unsigned 16-bit integer</td>
+<td>CycleCounter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.data_description</td>
+<td>None</td>
+<td>DataDescription</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.data_hold_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>DataHoldFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.data_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>DataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.domain_boundary</td>
+<td>Unsigned 32-bit integer</td>
+<td>DomainBoundary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.domain_boundary.egress</td>
+<td>Unsigned 32-bit integer</td>
+<td>DomainBoundaryEgress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.domain_boundary.ingress</td>
+<td>Unsigned 32-bit integer</td>
+<td>DomainBoundaryIngress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds</td>
+<td>Unsigned 8-bit integer</td>
+<td>DataStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_ok</td>
+<td>Unsigned 8-bit integer</td>
+<td>StationProblemIndicator (1:Ok/0:Problem)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_operate</td>
+<td>Unsigned 8-bit integer</td>
+<td>ProviderState (1:Run/0:Stop)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_primary</td>
+<td>Unsigned 8-bit integer</td>
+<td>State (1:Primary/0:Backup)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_res1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (should be zero)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_res3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (should be zero)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_res67</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (should be zero)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ds_valid</td>
+<td>Unsigned 8-bit integer</td>
+<td>DataValid (1:Valid/0:Invalid)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.end_of_red_frame_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>EndOfRedFrameID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.entry_detail</td>
+<td>Unsigned 32-bit integer</td>
+<td>EntryDetail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ErrorCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_code1</td>
+<td>Unsigned 8-bit integer</td>
+<td>ErrorCode1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_code2</td>
+<td>Unsigned 8-bit integer</td>
+<td>ErrorCode2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_decode</td>
+<td>Unsigned 8-bit integer</td>
+<td>ErrorDecode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_drop_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>ErrorDropBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.error_power_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>ErrorPowerBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ethertype</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ethertype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ext_channel_add_value</td>
+<td>Unsigned 32-bit integer</td>
+<td>ExtChannelAddValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ext_channel_error_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>ExtChannelErrorType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fiber_optic_cable_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>FiberOpticCableType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fiber_optic_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>FiberOpticType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_details</td>
+<td>Unsigned 8-bit integer</td>
+<td>FrameDetails</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_details.meaning_frame_send_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Meaning</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_details.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_details.sync_frame</td>
+<td>Unsigned 8-bit integer</td>
+<td>SyncFrame</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>FrameID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.frame_send_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>FrameSendOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_hello_delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>FSHelloDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_hello_interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>FSHelloInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_hello_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>FSHelloMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_hello_retry</td>
+<td>Unsigned 32-bit integer</td>
+<td>FSHelloRetry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_parameter_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>FSParameterMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.fs_parameter_uuid</td>
+<td>GUID or UUID</td>
+<td>FSParameterUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.green_period_begin</td>
+<td>Unsigned 32-bit integer</td>
+<td>GreenPeriodBegin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_date</td>
+<td>String</td>
+<td>IM_Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_descriptor</td>
+<td>String</td>
+<td>IM_Descriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_hardware_revision</td>
+<td>Unsigned 16-bit integer</td>
+<td>IMHardwareRevision</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_profile_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>IMProfileID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_profile_specific_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>IMProfileSpecificType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_revision_bugfix</td>
+<td>Unsigned 8-bit integer</td>
+<td>IM_SWRevisionBugFix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_revision_counter</td>
+<td>Unsigned 16-bit integer</td>
+<td>IMRevisionCounter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_revision_prefix</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMRevisionPrefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_serial_number</td>
+<td>String</td>
+<td>IMSerialNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_supported</td>
+<td>Unsigned 16-bit integer</td>
+<td>IM_Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_sw_revision_functional_enhancement</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMSWRevisionFunctionalEnhancement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_sw_revision_internal_change</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMSWRevisionInternalChange</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_tag_function</td>
+<td>String</td>
+<td>IM_Tag_Function</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_tag_location</td>
+<td>String</td>
+<td>IM_Tag_Location</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_version_major</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMVersionMajor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.im_version_minor</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMVersionMinor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.index</td>
+<td>Unsigned 16-bit integer</td>
+<td>Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.io_cs</td>
+<td>None</td>
+<td>IOCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.io_data_object</td>
+<td>None</td>
+<td>IODataObject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.io_data_object_frame_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>IODataObjectFrameOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_multicast_mac_add</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>IOCRMulticastMACAdd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties</td>
+<td>Unsigned 32-bit integer</td>
+<td>IOCRProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.distributed_subframe_watchdog</td>
+<td>Unsigned 32-bit integer</td>
+<td>DistributedSubFrameWatchDog</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.fast_forwarding_mac_adr</td>
+<td>Unsigned 32-bit integer</td>
+<td>FastForwardingMACAdr</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.full_subframe_structure</td>
+<td>Unsigned 32-bit integer</td>
+<td>FullSubFrameStructure</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.media_redundancy</td>
+<td>Unsigned 32-bit integer</td>
+<td>MediaRedundancy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.reserved1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.reserved2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.reserved3</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_properties.rtclass</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTClass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_reference</td>
+<td>Unsigned 16-bit integer</td>
+<td>IOCRReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_tag_header</td>
+<td>Unsigned 16-bit integer</td>
+<td>IOCRTagHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_tree</td>
+<td>None</td>
+<td>IOCR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_txports_port</td>
+<td>Unsigned 8-bit integer</td>
+<td>IOCRTxPorts.Port</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_txports_redundantport</td>
+<td>Unsigned 8-bit integer</td>
+<td>IOCRTxPorts.RedundantPort</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocr_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>IOCRType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.iocs_frame_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>IOCSFrameOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ioxs</td>
+<td>Unsigned 8-bit integer</td>
+<td>IOCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ioxs.datastate</td>
+<td>Unsigned 8-bit integer</td>
+<td>DataState (1:good/0:bad)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ioxs.extension</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extension (1:another IOxS follows/0:no IOxS follows)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ioxs.instance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Instance (only valid, if DataState is bad)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ioxs.res14</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved (should be zero)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ip_address</td>
+<td>IPv4 address</td>
+<td>IPAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ir_begin_end_port</td>
+<td>None</td>
+<td>Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ir_data_id</td>
+<td>GUID or UUID</td>
+<td>IRDataID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ir_frame_data</td>
+<td>None</td>
+<td>Frame data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>LengthData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_iocs</td>
+<td>Unsigned 16-bit integer</td>
+<td>LengthIOCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_iops</td>
+<td>Unsigned 16-bit integer</td>
+<td>LengthIOPS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_own_chassis_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>LengthOwnChassisID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_own_port_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>LengthOwnPortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_peer_chassis_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>LengthPeerChassisID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.length_peer_port_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>LengthPeerPortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.line_delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>LineDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.local_time_stamp</td>
+<td>Unsigned 64-bit integer</td>
+<td>LocalTimeStamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.localalarmref</td>
+<td>Unsigned 16-bit integer</td>
+<td>LocalAlarmReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.lt</td>
+<td>Unsigned 16-bit integer</td>
+<td>LT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.macadd</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MACAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_demanded_drop_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaintenanceDemandedDropBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_demanded_power_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaintenanceDemandedPowerBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_required_drop_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaintenanceRequiredDropBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_required_power_budget</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaintenanceRequiredPowerBudget</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaintenanceStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_status_demanded</td>
+<td>Unsigned 32-bit integer</td>
+<td>Demanded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maintenance_status_required</td>
+<td>Unsigned 32-bit integer</td>
+<td>Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mau_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>MAUType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mau_type_mode</td>
+<td>Unsigned 16-bit integer</td>
+<td>MAUTypeMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.max_bridge_delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxBridgeDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.max_port_rx_delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxPortRxDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.max_port_tx_delay</td>
+<td>Unsigned 32-bit integer</td>
+<td>MaxPortTxDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.maxalarmdatalength</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaxAlarmDataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mci_timeout_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>MCITimeoutFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.media_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>MediaType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.module</td>
+<td>None</td>
+<td>Module</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.module_ident_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>ModuleIdentNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.module_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>ModuleProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.module_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>ModuleState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_check</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_Check</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_domain_name</td>
+<td>String</td>
+<td>MRP_DomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_domain_uuid</td>
+<td>GUID or UUID</td>
+<td>MRP_DomainUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_length_domain_name</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_LengthDomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_lnkdownt</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_LNKdownT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_lnknrmax</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_LNKNRmax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_lnkupt</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_LNKupT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_prio</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_Prio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_ring_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_RingState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_role</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_Role</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rt_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_RTState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rtmode</td>
+<td>Unsigned 32-bit integer</td>
+<td>MRP_RTMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rtmode.class1_2</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTClass1_2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rtmode.class3</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTClass1_3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rtmode.reserved_1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved_1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_rtmode.reserved_2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved_2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_topchgt</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_TOPchgT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_topnrmax</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_TOPNRmax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_tstdefaultt</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_TSTdefaultT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_tstnrmax</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_TSTNRmax</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_tstshortt</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_TSTshortT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.mrp_version</td>
+<td>Unsigned 16-bit integer</td>
+<td>MRP_Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.multicast_boundary</td>
+<td>Unsigned 32-bit integer</td>
+<td>MulticastBoundary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.nr_of_tx_port_groups</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumberOfTxPortGroups</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_apis</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfAPIs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_ars</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfARs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_assignments</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfAssignments</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_io_data_objects</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfIODataObjects</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_iocrs</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfIOCRs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_iocs</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfIOCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_log_entries</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfLogEntries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_modules</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfModules</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_peers</td>
+<td>Unsigned 8-bit integer</td>
+<td>NumberOfPeers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_phases</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfPhases</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_ports</td>
+<td>Unsigned 32-bit integer</td>
+<td>NumberOfPorts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_slots</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfSlots</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_submodules</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfSubmodules</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.number_of_subslots</td>
+<td>Unsigned 16-bit integer</td>
+<td>NumberOfSubslots</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.orange_period_begin</td>
+<td>Unsigned 32-bit integer</td>
+<td>OrangePeriodBegin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.order_id</td>
+<td>String</td>
+<td>OrderID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.own_chassis_id</td>
+<td>String</td>
+<td>OwnChassisID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.own_port_id</td>
+<td>String</td>
+<td>OwnPortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.parameter_server_objectuuid</td>
+<td>GUID or UUID</td>
+<td>ParameterServerObjectUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.parameter_server_station_name</td>
+<td>String</td>
+<td>ParameterServerStationName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.pdu_type</td>
+<td>None</td>
+<td>PDUType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.pdu_type.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.pdu_type.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.peer_chassis_id</td>
+<td>String</td>
+<td>PeerChassisID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.peer_macadd</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>PeerMACAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.peer_port_id</td>
+<td>String</td>
+<td>PeerPortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.phase</td>
+<td>Unsigned 16-bit integer</td>
+<td>Phase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.pllwindow</td>
+<td>Unsigned 32-bit integer</td>
+<td>PLLWindow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.port_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.attribute</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.do</td>
+<td>Unsigned 8-bit integer</td>
+<td>DO</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.format</td>
+<td>Unsigned 8-bit integer</td>
+<td>Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.index</td>
+<td>Unsigned 16-bit integer</td>
+<td>Index</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.no_of_elems</td>
+<td>Unsigned 8-bit integer</td>
+<td>NoOfElements</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.no_of_parameters</td>
+<td>Unsigned 8-bit integer</td>
+<td>NoOfParameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.no_of_values</td>
+<td>Unsigned 8-bit integer</td>
+<td>NoOfValues</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.number</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.request_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>RequestID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.request_reference</td>
+<td>Unsigned 8-bit integer</td>
+<td>RequestReference</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.response_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ResponseID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profidrive.parameter.value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe._f_par_crc</td>
+<td>Unsigned 16-bit integer</td>
+<td>F_Par_CRC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe._f_wd_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>F_WD_Time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_dst_addr</td>
+<td>Unsigned 16-bit integer</td>
+<td>F_Destination_Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_Prm_Flag1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1.f_check_ipar</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_Check_iPar</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1.f_check_seqnr</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_Check_SeqNr</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1.f_crc_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_CRC_Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1.f_sil</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_SIL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag1.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_Prm_Flag2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag2.f_block_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_BlockId</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag2.f_par_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>F_ParVersion</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_prm_flag2.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.profisafe.f_src_addr</td>
+<td>Unsigned 16-bit integer</td>
+<td>F_Source_Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.provider_station_name</td>
+<td>String</td>
+<td>ProviderStationName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_length_subdomain_name</td>
+<td>Unsigned 8-bit integer</td>
+<td>PTCPLengthSubdomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_master_priority_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>PTCP_MasterPriority1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_master_priority_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>PTCP_MasterPriority2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_master_startup_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTCPMasterStartupTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_subdomain_id</td>
+<td>GUID or UUID</td>
+<td>PTCPSubdomainID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_subdomain_name</td>
+<td>String</td>
+<td>PTCPSubdomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_takeover_timeout_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTCPTakeoverTimeoutFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.ptcp_timeout_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTCPTimeoutFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.record_data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>RecordDataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.red_orange_period_begin</td>
+<td>Unsigned 32-bit integer</td>
+<td>RedOrangePeriodBegin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.reduction_ratio</td>
+<td>Unsigned 16-bit integer</td>
+<td>ReductionRatio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.remotealarmref</td>
+<td>Unsigned 16-bit integer</td>
+<td>RemoteAlarmReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.reserved16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.reserved_interval_begin</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReservedIntervalBegin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.reserved_interval_end</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReservedIntervalEnd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.rta_retries</td>
+<td>Unsigned 16-bit integer</td>
+<td>RTARetries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.rta_timeoutfactor</td>
+<td>Unsigned 16-bit integer</td>
+<td>RTATimeoutFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.rx_phase_assignment</td>
+<td>Unsigned 16-bit integer</td>
+<td>RXPhaseAssignment</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.rx_port</td>
+<td>Unsigned 8-bit integer</td>
+<td>RXPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.send_clock_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>SendClockFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.send_seq_num</td>
+<td>Unsigned 16-bit integer</td>
+<td>SendSeqNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.seq_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>SeqNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.session_key</td>
+<td>Unsigned 16-bit integer</td>
+<td>SessionKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.slot</td>
+<td>None</td>
+<td>Slot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.slot_nr</td>
+<td>Unsigned 16-bit integer</td>
+<td>SlotNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.standard_gateway</td>
+<td>IPv4 address</td>
+<td>StandardGateway</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.start_of_red_frame_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>StartOfRedFrameID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.station_name_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>StationNameLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.status</td>
+<td>None</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subframe_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>SubFrameData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subframe_data.data_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>DataLength</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subframe_data.position</td>
+<td>Unsigned 32-bit integer</td>
+<td>Position</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subframe_data.reserved1</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subframe_wd_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubFrameWDFactor</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>pn_io.submodule</td>
+<td>None</td>
+<td>Submodule</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_data_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubmoduleDataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_ident_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>SubmoduleIdentNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubmoduleProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.discard_ioxs</td>
+<td>Unsigned 16-bit integer</td>
+<td>DiscardIOXS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.reduce_input_submodule_data_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>ReduceInputSubmoduleDataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.reduce_output_submodule_data_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>ReduceOutputSubmoduleDataLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.reserved</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.shared_input</td>
+<td>Unsigned 16-bit integer</td>
+<td>SharedInput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_properties.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubmoduleState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.add_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>AddInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.ar_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.detail</td>
+<td>Unsigned 16-bit integer</td>
+<td>Detail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.diag_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>DiagInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.format_indicator</td>
+<td>Unsigned 16-bit integer</td>
+<td>FormatIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.ident_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>IdentInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.maintenance_demanded</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaintenanceDemanded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.maintenance_required</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaintenanceRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.submodule_state.qualified_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>QualifiedInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subnetmask</td>
+<td>IPv4 address</td>
+<td>Subnetmask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subslot</td>
+<td>None</td>
+<td>Subslot</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.subslot_nr</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubslotNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.substitute_active_flag</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubstituteActiveFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.sync_frame_address</td>
+<td>Unsigned 16-bit integer</td>
+<td>SyncFrameAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.sync_properties</td>
+<td>Unsigned 16-bit integer</td>
+<td>SyncProperties</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.sync_send_factor</td>
+<td>Unsigned 32-bit integer</td>
+<td>SyncSendFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.tack</td>
+<td>Unsigned 8-bit integer</td>
+<td>TACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.target_ar_uuid</td>
+<td>GUID or UUID</td>
+<td>TargetARUUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.time_data_cycle</td>
+<td>Unsigned 16-bit integer</td>
+<td>TimeDataCycle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.time_io_input</td>
+<td>Unsigned 32-bit integer</td>
+<td>TimeIOInput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.time_io_input_valid</td>
+<td>Unsigned 32-bit integer</td>
+<td>TimeIOInputValid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.time_io_output</td>
+<td>Unsigned 32-bit integer</td>
+<td>TimeIOOutput</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.time_io_output_valid</td>
+<td>Unsigned 32-bit integer</td>
+<td>TimeIOOutputValid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.transfer_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>TransferStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.tx_phase_assignment</td>
+<td>Unsigned 16-bit integer</td>
+<td>TXPhaseAssignment</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.user_structure_identifier</td>
+<td>Unsigned 16-bit integer</td>
+<td>UserStructureIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.var_part_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>VarPartLen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.vendor_block_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>VendorBlockType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.vendor_id_high</td>
+<td>Unsigned 8-bit integer</td>
+<td>VendorIDHigh</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.vendor_id_low</td>
+<td>Unsigned 8-bit integer</td>
+<td>VendorIDLow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.watchdog_factor</td>
+<td>Unsigned 16-bit integer</td>
+<td>WatchdogFactor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>pn_io.window_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>WindowSize</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GSM A-I/F DTAP</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GSM A-I/F DTAP</h1>
+<div><b>Protocol field name:</b> gsm_a_dtap</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gsm_a.bitmap_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bitmap Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.cld_party_bcd_num</td>
+<td>String</td>
+<td>Called Party BCD Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.clg_party_bcd_num</td>
+<td>String</td>
+<td>Calling Party BCD Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.fr_amr</td>
+<td>Boolean</td>
+<td>FR AMR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.fr_amr_wb</td>
+<td>Boolean</td>
+<td>FR AMR-WB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.gsm_efr</td>
+<td>Boolean</td>
+<td>GSM EFR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.gsm_fr</td>
+<td>Boolean</td>
+<td>GSM FR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.gsm_hr</td>
+<td>Boolean</td>
+<td>GSM HR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.hr_amr</td>
+<td>Boolean</td>
+<td>HR AMR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.ofr_amr_wb</td>
+<td>Boolean</td>
+<td>OFR AMR-WB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.ohr_amr</td>
+<td>Boolean</td>
+<td>OHR AMR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.ohr_amr_wb</td>
+<td>Boolean</td>
+<td>OHR AMR-WB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.pdc_efr</td>
+<td>Boolean</td>
+<td>PDC EFR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.tdma_efr</td>
+<td>Boolean</td>
+<td>TDMA EFR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.umts_amr</td>
+<td>Boolean</td>
+<td>UMTS AMR</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.umts_amr_2</td>
+<td>Boolean</td>
+<td>UMTS AMR 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.codec.umts_amr_wb</td>
+<td>Boolean</td>
+<td>UMTS AMR-WB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.conn_num</td>
+<td>String</td>
+<td>Connected Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.afi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authority and Format Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.alerting_pattern</td>
+<td>Unsigned 8-bit integer</td>
+<td>Alerting Pattern</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.autn</td>
+<td>Byte array</td>
+<td>AUTN value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.autn.amf</td>
+<td>Byte array</td>
+<td>AMF</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.autn.mac</td>
+<td>Byte array</td>
+<td>MAC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.autn.sqn_xor_ak</td>
+<td>Byte array</td>
+<td>SQN xor AK</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.auts</td>
+<td>Byte array</td>
+<td>AUTS value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.auts.mac_s</td>
+<td>Byte array</td>
+<td>MAC-S</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.auts.sqn_ms_xor_ak</td>
+<td>Byte array</td>
+<td>SQN_MS xor AK</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.call_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Call state</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.cause_of_no_cli</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause of no CLI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.cause_ss_diagnostics</td>
+<td>Unsigned 8-bit integer</td>
+<td>Supplementary Services Diagnostics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.ccbs_activation</td>
+<td>Boolean</td>
+<td>CCBS Activation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.coding_standard</td>
+<td>Unsigned 8-bit integer</td>
+<td>Coding standard</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.emerg_num_info_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Emergency Number Info length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.emergency_bcd_num</td>
+<td>String</td>
+<td>Emergency BCD Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.location</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.mcat</td>
+<td>Boolean</td>
+<td>MCAT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.mcs</td>
+<td>Boolean</td>
+<td>MCS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.progress_description</td>
+<td>Unsigned 8-bit integer</td>
+<td>Progress description</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.rand</td>
+<td>Byte array</td>
+<td>RAND value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.recall_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recall type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.rej_cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reject cause</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b1</td>
+<td>Boolean</td>
+<td>Police</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b2</td>
+<td>Boolean</td>
+<td>Ambulance</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b3</td>
+<td>Boolean</td>
+<td>Fire Brigade</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b4</td>
+<td>Boolean</td>
+<td>Marine Guard</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b5</td>
+<td>Boolean</td>
+<td>Mountain Rescue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b6</td>
+<td>Boolean</td>
+<td>Manually initiated eCall</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.serv_cat_b7</td>
+<td>Boolean</td>
+<td>Automatically initiated eCall</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.signal_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Signal value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.sres</td>
+<td>Byte array</td>
+<td>SRES value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.stream_identifier</td>
+<td>Unsigned 8-bit integer</td>
+<td>Stream Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.u2u_prot_discr</td>
+<td>Unsigned 8-bit integer</td>
+<td>User-user protocol discriminator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap.xres</td>
+<td>Byte array</td>
+<td>XRES value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_cc_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Call Control Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_mm_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Mobility Management Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_sms_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Short Message Service Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_ss_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Non call Supplementary Service Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_msg_tp_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Tests Procedures Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.dtap_seq_no</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.extension</td>
+<td>Boolean</td>
+<td>Extension</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.itc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Information transfer capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.lsa_id</td>
+<td>Unsigned 24-bit integer</td>
+<td>LSA Identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.notif_descr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Notification description</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.numbering_plan_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Numbering plan identification</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.odd_even_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>Odd/even indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.present_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>Presentation indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.red_party_bcd_num</td>
+<td>String</td>
+<td>Redirecting Party BCD Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.screening_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>Screening indicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.speech_vers_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>Speech version indication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.sysid</td>
+<td>Unsigned 8-bit integer</td>
+<td>System Identification (SysID)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.type_of_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a.type_of_sub_addr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of subaddress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a_dtap.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>DTAP Cause</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_a_dtap.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

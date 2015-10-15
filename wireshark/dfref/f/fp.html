@@ -1,0 +1,788 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: FP</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: FP</h1>
+<div><b>Protocol field name:</b> fp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>fp.activation-cfn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Activation CFN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.angle-of-arrival</td>
+<td>Unsigned 16-bit integer</td>
+<td>Angle of Arrival</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.cell-portion-id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cell Portion ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.cfn</td>
+<td>Unsigned 8-bit integer</td>
+<td>CFN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.cfn-control</td>
+<td>Unsigned 8-bit integer</td>
+<td>CFN control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.channel-type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Channel Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.channel-with-zero-tbs</td>
+<td>Unsigned 32-bit integer</td>
+<td>No TBs for channel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.cmch-pi</td>
+<td>Unsigned 8-bit integer</td>
+<td>CmCH-PI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.code-number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Code number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.common.control.e-rucch-flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>E-RUCCH Flag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.common.control.frame-type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Frame Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.common.control.rx-timing-deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rx Timing Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.congestion-status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Congestion Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.cpch.tfi</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.crci</td>
+<td>Unsigned 8-bit integer</td>
+<td>CRCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.crcis</td>
+<td>Byte array</td>
+<td>CRCIs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.dch.control.frame-type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Frame Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.dch.control.rx-timing-deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rx Timing Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.dch.quality-estimate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Quality Estimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.division</td>
+<td>Unsigned 8-bit integer</td>
+<td>Division</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.dpc-mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>DPC Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.drt</td>
+<td>Unsigned 16-bit integer</td>
+<td>DRT</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.drt-indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRT Indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch-data-padding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch-tsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>TSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.ddi</td>
+<td>Unsigned 8-bit integer</td>
+<td>DDI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.fsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>FSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.header-crc</td>
+<td>Unsigned 16-bit integer</td>
+<td>E-DCH Header CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.mac-es-pdu</td>
+<td>None</td>
+<td>MAC-es PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.no-of-harq-retransmissions</td>
+<td>Unsigned 8-bit integer</td>
+<td>No of HARQ Retransmissions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.no-of-subframes</td>
+<td>Unsigned 8-bit integer</td>
+<td>No of subframes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.number-of-mac-d-pdus</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Mac-d PDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.number-of-mac-es-pdus</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Mac-es PDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.subframe</td>
+<td>String</td>
+<td>Subframe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.subframe-header</td>
+<td>String</td>
+<td>Subframe header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.edch.subframe-number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subframe number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.erucch-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>E-RUCCH Present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.ext-propagation-delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ext Propagation Delay</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.ext-received-sync-ul-timing-deviation</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ext Received SYNC UL Timing Deviation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.extended-bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Bits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.extended-bits-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Bits Present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.fach-indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>FACH Indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.fach.tfi</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.flush</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flush</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.frame-seq-nr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Seq Nr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.fsn-drt-reset</td>
+<td>Unsigned 8-bit integer</td>
+<td>FSN-DRT reset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.ft</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frame Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.header-crc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Header CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hrnti</td>
+<td>Unsigned 16-bit integer</td>
+<td>HRNTI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-calculated-rate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Calculated rate allocation (bps)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-credits</td>
+<td>Unsigned 16-bit integer</td>
+<td>HS-DSCH Credits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-data-padding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>HS-DSCH Interval in milliseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-repetition-period</td>
+<td>Unsigned 8-bit integer</td>
+<td>HS-DSCH Repetition Period</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch-unlimited-rate</td>
+<td>None</td>
+<td>Unlimited rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.drt</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.entity</td>
+<td>Unsigned 8-bit integer</td>
+<td>HS-DSCH Entity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.mac-d-pdu-len</td>
+<td>Unsigned 16-bit integer</td>
+<td>MAC-d PDU Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.max-macd-pdu-len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max MAC-d PDU Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.max-macdc-pdu-len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max MAC-d/c PDU Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.new-ie-flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>DRT IE present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.new-ie-flags</td>
+<td>String</td>
+<td>New IEs flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.new-ie-flags-byte</td>
+<td>Unsigned 8-bit integer</td>
+<td>Another new IE flags byte</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.num-of-pdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of PDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.pdu-block</td>
+<td>String</td>
+<td>PDU block</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.hsdsch.pdu-block-header</td>
+<td>String</td>
+<td>PDU block header</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.lchid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Logical Channel ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.mac-d-pdu</td>
+<td>Byte array</td>
+<td>MAC-d PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.max-ue-tx-pow</td>
+<td>Signed 8-bit integer</td>
+<td>MAX_UE_TX_POW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.mc-info</td>
+<td>Unsigned 8-bit integer</td>
+<td>MC info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.multiple-rl-sets-indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiple RL sets indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.no-pdus-in-block</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDUs in block</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.payload-crc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Payload CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pch.cfn</td>
+<td>Unsigned 16-bit integer</td>
+<td>CFN (PCH)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pch.pi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Paging Indication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pch.pi-bitmap</td>
+<td>None</td>
+<td>Paging Indications bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pch.tfi</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pch.toa</td>
+<td>Signed 24-bit integer</td>
+<td>ToA (PCH)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pdsch-set-id</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDSCH Set Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pdu-length-in-block</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU length in block</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pdu_blocks</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU Blocks</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.power-offset</td>
+<td>Unknown</td>
+<td>Power offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.propagation-delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>Propagation Delay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.pusch-set-id</td>
+<td>Unsigned 8-bit integer</td>
+<td>PUSCH Set Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach-measurement-result</td>
+<td>Unsigned 16-bit integer</td>
+<td>RACH Measurement Result</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.angle-of-arrival-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Angle of arrival present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.cell-portion-id-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cell portion ID present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.ext-propagation-delay-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext Propagation Delay Present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.ext-rx-sync-ul-timing-deviation-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext Received Sync UL Timing Deviation present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.ext-rx-timing-deviation-present</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext Rx Timing Deviation present</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.new-ie-flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>New IE present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.new-ie-flags</td>
+<td>String</td>
+<td>New IEs flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rach.new-ie-flags-byte</td>
+<td>Unsigned 8-bit integer</td>
+<td>Another new IE flags byte</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>fp.radio-interface-param.cfn-valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>CFN valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.radio-interface-param.dpc-mode-valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>DPC mode valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.radio-interface-param.max-ue-tx-pow-valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>MAX_UE_TX_POW valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.radio-interface-param.tpc-po-valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>TPC PO valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.radio-interface_param.rl-sets-indicator-valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>RL sets indicator valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.rx-sync-ul-timing-deviation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Received SYNC UL Timing Deviation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.spare-extension</td>
+<td>None</td>
+<td>Spare Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.spreading-factor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spreading factor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.t1</td>
+<td>Unsigned 24-bit integer</td>
+<td>T1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.t2</td>
+<td>Unsigned 24-bit integer</td>
+<td>T2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.t3</td>
+<td>Unsigned 24-bit integer</td>
+<td>T3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.tb</td>
+<td>Byte array</td>
+<td>TB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.tfi</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.timing-advance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timing advance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.tpc-po</td>
+<td>Unsigned 8-bit integer</td>
+<td>TPC PO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.transmit-power-level</td>
+<td>Unknown</td>
+<td>Transmit Power Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.ul-sir-target</td>
+<td>Unknown</td>
+<td>UL_SIR_TARGET</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.usch.tfi</td>
+<td>Unsigned 8-bit integer</td>
+<td>TFI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fp.user-buffer-size</td>
+<td>Unsigned 16-bit integer</td>
+<td>User buffer size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

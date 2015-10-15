@@ -1,0 +1,1988 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: H.248 MEGACO</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: H.248 MEGACO</h1>
+<div><b>Protocol field name:</b> h248</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>h248.actionReplies</td>
+<td>Unsigned 32-bit integer</td>
+<td>actionReplies</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.actionReplies_item</td>
+<td>None</td>
+<td>actionReplies</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.ActionReply</td>
+<td>None</td>
+<td>ActionReply</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ActionRequest</td>
+<td>None</td>
+<td>ActionRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.actions</td>
+<td>Unsigned 32-bit integer</td>
+<td>actions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.actions_item</td>
+<td>None</td>
+<td>actions</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.ad</td>
+<td>Byte array</td>
+<td>ad</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.addReply</td>
+<td>None</td>
+<td>addReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.addReq</td>
+<td>None</td>
+<td>addReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.address</td>
+<td>IPv4 address</td>
+<td>address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.AmmDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>AmmDescriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.andAUDITSelect</td>
+<td>None</td>
+<td>andAUDITSelect</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditCapReply</td>
+<td>Unsigned 32-bit integer</td>
+<td>auditCapReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditCapRequest</td>
+<td>None</td>
+<td>auditCapRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditDescriptor</td>
+<td>None</td>
+<td>auditDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditPropertyToken</td>
+<td>Unsigned 32-bit integer</td>
+<td>auditPropertyToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditPropertyToken_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>auditPropertyToken</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.auditResult</td>
+<td>None</td>
+<td>auditResult</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditResultTermList</td>
+<td>None</td>
+<td>auditResultTermList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.AuditReturnParameter</td>
+<td>Unsigned 32-bit integer</td>
+<td>AuditReturnParameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditToken</td>
+<td>Byte array</td>
+<td>auditToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditValueReply</td>
+<td>Unsigned 32-bit integer</td>
+<td>auditValueReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditValueReplyV1</td>
+<td>None</td>
+<td>auditValueReplyV1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.auditValueRequest</td>
+<td>None</td>
+<td>auditValueRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.authHeader</td>
+<td>None</td>
+<td>authHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.command</td>
+<td>Unsigned 32-bit integer</td>
+<td>command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.commandReply</td>
+<td>Unsigned 32-bit integer</td>
+<td>commandReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.commandReply_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>commandReply</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.CommandRequest</td>
+<td>None</td>
+<td>CommandRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.commandRequests</td>
+<td>Unsigned 32-bit integer</td>
+<td>commandRequests</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.commandRequests_item</td>
+<td>None</td>
+<td>commandRequests</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.contectAuditResult</td>
+<td>None</td>
+<td>contectAuditResult</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextAttrAuditReq</td>
+<td>None</td>
+<td>contextAttrAuditReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextAuditResult</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextAuditResult</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextId</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ContextIDinList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ContextIDinList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextList</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.contextProp</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextProp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextProp_item</td>
+<td>None</td>
+<td>contextProp</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.contextPropAud</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextPropAud</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextPropAud_item</td>
+<td>None</td>
+<td>contextPropAud</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.contextReply</td>
+<td>None</td>
+<td>contextReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.contextRequest</td>
+<td>None</td>
+<td>contextRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx</td>
+<td>Unsigned 32-bit integer</td>
+<td>Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx.cmd</td>
+<td>Frame number</td>
+<td>Command in Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx.term</td>
+<td>String</td>
+<td>Termination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx.term.bir</td>
+<td>String</td>
+<td>BIR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx.term.nsap</td>
+<td>String</td>
+<td>NSAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ctx.term.type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.data</td>
+<td>Byte array</td>
+<td>data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.date</td>
+<td>String</td>
+<td>date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.descriptors</td>
+<td>Unsigned 32-bit integer</td>
+<td>descriptors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.descriptors_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>descriptors</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.deviceName</td>
+<td>String</td>
+<td>deviceName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.digitMapBody</td>
+<td>String</td>
+<td>digitMapBody</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.digitMapDescriptor</td>
+<td>None</td>
+<td>digitMapDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.digitMapName</td>
+<td>Byte array</td>
+<td>digitMapName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.digitMapToken</td>
+<td>Boolean</td>
+<td>digitMapToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.digitMapValue</td>
+<td>None</td>
+<td>digitMapValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.direction</td>
+<td>Unsigned 32-bit integer</td>
+<td>direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.domainName</td>
+<td>None</td>
+<td>domainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.duration</td>
+<td>Unsigned 32-bit integer</td>
+<td>duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.durationTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>durationTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.emergency</td>
+<td>Boolean</td>
+<td>emergency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.emptyDescriptors</td>
+<td>None</td>
+<td>emptyDescriptors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.error</td>
+<td>None</td>
+<td>error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.errorCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>errorCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.errorDescriptor</td>
+<td>None</td>
+<td>errorDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.errorText</td>
+<td>String</td>
+<td>errorText</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.event_name</td>
+<td>Unsigned 32-bit integer</td>
+<td>Package and Event name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventAction</td>
+<td>None</td>
+<td>eventAction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventBufferControl</td>
+<td>None</td>
+<td>eventBufferControl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventBufferDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventBufferDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.EventBufferDescriptor_item</td>
+<td>None</td>
+<td>EventBufferDescriptor</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.eventBufferToken</td>
+<td>Boolean</td>
+<td>eventBufferToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventDM</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventDM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventList</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventList_item</td>
+<td>None</td>
+<td>eventList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.eventName</td>
+<td>Byte array</td>
+<td>eventName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.EventParameter</td>
+<td>None</td>
+<td>EventParameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventParameterName</td>
+<td>Byte array</td>
+<td>eventParameterName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventParamterName</td>
+<td>Byte array</td>
+<td>eventParamterName</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventParamValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventParamValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.EventParamValues_item</td>
+<td>Byte array</td>
+<td>EventParamValues</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.eventParList</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventParList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventParList_item</td>
+<td>None</td>
+<td>eventParList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.eventsDescriptor</td>
+<td>None</td>
+<td>eventsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.EventSpec</td>
+<td>None</td>
+<td>EventSpec</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.eventsToken</td>
+<td>Boolean</td>
+<td>eventsToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.evParList</td>
+<td>Unsigned 32-bit integer</td>
+<td>evParList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.evParList_item</td>
+<td>None</td>
+<td>evParList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.experimental</td>
+<td>String</td>
+<td>experimental</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.extraInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>extraInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.firstAck</td>
+<td>Unsigned 32-bit integer</td>
+<td>firstAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.h221NonStandard</td>
+<td>None</td>
+<td>h221NonStandard</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.iepscallind</td>
+<td>Boolean</td>
+<td>iepscallind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.immAckRequired</td>
+<td>None</td>
+<td>immAckRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indauddigitMapDescriptor</td>
+<td>None</td>
+<td>indauddigitMapDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudeventBufferDescriptor</td>
+<td>None</td>
+<td>indaudeventBufferDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudeventsDescriptor</td>
+<td>None</td>
+<td>indaudeventsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.IndAuditParameter</td>
+<td>Unsigned 32-bit integer</td>
+<td>IndAuditParameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudmediaDescriptor</td>
+<td>None</td>
+<td>indaudmediaDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudpackagesDescriptor</td>
+<td>None</td>
+<td>indaudpackagesDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.IndAudPropertyGroup_item</td>
+<td>None</td>
+<td>IndAudPropertyGroup</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.IndAudPropertyParm</td>
+<td>None</td>
+<td>IndAudPropertyParm</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudsignalsDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>indaudsignalsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.indaudstatisticsDescriptor</td>
+<td>None</td>
+<td>indaudstatisticsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.IndAudStreamDescriptor</td>
+<td>None</td>
+<td>IndAudStreamDescriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.intersigDelay</td>
+<td>Unsigned 32-bit integer</td>
+<td>intersigDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ip4Address</td>
+<td>None</td>
+<td>ip4Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ip6Address</td>
+<td>None</td>
+<td>ip6Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.keepActive</td>
+<td>Boolean</td>
+<td>keepActive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.lastAck</td>
+<td>Unsigned 32-bit integer</td>
+<td>lastAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.localControlDescriptor</td>
+<td>None</td>
+<td>localControlDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.localDescriptor</td>
+<td>None</td>
+<td>localDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.longTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>longTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.manufacturerCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>manufacturerCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mediaDescriptor</td>
+<td>None</td>
+<td>mediaDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mediaToken</td>
+<td>Boolean</td>
+<td>mediaToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mess</td>
+<td>None</td>
+<td>mess</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.messageBody</td>
+<td>Unsigned 32-bit integer</td>
+<td>messageBody</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.messageError</td>
+<td>None</td>
+<td>messageError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mId</td>
+<td>Unsigned 32-bit integer</td>
+<td>mId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.modemDescriptor</td>
+<td>None</td>
+<td>modemDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.modemToken</td>
+<td>Boolean</td>
+<td>modemToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ModemType</td>
+<td>Unsigned 32-bit integer</td>
+<td>ModemType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.modReply</td>
+<td>None</td>
+<td>modReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.modReq</td>
+<td>None</td>
+<td>modReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.moveReply</td>
+<td>None</td>
+<td>moveReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.moveReq</td>
+<td>None</td>
+<td>moveReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mpl</td>
+<td>Unsigned 32-bit integer</td>
+<td>mpl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mpl_item</td>
+<td>None</td>
+<td>mpl</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.mtl</td>
+<td>Unsigned 32-bit integer</td>
+<td>mtl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mtl_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>mtl</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.mtpAddress</td>
+<td>Byte array</td>
+<td>mtpAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mtpaddress.ni</td>
+<td>Unsigned 32-bit integer</td>
+<td>NI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.mtpaddress.pc</td>
+<td>Unsigned 32-bit integer</td>
+<td>PC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.multiStream</td>
+<td>Unsigned 32-bit integer</td>
+<td>multiStream</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.multiStream_item</td>
+<td>None</td>
+<td>multiStream</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.muxDescriptor</td>
+<td>None</td>
+<td>muxDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.muxToken</td>
+<td>Boolean</td>
+<td>muxToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.muxType</td>
+<td>Unsigned 32-bit integer</td>
+<td>muxType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.name</td>
+<td>String</td>
+<td>name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.neverNotify</td>
+<td>None</td>
+<td>neverNotify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.nonStandardData</td>
+<td>None</td>
+<td>nonStandardData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.nonStandardIdentifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>nonStandardIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyBehaviour</td>
+<td>Unsigned 32-bit integer</td>
+<td>notifyBehaviour</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyCompletion</td>
+<td>Byte array</td>
+<td>notifyCompletion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyImmediate</td>
+<td>None</td>
+<td>notifyImmediate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyRegulated</td>
+<td>None</td>
+<td>notifyRegulated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyReply</td>
+<td>None</td>
+<td>notifyReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.notifyReq</td>
+<td>None</td>
+<td>notifyReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.object</td>
+<td>Object identifier</td>
+<td>object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.ObservedEvent</td>
+<td>None</td>
+<td>ObservedEvent</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.observedEventLst</td>
+<td>Unsigned 32-bit integer</td>
+<td>observedEventLst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.observedEventLst_item</td>
+<td>None</td>
+<td>observedEventLst</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.observedEventsDescriptor</td>
+<td>None</td>
+<td>observedEventsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.observedEventsToken</td>
+<td>Boolean</td>
+<td>observedEventsToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.oneStream</td>
+<td>None</td>
+<td>oneStream</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.onInterruptByEvent</td>
+<td>Boolean</td>
+<td>onInterruptByEvent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.onInterruptByNewSignalDescr</td>
+<td>Boolean</td>
+<td>onInterruptByNewSignalDescr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.onIteration</td>
+<td>Boolean</td>
+<td>onIteration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.onTimeOut</td>
+<td>Boolean</td>
+<td>onTimeOut</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.optional</td>
+<td>None</td>
+<td>optional</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.orAUDITSelect</td>
+<td>None</td>
+<td>orAUDITSelect</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.otherReason</td>
+<td>Boolean</td>
+<td>otherReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.package_bcp.BNCChar</td>
+<td>Unsigned 32-bit integer</td>
+<td>BNCChar</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.package_eventid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Event ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.package_name</td>
+<td>Unsigned 16-bit integer</td>
+<td>Package</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.package_paramid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.package_signalid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Signal ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.packageName</td>
+<td>Byte array</td>
+<td>packageName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.packagesDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>packagesDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.PackagesDescriptor_item</td>
+<td>None</td>
+<td>PackagesDescriptor</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.PackagesItem</td>
+<td>None</td>
+<td>PackagesItem</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.packagesToken</td>
+<td>Boolean</td>
+<td>packagesToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.packageVersion</td>
+<td>Unsigned 32-bit integer</td>
+<td>packageVersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.unknown</td>
+<td>Byte array</td>
+<td>Unknown Package</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.unknown.evt</td>
+<td>Byte array</td>
+<td>Unknown Event</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.unknown.param</td>
+<td>Byte array</td>
+<td>Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkg.unknown.sig</td>
+<td>Byte array</td>
+<td>Unknown Signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.pkgdName</td>
+<td>Byte array</td>
+<td>pkgdName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.portNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>portNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.profileName</td>
+<td>String</td>
+<td>profileName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.PropertyGroup</td>
+<td>Unsigned 32-bit integer</td>
+<td>PropertyGroup</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.PropertyGroup_item</td>
+<td>None</td>
+<td>PropertyGroup</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.PropertyID</td>
+<td>Byte array</td>
+<td>PropertyID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.propertyName</td>
+<td>Byte array</td>
+<td>propertyName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.PropertyParm</td>
+<td>None</td>
+<td>PropertyParm</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.propertyParms</td>
+<td>Unsigned 32-bit integer</td>
+<td>propertyParms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.propertyParms_item</td>
+<td>None</td>
+<td>propertyParms</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.propGroupID</td>
+<td>Unsigned 32-bit integer</td>
+<td>propGroupID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.propGrps</td>
+<td>Unsigned 32-bit integer</td>
+<td>propGrps</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.propGrps_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>propGrps</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.range</td>
+<td>Boolean</td>
+<td>range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.relation</td>
+<td>Unsigned 32-bit integer</td>
+<td>relation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.remoteDescriptor</td>
+<td>None</td>
+<td>remoteDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.RequestedEvent</td>
+<td>None</td>
+<td>RequestedEvent</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.requestID</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.reserveGroup</td>
+<td>None</td>
+<td>reserveGroup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.reserveValue</td>
+<td>None</td>
+<td>reserveValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.resetEventsDescriptor</td>
+<td>None</td>
+<td>resetEventsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SCreasonValue_item</td>
+<td>Byte array</td>
+<td>SCreasonValue</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.SCreasonValueOctetStr</td>
+<td>Byte array</td>
+<td>SCreasonValueOctetStr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.secondEvent</td>
+<td>None</td>
+<td>secondEvent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SecondRequestedEvent</td>
+<td>None</td>
+<td>SecondRequestedEvent</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.secParmIndex</td>
+<td>Byte array</td>
+<td>secParmIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.segmentationComplete</td>
+<td>None</td>
+<td>segmentationComplete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.segmentNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>segmentNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.segmentReply</td>
+<td>None</td>
+<td>segmentReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.selectemergency</td>
+<td>Boolean</td>
+<td>selectemergency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.selectiepscallind</td>
+<td>Boolean</td>
+<td>selectiepscallind</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.selectLogic</td>
+<td>Unsigned 32-bit integer</td>
+<td>selectLogic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.selectpriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>selectpriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.seqNum</td>
+<td>Byte array</td>
+<td>seqNum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.seqSigList</td>
+<td>None</td>
+<td>seqSigList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeAddress</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeDelay</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeIncompleteFlag</td>
+<td>None</td>
+<td>serviceChangeIncompleteFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeInfo</td>
+<td>None</td>
+<td>serviceChangeInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeMethod</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeMethod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeMgcId</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeMgcId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeParms</td>
+<td>None</td>
+<td>serviceChangeParms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeProfile</td>
+<td>None</td>
+<td>serviceChangeProfile</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeReasonstr</td>
+<td>String</td>
+<td>ServiceChangeReasonStr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeReply</td>
+<td>None</td>
+<td>serviceChangeReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeReq</td>
+<td>None</td>
+<td>serviceChangeReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeResParms</td>
+<td>None</td>
+<td>serviceChangeResParms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeResult</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeResult</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceChangeVersion</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceChangeVersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceState</td>
+<td>None</td>
+<td>serviceState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.serviceStateSel</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceStateSel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.shortTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>shortTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signal</td>
+<td>None</td>
+<td>signal</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signal_name</td>
+<td>Unsigned 32-bit integer</td>
+<td>Package and Signal name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signalList</td>
+<td>None</td>
+<td>signalList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signalList_item</td>
+<td>None</td>
+<td>signalList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.signalName</td>
+<td>Byte array</td>
+<td>signalName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SignalRequest</td>
+<td>Unsigned 32-bit integer</td>
+<td>SignalRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signalRequestID</td>
+<td>Unsigned 32-bit integer</td>
+<td>signalRequestID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.signalsDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>signalsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SignalsDescriptor_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SignalsDescriptor</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.signalsToken</td>
+<td>Boolean</td>
+<td>signalsToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SigParameter</td>
+<td>None</td>
+<td>SigParameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.sigParameterName</td>
+<td>Byte array</td>
+<td>sigParameterName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SigParamValue</td>
+<td>Byte array</td>
+<td>SigParamValue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.SigParamValues_item</td>
+<td>Byte array</td>
+<td>SigParamValues</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.sigParList</td>
+<td>Unsigned 32-bit integer</td>
+<td>sigParList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.sigParList_item</td>
+<td>None</td>
+<td>sigParList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.sigType</td>
+<td>Unsigned 32-bit integer</td>
+<td>sigType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.startTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>startTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.statisticsDescriptor</td>
+<td>Unsigned 32-bit integer</td>
+<td>statisticsDescriptor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.StatisticsDescriptor_item</td>
+<td>None</td>
+<td>StatisticsDescriptor</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.StatisticsParameter</td>
+<td>None</td>
+<td>StatisticsParameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.statName</td>
+<td>Byte array</td>
+<td>statName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.statsToken</td>
+<td>Boolean</td>
+<td>statsToken</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.statValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>statValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.StreamDescriptor</td>
+<td>None</td>
+<td>StreamDescriptor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.streamID</td>
+<td>Unsigned 32-bit integer</td>
+<td>streamID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.streamMode</td>
+<td>None</td>
+<td>streamMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.streamModeSel</td>
+<td>Unsigned 32-bit integer</td>
+<td>streamModeSel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.streamParms</td>
+<td>None</td>
+<td>streamParms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.streams</td>
+<td>Unsigned 32-bit integer</td>
+<td>streams</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.sublist</td>
+<td>Boolean</td>
+<td>sublist</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.subtractReply</td>
+<td>None</td>
+<td>subtractReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.subtractReq</td>
+<td>None</td>
+<td>subtractReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.t35CountryCode1</td>
+<td>Unsigned 32-bit integer</td>
+<td>t35CountryCode1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.t35CountryCode2</td>
+<td>Unsigned 32-bit integer</td>
+<td>t35CountryCode2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.t35Extension</td>
+<td>Unsigned 32-bit integer</td>
+<td>t35Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.term.wildcard.level</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wildcarding Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.term.wildcard.mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wildcard Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.term.wildcard.pos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wildcarding Position</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.terminationAudit</td>
+<td>Unsigned 32-bit integer</td>
+<td>terminationAudit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.TerminationAudit_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>TerminationAudit</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.terminationAuditResult</td>
+<td>Unsigned 32-bit integer</td>
+<td>terminationAuditResult</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.terminationFrom</td>
+<td>None</td>
+<td>terminationFrom</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.terminationID</td>
+<td>Unsigned 32-bit integer</td>
+<td>terminationID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.TerminationIDList_item</td>
+<td>None</td>
+<td>TerminationIDList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.terminationTo</td>
+<td>None</td>
+<td>terminationTo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.termList</td>
+<td>Unsigned 32-bit integer</td>
+<td>termList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.termList_item</td>
+<td>None</td>
+<td>termList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.termStateDescr</td>
+<td>None</td>
+<td>termStateDescr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.time</td>
+<td>String</td>
+<td>time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.timeNotation</td>
+<td>None</td>
+<td>timeNotation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.timeStamp</td>
+<td>None</td>
+<td>timeStamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.topology</td>
+<td>None</td>
+<td>topology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.topologyDirection</td>
+<td>Unsigned 32-bit integer</td>
+<td>topologyDirection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.topologyDirectionExtension</td>
+<td>Unsigned 32-bit integer</td>
+<td>topologyDirectionExtension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.topologyReq</td>
+<td>Unsigned 32-bit integer</td>
+<td>topologyReq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.topologyReq_item</td>
+<td>None</td>
+<td>topologyReq</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.TopologyRequest</td>
+<td>None</td>
+<td>TopologyRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.Transaction</td>
+<td>Unsigned 32-bit integer</td>
+<td>Transaction</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.TransactionAck</td>
+<td>None</td>
+<td>TransactionAck</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionError</td>
+<td>None</td>
+<td>transactionError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionId</td>
+<td>Unsigned 32-bit integer</td>
+<td>transactionId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionPending</td>
+<td>None</td>
+<td>transactionPending</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionReply</td>
+<td>None</td>
+<td>transactionReply</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionRequest</td>
+<td>None</td>
+<td>transactionRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactionResponseAck</td>
+<td>Unsigned 32-bit integer</td>
+<td>transactionResponseAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.TransactionResponseAck_item</td>
+<td>None</td>
+<td>TransactionResponseAck</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.transactionResult</td>
+<td>Unsigned 32-bit integer</td>
+<td>transactionResult</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactions</td>
+<td>Unsigned 32-bit integer</td>
+<td>transactions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.transactions_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>transactions</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.value</td>
+<td>Unsigned 32-bit integer</td>
+<td>value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.Value_item</td>
+<td>Byte array</td>
+<td>Value item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.wildcard</td>
+<td>Unsigned 32-bit integer</td>
+<td>wildcard</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.wildcard_item</td>
+<td>Byte array</td>
+<td>wildcard</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>h248.WildcardField</td>
+<td>Byte array</td>
+<td>WildcardField</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>h248.wildcardReturn</td>
+<td>None</td>
+<td>wildcardReturn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

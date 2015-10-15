@@ -1,0 +1,884 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: FC Extended Link Svc</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: FC Extended Link Svc</h1>
+<div><b>Protocol field name:</b> fcels</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>fcels.alpa</td>
+<td>Byte array</td>
+<td>AL_PA Map</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.addr_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Addressing Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.dnpname</td>
+<td>String</td>
+<td>Destination N_Port Port_Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.handle</td>
+<td>Unsigned 16-bit integer</td>
+<td>Connection Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.ifcp_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>iFCP version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.liveness</td>
+<td>Unsigned 16-bit integer</td>
+<td>Liveness Test Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.snpname</td>
+<td>String</td>
+<td>Source N_Port Port_Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cbind.userinfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>UserInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cls.cns</td>
+<td>Boolean</td>
+<td>Class Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cls.nzctl</td>
+<td>Boolean</td>
+<td>Non-zero CS_CTL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cls.prio</td>
+<td>Boolean</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cls.sdr</td>
+<td>Boolean</td>
+<td>Delivery Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.bbb</td>
+<td>Boolean</td>
+<td>B2B Credit Mgmt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.broadcast</td>
+<td>Boolean</td>
+<td>Broadcast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.cios</td>
+<td>Boolean</td>
+<td>Cont. Incr. Offset Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.clk</td>
+<td>Boolean</td>
+<td>Clk Sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.dhd</td>
+<td>Boolean</td>
+<td>DHD Capable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.e_d_tov</td>
+<td>Boolean</td>
+<td>E_D_TOV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.multicast</td>
+<td>Boolean</td>
+<td>Multicast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.payload</td>
+<td>Boolean</td>
+<td>Payload Len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.rro</td>
+<td>Boolean</td>
+<td>RRO Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.security</td>
+<td>Boolean</td>
+<td>Security</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.seqcnt</td>
+<td>Boolean</td>
+<td>SEQCNT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.simplex</td>
+<td>Boolean</td>
+<td>Simplex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.cmn.vvv</td>
+<td>Boolean</td>
+<td>Valid Vendor Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.edtov</td>
+<td>Unsigned 16-bit integer</td>
+<td>E_D_TOV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.estat</td>
+<td>Unsigned 32-bit integer</td>
+<td>Exchange Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.estat.complete</td>
+<td>Boolean</td>
+<td>Exchange Complete</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.estat.resp</td>
+<td>Boolean</td>
+<td>Sequence Responder</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.estat.seq_init</td>
+<td>Boolean</td>
+<td>Sequence Initiative</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.faddr</td>
+<td>String</td>
+<td>Fabric Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.faildrcvr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Failed Receiver AL_PA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags</td>
+<td>Unsigned 32-bit integer</td>
+<td>FCP Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.ccomp</td>
+<td>Boolean</td>
+<td>Comp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.datao</td>
+<td>Boolean</td>
+<td>Data Overlay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.initiator</td>
+<td>Boolean</td>
+<td>Initiator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.rdxr</td>
+<td>Boolean</td>
+<td>Rd Xfer_Rdy Dis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.retry</td>
+<td>Boolean</td>
+<td>Retry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.target</td>
+<td>Boolean</td>
+<td>Target</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.trirep</td>
+<td>Boolean</td>
+<td>Task Retry Ident</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.trireq</td>
+<td>Boolean</td>
+<td>Task Retry Ident</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fcpflags.wrxr</td>
+<td>Boolean</td>
+<td>Wr Xfer_Rdy Dis</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.flacompliance</td>
+<td>Unsigned 8-bit integer</td>
+<td>FC-FLA Compliance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fnname</td>
+<td>String</td>
+<td>Fabric/Node Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.fpname</td>
+<td>String</td>
+<td>Fabric Port Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.hrdaddr</td>
+<td>String</td>
+<td>Hard Address of Originator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.b2b</td>
+<td>Unsigned 8-bit integer</td>
+<td>B2B Credit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.bbscnum</td>
+<td>Unsigned 8-bit integer</td>
+<td>BB_SC Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.cls1param</td>
+<td>Byte array</td>
+<td>Class 1 Svc Param</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.cls2param</td>
+<td>Byte array</td>
+<td>Class 2 Svc Param</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.cls3param</td>
+<td>Byte array</td>
+<td>Class 3 Svc Param</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.cls4param</td>
+<td>Byte array</td>
+<td>Class 4 Svc Param</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.clsflags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Service Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.clsrcvsize</td>
+<td>Unsigned 16-bit integer</td>
+<td>Class Recv Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.cmnfeatures</td>
+<td>Unsigned 16-bit integer</td>
+<td>Common Svc Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.e2e</td>
+<td>Unsigned 16-bit integer</td>
+<td>End2End Credit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.initctl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Initiator Ctl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.initctl.ack0</td>
+<td>Boolean</td>
+<td>ACK0 Capable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.initctl.ackgaa</td>
+<td>Boolean</td>
+<td>ACK GAA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.initctl.initial_pa</td>
+<td>Unsigned 16-bit integer</td>
+<td>Initial P_A</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.initctl.sync</td>
+<td>Boolean</td>
+<td>Clock Sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.maxconseq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Concurrent Seq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.openseq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Open Seq Per Exchg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Recipient Ctl</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl.ack</td>
+<td>Boolean</td>
+<td>ACK0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl.category</td>
+<td>Unsigned 16-bit integer</td>
+<td>Category</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl.interlock</td>
+<td>Boolean</td>
+<td>X_ID Interlock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl.policy</td>
+<td>Unsigned 16-bit integer</td>
+<td>Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcptctl.sync</td>
+<td>Boolean</td>
+<td>Clock Sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.rcvsize</td>
+<td>Unsigned 16-bit integer</td>
+<td>Receive Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.reloff</td>
+<td>Unsigned 16-bit integer</td>
+<td>Relative Offset By Info Cat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.svcavail</td>
+<td>Byte array</td>
+<td>Services Availability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.totconseq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Total Concurrent Seq</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.logi.vendvers</td>
+<td>Byte array</td>
+<td>Vendor Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.loopstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loop State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.matchcp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Match Address Code Points</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.npname</td>
+<td>String</td>
+<td>N_Port Port_Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.opcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cmd Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.oxid</td>
+<td>Unsigned 16-bit integer</td>
+<td>OXID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.portid</td>
+<td>String</td>
+<td>Originator S_ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.portnum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Physical Port Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.portstatus</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.prliloflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>PRLILO Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.prliloflags.eip</td>
+<td>Boolean</td>
+<td>Est Image Pair</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.prliloflags.ipe</td>
+<td>Boolean</td>
+<td>Image Pair Estd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.prliloflags.opav</td>
+<td>Boolean</td>
+<td>Orig PA Valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.pubdev_bmap</td>
+<td>Byte array</td>
+<td>Public Loop Device Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.pvtdev_bmap</td>
+<td>Byte array</td>
+<td>Private Loop Device Bitmap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rcovqual</td>
+<td>Unsigned 8-bit integer</td>
+<td>Recovery Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rec.fc4value</td>
+<td>Unsigned 32-bit integer</td>
+<td>FC4 value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.reqipaddr</td>
+<td>IPv6 address</td>
+<td>Requesting IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.respaction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Responder Action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.respipaddr</td>
+<td>IPv6 address</td>
+<td>Responding IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.respname</td>
+<td>String</td>
+<td>Responding Port Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.respnname</td>
+<td>String</td>
+<td>Responding Node Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.resportid</td>
+<td>String</td>
+<td>Responding Port ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rjt.detail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason Explanation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rjt.reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rjt.vnduniq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vendor Unique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnft.fc4type</td>
+<td>Unsigned 8-bit integer</td>
+<td>FC-4 Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.asstype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Associated Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.attnodes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of Attached Nodes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.ip</td>
+<td>IPv6 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.ipvers</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.nodeidfmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node Identification Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.nodemgmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node Management</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.physport</td>
+<td>Unsigned 32-bit integer</td>
+<td>Physical Port Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.spidlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Specific Id Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.tcpport</td>
+<td>Unsigned 16-bit integer</td>
+<td>TCP/UDP Port Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.vendorsp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Vendor Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rnid.vendoruniq</td>
+<td>Byte array</td>
+<td>Vendor Unique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rscn.addrfmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rscn.area</td>
+<td>Unsigned 8-bit integer</td>
+<td>Affected Area</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rscn.domain</td>
+<td>Unsigned 8-bit integer</td>
+<td>Affected Domain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rscn.evqual</td>
+<td>Unsigned 8-bit integer</td>
+<td>Event Qualifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rscn.port</td>
+<td>Unsigned 8-bit integer</td>
+<td>Affected Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.rxid</td>
+<td>Unsigned 16-bit integer</td>
+<td>RXID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.scr.regn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Registration Function</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.speedflags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port Speed Capabilities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.speedflags.10gb</td>
+<td>Boolean</td>
+<td>10Gb Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.speedflags.1gb</td>
+<td>Boolean</td>
+<td>1Gb Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.speedflags.2gb</td>
+<td>Boolean</td>
+<td>2Gb Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.speedflags.4gb</td>
+<td>Boolean</td>
+<td>4Gb Support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.tprloflags.gprlo</td>
+<td>Boolean</td>
+<td>Global PRLO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.tprloflags.npv</td>
+<td>Boolean</td>
+<td>3rd Party N_Port Valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.tprloflags.opav</td>
+<td>Boolean</td>
+<td>3rd Party Orig PA Valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.tprloflags.rpav</td>
+<td>Boolean</td>
+<td>Resp PA Valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fcels.unbind.status</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

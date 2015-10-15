@@ -1,0 +1,8690 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: GSM Mobile Application</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: GSM Mobile Application</h1>
+<div><b>Protocol field name:</b> gsm_map</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>gsm_map.accessNetworkProtocolId</td>
+<td>Unsigned 32-bit integer</td>
+<td>accessNetworkProtocolId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.address.digits</td>
+<td>String</td>
+<td>Address digits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.bearerService</td>
+<td>Unsigned 8-bit integer</td>
+<td>bearerService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.cbs_coding_grp15_mess_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Coding Group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp0_lang</td>
+<td>Unsigned 8-bit integer</td>
+<td>Language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp1_lang</td>
+<td>Unsigned 8-bit integer</td>
+<td>Language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp2_lang</td>
+<td>Unsigned 8-bit integer</td>
+<td>Language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp3_lang</td>
+<td>Unsigned 8-bit integer</td>
+<td>Language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp4_7_char_set</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character set being used</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp4_7_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp4_7_class_ind</td>
+<td>Boolean</td>
+<td>Message Class present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.coding_grp4_7_comp</td>
+<td>Boolean</td>
+<td>Compressed indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cbs.gsm_map_cbs_coding_grp15_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.cellGlobalIdOrServiceAreaIdFixedLength</td>
+<td>Byte array</td>
+<td>cellGlobalIdOrServiceAreaIdFixedLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.additionalSignalInfo</td>
+<td>None</td>
+<td>additionalSignalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.alertingPattern</td>
+<td>Byte array</td>
+<td>alertingPattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.allInformationSent</td>
+<td>None</td>
+<td>allInformationSent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.allowedServices</td>
+<td>Byte array</td>
+<td>allowedServices</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.basicService</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.basicService2</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.basicServiceGroup</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceGroup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.basicServiceGroup2</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceGroup2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callDiversionTreatmentIndicator</td>
+<td>Byte array</td>
+<td>callDiversionTreatmentIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callInfo</td>
+<td>None</td>
+<td>callInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callOutcome</td>
+<td>Unsigned 32-bit integer</td>
+<td>callOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>callPriority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callReferenceNumber</td>
+<td>Byte array</td>
+<td>callReferenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callReportdata</td>
+<td>None</td>
+<td>callReportdata</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.callTerminationIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>callTerminationIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.camelInfo</td>
+<td>None</td>
+<td>camelInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.camelRoutingInfo</td>
+<td>None</td>
+<td>camelRoutingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_Call</td>
+<td>None</td>
+<td>ccbs-Call</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_Feature</td>
+<td>None</td>
+<td>ccbs-Feature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_Indicators</td>
+<td>None</td>
+<td>ccbs-Indicators</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_Monitoring</td>
+<td>Unsigned 32-bit integer</td>
+<td>ccbs-Monitoring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_Possible</td>
+<td>None</td>
+<td>ccbs-Possible</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ccbs_SubscriberStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>ccbs-SubscriberStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.cug_CheckInfo</td>
+<td>None</td>
+<td>cug-CheckInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.cug_Interlock</td>
+<td>Byte array</td>
+<td>cug-Interlock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.cug_OutgoingAccess</td>
+<td>None</td>
+<td>cug-OutgoingAccess</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.cugSubscriptionFlag</td>
+<td>None</td>
+<td>cugSubscriptionFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.d_csi</td>
+<td>None</td>
+<td>d-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.eventReportData</td>
+<td>None</td>
+<td>eventReportData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.extendedRoutingInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>extendedRoutingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.firstServiceAllowed</td>
+<td>Boolean</td>
+<td>firstServiceAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardedToNumber</td>
+<td>Byte array</td>
+<td>forwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardedToSubaddress</td>
+<td>Byte array</td>
+<td>forwardedToSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardingData</td>
+<td>None</td>
+<td>forwardingData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardingInterrogationRequired</td>
+<td>None</td>
+<td>forwardingInterrogationRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardingOptions</td>
+<td>Byte array</td>
+<td>forwardingOptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.forwardingReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>forwardingReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.gmsc_Address</td>
+<td>Byte array</td>
+<td>gmsc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.gmsc_OrGsmSCF_Address</td>
+<td>Byte array</td>
+<td>gmsc-OrGsmSCF-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.gmscCamelSubscriptionInfo</td>
+<td>None</td>
+<td>gmscCamelSubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.gsm_BearerCapability</td>
+<td>None</td>
+<td>gsm-BearerCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.gsmSCF_InitiatedCall</td>
+<td>None</td>
+<td>gsmSCF-InitiatedCall</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.interrogationType</td>
+<td>Unsigned 32-bit integer</td>
+<td>interrogationType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.istAlertTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>istAlertTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.istInformationWithdraw</td>
+<td>None</td>
+<td>istInformationWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.istSupportIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>istSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.keepCCBS_CallIndicator</td>
+<td>None</td>
+<td>keepCCBS-CallIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.longForwardedToNumber</td>
+<td>Byte array</td>
+<td>longForwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.longFTN_Supported</td>
+<td>None</td>
+<td>longFTN-Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.monitoringMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>monitoringMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.msc_Number</td>
+<td>Byte array</td>
+<td>msc-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.msrn</td>
+<td>Byte array</td>
+<td>msrn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.mtRoamingRetry</td>
+<td>None</td>
+<td>mtRoamingRetry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.mtRoamingRetryIndicator</td>
+<td>None</td>
+<td>mtRoamingRetryIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.mtRoamingRetrySupported</td>
+<td>None</td>
+<td>mtRoamingRetrySupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.naea_PreferredCI</td>
+<td>None</td>
+<td>naea-PreferredCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.networkSignalInfo</td>
+<td>None</td>
+<td>networkSignalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.networkSignalInfo2</td>
+<td>None</td>
+<td>networkSignalInfo2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.numberOfForwarding</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberOfForwarding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.numberPortabilityStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberPortabilityStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.o_BcsmCamelTDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-BcsmCamelTDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.o_BcsmCamelTDPCriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-BcsmCamelTDPCriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.o_CSI</td>
+<td>None</td>
+<td>o-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.offeredCamel4CSIs</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.offeredCamel4CSIsInInterrogatingNode</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIsInInterrogatingNode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.offeredCamel4CSIsInVMSC</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIsInVMSC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.or_Capability</td>
+<td>Unsigned 32-bit integer</td>
+<td>or-Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.or_Interrogation</td>
+<td>None</td>
+<td>or-Interrogation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.orNotSupportedInGMSC</td>
+<td>None</td>
+<td>orNotSupportedInGMSC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.pagingArea</td>
+<td>Unsigned 32-bit integer</td>
+<td>pagingArea</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.pre_pagingSupported</td>
+<td>None</td>
+<td>pre-pagingSupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.releaseResourcesSupported</td>
+<td>None</td>
+<td>releaseResourcesSupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.replaceB_Number</td>
+<td>None</td>
+<td>replaceB-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.roamingNumber</td>
+<td>Byte array</td>
+<td>roamingNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.routingInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>routingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.routingInfo2</td>
+<td>Unsigned 32-bit integer</td>
+<td>routingInfo2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ruf_Outcome</td>
+<td>Unsigned 32-bit integer</td>
+<td>ruf-Outcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.secondServiceAllowed</td>
+<td>Boolean</td>
+<td>secondServiceAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ss_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.ss_List2</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-List2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.subscriberInfo</td>
+<td>None</td>
+<td>subscriberInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.supportedCamelPhases</td>
+<td>Byte array</td>
+<td>supportedCamelPhases</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.supportedCamelPhasesInInterrogatingNode</td>
+<td>Byte array</td>
+<td>supportedCamelPhasesInInterrogatingNode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.supportedCamelPhasesInVMSC</td>
+<td>Byte array</td>
+<td>supportedCamelPhasesInVMSC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.supportedCCBS_Phase</td>
+<td>Unsigned 32-bit integer</td>
+<td>supportedCCBS-Phase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppress_T_CSI</td>
+<td>None</td>
+<td>suppress-T-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppress_VT_CSI</td>
+<td>None</td>
+<td>suppress-VT-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppressCCBS</td>
+<td>Boolean</td>
+<td>suppressCCBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppressCUG</td>
+<td>Boolean</td>
+<td>suppressCUG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppressIncomingCallBarring</td>
+<td>None</td>
+<td>suppressIncomingCallBarring</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppressionOfAnnouncement</td>
+<td>None</td>
+<td>suppressionOfAnnouncement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.suppressMTSS</td>
+<td>Byte array</td>
+<td>suppressMTSS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.t_BCSM_CAMEL_TDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-BCSM-CAMEL-TDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.t_CSI</td>
+<td>None</td>
+<td>t-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.translatedB_Number</td>
+<td>Byte array</td>
+<td>translatedB-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.unavailabilityCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>unavailabilityCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.uu_Data</td>
+<td>None</td>
+<td>uu-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.uui</td>
+<td>Byte array</td>
+<td>uui</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.uuIndicator</td>
+<td>Byte array</td>
+<td>uuIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.uusCFInteraction</td>
+<td>None</td>
+<td>uusCFInteraction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ch.vmsc_Address</td>
+<td>Byte array</td>
+<td>vmsc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.currentPassword</td>
+<td>String</td>
+<td>currentPassword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.defaultPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.alternativeApplicationContext</td>
+<td>Object identifier</td>
+<td>alternativeApplicationContext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.applicationProcedureCancellation</td>
+<td>Unsigned 32-bit integer</td>
+<td>applicationProcedureCancellation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.destinationReference</td>
+<td>Byte array</td>
+<td>destinationReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_accept</td>
+<td>None</td>
+<td>map-accept</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_close</td>
+<td>None</td>
+<td>map-close</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.MAP_DialoguePDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>MAP-DialoguePDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_open</td>
+<td>None</td>
+<td>map-open</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_providerAbort</td>
+<td>None</td>
+<td>map-providerAbort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_ProviderAbortReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>map-ProviderAbortReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_refuse</td>
+<td>None</td>
+<td>map-refuse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_userAbort</td>
+<td>None</td>
+<td>map-userAbort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.map_UserAbortChoice</td>
+<td>Unsigned 32-bit integer</td>
+<td>map-UserAbortChoice</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.originationReference</td>
+<td>Byte array</td>
+<td>originationReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.reason</td>
+<td>Unsigned 32-bit integer</td>
+<td>reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.resourceUnavailable</td>
+<td>Unsigned 32-bit integer</td>
+<td>resourceUnavailable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.userResourceLimitation</td>
+<td>None</td>
+<td>userResourceLimitation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.dialogue.userSpecificReason</td>
+<td>None</td>
+<td>userSpecificReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.disc_par</td>
+<td>Unsigned 8-bit integer</td>
+<td>Discrimination parameter</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.absentSubscriberDiagnosticSM</td>
+<td>Unsigned 32-bit integer</td>
+<td>absentSubscriberDiagnosticSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.absentSubscriberReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>absentSubscriberReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.additionalAbsentSubscriberDiagnosticSM</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalAbsentSubscriberDiagnosticSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.additionalNetworkResource</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalNetworkResource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.additionalRoamingNotAllowedCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalRoamingNotAllowedCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.basicService</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.callBarringCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>callBarringCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.ccbs_Busy</td>
+<td>None</td>
+<td>ccbs-Busy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.ccbs_Possible</td>
+<td>None</td>
+<td>ccbs-Possible</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.cug_RejectCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>cug-RejectCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.diagnosticInfo</td>
+<td>Byte array</td>
+<td>diagnosticInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.extensibleCallBarredParam</td>
+<td>None</td>
+<td>extensibleCallBarredParam</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.extensibleSystemFailureParam</td>
+<td>None</td>
+<td>extensibleSystemFailureParam</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.failureCauseParam</td>
+<td>Unsigned 32-bit integer</td>
+<td>failureCauseParam</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.gprsConnectionSuspended</td>
+<td>None</td>
+<td>gprsConnectionSuspended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.neededLcsCapabilityNotSupportedInServingNode</td>
+<td>None</td>
+<td>neededLcsCapabilityNotSupportedInServingNode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.networkResource</td>
+<td>Unsigned 32-bit integer</td>
+<td>networkResource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.positionMethodFailure_Diagnostic</td>
+<td>Unsigned 32-bit integer</td>
+<td>positionMethodFailure-Diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.roamingNotAllowedCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>roamingNotAllowedCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.shapeOfLocationEstimateNotSupported</td>
+<td>None</td>
+<td>shapeOfLocationEstimateNotSupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.sm_EnumeratedDeliveryFailureCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-EnumeratedDeliveryFailureCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.ss_Code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.ss_Status</td>
+<td>Byte array</td>
+<td>ss-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.unauthorisedMessageOriginator</td>
+<td>None</td>
+<td>unauthorisedMessageOriginator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.unauthorizedLCSClient_Diagnostic</td>
+<td>Unsigned 32-bit integer</td>
+<td>unauthorizedLCSClient-Diagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.er.unknownSubscriberDiagnostic</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknownSubscriberDiagnostic</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ext_BearerService</td>
+<td>Unsigned 8-bit integer</td>
+<td>ext-BearerService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ext_ProtocolId</td>
+<td>Unsigned 32-bit integer</td>
+<td>ext-ProtocolId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ext_qos_subscribed_pri</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allocation/Retention priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ext_Teleservice</td>
+<td>Unsigned 8-bit integer</td>
+<td>ext-Teleservice</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.extension</td>
+<td>Boolean</td>
+<td>Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.externalAddress</td>
+<td>Byte array</td>
+<td>externalAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.extId</td>
+<td>Object identifier</td>
+<td>extId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.extType</td>
+<td>None</td>
+<td>extType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.forwarding_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Forwarding reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gad.altitude</td>
+<td>Unsigned 16-bit integer</td>
+<td>Altitude in meters</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.confidence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Confidence(%)</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.D</td>
+<td>Unsigned 16-bit integer</td>
+<td>D: Direction of Altitude</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.included_angle</td>
+<td>Unsigned 8-bit integer</td>
+<td>Included angle</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.location_estimate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location estimate</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.no_of_points</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of points</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.offset_angle</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset angle</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.orientation_of_major_axis</td>
+<td>Unsigned 8-bit integer</td>
+<td>Orientation of major axis</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.sign_of_latitude</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sign of latitude</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.sign_of_longitude</td>
+<td>Unsigned 24-bit integer</td>
+<td>Degrees of longitude</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.uncertainty_altitude</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uncertainty Altitude</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.uncertainty_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uncertainty code</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.uncertainty_semi_major</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uncertainty semi-major</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.gad.uncertainty_semi_minor</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uncertainty semi-minor</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.getPassword</td>
+<td>Unsigned 8-bit integer</td>
+<td>getPassword</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.additionalInfo</td>
+<td>Byte array</td>
+<td>additionalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.additionalSubscriptions</td>
+<td>Byte array</td>
+<td>additionalSubscriptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.an_APDU</td>
+<td>None</td>
+<td>an-APDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.anchorMSC_Address</td>
+<td>Byte array</td>
+<td>anchorMSC-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.asciCallReference</td>
+<td>Byte array</td>
+<td>asciCallReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.callOriginator</td>
+<td>None</td>
+<td>callOriginator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.cellId</td>
+<td>Byte array</td>
+<td>cellId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.cipheringAlgorithm</td>
+<td>Byte array</td>
+<td>cipheringAlgorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.cksn</td>
+<td>Byte array</td>
+<td>cksn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.codec_Info</td>
+<td>Byte array</td>
+<td>codec-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.downlinkAttached</td>
+<td>None</td>
+<td>downlinkAttached</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.dualCommunication</td>
+<td>None</td>
+<td>dualCommunication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.emergencyModeResetCommandFlag</td>
+<td>None</td>
+<td>emergencyModeResetCommandFlag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.groupCallNumber</td>
+<td>Byte array</td>
+<td>groupCallNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.groupId</td>
+<td>Byte array</td>
+<td>groupId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.groupKey</td>
+<td>Byte array</td>
+<td>groupKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.groupKeyNumber_Vk_Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>groupKeyNumber-Vk-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.kc</td>
+<td>Byte array</td>
+<td>kc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.releaseGroupCall</td>
+<td>None</td>
+<td>releaseGroupCall</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.requestedInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestedInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.sm_RP_UI</td>
+<td>Byte array</td>
+<td>sm-RP-UI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.stateAttributes</td>
+<td>None</td>
+<td>stateAttributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.talkerChannelParameter</td>
+<td>None</td>
+<td>talkerChannelParameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.talkerPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>talkerPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.teleservice</td>
+<td>Unsigned 8-bit integer</td>
+<td>teleservice</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.tmsi</td>
+<td>Byte array</td>
+<td>tmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkAttached</td>
+<td>None</td>
+<td>uplinkAttached</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkFree</td>
+<td>None</td>
+<td>uplinkFree</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkRejectCommand</td>
+<td>None</td>
+<td>uplinkRejectCommand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkReleaseCommand</td>
+<td>None</td>
+<td>uplinkReleaseCommand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkReleaseIndication</td>
+<td>None</td>
+<td>uplinkReleaseIndication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkReplyIndicator</td>
+<td>None</td>
+<td>uplinkReplyIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkRequest</td>
+<td>None</td>
+<td>uplinkRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkRequestAck</td>
+<td>None</td>
+<td>uplinkRequestAck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.uplinkSeizedCommand</td>
+<td>None</td>
+<td>uplinkSeizedCommand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.vstk</td>
+<td>Byte array</td>
+<td>vstk</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gr.vstk_rand</td>
+<td>Byte array</td>
+<td>vstk-rand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gsnaddress_ipv4</td>
+<td>IPv4 address</td>
+<td>GSN-Address IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.gsnaddress_ipv6</td>
+<td>IPv4 address</td>
+<td>GSN Address IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.HLR_Id</td>
+<td>Byte array</td>
+<td>HLR-Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.HLR_List_item</td>
+<td>Byte array</td>
+<td>HLR-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ie_tag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Tag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ietf_pdp_type_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDP Type Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.imsi_digits</td>
+<td>String</td>
+<td>IMSI digits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.imsi_WithLMSI</td>
+<td>None</td>
+<td>imsi-WithLMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.isdn.address.digits</td>
+<td>String</td>
+<td>ISDN Address digits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.laiFixedLength</td>
+<td>Byte array</td>
+<td>laiFixedLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.aaa_Server_Name</td>
+<td>Byte array</td>
+<td>aaa-Server-Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.accuracyFulfilmentIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>accuracyFulfilmentIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.add_LocationEstimate</td>
+<td>Byte array</td>
+<td>add-LocationEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.additional_LCS_CapabilitySets</td>
+<td>Byte array</td>
+<td>additional-LCS-CapabilitySets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.additional_Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>additional-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.additional_v_gmlc_Address</td>
+<td>Byte array</td>
+<td>additional-v-gmlc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ageOfLocationEstimate</td>
+<td>Unsigned 32-bit integer</td>
+<td>ageOfLocationEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.Area</td>
+<td>None</td>
+<td>Area</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.areaDefinition</td>
+<td>None</td>
+<td>areaDefinition</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.areaEventInfo</td>
+<td>None</td>
+<td>areaEventInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.areaIdentification</td>
+<td>Byte array</td>
+<td>areaIdentification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.areaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>areaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.AreaList_item</td>
+<td>None</td>
+<td>AreaList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.areaType</td>
+<td>Unsigned 32-bit integer</td>
+<td>areaType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.beingInsideArea</td>
+<td>Boolean</td>
+<td>beingInsideArea</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.callSessionRelated</td>
+<td>Unsigned 32-bit integer</td>
+<td>callSessionRelated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.callSessionUnrelated</td>
+<td>Unsigned 32-bit integer</td>
+<td>callSessionUnrelated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.cellIdOrSai</td>
+<td>Unsigned 32-bit integer</td>
+<td>cellIdOrSai</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.dataCodingScheme</td>
+<td>Byte array</td>
+<td>dataCodingScheme</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.deferredLocationEventType</td>
+<td>Byte array</td>
+<td>deferredLocationEventType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.deferredmt_lrData</td>
+<td>None</td>
+<td>deferredmt-lrData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.deferredmt_lrResponseIndicator</td>
+<td>None</td>
+<td>deferredmt-lrResponseIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidArc</td>
+<td>Boolean</td>
+<td>ellipsoidArc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidPoint</td>
+<td>Boolean</td>
+<td>ellipsoidPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidPointWithAltitude</td>
+<td>Boolean</td>
+<td>ellipsoidPointWithAltitude</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidPointWithAltitudeAndUncertaintyElipsoid</td>
+<td>Boolean</td>
+<td>ellipsoidPointWithAltitudeAndUncertaintyElipsoid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidPointWithUncertaintyCircle</td>
+<td>Boolean</td>
+<td>ellipsoidPointWithUncertaintyCircle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ellipsoidPointWithUncertaintyEllipse</td>
+<td>Boolean</td>
+<td>ellipsoidPointWithUncertaintyEllipse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.enteringIntoArea</td>
+<td>Boolean</td>
+<td>enteringIntoArea</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.geranPositioningData</td>
+<td>Byte array</td>
+<td>geranPositioningData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.gprsNodeIndicator</td>
+<td>None</td>
+<td>gprsNodeIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.h_gmlc_Address</td>
+<td>Byte array</td>
+<td>h-gmlc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.horizontal_accuracy</td>
+<td>Byte array</td>
+<td>horizontal-accuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.imei</td>
+<td>Byte array</td>
+<td>imei</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.intervalTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>intervalTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.LCS_ClientID</td>
+<td>None</td>
+<td>LCS-ClientID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_Event</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcs-Event</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_FormatIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcs-FormatIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_Priority</td>
+<td>Byte array</td>
+<td>lcs-Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_PrivacyCheck</td>
+<td>None</td>
+<td>lcs-PrivacyCheck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_QoS</td>
+<td>None</td>
+<td>lcs-QoS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcs_ReferenceNumber</td>
+<td>Byte array</td>
+<td>lcs-ReferenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsAPN</td>
+<td>Byte array</td>
+<td>lcsAPN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsClientDialedByMS</td>
+<td>Byte array</td>
+<td>lcsClientDialedByMS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsClientExternalID</td>
+<td>None</td>
+<td>lcsClientExternalID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsClientInternalID</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcsClientInternalID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsClientName</td>
+<td>None</td>
+<td>lcsClientName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsClientType</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcsClientType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsCodeword</td>
+<td>None</td>
+<td>lcsCodeword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsCodewordString</td>
+<td>Byte array</td>
+<td>lcsCodewordString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsLocationInfo</td>
+<td>None</td>
+<td>lcsLocationInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsRequestorID</td>
+<td>None</td>
+<td>lcsRequestorID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lcsServiceTypeID</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcsServiceTypeID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.leavingFromArea</td>
+<td>Boolean</td>
+<td>leavingFromArea</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.locationEstimate</td>
+<td>Byte array</td>
+<td>locationEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.locationEstimateType</td>
+<td>Unsigned 32-bit integer</td>
+<td>locationEstimateType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.locationType</td>
+<td>None</td>
+<td>locationType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.mlc_Number</td>
+<td>Byte array</td>
+<td>mlc-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.mlcNumber</td>
+<td>Byte array</td>
+<td>mlcNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.mme_Name</td>
+<td>Byte array</td>
+<td>mme-Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.mme_Number</td>
+<td>Byte array</td>
+<td>mme-Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.mo_lrShortCircuitIndicator</td>
+<td>None</td>
+<td>mo-lrShortCircuitIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.msAvailable</td>
+<td>Boolean</td>
+<td>msAvailable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.msc_Number</td>
+<td>Byte array</td>
+<td>msc-Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.na_ESRD</td>
+<td>Byte array</td>
+<td>na-ESRD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.na_ESRK</td>
+<td>Byte array</td>
+<td>na-ESRK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.nameString</td>
+<td>Byte array</td>
+<td>nameString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.networkNode_Number</td>
+<td>Byte array</td>
+<td>networkNode-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.occurrenceInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>occurrenceInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.periodicLDR</td>
+<td>Boolean</td>
+<td>periodicLDR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.periodicLDRInfo</td>
+<td>None</td>
+<td>periodicLDRInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.plmn_Id</td>
+<td>Byte array</td>
+<td>plmn-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.plmn_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>plmn-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.plmn_ListPrioritized</td>
+<td>None</td>
+<td>plmn-ListPrioritized</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.PLMNList_item</td>
+<td>None</td>
+<td>PLMNList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.polygon</td>
+<td>Boolean</td>
+<td>polygon</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ppr_Address</td>
+<td>Byte array</td>
+<td>ppr-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.privacyOverride</td>
+<td>None</td>
+<td>privacyOverride</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.pseudonymIndicator</td>
+<td>None</td>
+<td>pseudonymIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ran_PeriodicLocationSupport</td>
+<td>None</td>
+<td>ran-PeriodicLocationSupport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ran_Technology</td>
+<td>Unsigned 32-bit integer</td>
+<td>ran-Technology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.reportingAmount</td>
+<td>Unsigned 32-bit integer</td>
+<td>reportingAmount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.reportingInterval</td>
+<td>Unsigned 32-bit integer</td>
+<td>reportingInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.ReportingPLMN</td>
+<td>None</td>
+<td>ReportingPLMN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.reportingPLMNList</td>
+<td>None</td>
+<td>reportingPLMNList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.requestorIDString</td>
+<td>Byte array</td>
+<td>requestorIDString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.responseTime</td>
+<td>None</td>
+<td>responseTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.responseTimeCategory</td>
+<td>Unsigned 32-bit integer</td>
+<td>responseTimeCategory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.sai_Present</td>
+<td>None</td>
+<td>sai-Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.sequenceNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>sequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.sgsn_Number</td>
+<td>Byte array</td>
+<td>sgsn-Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.slr_ArgExtensionContainer</td>
+<td>None</td>
+<td>slr-ArgExtensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.supportedGADShapes</td>
+<td>Byte array</td>
+<td>supportedGADShapes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.supportedLCS_CapabilitySets</td>
+<td>Byte array</td>
+<td>supportedLCS-CapabilitySets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.targetMS</td>
+<td>Unsigned 32-bit integer</td>
+<td>targetMS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.targetServingNodeForHandover</td>
+<td>Unsigned 32-bit integer</td>
+<td>targetServingNodeForHandover</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.terminationCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>terminationCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.utranPositioningData</td>
+<td>Byte array</td>
+<td>utranPositioningData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.v_gmlc_Address</td>
+<td>Byte array</td>
+<td>v-gmlc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.velocityEstimate</td>
+<td>Byte array</td>
+<td>velocityEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.velocityRequest</td>
+<td>None</td>
+<td>velocityRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.vertical_accuracy</td>
+<td>Byte array</td>
+<td>vertical-accuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lcs.verticalCoordinateRequest</td>
+<td>None</td>
+<td>verticalCoordinateRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.maximumentitledPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>maximumentitledPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.accessMode</td>
+<td>Byte array</td>
+<td>accessMode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.accessRestrictionData</td>
+<td>Byte array</td>
+<td>accessRestrictionData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.accessType</td>
+<td>Unsigned 32-bit integer</td>
+<td>accessType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.activationRequestForUE_reachability</td>
+<td>Byte array</td>
+<td>activationRequestForUE-reachability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.add_Capability</td>
+<td>None</td>
+<td>add-Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.add_info</td>
+<td>None</td>
+<td>add-info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.add_lcs_PrivacyExceptionList</td>
+<td>Unsigned 32-bit integer</td>
+<td>add-lcs-PrivacyExceptionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.additionalInfo</td>
+<td>Byte array</td>
+<td>additionalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.additionalRequestedCAMEL_SubscriptionInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalRequestedCAMEL-SubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.additionalSubscriptions</td>
+<td>Byte array</td>
+<td>additionalSubscriptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.additionalVectorsAreForEPS</td>
+<td>None</td>
+<td>additionalVectorsAreForEPS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ageOfLocationInformation</td>
+<td>Unsigned 32-bit integer</td>
+<td>ageOfLocationInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.alertingDP</td>
+<td>Boolean</td>
+<td>alertingDP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allECT-Barred</td>
+<td>Boolean</td>
+<td>allECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allEPS_Data</td>
+<td>None</td>
+<td>allEPS-Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allGPRSData</td>
+<td>None</td>
+<td>allGPRSData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allIC-CallsBarred</td>
+<td>Boolean</td>
+<td>allIC-CallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allInformationSent</td>
+<td>None</td>
+<td>allInformationSent</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allLSAData</td>
+<td>None</td>
+<td>allLSAData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allocation_Retention_Priority</td>
+<td>None</td>
+<td>allocation-Retention-Priority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allOG-CallsBarred</td>
+<td>Boolean</td>
+<td>allOG-CallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allowedGSM_Algorithms</td>
+<td>Byte array</td>
+<td>allowedGSM-Algorithms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allowedUMTS_Algorithms</td>
+<td>None</td>
+<td>allowedUMTS-Algorithms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.allPacketOrientedServicesBarred</td>
+<td>Boolean</td>
+<td>allPacketOrientedServicesBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.alternativeChannelType</td>
+<td>Byte array</td>
+<td>alternativeChannelType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ambr</td>
+<td>None</td>
+<td>ambr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.an_APDU</td>
+<td>None</td>
+<td>an-APDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.aoipAvailableCodecsListMap</td>
+<td>None</td>
+<td>aoipAvailableCodecsListMap</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.aoipSelectedCodecTarget</td>
+<td>Byte array</td>
+<td>aoipSelectedCodecTarget</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.aoipSupportedCodecsListAnchor</td>
+<td>None</td>
+<td>aoipSupportedCodecsListAnchor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn</td>
+<td>Byte array</td>
+<td>apn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.APN_Configuration</td>
+<td>None</td>
+<td>APN-Configuration</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn_ConfigurationProfile</td>
+<td>None</td>
+<td>apn-ConfigurationProfile</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn_InUse</td>
+<td>Byte array</td>
+<td>apn-InUse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn_oi_Replacement</td>
+<td>Byte array</td>
+<td>apn-oi-Replacement</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn_oi_replacementWithdraw</td>
+<td>None</td>
+<td>apn-oi-replacementWithdraw</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.apn_Subscribed</td>
+<td>Byte array</td>
+<td>apn-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.areaRestricted</td>
+<td>None</td>
+<td>areaRestricted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.asciCallReference</td>
+<td>Byte array</td>
+<td>asciCallReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.assumedIdle</td>
+<td>None</td>
+<td>assumedIdle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.AuthenticationQuintuplet</td>
+<td>None</td>
+<td>AuthenticationQuintuplet</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.authenticationSetList</td>
+<td>Unsigned 32-bit integer</td>
+<td>authenticationSetList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.AuthenticationTriplet</td>
+<td>None</td>
+<td>AuthenticationTriplet</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.autn</td>
+<td>Byte array</td>
+<td>autn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.auts</td>
+<td>Byte array</td>
+<td>auts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.baoc</td>
+<td>Boolean</td>
+<td>baoc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.barring-OutgoingCalls</td>
+<td>Boolean</td>
+<td>barring-OutgoingCalls</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.basicService</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.basicServiceCriteria</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceCriteria</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.BasicServiceCriteria_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>BasicServiceCriteria</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.basicServiceGroupList</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceGroupList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.basicServiceList</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.BasicServiceList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>BasicServiceList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.bearerServiceList</td>
+<td>Unsigned 32-bit integer</td>
+<td>bearerServiceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.BearerServiceList_item</td>
+<td>Unsigned 8-bit integer</td>
+<td>BearerServiceList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.bmuef</td>
+<td>None</td>
+<td>bmuef</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.boic</td>
+<td>Boolean</td>
+<td>boic</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.boicExHC</td>
+<td>Boolean</td>
+<td>boicExHC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.broadcastInitEntitlement</td>
+<td>None</td>
+<td>broadcastInitEntitlement</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.bssmap_ServiceHandover</td>
+<td>Byte array</td>
+<td>bssmap-ServiceHandover</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.BSSMAP_ServiceHandoverInfo</td>
+<td>None</td>
+<td>BSSMAP-ServiceHandoverInfo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.bssmap_ServiceHandoverList</td>
+<td>Unsigned 32-bit integer</td>
+<td>bssmap-ServiceHandoverList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.BSSMAP_ServiceHandoverList_item</td>
+<td>None</td>
+<td>BSSMAP-ServiceHandoverList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callBarringData</td>
+<td>None</td>
+<td>callBarringData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callBarringFeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>callBarringFeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callBarringInfo</td>
+<td>None</td>
+<td>callBarringInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callBarringInfoFor_CSE</td>
+<td>None</td>
+<td>callBarringInfoFor-CSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callForwardingData</td>
+<td>None</td>
+<td>callForwardingData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>callPriority</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.callTypeCriteria</td>
+<td>Unsigned 32-bit integer</td>
+<td>callTypeCriteria</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.camel_SubscriptionInfo</td>
+<td>None</td>
+<td>camel-SubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.camelBusy</td>
+<td>None</td>
+<td>camelBusy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.camelCapabilityHandling</td>
+<td>Unsigned 32-bit integer</td>
+<td>camelCapabilityHandling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.camelSubscriptionInfoWithdraw</td>
+<td>None</td>
+<td>camelSubscriptionInfoWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cancellationType</td>
+<td>Unsigned 32-bit integer</td>
+<td>cancellationType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cancelSGSN</td>
+<td>Boolean</td>
+<td>cancelSGSN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.category</td>
+<td>Byte array</td>
+<td>category</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CauseValue</td>
+<td>Byte array</td>
+<td>CauseValue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cellGlobalIdOrServiceAreaIdOrLAI</td>
+<td>Unsigned 32-bit integer</td>
+<td>cellGlobalIdOrServiceAreaIdOrLAI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cf-Enhancements</td>
+<td>Boolean</td>
+<td>cf-Enhancements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.changeOfPositionDP</td>
+<td>Boolean</td>
+<td>changeOfPositionDP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chargeableECT-Barred</td>
+<td>Boolean</td>
+<td>chargeableECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chargingCharacteristics</td>
+<td>Unsigned 16-bit integer</td>
+<td>chargingCharacteristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chargingCharacteristicsWithdraw</td>
+<td>None</td>
+<td>chargingCharacteristicsWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chargingId</td>
+<td>Byte array</td>
+<td>chargingId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chargingIndicator</td>
+<td>Boolean</td>
+<td>chargingIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chosenChannelInfo</td>
+<td>Byte array</td>
+<td>chosenChannelInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chosenRadioResourceInformation</td>
+<td>None</td>
+<td>chosenRadioResourceInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.chosenSpeechVersion</td>
+<td>Byte array</td>
+<td>chosenSpeechVersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ck</td>
+<td>Byte array</td>
+<td>ck</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cksn</td>
+<td>Byte array</td>
+<td>cksn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.clientIdentity</td>
+<td>None</td>
+<td>clientIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cmi</td>
+<td>Byte array</td>
+<td>cmi</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec1</td>
+<td>Byte array</td>
+<td>codec1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec2</td>
+<td>Byte array</td>
+<td>codec2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec3</td>
+<td>Byte array</td>
+<td>codec3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec4</td>
+<td>Byte array</td>
+<td>codec4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec5</td>
+<td>Byte array</td>
+<td>codec5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec6</td>
+<td>Byte array</td>
+<td>codec6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec7</td>
+<td>Byte array</td>
+<td>codec7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.codec8</td>
+<td>Byte array</td>
+<td>codec8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.collectInformation</td>
+<td>Boolean</td>
+<td>collectInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.completeDataListIncluded</td>
+<td>None</td>
+<td>completeDataListIncluded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.contextId</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.contextIdList</td>
+<td>Unsigned 32-bit integer</td>
+<td>contextIdList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ContextIdList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>ContextIdList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.criteriaForChangeOfPositionDP</td>
+<td>Boolean</td>
+<td>criteriaForChangeOfPositionDP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cs_AllocationRetentionPriority</td>
+<td>Byte array</td>
+<td>cs-AllocationRetentionPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cs_LCS_NotSupportedByUE</td>
+<td>None</td>
+<td>cs-LCS-NotSupportedByUE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csg_Id</td>
+<td>Byte array</td>
+<td>csg-Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CSG_SubscriptionData</td>
+<td>None</td>
+<td>CSG-SubscriptionData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csg_SubscriptionDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>csg-SubscriptionDataList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csg_SubscriptionDataRequested</td>
+<td>None</td>
+<td>csg-SubscriptionDataRequested</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csg_SubscriptionDeleted</td>
+<td>None</td>
+<td>csg-SubscriptionDeleted</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csi_Active</td>
+<td>None</td>
+<td>csi-Active</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.csiActive</td>
+<td>None</td>
+<td>csiActive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CUG_Feature</td>
+<td>None</td>
+<td>CUG-Feature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cug_FeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>cug-FeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CUG_FeatureList_item</td>
+<td>None</td>
+<td>CUG-FeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cug_Index</td>
+<td>Unsigned 32-bit integer</td>
+<td>cug-Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cug_Info</td>
+<td>None</td>
+<td>cug-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cug_Interlock</td>
+<td>Byte array</td>
+<td>cug-Interlock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CUG_Subscription</td>
+<td>None</td>
+<td>CUG-Subscription</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.cug_SubscriptionList</td>
+<td>Unsigned 32-bit integer</td>
+<td>cug-SubscriptionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.CUG_SubscriptionList_item</td>
+<td>None</td>
+<td>CUG-SubscriptionList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.currentLocation</td>
+<td>None</td>
+<td>currentLocation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.currentLocationRetrieved</td>
+<td>None</td>
+<td>currentLocationRetrieved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.currentlyUsedCodec</td>
+<td>Byte array</td>
+<td>currentlyUsedCodec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.currentSecurityContext</td>
+<td>Unsigned 32-bit integer</td>
+<td>currentSecurityContext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.d-csi</td>
+<td>Boolean</td>
+<td>d-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.d-IM-CSI</td>
+<td>Boolean</td>
+<td>d-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.d_CSI</td>
+<td>None</td>
+<td>d-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.d_IM_CSI</td>
+<td>None</td>
+<td>d-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.defaultCallHandling</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultCallHandling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.defaultContext</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultContext</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.defaultSessionHandling</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultSessionHandling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.defaultSMS_Handling</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultSMS-Handling</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.destinationNumberCriteria</td>
+<td>None</td>
+<td>destinationNumberCriteria</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.destinationNumberLengthList</td>
+<td>Unsigned 32-bit integer</td>
+<td>destinationNumberLengthList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.DestinationNumberLengthList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>DestinationNumberLengthList item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.destinationNumberList</td>
+<td>Unsigned 32-bit integer</td>
+<td>destinationNumberList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.DestinationNumberList_item</td>
+<td>Byte array</td>
+<td>DestinationNumberList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.dfc-WithArgument</td>
+<td>Boolean</td>
+<td>dfc-WithArgument</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.dialledNumber</td>
+<td>Byte array</td>
+<td>dialledNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.disconnectLeg</td>
+<td>Boolean</td>
+<td>disconnectLeg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.doublyChargeableECT-Barred</td>
+<td>Boolean</td>
+<td>doublyChargeableECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.dp_AnalysedInfoCriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>dp-AnalysedInfoCriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.DP_AnalysedInfoCriteriaList_item</td>
+<td>None</td>
+<td>DP-AnalysedInfoCriteriaList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.DP_AnalysedInfoCriterium</td>
+<td>None</td>
+<td>DP-AnalysedInfoCriterium</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.dtmf-MidCall</td>
+<td>Boolean</td>
+<td>dtmf-MidCall</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.e-utran</td>
+<td>Boolean</td>
+<td>e-utran</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.e-utranNotAllowed</td>
+<td>Boolean</td>
+<td>e-utranNotAllowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.e_utranCellGlobalIdentity</td>
+<td>Byte array</td>
+<td>e-utranCellGlobalIdentity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.emergencyReset</td>
+<td>Boolean</td>
+<td>emergencyReset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.emergencyUplinkRequest</td>
+<td>Boolean</td>
+<td>emergencyUplinkRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.emlpp_Info</td>
+<td>None</td>
+<td>emlpp-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.encryptionAlgorithm</td>
+<td>Byte array</td>
+<td>encryptionAlgorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.encryptionAlgorithms</td>
+<td>Byte array</td>
+<td>encryptionAlgorithms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.encryptionInfo</td>
+<td>Byte array</td>
+<td>encryptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.entityReleased</td>
+<td>Boolean</td>
+<td>entityReleased</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.EPC_AV</td>
+<td>None</td>
+<td>EPC-AV</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eps_AuthenticationSetList</td>
+<td>Unsigned 32-bit integer</td>
+<td>eps-AuthenticationSetList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eps_info</td>
+<td>Unsigned 32-bit integer</td>
+<td>eps-info</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eps_qos_Subscribed</td>
+<td>None</td>
+<td>eps-qos-Subscribed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eps_SubscriberState</td>
+<td>Unsigned 32-bit integer</td>
+<td>eps-SubscriberState</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eps_SubscriptionData</td>
+<td>None</td>
+<td>eps-SubscriptionData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.epsDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>epsDataList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.epsSubscriptionDataWithdraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>epsSubscriptionDataWithdraw</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.equipmentStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>equipmentStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.eventMet</td>
+<td>Byte array</td>
+<td>eventMet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.expirationDate</td>
+<td>Byte array</td>
+<td>expirationDate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext2_QoS_Subscribed</td>
+<td>Byte array</td>
+<td>ext2-QoS-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext3_QoS_Subscribed</td>
+<td>Byte array</td>
+<td>ext3-QoS-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext4_QoS_Subscribed</td>
+<td>Byte array</td>
+<td>ext4-QoS-Subscribed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_BasicServiceCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ext-BasicServiceCode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_BasicServiceGroupList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ext-BasicServiceGroupList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_BearerServiceCode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext-BearerServiceCode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_CallBarFeatureList_item</td>
+<td>None</td>
+<td>Ext-CallBarFeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_CallBarringFeature</td>
+<td>None</td>
+<td>Ext-CallBarringFeature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext_externalClientList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ext-externalClientList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_ExternalClientList_item</td>
+<td>None</td>
+<td>Ext-ExternalClientList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_ForwFeature</td>
+<td>None</td>
+<td>Ext-ForwFeature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_ForwFeatureList_item</td>
+<td>None</td>
+<td>Ext-ForwFeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext_pdp_Address</td>
+<td>Byte array</td>
+<td>ext-pdp-Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext_pdp_Type</td>
+<td>Byte array</td>
+<td>ext-pdp-Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ext_QoS_Subscribed</td>
+<td>Byte array</td>
+<td>ext-QoS-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_SS_Info</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ext-SS-Info</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_SS_InfoList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ext-SS-InfoList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.Ext_TeleserviceCode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ext-TeleserviceCode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ExternalClient</td>
+<td>None</td>
+<td>ExternalClient</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.externalClientList</td>
+<td>Unsigned 32-bit integer</td>
+<td>externalClientList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ExternalClientList_item</td>
+<td>None</td>
+<td>ExternalClientList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.failureCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>failureCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardedToNumber</td>
+<td>Byte array</td>
+<td>forwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardedToSubaddress</td>
+<td>Byte array</td>
+<td>forwardedToSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardingFeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>forwardingFeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardingInfo</td>
+<td>None</td>
+<td>forwardingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardingInfoFor_CSE</td>
+<td>None</td>
+<td>forwardingInfoFor-CSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.forwardingOptions</td>
+<td>Byte array</td>
+<td>forwardingOptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.freezeM_TMSI</td>
+<td>None</td>
+<td>freezeM-TMSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.freezeP_TMSI</td>
+<td>None</td>
+<td>freezeP-TMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.freezeTMSI</td>
+<td>None</td>
+<td>freezeTMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gan</td>
+<td>Boolean</td>
+<td>gan</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ganNotAllowed</td>
+<td>Boolean</td>
+<td>ganNotAllowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geodeticInformation</td>
+<td>Byte array</td>
+<td>geodeticInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geographicalInformation</td>
+<td>Byte array</td>
+<td>geographicalInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geran</td>
+<td>Boolean</td>
+<td>geran</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geran_classmark</td>
+<td>Byte array</td>
+<td>geran-classmark</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geranCodecList</td>
+<td>None</td>
+<td>geranCodecList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.geranNotAllowed</td>
+<td>Boolean</td>
+<td>geranNotAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ggsn_Address</td>
+<td>Byte array</td>
+<td>ggsn-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ggsn_Number</td>
+<td>Byte array</td>
+<td>ggsn-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gmlc_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>gmlc-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.GMLC_List_item</td>
+<td>Byte array</td>
+<td>GMLC-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gmlc_ListWithdraw</td>
+<td>None</td>
+<td>gmlc-ListWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gmlc_Restriction</td>
+<td>Unsigned 32-bit integer</td>
+<td>gmlc-Restriction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprs-csi</td>
+<td>Boolean</td>
+<td>gprs-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.GPRS_CamelTDPData</td>
+<td>None</td>
+<td>GPRS-CamelTDPData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprs_CamelTDPDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>gprs-CamelTDPDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.GPRS_CamelTDPDataList_item</td>
+<td>None</td>
+<td>GPRS-CamelTDPDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprs_CSI</td>
+<td>None</td>
+<td>gprs-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprs_MS_Class</td>
+<td>None</td>
+<td>gprs-MS-Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprs_TriggerDetectionPoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>gprs-TriggerDetectionPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprsDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>gprsDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.GPRSDataList_item</td>
+<td>None</td>
+<td>GPRSDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprsEnhancementsSupportIndicator</td>
+<td>None</td>
+<td>gprsEnhancementsSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprsSubscriptionData</td>
+<td>None</td>
+<td>gprsSubscriptionData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprsSubscriptionDataNotNeeded</td>
+<td>None</td>
+<td>gprsSubscriptionDataNotNeeded</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gprsSubscriptionDataWithdraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>gprsSubscriptionDataWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.groupId</td>
+<td>Byte array</td>
+<td>groupId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gsm_SecurityContextData</td>
+<td>None</td>
+<td>gsm-SecurityContextData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.gsmSCF_Address</td>
+<td>Byte array</td>
+<td>gsmSCF-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.handoverNumber</td>
+<td>Byte array</td>
+<td>handoverNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.hlr_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>hlr-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.hlr_Number</td>
+<td>Byte array</td>
+<td>hlr-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ho-toNon3GPP-AccessNotAllowed</td>
+<td>Boolean</td>
+<td>ho-toNon3GPP-AccessNotAllowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ho_NumberNotRequired</td>
+<td>None</td>
+<td>ho-NumberNotRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.homogeneousSupportOfIMSVoiceOverPSSessions</td>
+<td>Boolean</td>
+<td>homogeneousSupportOfIMSVoiceOverPSSessions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.hopCounter</td>
+<td>Unsigned 32-bit integer</td>
+<td>hopCounter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.i-hspa-evolution</td>
+<td>Boolean</td>
+<td>i-hspa-evolution</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.i-hspa-evolutionNotAllowed</td>
+<td>Boolean</td>
+<td>i-hspa-evolutionNotAllowed</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ics_Indicator</td>
+<td>Boolean</td>
+<td>ics-Indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.identity</td>
+<td>Unsigned 32-bit integer</td>
+<td>identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ik</td>
+<td>Byte array</td>
+<td>ik</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.imei</td>
+<td>Byte array</td>
+<td>imei</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.imeisv</td>
+<td>Byte array</td>
+<td>imeisv</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.immediateResponsePreferred</td>
+<td>None</td>
+<td>immediateResponsePreferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.imsVoiceOverPS_SessionsIndication</td>
+<td>Unsigned 32-bit integer</td>
+<td>imsVoiceOverPS-SessionsIndication</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.informPreviousNetworkEntity</td>
+<td>None</td>
+<td>informPreviousNetworkEntity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.initialAttachIndicator</td>
+<td>Boolean</td>
+<td>initialAttachIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.initiateCallAttempt</td>
+<td>Boolean</td>
+<td>initiateCallAttempt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.integrityProtectionAlgorithm</td>
+<td>Byte array</td>
+<td>integrityProtectionAlgorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.integrityProtectionAlgorithms</td>
+<td>Byte array</td>
+<td>integrityProtectionAlgorithms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.integrityProtectionInfo</td>
+<td>Byte array</td>
+<td>integrityProtectionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.interCUG_Restrictions</td>
+<td>Byte array</td>
+<td>interCUG-Restrictions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.internationalECT-Barred</td>
+<td>Boolean</td>
+<td>internationalECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.internationalOGCallsBarred</td>
+<td>Boolean</td>
+<td>internationalOGCallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.internationalOGCallsNotToHPLMN-CountryBarred</td>
+<td>Boolean</td>
+<td>internationalOGCallsNotToHPLMN-CountryBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.interzonalECT-Barred</td>
+<td>Boolean</td>
+<td>interzonalECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.interzonalOGCallsAndInternationalOGCallsNotToHPLMN-CountryBarred</td>
+<td>Boolean</td>
+<td>interzonalOGCallsAndInternationalOGCallsNotToHPLMN-CountryBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.interzonalOGCallsBarred</td>
+<td>Boolean</td>
+<td>interzonalOGCallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.interzonalOGCallsNotToHPLMN-CountryBarred</td>
+<td>Boolean</td>
+<td>interzonalOGCallsNotToHPLMN-CountryBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.intraCUG_Options</td>
+<td>Unsigned 32-bit integer</td>
+<td>intraCUG-Options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ISDN_AddressString</td>
+<td>Byte array</td>
+<td>ISDN-AddressString</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.isr_Information</td>
+<td>Byte array</td>
+<td>isr-Information</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.istAlertTimer</td>
+<td>Unsigned 32-bit integer</td>
+<td>istAlertTimer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.istInformationWithdraw</td>
+<td>None</td>
+<td>istInformationWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.istSupportIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>istSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.iuAvailableCodecsList</td>
+<td>None</td>
+<td>iuAvailableCodecsList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.iuCurrentlyUsedCodec</td>
+<td>Byte array</td>
+<td>iuCurrentlyUsedCodec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.iuSelectedCodec</td>
+<td>Byte array</td>
+<td>iuSelectedCodec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.iuSupportedCodecsList</td>
+<td>None</td>
+<td>iuSupportedCodecsList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.kasme</td>
+<td>Byte array</td>
+<td>kasme</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.kc</td>
+<td>Byte array</td>
+<td>kc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.keyStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>keyStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ksi</td>
+<td>Byte array</td>
+<td>ksi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lac</td>
+<td>Byte array</td>
+<td>lac</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.laiFixedLength</td>
+<td>Byte array</td>
+<td>laiFixedLength</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lastRAT_Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>lastRAT-Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lastUE_ActivityTime</td>
+<td>Byte array</td>
+<td>lastUE-ActivityTime</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-all-MOLR-SS</td>
+<td>Boolean</td>
+<td>lcs-all-MOLR-SS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-all-PrivExcep</td>
+<td>Boolean</td>
+<td>lcs-all-PrivExcep</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-autonomousSelfLocation</td>
+<td>Boolean</td>
+<td>lcs-autonomousSelfLocation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-basicSelfLocation</td>
+<td>Boolean</td>
+<td>lcs-basicSelfLocation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-CallSessionRelated</td>
+<td>Boolean</td>
+<td>lcs-CallSessionRelated</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-CallSessionUnrelated</td>
+<td>Boolean</td>
+<td>lcs-CallSessionUnrelated</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-PLMN-operator</td>
+<td>Boolean</td>
+<td>lcs-PLMN-operator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-ServiceType</td>
+<td>Boolean</td>
+<td>lcs-ServiceType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-transferToThirdParty</td>
+<td>Boolean</td>
+<td>lcs-transferToThirdParty</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs-universal</td>
+<td>Boolean</td>
+<td>lcs-universal</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LCS_PrivacyClass</td>
+<td>None</td>
+<td>LCS-PrivacyClass</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcs_PrivacyExceptionList</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcs-PrivacyExceptionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LCS_PrivacyExceptionList_item</td>
+<td>None</td>
+<td>LCS-PrivacyExceptionList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsCapabilitySet1</td>
+<td>Boolean</td>
+<td>lcsCapabilitySet1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsCapabilitySet2</td>
+<td>Boolean</td>
+<td>lcsCapabilitySet2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsCapabilitySet3</td>
+<td>Boolean</td>
+<td>lcsCapabilitySet3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsCapabilitySet4</td>
+<td>Boolean</td>
+<td>lcsCapabilitySet4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsCapabilitySet5</td>
+<td>Boolean</td>
+<td>lcsCapabilitySet5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LCSClientInternalID</td>
+<td>Unsigned 32-bit integer</td>
+<td>LCSClientInternalID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lcsInformation</td>
+<td>None</td>
+<td>lcsInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lmu_Indicator</td>
+<td>None</td>
+<td>lmu-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LocationArea</td>
+<td>Unsigned 32-bit integer</td>
+<td>LocationArea</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.locationAtAlerting</td>
+<td>Boolean</td>
+<td>locationAtAlerting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.locationInformation</td>
+<td>None</td>
+<td>locationInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.locationInformationEPS</td>
+<td>None</td>
+<td>locationInformationEPS</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.locationInformationGPRS</td>
+<td>None</td>
+<td>locationInformationGPRS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.locationNumber</td>
+<td>Byte array</td>
+<td>locationNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.longForwardedToNumber</td>
+<td>Byte array</td>
+<td>longForwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.longFTN_Supported</td>
+<td>None</td>
+<td>longFTN-Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.longGroupId</td>
+<td>Byte array</td>
+<td>longGroupId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.longGroupID_Supported</td>
+<td>None</td>
+<td>longGroupID-Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaActiveModeIndicator</td>
+<td>None</td>
+<td>lsaActiveModeIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaAttributes</td>
+<td>Byte array</td>
+<td>lsaAttributes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LSAData</td>
+<td>None</td>
+<td>LSAData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>lsaDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LSADataList_item</td>
+<td>None</td>
+<td>LSADataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaIdentity</td>
+<td>Byte array</td>
+<td>lsaIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaIdentityList</td>
+<td>Unsigned 32-bit integer</td>
+<td>lsaIdentityList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.LSAIdentityList_item</td>
+<td>Byte array</td>
+<td>LSAIdentityList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaInformation</td>
+<td>None</td>
+<td>lsaInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaInformationWithdraw</td>
+<td>Unsigned 32-bit integer</td>
+<td>lsaInformationWithdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.lsaOnlyAccessIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>lsaOnlyAccessIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.m-csi</td>
+<td>Boolean</td>
+<td>m-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.m_CSI</td>
+<td>None</td>
+<td>m-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.matchType</td>
+<td>Unsigned 32-bit integer</td>
+<td>matchType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.max_RequestedBandwidth_DL</td>
+<td>Signed 32-bit integer</td>
+<td>max-RequestedBandwidth-DL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.max_RequestedBandwidth_UL</td>
+<td>Signed 32-bit integer</td>
+<td>max-RequestedBandwidth-UL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mc_SS_Info</td>
+<td>None</td>
+<td>mc-SS-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mg-csi</td>
+<td>Boolean</td>
+<td>mg-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mg_csi</td>
+<td>None</td>
+<td>mg-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MM_Code</td>
+<td>Byte array</td>
+<td>MM-Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mme</td>
+<td>Boolean</td>
+<td>mme</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mnpInfoRes</td>
+<td>None</td>
+<td>mnpInfoRes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mnpRequestedInfo</td>
+<td>None</td>
+<td>mnpRequestedInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mo-sms-csi</td>
+<td>Boolean</td>
+<td>mo-sms-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mo_sms_CSI</td>
+<td>None</td>
+<td>mo-sms-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mobileNotReachableReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>mobileNotReachableReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mobilityTriggers</td>
+<td>Unsigned 32-bit integer</td>
+<td>mobilityTriggers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MobilityTriggers_item</td>
+<td>Byte array</td>
+<td>MobilityTriggers</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_CB_Info</td>
+<td>None</td>
+<td>modificationRequestFor-CB-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_CF_Info</td>
+<td>None</td>
+<td>modificationRequestFor-CF-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_CSG</td>
+<td>None</td>
+<td>modificationRequestFor-CSG</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_CSI</td>
+<td>None</td>
+<td>modificationRequestFor-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_IP_SM_GW_Data</td>
+<td>None</td>
+<td>modificationRequestFor-IP-SM-GW-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modificationRequestFor_ODB_data</td>
+<td>None</td>
+<td>modificationRequestFor-ODB-data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modifyCSI_State</td>
+<td>Unsigned 32-bit integer</td>
+<td>modifyCSI-State</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modifyNotificationToCSE</td>
+<td>Unsigned 32-bit integer</td>
+<td>modifyNotificationToCSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.modifyRegistrationStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>modifyRegistrationStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MOLR_Class</td>
+<td>None</td>
+<td>MOLR-Class</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.molr_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>molr-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MOLR_List_item</td>
+<td>None</td>
+<td>MOLR-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.moveLeg</td>
+<td>Boolean</td>
+<td>moveLeg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ms_classmark</td>
+<td>None</td>
+<td>ms-classmark</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ms_Classmark2</td>
+<td>Byte array</td>
+<td>ms-Classmark2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.msc_Number</td>
+<td>Byte array</td>
+<td>msc-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MSISDN_BS</td>
+<td>None</td>
+<td>MSISDN-BS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.msisdn_BS_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>msisdn-BS-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MSISDN_BS_List_item</td>
+<td>None</td>
+<td>MSISDN-BS-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mSNetworkCapability</td>
+<td>Byte array</td>
+<td>mSNetworkCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.msNotReachable</td>
+<td>None</td>
+<td>msNotReachable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mSRadioAccessCapability</td>
+<td>Byte array</td>
+<td>mSRadioAccessCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mt-sms-csi</td>
+<td>Boolean</td>
+<td>mt-sms-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mt_sms_CSI</td>
+<td>None</td>
+<td>mt-sms-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MT_SMS_TPDU_Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>MT-SMS-TPDU-Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MT_smsCAMELTDP_Criteria</td>
+<td>None</td>
+<td>MT-smsCAMELTDP-Criteria</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.mt_smsCAMELTDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>mt-smsCAMELTDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.MT_smsCAMELTDP_CriteriaList_item</td>
+<td>None</td>
+<td>MT-smsCAMELTDP-CriteriaList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.multicallBearerInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>multicallBearerInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.multipleBearerNotSupported</td>
+<td>None</td>
+<td>multipleBearerNotSupported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.multipleBearerRequested</td>
+<td>None</td>
+<td>multipleBearerRequested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.multipleECT-Barred</td>
+<td>Boolean</td>
+<td>multipleECT-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.naea_PreferredCI</td>
+<td>None</td>
+<td>naea-PreferredCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.netDetNotReachable</td>
+<td>Unsigned 32-bit integer</td>
+<td>netDetNotReachable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.networkAccessMode</td>
+<td>Unsigned 32-bit integer</td>
+<td>networkAccessMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.nodeTypeIndicator</td>
+<td>None</td>
+<td>nodeTypeIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.noReplyConditionTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>noReplyConditionTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.notificationToCSE</td>
+<td>None</td>
+<td>notificationToCSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.notificationToMSUser</td>
+<td>Unsigned 32-bit integer</td>
+<td>notificationToMSUser</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.notProvidedFromSGSN</td>
+<td>None</td>
+<td>notProvidedFromSGSN</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.notProvidedFromSGSNorMME</td>
+<td>None</td>
+<td>notProvidedFromSGSNorMME</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.notProvidedFromVLR</td>
+<td>None</td>
+<td>notProvidedFromVLR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.nsapi</td>
+<td>Unsigned 32-bit integer</td>
+<td>nsapi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.numberOfRequestedAdditional_Vectors</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberOfRequestedAdditional-Vectors</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.numberOfRequestedVectors</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberOfRequestedVectors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.numberPortabilityStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberPortabilityStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o-csi</td>
+<td>Boolean</td>
+<td>o-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o-IM-CSI</td>
+<td>Boolean</td>
+<td>o-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.O_BcsmCamelTDP_Criteria</td>
+<td>None</td>
+<td>O-BcsmCamelTDP-Criteria</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_BcsmCamelTDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-BcsmCamelTDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.O_BcsmCamelTDPCriteriaList_item</td>
+<td>None</td>
+<td>O-BcsmCamelTDPCriteriaList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.O_BcsmCamelTDPData</td>
+<td>None</td>
+<td>O-BcsmCamelTDPData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_BcsmCamelTDPDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-BcsmCamelTDPDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.O_BcsmCamelTDPDataList_item</td>
+<td>None</td>
+<td>O-BcsmCamelTDPDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_BcsmTriggerDetectionPoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-BcsmTriggerDetectionPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_CauseValueCriteria</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-CauseValueCriteria</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.O_CauseValueCriteria_item</td>
+<td>Byte array</td>
+<td>O-CauseValueCriteria</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_CSI</td>
+<td>None</td>
+<td>o-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_IM_BcsmCamelTDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>o-IM-BcsmCamelTDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.o_IM_CSI</td>
+<td>None</td>
+<td>o-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb</td>
+<td>None</td>
+<td>odb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all</td>
+<td>Boolean</td>
+<td>odb-all</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-apn</td>
+<td>Boolean</td>
+<td>odb-all-apn</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-int-og-not-to-HPLMN-country</td>
+<td>Boolean</td>
+<td>odb-all-int-og-not-to-HPLMN-country</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-international-og</td>
+<td>Boolean</td>
+<td>odb-all-international-og</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-interzonal-og</td>
+<td>Boolean</td>
+<td>odb-all-interzonal-og</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-interzonal-og-and-internat-og-not-to-HPLMN-country</td>
+<td>Boolean</td>
+<td>odb-all-interzonal-og-and-internat-og-not-to-HPLMN-country</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-interzonal-og-not-to-HPLMN-country</td>
+<td>Boolean</td>
+<td>odb-all-interzonal-og-not-to-HPLMN-country</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-all-og</td>
+<td>Boolean</td>
+<td>odb-all-og</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-HPLMN-APN</td>
+<td>Boolean</td>
+<td>odb-HPLMN-APN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb-VPLMN-APN</td>
+<td>Boolean</td>
+<td>odb-VPLMN-APN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb_Data</td>
+<td>None</td>
+<td>odb-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb_GeneralData</td>
+<td>Byte array</td>
+<td>odb-GeneralData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb_HPLMN_Data</td>
+<td>Byte array</td>
+<td>odb-HPLMN-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.odb_Info</td>
+<td>None</td>
+<td>odb-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.offeredCamel4CSIs</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.offeredCamel4CSIsInSGSN</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIsInSGSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.offeredCamel4CSIsInVLR</td>
+<td>Byte array</td>
+<td>offeredCamel4CSIsInVLR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.offeredCamel4Functionalities</td>
+<td>Byte array</td>
+<td>offeredCamel4Functionalities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.or-Interactions</td>
+<td>Boolean</td>
+<td>or-Interactions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pagingArea</td>
+<td>Unsigned 32-bit integer</td>
+<td>pagingArea</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pagingArea_Capability</td>
+<td>None</td>
+<td>pagingArea-Capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.password</td>
+<td>String</td>
+<td>password</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_AllocationType</td>
+<td>Unsigned 32-bit integer</td>
+<td>pdn-gw-AllocationType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_Identity</td>
+<td>None</td>
+<td>pdn-gw-Identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_ipv4_Address</td>
+<td>Byte array</td>
+<td>pdn-gw-ipv4-Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_ipv6_Address</td>
+<td>Byte array</td>
+<td>pdn-gw-ipv6-Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_name</td>
+<td>Byte array</td>
+<td>pdn-gw-name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_gw_update</td>
+<td>None</td>
+<td>pdn-gw-update</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdn_Type</td>
+<td>Byte array</td>
+<td>pdn-Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_Address</td>
+<td>Byte array</td>
+<td>pdp-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_ChargingCharacteristics</td>
+<td>Unsigned 16-bit integer</td>
+<td>pdp-ChargingCharacteristics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.PDP_Context</td>
+<td>None</td>
+<td>PDP-Context</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_ContextActive</td>
+<td>None</td>
+<td>pdp-ContextActive</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_ContextId</td>
+<td>Unsigned 32-bit integer</td>
+<td>pdp-ContextId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_ContextIdentifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>pdp-ContextIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.PDP_ContextInfo</td>
+<td>None</td>
+<td>PDP-ContextInfo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.PDP_ContextInfoList_item</td>
+<td>None</td>
+<td>PDP-ContextInfoList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pdp_Type</td>
+<td>Byte array</td>
+<td>pdp-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.phase1</td>
+<td>Boolean</td>
+<td>phase1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.phase2</td>
+<td>Boolean</td>
+<td>phase2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.phase3</td>
+<td>Boolean</td>
+<td>phase3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.phase4</td>
+<td>Boolean</td>
+<td>phase4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.playTone</td>
+<td>Boolean</td>
+<td>playTone</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.plmn-SpecificBarringType1</td>
+<td>Boolean</td>
+<td>plmn-SpecificBarringType1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.plmn-SpecificBarringType2</td>
+<td>Boolean</td>
+<td>plmn-SpecificBarringType2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.plmn-SpecificBarringType3</td>
+<td>Boolean</td>
+<td>plmn-SpecificBarringType3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.plmn-SpecificBarringType4</td>
+<td>Boolean</td>
+<td>plmn-SpecificBarringType4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.plmnClientList</td>
+<td>Unsigned 32-bit integer</td>
+<td>plmnClientList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.PLMNClientList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>PLMNClientList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pre_emption_capability</td>
+<td>Boolean</td>
+<td>pre-emption-capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.pre_emption_vulnerability</td>
+<td>Boolean</td>
+<td>pre-emption-vulnerability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.preferentialCUG_Indicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>preferentialCUG-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.premiumRateEntertainementOGCallsBarred</td>
+<td>Boolean</td>
+<td>premiumRateEntertainementOGCallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.premiumRateInformationOGCallsBarred</td>
+<td>Boolean</td>
+<td>premiumRateInformationOGCallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.previous_LAI</td>
+<td>Byte array</td>
+<td>previous-LAI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.priority_level</td>
+<td>Signed 32-bit integer</td>
+<td>priority-level</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.privilegedUplinkRequest</td>
+<td>Boolean</td>
+<td>privilegedUplinkRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.provisionedSS</td>
+<td>Unsigned 32-bit integer</td>
+<td>provisionedSS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_AttachedNotReachableForPaging</td>
+<td>None</td>
+<td>ps-AttachedNotReachableForPaging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_AttachedReachableForPaging</td>
+<td>None</td>
+<td>ps-AttachedReachableForPaging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_Detached</td>
+<td>None</td>
+<td>ps-Detached</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_LCS_NotSupportedByUE</td>
+<td>None</td>
+<td>ps-LCS-NotSupportedByUE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_PDP_ActiveNotReachableForPaging</td>
+<td>Unsigned 32-bit integer</td>
+<td>ps-PDP-ActiveNotReachableForPaging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_PDP_ActiveReachableForPaging</td>
+<td>Unsigned 32-bit integer</td>
+<td>ps-PDP-ActiveReachableForPaging</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ps_SubscriberState</td>
+<td>Unsigned 32-bit integer</td>
+<td>ps-SubscriberState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.psi-enhancements</td>
+<td>Boolean</td>
+<td>psi-enhancements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos2_Negotiated</td>
+<td>Byte array</td>
+<td>qos2-Negotiated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos2_Requested</td>
+<td>Byte array</td>
+<td>qos2-Requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos2_Subscribed</td>
+<td>Byte array</td>
+<td>qos2-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos3_Negotiated</td>
+<td>Byte array</td>
+<td>qos3-Negotiated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos3_Requested</td>
+<td>Byte array</td>
+<td>qos3-Requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos3_Subscribed</td>
+<td>Byte array</td>
+<td>qos3-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos4_Negotiated</td>
+<td>Byte array</td>
+<td>qos4-Negotiated</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos4_Requested</td>
+<td>Byte array</td>
+<td>qos4-Requested</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos4_Subscribed</td>
+<td>Byte array</td>
+<td>qos4-Subscribed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos_Class_Identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>qos-Class-Identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos_Negotiated</td>
+<td>Byte array</td>
+<td>qos-Negotiated</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos_Requested</td>
+<td>Byte array</td>
+<td>qos-Requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.qos_Subscribed</td>
+<td>Byte array</td>
+<td>qos-Subscribed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.quintupletList</td>
+<td>Unsigned 32-bit integer</td>
+<td>quintupletList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.QuintupletList_item</td>
+<td>None</td>
+<td>QuintupletList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.rab_ConfigurationIndicator</td>
+<td>None</td>
+<td>rab-ConfigurationIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.rab_Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>rab-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.RadioResource</td>
+<td>None</td>
+<td>RadioResource</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.radioResourceInformation</td>
+<td>Byte array</td>
+<td>radioResourceInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.radioResourceList</td>
+<td>Unsigned 32-bit integer</td>
+<td>radioResourceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.RadioResourceList_item</td>
+<td>None</td>
+<td>RadioResourceList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ranap_ServiceHandover</td>
+<td>Byte array</td>
+<td>ranap-ServiceHandover</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.rand</td>
+<td>Byte array</td>
+<td>rand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.re_attempt</td>
+<td>Boolean</td>
+<td>re-attempt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.re_synchronisationInfo</td>
+<td>None</td>
+<td>re-synchronisationInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.regionalSubscriptionData</td>
+<td>Unsigned 32-bit integer</td>
+<td>regionalSubscriptionData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.regionalSubscriptionIdentifier</td>
+<td>Byte array</td>
+<td>regionalSubscriptionIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.regionalSubscriptionResponse</td>
+<td>Unsigned 32-bit integer</td>
+<td>regionalSubscriptionResponse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.registrationAllCF-Barred</td>
+<td>Boolean</td>
+<td>registrationAllCF-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.registrationCFNotToHPLMN-Barred</td>
+<td>Boolean</td>
+<td>registrationCFNotToHPLMN-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.registrationInternationalCF-Barred</td>
+<td>Boolean</td>
+<td>registrationInternationalCF-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.registrationInterzonalCF-Barred</td>
+<td>Boolean</td>
+<td>registrationInterzonalCF-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.registrationInterzonalCFNotToHPLMN-Barred</td>
+<td>Boolean</td>
+<td>registrationInterzonalCFNotToHPLMN-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.regSub</td>
+<td>Boolean</td>
+<td>regSub</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.RelocationNumber</td>
+<td>None</td>
+<td>RelocationNumber</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.relocationNumberList</td>
+<td>Unsigned 32-bit integer</td>
+<td>relocationNumberList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.RelocationNumberList_item</td>
+<td>None</td>
+<td>RelocationNumberList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedCAMEL_SubscriptionInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestedCAMEL-SubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedDomain</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestedDomain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedEquipmentInfo</td>
+<td>Byte array</td>
+<td>requestedEquipmentInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedInfo</td>
+<td>None</td>
+<td>requestedInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedSS_Info</td>
+<td>None</td>
+<td>requestedSS-Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestedSubscriptionInfo</td>
+<td>None</td>
+<td>requestedSubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestingNodeType</td>
+<td>Unsigned 32-bit integer</td>
+<td>requestingNodeType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.requestingPLMN_Id</td>
+<td>Byte array</td>
+<td>requestingPLMN-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.rfsp_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>rfsp-id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.rnc_Address</td>
+<td>Byte array</td>
+<td>rnc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamerAccessToHPLMN-AP-Barred</td>
+<td>Boolean</td>
+<td>roamerAccessToHPLMN-AP-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamerAccessToVPLMN-AP-Barred</td>
+<td>Boolean</td>
+<td>roamerAccessToVPLMN-AP-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingOutsidePLMN-Barred</td>
+<td>Boolean</td>
+<td>roamingOutsidePLMN-Barred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingOutsidePLMN-CountryBarred</td>
+<td>Boolean</td>
+<td>roamingOutsidePLMN-CountryBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingOutsidePLMNIC-CallsBarred</td>
+<td>Boolean</td>
+<td>roamingOutsidePLMNIC-CallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingOutsidePLMNICountryIC-CallsBarred</td>
+<td>Boolean</td>
+<td>roamingOutsidePLMNICountryIC-CallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingOutsidePLMNOG-CallsBarred</td>
+<td>Boolean</td>
+<td>roamingOutsidePLMNOG-CallsBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingRestrictedInSgsnDueToUnsupportedFeature</td>
+<td>None</td>
+<td>roamingRestrictedInSgsnDueToUnsupportedFeature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingRestrictedInSgsnDueToUnsuppportedFeature</td>
+<td>None</td>
+<td>roamingRestrictedInSgsnDueToUnsuppportedFeature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.roamingRestrictionDueToUnsupportedFeature</td>
+<td>None</td>
+<td>roamingRestrictionDueToUnsupportedFeature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.routeingAreaIdentity</td>
+<td>Byte array</td>
+<td>routeingAreaIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.routeingNumber</td>
+<td>Byte array</td>
+<td>routeingNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sai_Present</td>
+<td>None</td>
+<td>sai-Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.segmentationProhibited</td>
+<td>None</td>
+<td>segmentationProhibited</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.selectedGSM_Algorithm</td>
+<td>Byte array</td>
+<td>selectedGSM-Algorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.selectedLSA_Id</td>
+<td>Byte array</td>
+<td>selectedLSA-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.selectedLSAIdentity</td>
+<td>Byte array</td>
+<td>selectedLSAIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.selectedRab_Id</td>
+<td>Unsigned 32-bit integer</td>
+<td>selectedRab-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.selectedUMTS_Algorithms</td>
+<td>None</td>
+<td>selectedUMTS-Algorithms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sendSubscriberData</td>
+<td>None</td>
+<td>sendSubscriberData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.servedPartyIP_Address</td>
+<td>Byte array</td>
+<td>servedPartyIP-Address</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.servedPartyIP_IPv4_Address</td>
+<td>Byte array</td>
+<td>servedPartyIP-IPv4-Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.servedPartyIP_IPv6_Address</td>
+<td>Byte array</td>
+<td>servedPartyIP-IPv6-Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.serviceChangeDP</td>
+<td>Boolean</td>
+<td>serviceChangeDP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.serviceKey</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ServiceType</td>
+<td>None</td>
+<td>ServiceType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.serviceTypeIdentity</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceTypeIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.serviceTypeList</td>
+<td>Unsigned 32-bit integer</td>
+<td>serviceTypeList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ServiceTypeList_item</td>
+<td>None</td>
+<td>ServiceTypeList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.servingNetworkEnhancedDialledServices</td>
+<td>Boolean</td>
+<td>servingNetworkEnhancedDialledServices</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.servingNodeTypeIndicator</td>
+<td>None</td>
+<td>servingNodeTypeIndicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sgsn_Address</td>
+<td>Byte array</td>
+<td>sgsn-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sgsn_CAMEL_SubscriptionInfo</td>
+<td>None</td>
+<td>sgsn-CAMEL-SubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sgsn_Capability</td>
+<td>None</td>
+<td>sgsn-Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sgsn_mmeSeparationSupported</td>
+<td>None</td>
+<td>sgsn-mmeSeparationSupported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sgsn_Number</td>
+<td>Byte array</td>
+<td>sgsn-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.skipSubscriberDataUpdate</td>
+<td>None</td>
+<td>skipSubscriberDataUpdate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sm-mo-pp</td>
+<td>Boolean</td>
+<td>sm-mo-pp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.SMS_CAMEL_TDP_Data</td>
+<td>None</td>
+<td>SMS-CAMEL-TDP-Data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sms_CAMEL_TDP_DataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>sms-CAMEL-TDP-DataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.SMS_CAMEL_TDP_DataList_item</td>
+<td>None</td>
+<td>SMS-CAMEL-TDP-DataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sms_TriggerDetectionPoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>sms-TriggerDetectionPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.smsCallBarringSupportIndicator</td>
+<td>None</td>
+<td>smsCallBarringSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.solsaSupportIndicator</td>
+<td>None</td>
+<td>solsaSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.SpecificAPNInfo</td>
+<td>None</td>
+<td>SpecificAPNInfo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.specificAPNInfoList</td>
+<td>Unsigned 32-bit integer</td>
+<td>specificAPNInfoList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.specificCSI_Withdraw</td>
+<td>Byte array</td>
+<td>specificCSI-Withdraw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.specificCSIDeletedList</td>
+<td>Byte array</td>
+<td>specificCSIDeletedList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.splitLeg</td>
+<td>Boolean</td>
+<td>splitLeg</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.sres</td>
+<td>Byte array</td>
+<td>sres</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss-AccessBarred</td>
+<td>Boolean</td>
+<td>ss-AccessBarred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss-csi</td>
+<td>Boolean</td>
+<td>ss-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_CamelData</td>
+<td>None</td>
+<td>ss-CamelData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_Code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_CSI</td>
+<td>None</td>
+<td>ss-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_Data</td>
+<td>None</td>
+<td>ss-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_EventList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-EventList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.SS_EventList_item</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS-EventList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_InfoFor_CSE</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-InfoFor-CSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_Status</td>
+<td>Byte array</td>
+<td>ss-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ss_SubscriptionOption</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-SubscriptionOption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.stn_sr</td>
+<td>Byte array</td>
+<td>stn-sr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.stn_srWithdraw</td>
+<td>None</td>
+<td>stn-srWithdraw</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscribedEnhancedDialledServices</td>
+<td>Boolean</td>
+<td>subscribedEnhancedDialledServices</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscriberDataStored</td>
+<td>Byte array</td>
+<td>subscriberDataStored</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscriberIdentity</td>
+<td>Unsigned 32-bit integer</td>
+<td>subscriberIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscriberInfo</td>
+<td>None</td>
+<td>subscriberInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscriberState</td>
+<td>Unsigned 32-bit integer</td>
+<td>subscriberState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.subscriberStatus</td>
+<td>Unsigned 32-bit integer</td>
+<td>subscriberStatus</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.superChargerSupportedInHLR</td>
+<td>Byte array</td>
+<td>superChargerSupportedInHLR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.superChargerSupportedInServingNetworkEntity</td>
+<td>Unsigned 32-bit integer</td>
+<td>superChargerSupportedInServingNetworkEntity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedCamelPhases</td>
+<td>Byte array</td>
+<td>supportedCamelPhases</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedFeatures</td>
+<td>Byte array</td>
+<td>supportedFeatures</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedLCS_CapabilitySets</td>
+<td>Byte array</td>
+<td>supportedLCS-CapabilitySets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedRAT_TypesIndicator</td>
+<td>Byte array</td>
+<td>supportedRAT-TypesIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedSGSN_CAMEL_Phases</td>
+<td>Byte array</td>
+<td>supportedSGSN-CAMEL-Phases</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.supportedVLR_CAMEL_Phases</td>
+<td>Byte array</td>
+<td>supportedVLR-CAMEL-Phases</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t-csi</td>
+<td>Boolean</td>
+<td>t-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_adsData</td>
+<td>None</td>
+<td>t-adsData</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_adsDataRetrieval</td>
+<td>None</td>
+<td>t-adsDataRetrieval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.T_BCSM_CAMEL_TDP_Criteria</td>
+<td>None</td>
+<td>T-BCSM-CAMEL-TDP-Criteria</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_BCSM_CAMEL_TDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-BCSM-CAMEL-TDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.T_BCSM_CAMEL_TDP_CriteriaList_item</td>
+<td>None</td>
+<td>T-BCSM-CAMEL-TDP-CriteriaList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_BCSM_TriggerDetectionPoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-BCSM-TriggerDetectionPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.T_BcsmCamelTDPData</td>
+<td>None</td>
+<td>T-BcsmCamelTDPData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_BcsmCamelTDPDataList</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-BcsmCamelTDPDataList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.T_BcsmCamelTDPDataList_item</td>
+<td>None</td>
+<td>T-BcsmCamelTDPDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_BcsmTriggerDetectionPoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-BcsmTriggerDetectionPoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_CauseValueCriteria</td>
+<td>Unsigned 32-bit integer</td>
+<td>t-CauseValueCriteria</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.T_CauseValueCriteria_item</td>
+<td>Byte array</td>
+<td>T-CauseValueCriteria</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.t_CSI</td>
+<td>None</td>
+<td>t-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.targetCellId</td>
+<td>Byte array</td>
+<td>targetCellId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.targetMSC_Number</td>
+<td>Byte array</td>
+<td>targetMSC-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.targetRNCId</td>
+<td>Byte array</td>
+<td>targetRNCId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.teid_ForGnAndGp</td>
+<td>Byte array</td>
+<td>teid-ForGnAndGp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.teid_ForIu</td>
+<td>Byte array</td>
+<td>teid-ForIu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.teleserviceList</td>
+<td>Unsigned 32-bit integer</td>
+<td>teleserviceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.TeleserviceList_item</td>
+<td>Unsigned 8-bit integer</td>
+<td>TeleserviceList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tif-csi</td>
+<td>Boolean</td>
+<td>tif-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tif_CSI</td>
+<td>None</td>
+<td>tif-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tif_CSI_NotificationToCSE</td>
+<td>None</td>
+<td>tif-CSI-NotificationToCSE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tmsi</td>
+<td>Byte array</td>
+<td>tmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tpdu_TypeCriterion</td>
+<td>Unsigned 32-bit integer</td>
+<td>tpdu-TypeCriterion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.TPDU_TypeCriterion_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>TPDU-TypeCriterion</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.trace</td>
+<td>Boolean</td>
+<td>trace</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tracePropagationList</td>
+<td>None</td>
+<td>tracePropagationList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.trackingAreaIdentity</td>
+<td>Byte array</td>
+<td>trackingAreaIdentity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.transactionId</td>
+<td>Byte array</td>
+<td>transactionId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.tripletList</td>
+<td>Unsigned 32-bit integer</td>
+<td>tripletList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.TripletList_item</td>
+<td>None</td>
+<td>TripletList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.typeOfUpdate</td>
+<td>Unsigned 32-bit integer</td>
+<td>typeOfUpdate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ue_ReachabilityRequestIndicator</td>
+<td>None</td>
+<td>ue-ReachabilityRequestIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ue_reachable</td>
+<td>Byte array</td>
+<td>ue-reachable</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ue_reachableIndicator</td>
+<td>None</td>
+<td>ue-reachableIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.uesbi_Iu</td>
+<td>None</td>
+<td>uesbi-Iu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.uesbi_IuA</td>
+<td>Byte array</td>
+<td>uesbi-IuA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.uesbi_IuB</td>
+<td>Byte array</td>
+<td>uesbi-IuB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.umts_SecurityContextData</td>
+<td>None</td>
+<td>umts-SecurityContextData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.updateMME</td>
+<td>Boolean</td>
+<td>updateMME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.usedRAT_Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>usedRAT-Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.userCSGInformation</td>
+<td>None</td>
+<td>userCSGInformation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.utran</td>
+<td>Boolean</td>
+<td>utran</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.utranCodecList</td>
+<td>None</td>
+<td>utranCodecList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.utranNotAllowed</td>
+<td>Boolean</td>
+<td>utranNotAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.v_gmlc_Address</td>
+<td>Byte array</td>
+<td>v-gmlc-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.VBSDataList_item</td>
+<td>None</td>
+<td>VBSDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vbsGroupIndication</td>
+<td>None</td>
+<td>vbsGroupIndication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vbsSubscriptionData</td>
+<td>Unsigned 32-bit integer</td>
+<td>vbsSubscriptionData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.VGCSDataList_item</td>
+<td>None</td>
+<td>VGCSDataList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vgcsGroupIndication</td>
+<td>None</td>
+<td>vgcsGroupIndication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vgcsSubscriptionData</td>
+<td>Unsigned 32-bit integer</td>
+<td>vgcsSubscriptionData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vlr_Capability</td>
+<td>None</td>
+<td>vlr-Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vlr_Number</td>
+<td>Byte array</td>
+<td>vlr-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vlrCamelSubscriptionInfo</td>
+<td>None</td>
+<td>vlrCamelSubscriptionInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.VoiceBroadcastData</td>
+<td>None</td>
+<td>VoiceBroadcastData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.VoiceGroupCallData</td>
+<td>None</td>
+<td>VoiceGroupCallData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vplmnAddressAllowed</td>
+<td>None</td>
+<td>vplmnAddressAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt-csi</td>
+<td>Boolean</td>
+<td>vt-csi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt-IM-CSI</td>
+<td>Boolean</td>
+<td>vt-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt_BCSM_CAMEL_TDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>vt-BCSM-CAMEL-TDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt_CSI</td>
+<td>None</td>
+<td>vt-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt_IM_BCSM_CAMEL_TDP_CriteriaList</td>
+<td>Unsigned 32-bit integer</td>
+<td>vt-IM-BCSM-CAMEL-TDP-CriteriaList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.vt_IM_CSI</td>
+<td>None</td>
+<td>vt-IM-CSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.warningToneEnhancements</td>
+<td>Boolean</td>
+<td>warningToneEnhancements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.wrongPasswordAttemptsCounter</td>
+<td>Unsigned 32-bit integer</td>
+<td>wrongPasswordAttemptsCounter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.xres</td>
+<td>Byte array</td>
+<td>xres</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ZoneCode</td>
+<td>Byte array</td>
+<td>ZoneCode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ms.ZoneCodeList_item</td>
+<td>Byte array</td>
+<td>ZoneCodeList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.na_ESRK_Request</td>
+<td>None</td>
+<td>na-ESRK-Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.naea_PreferredCIC</td>
+<td>Byte array</td>
+<td>naea-PreferredCIC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.nature_of_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nature of number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.nbrSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrSB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.nbrUser</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrUser</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.notification_to_clling_party</td>
+<td>Boolean</td>
+<td>Notification to calling party</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.notification_to_forwarding_party</td>
+<td>Boolean</td>
+<td>Notification to forwarding party</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.number_plan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number plan</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.old.Component</td>
+<td>Unsigned 32-bit integer</td>
+<td>Component</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.a</td>
+<td>Boolean</td>
+<td>a</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.bearerActivationModificationDeletion</td>
+<td>Boolean</td>
+<td>bearerActivationModificationDeletion</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.bm-sc</td>
+<td>Boolean</td>
+<td>bm-sc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.bmsc_List</td>
+<td>Byte array</td>
+<td>bmsc-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.bmsc_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>bmsc-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.cap</td>
+<td>Boolean</td>
+<td>cap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.context</td>
+<td>Boolean</td>
+<td>context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.eNB</td>
+<td>Boolean</td>
+<td>eNB</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.eNB_List</td>
+<td>Byte array</td>
+<td>eNB-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.eNB_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>eNB-TraceDepth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gb</td>
+<td>Boolean</td>
+<td>gb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ge</td>
+<td>Boolean</td>
+<td>ge</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ggsn</td>
+<td>Boolean</td>
+<td>ggsn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ggsn_List</td>
+<td>Byte array</td>
+<td>ggsn-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ggsn_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>ggsn-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gi</td>
+<td>Boolean</td>
+<td>gi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gmb</td>
+<td>Boolean</td>
+<td>gmb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gn</td>
+<td>Boolean</td>
+<td>gn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gs</td>
+<td>Boolean</td>
+<td>gs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gx</td>
+<td>Boolean</td>
+<td>gx</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.gxc</td>
+<td>Boolean</td>
+<td>gxc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.handover</td>
+<td>Boolean</td>
+<td>handover</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.handovers</td>
+<td>Boolean</td>
+<td>handovers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.initialAttachTrackingAreaUpdateDetach</td>
+<td>Boolean</td>
+<td>initialAttachTrackingAreaUpdateDetach</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.iu</td>
+<td>Boolean</td>
+<td>iu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.iu-up</td>
+<td>Boolean</td>
+<td>iu-up</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.iub</td>
+<td>Boolean</td>
+<td>iub</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.iur</td>
+<td>Boolean</td>
+<td>iur</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.lu-imsiAttach-imsiDetach</td>
+<td>Boolean</td>
+<td>lu-imsiAttach-imsiDetach</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-b</td>
+<td>Boolean</td>
+<td>map-b</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-c</td>
+<td>Boolean</td>
+<td>map-c</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-d</td>
+<td>Boolean</td>
+<td>map-d</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-e</td>
+<td>Boolean</td>
+<td>map-e</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-f</td>
+<td>Boolean</td>
+<td>map-f</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-g</td>
+<td>Boolean</td>
+<td>map-g</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-gd</td>
+<td>Boolean</td>
+<td>map-gd</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-gf</td>
+<td>Boolean</td>
+<td>map-gf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.map-gr</td>
+<td>Boolean</td>
+<td>map-gr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mbmsContext</td>
+<td>Boolean</td>
+<td>mbmsContext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mbmsMulticastServiceActivation</td>
+<td>Boolean</td>
+<td>mbmsMulticastServiceActivation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mc</td>
+<td>Boolean</td>
+<td>mc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mgw</td>
+<td>Boolean</td>
+<td>mgw</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mgw_EventList</td>
+<td>Byte array</td>
+<td>mgw-EventList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mgw_InterfaceList</td>
+<td>Byte array</td>
+<td>mgw-InterfaceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mgw_List</td>
+<td>Byte array</td>
+<td>mgw-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mgw_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>mgw-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mme</td>
+<td>Boolean</td>
+<td>mme</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mme_List</td>
+<td>Byte array</td>
+<td>mme-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mme_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>mme-TraceDepth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mo-mt-sms</td>
+<td>Boolean</td>
+<td>mo-mt-sms</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.mo-mtCall</td>
+<td>Boolean</td>
+<td>mo-mtCall</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.msc-s</td>
+<td>Boolean</td>
+<td>msc-s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.msc_s_EventList</td>
+<td>Byte array</td>
+<td>msc-s-EventList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.msc_s_InterfaceList</td>
+<td>Byte array</td>
+<td>msc-s-InterfaceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.msc_s_List</td>
+<td>Byte array</td>
+<td>msc-s-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.msc_s_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>msc-s-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.nb-up</td>
+<td>Boolean</td>
+<td>nb-up</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.omc_Id</td>
+<td>Byte array</td>
+<td>omc-Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pdn-connectionCreation</td>
+<td>Boolean</td>
+<td>pdn-connectionCreation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pdn-connectionTermination</td>
+<td>Boolean</td>
+<td>pdn-connectionTermination</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pdpContext</td>
+<td>Boolean</td>
+<td>pdpContext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pgw</td>
+<td>Boolean</td>
+<td>pgw</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pgw_List</td>
+<td>Byte array</td>
+<td>pgw-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.pgw_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>pgw-TraceDepth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.rau-gprsAttach-gprsDetach</td>
+<td>Boolean</td>
+<td>rau-gprsAttach-gprsDetach</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.rnc</td>
+<td>Boolean</td>
+<td>rnc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.rnc_InterfaceList</td>
+<td>Byte array</td>
+<td>rnc-InterfaceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.rnc_List</td>
+<td>Byte array</td>
+<td>rnc-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.rnc_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>rnc-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s1-mme</td>
+<td>Boolean</td>
+<td>s1-mme</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s10</td>
+<td>Boolean</td>
+<td>s10</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s11</td>
+<td>Boolean</td>
+<td>s11</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s2a</td>
+<td>Boolean</td>
+<td>s2a</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s2b</td>
+<td>Boolean</td>
+<td>s2b</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s2c</td>
+<td>Boolean</td>
+<td>s2c</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s3</td>
+<td>Boolean</td>
+<td>s3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s4</td>
+<td>Boolean</td>
+<td>s4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s5</td>
+<td>Boolean</td>
+<td>s5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s6a</td>
+<td>Boolean</td>
+<td>s6a</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s6b</td>
+<td>Boolean</td>
+<td>s6b</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s6d</td>
+<td>Boolean</td>
+<td>s6d</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.s8b</td>
+<td>Boolean</td>
+<td>s8b</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.serviceRequestts</td>
+<td>Boolean</td>
+<td>serviceRequestts</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgi</td>
+<td>Boolean</td>
+<td>sgi</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgsn</td>
+<td>Boolean</td>
+<td>sgsn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgsn_List</td>
+<td>Byte array</td>
+<td>sgsn-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgsn_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>sgsn-TraceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgw</td>
+<td>Boolean</td>
+<td>sgw</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgw_List</td>
+<td>Byte array</td>
+<td>sgw-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.sgw_TraceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>sgw-TraceDepth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ss</td>
+<td>Boolean</td>
+<td>ss</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceCollectionEntity</td>
+<td>Byte array</td>
+<td>traceCollectionEntity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceDepthList</td>
+<td>None</td>
+<td>traceDepthList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceEventList</td>
+<td>None</td>
+<td>traceEventList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceInterfaceList</td>
+<td>None</td>
+<td>traceInterfaceList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceNE_TypeList</td>
+<td>Byte array</td>
+<td>traceNE-TypeList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceRecordingSessionReference</td>
+<td>Byte array</td>
+<td>traceRecordingSessionReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceReference</td>
+<td>Byte array</td>
+<td>traceReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceReference2</td>
+<td>Byte array</td>
+<td>traceReference2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceSupportIndicator</td>
+<td>None</td>
+<td>traceSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.traceType</td>
+<td>Unsigned 32-bit integer</td>
+<td>traceType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ue-initiatedPDNconectivityRequest</td>
+<td>Boolean</td>
+<td>ue-initiatedPDNconectivityRequest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.ue-initiatedPDNdisconnection</td>
+<td>Boolean</td>
+<td>ue-initiatedPDNdisconnection</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.uu</td>
+<td>Boolean</td>
+<td>uu</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.om.x2</td>
+<td>Boolean</td>
+<td>x2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.pcs_Extensions</td>
+<td>None</td>
+<td>pcs-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.pdp_type_org</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDP Type Organization</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.PlmnContainer</td>
+<td>None</td>
+<td>PlmnContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.PrivateExtension</td>
+<td>None</td>
+<td>PrivateExtension</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.privateExtensionList</td>
+<td>Unsigned 32-bit integer</td>
+<td>privateExtensionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.PrivateExtensionList_item</td>
+<td>None</td>
+<td>PrivateExtensionList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.protocolId</td>
+<td>Unsigned 32-bit integer</td>
+<td>protocolId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.ber</td>
+<td>Unsigned 8-bit integer</td>
+<td>Residual Bit Error Rate (BER)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.brate_dlink</td>
+<td>Unsigned 32-bit integer</td>
+<td>Guaranteed bit rate for downlink in kbit/s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.brate_ulink</td>
+<td>Unsigned 32-bit integer</td>
+<td>Guaranteed bit rate for uplink in kbit/s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.del_of_err_sdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery of erroneous SDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.del_order</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delivery order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.max_brate_dlink</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum bit rate for downlink in kbit/s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.max_brate_ulink</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum bit rate for uplink in kbit/s</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.max_sdu</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum SDU size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.sdu_err_rat</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDU error ratio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.traff_hdl_pri</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic handling priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.traffic_cls</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.qos.transfer_delay</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transfer delay (Raw data see TS 24.008 for interpretation)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ranap.EncryptionInformation</td>
+<td>None</td>
+<td>EncryptionInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ranap.IntegrityProtectionInformation</td>
+<td>None</td>
+<td>IntegrityProtectionInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ranap.service_Handover</td>
+<td>Unsigned 32-bit integer</td>
+<td>service-Handover</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.redirecting_presentation</td>
+<td>Boolean</td>
+<td>Redirecting presentation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.servicecentreaddress_digits</td>
+<td>String</td>
+<td>ServiceCentreAddress digits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.signalInfo</td>
+<td>Byte array</td>
+<td>signalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.slr_Arg_PCS_Extensions</td>
+<td>None</td>
+<td>slr-Arg-PCS-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.absentSubscriberDiagnosticSM</td>
+<td>Unsigned 32-bit integer</td>
+<td>absentSubscriberDiagnosticSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.additional_Number</td>
+<td>Unsigned 32-bit integer</td>
+<td>additional-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.additionalAbsentSubscriberDiagnosticSM</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalAbsentSubscriberDiagnosticSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.additionalAlertReasonIndicator</td>
+<td>None</td>
+<td>additionalAlertReasonIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.additionalSM_DeliveryOutcome</td>
+<td>Unsigned 32-bit integer</td>
+<td>additionalSM-DeliveryOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.alertReason</td>
+<td>Unsigned 32-bit integer</td>
+<td>alertReason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.alertReasonIndicator</td>
+<td>None</td>
+<td>alertReasonIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.asciCallReference</td>
+<td>Byte array</td>
+<td>asciCallReference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.deliveryOutcomeIndicator</td>
+<td>None</td>
+<td>deliveryOutcomeIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.dispatcherList</td>
+<td>Unsigned 32-bit integer</td>
+<td>dispatcherList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.DispatcherList_item</td>
+<td>Byte array</td>
+<td>DispatcherList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.sm.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.gprsNodeIndicator</td>
+<td>None</td>
+<td>gprsNodeIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.gprsSupportIndicator</td>
+<td>None</td>
+<td>gprsSupportIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.ip_sm_gw_absentSubscriberDiagnosticSM</td>
+<td>Unsigned 32-bit integer</td>
+<td>ip-sm-gw-absentSubscriberDiagnosticSM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.ip_sm_gw_Indicator</td>
+<td>None</td>
+<td>ip-sm-gw-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.ip_sm_gw_sm_deliveryOutcome</td>
+<td>Unsigned 32-bit integer</td>
+<td>ip-sm-gw-sm-deliveryOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.ISDN_AddressString</td>
+<td>Byte array</td>
+<td>ISDN-AddressString</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.locationInfoWithLMSI</td>
+<td>None</td>
+<td>locationInfoWithLMSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.mcef-Set</td>
+<td>Boolean</td>
+<td>mcef-Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.mnrf-Set</td>
+<td>Boolean</td>
+<td>mnrf-Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.mnrg-Set</td>
+<td>Boolean</td>
+<td>mnrg-Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.moreMessagesToSend</td>
+<td>None</td>
+<td>moreMessagesToSend</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.msc_Number</td>
+<td>Byte array</td>
+<td>msc-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.mw_Status</td>
+<td>Byte array</td>
+<td>mw-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.networkNode_Number</td>
+<td>Byte array</td>
+<td>networkNode-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.noSM_RP_DA</td>
+<td>None</td>
+<td>noSM-RP-DA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.noSM_RP_OA</td>
+<td>None</td>
+<td>noSM-RP-OA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.ongoingCall</td>
+<td>None</td>
+<td>ongoingCall</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sc-AddressNotIncluded</td>
+<td>Boolean</td>
+<td>sc-AddressNotIncluded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.serviceCentreAddress</td>
+<td>Byte array</td>
+<td>serviceCentreAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.serviceCentreAddressDA</td>
+<td>Byte array</td>
+<td>serviceCentreAddressDA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.serviceCentreAddressOA</td>
+<td>Byte array</td>
+<td>serviceCentreAddressOA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sgsn_Number</td>
+<td>Byte array</td>
+<td>sgsn-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_deliveryNotIntended</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-deliveryNotIntended</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_DeliveryOutcome</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-DeliveryOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_DA</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-RP-DA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_MTI</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-RP-MTI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_OA</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-RP-OA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_PRI</td>
+<td>Boolean</td>
+<td>sm-RP-PRI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_SMEA</td>
+<td>Byte array</td>
+<td>sm-RP-SMEA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.sm_RP_UI</td>
+<td>Byte array</td>
+<td>sm-RP-UI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.sm.storedMSISDN</td>
+<td>Byte array</td>
+<td>storedMSISDN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.AddressString</td>
+<td>Byte array</td>
+<td>AddressString</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.alertingPattern</td>
+<td>Byte array</td>
+<td>alertingPattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.b_subscriberNumber</td>
+<td>Byte array</td>
+<td>b-subscriberNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.b_subscriberSubaddress</td>
+<td>Byte array</td>
+<td>b-subscriberSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.basicService</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.BasicServiceCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>BasicServiceCode</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.basicServiceGroup</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceGroup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.basicServiceGroupList</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicServiceGroupList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.BasicServiceGroupList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>BasicServiceGroupList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.CallBarringFeature</td>
+<td>None</td>
+<td>CallBarringFeature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.callBarringFeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>callBarringFeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.CallBarringFeatureList_item</td>
+<td>None</td>
+<td>CallBarringFeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.callBarringInfo</td>
+<td>None</td>
+<td>callBarringInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.callInfo</td>
+<td>None</td>
+<td>callInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.camel-invoked</td>
+<td>Boolean</td>
+<td>camel-invoked</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ccbs_Data</td>
+<td>None</td>
+<td>ccbs-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.CCBS_Feature</td>
+<td>None</td>
+<td>CCBS-Feature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ccbs_FeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ccbs-FeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.CCBS_FeatureList_item</td>
+<td>None</td>
+<td>CCBS-FeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ccbs_Index</td>
+<td>Unsigned 32-bit integer</td>
+<td>ccbs-Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ccbs_RequestState</td>
+<td>Unsigned 32-bit integer</td>
+<td>ccbs-RequestState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.clir-invoked</td>
+<td>Boolean</td>
+<td>clir-invoked</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.cliRestrictionOption</td>
+<td>Unsigned 32-bit integer</td>
+<td>cliRestrictionOption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.defaultPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>defaultPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.forwardedToNumber</td>
+<td>Byte array</td>
+<td>forwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.forwardedToSubaddress</td>
+<td>Byte array</td>
+<td>forwardedToSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ForwardingFeature</td>
+<td>None</td>
+<td>ForwardingFeature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.forwardingFeatureList</td>
+<td>Unsigned 32-bit integer</td>
+<td>forwardingFeatureList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ForwardingFeatureList_item</td>
+<td>None</td>
+<td>ForwardingFeatureList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.forwardingInfo</td>
+<td>None</td>
+<td>forwardingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.forwardingOptions</td>
+<td>Byte array</td>
+<td>forwardingOptions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.genericServiceInfo</td>
+<td>None</td>
+<td>genericServiceInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.longForwardedToNumber</td>
+<td>Byte array</td>
+<td>longForwardedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.longFTN_Supported</td>
+<td>None</td>
+<td>longFTN-Supported</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.maximumEntitledPriority</td>
+<td>Unsigned 32-bit integer</td>
+<td>maximumEntitledPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.nbrSB</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrSB</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.nbrSN</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.nbrUser</td>
+<td>Unsigned 32-bit integer</td>
+<td>nbrUser</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.networkSignalInfo</td>
+<td>None</td>
+<td>networkSignalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.noReplyConditionTime</td>
+<td>Unsigned 32-bit integer</td>
+<td>noReplyConditionTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.overrideCategory</td>
+<td>Unsigned 32-bit integer</td>
+<td>overrideCategory</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.serviceIndicator</td>
+<td>Byte array</td>
+<td>serviceIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_Code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_Data</td>
+<td>None</td>
+<td>ss-Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_Event</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Event</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_EventSpecification</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-EventSpecification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.SS_EventSpecification_item</td>
+<td>Byte array</td>
+<td>SS-EventSpecification</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.SS_InfoList_item</td>
+<td>Unsigned 32-bit integer</td>
+<td>SS-InfoList</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.SS_List_item</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_Status</td>
+<td>Byte array</td>
+<td>ss-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ss_SubscriptionOption</td>
+<td>Unsigned 32-bit integer</td>
+<td>ss-SubscriptionOption</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.translatedB_Number</td>
+<td>Byte array</td>
+<td>translatedB-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ussd_DataCodingScheme</td>
+<td>Byte array</td>
+<td>ussd-DataCodingScheme</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss.ussd_String</td>
+<td>Byte array</td>
+<td>ussd-String</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_Code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_Status</td>
+<td>Byte array</td>
+<td>ss-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_status_a_bit</td>
+<td>Boolean</td>
+<td>A bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_status_p_bit</td>
+<td>Boolean</td>
+<td>P bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_status_q_bit</td>
+<td>Boolean</td>
+<td>Q bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.ss_status_r_bit</td>
+<td>Boolean</td>
+<td>R bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.teleservice</td>
+<td>Unsigned 8-bit integer</td>
+<td>teleservice</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.tmsi</td>
+<td>Byte array</td>
+<td>tmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_map.unused</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.AuthenticationTriplet_v2</td>
+<td>None</td>
+<td>AuthenticationTriplet-v2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.b_Subscriber_Address</td>
+<td>Byte array</td>
+<td>b-Subscriber-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.basicService</td>
+<td>Unsigned 32-bit integer</td>
+<td>basicService</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.bss_APDU</td>
+<td>None</td>
+<td>bss-APDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.call_Direction</td>
+<td>Byte array</td>
+<td>call-Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.category</td>
+<td>Byte array</td>
+<td>category</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.channelType</td>
+<td>None</td>
+<td>channelType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.chosenChannel</td>
+<td>None</td>
+<td>chosenChannel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.cug_CheckInfo</td>
+<td>None</td>
+<td>cug-CheckInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.derivable</td>
+<td>Signed 32-bit integer</td>
+<td>derivable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.errorCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>errorCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.extensionContainer</td>
+<td>None</td>
+<td>extensionContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.generalProblem</td>
+<td>Signed 32-bit integer</td>
+<td>generalProblem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.globalValue</td>
+<td>Object identifier</td>
+<td>globalValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.gsm_BearerCapability</td>
+<td>None</td>
+<td>gsm-BearerCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.handoverNumber</td>
+<td>Byte array</td>
+<td>handoverNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.highLayerCompatibility</td>
+<td>None</td>
+<td>highLayerCompatibility</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.ho_NumberNotRequired</td>
+<td>None</td>
+<td>ho-NumberNotRequired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.initialisationVector</td>
+<td>Byte array</td>
+<td>initialisationVector</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.invoke</td>
+<td>None</td>
+<td>invoke</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.invokeID</td>
+<td>Signed 32-bit integer</td>
+<td>invokeID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.invokeIDRej</td>
+<td>Unsigned 32-bit integer</td>
+<td>invokeIDRej</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.invokeparameter</td>
+<td>None</td>
+<td>invokeparameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.invokeProblem</td>
+<td>Signed 32-bit integer</td>
+<td>invokeProblem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.isdn_BearerCapability</td>
+<td>None</td>
+<td>isdn-BearerCapability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.kc</td>
+<td>Byte array</td>
+<td>kc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.linkedID</td>
+<td>Signed 32-bit integer</td>
+<td>linkedID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.lmsi</td>
+<td>Byte array</td>
+<td>lmsi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.localValue</td>
+<td>Signed 32-bit integer</td>
+<td>localValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.lowerLayerCompatibility</td>
+<td>None</td>
+<td>lowerLayerCompatibility</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.moreMessagesToSend</td>
+<td>None</td>
+<td>moreMessagesToSend</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.networkSignalInfo</td>
+<td>None</td>
+<td>networkSignalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.noSM_RP_DA</td>
+<td>None</td>
+<td>noSM-RP-DA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.noSM_RP_OA</td>
+<td>None</td>
+<td>noSM-RP-OA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.not_derivable</td>
+<td>None</td>
+<td>not-derivable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.numberOfForwarding</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberOfForwarding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.opCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>opCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.operationCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>operationCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.operatorSS_Code</td>
+<td>Unsigned 32-bit integer</td>
+<td>operatorSS-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.operatorSS_Code_item</td>
+<td>Byte array</td>
+<td>operatorSS-Code item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.originalComponentIdentifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>originalComponentIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.originatingEntityNumber</td>
+<td>Byte array</td>
+<td>originatingEntityNumber</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.parameter</td>
+<td>None</td>
+<td>parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.problem</td>
+<td>Unsigned 32-bit integer</td>
+<td>problem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.protectedPayload</td>
+<td>Byte array</td>
+<td>protectedPayload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.protocolId</td>
+<td>Unsigned 32-bit integer</td>
+<td>protocolId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.rand</td>
+<td>Byte array</td>
+<td>rand</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.reject</td>
+<td>None</td>
+<td>reject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.resultretres</td>
+<td>None</td>
+<td>resultretres</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnError</td>
+<td>None</td>
+<td>returnError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnErrorProblem</td>
+<td>Signed 32-bit integer</td>
+<td>returnErrorProblem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnparameter</td>
+<td>None</td>
+<td>returnparameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnResultLast</td>
+<td>None</td>
+<td>returnResultLast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnResultNotLast</td>
+<td>None</td>
+<td>returnResultNotLast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.returnResultProblem</td>
+<td>Signed 32-bit integer</td>
+<td>returnResultProblem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.routingInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>routingInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.securityHeader</td>
+<td>None</td>
+<td>securityHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.securityParametersIndex</td>
+<td>Byte array</td>
+<td>securityParametersIndex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.SendAuthenticationInfoResOld_item</td>
+<td>None</td>
+<td>SendAuthenticationInfoResOld item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.serviceCentreAddressDA</td>
+<td>Byte array</td>
+<td>serviceCentreAddressDA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.serviceCentreAddressOA</td>
+<td>Byte array</td>
+<td>serviceCentreAddressOA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.signalInfo</td>
+<td>Byte array</td>
+<td>signalInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.sIWFSNumber</td>
+<td>Byte array</td>
+<td>sIWFSNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.sm_RP_DA</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-RP-DA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.sm_RP_OA</td>
+<td>Unsigned 32-bit integer</td>
+<td>sm-RP-OA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.sm_RP_UI</td>
+<td>Byte array</td>
+<td>sm-RP-UI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.sres</td>
+<td>Byte array</td>
+<td>sres</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.targetCellId</td>
+<td>Byte array</td>
+<td>targetCellId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.tripletList</td>
+<td>Unsigned 32-bit integer</td>
+<td>tripletList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.TripletListold_item</td>
+<td>None</td>
+<td>TripletListold</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>gsm_old.userInfo</td>
+<td>None</td>
+<td>userInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_old.vlr_Number</td>
+<td>Byte array</td>
+<td>vlr-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.add_LocationEstimate</td>
+<td>Byte array</td>
+<td>add-LocationEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ageOfLocationInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>ageOfLocationInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.alertingPattern</td>
+<td>Byte array</td>
+<td>alertingPattern</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.areaEventInfo</td>
+<td>None</td>
+<td>areaEventInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.callingName</td>
+<td>Unsigned 32-bit integer</td>
+<td>callingName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.callIsWaiting_Indicator</td>
+<td>None</td>
+<td>callIsWaiting-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.callOnHold_Indicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>callOnHold-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ccbs_Feature</td>
+<td>None</td>
+<td>ccbs-Feature</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.chargingInformation</td>
+<td>None</td>
+<td>chargingInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.clirSuppressionRejected</td>
+<td>None</td>
+<td>clirSuppressionRejected</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.cug_Index</td>
+<td>Unsigned 32-bit integer</td>
+<td>cug-Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.dataCodingScheme</td>
+<td>Byte array</td>
+<td>dataCodingScheme</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.decipheringKeys</td>
+<td>Byte array</td>
+<td>decipheringKeys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.deferredLocationEventType</td>
+<td>Byte array</td>
+<td>deferredLocationEventType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.deflectedToNumber</td>
+<td>Byte array</td>
+<td>deflectedToNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.deflectedToSubaddress</td>
+<td>Byte array</td>
+<td>deflectedToSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e1</td>
+<td>Unsigned 32-bit integer</td>
+<td>e1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e2</td>
+<td>Unsigned 32-bit integer</td>
+<td>e2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e3</td>
+<td>Unsigned 32-bit integer</td>
+<td>e3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e4</td>
+<td>Unsigned 32-bit integer</td>
+<td>e4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e5</td>
+<td>Unsigned 32-bit integer</td>
+<td>e5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e6</td>
+<td>Unsigned 32-bit integer</td>
+<td>e6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.e7</td>
+<td>Unsigned 32-bit integer</td>
+<td>e7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ect_CallState</td>
+<td>Unsigned 32-bit integer</td>
+<td>ect-CallState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ect_Indicator</td>
+<td>None</td>
+<td>ect-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ganssAssistanceData</td>
+<td>Byte array</td>
+<td>ganssAssistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.gpsAssistanceData</td>
+<td>Byte array</td>
+<td>gpsAssistanceData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.h_gmlc_address</td>
+<td>Byte array</td>
+<td>h-gmlc-address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.imsi</td>
+<td>Byte array</td>
+<td>imsi</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_ss.lcs_QoS</td>
+<td>None</td>
+<td>lcs-QoS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lcsClientExternalID</td>
+<td>None</td>
+<td>lcsClientExternalID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lcsClientName</td>
+<td>None</td>
+<td>lcsClientName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lcsCodeword</td>
+<td>None</td>
+<td>lcsCodeword</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lcsRequestorID</td>
+<td>None</td>
+<td>lcsRequestorID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lcsServiceTypeID</td>
+<td>Unsigned 32-bit integer</td>
+<td>lcsServiceTypeID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.lengthInCharacters</td>
+<td>Signed 32-bit integer</td>
+<td>lengthInCharacters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.locationEstimate</td>
+<td>Byte array</td>
+<td>locationEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.locationMethod</td>
+<td>Unsigned 32-bit integer</td>
+<td>locationMethod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.locationType</td>
+<td>None</td>
+<td>locationType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.locationUpdateRequest</td>
+<td>None</td>
+<td>locationUpdateRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.mlc_Number</td>
+<td>Byte array</td>
+<td>mlc-Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.mo_lrShortCircuit</td>
+<td>None</td>
+<td>mo-lrShortCircuit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.molr_Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>molr-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.mpty_Indicator</td>
+<td>None</td>
+<td>mpty-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.msisdn</td>
+<td>Byte array</td>
+<td>msisdn</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_ss.multicall_Indicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>multicall-Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.multiplePositioningProtocolPDUs</td>
+<td>Unsigned 32-bit integer</td>
+<td>multiplePositioningProtocolPDUs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.nameIndicator</td>
+<td>None</td>
+<td>nameIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.namePresentationAllowed</td>
+<td>None</td>
+<td>namePresentationAllowed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.namePresentationRestricted</td>
+<td>None</td>
+<td>namePresentationRestricted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.nameString</td>
+<td>Byte array</td>
+<td>nameString</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.nameUnavailable</td>
+<td>None</td>
+<td>nameUnavailable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.notificationType</td>
+<td>Unsigned 32-bit integer</td>
+<td>notificationType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.numberNotAvailableDueToInterworking</td>
+<td>None</td>
+<td>numberNotAvailableDueToInterworking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.originatingEntityNumber</td>
+<td>Byte array</td>
+<td>originatingEntityNumber</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>gsm_ss.partyNumber</td>
+<td>Byte array</td>
+<td>partyNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.partyNumberSubaddress</td>
+<td>Byte array</td>
+<td>partyNumberSubaddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.periodicLDRInfo</td>
+<td>None</td>
+<td>periodicLDRInfo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.PositioningProtocolPDU</td>
+<td>Byte array</td>
+<td>PositioningProtocolPDU</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.presentationAllowedAddress</td>
+<td>None</td>
+<td>presentationAllowedAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.presentationRestricted</td>
+<td>None</td>
+<td>presentationRestricted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.presentationRestrictedAddress</td>
+<td>None</td>
+<td>presentationRestrictedAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.pseudonymIndicator</td>
+<td>None</td>
+<td>pseudonymIndicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.qoS</td>
+<td>None</td>
+<td>qoS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.rdn</td>
+<td>Unsigned 32-bit integer</td>
+<td>rdn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.referenceNumber</td>
+<td>Byte array</td>
+<td>referenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.reportingPLMNList</td>
+<td>None</td>
+<td>reportingPLMNList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.sequenceNumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>sequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ss_Code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ss-Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ss_Notification</td>
+<td>Byte array</td>
+<td>ss-Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.ss_Status</td>
+<td>Byte array</td>
+<td>ss-Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.SS_UserData</td>
+<td>String</td>
+<td>SS-UserData</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.supportedGADShapes</td>
+<td>Byte array</td>
+<td>supportedGADShapes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.suppressOA</td>
+<td>None</td>
+<td>suppressOA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.suppressPrefCUG</td>
+<td>None</td>
+<td>suppressPrefCUG</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.terminationCause</td>
+<td>Unsigned 32-bit integer</td>
+<td>terminationCause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.uUS_Required</td>
+<td>Boolean</td>
+<td>uUS-Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.uUS_Service</td>
+<td>Unsigned 32-bit integer</td>
+<td>uUS-Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.velocityEstimate</td>
+<td>Byte array</td>
+<td>velocityEstimate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>gsm_ss.verificationResponse</td>
+<td>Unsigned 32-bit integer</td>
+<td>verificationResponse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>Remote-Operations-Information-Objects.global</td>
+<td>Unknown</td>
+<td>global</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>Remote-Operations-Information-Objects.local</td>
+<td>Signed 32-bit integer</td>
+<td>local</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

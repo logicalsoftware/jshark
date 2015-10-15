@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Non-Access-Stratum (NAS)PDU</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Non-Access-Stratum (NAS)PDU</h1>
+<div><b>Protocol field name:</b> nas-eps</div>
+<div><b>Versions:</b> 1.2.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>nas_eps.bearer_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>EPS bearer identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.common.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.128eea0</td>
+<td>Boolean</td>
+<td>128-EEA0</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>nas_eps.emm.128eea1</td>
+<td>Boolean</td>
+<td>128-EEA1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.128eea2</td>
+<td>Boolean</td>
+<td>128-EEA2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.128eia1</td>
+<td>Boolean</td>
+<td>128-EIA1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.128eia2</td>
+<td>Boolean</td>
+<td>128-EIA2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.1xsrvcc_cap</td>
+<td>Boolean</td>
+<td>1xSRVCC capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.active_flg</td>
+<td>Boolean</td>
+<td>Active flag</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for downlink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_dl_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for downlink(Extended)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_dl_ext2</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for downlink(Extended-2)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for uplink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_ul_ext</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for uplink(Extended)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.apn_ambr_ul_ext2</td>
+<td>Unsigned 8-bit integer</td>
+<td>APN-AMBR for uplink(Extended-2)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.csfb_resp</td>
+<td>Unsigned 8-bit integer</td>
+<td>CSFB response</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.detach_type_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Detach Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.detach_type_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Detach Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.dl_nas_cnt</td>
+<td>Unsigned 8-bit integer</td>
+<td>DL NAS COUNT value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi0</td>
+<td>Boolean</td>
+<td>EBI(0) spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi1</td>
+<td>Boolean</td>
+<td>EBI(1) spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi10</td>
+<td>Boolean</td>
+<td>EBI(10)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi11</td>
+<td>Boolean</td>
+<td>EBI(11)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi12</td>
+<td>Boolean</td>
+<td>EBI(12)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi13</td>
+<td>Boolean</td>
+<td>EBI(13)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi14</td>
+<td>Boolean</td>
+<td>EBI(14)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi15</td>
+<td>Boolean</td>
+<td>EBI(15)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi2</td>
+<td>Boolean</td>
+<td>EBI(2) spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi3</td>
+<td>Boolean</td>
+<td>EBI(3) spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi4</td>
+<td>Boolean</td>
+<td>EBI(4) spare</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi5</td>
+<td>Boolean</td>
+<td>EBI(5)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi6</td>
+<td>Boolean</td>
+<td>EBI(6)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi7</td>
+<td>Boolean</td>
+<td>EBI(7)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi8</td>
+<td>Boolean</td>
+<td>EBI(8)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ebi9</td>
+<td>Boolean</td>
+<td>EBI(9)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea0</td>
+<td>Boolean</td>
+<td>EEA0</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea3</td>
+<td>Boolean</td>
+<td>EEA3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea4</td>
+<td>Boolean</td>
+<td>EEA4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea5</td>
+<td>Boolean</td>
+<td>EEA5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea6</td>
+<td>Boolean</td>
+<td>EEA6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eea7</td>
+<td>Boolean</td>
+<td>EEA7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.egbr_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for downlink(ext)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.egbr_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for uplink(ext)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia0</td>
+<td>Boolean</td>
+<td>EIA0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia3</td>
+<td>Boolean</td>
+<td>EIA3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia4</td>
+<td>Boolean</td>
+<td>EIA4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia5</td>
+<td>Boolean</td>
+<td>EIA5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia6</td>
+<td>Boolean</td>
+<td>EIA6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eia7</td>
+<td>Boolean</td>
+<td>EIA7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eit</td>
+<td>Boolean</td>
+<td>EIT (ESM information transfer)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.embr_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for downlink(ext)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.embr_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for uplink(ext)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.emm_lcs_ind</td>
+<td>Unsigned 8-bit integer</td>
+<td>LCS indicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.emm_ucs2_supp</td>
+<td>Boolean</td>
+<td>UCS2 support (UCS2)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eps_att_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>EPS attach type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.EPS_attach_result</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attach result</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.eps_update_result_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.esm_msg_cont</td>
+<td>Byte array</td>
+<td>ESM message container contents</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gbr_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for downlink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gbr_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Guaranteed bit rate for uplink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea1</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea2</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea3</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea4</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea5</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea6</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.gea7</td>
+<td>Boolean</td>
+<td>GPRS encryption algorithm GEA7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.id_type2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Identity type 2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.imei</td>
+<td>String</td>
+<td>IMEI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.imeisv_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>IMEISV request</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.imsi</td>
+<td>String</td>
+<td>IMSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.m_tmsi</td>
+<td>Unsigned 32-bit integer</td>
+<td>M-TMSI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.mbr_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for downlink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.mbr_ul</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum bit rate for uplink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.mme_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>MME Code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.mme_grp_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>MME Group ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.nas_key_set_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAS key set identifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.nounce_mme</td>
+<td>Unsigned 32-bit integer</td>
+<td>NonceMME</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.odd_even</td>
+<td>Unsigned 8-bit integer</td>
+<td>odd/even indic</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.qci</td>
+<td>Unsigned 8-bit integer</td>
+<td>Quality of Service Class Identifier (QCI)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.res</td>
+<td>Byte array</td>
+<td>RES</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.service_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.short_mac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message authentication code (short)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.switch_off</td>
+<td>Unsigned 8-bit integer</td>
+<td>Switch off</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.tai_n_elem</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of elements</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.tai_tac</td>
+<td>Unsigned 16-bit integer</td>
+<td>Tracking area code(TAC)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.tai_tol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of list</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.toc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of ciphering algorithm</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.toi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of integrity protection algorithm</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.tsc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of security context flag (TSC)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.type_of_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.ue_ra_cap_inf_upd_need_flg</td>
+<td>Boolean</td>
+<td>1xSRVCC capability</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea0</td>
+<td>Boolean</td>
+<td>UEA0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea1</td>
+<td>Boolean</td>
+<td>UEA1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea2</td>
+<td>Boolean</td>
+<td>UEA2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea3</td>
+<td>Boolean</td>
+<td>UEA3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea4</td>
+<td>Boolean</td>
+<td>UEA4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea5</td>
+<td>Boolean</td>
+<td>UEA5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea6</td>
+<td>Boolean</td>
+<td>UEA6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uea7</td>
+<td>Boolean</td>
+<td>UEA7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia0</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA0</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia1</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA1</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia2</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA2</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia3</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA3</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia4</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia5</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA5</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia6</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.uia7</td>
+<td>Boolean</td>
+<td>UMTS integrity algorithm UIA7</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.emm.update_type_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>EPS update type value</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.cause</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.elem_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Element ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.linked_bearer_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Linked EPS bearer identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.lnkd_eps_bearer_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Linked EPS bearer identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.pdn_ipv4</td>
+<td>IPv4 address</td>
+<td>PDN IPv4</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.pdn_ipv6</td>
+<td>IPv6 address</td>
+<td>PDN IPv6</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.pdn_ipv6_len</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv6 Prefix Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm.proc_trans_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Procedure transaction identity</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.esm_request_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request type</td>
+<td>1.2.0 to 1.4.1</td>
+</tr>
+<tr>
+<td>nas_eps.msg_auth_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message authentication code</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.nas_eps_esm_pdn_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDN type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.nas_msg_emm_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAS EPS Mobility Management Message Type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.nas_msg_esm_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>NAS EPS session management messages</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.security_header_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Security header type</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.seq_no</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.seq_no_short</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence number (short)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>nas_eps.spare_bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare bit(s)</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

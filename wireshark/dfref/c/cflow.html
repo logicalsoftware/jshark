@@ -1,0 +1,2054 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Cisco NetFlow/IPFIX</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Cisco NetFlow/IPFIX</h1>
+<div><b>Protocol field name:</b> cflow</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>cflow.aaa_username</td>
+<td>String</td>
+<td>AAA username</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.absolute_error</td>
+<td>Unknown</td>
+<td>Absolute Error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.abstimeend</td>
+<td>Date/Time stamp</td>
+<td>EndTime</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.abstimestart</td>
+<td>Date/Time stamp</td>
+<td>StartTime</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.aggmethod</td>
+<td>Unsigned 8-bit integer</td>
+<td>AggMethod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.aggversion</td>
+<td>Unsigned 8-bit integer</td>
+<td>AggVersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.appl_desc</td>
+<td>String</td>
+<td>ApplicationDesc</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.appl_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>ApplicationID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.appl_name</td>
+<td>String</td>
+<td>ApplicationName</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.bgpnexthop</td>
+<td>IPv4 address</td>
+<td>BGPNextHop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.bgpnexthopv6</td>
+<td>IPv6 address</td>
+<td>BGPNextHop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.biflow_direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Biflow Direction</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.collection_time_milliseconds</td>
+<td>Date/Time stamp</td>
+<td>Collection Time Milliseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.collector_addr</td>
+<td>IPv4 address</td>
+<td>CollectorAddr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.collector_addr_v6</td>
+<td>IPv6 address</td>
+<td>CollectorAddr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.collector_certificate</td>
+<td>Byte array</td>
+<td>Collector Certificate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.collector_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>CollectorPort</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.common_properties_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Common Properties Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.confidence_level</td>
+<td>Unknown</td>
+<td>Confidence Level</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.data_datarecord_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>DataRecord (Template Id)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.data_flowset_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data FlowSet (Template Id)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.datarecord_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>DataRecord Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.digest_hash_value</td>
+<td>Unsigned 64-bit integer</td>
+<td>Digest Hash Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.direction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dot1q_customer_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dot1q Customer Priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dot1q_customer_vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dot1q Customer Vlan Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dot1q_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Dot1q Priority</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dot1q_vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Dot1q Vlan Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dropped Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Dropped Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dropped Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Dropped Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_total_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dropped Total Octets</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_total_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Dropped Total Octets</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_total_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Dropped Total Packets</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.drop_total_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Dropped Total Packets</td>
+<td>1.2.4 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstaddr</td>
+<td>IPv4 address</td>
+<td>DstAddr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstaddrv6</td>
+<td>IPv6 address</td>
+<td>DstAddr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstas</td>
+<td>Unsigned 16-bit integer</td>
+<td>DstAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Destination Mac Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstmask</td>
+<td>Unsigned 8-bit integer</td>
+<td>DstMask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstmaskv6</td>
+<td>Unsigned 8-bit integer</td>
+<td>DstMask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstnet</td>
+<td>IPv4 address</td>
+<td>DstNet</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstnetv6</td>
+<td>IPv6 address</td>
+<td>DstNet</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstport</td>
+<td>Unsigned 16-bit integer</td>
+<td>DstPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.dstprefix</td>
+<td>IPv4 address</td>
+<td>DstPrefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.egress_acl_id</td>
+<td>Byte array</td>
+<td>Egress ACL ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.egress_physical_interface</td>
+<td>Unsigned 32-bit integer</td>
+<td>Egress Physical Interface</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.egress_vrfid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Egress VRFID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.engine_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>EngineId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.engine_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>EngineType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ethernet_header_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ethernet Header Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ethernet_payload_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ethernet Payload Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ethernet_total_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ethernet Total Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ethernet_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ethernet Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.export_interface</td>
+<td>Unsigned 32-bit integer</td>
+<td>ExportInterface</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.export_protocol_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>ExportProtocolVersion</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.export_sctp_stream_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Export Sctp Stream Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporter_addr</td>
+<td>IPv4 address</td>
+<td>ExporterAddr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporter_addr_v6</td>
+<td>IPv6 address</td>
+<td>ExporterAddr</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporter_certificate</td>
+<td>Byte array</td>
+<td>Exporter Certificate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporter_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>ExporterPort</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporter_protocol</td>
+<td>Unsigned 8-bit integer</td>
+<td>ExportTransportProtocol</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.exporttime</td>
+<td>Unsigned 32-bit integer</td>
+<td>ExportTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.field_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Field Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.firewall_event</td>
+<td>Unsigned 8-bit integer</td>
+<td>Firewall Event</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Export Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_active_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow active timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>FlowClass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_end_reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flow End Reason</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_exporter</td>
+<td>Byte array</td>
+<td>FlowExporter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Flow Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flow_inactive_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flow inactive timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flows</td>
+<td>Unsigned 32-bit integer</td>
+<td>Flows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flowset_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>FlowSet Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flowset_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>FlowSet Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.flowsexp</td>
+<td>Unsigned 32-bit integer</td>
+<td>FlowsExp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.forwarding_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>ForwdCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.forwarding_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>ForwdStat</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.fragment_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fragment Offset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.fw_ext_event</td>
+<td>Unsigned 16-bit integer</td>
+<td>Extended firewall event code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_digest_output</td>
+<td>Boolean</td>
+<td>Hash Digest Output</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_initialiser_value</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash Initialiser Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_ippayload_offset</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash IPPayload Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_ippayload_size</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash IPPayload Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_output_range_max</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash Output Range Max</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_output_range_min</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash Output Range Min</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_selected_range_max</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash Selected Range Max</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.hash_selected_range_min</td>
+<td>Unsigned 64-bit integer</td>
+<td>Hash Selected Range Min</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.icmp_ipv4_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv4 ICMP Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.icmp_ipv4_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv4 ICMP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.icmp_ipv6_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv6 ICMP Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.icmp_ipv6_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv6 ICMP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.icmp_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>ICMP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.if_descr</td>
+<td>String</td>
+<td>IfDescr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.if_name</td>
+<td>String</td>
+<td>IfName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.igmp_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>IGMP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ignore_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ignored Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ignore_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Ignored Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ignore_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ignored Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ignore_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Ignored Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_data_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Information Element Data Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_description</td>
+<td>String</td>
+<td>Information Element Description</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Information Element Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_name</td>
+<td>String</td>
+<td>Information Element Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_range_begin</td>
+<td>Unsigned 64-bit integer</td>
+<td>Information Element Range Begin</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_range_end</td>
+<td>Unsigned 64-bit integer</td>
+<td>Information Element Range End</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_semantics</td>
+<td>Unsigned 8-bit integer</td>
+<td>Information Element Semantics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.information_element_units</td>
+<td>Unsigned 16-bit integer</td>
+<td>Information Element Units</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ingress_acl_id</td>
+<td>Byte array</td>
+<td>Ingress ACL ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ingress_physical_interface</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ingress Physical Interface</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ingress_vrfid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Ingress VRFID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.initiator_octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Initiator Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.inputint</td>
+<td>Unsigned 16-bit integer</td>
+<td>InputInt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_dscp</td>
+<td>Unsigned 8-bit integer</td>
+<td>DSCP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_fragment_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Fragment Flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_header_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Header Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_header_words</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPHeaderLen</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_payload_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>IP Payload Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Precedence</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_tos</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP TOS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_total_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>IP Total Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_ttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP TTL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ip_version</td>
+<td>Byte array</td>
+<td>IPVersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv4_ident</td>
+<td>Unsigned 16-bit integer</td>
+<td>IPv4Ident</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv6_exthdr</td>
+<td>Unsigned 32-bit integer</td>
+<td>IPv6 Extension Headers</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv6_next_hdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>IPv6 Next Header</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv6_payload_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>IPv6 Payload Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv6flowlabel</td>
+<td>Unsigned 32-bit integer</td>
+<td>ipv6FlowLabel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ipv6flowlabel24</td>
+<td>Unsigned 32-bit integer</td>
+<td>ipv6FlowLabel</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.is_multicast</td>
+<td>Unsigned 8-bit integer</td>
+<td>IsMulticast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.length_max</td>
+<td>Unsigned 16-bit integer</td>
+<td>MaxLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.length_min</td>
+<td>Unsigned 16-bit integer</td>
+<td>MinLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.lower_cilimit</td>
+<td>Unknown</td>
+<td>Lower CILimit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.max_export_seconds</td>
+<td>Date/Time stamp</td>
+<td>Max Export Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.max_flow_end_microseconds</td>
+<td>Byte array</td>
+<td>Max Flow End Microseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.max_flow_end_milliseconds</td>
+<td>Date/Time stamp</td>
+<td>Max Flow End Milliseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.max_flow_end_nanoseconds</td>
+<td>Byte array</td>
+<td>Max Flow End Nanoseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.max_flow_end_seconds</td>
+<td>Date/Time stamp</td>
+<td>Max Flow End Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.message_md5_checksum</td>
+<td>Byte array</td>
+<td>Message MD5 Checksum</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.message_scope</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Scope</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.metro_evc_id</td>
+<td>String</td>
+<td>Metro Evc Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.metro_evc_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Metro Evc Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.min_export_seconds</td>
+<td>Date/Time stamp</td>
+<td>Min Export Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.min_flow_start_microseconds</td>
+<td>Byte array</td>
+<td>Min Flow Start Microseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.min_flow_start_milliseconds</td>
+<td>Date/Time stamp</td>
+<td>Min Flow Start Milliseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.min_flow_start_nanoseconds</td>
+<td>Byte array</td>
+<td>Min Flow Start Nanoseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.min_flow_start_seconds</td>
+<td>Date/Time stamp</td>
+<td>Min Flow Start Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mp_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Metering Process Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_label_depth</td>
+<td>Unsigned 32-bit integer</td>
+<td>MPLS Label Stack Depth</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_label_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>MPLS Label Stack Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_label_stack_section</td>
+<td>Byte array</td>
+<td>Mpls Label Stack Section</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_payload_packet_section</td>
+<td>Byte array</td>
+<td>Mpls Payload Packet Section</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_top_label_exp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MPLS Top Label Exp</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_top_label_prefix_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mpls Top Label Prefix Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_top_label_ttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>MPLS Top Label TTL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mpls_vpn_rd</td>
+<td>Byte array</td>
+<td>MPLS VPN RD</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.muloctets</td>
+<td>Unsigned 32-bit integer</td>
+<td>MulticastOctets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.mulpackets</td>
+<td>Unsigned 32-bit integer</td>
+<td>MulticastPackets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.multicast_replication_factor</td>
+<td>Byte array</td>
+<td>Multicast Replication Factor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.nat_event</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nat Event</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.nat_originating_address_realm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nat Originating Address Realm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.nexthop</td>
+<td>IPv4 address</td>
+<td>NextHop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.nexthopv6</td>
+<td>IPv6 address</td>
+<td>NextHop</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_flows</td>
+<td>Unsigned 32-bit integer</td>
+<td>Not Sent Flows</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_flows64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Not Sent Flows</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Not Sent Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Not Sent Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Not Sent Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.notsent_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Not Sent Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.observation_point_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Observation Point Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.observation_time_microseconds</td>
+<td>Byte array</td>
+<td>Observation Time Microseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.observation_time_milliseconds</td>
+<td>Date/Time stamp</td>
+<td>Observation Time Milliseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.observation_time_nanoseconds</td>
+<td>Byte array</td>
+<td>Observation Time Nanoseconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.observation_time_seconds</td>
+<td>Date/Time stamp</td>
+<td>Observation Time Seconds</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Octets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Octets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.octets_squared</td>
+<td>Unsigned 64-bit integer</td>
+<td>OctetsSquared</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.octetsexp</td>
+<td>Unsigned 32-bit integer</td>
+<td>OctetsExp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.od_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Observation Domain Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.opaque_octets</td>
+<td>Byte array</td>
+<td>Opaque Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.option_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Option Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.option_map</td>
+<td>Byte array</td>
+<td>OptionMap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.option_scope_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Option Scope Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.options_flowset_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Options FlowSet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.outputint</td>
+<td>Unsigned 16-bit integer</td>
+<td>OutputInt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.packetsexp</td>
+<td>Unsigned 32-bit integer</td>
+<td>PacketsExp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.packetsout</td>
+<td>Unsigned 64-bit integer</td>
+<td>PacketsOut</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>cflow.peer_dstas</td>
+<td>Unsigned 16-bit integer</td>
+<td>PeerDstAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.peer_srcas</td>
+<td>Unsigned 16-bit integer</td>
+<td>PeerSrcAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localaddr4</td>
+<td>IPv4 address</td>
+<td>Local IPv4 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localaddr6</td>
+<td>IPv6 address</td>
+<td>Local IPv6 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localcmd</td>
+<td>String</td>
+<td>Local Command</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localcmdlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Command Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localicmpid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local ICMP ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localip4id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local IPv4 ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localpid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local Process ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localuid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local User ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localusername</td>
+<td>String</td>
+<td>Local User Name</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.localusernamelen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local Username Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.remoteaddr4</td>
+<td>IPv4 address</td>
+<td>Remote IPv4 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.remoteaddr6</td>
+<td>IPv6 address</td>
+<td>Remote IPv6 Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pie.cace.remoteport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Remote Port</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.port_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Port Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_dot1q_customer_vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Post Dot1q Customer Vlan Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_dot1q_vlan_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Post Dot1q Vlan Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_dstmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Post Destination Mac Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_ip_diff_serv_code_point</td>
+<td>Unsigned 8-bit integer</td>
+<td>Post Ip Diff Serv Code Point</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_ip_precedence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Post Ip Precedence</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_key</td>
+<td>Boolean</td>
+<td>floKeyIndicator</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_mpls_top_label_exp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Post Mpls Top Label Exp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_naptdestination_transport_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Post NAPT Destination Transport Port</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_naptsource_transport_port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Post NAPT Source Transport Port</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_natdestination_ipv4_address</td>
+<td>IPv4 address</td>
+<td>Post NAT Destination IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_natsource_ipv4_address</td>
+<td>IPv4 address</td>
+<td>Post NAT Source IPv4 Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_srcmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Post Source Mac Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_tos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Post IP ToS</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_muloctets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Total Multicast Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_muloctets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Total Multicast Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_mulpackets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Total Multicast Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_mulpackets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Total Multicast Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_octets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Total Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_octets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Total Octets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_packets</td>
+<td>Unsigned 32-bit integer</td>
+<td>Post Total Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_total_packets64</td>
+<td>Unsigned 64-bit integer</td>
+<td>Post Total Packets</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.post_vlanid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Post Vlan Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.private_enterprise_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Private Enterprise Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.protocol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pseudo_wire_control_word</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pseudo Wire Control Word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pseudo_wire_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Pseudo Wire Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.pseudo_wire_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Pseudo Wire Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.relative_error</td>
+<td>Unknown</td>
+<td>Relative Error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.responder_octets</td>
+<td>Unsigned 64-bit integer</td>
+<td>Responder Octets</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.routersc</td>
+<td>IPv4 address</td>
+<td>Router Shortcut</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampler_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>SamplerMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampler_name</td>
+<td>String</td>
+<td>SamplerName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampler_random_interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>SamplerRandomInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.samplerate</td>
+<td>Unsigned 16-bit integer</td>
+<td>SampleRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_algorithm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sampling algorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_packet_interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Packet Interval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_packet_space</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Packet Space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_population</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Population</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_probability</td>
+<td>Unknown</td>
+<td>Sampling Probability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_time_interval</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Time Interval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sampling_time_space</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sampling Time Space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.samplingmode</td>
+<td>Unsigned 16-bit integer</td>
+<td>SamplingMode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope</td>
+<td>Byte array</td>
+<td>Scope Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_cache</td>
+<td>Byte array</td>
+<td>ScopeCache</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_field_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scope Field Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_field_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scope Field Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_field_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scope Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_interface</td>
+<td>Unsigned 32-bit integer</td>
+<td>ScopeInterface</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_linecard</td>
+<td>Byte array</td>
+<td>ScopeLinecard</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_system</td>
+<td>IPv4 address</td>
+<td>ScopeSystem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.scope_template</td>
+<td>Byte array</td>
+<td>ScopeTemplate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.section_header</td>
+<td>Byte array</td>
+<td>SectionHeader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.section_payload</td>
+<td>Byte array</td>
+<td>SectionPayload</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selection_sequence_id</td>
+<td>Unsigned 64-bit integer</td>
+<td>Selection Sequence Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selector_algorithm</td>
+<td>Unsigned 16-bit integer</td>
+<td>Selector Algorithm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selector_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Selector Id</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selector_id_total_pkts_observed</td>
+<td>Unsigned 64-bit integer</td>
+<td>Selector Id Total Pkts Observed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selector_id_total_pkts_selected</td>
+<td>Unsigned 64-bit integer</td>
+<td>Selector Id Total Pkts Selected</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.selector_name</td>
+<td>String</td>
+<td>Selector Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sequence</td>
+<td>Unsigned 32-bit integer</td>
+<td>FlowSequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.session_scope</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session Scope</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.source_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>SourceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcaddr</td>
+<td>IPv4 address</td>
+<td>SrcAddr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcaddrv6</td>
+<td>IPv6 address</td>
+<td>SrcAddr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcas</td>
+<td>Unsigned 16-bit integer</td>
+<td>SrcAS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcmac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>Source Mac Address</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcmask</td>
+<td>Unsigned 8-bit integer</td>
+<td>SrcMask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcmaskv6</td>
+<td>Unsigned 8-bit integer</td>
+<td>SrcMask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcnet</td>
+<td>IPv4 address</td>
+<td>SrcNet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcnetv6</td>
+<td>IPv6 address</td>
+<td>SrcNet</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcport</td>
+<td>Unsigned 16-bit integer</td>
+<td>SrcPort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.srcprefix</td>
+<td>IPv4 address</td>
+<td>SrcPrefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.sysuptime</td>
+<td>Unsigned 32-bit integer</td>
+<td>SysUptime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_header_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>TCP Header Length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_option_map</td>
+<td>Byte array</td>
+<td>TCP OptionMap</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_seq_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>TCP Sequence Number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_urg_ptr</td>
+<td>Unsigned 32-bit integer</td>
+<td>TCP Urgent Pointer</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_window_scale</td>
+<td>Unsigned 16-bit integer</td>
+<td>Tcp Window Scale</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcp_windows_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>TCP Windows Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tcpflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>TCP Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_field_count</td>
+<td>Unsigned 16-bit integer</td>
+<td>Field Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_field_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_field_pen</td>
+<td>Unsigned 32-bit integer</td>
+<td>PEN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_field_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_flowset_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Template FlowSet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.template_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Template Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.timedelta</td>
+<td>Time duration</td>
+<td>Duration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.timeend</td>
+<td>Time duration</td>
+<td>EndTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.timestamp</td>
+<td>Date/Time stamp</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.timestart</td>
+<td>Time duration</td>
+<td>StartTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.toplabeladdr</td>
+<td>IPv4 address</td>
+<td>TopLabelAddr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.toplabeltype</td>
+<td>Unsigned 8-bit integer</td>
+<td>TopLabelType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.tos</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP ToS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_ack</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP ack</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_fin</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP fin</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_psh</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP psh</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_rst</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP rst</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_syn</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP syn</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.total_tcp_urg</td>
+<td>Unsigned 64-bit integer</td>
+<td>Total TCP urg</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ttl_max</td>
+<td>Unsigned 8-bit integer</td>
+<td>MaxTTL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.ttl_min</td>
+<td>Unsigned 8-bit integer</td>
+<td>MinTTL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.udp_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>UDP Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.unix_nsecs</td>
+<td>Unsigned 32-bit integer</td>
+<td>CurrentNSecs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.unix_secs</td>
+<td>Unsigned 32-bit integer</td>
+<td>CurrentSecs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.upper_cilimit</td>
+<td>Unknown</td>
+<td>Upper CILimit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.vlanid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Vlan Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.vrfname</td>
+<td>String</td>
+<td>VRFname</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.wlan_channel_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Wireless LAN Channel Id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>cflow.wlan_ssid</td>
+<td>String</td>
+<td>Wireless LAN SSId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

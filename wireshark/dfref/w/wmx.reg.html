@@ -1,0 +1,1076 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: WiMax REG-REQ/RSP Messages</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: WiMax REG-REQ/RSP Messages</h1>
+<div><b>Protocol field name:</b> wmx.reg</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>wimax.reg.bandwidth_request_ul_tx_pwr_report_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bandwidth request and UL Tx Power Report header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.block_lifetime</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Block Lifetime (10us granularity)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.block_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Block Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.deliver_in_order</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARQ Deliver In Order</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARQ Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.max_block_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARQ Maximum Block Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.min_block_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>ARQ Minimum Block Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.receiver_delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Receiver Delay (10us granularity)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.rx_purge_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ RX Purge Timeout (100us granularity)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.sync_loss_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Sync Loss Timeout (10us granularity)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.transmitter_delay</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Transmitter Delay (10us granularity)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.arq.window_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>ARQ Window Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.reg_req</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.macmgtmsgtype.reg_rsp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAC Management Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.alloc_sec_mgmt_dhcp</td>
+<td>Boolean</td>
+<td>DHCP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.alloc_sec_mgmt_dhcpv6</td>
+<td>Boolean</td>
+<td>DHCPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.alloc_sec_mgmt_ipv6</td>
+<td>Boolean</td>
+<td>IPv6 Stateless Address Autoconfiguration</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.alloc_sec_mgmt_mobile_ipv4</td>
+<td>Boolean</td>
+<td>Mobile IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.alloc_sec_mgmt_rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq</td>
+<td>Boolean</td>
+<td>ARQ support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq_ack_type_cumulative_ack_entry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cumulative ACK entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq_ack_type_cumulative_ack_with_block_sequence_ack</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cumulative ACK with Block Sequence ACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq_ack_type_cumulative_with_selective_ack_entry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cumulative with Selective ACK entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq_ack_type_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.arq_ack_type_selective_ack_entry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Selective ACK entry</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.bandwidth_request_cinr_report_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bandwidth request and CINR report header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.bandwidth_request_ul_sleep_control_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bandwidth request and uplink sleep control header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.cqich_allocation_request_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>CQICH Allocation Request header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.dl_cids_supported</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Downlink transport CIDs the SS can support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.dl_sleep_control_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>Downlink sleep control extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.dsx_flow_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>DSx flow control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_802_1q</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, 802.1Q VLAN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_802_3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, 802.3/Ethernet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_atm</td>
+<td>Unsigned 16-bit integer</td>
+<td>ATM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv4_802_1q</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv4 over 802.1Q VLAN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv4_802_3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv4 over 802.3/Ethernet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv6</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv6_802_1q</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv6 over 802.1Q VLAN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_ipv6_802_3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IPv6 over 802.3/Ethernet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_packet_802_3_ethernet_and_ecrtp_header_compression</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, 802.3/Ethernet (with optional 802.1Q VLAN tags) and ECRTP header compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_packet_802_3_ethernet_and_rohc_header_compression</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, 802.3/Ethernet (with optional 802.1Q VLAN tags) and ROHC header compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_packet_ip_ecrtp_header_compression</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IP (v4 or v6) with ECRTP header compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_packet_ip_rohc_header_compression</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet, IP (v4 or v6) with ROHC header compression</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.encap_rsvd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ext_rtps_support</td>
+<td>Boolean</td>
+<td>MAC extended rtPS support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.fbss_mdho_dl_rf_combining</td>
+<td>Boolean</td>
+<td>FBSS/MDHO DL RF Combining with monitoring MAPs from active BSs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.fbss_mdho_ho_disable</td>
+<td>Boolean</td>
+<td>MDHO/FBSS HO. BS ignore all other bits when set to 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.feedback_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>Feedback header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.feedback_request_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>Feedback request extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.handover_indication_readiness_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>Handover indication readiness timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.handover_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ho_connections_param_processing_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS HO connections parameters processing time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ho_process_opt_ms_timer</td>
+<td>Unsigned 8-bit integer</td>
+<td>HO Process Optimization MS Timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ho_tek_processing_time</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS HO TEK processing time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.idle_mode_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Idle Mode Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ip_mgmt_mode</td>
+<td>Boolean</td>
+<td>IP management mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ip_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mac_address</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC Address of the SS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mac_crc_support</td>
+<td>Boolean</td>
+<td>MAC CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.max_classifiers</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum number of classification rules</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.max_num_bursts_to_ms</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum number of bursts transmitted concurrently to the MS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mca_flow_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>MCA flow control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mcast_polling_cids</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multicast polling group CID support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mdh_ul_multiple</td>
+<td>Boolean</td>
+<td>MDHO UL Multiple transmission</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mdho_dl_monitor_maps</td>
+<td>Boolean</td>
+<td>MDHO DL soft combining with monitoring MAPs from active BSs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mdho_dl_monitor_single_map</td>
+<td>Boolean</td>
+<td>MDHO DL soft Combining with monitoring single MAP from anchor BS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mimo_mode_feedback_request_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>MIMO mode feedback request extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mini_feedback_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>Mini-feedback extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mobility_handover</td>
+<td>Boolean</td>
+<td>Mobility (handover)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mobility_idle_mode</td>
+<td>Boolean</td>
+<td>Idle mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.mobility_sleep_mode</td>
+<td>Boolean</td>
+<td>Sleep mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.multi_active_power_saving_classes</td>
+<td>Boolean</td>
+<td>Multiple active power saving classes supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.packing.support</td>
+<td>Boolean</td>
+<td>Packing support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.pdu_sn_long_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>PDU SN (long) extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.pdu_sn_short_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>PDU SN (short) extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.phs</td>
+<td>Unsigned 8-bit integer</td>
+<td>PHS support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.phy_channel_report_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>PHY channel report header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.power_saving_class_type_i</td>
+<td>Boolean</td>
+<td>Power saving class type I supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.power_saving_class_type_ii</td>
+<td>Boolean</td>
+<td>Power saving class type II supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.power_saving_class_type_iii</td>
+<td>Boolean</td>
+<td>Power saving class type III supported</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.reserved</td>
+<td>Unsigned 24-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.sdu_sn_extended_subheader_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>SDU_SN extended subheader support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.sdu_sn_parameter</td>
+<td>Unsigned 24-bit integer</td>
+<td>SDU_SN parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.sn_report_header_support</td>
+<td>Unsigned 24-bit integer</td>
+<td>SN report header support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.sn_request_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>SN request extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ss_mgmt_support</td>
+<td>Boolean</td>
+<td>SS management support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ul_cids_supported</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Uplink transport CIDs the SS can support</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.ul_tx_power_report_extended_subheader</td>
+<td>Unsigned 24-bit integer</td>
+<td>UL Tx power report extended subheader</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.max_mac_dl_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum MAC level DL data per frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.max_mac_ul_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum MAC level UL data per frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.min_time_for_inter_fa</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum time for inter-FA HO, default=3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.min_time_for_intra_fa</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum time for intra-FA HO, default=2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.ms_periodic_ranging_timer_info</td>
+<td>Unsigned 8-bit integer</td>
+<td>MS periodic ranging timer information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.ms_prev_ip_addr_v4</td>
+<td>IPv4 address</td>
+<td>MS Previous IP address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.ms_prev_ip_addr_v6</td>
+<td>IPv6 address</td>
+<td>MS Previous IP address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.secondary_mgmt_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Secondary Management CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.sleep_recovery</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frames required for the MS to switch from sleep to awake-mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_req.total_power_saving_class_instances</td>
+<td>Unsigned 16-bit integer</td>
+<td>Total number of power saving class instances of all</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.invalid_tlv</td>
+<td>Byte array</td>
+<td>Invalid TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.new_cid_after_ho</td>
+<td>Unsigned 16-bit integer</td>
+<td>New CID after handover to new BS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.response</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.secondary_mgmt_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Secondary Management CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.service_flow_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service flow ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.system_resource_retain_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>System Resource Retain Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.tlv_value</td>
+<td>Byte array</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.total_provisional_sf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Total Number of Provisional Service Flow</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.reg_rsp.unknown_tlv_type</td>
+<td>Byte array</td>
+<td>Unknown TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.authorization_token</td>
+<td>Byte array</td>
+<td>Authorization Token</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.cid_alloc_for_active_bs</td>
+<td>Byte array</td>
+<td>CID Allocation For Active BSs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.cid_alloc_for_active_bs_cid</td>
+<td>Unsigned 16-bit integer</td>
+<td>CID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.cs_specification</td>
+<td>Unsigned 8-bit integer</td>
+<td>CS Specification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.fixed_len_sdu</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fixed/Variable Length SDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.fsn_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>FSN Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.global_service_class_name</td>
+<td>String</td>
+<td>Global Service Class Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.harq_channel_mapping</td>
+<td>Byte array</td>
+<td>HARQ Channel Mapping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.harq_channel_mapping.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ Channel Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.harq_service_flows</td>
+<td>Unsigned 8-bit integer</td>
+<td>HARQ Service Flows</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.jitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tolerated Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.max_latency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.max_traffic_burst</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Traffic Burst</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.mbs_contents_ids</td>
+<td>Byte array</td>
+<td>MBS contents IDs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.mbs_contents_ids_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>MBS Contents ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.mbs_service</td>
+<td>Unsigned 8-bit integer</td>
+<td>MBS Service</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.mbs_zone_identifier</td>
+<td>Byte array</td>
+<td>MBS Zone Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.mrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minimum Reserved Traffic Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.msr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Sustained Traffic Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.paging_preference</td>
+<td>Unsigned 8-bit integer</td>
+<td>Paging Preference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.pdu_sn_ext_subheader_reorder</td>
+<td>Unsigned 8-bit integer</td>
+<td>PDU SN Extended Subheader For HARQ Reordering</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.bit1</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Use Multicast Bandwidth Request Opportunities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.broadcast_bwr</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Use Broadcast Bandwidth Request Opportunities</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.crc</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Include CRC In The MAC PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.fragment</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Fragment Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.headers</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Suppress Payload Headers</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.packing</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Pack Multiple SDUs (Or Fragments) Into Single MAC PDUs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.piggyback</td>
+<td>Boolean</td>
+<td>The Service Flow Shall Not Piggyback Requests With Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.policy.rsvd1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.qos_params_set</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS Parameter Set Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.qos_params_set.active</td>
+<td>Boolean</td>
+<td>Active Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.qos_params_set.admitted</td>
+<td>Boolean</td>
+<td>Admitted Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.qos_params_set.provisioned</td>
+<td>Boolean</td>
+<td>Provisioned Set</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.qos_params_set.rsvd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.req_tx_policy</td>
+<td>Unsigned 32-bit integer</td>
+<td>Request/Transmission Policy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.reserved_10</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.reserved_34</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.reserved_36</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.sdu_inter_arrival_interval</td>
+<td>Unsigned 16-bit integer</td>
+<td>SDU Inter-Arrival Interval (in the resolution of 0.5 ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.sdu_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>SDU Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.service_class_name</td>
+<td>String</td>
+<td>Service Class Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.sf_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Service Flow ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.sn_feedback_enabled</td>
+<td>Unsigned 8-bit integer</td>
+<td>SN Feedback</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.target_said</td>
+<td>Unsigned 16-bit integer</td>
+<td>SAID Onto Which SF Is Mapped</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.time_base</td>
+<td>Unsigned 16-bit integer</td>
+<td>Time Base</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.traffic_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Traffic Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.type_of_data_delivery_services</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Data Delivery Services</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.unknown_type</td>
+<td>Byte array</td>
+<td>Unknown SFE TLV type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.unsolicited_grant_interval</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unsolicited Grant Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.unsolicited_polling_interval</td>
+<td>Unsigned 16-bit integer</td>
+<td>Unsolicited Polling Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>wmx.sfe.uplink_grant_scheduling</td>
+<td>Unsigned 8-bit integer</td>
+<td>Uplink Grant Scheduling Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

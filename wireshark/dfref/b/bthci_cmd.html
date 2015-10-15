@@ -1,0 +1,1202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Bluetooth HCI Command</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Bluetooth HCI Command</h1>
+<div><b>Protocol field name:</b> bthci_cmd</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>bthci_cmd.afh_ch_assessment_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>AFH Channel Assessment Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.afh_ch_classification</td>
+<td>None</td>
+<td>Channel Classification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.air_coding_format</td>
+<td>Unsigned 16-bit integer</td>
+<td>Air Coding Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.allow_role_switch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Allow Role Switch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.auth_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.auth_requirements</td>
+<td>Unsigned 8-bit integer</td>
+<td>Authentication Requirements</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.auto_accept_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Auto Accept Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.bd_addr</td>
+<td>None</td>
+<td>BD_ADDR:</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.beacon_max_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beacon Max Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.beacon_min_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beacon Min Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.class_of_device</td>
+<td>Unsigned 24-bit integer</td>
+<td>Class of Device</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.class_of_device_mask</td>
+<td>Unsigned 24-bit integer</td>
+<td>Class of Device Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.clock_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Clock Offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.clock_offset_valid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Clock_Offset_Valid_Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.connection_handle</td>
+<td>Unsigned 16-bit integer</td>
+<td>Connection Handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.delay_variation</td>
+<td>Unsigned 32-bit integer</td>
+<td>Delay Variation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.delete_all_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delete All Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.device_name</td>
+<td>String</td>
+<td>Device Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.eir_data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.eir_data_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.eir_struct_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.encrypt_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encryption Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.encryption_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encryption Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.err_data_reporting</td>
+<td>Unsigned 8-bit integer</td>
+<td>Erroneous Data Reporting</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_00</td>
+<td>Unsigned 8-bit integer</td>
+<td>Inquiry Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_01</td>
+<td>Unsigned 8-bit integer</td>
+<td>Inquiry Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_02</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connect Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_03</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connect Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_04</td>
+<td>Unsigned 8-bit integer</td>
+<td>Disconnect Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_05</td>
+<td>Unsigned 8-bit integer</td>
+<td>Auth Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_06</td>
+<td>Unsigned 8-bit integer</td>
+<td>Remote Name Req Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_07</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encrypt Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_10</td>
+<td>Unsigned 8-bit integer</td>
+<td>Change Connection Link Key Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_11</td>
+<td>Unsigned 8-bit integer</td>
+<td>Master Link Key Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_12</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read Remote Supported Features</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_13</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read Remote Ver Info Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_14</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS Setup Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_17</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hardware Error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_20</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flush Occurred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_21</td>
+<td>Unsigned 8-bit integer</td>
+<td>Role Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_23</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mode Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_24</td>
+<td>Unsigned 8-bit integer</td>
+<td>Return Link Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_25</td>
+<td>Unsigned 8-bit integer</td>
+<td>PIN Code Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_26</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Key Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_27</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Key Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_30</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_31</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Buffer Overflow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_32</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Slots Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_33</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read Clock Offset Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_34</td>
+<td>Unsigned 8-bit integer</td>
+<td>Connection Packet Type Changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_35</td>
+<td>Unsigned 8-bit integer</td>
+<td>QoS Violation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_36</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Scan Mode Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_37</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Scan Repetition Mode Change</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_40</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flow Specification Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_41</td>
+<td>Unsigned 8-bit integer</td>
+<td>Inquiry Result With RSSI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_42</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read Remote Ext. Features Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_53</td>
+<td>Unsigned 8-bit integer</td>
+<td>Synchronous Connection Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_54</td>
+<td>Unsigned 8-bit integer</td>
+<td>Synchronous Connection Changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_55</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sniff Subrate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_56</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Inquiry Result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_57</td>
+<td>Unsigned 8-bit integer</td>
+<td>Encryption Key Refresh Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_60</td>
+<td>Unsigned 8-bit integer</td>
+<td>IO Capability Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_61</td>
+<td>Unsigned 8-bit integer</td>
+<td>IO Capability Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_62</td>
+<td>Unsigned 8-bit integer</td>
+<td>User Confirmation Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_63</td>
+<td>Unsigned 8-bit integer</td>
+<td>User Passkey Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_64</td>
+<td>Unsigned 8-bit integer</td>
+<td>Remote OOB Data Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_65</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Pairing Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_67</td>
+<td>Unsigned 8-bit integer</td>
+<td>Link Supervision Timeout Changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_70</td>
+<td>Unsigned 8-bit integer</td>
+<td>Enhanced Flush Complete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_72</td>
+<td>Unsigned 8-bit integer</td>
+<td>User Passkey Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.evt_mask_73</td>
+<td>Unsigned 8-bit integer</td>
+<td>Keypress Notification</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.fec_required</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.filter_condition_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter Condition Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.filter_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Filter Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.flow_contr_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flow Control Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.flow_control</td>
+<td>Unsigned 8-bit integer</td>
+<td>SCO Flow Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.flush_packet_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hash_c</td>
+<td>Unsigned 16-bit integer</td>
+<td>Hash C</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hold_mode_inquiry</td>
+<td>Unsigned 8-bit integer</td>
+<td>Suspend Inquiry Scan</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hold_mode_max_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Hold Mode Max Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hold_mode_min_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Hold Mode Min Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hold_mode_page</td>
+<td>Unsigned 8-bit integer</td>
+<td>Suspend Page Scan</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.hold_mode_periodic</td>
+<td>Unsigned 8-bit integer</td>
+<td>Suspend Periodic Inquiries</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.input_coding</td>
+<td>Unsigned 16-bit integer</td>
+<td>Input Coding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.input_data_format</td>
+<td>Unsigned 16-bit integer</td>
+<td>Input Data Format</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.input_sample_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Input Sample Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.inq_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Inquiry Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.inq_scan_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scan Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.interval</td>
+<td>Unsigned 16-bit integer</td>
+<td>Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.io_capability</td>
+<td>Unsigned 8-bit integer</td>
+<td>IO Capability</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.key_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.lap</td>
+<td>Unsigned 24-bit integer</td>
+<td>LAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.latency</td>
+<td>Unsigned 32-bit integer</td>
+<td>Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.lin_pcm_bit_pos</td>
+<td>Unsigned 16-bit integer</td>
+<td>Linear PCM Bit Pos</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.link_key</td>
+<td>Byte array</td>
+<td>Link Key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.link_policy_hold</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enable Hold Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.link_policy_park</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enable Park Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.link_policy_sniff</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enable Sniff Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.link_policy_switch</td>
+<td>Unsigned 16-bit integer</td>
+<td>Enable Master Slave Switch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.loopback_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loopback Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_data_length_acl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Host ACL Data Packet Length (bytes)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_data_length_sco</td>
+<td>Unsigned 8-bit integer</td>
+<td>Host SCO Data Packet Length (bytes)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_data_num_acl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Host Total Num ACL Data Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_data_num_sco</td>
+<td>Unsigned 16-bit integer</td>
+<td>Host Total Num SCO Data Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_latency</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max. Latency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_latency_ms</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max. Latency (ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.max_period_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max Period Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.min_local_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min. Local Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.min_period_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min Period Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.min_remote_timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Min. Remote Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.notification_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Notification Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.num_broad_retran</td>
+<td>Unsigned 8-bit integer</td>
+<td>Num Broadcast Retran</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.num_compl_packets</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Completed Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.num_curr_iac</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Current IAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.num_handles</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Handles</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.num_responses</td>
+<td>Unsigned 8-bit integer</td>
+<td>Num Responses</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.ocf</td>
+<td>Unsigned 16-bit integer</td>
+<td>ocf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.ogf</td>
+<td>Unsigned 16-bit integer</td>
+<td>ogf</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.oob_data_present</td>
+<td>Unsigned 8-bit integer</td>
+<td>OOB Data Present</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.opcode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Command Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_2dh1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 2-DH1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_2dh3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 2-DH3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_2dh5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 2-DH5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_3dh1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 3-DH1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_3dh3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 3-DH3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_3dh5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 3-DH5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dh1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DH1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dh3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DH3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dh5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DH5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dm1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DM1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dm3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DM3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_dm5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type DM5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_hv1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_hv2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.packet_type_hv3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.page_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.page_scan_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Scan Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.page_scan_period_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Scan Period Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.page_scan_repetition_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Page Scan Repetition Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.param_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter Total Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.params</td>
+<td>Byte array</td>
+<td>Command Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.passkey</td>
+<td>Unsigned 32-bit integer</td>
+<td>Passkey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.peak_bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>Peak Bandwidth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.pin_code</td>
+<td>String</td>
+<td>PIN Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.pin_code_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>PIN Code Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.pin_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>PIN Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.power_level</td>
+<td>Signed 8-bit integer</td>
+<td>Power Level (dBm)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.power_level_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.randomizer_r</td>
+<td>Unsigned 16-bit integer</td>
+<td>Randomizer R</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.read_all_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Read All Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.reason</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.retransmission_effort</td>
+<td>Unsigned 8-bit integer</td>
+<td>Retransmission Effort</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.role</td>
+<td>Unsigned 8-bit integer</td>
+<td>Role</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.rx_bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>Rx Bandwidth (bytes/s)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.scan_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scan Enable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_2ev3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 2-EV3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_2ev5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 2-EV5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_3ev3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 3-EV3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_3ev5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type 3-EV5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_ev3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type EV3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_ev4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type EV4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_ev5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type EV5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_hv1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_hv2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sco_packet_type_hv3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Packet Type HV3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.service_class_uuid128</td>
+<td>Byte array</td>
+<td>UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.service_class_uuid16</td>
+<td>Unsigned 16-bit integer</td>
+<td>UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.service_class_uuid32</td>
+<td>Unsigned 32-bit integer</td>
+<td>UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.service_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.simple_pairing_debug_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Pairing Debug Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.simple_pairing_mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Simple Pairing Mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sniff_attempt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sniff Attempt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sniff_max_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sniff Max Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.sniff_min_int</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sniff Min Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.timeout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.token_bucket_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Available Token Bucket Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.token_rate</td>
+<td>Unsigned 32-bit integer</td>
+<td>Available Token Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.tx_bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tx Bandwidth (bytes/s)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.which_clock</td>
+<td>Unsigned 8-bit integer</td>
+<td>Which Clock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd.window</td>
+<td>Unsigned 16-bit integer</td>
+<td>Interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>bthci_cmd_num_link_keys</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Link Keys</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

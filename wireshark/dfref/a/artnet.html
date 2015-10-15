@@ -1,0 +1,956 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Art-Net</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Art-Net</h1>
+<div><b>Protocol field name:</b> artnet</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>artner.tod_control</td>
+<td>None</td>
+<td>ArtTodControl packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address</td>
+<td>None</td>
+<td>ArtAddress packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.long_name</td>
+<td>String</td>
+<td>Long Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.short_name</td>
+<td>String</td>
+<td>Short Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.subswitch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subswitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swin</td>
+<td>None</td>
+<td>Input Subswitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swin_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swin_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swin_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swin_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swout</td>
+<td>None</td>
+<td>Output Subswitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swout_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swout_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swout_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swout_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.address.swvideo</td>
+<td>Unsigned 8-bit integer</td>
+<td>SwVideo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.filler</td>
+<td>Byte array</td>
+<td>filler</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_master</td>
+<td>None</td>
+<td>ArtFirmwareMaster packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_master.block_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_master.data</td>
+<td>Byte array</td>
+<td>data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_master.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_master.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_reply</td>
+<td>None</td>
+<td>ArtFirmwareReply packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.firmware_reply.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.header</td>
+<td>None</td>
+<td>Descriptor Header</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.header.id</td>
+<td>String</td>
+<td>ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.header.opcode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Opcode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.header.protver</td>
+<td>Unsigned 16-bit integer</td>
+<td>ProVer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input</td>
+<td>None</td>
+<td>ArtInput packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.input</td>
+<td>None</td>
+<td>Port Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.input_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.input_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.input_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.input_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.input.num_ports</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Ports</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog</td>
+<td>None</td>
+<td>ArtIpProg packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_prog_enable</td>
+<td>Unsigned 8-bit integer</td>
+<td>Enable Programming</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_prog_ip</td>
+<td>Unsigned 8-bit integer</td>
+<td>Program IP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_prog_port</td>
+<td>Unsigned 8-bit integer</td>
+<td>Program Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_prog_sm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Program Subnet Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_reset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reset parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.command_unused</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.ip</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog.sm</td>
+<td>IPv4 address</td>
+<td>Subnet mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog_reply</td>
+<td>None</td>
+<td>ArtIpProgReplay packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog_reply.ip</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog_reply.port</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.ip_prog_reply.sm</td>
+<td>IPv4 address</td>
+<td>Subnet mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output</td>
+<td>None</td>
+<td>ArtDMX packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.data</td>
+<td>None</td>
+<td>DMX data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.data_filter</td>
+<td>Byte array</td>
+<td>DMX data filter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.dmx_data</td>
+<td>None</td>
+<td>DMX data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.physical</td>
+<td>Unsigned 8-bit integer</td>
+<td>Physical</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.sequence</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.output.universe</td>
+<td>Unsigned 16-bit integer</td>
+<td>Universe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll</td>
+<td>None</td>
+<td>ArtPoll packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll.talktome</td>
+<td>Unsigned 8-bit integer</td>
+<td>TalkToMe</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll.talktome_reply_dest</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reply destination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll.talktome_reply_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reply type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll.talktome_unused</td>
+<td>Unsigned 8-bit integer</td>
+<td>unused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply</td>
+<td>None</td>
+<td>ArtPollReply packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.esta_man</td>
+<td>Unsigned 16-bit integer</td>
+<td>ESTA Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_input</td>
+<td>None</td>
+<td>Input Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_input_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input status of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_input_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input status of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_input_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input status of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_input_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input status of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_output</td>
+<td>None</td>
+<td>Output Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_output_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output status of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_output_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output status of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_output_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output status of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.good_output_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output status of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.ip_address</td>
+<td>IPv4 address</td>
+<td>IP Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.long_name</td>
+<td>String</td>
+<td>Long Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.node_report</td>
+<td>String</td>
+<td>Node Report</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.num_ports</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Ports</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.oem</td>
+<td>Unsigned 16-bit integer</td>
+<td>Oem</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_info</td>
+<td>None</td>
+<td>Port Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_nr</td>
+<td>Unsigned 16-bit integer</td>
+<td>Port number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_types</td>
+<td>None</td>
+<td>Port Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_types_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_types_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_types_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.port_types_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.short_name</td>
+<td>String</td>
+<td>Short Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.subswitch</td>
+<td>Unsigned 16-bit integer</td>
+<td>SubSwitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swin</td>
+<td>None</td>
+<td>Input Subswitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swin_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swin_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swin_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swin_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Input Subswitch of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swmacro</td>
+<td>Unsigned 8-bit integer</td>
+<td>SwMacro</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swout</td>
+<td>None</td>
+<td>Output Subswitch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swout_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swout_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swout_3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swout_4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Output Subswitch of Port 4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swremote</td>
+<td>Unsigned 8-bit integer</td>
+<td>SwRemote</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.swvideo</td>
+<td>Unsigned 8-bit integer</td>
+<td>SwVideo</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.ubea_version</td>
+<td>Unsigned 8-bit integer</td>
+<td>UBEA Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_reply.versinfo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Version Info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.poll_server_reply</td>
+<td>None</td>
+<td>ArtPollServerReply packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.rdm</td>
+<td>None</td>
+<td>ArtRdm packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.rdm.address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.rdm.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.spare</td>
+<td>Byte array</td>
+<td>spare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_control.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data</td>
+<td>None</td>
+<td>ArtTodData packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.block_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Block Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.command_response</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.port</td>
+<td>Unsigned 8-bit integer</td>
+<td>Port</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.tod</td>
+<td>Byte array</td>
+<td>TOD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.uid_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>UID Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_data.uid_total</td>
+<td>Unsigned 16-bit integer</td>
+<td>UID Total</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_request</td>
+<td>None</td>
+<td>ArtTodRequest packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_request.ad_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_request.address</td>
+<td>Byte array</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.tod_request.command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data</td>
+<td>None</td>
+<td>ArtVideoData packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data.data</td>
+<td>Byte array</td>
+<td>Video Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data.len_x</td>
+<td>Unsigned 8-bit integer</td>
+<td>LenX</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data.len_y</td>
+<td>Unsigned 8-bit integer</td>
+<td>LenY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data.pos_x</td>
+<td>Unsigned 8-bit integer</td>
+<td>PosX</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_data.pos_y</td>
+<td>Unsigned 8-bit integer</td>
+<td>PosY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_palette</td>
+<td>None</td>
+<td>ArtVideoPalette packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_palette.colour_blue</td>
+<td>Byte array</td>
+<td>Colour Blue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_palette.colour_green</td>
+<td>Byte array</td>
+<td>Colour Green</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_palette.colour_red</td>
+<td>Byte array</td>
+<td>Colour Red</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup</td>
+<td>None</td>
+<td>ArtVideoSetup packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.control</td>
+<td>Unsigned 8-bit integer</td>
+<td>control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.first_font</td>
+<td>Unsigned 8-bit integer</td>
+<td>First Font</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.font_data</td>
+<td>Byte array</td>
+<td>Font data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.font_height</td>
+<td>Unsigned 8-bit integer</td>
+<td>Font Height</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.last_font</td>
+<td>Unsigned 8-bit integer</td>
+<td>Last Font</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>artnet.video_setup.win_font_name</td>
+<td>String</td>
+<td>Windows Font Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

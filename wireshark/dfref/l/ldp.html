@@ -1,0 +1,1094 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Label Distribution Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Label Distribution Protocol</h1>
+<div><b>Protocol field name:</b> ldp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ldp.hdr.ldpid.lsid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Label Space ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.hdr.ldpid.lsr</td>
+<td>IPv4 address</td>
+<td>LSR ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.hdr.pdu_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>PDU Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.hdr.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.experiment.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Experiment ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.addrl.addr</td>
+<td>String</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.addrl.addr_family</td>
+<td>Unsigned 16-bit integer</td>
+<td>Address Family</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.atm.label.vbits</td>
+<td>Unsigned 8-bit integer</td>
+<td>V-bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.atm.label.vci</td>
+<td>Unsigned 16-bit integer</td>
+<td>VCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.atm.label.vpi</td>
+<td>Unsigned 16-bit integer</td>
+<td>VPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.cbs</td>
+<td>Double-precision floating point</td>
+<td>CBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.cdr</td>
+<td>Double-precision floating point</td>
+<td>CDR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv</td>
+<td>None</td>
+<td>Diff-Serv TLV</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.map</td>
+<td>None</td>
+<td>MAP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.map.exp</td>
+<td>Unsigned 8-bit integer</td>
+<td>EXP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.mapnb</td>
+<td>Unsigned 8-bit integer</td>
+<td>MAPnb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.phbid</td>
+<td>None</td>
+<td>PHBID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.phbid.bit14</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit 14</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.phbid.bit15</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bit 15</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.phbid.code</td>
+<td>Unsigned 16-bit integer</td>
+<td>PHB id code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.phbid.dscp</td>
+<td>Unsigned 16-bit integer</td>
+<td>DSCP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.diffserv.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>LSP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ebs</td>
+<td>Double-precision floating point</td>
+<td>EBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.as</td>
+<td>Unsigned 16-bit integer</td>
+<td>AS Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.locallspid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local CR-LSP ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.loose</td>
+<td>Unsigned 24-bit integer</td>
+<td>Loose route bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.lsrid</td>
+<td>IPv4 address</td>
+<td>Local CR-LSP ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.prefix4</td>
+<td>IPv4 address</td>
+<td>IPv4 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.prefix6</td>
+<td>IPv6 address</td>
+<td>IPv6 Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.er_hop.prefixlen</td>
+<td>Unsigned 8-bit integer</td>
+<td>Prefix length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.experiment_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Experiment ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.extstatus.data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extended Status Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.af</td>
+<td>Unsigned 16-bit integer</td>
+<td>FEC Element Address Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.hoval</td>
+<td>String</td>
+<td>FEC Element Host Address Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Element Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.pfval</td>
+<td>String</td>
+<td>FEC Element Prefix Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>FEC Element Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.controlword</td>
+<td>Boolean</td>
+<td>C-bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.groupid</td>
+<td>Unsigned 32-bit integer</td>
+<td>Group ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.infolength</td>
+<td>Unsigned 8-bit integer</td>
+<td>VC Info Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepbytes</td>
+<td>Unsigned 16-bit integer</td>
+<td>Payload Bytes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_ais</td>
+<td>Boolean</td>
+<td>AIS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_ceptype</td>
+<td>Unsigned 16-bit integer</td>
+<td>CEP Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_e3</td>
+<td>Boolean</td>
+<td>Async E3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_ebm</td>
+<td>Boolean</td>
+<td>EBM</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_mah</td>
+<td>Boolean</td>
+<td>MAH</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_res</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_rtp</td>
+<td>Boolean</td>
+<td>RTP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_t3</td>
+<td>Boolean</td>
+<td>Async T3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.cepopt_une</td>
+<td>Boolean</td>
+<td>UNE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.desc</td>
+<td>String</td>
+<td>Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.dlcilen</td>
+<td>Unsigned 16-bit integer</td>
+<td>DLCI Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.fcslen</td>
+<td>Unsigned 16-bit integer</td>
+<td>FCS Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.maxatm</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of Cells</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.mtu</td>
+<td>Unsigned 16-bit integer</td>
+<td>MTU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmbps</td>
+<td>Unsigned 32-bit integer</td>
+<td>BPS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_d</td>
+<td>Boolean</td>
+<td>D Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_f</td>
+<td>Boolean</td>
+<td>F Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_freq</td>
+<td>Unsigned 16-bit integer</td>
+<td>FREQ</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_pt</td>
+<td>Unsigned 8-bit integer</td>
+<td>PT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_r</td>
+<td>Boolean</td>
+<td>R Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_res1</td>
+<td>Unsigned 16-bit integer</td>
+<td>RSVD-1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_res2</td>
+<td>Unsigned 8-bit integer</td>
+<td>RSVD-2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.tdmopt_ssrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cctype_cw</td>
+<td>Boolean</td>
+<td>PWE3 Control Word</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cctype_mplsra</td>
+<td>Boolean</td>
+<td>MPLS Router Alert</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cctype_ttl1</td>
+<td>Boolean</td>
+<td>MPLS Inner Label TTL = 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cvtype_bfd</td>
+<td>Boolean</td>
+<td>BFD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cvtype_icmpping</td>
+<td>Boolean</td>
+<td>ICMP Ping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vccv.cvtype_lspping</td>
+<td>Boolean</td>
+<td>LSP Ping</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.intparam.vlanid</td>
+<td>Unsigned 16-bit integer</td>
+<td>VLAN Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.vcid</td>
+<td>Unsigned 32-bit integer</td>
+<td>VC ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fec.vc.vctype</td>
+<td>Unsigned 16-bit integer</td>
+<td>VC Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_cbs</td>
+<td>Boolean</td>
+<td>CBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_cdr</td>
+<td>Boolean</td>
+<td>CDR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_ebs</td>
+<td>Boolean</td>
+<td>EBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_pbs</td>
+<td>Boolean</td>
+<td>PBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_pdr</td>
+<td>Boolean</td>
+<td>PDR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_reserv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.flags_weight</td>
+<td>Boolean</td>
+<td>Weight</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fr.label.dlci</td>
+<td>Unsigned 24-bit integer</td>
+<td>DLCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.fr.label.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of DLCI bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.frequency</td>
+<td>Unsigned 8-bit integer</td>
+<td>Frequency</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_ack.sequence_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>FT ACK Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_protect.sequence_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>FT Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_a</td>
+<td>Boolean</td>
+<td>A bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_c</td>
+<td>Boolean</td>
+<td>C bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_l</td>
+<td>Boolean</td>
+<td>L bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_r</td>
+<td>Boolean</td>
+<td>R bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_res</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flag_s</td>
+<td>Boolean</td>
+<td>S bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.reconn_to</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reconnect Timeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.recovery_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Recovery Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ft_sess.res</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.generic.label</td>
+<td>Unsigned 32-bit integer</td>
+<td>Generic Label</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hc.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hop Count Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hello.cnf_seqno</td>
+<td>Unsigned 32-bit integer</td>
+<td>Configuration Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hello.hold</td>
+<td>Unsigned 16-bit integer</td>
+<td>Hold Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hello.requested</td>
+<td>Boolean</td>
+<td>Hello Requested</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hello.res</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hello.targeted</td>
+<td>Boolean</td>
+<td>Targeted Hello</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.hold_prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hold Prio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ipv4.taddr</td>
+<td>IPv4 address</td>
+<td>IPv4 Transport Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.ipv6.taddr</td>
+<td>IPv6 address</td>
+<td>IPv6 Transport Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>TLV Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.lspid.actflg</td>
+<td>Unsigned 16-bit integer</td>
+<td>Action Indicator Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.lspid.locallspid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local CR-LSP ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.lspid.lsrid</td>
+<td>IPv4 address</td>
+<td>Ingress LSR Router ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.mac</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>MAC address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.pbs</td>
+<td>Double-precision floating point</td>
+<td>PBS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.pdr</td>
+<td>Double-precision floating point</td>
+<td>PDR</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.pv.lsrid</td>
+<td>IPv4 address</td>
+<td>LSR Id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.resource_class</td>
+<td>Unsigned 32-bit integer</td>
+<td>Resource Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.ldpid.lsid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Returned PDU Label Space ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.ldpid.lsr</td>
+<td>IPv4 address</td>
+<td>Returned PDU LSR ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.msg.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Returned Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.msg.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Returned Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.msg.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Returned Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.msg.ubit</td>
+<td>Boolean</td>
+<td>Returned Message Unknown bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.pdu_len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Returned PDU Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.returned.version</td>
+<td>Unsigned 16-bit integer</td>
+<td>Returned PDU Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.route_pinning</td>
+<td>Unsigned 32-bit integer</td>
+<td>Route Pinning</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.advbit</td>
+<td>Boolean</td>
+<td>Session Label Advertisement Discipline</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.dir</td>
+<td>Boolean</td>
+<td>Directionality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.lr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of ATM Label Ranges</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.maxvci</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum VCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.maxvpi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum VPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.merge</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session ATM Merge Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.minvci</td>
+<td>Unsigned 16-bit integer</td>
+<td>Minimum VCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.atm.minvpi</td>
+<td>Unsigned 16-bit integer</td>
+<td>Minimum VPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.dir</td>
+<td>Boolean</td>
+<td>Directionality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.len</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of DLCI bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.lr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Frame Relay Label Ranges</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.maxdlci</td>
+<td>Unsigned 24-bit integer</td>
+<td>Maximum DLCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.merge</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session Frame Relay Merge Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.fr.mindlci</td>
+<td>Unsigned 24-bit integer</td>
+<td>Minimum DLCI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.ka</td>
+<td>Unsigned 16-bit integer</td>
+<td>Session KeepAlive Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.ldetbit</td>
+<td>Boolean</td>
+<td>Session Loop Detection</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.mxpdu</td>
+<td>Unsigned 16-bit integer</td>
+<td>Session Max PDU Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.pvlim</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session Path Vector Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.rxls</td>
+<td>Unsigned 16-bit integer</td>
+<td>Session Receiver Label Space Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.rxlsr</td>
+<td>IPv4 address</td>
+<td>Session Receiver LSR Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.sess.ver</td>
+<td>Unsigned 16-bit integer</td>
+<td>Session Protocol Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.set_prio</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set Prio</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.status.data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Status Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.status.ebit</td>
+<td>Boolean</td>
+<td>E Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.status.fbit</td>
+<td>Boolean</td>
+<td>F Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.status.msg.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.status.msg.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>TLV Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.unknown</td>
+<td>Unsigned 8-bit integer</td>
+<td>TLV Unknown bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.value</td>
+<td>Byte array</td>
+<td>TLV Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.vendor_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vendor ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.tlv.weight</td>
+<td>Unsigned 8-bit integer</td>
+<td>Weight</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.ubit</td>
+<td>Boolean</td>
+<td>U bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.msg.vendor.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vendor ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.req</td>
+<td>Boolean</td>
+<td>Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.rsp</td>
+<td>Boolean</td>
+<td>Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ldp.tlv.lbl_req_msg_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Label Request Message ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,2594 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: DRSUAPI</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: DRSUAPI</h1>
+<div><b>Protocol field name:</b> drsuapi</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>drsuapi.DsBind.bind_guid</td>
+<td>GUID or UUID</td>
+<td>bind_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBind.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBind.bind_info</td>
+<td>None</td>
+<td>bind_info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo.info24</td>
+<td>None</td>
+<td>info24</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo.info28</td>
+<td>None</td>
+<td>info28</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo24.site_guid</td>
+<td>GUID or UUID</td>
+<td>site_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo24.supported_extensions</td>
+<td>Unsigned 32-bit integer</td>
+<td>supported_extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo24.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo28.repl_epoch</td>
+<td>Unsigned 32-bit integer</td>
+<td>repl_epoch</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo28.site_guid</td>
+<td>GUID or UUID</td>
+<td>site_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo28.supported_extensions</td>
+<td>Unsigned 32-bit integer</td>
+<td>supported_extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfo28.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfoCtr.info</td>
+<td>Unsigned 32-bit integer</td>
+<td>info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsBindInfoCtr.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsCrackNames.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsCrackNames.ctr</td>
+<td>Unsigned 32-bit integer</td>
+<td>ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsCrackNames.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsCrackNames.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.server_nt4_account</td>
+<td>String</td>
+<td>server_nt4_account</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown4</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown5</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo01.unknown6</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.computer_dn</td>
+<td>String</td>
+<td>computer_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.dns_name</td>
+<td>String</td>
+<td>dns_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.is_enabled</td>
+<td>Unsigned 32-bit integer</td>
+<td>is_enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.is_pdc</td>
+<td>Unsigned 32-bit integer</td>
+<td>is_pdc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.netbios_name</td>
+<td>String</td>
+<td>netbios_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.server_dn</td>
+<td>String</td>
+<td>server_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo1.site_name</td>
+<td>String</td>
+<td>site_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.computer_dn</td>
+<td>String</td>
+<td>computer_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.computer_guid</td>
+<td>GUID or UUID</td>
+<td>computer_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.dns_name</td>
+<td>String</td>
+<td>dns_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.is_enabled</td>
+<td>Unsigned 32-bit integer</td>
+<td>is_enabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.is_gc</td>
+<td>Unsigned 32-bit integer</td>
+<td>is_gc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.is_pdc</td>
+<td>Unsigned 32-bit integer</td>
+<td>is_pdc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.netbios_name</td>
+<td>String</td>
+<td>netbios_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.ntds_dn</td>
+<td>String</td>
+<td>ntds_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.ntds_guid</td>
+<td>GUID or UUID</td>
+<td>ntds_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.server_dn</td>
+<td>String</td>
+<td>server_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.server_guid</td>
+<td>GUID or UUID</td>
+<td>server_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.site_dn</td>
+<td>String</td>
+<td>site_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.site_guid</td>
+<td>GUID or UUID</td>
+<td>site_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfo2.site_name</td>
+<td>String</td>
+<td>site_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr.ctr01</td>
+<td>None</td>
+<td>ctr01</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr.ctr1</td>
+<td>None</td>
+<td>ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr.ctr2</td>
+<td>None</td>
+<td>ctr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr01.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr01.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr1.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr2.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoCtr2.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoRequest1.domain_name</td>
+<td>String</td>
+<td>domain_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDCInfoRequest1.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDomainControllerInfo.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDomainControllerInfo.ctr</td>
+<td>Unsigned 32-bit integer</td>
+<td>ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDomainControllerInfo.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetDomainControllerInfo.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChanges.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChanges.ctr</td>
+<td>Unsigned 32-bit integer</td>
+<td>ctr</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChanges.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChanges.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr.ctr6</td>
+<td>None</td>
+<td>ctr6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr.ctr7</td>
+<td>None</td>
+<td>ctr7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.array_ptr1</td>
+<td>Unsigned 32-bit integer</td>
+<td>array_ptr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.coursor_ex</td>
+<td>None</td>
+<td>coursor_ex</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.ctr12</td>
+<td>None</td>
+<td>ctr12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.guid2</td>
+<td>GUID or UUID</td>
+<td>guid2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.len1</td>
+<td>Unsigned 32-bit integer</td>
+<td>len1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.ptr1</td>
+<td>Unsigned 32-bit integer</td>
+<td>ptr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.sync_req_info1</td>
+<td>None</td>
+<td>sync_req_info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.u2</td>
+<td>Unsigned 32-bit integer</td>
+<td>u2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.u3</td>
+<td>Unsigned 32-bit integer</td>
+<td>u3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.usn1</td>
+<td>None</td>
+<td>usn1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesCtr6.usn2</td>
+<td>None</td>
+<td>usn2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest.req5</td>
+<td>None</td>
+<td>req5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest.req8</td>
+<td>None</td>
+<td>req8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.coursor</td>
+<td>None</td>
+<td>coursor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.guid2</td>
+<td>GUID or UUID</td>
+<td>guid2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.h1</td>
+<td>Unsigned 64-bit integer</td>
+<td>h1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.sync_req_info1</td>
+<td>None</td>
+<td>sync_req_info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.unknown4</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest5.usn1</td>
+<td>None</td>
+<td>usn1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.coursor</td>
+<td>None</td>
+<td>coursor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.ctr12</td>
+<td>None</td>
+<td>ctr12</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.guid2</td>
+<td>GUID or UUID</td>
+<td>guid2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.h1</td>
+<td>Unsigned 64-bit integer</td>
+<td>h1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.sync_req_info1</td>
+<td>None</td>
+<td>sync_req_info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unique_ptr1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unique_ptr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unique_ptr2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unique_ptr2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unknown3</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.unknown4</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest8.usn1</td>
+<td>None</td>
+<td>usn1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr12.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr12.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr13.data</td>
+<td>None</td>
+<td>data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr13.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr14.byte_array</td>
+<td>Unsigned 8-bit integer</td>
+<td>byte_array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesRequest_Ctr14.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesUsnTriple.usn1</td>
+<td>Unsigned 64-bit integer</td>
+<td>usn1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesUsnTriple.usn2</td>
+<td>Unsigned 64-bit integer</td>
+<td>usn2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsGetNCChangesUsnTriple.usn3</td>
+<td>Unsigned 64-bit integer</td>
+<td>usn3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameCtr.ctr1</td>
+<td>None</td>
+<td>ctr1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameCtr1.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameCtr1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameInfo1.dns_domain_name</td>
+<td>String</td>
+<td>dns_domain_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameInfo1.result_name</td>
+<td>String</td>
+<td>result_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameInfo1.status</td>
+<td>Signed 32-bit integer</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.format_desired</td>
+<td>Signed 32-bit integer</td>
+<td>format_desired</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.format_flags</td>
+<td>Signed 32-bit integer</td>
+<td>format_flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.format_offered</td>
+<td>Signed 32-bit integer</td>
+<td>format_offered</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.names</td>
+<td>None</td>
+<td>names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameRequest1.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsNameString.str</td>
+<td>String</td>
+<td>str</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.str1</td>
+<td>String</td>
+<td>str1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u2</td>
+<td>Unsigned 32-bit integer</td>
+<td>u2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u3</td>
+<td>Unsigned 32-bit integer</td>
+<td>u3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u4</td>
+<td>Unsigned 32-bit integer</td>
+<td>u4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u5</td>
+<td>Unsigned 32-bit integer</td>
+<td>u5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u6</td>
+<td>Unsigned 64-bit integer</td>
+<td>u6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06.u7</td>
+<td>Unsigned 32-bit integer</td>
+<td>u7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplica06Ctr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAddOptions.DRSUAPI_DS_REPLICA_ADD_ASYNCHRONOUS_OPERATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_ADD_ASYNCHRONOUS_OPERATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAddOptions.DRSUAPI_DS_REPLICA_ADD_WRITEABLE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_ADD_WRITEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.attribute_name</td>
+<td>String</td>
+<td>attribute_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.created</td>
+<td>Date/Time stamp</td>
+<td>created</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.deleted</td>
+<td>Date/Time stamp</td>
+<td>deleted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.local_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>local_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.object_dn</td>
+<td>String</td>
+<td>object_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.originating_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>originating_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.originating_last_changed</td>
+<td>Date/Time stamp</td>
+<td>originating_last_changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.originating_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>originating_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.value_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>value_length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.attribute_name</td>
+<td>String</td>
+<td>attribute_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.created</td>
+<td>Date/Time stamp</td>
+<td>created</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.deleted</td>
+<td>Date/Time stamp</td>
+<td>deleted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.local_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>local_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.object_dn</td>
+<td>String</td>
+<td>object_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.originating_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>originating_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.originating_dsa_obj_dn</td>
+<td>String</td>
+<td>originating_dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.originating_last_changed</td>
+<td>Date/Time stamp</td>
+<td>originating_last_changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.originating_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>originating_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.value</td>
+<td>Unsigned 8-bit integer</td>
+<td>value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.value_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>value_length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaData2Ctr.enumeration_context</td>
+<td>Signed 32-bit integer</td>
+<td>enumeration_context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaDataCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaDataCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaAttrValMetaDataCtr.enumeration_context</td>
+<td>Signed 32-bit integer</td>
+<td>enumeration_context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.bind_guid</td>
+<td>GUID or UUID</td>
+<td>bind_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.bind_time</td>
+<td>Date/Time stamp</td>
+<td>bind_time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.u1</td>
+<td>Unsigned 64-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.u2</td>
+<td>Unsigned 32-bit integer</td>
+<td>u2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.u3</td>
+<td>Unsigned 32-bit integer</td>
+<td>u3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.u4</td>
+<td>Unsigned 32-bit integer</td>
+<td>u4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04.u5</td>
+<td>Unsigned 32-bit integer</td>
+<td>u5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaConnection04Ctr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor.highest_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>highest_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor.source_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>source_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor05Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor05Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor05Ctr.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor05Ctr.u2</td>
+<td>Unsigned 32-bit integer</td>
+<td>u2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor05Ctr.u3</td>
+<td>Unsigned 32-bit integer</td>
+<td>u3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2.highest_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>highest_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2.last_sync_success</td>
+<td>Date/Time stamp</td>
+<td>last_sync_success</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2.source_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>source_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor2Ctr.enumeration_context</td>
+<td>Signed 32-bit integer</td>
+<td>enumeration_context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3.highest_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>highest_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3.last_sync_success</td>
+<td>Date/Time stamp</td>
+<td>last_sync_success</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3.source_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>source_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3.source_dsa_obj_dn</td>
+<td>String</td>
+<td>source_dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursor3Ctr.enumeration_context</td>
+<td>Signed 32-bit integer</td>
+<td>enumeration_context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorCtr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx.coursor</td>
+<td>None</td>
+<td>coursor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx.time1</td>
+<td>Date/Time stamp</td>
+<td>time1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx05Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx05Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx05Ctr.u1</td>
+<td>Unsigned 32-bit integer</td>
+<td>u1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx05Ctr.u2</td>
+<td>Unsigned 32-bit integer</td>
+<td>u2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaCoursorEx05Ctr.u3</td>
+<td>Unsigned 32-bit integer</td>
+<td>u3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaDeleteOptions.DRSUAPI_DS_REPLICA_DELETE_ASYNCHRONOUS_OPERATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_DELETE_ASYNCHRONOUS_OPERATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaDeleteOptions.DRSUAPI_DS_REPLICA_DELETE_WRITEABLE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_DELETE_WRITEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfo.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfo.info</td>
+<td>Unsigned 32-bit integer</td>
+<td>info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfo.info_type</td>
+<td>Signed 32-bit integer</td>
+<td>info_type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfo.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfo.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest.req2</td>
+<td>None</td>
+<td>req2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest1.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest1.info_type</td>
+<td>Signed 32-bit integer</td>
+<td>info_type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest1.object_dn</td>
+<td>String</td>
+<td>object_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.info_type</td>
+<td>Signed 32-bit integer</td>
+<td>info_type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.object_dn</td>
+<td>String</td>
+<td>object_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.string1</td>
+<td>String</td>
+<td>string1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.string2</td>
+<td>String</td>
+<td>string2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaGetInfoRequest2.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.attrvalmetadata</td>
+<td>None</td>
+<td>attrvalmetadata</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.attrvalmetadata2</td>
+<td>None</td>
+<td>attrvalmetadata2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.connectfailures</td>
+<td>None</td>
+<td>connectfailures</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.connections04</td>
+<td>None</td>
+<td>connections04</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.coursors</td>
+<td>None</td>
+<td>coursors</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.coursors05</td>
+<td>None</td>
+<td>coursors05</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.coursors2</td>
+<td>None</td>
+<td>coursors2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.coursors3</td>
+<td>None</td>
+<td>coursors3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.i06</td>
+<td>None</td>
+<td>i06</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.linkfailures</td>
+<td>None</td>
+<td>linkfailures</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.neighbours</td>
+<td>None</td>
+<td>neighbours</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.neighbours02</td>
+<td>None</td>
+<td>neighbours02</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.objmetadata</td>
+<td>None</td>
+<td>objmetadata</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.objmetadata2</td>
+<td>None</td>
+<td>objmetadata2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaInfo.pendingops</td>
+<td>None</td>
+<td>pendingops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailure.dsa_obj_dn</td>
+<td>String</td>
+<td>dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailure.dsa_obj_guid</td>
+<td>GUID or UUID</td>
+<td>dsa_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailure.first_failure</td>
+<td>Date/Time stamp</td>
+<td>first_failure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailure.last_result</td>
+<td>Unsigned 32-bit integer</td>
+<td>last_result</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailure.num_failures</td>
+<td>Unsigned 32-bit integer</td>
+<td>num_failures</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailuresCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailuresCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaKccDsaFailuresCtr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaModifyOptions.DRSUAPI_DS_REPLICA_MODIFY_ASYNCHRONOUS_OPERATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_MODIFY_ASYNCHRONOUS_OPERATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaModifyOptions.DRSUAPI_DS_REPLICA_MODIFY_WRITEABLE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_MODIFY_WRITEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.consecutive_sync_failures</td>
+<td>Unsigned 32-bit integer</td>
+<td>consecutive_sync_failures</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.highest_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>highest_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.last_attempt</td>
+<td>Date/Time stamp</td>
+<td>last_attempt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.last_success</td>
+<td>Date/Time stamp</td>
+<td>last_success</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.naming_context_dn</td>
+<td>String</td>
+<td>naming_context_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.naming_context_obj_guid</td>
+<td>GUID or UUID</td>
+<td>naming_context_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.replica_flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>replica_flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.result_last_attempt</td>
+<td>Unsigned 32-bit integer</td>
+<td>result_last_attempt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.source_dsa_address</td>
+<td>String</td>
+<td>source_dsa_address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.source_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>source_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.source_dsa_obj_dn</td>
+<td>String</td>
+<td>source_dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.source_dsa_obj_guid</td>
+<td>GUID or UUID</td>
+<td>source_dsa_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.tmp_highest_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>tmp_highest_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.transport_obj_dn</td>
+<td>String</td>
+<td>transport_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbour.transport_obj_guid</td>
+<td>GUID or UUID</td>
+<td>transport_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbourCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbourCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaNeighbourCtr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.attribute_name</td>
+<td>String</td>
+<td>attribute_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.local_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>local_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.originating_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>originating_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.originating_last_changed</td>
+<td>Date/Time stamp</td>
+<td>originating_last_changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.originating_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>originating_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.attribute_name</td>
+<td>String</td>
+<td>attribute_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.local_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>local_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.originating_dsa_invocation_id</td>
+<td>GUID or UUID</td>
+<td>originating_dsa_invocation_id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.originating_dsa_obj_dn</td>
+<td>String</td>
+<td>originating_dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.originating_last_changed</td>
+<td>Date/Time stamp</td>
+<td>originating_last_changed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.originating_usn</td>
+<td>Unsigned 64-bit integer</td>
+<td>originating_usn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2.version</td>
+<td>Unsigned 32-bit integer</td>
+<td>version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2Ctr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2Ctr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaData2Ctr.enumeration_context</td>
+<td>Signed 32-bit integer</td>
+<td>enumeration_context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaDataCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaDataCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaObjMetaDataCtr.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.nc_dn</td>
+<td>String</td>
+<td>nc_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.nc_obj_guid</td>
+<td>GUID or UUID</td>
+<td>nc_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.operation_start</td>
+<td>Date/Time stamp</td>
+<td>operation_start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.operation_type</td>
+<td>Signed 16-bit integer</td>
+<td>operation_type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.options</td>
+<td>Unsigned 16-bit integer</td>
+<td>options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.priority</td>
+<td>Unsigned 32-bit integer</td>
+<td>priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.remote_dsa_address</td>
+<td>String</td>
+<td>remote_dsa_address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.remote_dsa_obj_dn</td>
+<td>String</td>
+<td>remote_dsa_obj_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.remote_dsa_obj_guid</td>
+<td>GUID or UUID</td>
+<td>remote_dsa_obj_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOp.serial_num</td>
+<td>Unsigned 32-bit integer</td>
+<td>serial_num</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOpCtr.array</td>
+<td>None</td>
+<td>array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOpCtr.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaOpCtr.time</td>
+<td>Date/Time stamp</td>
+<td>time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSync.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSync.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSync.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_ABANDONED</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_ABANDONED</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_ADD_REFERENCE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_ADD_REFERENCE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_ALL_SOURCES</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_ALL_SOURCES</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_ASYNCHRONOUS_OPERATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_ASYNCHRONOUS_OPERATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_ASYNCHRONOUS_REPLICA</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_ASYNCHRONOUS_REPLICA</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_CRITICAL</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_CRITICAL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_FORCE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_FORCE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_FULL</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_FULL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_FULL_IN_PROGRESS</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_FULL_IN_PROGRESS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_INITIAL</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_INITIAL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_INITIAL_IN_PROGRESS</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_INITIAL_IN_PROGRESS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_INTERSITE_MESSAGING</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_INTERSITE_MESSAGING</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_NEVER_COMPLETED</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_NEVER_COMPLETED</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_NEVER_NOTIFY</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_NEVER_NOTIFY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_NO_DISCARD</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_NO_DISCARD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_NOTIFICATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_NOTIFICATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_PARTIAL_ATTRIBUTE_SET</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_PARTIAL_ATTRIBUTE_SET</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_PERIODIC</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_PERIODIC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_PREEMPTED</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_PREEMPTED</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_REQUEUE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_REQUEUE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_TWO_WAY</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_TWO_WAY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_URGENT</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_URGENT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_USE_COMPRESSION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_USE_COMPRESSION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncOptions.DRSUAPI_DS_REPLICA_SYNC_WRITEABLE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_SYNC_WRITEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1.info</td>
+<td>None</td>
+<td>info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1.string1</td>
+<td>String</td>
+<td>string1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.byte_array</td>
+<td>Unsigned 8-bit integer</td>
+<td>byte_array</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.guid1</td>
+<td>GUID or UUID</td>
+<td>guid1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.nc_dn</td>
+<td>String</td>
+<td>nc_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.str_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>str_len</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaSyncRequest1Info.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefs.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefs.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefs.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsOptions.DRSUAPI_DS_REPLICA_UPDATE_0x00000010</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_UPDATE_0x00000010</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsOptions.DRSUAPI_DS_REPLICA_UPDATE_ADD_REFERENCE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_UPDATE_ADD_REFERENCE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsOptions.DRSUAPI_DS_REPLICA_UPDATE_ASYNCHRONOUS_OPERATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_UPDATE_ASYNCHRONOUS_OPERATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsOptions.DRSUAPI_DS_REPLICA_UPDATE_DELETE_REFERENCE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_UPDATE_DELETE_REFERENCE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsOptions.DRSUAPI_DS_REPLICA_UPDATE_WRITEABLE</td>
+<td>Boolean</td>
+<td>DRSUAPI_DS_REPLICA_UPDATE_WRITEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.dest_dsa_dns_name</td>
+<td>String</td>
+<td>dest_dsa_dns_name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.dest_dsa_guid</td>
+<td>GUID or UUID</td>
+<td>dest_dsa_guid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.options</td>
+<td>Unsigned 32-bit integer</td>
+<td>options</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.sync_req_info1</td>
+<td>None</td>
+<td>sync_req_info1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsReplicaUpdateRefsRequest1.unknown2</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.add</td>
+<td>Unsigned 32-bit integer</td>
+<td>add</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.delete</td>
+<td>Unsigned 32-bit integer</td>
+<td>delete</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.modify</td>
+<td>Unsigned 32-bit integer</td>
+<td>modify</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.sync</td>
+<td>Unsigned 32-bit integer</td>
+<td>sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.unknown</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsRplicaOpOptions.update_refs</td>
+<td>Unsigned 32-bit integer</td>
+<td>update_refs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsUnbind.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpn.bind_handle</td>
+<td>Byte array</td>
+<td>bind_handle</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpn.level</td>
+<td>Signed 32-bit integer</td>
+<td>level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpn.req</td>
+<td>Unsigned 32-bit integer</td>
+<td>req</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpn.res</td>
+<td>Unsigned 32-bit integer</td>
+<td>res</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest.req1</td>
+<td>None</td>
+<td>req1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest1.count</td>
+<td>Unsigned 32-bit integer</td>
+<td>count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest1.object_dn</td>
+<td>String</td>
+<td>object_dn</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest1.operation</td>
+<td>Signed 32-bit integer</td>
+<td>operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest1.spn_names</td>
+<td>None</td>
+<td>spn_names</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnRequest1.unknown1</td>
+<td>Unsigned 32-bit integer</td>
+<td>unknown1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnResult.res1</td>
+<td>None</td>
+<td>res1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.DsWriteAccountSpnResult1.status</td>
+<td>Unsigned 32-bit integer</td>
+<td>status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.rc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Return code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_00000080</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_00000080</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_00100000</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_00100000</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_20000000</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_20000000</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_40000000</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_40000000</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_80000000</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_80000000</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_ADD_SID_HISTORY</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_ADD_SID_HISTORY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_ADDENTRY_V2</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_ADDENTRY_V2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_ADDENTRYREPLY_V3</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_ADDENTRYREPLY_V3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_ASYNC_REPLICATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_ASYNC_REPLICATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_BASE</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_BASE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_CRYPTO_BIND</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_CRYPTO_BIND</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V01</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V01</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V1</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V2</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_DCINFO_V2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GET_MEMBERSHIPS2</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GET_MEMBERSHIPS2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GET_REPL_INFO</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GET_REPL_INFO</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHG_COMPRESS</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHG_COMPRESS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V5</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V6</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V7</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHGREPLY_V7</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHGREQ_V6</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHGREQ_V6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_GETCHGREQ_V8</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_GETCHGREQ_V8</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_INSTANCE_TYPE_NOT_REQ_ON_MOD</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_INSTANCE_TYPE_NOT_REQ_ON_MOD</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_KCC_EXECUTE</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_KCC_EXECUTE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_LINKED_VALUE_REPLICATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_LINKED_VALUE_REPLICATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_MOVEREQ_V2</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_MOVEREQ_V2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_NONDOMAIN_NCS</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_NONDOMAIN_NCS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_POST_BETA3</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_POST_BETA3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_REMOVEAPI</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_REMOVEAPI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_RESTORE_USN_OPTIMIZATION</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_RESTORE_USN_OPTIMIZATION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_STRONG_ENCRYPTION</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_STRONG_ENCRYPTION</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_TRANSITIVE_MEMBERSHIP</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_TRANSITIVE_MEMBERSHIP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_VERIFY_OBJECT</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_VERIFY_OBJECT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>drsuapi.SupportedExtensions.DRSUAPI_SUPPORTED_EXTENSION_XPRESS_COMPRESS</td>
+<td>Boolean</td>
+<td>DRSUAPI_SUPPORTED_EXTENSION_XPRESS_COMPRESS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Internet Message Format</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Internet Message Format</h1>
+<div><b>Protocol field name:</b> imf</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>imf.address</td>
+<td>String</td>
+<td>Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.address_list</td>
+<td>Unsigned 32-bit integer</td>
+<td>Address List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.address_list.item</td>
+<td>String</td>
+<td>Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.autoforwarded</td>
+<td>String</td>
+<td>Autoforwarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.autosubmitted</td>
+<td>String</td>
+<td>Autosubmitted</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.bcc</td>
+<td>String</td>
+<td>Bcc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.cc</td>
+<td>String</td>
+<td>Cc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.comments</td>
+<td>String</td>
+<td>Comments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.description</td>
+<td>String</td>
+<td>Content-Description</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.id</td>
+<td>String</td>
+<td>Content-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.transfer_encoding</td>
+<td>String</td>
+<td>Content-Transfer-Encoding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.type</td>
+<td>String</td>
+<td>Content-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.type.parameters</td>
+<td>String</td>
+<td>Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content.type.type</td>
+<td>String</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.content_language</td>
+<td>String</td>
+<td>Content-Language</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.conversion</td>
+<td>String</td>
+<td>Conversion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.conversion_with_loss</td>
+<td>String</td>
+<td>Conversion-With-Loss</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.date</td>
+<td>String</td>
+<td>Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.deferred_delivery</td>
+<td>String</td>
+<td>Deferred-Delivery</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.delivered_to</td>
+<td>String</td>
+<td>Delivered-To</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.delivery_date</td>
+<td>String</td>
+<td>Delivery-Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.discarded_x400_ipms_extensions</td>
+<td>String</td>
+<td>Discarded-X400-IPMS-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.discarded_x400_mts_extensions</td>
+<td>String</td>
+<td>Discarded-X400-MTS-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.display_name</td>
+<td>String</td>
+<td>Display-Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.dl_expansion_history</td>
+<td>String</td>
+<td>DL-Expansion-History</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.expires</td>
+<td>String</td>
+<td>Expires</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.authentication_warning</td>
+<td>String</td>
+<td>X-Authentication-Warning</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.expiry-date</td>
+<td>String</td>
+<td>Expiry-Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.mailer</td>
+<td>String</td>
+<td>X-Mailer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.mimeole</td>
+<td>String</td>
+<td>X-MimeOLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.tnef-correlator</td>
+<td>String</td>
+<td>X-MS-TNEF-Correlator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.uidl</td>
+<td>String</td>
+<td>X-UIDL</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.ext.virus_scanned</td>
+<td>String</td>
+<td>X-Virus-Scanned</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.extension</td>
+<td>String</td>
+<td>Unknown-Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.extension.type</td>
+<td>String</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.extension.value</td>
+<td>String</td>
+<td>Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.from</td>
+<td>String</td>
+<td>From</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.importance</td>
+<td>String</td>
+<td>Importance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.in_reply_to</td>
+<td>String</td>
+<td>In-Reply-To</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.incomplete_copy</td>
+<td>String</td>
+<td>Incomplete-Copy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.keywords</td>
+<td>String</td>
+<td>Keywords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.latest_delivery_time</td>
+<td>String</td>
+<td>Latest-Delivery-Time</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.mailbox_list</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mailbox List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.mailbox_list.item</td>
+<td>String</td>
+<td>Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.message_id</td>
+<td>String</td>
+<td>Message-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.message_text</td>
+<td>None</td>
+<td>Message-Text</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.message_type</td>
+<td>String</td>
+<td>Message-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.mime_version</td>
+<td>String</td>
+<td>MIME-Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.original_encoded_information_types</td>
+<td>String</td>
+<td>Original-Encoded-Information-Types</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.originator_return_address</td>
+<td>String</td>
+<td>Originator-Return-Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.priority</td>
+<td>String</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.received</td>
+<td>String</td>
+<td>Received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.references</td>
+<td>String</td>
+<td>References</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.reply_by</td>
+<td>String</td>
+<td>Reply-By</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.reply_to</td>
+<td>String</td>
+<td>Reply-To</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.bcc</td>
+<td>String</td>
+<td>Resent-Bcc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.cc</td>
+<td>String</td>
+<td>Resent-Cc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.date</td>
+<td>String</td>
+<td>Resent-Date</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.from</td>
+<td>String</td>
+<td>Resent-From</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.message_id</td>
+<td>String</td>
+<td>Resent-Message-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.sender</td>
+<td>String</td>
+<td>Resent-Sender</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.resent.to</td>
+<td>String</td>
+<td>Resent-To</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.return_path</td>
+<td>String</td>
+<td>Return-Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.sender</td>
+<td>String</td>
+<td>Sender</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.sensitivity</td>
+<td>String</td>
+<td>Sensitivity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.subject</td>
+<td>String</td>
+<td>Subject</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.supersedes</td>
+<td>String</td>
+<td>Supersedes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.thread-index</td>
+<td>String</td>
+<td>Thread-Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.to</td>
+<td>String</td>
+<td>To</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_content_identifier</td>
+<td>String</td>
+<td>X400-Content-Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_content_type</td>
+<td>String</td>
+<td>X400-Content-Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_mts_identifier</td>
+<td>String</td>
+<td>X400-MTS-Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_originator</td>
+<td>String</td>
+<td>X400-Originator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_received</td>
+<td>String</td>
+<td>X400-Received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>imf.x400_recipients</td>
+<td>String</td>
+<td>X400-Recipients</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

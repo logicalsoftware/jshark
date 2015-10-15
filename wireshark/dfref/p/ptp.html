@@ -1,0 +1,2414 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Precision Time Protocol (IEEE1588)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Precision Time Protocol (IEEE1588)</h1>
+<div><b>Protocol field name:</b> ptp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>ptp.as.fu.cumulativeScaledRateOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>cumulativeScaledRateOffset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.gmTimeBaseIndicator</td>
+<td>Unsigned 16-bit integer</td>
+<td>gmTimeBaseIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.lastGmPhaseChange</td>
+<td>Byte array</td>
+<td>lastGMPhaseChange</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.lengthField</td>
+<td>Unsigned 16-bit integer</td>
+<td>lengthField</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.organizationId</td>
+<td>Unsigned 24-bit integer</td>
+<td>organizationId</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.organizationSubType</td>
+<td>Signed 24-bit integer</td>
+<td>OrganizationSubType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.scaledLastGmPhaseChange</td>
+<td>Signed 32-bit integer</td>
+<td>scaledLastGMPhaseChange</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.fu.tlvType</td>
+<td>Unsigned 16-bit integer</td>
+<td>tlvType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.lengthField</td>
+<td>Unsigned 16-bit integer</td>
+<td>lengthField</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.announceinterval</td>
+<td>Signed 8-bit integer</td>
+<td>announceInterval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.flags.propdelay</td>
+<td>Boolean</td>
+<td>computeNeighborPropDelay</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.flags.rateratio</td>
+<td>Boolean</td>
+<td>computeNeighborRateRatio</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.linkdelayinterval</td>
+<td>Signed 8-bit integer</td>
+<td>linkDelayInterval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.organizationId</td>
+<td>Unsigned 24-bit integer</td>
+<td>organizationId</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.organizationSubType</td>
+<td>Signed 24-bit integer</td>
+<td>OrganizationSubType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlv.timesyncinterval</td>
+<td>Signed 8-bit integer</td>
+<td>timeSyncInterval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tlvType</td>
+<td>Unsigned 16-bit integer</td>
+<td>tlvType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.as.sig.tvl.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.control</td>
+<td>Unsigned 8-bit integer</td>
+<td>control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.delayreceipttimestamp</td>
+<td>Time duration</td>
+<td>delayReceiptTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.delayreceipttimestamp_nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>delayReceiptTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.delayreceipttimestamp_seconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>delayReceiptTimestamp (Seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.requestingsourcecommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>requestingSourceCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.requestingsourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>requestingSourcePortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.requestingsourcesequenceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>requestingSourceSequenceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.dr.requestingsourceuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>requestingSourceUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.assist</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_ASSIST</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.boundary_clock</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_BOUNDARY_CLOCK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.ext_sync</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_EXT_SYNC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.li59</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_LI59</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.li61</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_LI61</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.parent_stats</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_PARENT_STATS</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.flags.sync_burst</td>
+<td>Unsigned 16-bit integer</td>
+<td>PTP_SYNC_BURST</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.fu.associatedsequenceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>associatedSequenceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.fu.hf_ptp_fu_preciseorigintimestamp</td>
+<td>Time duration</td>
+<td>preciseOriginTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.fu.hf_ptp_fu_preciseorigintimestamp_seconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>preciseOriginTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.fu.preciseorigintimestamp_nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>preciseOriginTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.messagetype</td>
+<td>Unsigned 8-bit integer</td>
+<td>messageType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.boundaryhops</td>
+<td>Signed 16-bit integer</td>
+<td>boundaryHops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.clock.identity.clockcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>clockCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.clock.identity.clockportfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>clockPortField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.clock.identity.clockuuidfield</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>clockUuidField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.clock.identity.manufactureridentity</td>
+<td>Byte array</td>
+<td>manufacturerIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.offsetfrommaster</td>
+<td>Time duration</td>
+<td>offsetFromMaster</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.offsetfrommasternanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>offsetFromMasterNanoseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.offsetfrommasterseconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>offsetFromMasterSeconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.onewaydelay</td>
+<td>Time duration</td>
+<td>oneWayDelay</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.onewaydelaynanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>oneWayDelayNanoseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.onewaydelayseconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>oneWayDelaySeconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.current.data.set.stepsremoved</td>
+<td>Unsigned 16-bit integer</td>
+<td>stepsRemoved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>clockCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockfollowupcapable</td>
+<td>Boolean</td>
+<td>clockFollowupCapable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockidentifier</td>
+<td>Byte array</td>
+<td>clockIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockportfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>clockPortField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockstratum</td>
+<td>Unsigned 8-bit integer</td>
+<td>clockStratum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockuuidfield</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>clockUuidField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.clockvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>clockVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.externaltiming</td>
+<td>Boolean</td>
+<td>externalTiming</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.initializable</td>
+<td>Boolean</td>
+<td>initializable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.isboundaryclock</td>
+<td>Boolean</td>
+<td>isBoundaryClock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.numberforeignrecords</td>
+<td>Unsigned 16-bit integer</td>
+<td>numberForeignRecords</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.numberports</td>
+<td>Unsigned 16-bit integer</td>
+<td>numberPorts</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.preferred</td>
+<td>Boolean</td>
+<td>preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.subdomainname</td>
+<td>String</td>
+<td>subDomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.default.data.set.syncinterval</td>
+<td>Signed 8-bit integer</td>
+<td>syncInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.foreignmastercommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>foreignMasterCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.foreignmasterportidfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>foreignMasterPortIdField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.foreignmastersyncs</td>
+<td>Unsigned 16-bit integer</td>
+<td>foreignMasterSyncs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.foreignmasteruuidfield</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>foreignMasterUuidField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.returnedportnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>returnedPortNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.foreign.data.set.returnedrecordnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>returnedRecordNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.get.foreign.data.set.recordkey</td>
+<td>Unsigned 16-bit integer</td>
+<td>recordKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.currentutcoffset</td>
+<td>Signed 16-bit integer</td>
+<td>currentUtcOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.epochnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>epochNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.leap59</td>
+<td>Boolean</td>
+<td>leap59</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.leap61</td>
+<td>Boolean</td>
+<td>leap61</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.localtime</td>
+<td>Time duration</td>
+<td>localTime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.localtimenanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>localTimeNanoseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.global.time.data.set.localtimeseconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>localTimeSeconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.initialize.clock.initialisationkey</td>
+<td>Unsigned 16-bit integer</td>
+<td>initialisationKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.managementmessagekey</td>
+<td>Unsigned 8-bit integer</td>
+<td>managementMessageKey</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.messageparameters</td>
+<td>Byte array</td>
+<td>messageParameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parameterlength</td>
+<td>Unsigned 16-bit integer</td>
+<td>parameterLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmastercommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasteridentifier</td>
+<td>Byte array</td>
+<td>grandmasterIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasterisboundaryclock</td>
+<td>Boolean</td>
+<td>grandmasterIsBoundaryClock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasterportidfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>grandmasterPortIdField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasterpreferred</td>
+<td>Boolean</td>
+<td>grandmasterPreferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmastersequencenumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>grandmasterSequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasterstratum</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterStratum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmasteruuidfield</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>grandmasterUuidField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.grandmastervariance</td>
+<td>Signed 16-bit integer</td>
+<td>grandmasterVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.observeddrift</td>
+<td>Signed 32-bit integer</td>
+<td>observedDrift</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.observedvariance</td>
+<td>Signed 16-bit integer</td>
+<td>observedVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>parentCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentexternaltiming</td>
+<td>Boolean</td>
+<td>parentExternalTiming</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentfollowupcapable</td>
+<td>Boolean</td>
+<td>parentFollowupCapable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentlastsyncsequencenumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>parentLastSyncSequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>parentPortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentstats</td>
+<td>Boolean</td>
+<td>parentStats</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>parentUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.parentvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>parentVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.parent.data.set.utcreasonable</td>
+<td>Boolean</td>
+<td>utcReasonable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.burstenabled</td>
+<td>Boolean</td>
+<td>burstEnabled</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.eventportaddress</td>
+<td>Byte array</td>
+<td>eventPortAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.eventportaddressoctets</td>
+<td>Unsigned 8-bit integer</td>
+<td>eventPortAddressOctets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.generalportaddress</td>
+<td>Byte array</td>
+<td>generalPortAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.generalportaddressoctets</td>
+<td>Unsigned 8-bit integer</td>
+<td>generalPortAddressOctets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.lastgeneraleventsequencenumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>lastGeneralEventSequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.lastsynceventsequencenumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>lastSyncEventSequenceNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.portcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>portCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.portidfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>portIdField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.portstate</td>
+<td>Unsigned 8-bit integer</td>
+<td>portState</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.portuuidfield</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>portUuidField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.returnedportnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>returnedPortNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.subdomainaddress</td>
+<td>Byte array</td>
+<td>subdomainAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.port.data.set.subdomainaddressoctets</td>
+<td>Unsigned 8-bit integer</td>
+<td>subdomainAddressOctets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.set.subdomain.subdomainname</td>
+<td>String</td>
+<td>subdomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.set.sync.interval.syncinterval</td>
+<td>Unsigned 16-bit integer</td>
+<td>syncInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.set.time.localtime</td>
+<td>Time duration</td>
+<td>localtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.set.time.localtimenanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>localTimeNanoseconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.set.time.localtimeseconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>localtimeSeconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.startingboundaryhops</td>
+<td>Signed 16-bit integer</td>
+<td>startingBoundaryHops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.targetcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>targetCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.targetportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>targetPortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.targetuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>targetUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.clockidentifier</td>
+<td>Byte array</td>
+<td>clockIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.clockstratum</td>
+<td>Unsigned 8-bit integer</td>
+<td>clockStratum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.clockvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>clockVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.preferred</td>
+<td>Boolean</td>
+<td>preferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.subdomainname</td>
+<td>String</td>
+<td>subdomainName</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.default.data.set.syncinterval</td>
+<td>Signed 8-bit integer</td>
+<td>syncInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.global.time.properties.currentutcoffset</td>
+<td>Unsigned 16-bit integer</td>
+<td>currentUtcOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.global.time.properties.epochnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>epochNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.global.time.properties.leap59</td>
+<td>Boolean</td>
+<td>leap59</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.mm.update.global.time.properties.leap61</td>
+<td>Boolean</td>
+<td>leap61</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.currentutcoffset</td>
+<td>Signed 16-bit integer</td>
+<td>currentUTCOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.epochnumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>epochNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.estimatedmasterdrift</td>
+<td>Signed 32-bit integer</td>
+<td>estimatedMasterDrift</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.estimatedmastervariance</td>
+<td>Signed 16-bit integer</td>
+<td>estimatedMasterVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterclockidentifier</td>
+<td>String</td>
+<td>grandmasterClockIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterclockstratum</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterClockStratum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterclockuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>grandMasterClockUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterclockvariance</td>
+<td>Signed 16-bit integer</td>
+<td>grandmasterClockVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmastercommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterisboundaryclock</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterIsBoundaryClock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>grandmasterPortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmasterpreferred</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterPreferred</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.grandmastersequenceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>grandmasterSequenceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.localclockidentifier</td>
+<td>String</td>
+<td>localClockIdentifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.localclockstratum</td>
+<td>Unsigned 8-bit integer</td>
+<td>localClockStratum</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.localclockvariance</td>
+<td>Signed 16-bit integer</td>
+<td>localClockVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.localstepsremoved</td>
+<td>Unsigned 16-bit integer</td>
+<td>localStepsRemoved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.origintimestamp</td>
+<td>Time duration</td>
+<td>originTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.origintimestamp_nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>originTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.origintimestamp_seconds</td>
+<td>Unsigned 32-bit integer</td>
+<td>originTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.parentcommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>parentCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.parentportfield</td>
+<td>Unsigned 16-bit integer</td>
+<td>parentPortField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.parentuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>parentUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.syncinterval</td>
+<td>Signed 8-bit integer</td>
+<td>syncInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sdr.utcreasonable</td>
+<td>Boolean</td>
+<td>utcReasonable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sequenceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>sequenceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sourcecommunicationtechnology</td>
+<td>Unsigned 8-bit integer</td>
+<td>sourceCommunicationTechnology</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>sourcePortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.sourceuuid</td>
+<td>6-byte Hardware (MAC) Address</td>
+<td>sourceUuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.subdomain</td>
+<td>String</td>
+<td>subdomain</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.currentOffset</td>
+<td>Signed 32-bit integer</td>
+<td>currentOffset</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.dislpayName</td>
+<td>String</td>
+<td>displayName</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.dislpayName.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.jumpSeconds</td>
+<td>Signed 32-bit integer</td>
+<td>jumpSeconds</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.keyField</td>
+<td>Unsigned 8-bit integer</td>
+<td>keyField</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.atoi.timeOfNextJump</td>
+<td>Byte array</td>
+<td>timeOfNextJump</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.grandmasterclockaccuracy</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterClockAccuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.grandmasterclockclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>grandmasterClockClass</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.grandmasterclockidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>grandmasterClockIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.grandmasterclockvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>grandmasterClockVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.lengthField</td>
+<td>Unsigned 16-bit integer</td>
+<td>lengthField</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.localstepsremoved</td>
+<td>Unsigned 16-bit integer</td>
+<td>localStepsRemoved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.origincurrentutcoffset</td>
+<td>Signed 16-bit integer</td>
+<td>originCurrentUTCOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.origintimestamp</td>
+<td>Time duration</td>
+<td>originTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.origintimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>originTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.origintimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>originTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.pathsequence</td>
+<td>Unsigned 64-bit integer</td>
+<td>PathSequence</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.priority1</td>
+<td>Unsigned 8-bit integer</td>
+<td>priority1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.priority2</td>
+<td>Unsigned 8-bit integer</td>
+<td>priority2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.tlv.data</td>
+<td>Byte array</td>
+<td>data</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.an.tlvType</td>
+<td>Unsigned 16-bit integer</td>
+<td>tlvType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.clockidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>ClockIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.control</td>
+<td>Unsigned 8-bit integer</td>
+<td>control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.correction.ns</td>
+<td>Unsigned 64-bit integer</td>
+<td>correction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.correction.subns</td>
+<td>Double-precision floating point</td>
+<td>correctionSubNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.dr.receivetimestamp</td>
+<td>Time duration</td>
+<td>receiveTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.dr.receivetimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>receiveTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.dr.receivetimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>receiveTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.dr.requestingsourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>requestingSourcePortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.dr.requestingsourceportidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>requestingSourcePortIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.alternatemaster</td>
+<td>Boolean</td>
+<td>PTP_ALTERNATE_MASTER</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.frequencytraceable</td>
+<td>Boolean</td>
+<td>FREQUENCY_TRACEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.li59</td>
+<td>Boolean</td>
+<td>PTP_LI_59</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.li61</td>
+<td>Boolean</td>
+<td>PTP_LI_61</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.security</td>
+<td>Boolean</td>
+<td>PTP_SECURITY</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.specific1</td>
+<td>Boolean</td>
+<td>PTP profile Specific 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.specific2</td>
+<td>Boolean</td>
+<td>PTP profile Specific 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.timescale</td>
+<td>Boolean</td>
+<td>PTP_TIMESCALE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.timetraceable</td>
+<td>Boolean</td>
+<td>TIME_TRACEABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.twostep</td>
+<td>Boolean</td>
+<td>PTP_TWO_STEP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.unicast</td>
+<td>Boolean</td>
+<td>PTP_UNICAST</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.flags.utcreasonable</td>
+<td>Boolean</td>
+<td>PTP_UTC_REASONABLE</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.fu.preciseorigintimestamp</td>
+<td>Time duration</td>
+<td>preciseOriginTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.fu.preciseorigintimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>preciseOriginTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.fu.preciseorigintimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>preciseOriginTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.logmessageperiod</td>
+<td>Signed 8-bit integer</td>
+<td>logMessagePeriod</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.messageid</td>
+<td>Unsigned 8-bit integer</td>
+<td>messageId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.messagelength</td>
+<td>Unsigned 16-bit integer</td>
+<td>messageLength</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.action</td>
+<td>Unsigned 8-bit integer</td>
+<td>action</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.AlternateMulticastSyncInterval</td>
+<td>Signed 8-bit integer</td>
+<td>Alternate multicast sync interval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.announceReceiptTimeout</td>
+<td>Unsigned 8-bit integer</td>
+<td>announceReceiptTimeout</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.boundaryhops</td>
+<td>Unsigned 8-bit integer</td>
+<td>boundaryHops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockaccuracy</td>
+<td>Unsigned 8-bit integer</td>
+<td>Clock accuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Clock class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>Clock identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType</td>
+<td>Unsigned 16-bit integer</td>
+<td>clockType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.BC</td>
+<td>Boolean</td>
+<td>The node implements a boundary clock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.e2e_TC</td>
+<td>Boolean</td>
+<td>The node implements an end-to-end transparent clock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.MM</td>
+<td>Boolean</td>
+<td>The node implements a management node</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.OC</td>
+<td>Boolean</td>
+<td>The node implements an ordinary clock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.p2p_TC</td>
+<td>Boolean</td>
+<td>The node implements a peer-to-peer transparent clock</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockType.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.clockvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>Clock variance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.currentOffset</td>
+<td>Signed 32-bit integer</td>
+<td>Current offset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.currentTime.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>current time (nanoseconds)</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.currentTime.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>current time (seconds)</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.currentutcoffset</td>
+<td>Signed 16-bit integer</td>
+<td>CurrentUTCOffset</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.CurrentUTCOffsetValid</td>
+<td>Boolean</td>
+<td>CurrentUTCOffset valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.data</td>
+<td>Byte array</td>
+<td>data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.delayMechanism</td>
+<td>Unsigned 8-bit integer</td>
+<td>Delay mechanism</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.displayData</td>
+<td>String</td>
+<td>Display data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.displayData.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.displayName</td>
+<td>String</td>
+<td>Display name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.displayName.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.domainNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>domain number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultDescription</td>
+<td>String</td>
+<td>faultDescription</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultName</td>
+<td>String</td>
+<td>faultName</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultName.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultRecord</td>
+<td>Byte array</td>
+<td>fault record</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultRecordLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>fault record length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultTime</td>
+<td>Time duration</td>
+<td>Fault time</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultTime.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>Fault time (nanoseconds)</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultTime.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>Fault time (seconds)</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultValue</td>
+<td>String</td>
+<td>faultValue</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultValue.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.faultyFlag</td>
+<td>Boolean</td>
+<td>Faulty flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.frequencyTraceable</td>
+<td>Boolean</td>
+<td>Frequency traceable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterclockaccuracy</td>
+<td>Unsigned 8-bit integer</td>
+<td>Grandmaster clock accuracy</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterclockclass</td>
+<td>Unsigned 8-bit integer</td>
+<td>Grandmaster clock class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterclockidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>Grandmaster clock identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterclockvariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>Grandmaster clock variance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterPriority1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Grandmaster priority1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.grandmasterPriority2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Grandmaster priority2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.initializationKey</td>
+<td>Unsigned 16-bit integer</td>
+<td>initialization key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.jumpSeconds</td>
+<td>Signed 32-bit integer</td>
+<td>Jump seconds</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.keyField</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.lengthField</td>
+<td>Unsigned 16-bit integer</td>
+<td>lengthField</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.li59</td>
+<td>Boolean</td>
+<td>leap 59</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.li61</td>
+<td>Boolean</td>
+<td>leap 61</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.logAnnounceInterval</td>
+<td>Signed 8-bit integer</td>
+<td>logAnnounceInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.logMinDelayReqInterval</td>
+<td>Signed 8-bit integer</td>
+<td>logMinDelayReqInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.logMinPdelayReqInterval</td>
+<td>Signed 8-bit integer</td>
+<td>logMinPdelayReqInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.logSyncInterval</td>
+<td>Signed 8-bit integer</td>
+<td>logSyncInterval</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.managementErrorId</td>
+<td>Unsigned 16-bit integer</td>
+<td>managementErrorId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.managementId</td>
+<td>Unsigned 16-bit integer</td>
+<td>managementId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.manufacturerIdentity</td>
+<td>Byte array</td>
+<td>manufacturer identity</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.maxKey</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max key</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.networkProtocol</td>
+<td>Unsigned 16-bit integer</td>
+<td>network protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.numberOfAlternateMasters</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of alternate masters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.numberOfFaultRecords</td>
+<td>Unsigned 16-bit integer</td>
+<td>number of fault records</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.numberPorts</td>
+<td>Unsigned 16-bit integer</td>
+<td>number of ports</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.observedParentClockPhaseChangeRate</td>
+<td>Signed 32-bit integer</td>
+<td>observedParentClockPhaseChangeRate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.observedParentOffsetScaledLogVariance</td>
+<td>Unsigned 16-bit integer</td>
+<td>observedParentOffsetScaledLogVariance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.offset.ns</td>
+<td>Unsigned 64-bit integer</td>
+<td>correction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.offset.subns</td>
+<td>Double-precision floating point</td>
+<td>SubNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.pad</td>
+<td>Byte array</td>
+<td>Pad</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.parentclockidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>parent ClockIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.parentsourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>parent SourcePortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.parentstats</td>
+<td>Boolean</td>
+<td>parent stats</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.pathDelay.ns</td>
+<td>Unsigned 64-bit integer</td>
+<td>ns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.pathDelay.subns</td>
+<td>Double-precision floating point</td>
+<td>SubNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.pathTraceEnable</td>
+<td>Boolean</td>
+<td>Path trace unicast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.peerMeanPathDelay.ns</td>
+<td>Unsigned 64-bit integer</td>
+<td>ns</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.peerMeanPathDelay.subns</td>
+<td>Double-precision floating point</td>
+<td>SubNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.physicalAddress</td>
+<td>Byte array</td>
+<td>physical address</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.physicalAddressLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>physical address length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.physicalLayerProtocol</td>
+<td>String</td>
+<td>physicalLayerProtocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.physicalLayerProtocol.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.PortNumber</td>
+<td>Unsigned 16-bit integer</td>
+<td>PortNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.portState</td>
+<td>Unsigned 8-bit integer</td>
+<td>Port state</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.primaryDomain</td>
+<td>Unsigned 8-bit integer</td>
+<td>Primary domain number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.priority1</td>
+<td>Unsigned 8-bit integer</td>
+<td>priority1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.priority2</td>
+<td>Unsigned 8-bit integer</td>
+<td>priority2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.productDescription</td>
+<td>String</td>
+<td>product description</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.productDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.profileIdentity</td>
+<td>Byte array</td>
+<td>profileIdentity</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.protocolAddress</td>
+<td>Byte array</td>
+<td>protocol address</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.protocolAddress.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.currentTime</td>
+<td>Time duration</td>
+<td>current time</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.currentTime.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>current time (nanoseconds)</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.displayData.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.displayName.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultDescription</td>
+<td>String</td>
+<td>faultDescription</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultName</td>
+<td>String</td>
+<td>faultName</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultName.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultRecord</td>
+<td>Byte array</td>
+<td>fault record</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultTime</td>
+<td>Time duration</td>
+<td>Fault time</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultTime.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>Fault time (nanoseconds)</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultTime.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>Fault time (seconds)</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultValue</td>
+<td>String</td>
+<td>faultValue</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.faultValue.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.manufacturerIdentity</td>
+<td>Byte array</td>
+<td>manufacturer identity</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.numberOfFaultRecords</td>
+<td>Unsigned 16-bit integer</td>
+<td>number of fault records</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.numberPorts</td>
+<td>Unsigned 16-bit integer</td>
+<td>number of ports</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.pad</td>
+<td>Byte array</td>
+<td>Pad</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.physicalAddress</td>
+<td>Byte array</td>
+<td>physical address</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.physicalAddressLength</td>
+<td>Unsigned 16-bit integer</td>
+<td>physical address length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.physicalLayerProtocol.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.productDescription</td>
+<td>String</td>
+<td>product description</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.productDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.profileIdentity</td>
+<td>Byte array</td>
+<td>profileIdentity</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.protocolAddress</td>
+<td>Byte array</td>
+<td>protocol address</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.protocolAddress.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.reserved</td>
+<td>Byte array</td>
+<td>reserved</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.revisionData</td>
+<td>String</td>
+<td>revision data</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.revisionData.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.userDescription</td>
+<td>String</td>
+<td>user description</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptp.v2.mm.userDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.0 to 1.0.5</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.ptptimescale</td>
+<td>Boolean</td>
+<td>PTP timescale</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.reserved</td>
+<td>Byte array</td>
+<td>reserved</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.revisionData</td>
+<td>String</td>
+<td>revision data</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.revisionData.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.severityCode</td>
+<td>Unsigned 8-bit integer</td>
+<td>severity code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.SlavOnly</td>
+<td>Boolean</td>
+<td>Slave only</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.startingboundaryhops</td>
+<td>Unsigned 8-bit integer</td>
+<td>startingBoundaryHops</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.stepsRemoved</td>
+<td>Signed 16-bit integer</td>
+<td>steps removed</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.targetportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>targetPortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.targetportidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>targetPortIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.timesource</td>
+<td>Unsigned 8-bit integer</td>
+<td>TimeSource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.timeTraceable</td>
+<td>Boolean</td>
+<td>Time traceable</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.tlvType</td>
+<td>Unsigned 16-bit integer</td>
+<td>tlvType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.transmitAlternateMulticastSync</td>
+<td>Boolean</td>
+<td>Transmit alternate multicast sync</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.twoStep</td>
+<td>Boolean</td>
+<td>Two step</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.unicastEnable</td>
+<td>Boolean</td>
+<td>Enable unicast</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.userDescription</td>
+<td>String</td>
+<td>user description</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.userDescription.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>length</td>
+<td>1.0.5 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.mm.versionNumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>versionNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdfu.requestingportidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>requestingSourcePortIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdfu.requestingsourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>requestingSourcePortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdfu.responseorigintimestamp</td>
+<td>Time duration</td>
+<td>responseOriginTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdfu.responseorigintimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>responseOriginTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdfu.responseorigintimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>responseOriginTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrq.origintimestamp</td>
+<td>Time duration</td>
+<td>originTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrq.origintimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>originTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrq.origintimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>originTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrs.requestingportidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>requestingSourcePortIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrs.requestingsourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>requestingSourcePortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrs.requestreceipttimestamp</td>
+<td>Time duration</td>
+<td>requestreceiptTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrs.requestreceipttimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>requestreceiptTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.pdrs.requestreceipttimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>requestreceiptTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sdr.origintimestamp</td>
+<td>Time duration</td>
+<td>originTimestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sdr.origintimestamp.nanoseconds</td>
+<td>Signed 32-bit integer</td>
+<td>originTimestamp (nanoseconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sdr.origintimestamp.seconds</td>
+<td>Unsigned 64-bit integer</td>
+<td>originTimestamp (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sequenceid</td>
+<td>Unsigned 16-bit integer</td>
+<td>sequenceId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sig.targetportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>targetPortId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sig.targetportidentity</td>
+<td>Unsigned 64-bit integer</td>
+<td>targetPortIdentity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.sourceportid</td>
+<td>Unsigned 16-bit integer</td>
+<td>SourcePortID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.subdomainnumber</td>
+<td>Unsigned 8-bit integer</td>
+<td>subdomainNumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.timesource</td>
+<td>Unsigned 8-bit integer</td>
+<td>TimeSource</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.transportspecific</td>
+<td>Unsigned 8-bit integer</td>
+<td>transportSpecific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.transportspecific.802.1asconform</td>
+<td>Boolean</td>
+<td>802.1as conform</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.transportspecific.v1compatibility</td>
+<td>Boolean</td>
+<td>V1 Compatibility</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.v2.versionptp</td>
+<td>Unsigned 8-bit integer</td>
+<td>versionPTP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.versionnetwork</td>
+<td>Unsigned 16-bit integer</td>
+<td>versionNetwork</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>ptp.versionptp</td>
+<td>Unsigned 16-bit integer</td>
+<td>versionPTP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

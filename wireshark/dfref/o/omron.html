@@ -1,0 +1,1940 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: OMRON FINS Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: OMRON FINS Protocol</h1>
+<div><b>Protocol field name:</b> omron</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>omron.area_data.dm_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Expansion DM size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.dm_words</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of DM words</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.iom_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>IOM size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.memory_card</td>
+<td>Unsigned 8-bit integer</td>
+<td>Kind of Memory card</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.memory_card.size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Memory card size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.num_steps</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of steps/transitions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.program_area_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Program area size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.area_data.timer_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Timer/counter size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.avg_cycle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Average cycle time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.beginning_block_num</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beginning block number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.beginning_file_position</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beginning file position</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.beginning_record_no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beginning record no.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.bit_flag</td>
+<td>Unsigned 24-bit integer</td>
+<td>Bit/flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_num</td>
+<td>Unsigned 16-bit integer</td>
+<td>Block number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.cio_area</td>
+<td>Unsigned 16-bit integer</td>
+<td>CIO Area first word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.dm_area_first_word</td>
+<td>Unsigned 16-bit integer</td>
+<td>DM Area first word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.kind_of_dm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Kind of DM</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.no_of_total_words</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of total words</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.node_num_num_nodes</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of link nodes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.block_record.node_num_status</td>
+<td>Boolean</td>
+<td>Data link status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.clearcode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Clear Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.com_cycle_time</td>
+<td>Unsigned 16-bit integer</td>
+<td>Communications cycle time (usec)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.command</td>
+<td>Unsigned 16-bit integer</td>
+<td>Command CODE</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.command.data</td>
+<td>Byte array</td>
+<td>Command Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.control_data</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.controller.model</td>
+<td>String</td>
+<td>Controller model</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.controller.version</td>
+<td>String</td>
+<td>Controller version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no0</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no1</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no10</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 10</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no11</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 11</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no12</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 12</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no13</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 13</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no14</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 14</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no15</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 15</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no2</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no3</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no4</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no5</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no6</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no7</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no8</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 8</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.no9</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit No. 9</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cpubus_unit.reserved</td>
+<td>String</td>
+<td>CPU Bus Unit Reserved </td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.1</td>
+<td>Boolean</td>
+<td>Node 1 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.10</td>
+<td>Boolean</td>
+<td>Node 10 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.11</td>
+<td>Boolean</td>
+<td>Node 11 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.12</td>
+<td>Boolean</td>
+<td>Node 12 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.13</td>
+<td>Boolean</td>
+<td>Node 13 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.14</td>
+<td>Boolean</td>
+<td>Node 14 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.15</td>
+<td>Boolean</td>
+<td>Node 15 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.16</td>
+<td>Boolean</td>
+<td>Node 16 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.17</td>
+<td>Boolean</td>
+<td>Node 17 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.18</td>
+<td>Boolean</td>
+<td>Node 18 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.19</td>
+<td>Boolean</td>
+<td>Node 19 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.2</td>
+<td>Boolean</td>
+<td>Node 2 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.20</td>
+<td>Boolean</td>
+<td>Node 20 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.21</td>
+<td>Boolean</td>
+<td>Node 21 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.22</td>
+<td>Boolean</td>
+<td>Node 22 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.23</td>
+<td>Boolean</td>
+<td>Node 23 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.24</td>
+<td>Boolean</td>
+<td>Node 24 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.25</td>
+<td>Boolean</td>
+<td>Node 25 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.26</td>
+<td>Boolean</td>
+<td>Node 26 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.27</td>
+<td>Boolean</td>
+<td>Node 27 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.28</td>
+<td>Boolean</td>
+<td>Node 28 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.29</td>
+<td>Boolean</td>
+<td>Node 29 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.3</td>
+<td>Boolean</td>
+<td>Node 3 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.30</td>
+<td>Boolean</td>
+<td>Node 30 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.31</td>
+<td>Boolean</td>
+<td>Node 31 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.32</td>
+<td>Boolean</td>
+<td>Node 32 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.33</td>
+<td>Boolean</td>
+<td>Node 33 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.34</td>
+<td>Boolean</td>
+<td>Node 34 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.35</td>
+<td>Boolean</td>
+<td>Node 35 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.36</td>
+<td>Boolean</td>
+<td>Node 36 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.37</td>
+<td>Boolean</td>
+<td>Node 37 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.38</td>
+<td>Boolean</td>
+<td>Node 38 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.39</td>
+<td>Boolean</td>
+<td>Node 39 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.4</td>
+<td>Boolean</td>
+<td>Node 4 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.40</td>
+<td>Boolean</td>
+<td>Node 40 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.41</td>
+<td>Boolean</td>
+<td>Node 41 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.42</td>
+<td>Boolean</td>
+<td>Node 42 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.43</td>
+<td>Boolean</td>
+<td>Node 43 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.44</td>
+<td>Boolean</td>
+<td>Node 44 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.45</td>
+<td>Boolean</td>
+<td>Node 45 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.46</td>
+<td>Boolean</td>
+<td>Node 46 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.47</td>
+<td>Boolean</td>
+<td>Node 47 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.48</td>
+<td>Boolean</td>
+<td>Node 48 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.49</td>
+<td>Boolean</td>
+<td>Node 49 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.5</td>
+<td>Boolean</td>
+<td>Node 5 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.50</td>
+<td>Boolean</td>
+<td>Node 50 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.51</td>
+<td>Boolean</td>
+<td>Node 51 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.52</td>
+<td>Boolean</td>
+<td>Node 52 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.53</td>
+<td>Boolean</td>
+<td>Node 53 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.54</td>
+<td>Boolean</td>
+<td>Node 54 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.55</td>
+<td>Boolean</td>
+<td>Node 55 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.56</td>
+<td>Boolean</td>
+<td>Node 56 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.57</td>
+<td>Boolean</td>
+<td>Node 57 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.58</td>
+<td>Boolean</td>
+<td>Node 58 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.59</td>
+<td>Boolean</td>
+<td>Node 59 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.6</td>
+<td>Boolean</td>
+<td>Node 6 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.60</td>
+<td>Boolean</td>
+<td>Node 60 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.61</td>
+<td>Boolean</td>
+<td>Node 61 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.62</td>
+<td>Boolean</td>
+<td>Node 62 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.7</td>
+<td>Boolean</td>
+<td>Node 7 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.8</td>
+<td>Boolean</td>
+<td>Node 8 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error.node.9</td>
+<td>Boolean</td>
+<td>Node 9 error status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_error_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nodes 1- 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_operation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cyclic operation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.cyclic_trans_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cyclic transmission status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.da1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination node number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.da2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination unit address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data</td>
+<td>None</td>
+<td>Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Data length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_type_end</td>
+<td>Boolean</td>
+<td>Block</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_type_protected</td>
+<td>Boolean</td>
+<td>Protected</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_type_rv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.data_type_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.date</td>
+<td>Unsigned 8-bit integer</td>
+<td>Date</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.day</td>
+<td>Unsigned 8-bit integer</td>
+<td>Day</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.day</td>
+<td>Unsigned 32-bit integer</td>
+<td>Day</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.hour</td>
+<td>Unsigned 32-bit integer</td>
+<td>Hour</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.minute</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.month</td>
+<td>Unsigned 32-bit integer</td>
+<td>Month</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.no_files</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of files</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.second</td>
+<td>Unsigned 8-bit integer</td>
+<td>Second</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.total_capacity</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total capacity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.total_no_files</td>
+<td>Unsigned 16-bit integer</td>
+<td>Total no. of files</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.unused_capacity</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unused capacity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.volume_label</td>
+<td>String</td>
+<td>Volume label</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_data.year</td>
+<td>Unsigned 8-bit integer</td>
+<td>Year</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.disk_no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Disk no.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.dna</td>
+<td>Unsigned 8-bit integer</td>
+<td>Destination network address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.error_message</td>
+<td>String</td>
+<td>Error message</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.error_reset_fals_no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Error reset FAL no.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fals</td>
+<td>Unsigned 16-bit integer</td>
+<td>FALS / FALS no.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.cpu_bus_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU bus error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.cycle_time_over</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cycle time over</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.duplication_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Duplication error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.fals_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>FALS error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.io_bus_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>I/O bus error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.io_point_overflow</td>
+<td>Unsigned 16-bit integer</td>
+<td>I/O point overflow</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.io_setting_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>I/O setting error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.memory_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Memory error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.program_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Program error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.rv_1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.rv_2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.rv_3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.rv_4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.rv_5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.sfc_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fatal SFC error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal.watch_dog_timer_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Watch dog timer error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fatal_error_data</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fatal error data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.file_data</td>
+<td>None</td>
+<td>File data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.file_data.file_capacity</td>
+<td>Unsigned 32-bit integer</td>
+<td>File capacity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.file_data.filename</td>
+<td>String</td>
+<td>Filename</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.file_parameter_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.file_position</td>
+<td>Unsigned 32-bit integer</td>
+<td>File position</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.first_word</td>
+<td>Unsigned 16-bit integer</td>
+<td>First word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.fixed</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fixed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.gct</td>
+<td>Unsigned 8-bit integer</td>
+<td>Gateway Count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.hour</td>
+<td>Unsigned 8-bit integer</td>
+<td>Hour</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf</td>
+<td>Unsigned 8-bit integer</td>
+<td>OMRON ICF Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.dtb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Type bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.gwb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Gateway bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rb0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rb1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rb2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rb3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rb4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.icf.rsb</td>
+<td>Unsigned 8-bit integer</td>
+<td>Response setting bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.intelligent_id_no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Intelligent ID no.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.master_node_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Master node number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.max_cycle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Max. cycle time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.max_no_of_stored_records</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max. no. of stored records</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.memory.address</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beginning address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.memory.address.bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Beginning address bits</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.memory.area.read</td>
+<td>Unsigned 8-bit integer</td>
+<td>Memory Area Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.memory.numitems</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of items</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message</td>
+<td>Unsigned 16-bit integer</td>
+<td>Message</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_0</td>
+<td>Boolean</td>
+<td>Message no. 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_1</td>
+<td>Boolean</td>
+<td>Message no. 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_2</td>
+<td>Boolean</td>
+<td>Message no. 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_3</td>
+<td>Boolean</td>
+<td>Message no. 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_4</td>
+<td>Boolean</td>
+<td>Message no. 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_5</td>
+<td>Boolean</td>
+<td>Message no. 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_6</td>
+<td>Boolean</td>
+<td>Message no. 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.no_7</td>
+<td>Boolean</td>
+<td>Message no. 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_0</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_1</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_2</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_3</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_4</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_5</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.message.rv_7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.min_cycle_time</td>
+<td>Unsigned 32-bit integer</td>
+<td>Min cycle time</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.minute</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.mode_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mode Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.mode_code_default_monitor</td>
+<td>None</td>
+<td>Mode Code (Default Monitor)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.model_number</td>
+<td>String</td>
+<td>Model Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.month</td>
+<td>Unsigned 8-bit integer</td>
+<td>Month</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.name_data</td>
+<td>String</td>
+<td>Name data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.network_address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Network address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.no_of_files</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of files</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.no_of_link_nodes</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of link nodes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.no_of_records</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of records</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.no_stored_records</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of stored records</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_error_count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node error count</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Node number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.high.exit_status</td>
+<td>Boolean</td>
+<td>Exit status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.high.network</td>
+<td>Boolean</td>
+<td>Network</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.high.polling_Status</td>
+<td>Boolean</td>
+<td>Polling</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.high.rv</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.low.exit_status</td>
+<td>Boolean</td>
+<td>Exit status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.low.network</td>
+<td>Boolean</td>
+<td>Network</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.low.polling_Status</td>
+<td>Boolean</td>
+<td>Polling</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.node_number.low.rv</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.batter_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Battery error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.cpu_bus_unit_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.cpu_bus_unit_setting_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPU Bus Unit setting error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.fal_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>FAL error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.indirect_dm_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Indirect DM error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.io_verification_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>I/O verfication error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.jmp_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>JMP error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.power_interruption</td>
+<td>Unsigned 16-bit integer</td>
+<td>Momentary power interruption</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.rv1</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.rv2</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.rv3</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.rv4</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.rv5</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.sfc_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Non-fatal SFC error v</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.sysmac_bus2_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>SYSMAC BUS/2 error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.non_fatal.sysmac_bus_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>SYSMAC BUS error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.num_blocks</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of blocks</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.num_blocks_remaining</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of blocks remaining</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.num_receptions</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of receptions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.num_unit_uint16</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of units</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.number_of_bits_flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. of bits/flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.number_of_bytes</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number of bytes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.numwords</td>
+<td>Unsigned 16-bit integer</td>
+<td>No. words or Bytes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.parameter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Parameter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.parameter_area_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter area code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.password</td>
+<td>String</td>
+<td>Password</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pc_status</td>
+<td>Unsigned 8-bit integer</td>
+<td>PC status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pc_status.hi</td>
+<td>Unsigned 8-bit integer</td>
+<td>With built-in host interface</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pc_status.pdc</td>
+<td>Boolean</td>
+<td>Peripheral Device connected</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pc_status.r1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pc_status.r2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.pcp_status.rack_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rack Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.polling_unit_node_num</td>
+<td>Unsigned 8-bit integer</td>
+<td>Current polling unit node number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.program_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>Program number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.protect_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protect code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.read_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Read length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.read_message</td>
+<td>String</td>
+<td>Message</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.remote_io_date.sysmac_1</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of SYSMAC BUS/2 Masters mounted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.remote_io_date.sysmac_2</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of SYSMAC BUS Masters mounted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.response.code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Response code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.response.data</td>
+<td>Byte array</td>
+<td>Response data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.rsv</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.sa1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source node number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.sa2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source unit address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.second</td>
+<td>Unsigned 8-bit integer</td>
+<td>Second</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.set_reset_specification</td>
+<td>Unsigned 16-bit integer</td>
+<td>Set/Reset Specification</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.sid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Service ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.sna</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source network address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.0</td>
+<td>Boolean</td>
+<td>Node 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.1</td>
+<td>Boolean</td>
+<td>Node 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.10</td>
+<td>Boolean</td>
+<td>Node 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.11</td>
+<td>Boolean</td>
+<td>Node 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.12</td>
+<td>Boolean</td>
+<td>Node 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.13</td>
+<td>Boolean</td>
+<td>Node 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.14</td>
+<td>Boolean</td>
+<td>Node 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.15</td>
+<td>Boolean</td>
+<td>Node 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.16</td>
+<td>Boolean</td>
+<td>Node 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.17</td>
+<td>Boolean</td>
+<td>Node 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.2</td>
+<td>Boolean</td>
+<td>Node 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.20</td>
+<td>Boolean</td>
+<td>Node 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.21</td>
+<td>Boolean</td>
+<td>Node 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.22</td>
+<td>Boolean</td>
+<td>Node 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.23</td>
+<td>Boolean</td>
+<td>Node 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.24</td>
+<td>Boolean</td>
+<td>Node 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.25</td>
+<td>Boolean</td>
+<td>Node 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.26</td>
+<td>Boolean</td>
+<td>Node 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.27</td>
+<td>Boolean</td>
+<td>Node 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.3</td>
+<td>Boolean</td>
+<td>Node 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.4</td>
+<td>Boolean</td>
+<td>Node 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.5</td>
+<td>Boolean</td>
+<td>Node 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.6</td>
+<td>Boolean</td>
+<td>Node 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status.node.7</td>
+<td>Boolean</td>
+<td>Node 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Status flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status_flags.data_link</td>
+<td>Boolean</td>
+<td>Status Data link</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.status_flags.slave_master</td>
+<td>Boolean</td>
+<td>Status Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.system.use</td>
+<td>String</td>
+<td>For system use</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.total_num_blocks</td>
+<td>Unsigned 16-bit integer</td>
+<td>Total number of blocks</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.transfer_beginning_address</td>
+<td>Unsigned 24-bit integer</td>
+<td>Beginning address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.transfer_parameter_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.unit_address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Unit address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.unit_nums</td>
+<td>Unsigned 8-bit integer</td>
+<td>No. of Units</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.volume_parameter_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Volume parameter code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.word</td>
+<td>Unsigned 16-bit integer</td>
+<td>Beginning word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.word.begin</td>
+<td>Unsigned 32-bit integer</td>
+<td>Beginning word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.word.last</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>omron.year</td>
+<td>Unsigned 8-bit integer</td>
+<td>Year</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

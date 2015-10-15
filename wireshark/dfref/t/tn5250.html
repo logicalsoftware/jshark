@@ -1,0 +1,3368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: TN5250 Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: TN5250 Protocol</h1>
+<div><b>Protocol field name:</b> tn5250</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>tn5250.aid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attention Identification</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.attn_key</td>
+<td>Boolean</td>
+<td>5250 attention key was pressed.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.attribute</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attribute Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.buffer_x</td>
+<td>Unsigned 8-bit integer</td>
+<td>Row Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.buffer_y</td>
+<td>Unsigned 8-bit integer</td>
+<td>Column Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field Class</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.command_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ctp_lsid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Printer LSID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ctp_mlpp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Max Lines Per Page</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.cua_parm</td>
+<td>Unsigned 16-bit integer</td>
+<td>TN5250 CUA Parameter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dawt_char</td>
+<td>Unknown</td>
+<td>Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dawt_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dawt_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dawt_message</td>
+<td>Unknown</td>
+<td>Message</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dckf_function_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Function Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dckf_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dckf_key_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Key Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dckf_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dckf_prompt_text</td>
+<td>Unknown</td>
+<td>Prompt Text</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Core Area Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_coreflag_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_data_field</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Top Row Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Top Row Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag2_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Top Row Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dfdpck_toprowflag3_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dorm_ec</td>
+<td>Unsigned 16-bit integer</td>
+<td>Error Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dorm_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dorm_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dorm_mt</td>
+<td>Unknown</td>
+<td>Message Text</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_displace_characters</td>
+<td>Unknown</td>
+<td>Displaced Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_flag2_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_start_location_col</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start Location (Column)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpo_start_location_row</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start Location (Row)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpt_ec</td>
+<td>Unknown</td>
+<td>EBCDIC Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dpt_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ds_output_error</td>
+<td>Boolean</td>
+<td>Data Stream Output Error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsc_ev</td>
+<td>Unknown</td>
+<td>EBCDIC Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsc_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsc_sk</td>
+<td>Unsigned 8-bit integer</td>
+<td>Symbol Key</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_function</td>
+<td>Unsigned 8-bit integer</td>
+<td>Function</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_location</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dsl_rtl_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTL Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_first_line</td>
+<td>Unsigned 8-bit integer</td>
+<td>First Line in Text Body</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_flag2_4to7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bits 4 to 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_line_cmd_field_size</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Cmd Field Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_location_of_pitch</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location of Pitch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.dtsf_text_body_height</td>
+<td>Unsigned 16-bit integer</td>
+<td>Text Body Height</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.error_code</td>
+<td>Unsigned 16-bit integer</td>
+<td>TN5250 Error Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.error_state</td>
+<td>Boolean</td>
+<td>In Error State</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.escape_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Escape Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.fa_color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Attribute (Color)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.fcw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Field Control Word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Format Word</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_adjust</td>
+<td>Unsigned 8-bit integer</td>
+<td>Right Adjust/Mandatory Fill</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_auto</td>
+<td>Boolean</td>
+<td>Auto Enter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_bypass</td>
+<td>Boolean</td>
+<td>Bypass</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_dup</td>
+<td>Boolean</td>
+<td>Dupe or Field Mark Enable</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_fer</td>
+<td>Boolean</td>
+<td>Field Exit Required</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Format Word ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_mdt</td>
+<td>Boolean</td>
+<td>Modified Data Tag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_me</td>
+<td>Boolean</td>
+<td>Mandatory Enter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_monocase</td>
+<td>Boolean</td>
+<td>Monocase</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_res</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ffw_shift</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Shift/Edit Specification</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.field_data</td>
+<td>Unknown</td>
+<td>Field Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.foreground_color_attr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Foreground Color Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.header_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN5250 SNA Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.ideographic_attr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ideographic Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.image_fax_error</td>
+<td>Unsigned 16-bit integer</td>
+<td>Image/Fax Error</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.logical_record_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>TN5250 Logical Record Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.negative_response</td>
+<td>Unsigned 32-bit integer</td>
+<td>Negative Response</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.operation_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN5250 Operation Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.order_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Order Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_ccl</td>
+<td>Unsigned 24-bit integer</td>
+<td>Controller Code Level</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_chc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Controller Hardware Class</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_dm</td>
+<td>Unknown</td>
+<td>Device Model</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_dsn</td>
+<td>Unsigned 32-bit integer</td>
+<td>Display Serial Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_dt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_dtc</td>
+<td>Unknown</td>
+<td>Device Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_eki</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Keyboard ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0 (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag2_0to3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bits 0 to 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag2_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag2_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag2_6to7</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bits 6 to 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag4</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag_0</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_flag_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_ki</td>
+<td>Unsigned 8-bit integer</td>
+<td>Keyboard ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.qr_mni</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum number of input fields</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.repeated_character</td>
+<td>Unknown</td>
+<td>Repeated Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved):</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_bottom_line</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line number defining the bottom line of the area that will participate in the roll</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_flag1_lines</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of lines that the designated area is to be rolled</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.roll_top_line</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line number defining the top line of the area that will participate in the roll</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.rts_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.rts_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0 (Last Data Stream flag)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.rts_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.rts_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sf_attr_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attribute ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sf_fa</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Attributes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sf_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Structured Field Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sna_record_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>TN5250 SNA Record Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_cursor_direction</td>
+<td>Boolean</td>
+<td>Right To Left Screen-Level Cursor Direction</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_err</td>
+<td>Unsigned 8-bit integer</td>
+<td>Error Row</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start of Header Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_input_capable_only</td>
+<td>Boolean</td>
+<td>The cursor is allowed to move only to input-capable positions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf1</td>
+<td>Boolean</td>
+<td>PF1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf10</td>
+<td>Boolean</td>
+<td>PF10</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf11</td>
+<td>Boolean</td>
+<td>PF11</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf12</td>
+<td>Boolean</td>
+<td>PF12</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf13</td>
+<td>Boolean</td>
+<td>PF13</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf14</td>
+<td>Boolean</td>
+<td>PF14</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf15</td>
+<td>Boolean</td>
+<td>PF15</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf16</td>
+<td>Boolean</td>
+<td>PF16</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf16to9</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Key Switch 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf17</td>
+<td>Boolean</td>
+<td>PF17</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf18</td>
+<td>Boolean</td>
+<td>PF18</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf19</td>
+<td>Boolean</td>
+<td>PF19</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf2</td>
+<td>Boolean</td>
+<td>PF2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf20</td>
+<td>Boolean</td>
+<td>PF20</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf21</td>
+<td>Boolean</td>
+<td>PF21</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf22</td>
+<td>Boolean</td>
+<td>PF22</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf23</td>
+<td>Boolean</td>
+<td>PF22</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf24</td>
+<td>Boolean</td>
+<td>PF24</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf24to17</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Key Switch 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf3</td>
+<td>Boolean</td>
+<td>PF3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf4</td>
+<td>Boolean</td>
+<td>PF4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf5</td>
+<td>Boolean</td>
+<td>PF5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf6</td>
+<td>Boolean</td>
+<td>PF6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf7</td>
+<td>Boolean</td>
+<td>PF7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf8</td>
+<td>Boolean</td>
+<td>PF8</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf8to1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Key Switch 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_pf9</td>
+<td>Boolean</td>
+<td>PF9</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_resq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Resequence to Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.soh_screen_reverse</td>
+<td>Boolean</td>
+<td>Automatic local screen reverse</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_left_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>Left Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_top_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>Top Row</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_window_depth</td>
+<td>Unsigned 8-bit integer</td>
+<td>Window Depth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sps_window_width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Window Width</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.sys_request_key</td>
+<td>Boolean</td>
+<td>5250 System Request key was pressed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.test_request_key</td>
+<td>Boolean</td>
+<td>5250 Test Request key was pressed</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.unknown_data</td>
+<td>Byte array</td>
+<td>Unknown Data (Possible Mainframe/Emulator Bug)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.vac_data</td>
+<td>Unsigned 32-bit integer</td>
+<td>Video/Audio Control Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.vac_data_prefix</td>
+<td>Unsigned 16-bit integer</td>
+<td>Video/Audio Control Data Prefix</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.variable_record_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN5250 Variable Record Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cgl_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cgl_rectangle_height</td>
+<td>Unsigned 8-bit integer</td>
+<td>Height of Rectangle</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cgl_rectangle_width</td>
+<td>Unsigned 8-bit integer</td>
+<td>Width of Rectangle</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cgl_start_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cgl_start_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Row</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_bbc</td>
+<td>Unknown</td>
+<td>Bottom Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_cba</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Border Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_flag1_1</td>
+<td>Boolean</td>
+<td>Flag 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_lbc</td>
+<td>Unknown</td>
+<td>Left Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_llbc</td>
+<td>Unknown</td>
+<td>Lower Left Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_lrbc</td>
+<td>Unknown</td>
+<td>Lower Right Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_mba</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Border Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_rbc</td>
+<td>Unknown</td>
+<td>Right Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_tbc</td>
+<td>Unknown</td>
+<td>Top Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_ulbc</td>
+<td>Unknown</td>
+<td>Upper Left Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_bp_urbc</td>
+<td>Unknown</td>
+<td>Upper Right Border Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_flag1_1</td>
+<td>Boolean</td>
+<td>Flag 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_flag1_2</td>
+<td>Boolean</td>
+<td>Flag 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_minor_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Structured Field Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_cba</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Title/Footer Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_flag_1</td>
+<td>Boolean</td>
+<td>Title/Footer Defined</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_flag_orientation</td>
+<td>Unsigned 8-bit integer</td>
+<td>Orientation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_flag_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_mba</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Title/Footer Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_tf_text</td>
+<td>Unknown</td>
+<td>Title Text</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_wd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Window Depth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_cw_ww</td>
+<td>Unsigned 8-bit integer</td>
+<td>Window Width</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_default_color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default Color for Grid Lines</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_default_line</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default Line Style</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_flag2_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_minor_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Construct</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_default_color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_horizontal_dimension</td>
+<td>Unsigned 8-bit integer</td>
+<td>Horizontal Dimenstion</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_line_interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Interval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_line_repeat</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Repeat</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_start_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_start_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Row</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_ms_vertical_dimension</td>
+<td>Unsigned 8-bit integer</td>
+<td>Vertical Dimenstion</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_deg_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cancel_aid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mouse Pull-Down Cancel AID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_first_choice</td>
+<td>Unknown</td>
+<td>Character That Replaces the First Choice Text Character for Unavailable Choices On a Monochrome Display</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_left_push</td>
+<td>Unknown</td>
+<td>Empty Indicator or Left Push Button</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ci_right_push</td>
+<td>Unknown</td>
+<td>Selected Indicator or Right Push Button</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_columns</td>
+<td>Unsigned 8-bit integer</td>
+<td>Columns/Menu Bar Choices</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_country_sel</td>
+<td>Unknown</td>
+<td>Country Specific Selection Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_avail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Available Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Indicator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_sel_avail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Selection Cursor Available Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_sel_selected</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Selection Cursor Selected Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_sel_unavail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Selection Cursor Unavailable Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_selected</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Selected Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_unavail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Unavailable Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_color_unavail_indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Unavailable Indicator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_avail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Available Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Indicator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_sel_avail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Selection Cursor Available Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_sel_selected</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Selection Cursor Selected Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_sel_unavail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Selection Cursor Unavailable Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_selected</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Selected Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_unavail</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Unavailable Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_cpda_monochrome_unavail_indicator</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Unavailable Indicator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_aid</td>
+<td>Unsigned 8-bit integer</td>
+<td>AID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_choice_state</td>
+<td>Unsigned 8-bit integer</td>
+<td>Choice State</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag1_numeric_selection</td>
+<td>Unsigned 8-bit integer</td>
+<td>Numeric Selection Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag2_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag Byte 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag3_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag3_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag3_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_flag3_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_mnemonic_offset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mnemonic Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_numeric</td>
+<td>Unsigned 8-bit integer</td>
+<td>Numeric Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_ct_text</td>
+<td>Unknown</td>
+<td>Choice Text</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1_1</td>
+<td>Boolean</td>
+<td>Auto Select</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1_2</td>
+<td>Boolean</td>
+<td>Field MDT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1_auto_enter</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mouse Characteristics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1_mouse_characteristics</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mouse Characteristics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_2</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_3</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_4</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_5</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag2_6</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag3_1</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_flag3_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_gdc</td>
+<td>Unsigned 8-bit integer</td>
+<td>GUI Device Characteristics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_gdc_indicators</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicators</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_gdc_reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_color_sep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Separator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_end_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>End Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_flag_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_flag_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_flag_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_monochrome_sep</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Separator Emphasis</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_sep_char</td>
+<td>Unknown</td>
+<td>Separator Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_mbs_start_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_minor_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Structured Field Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_numeric_sep</td>
+<td>Unknown</td>
+<td>Numeric Separator Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_nws</td>
+<td>Unsigned 8-bit integer</td>
+<td>NWS With Mnemonic Underscore Characteristics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_nws_indicators</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicators</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_nws_reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_padding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Padding Between Choices</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_rows</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rows</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_bottom_character</td>
+<td>Unknown</td>
+<td>Bottom Scroll Bar Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_color_top_highlight_shaft</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Shaft ScrollBar Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_color_top_highlightl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color Top of ScrollBar Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_empty_character</td>
+<td>Unknown</td>
+<td>Empty Scroll Bar Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_monochrome_top_highlight</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Top of ScrollBar Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_monochrome_top_highlight_shaft</td>
+<td>Unsigned 8-bit integer</td>
+<td>Monochrome Shaft ScrollBar Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_slider_character</td>
+<td>Unknown</td>
+<td>Slider Scroll Bar Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sbi_top_character</td>
+<td>Unknown</td>
+<td>Top Scroll Bar Character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_selection_techniques</td>
+<td>Unsigned 8-bit integer</td>
+<td>Selection Techniques</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_sliderpos</td>
+<td>Unsigned 32-bit integer</td>
+<td>Slider Positions That Can Be Scrolled</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_textsize</td>
+<td>Unsigned 8-bit integer</td>
+<td>Text Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_totalrows</td>
+<td>Unsigned 32-bit integer</td>
+<td>Total Rows or Minor Structures That Can Be Scrolled</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ds_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Selection Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_dsb_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_dsb_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_dsb_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_dsb_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_dsb_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_first_mouse_event</td>
+<td>Unsigned 8-bit integer</td>
+<td>First Mouse Event (Leading Edge Event)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_pmb_second_mouse_event</td>
+<td>Unsigned 8-bit integer</td>
+<td>Second Mouse Event (Trailing Edge Event)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ragc_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ragc_flag1_0</td>
+<td>Boolean</td>
+<td>GUI-Like Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_ragc_flag_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_rgw_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_rgw_flag1_0</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_rgw_flag1_1</td>
+<td>Boolean</td>
+<td>Window Pull-Down</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_rgw_flag_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_sbi_rowscols</td>
+<td>Unsigned 8-bit integer</td>
+<td>Rows or Columns</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_sbi_sliderpos</td>
+<td>Unsigned 32-bit integer</td>
+<td>SliderPos</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_sbi_total_scroll</td>
+<td>Unsigned 32-bit integer</td>
+<td>TotalRows or TotalCols That Can Be Scrolled</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_wdf_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_wdf_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wdsf_wdf_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Primary Attributes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_blink</td>
+<td>Boolean</td>
+<td>Blink</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_col</td>
+<td>Boolean</td>
+<td>Column Separator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_flag</td>
+<td>Boolean</td>
+<td>Attribute Change</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_int</td>
+<td>Boolean</td>
+<td>Intensity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_rev</td>
+<td>Boolean</td>
+<td>Reverse Image</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wea_prim_attr_und</td>
+<td>Boolean</td>
+<td>Underscore</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wectw_end_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>End Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wectw_start_column</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start Column</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag2_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wsf_qss_flag2_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_cc_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_cc_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_cc_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_flag2_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_background_color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Background Color</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0 (Cache allowed flag)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_1to3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bits 1-3 (Type of image/fax display)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4 (Color importance during scaling)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5 (Allow display to control scaling)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6 (Reverse image)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7 (Allow/Inhibit EasyScroll with a mouse)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0 (Duplicate Scan Lines)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 1 (Allow/Inhibit Trim Magnify Scaling)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag2_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_flag2_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_foreground_color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Foreground Color</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_image_format</td>
+<td>Unsigned 16-bit integer</td>
+<td>Image Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_imagefax_name</td>
+<td>Unknown</td>
+<td>Image/Fax Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_rotation</td>
+<td>Unsigned 16-bit integer</td>
+<td>Rotation (Degrees)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_scaling</td>
+<td>Unsigned 16-bit integer</td>
+<td>Scaling</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewimage_location_col</td>
+<td>Unsigned 8-bit integer</td>
+<td>View Image Location (Horizontal Position)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewimage_location_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>View Image Location (Vertical Percentage)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewport_location_col</td>
+<td>Unsigned 8-bit integer</td>
+<td>Viewport Location (Column)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewport_location_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>Viewport Location (Row)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewport_size_col</td>
+<td>Unsigned 8-bit integer</td>
+<td>Viewport Size (Column)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifc_viewport_size_row</td>
+<td>Unsigned 8-bit integer</td>
+<td>Viewport Size (Row)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifd_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifd_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0 (Last Data Stream flag)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifd_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifd_imagefax_data</td>
+<td>Unknown</td>
+<td>Image/Fax Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ifd_imagefax_name</td>
+<td>Unknown</td>
+<td>Image/Fax Name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_kbc_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_kbc_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_kbc_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_kbc_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_kbc_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ttw_data</td>
+<td>Unknown</td>
+<td>Transparent Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_ttw_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wssf_wsc_minor_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minor Structured Field Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Write To Display Command Control Character Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Write To Display Command Control Character Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_alarm</td>
+<td>Boolean</td>
+<td>Sound Alarm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_cursor</td>
+<td>Boolean</td>
+<td>Cursor does not move when keyboard unlocks</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_off</td>
+<td>Boolean</td>
+<td>Set Message Waiting indicator off</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_on</td>
+<td>Boolean</td>
+<td>Set Message Waiting indicator on</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_reset</td>
+<td>Boolean</td>
+<td>Reset blinking cursor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_set</td>
+<td>Boolean</td>
+<td>Set blinking cursor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wtd_ccc_unlock</td>
+<td>Boolean</td>
+<td>Unlock the keyboard and reset any pending AID bytes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag1_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag2_line_spacing</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Spacing in Half-Units</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_flag3_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_io</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indent Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_li</td>
+<td>Unknown</td>
+<td>Line Image</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_lmo</td>
+<td>Unsigned 8-bit integer</td>
+<td>Left Margin Offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_page_num</td>
+<td>Unsigned 16-bit integer</td>
+<td>Page Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_row</td>
+<td>Unsigned 16-bit integer</td>
+<td>Row</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_cld_sli</td>
+<td>Unsigned 8-bit integer</td>
+<td>Scale Line ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag1_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag2_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag2_reserved</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3</td>
+<td>Unsigned 8-bit integer</td>
+<td>Byte 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_0</td>
+<td>Boolean</td>
+<td>Bit 0</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_1</td>
+<td>Boolean</td>
+<td>Bit 1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_2</td>
+<td>Boolean</td>
+<td>Bit 2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_3</td>
+<td>Boolean</td>
+<td>Bit 3</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_4</td>
+<td>Boolean</td>
+<td>Bit 4</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_5</td>
+<td>Boolean</td>
+<td>Bit 5</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_6</td>
+<td>Boolean</td>
+<td>Bit 6</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_flag3_7</td>
+<td>Boolean</td>
+<td>Bit 7</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_home_position_col</td>
+<td>Unsigned 16-bit integer</td>
+<td>Home Position (Column)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_home_position_row</td>
+<td>Unsigned 16-bit integer</td>
+<td>Home Position (Row)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn5250.wts_partition</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

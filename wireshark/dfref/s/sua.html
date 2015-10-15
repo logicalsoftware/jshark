@@ -1,0 +1,680 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: SS7 SCCP-User Adaptation Layer</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: SS7 SCCP-User Adaptation Layer</h1>
+<div><b>Protocol field name:</b> sua</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>sua.affected_point_code_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.affected_pointcode_dpc</td>
+<td>Unsigned 24-bit integer</td>
+<td>Affected DPC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_a_bit</td>
+<td>Boolean</td>
+<td>Protocol Class 3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_b_bit</td>
+<td>Boolean</td>
+<td>Protocol Class 2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_c_bit</td>
+<td>Boolean</td>
+<td>Protocol Class 1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_d_bit</td>
+<td>Boolean</td>
+<td>Protocol Class 0</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_interworking</td>
+<td>Unsigned 8-bit integer</td>
+<td>Interworking</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_capabilities_reserved_bits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved Bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.asp_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>ASP Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.cause_user_cause</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.cause_user_user</td>
+<td>Unsigned 16-bit integer</td>
+<td>User</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.congestion_level</td>
+<td>Unsigned 32-bit integer</td>
+<td>Congestion Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.correlation_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>Correlation ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.credit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Credit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.data</td>
+<td>Byte array</td>
+<td>Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.deregistration_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Deregistration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_address_gt_bit</td>
+<td>Boolean</td>
+<td>Include GT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_address_pc_bit</td>
+<td>Boolean</td>
+<td>Include PC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_address_reserved_bits</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved Bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_address_routing_indicator</td>
+<td>Unsigned 16-bit integer</td>
+<td>Routing Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_address_ssn_bit</td>
+<td>Boolean</td>
+<td>Include SSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.destination_reference_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Destination Reference Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.diagnostic_information</td>
+<td>Byte array</td>
+<td>Diagnostic Information</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.drn_label_end</td>
+<td>Unsigned 8-bit integer</td>
+<td>End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.drn_label_start</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.drn_label_value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Label Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.error_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Error code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.global_title_digits</td>
+<td>String</td>
+<td>Global Title Digits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.global_title_nature_of_address</td>
+<td>Unsigned 8-bit integer</td>
+<td>Nature of Address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.global_title_number_of_digits</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Digits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.global_title_numbering_plan</td>
+<td>Unsigned 8-bit integer</td>
+<td>Numbering Plan</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.global_title_signals</td>
+<td>Byte array</td>
+<td>Global Title</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>sua.global_title_translation_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Translation Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.gt_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.gti</td>
+<td>Unsigned 8-bit integer</td>
+<td>GTI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.heartbeat_data</td>
+<td>Byte array</td>
+<td>Heartbeat Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.hostname.name</td>
+<td>String</td>
+<td>Hostname</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.importance_inportance</td>
+<td>Unsigned 8-bit integer</td>
+<td>Importance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.importance_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.info_string</td>
+<td>String</td>
+<td>Info string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ipv4_address</td>
+<td>IPv4 address</td>
+<td>IP Version 4 address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ipv6_address</td>
+<td>IPv6 address</td>
+<td>IP Version 6 address</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.local_routing_key_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local routing key identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.message_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.message_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Message Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.message_priority_priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.message_priority_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.message_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Message Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.network_appearance</td>
+<td>Unsigned 32-bit integer</td>
+<td>Network Appearance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.parameter_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.parameter_padding</td>
+<td>Byte array</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.parameter_tag</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.parameter_value</td>
+<td>Byte array</td>
+<td>Parameter Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.point_code</td>
+<td>Unsigned 32-bit integer</td>
+<td>Point Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.protcol_class_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.protocol_class_class</td>
+<td>Unsigned 8-bit integer</td>
+<td>Protocol Class</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.protocol_class_return_on_error_bit</td>
+<td>Boolean</td>
+<td>Return On Error Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.receive_sequence_number_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receive Sequence Number P(R)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.receive_sequence_number_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.receive_sequence_number_spare_bit</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.registration_status</td>
+<td>Unsigned 32-bit integer</td>
+<td>Registration status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.routing_context</td>
+<td>Unsigned 32-bit integer</td>
+<td>Routing context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.routing_key_identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Local Routing Key Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sccp_cause_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sccp_cause_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sccp_cause_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cause Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.segmentation_first_bit</td>
+<td>Boolean</td>
+<td>First Segment Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.segmentation_number_of_remaining_segments</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Remaining Segments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.segmentation_reference</td>
+<td>Unsigned 24-bit integer</td>
+<td>Segmentation Reference</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_control_sequence_control</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sequence Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_number_more_data_bit</td>
+<td>Boolean</td>
+<td>More Data Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_number_receive_sequence_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Receive Sequence Number P(R)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_number_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_number_sent_sequence_number</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sent Sequence Number P(S)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.sequence_number_spare_bit</td>
+<td>Unsigned 8-bit integer</td>
+<td>Spare Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.smi_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.smi_smi</td>
+<td>Unsigned 8-bit integer</td>
+<td>SMI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_address_gt_bit</td>
+<td>Boolean</td>
+<td>Include GT</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_address_pc_bit</td>
+<td>Boolean</td>
+<td>Include PC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_address_reserved_bits</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved Bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_address_routing_indicator</td>
+<td>Unsigned 16-bit integer</td>
+<td>Routing Indicator</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_address_ssn_bit</td>
+<td>Boolean</td>
+<td>Include SSN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.source_reference_number</td>
+<td>Unsigned 32-bit integer</td>
+<td>Source Reference Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ss7_hop_counter_counter</td>
+<td>Unsigned 8-bit integer</td>
+<td>SS7 Hop Counter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ss7_hop_counter_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ssn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subsystem Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.ssn_reserved</td>
+<td>Byte array</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.status_info</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status info</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.status_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.tid_label_end</td>
+<td>Unsigned 8-bit integer</td>
+<td>End</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.tid_label_start</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.tid_label_value</td>
+<td>Unsigned 16-bit integer</td>
+<td>Label Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.traffic_mode_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>Traffic mode Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>sua.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

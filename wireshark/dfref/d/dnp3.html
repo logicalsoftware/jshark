@@ -1,0 +1,734 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Distributed Network Protocol 3.0</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Distributed Network Protocol 3.0</h1>
+<div><b>Protocol field name:</b> dnp3</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>dnp3.al.2bit</td>
+<td>Unsigned 8-bit integer</td>
+<td>Value (two bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b0</td>
+<td>Boolean</td>
+<td>Online</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b1</td>
+<td>Boolean</td>
+<td>Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b2</td>
+<td>Boolean</td>
+<td>Comm Fail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b3</td>
+<td>Boolean</td>
+<td>Remote Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b4</td>
+<td>Boolean</td>
+<td>Local Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b5</td>
+<td>Boolean</td>
+<td>Over-Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b6</td>
+<td>Boolean</td>
+<td>Reference Check</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aiq.b7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ana</td>
+<td>Unsigned 16-bit integer</td>
+<td>Value (16 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.anaout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Output Value (16 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b0</td>
+<td>Boolean</td>
+<td>Online</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b1</td>
+<td>Boolean</td>
+<td>Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b2</td>
+<td>Boolean</td>
+<td>Comm Fail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b3</td>
+<td>Boolean</td>
+<td>Remote Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b4</td>
+<td>Boolean</td>
+<td>Local Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b5</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.aoq.b7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b0</td>
+<td>Boolean</td>
+<td>Online</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b1</td>
+<td>Boolean</td>
+<td>Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b2</td>
+<td>Boolean</td>
+<td>Comm Fail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b3</td>
+<td>Boolean</td>
+<td>Remote Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b4</td>
+<td>Boolean</td>
+<td>Local Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b5</td>
+<td>Boolean</td>
+<td>Chatter Filter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.biq.b7</td>
+<td>Boolean</td>
+<td>Point Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.bit</td>
+<td>Boolean</td>
+<td>Value (bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b0</td>
+<td>Boolean</td>
+<td>Online</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b1</td>
+<td>Boolean</td>
+<td>Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b2</td>
+<td>Boolean</td>
+<td>Comm Fail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b3</td>
+<td>Boolean</td>
+<td>Remote Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b4</td>
+<td>Boolean</td>
+<td>Local Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b5</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b6</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.boq.b7</td>
+<td>Boolean</td>
+<td>Point Value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.cnt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Counter (16 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.con</td>
+<td>Boolean</td>
+<td>Confirm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrlstatus</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Status</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b0</td>
+<td>Boolean</td>
+<td>Online</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b1</td>
+<td>Boolean</td>
+<td>Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b2</td>
+<td>Boolean</td>
+<td>Comm Fail</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b3</td>
+<td>Boolean</td>
+<td>Remote Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b4</td>
+<td>Boolean</td>
+<td>Local Force</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b5</td>
+<td>Boolean</td>
+<td>Roll-Over</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b6</td>
+<td>Boolean</td>
+<td>Discontinuity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ctrq.b7</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fin</td>
+<td>Boolean</td>
+<td>Final</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fir</td>
+<td>Boolean</td>
+<td>First</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment</td>
+<td>Frame number</td>
+<td>DNP 3.0 AL Fragment</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.error</td>
+<td>Frame number</td>
+<td>Defragmentation error</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.multipletails</td>
+<td>Boolean</td>
+<td>Multiple tail fragments found</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.overlap</td>
+<td>Boolean</td>
+<td>Fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.overlap.conflict</td>
+<td>Boolean</td>
+<td>Conflicting data in fragment overlap</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.reassembled.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reassembled DNP length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.reassembled_in</td>
+<td>Frame number</td>
+<td>Reassembled PDU In Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragment.toolongfragment</td>
+<td>Boolean</td>
+<td>Fragment too long</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.fragments</td>
+<td>None</td>
+<td>DNP 3.0 AL Fragments</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.func</td>
+<td>Unsigned 8-bit integer</td>
+<td>Application Layer Function Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Application Layer IIN bits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.bmsg</td>
+<td>Boolean</td>
+<td>Broadcast Msg Rx</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.cc</td>
+<td>Boolean</td>
+<td>Configuration Corrupt</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.cls1d</td>
+<td>Boolean</td>
+<td>Class 1 Data Available</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.cls2d</td>
+<td>Boolean</td>
+<td>Class 2 Data Available</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.cls3d</td>
+<td>Boolean</td>
+<td>Class 3 Data Available</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.dol</td>
+<td>Boolean</td>
+<td>Digital Outputs in Local</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.dt</td>
+<td>Boolean</td>
+<td>Device Trouble</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.ebo</td>
+<td>Boolean</td>
+<td>Event Buffer Overflow</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.oae</td>
+<td>Boolean</td>
+<td>Operation Already Executing</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.obju</td>
+<td>Boolean</td>
+<td>Requested Objects Unknown</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.pioor</td>
+<td>Boolean</td>
+<td>Parameters Invalid or Out of Range</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.rst</td>
+<td>Boolean</td>
+<td>Device Restart</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.iin.tsr</td>
+<td>Boolean</td>
+<td>Time Sync Required</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index (8 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.obj</td>
+<td>Unsigned 16-bit integer</td>
+<td>Object</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.objq.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Qualifier Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.objq.index</td>
+<td>Unsigned 8-bit integer</td>
+<td>Index Prefix</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.ptnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Object Point Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.range.abs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Address (8 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.range.quantity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Quantity (8 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.range.start</td>
+<td>Unsigned 8-bit integer</td>
+<td>Start (8 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.range.stop</td>
+<td>Unsigned 8-bit integer</td>
+<td>Stop (8 bit)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.reltimestamp</td>
+<td>Time duration</td>
+<td>Relative Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.seq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.timestamp</td>
+<td>Date/Time stamp</td>
+<td>Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.al.uns</td>
+<td>Boolean</td>
+<td>Unsolicited</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.dfc</td>
+<td>Boolean</td>
+<td>Data Flow Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.dir</td>
+<td>Boolean</td>
+<td>Direction</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.fcb</td>
+<td>Boolean</td>
+<td>Frame Count Bit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.fcv</td>
+<td>Boolean</td>
+<td>Frame Count Valid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.prifunc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Function Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.prm</td>
+<td>Boolean</td>
+<td>Primary</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.ctl.secfunc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Control Function Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.dst</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.hdr.CRC</td>
+<td>Unsigned 16-bit integer</td>
+<td>CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.hdr.CRC_bad</td>
+<td>Boolean</td>
+<td>Bad CRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.len</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.src</td>
+<td>Unsigned 16-bit integer</td>
+<td>Source</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.start</td>
+<td>Unsigned 16-bit integer</td>
+<td>Start Bytes</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.tr.ctl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transport Control</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.tr.fin</td>
+<td>Boolean</td>
+<td>Final</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.tr.fir</td>
+<td>Boolean</td>
+<td>First</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>dnp3.tr.seq</td>
+<td>Unsigned 8-bit integer</td>
+<td>Sequence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

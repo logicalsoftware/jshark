@@ -1,0 +1,1022 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Real-time Transport Control Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Real-time Transport Control Protocol</h1>
+<div><b>Protocol field name:</b> rtcp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>rtcp.app.data</td>
+<td>Byte array</td>
+<td>Application specific data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.mux</td>
+<td>None</td>
+<td>RtpMux Application specific data</td>
+<td>1.2.14 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.mux.cp</td>
+<td>Boolean</td>
+<td>Header compression supported</td>
+<td>1.2.14 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.mux.mux</td>
+<td>Boolean</td>
+<td>Multiplexing supported</td>
+<td>1.2.14 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.mux.muxport</td>
+<td>Unsigned 16-bit integer</td>
+<td>Local Mux Port</td>
+<td>1.2.14 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.mux.selection</td>
+<td>Unsigned 8-bit integer</td>
+<td>Multiplexing selection</td>
+<td>1.2.14 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.name</td>
+<td>String</td>
+<td>Name (ASCII)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1</td>
+<td>None</td>
+<td>PoC1 Application specific data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.ack.reason.code</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reason code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.ack.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.add.ind.mao</td>
+<td>Boolean</td>
+<td>Manual answer override</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.content.a.dn</td>
+<td>Boolean</td>
+<td>Nick name of inviting client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.content.a.id</td>
+<td>Boolean</td>
+<td>Identity of inviting client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.content.grp.dn</td>
+<td>Boolean</td>
+<td>Group name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.content.grp.id</td>
+<td>Boolean</td>
+<td>Group identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.content.sess.id</td>
+<td>Boolean</td>
+<td>Session identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.sdes.a.dn</td>
+<td>String</td>
+<td>Nick name of inviting client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.sdes.a.id</td>
+<td>String</td>
+<td>Identity of inviting client</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.sdes.grp.dn</td>
+<td>String</td>
+<td>Group Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.sdes.grp.id</td>
+<td>String</td>
+<td>Group identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.sdes.sess.id</td>
+<td>String</td>
+<td>Session identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.conn.session.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Session type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.disp.name</td>
+<td>String</td>
+<td>Display Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.ignore.seq.no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Ignore sequence number field</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.last.pkt.seq.no</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence number of last RTP packet</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.new.time.request</td>
+<td>Unsigned 16-bit integer</td>
+<td>New time client can request (seconds)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.participants</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of participants</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.qsresp.position</td>
+<td>Unsigned 16-bit integer</td>
+<td>Position (number of clients ahead)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.qsresp.priority</td>
+<td>Unsigned 8-bit integer</td>
+<td>Priority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.reason.code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reason code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.reason.phrase</td>
+<td>String</td>
+<td>Reason Phrase</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.request.ts</td>
+<td>String</td>
+<td>Talk Burst Request Timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.sip.uri</td>
+<td>String</td>
+<td>SIP URI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.ssrc.granted</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSRC of client granted permission to talk</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.poc1.stt</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stop talking timer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.PoC1.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.app.subtype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subtype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.bye_reason_not_padded</td>
+<td>None</td>
+<td>BYE reason string not NULL padded</td>
+<td>1.0.3 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.bye_reason_not_terminated</td>
+<td>None</td>
+<td>BYE reason string not NULL terminated</td>
+<td>1.0.0 to 1.0.3</td>
+</tr>
+<tr>
+<td>rtcp.fci</td>
+<td>Byte array</td>
+<td>Feedback Control Information (FCI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.length_check</td>
+<td>Boolean</td>
+<td>RTCP frame length check</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.lsr-frame</td>
+<td>Frame number</td>
+<td>Frame matching Last SR timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.lsr-frame-captured</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time since Last SR captured</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.mediassrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Media source SSRC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.nack.blp</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bitmask of following lost packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.nack.fsn</td>
+<td>Unsigned 16-bit integer</td>
+<td>First sequence number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.padding</td>
+<td>Boolean</td>
+<td>Padding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.padding.count</td>
+<td>Unsigned 8-bit integer</td>
+<td>Padding count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.padding.data</td>
+<td>Byte array</td>
+<td>Padding data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.profile-specific-extension</td>
+<td>Byte array</td>
+<td>Profile-specific extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.psfb.fir.fci.csn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Sequence Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.psfb.fir.fci.reserved</td>
+<td>Unsigned 32-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.psfb.fir.fci.ssrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSRC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.psfb.fmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTCP Feedback message type (FMT)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.pt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reception report count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.roundtrip-delay</td>
+<td>Signed 32-bit integer</td>
+<td>Roundtrip Delay(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.fmt</td>
+<td>Unsigned 8-bit integer</td>
+<td>RTCP Feedback message type (FMT)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.nack</td>
+<td>Unsigned 16-bit integer</td>
+<td>RTCP Transport Feedback NACK</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.nack.blp</td>
+<td>Unsigned 16-bit integer</td>
+<td>RTCP Transport Feedback NACK BLP</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.tmmbr.fci.bitrate</td>
+<td>String</td>
+<td>Maximum total media bit rate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.tmmbr.fci.exp</td>
+<td>Unsigned 8-bit integer</td>
+<td>MxTBR Exp</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.tmmbr.fci.mantissa</td>
+<td>Unsigned 32-bit integer</td>
+<td>MxTBR Mantissa</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.tmmbr.fci.measuredoverhead</td>
+<td>Unsigned 16-bit integer</td>
+<td>Measured Overhead</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.rtpfb.tmmbr.fci.ssrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSRC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Source count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.prefix.length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Prefix length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.prefix.string</td>
+<td>String</td>
+<td>Prefix string</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.ssrc_csrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>SSRC / CSRC identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.text</td>
+<td>String</td>
+<td>Text</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sdes.type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sender.octetcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sender's octet count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.sender.packetcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sender's packet count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.senderssrc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sender SSRC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.setup</td>
+<td>String</td>
+<td>Stream setup</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.setup-frame</td>
+<td>Frame number</td>
+<td>Setup frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.setup-method</td>
+<td>String</td>
+<td>Setup Method</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.cum_nr</td>
+<td>Signed 24-bit integer</td>
+<td>Cumulative number of packets lost</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.discarded</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fraction discarded</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.dlsr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Delay since last SR timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.ext_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Extended highest sequence number received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.fraction</td>
+<td>Unsigned 8-bit integer</td>
+<td>Fraction lost</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.high_cycles</td>
+<td>Unsigned 16-bit integer</td>
+<td>Sequence number cycles count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.high_seq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Highest sequence number received</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.identifier</td>
+<td>Unsigned 32-bit integer</td>
+<td>Identifier</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.jitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Interarrival jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.ssrc.lsr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last SR timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.timestamp.ntp</td>
+<td>String</td>
+<td>NTP timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.timestamp.ntp.lsw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timestamp, LSW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.timestamp.ntp.msw</td>
+<td>Unsigned 32-bit integer</td>
+<td>Timestamp, MSW</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.timestamp.rtp</td>
+<td>Unsigned 32-bit integer</td>
+<td>RTP timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.version</td>
+<td>Unsigned 8-bit integer</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.beginseq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Begin Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.bl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.bs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type Specific</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.bt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.begseq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Starting sequence number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.cycles</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of cycles in calculation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.endseq</td>
+<td>Unsigned 16-bit integer</td>
+<td>Last sequence number</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.es</td>
+<td>Unsigned 32-bit integer</td>
+<td>ES due to unavailable packet events</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.jbevents</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of jitter buffer adaptations to date</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.ses</td>
+<td>Unsigned 32-bit integer</td>
+<td>SES due to unavailable packet events</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.spare</td>
+<td>String</td>
+<td>Spare/reserved bits</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.tdegjit</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time degraded by jitter buffer adaptation events</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.tdegnet</td>
+<td>Unsigned 32-bit integer</td>
+<td>Time degraded by packet loss or late delivery</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.vmaxdiff</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum IPDV difference in 1 cycle</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.vrange</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum IPDV difference seen to date</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.btxnq.vsum</td>
+<td>Unsigned 32-bit integer</td>
+<td>Sum of peak IPDV differences to date</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.dlrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Delay since last RR timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.endseq</td>
+<td>Unsigned 16-bit integer</td>
+<td>End Sequence Number</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.lrr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Last RR timestamp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.devjitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Standard Deviation of Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.devttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Standard Deviation of TTL</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.dupflag</td>
+<td>Boolean</td>
+<td>Duplicates Report Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.dups</td>
+<td>Unsigned 32-bit integer</td>
+<td>Duplicate Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.jitterflag</td>
+<td>Boolean</td>
+<td>Jitter Report Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.lost</td>
+<td>Unsigned 32-bit integer</td>
+<td>Lost Packets</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.lrflag</td>
+<td>Boolean</td>
+<td>Loss Report Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.maxjitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Maximum Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.maxttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum TTL or Hop Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.meanjitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Mean Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.meanttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mean TTL or Hop Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.minjitter</td>
+<td>Unsigned 32-bit integer</td>
+<td>Minimum Jitter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.minttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Minimum TTL or Hop Limit</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.stats.ttl</td>
+<td>Unsigned 8-bit integer</td>
+<td>TTL or Hop Limit Flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.tf</td>
+<td>Unsigned 8-bit integer</td>
+<td>Thinning factor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.burstdensity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Burst Density</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.burstduration</td>
+<td>Unsigned 16-bit integer</td>
+<td>Burst Duration(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.esdelay</td>
+<td>Unsigned 16-bit integer</td>
+<td>End System Delay(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.extrfactor</td>
+<td>Unsigned 8-bit integer</td>
+<td>External R Factor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.gapdensity</td>
+<td>Unsigned 8-bit integer</td>
+<td>Gap Density</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.gapduration</td>
+<td>Unsigned 16-bit integer</td>
+<td>Gap Duration(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.gmin</td>
+<td>Unsigned 8-bit integer</td>
+<td>Gmin</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.jba</td>
+<td>Unsigned 8-bit integer</td>
+<td>Adaptive Jitter Buffer Algorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.jbabsmax</td>
+<td>Unsigned 16-bit integer</td>
+<td>Absolute Maximum Jitter Buffer Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.jbmax</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum Jitter Buffer Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.jbnominal</td>
+<td>Unsigned 16-bit integer</td>
+<td>Nominal Jitter Buffer Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.jbrate</td>
+<td>Unsigned 8-bit integer</td>
+<td>Jitter Buffer Rate</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.moscq</td>
+<td>Unknown</td>
+<td>MOS - Conversational Quality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.moslq</td>
+<td>Unknown</td>
+<td>MOS - Listening Quality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.noiselevel</td>
+<td>Signed 8-bit integer</td>
+<td>Noise Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.plc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Packet Loss Concealment Algorithm</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.rerl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Residual Echo Return Loss</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.rfactor</td>
+<td>Unsigned 8-bit integer</td>
+<td>R Factor</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.rtdelay</td>
+<td>Unsigned 16-bit integer</td>
+<td>Round Trip Delay(ms)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtcp.xr.voipmetrics.signallevel</td>
+<td>Signed 8-bit integer</td>
+<td>Signal Level</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srtcp.auth_tag</td>
+<td>Byte array</td>
+<td>SRTCP Auth Tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srtcp.e</td>
+<td>Boolean</td>
+<td>SRTCP E flag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srtcp.index</td>
+<td>Unsigned 32-bit integer</td>
+<td>SRTCP Index</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>srtcp.mki</td>
+<td>Byte array</td>
+<td>SRTCP MKI</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

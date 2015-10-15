@@ -1,0 +1,1934 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: EUTRAN X2 Application Protocol (X2AP)</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: EUTRAN X2 Application Protocol (X2AP)</h1>
+<div><b>Protocol field name:</b> x2ap</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>x2ap.ActivatedCellList</td>
+<td>Unsigned 32-bit integer</td>
+<td>ActivatedCellList</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ActivatedCellList_Item</td>
+<td>None</td>
+<td>ActivatedCellList-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.aggregateMaximumBitRate</td>
+<td>None</td>
+<td>aggregateMaximumBitRate</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.aggregateMaximumBitRateDownlink</td>
+<td>Unsigned 32-bit integer</td>
+<td>aggregateMaximumBitRateDownlink</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.aggregateMaximumBitRateUplink</td>
+<td>Unsigned 32-bit integer</td>
+<td>aggregateMaximumBitRateUplink</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.allocationAndRetentionPriority</td>
+<td>None</td>
+<td>allocationAndRetentionPriority</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.aS_SecurityInformation</td>
+<td>None</td>
+<td>aS-SecurityInformation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.bearer_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>bearer-ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_Admitted_Item</td>
+<td>None</td>
+<td>Bearers-Admitted-Item</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_Admitted_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bearers-Admitted-List</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_Admitted_List_item</td>
+<td>None</td>
+<td>Bearers-Admitted-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_NotAdmitted_Item</td>
+<td>None</td>
+<td>Bearers-NotAdmitted-Item</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_NotAdmitted_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bearers-NotAdmitted-List</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_NotAdmitted_List_item</td>
+<td>None</td>
+<td>Bearers-NotAdmitted-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_SubjectToStatusTransfer_Item</td>
+<td>None</td>
+<td>Bearers-SubjectToStatusTransfer-Item</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_SubjectToStatusTransfer_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>Bearers-SubjectToStatusTransfer-List</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_SubjectToStatusTransfer_List_item</td>
+<td>None</td>
+<td>Bearers-SubjectToStatusTransfer-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_ToBeSetup_Item</td>
+<td>None</td>
+<td>Bearers-ToBeSetup-Item</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.bearers_ToBeSetup_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>bearers-ToBeSetup-List</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.Bearers_ToBeSetup_List_item</td>
+<td>None</td>
+<td>Bearers-ToBeSetup-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.broadcastPLMNs</td>
+<td>Unsigned 32-bit integer</td>
+<td>broadcastPLMNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.BroadcastPLMNs_Item_item</td>
+<td>Byte array</td>
+<td>BroadcastPLMNs-Item</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.capacityValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>capacityValue</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Cause</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cause</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cell_ID</td>
+<td>None</td>
+<td>cell-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cell_Size</td>
+<td>Unsigned 32-bit integer</td>
+<td>cell-Size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cell_Transmission_Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>cell-Transmission-Bandwidth</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.CellActivationFailure</td>
+<td>None</td>
+<td>CellActivationFailure</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellActivationRequest</td>
+<td>None</td>
+<td>CellActivationRequest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellActivationResponse</td>
+<td>None</td>
+<td>CellActivationResponse</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cellCapacityClassValue</td>
+<td>Unsigned 32-bit integer</td>
+<td>cellCapacityClassValue</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cellId</td>
+<td>None</td>
+<td>cellId</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellInformation_Item</td>
+<td>None</td>
+<td>CellInformation-Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellInformation_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>CellInformation-List</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellInformation_List_item</td>
+<td>None</td>
+<td>CellInformation-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.CellMeasurementResult_Item</td>
+<td>None</td>
+<td>CellMeasurementResult-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellMeasurementResult_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>CellMeasurementResult-List</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellToReport_Item</td>
+<td>None</td>
+<td>CellToReport-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CellToReport_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>CellToReport-List</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cellType</td>
+<td>None</td>
+<td>cellType</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CGI</td>
+<td>None</td>
+<td>CGI</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.cI</td>
+<td>Byte array</td>
+<td>cI</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.CompositeAvailableCapacityGroup</td>
+<td>None</td>
+<td>CompositeAvailableCapacityGroup</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.criticality</td>
+<td>Unsigned 32-bit integer</td>
+<td>criticality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CriticalityDiagnostics</td>
+<td>None</td>
+<td>CriticalityDiagnostics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CriticalityDiagnostics_IE_List_item</td>
+<td>None</td>
+<td>CriticalityDiagnostics-IE-List item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.CRNTI</td>
+<td>Byte array</td>
+<td>CRNTI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cyclicPrefixDL</td>
+<td>Unsigned 32-bit integer</td>
+<td>cyclicPrefixDL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.cyclicPrefixUL</td>
+<td>Unsigned 32-bit integer</td>
+<td>cyclicPrefixUL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.DeactivationIndication</td>
+<td>Unsigned 32-bit integer</td>
+<td>DeactivationIndication</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_CompositeAvailableCapacity</td>
+<td>None</td>
+<td>dL-CompositeAvailableCapacity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_COUNTvalue</td>
+<td>None</td>
+<td>dL-COUNTvalue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_EARFCN</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-EARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_Forwarding</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-Forwarding</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_GBR_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-GBR-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_GTP_TunnelEndpoint</td>
+<td>None</td>
+<td>dL-GTP-TunnelEndpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_non_GBR_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-non-GBR-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_PDCP_SN_NextToAssign</td>
+<td>Signed 32-bit integer</td>
+<td>dL-PDCP-SN-NextToAssign</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.dL_Total_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-Total-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dL_Transmission_Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>dL-Transmission-Bandwidth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dLHWLoadIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>dLHWLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.dLS1TNLLoadIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>dLS1TNLLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_GuaranteedBitrateDL</td>
+<td>Unsigned 64-bit integer</td>
+<td>e-RAB-GuaranteedBitrateDL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_GuaranteedBitrateUL</td>
+<td>Unsigned 64-bit integer</td>
+<td>e-RAB-GuaranteedBitrateUL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>e-RAB-ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RAB_Item</td>
+<td>None</td>
+<td>E-RAB-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_Level_QoS_Parameters</td>
+<td>None</td>
+<td>e-RAB-Level-QoS-Parameters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RAB_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>E-RAB-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_MaximumBitrateDL</td>
+<td>Unsigned 64-bit integer</td>
+<td>e-RAB-MaximumBitrateDL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RAB_MaximumBitrateUL</td>
+<td>Unsigned 64-bit integer</td>
+<td>e-RAB-MaximumBitrateUL</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RABs_Admitted_Item</td>
+<td>None</td>
+<td>E-RABs-Admitted-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RABs_Admitted_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>E-RABs-Admitted-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RABs_SubjectToStatusTransfer_Item</td>
+<td>None</td>
+<td>E-RABs-SubjectToStatusTransfer-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RABs_SubjectToStatusTransfer_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>E-RABs-SubjectToStatusTransfer-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.E_RABs_ToBeSetup_Item</td>
+<td>None</td>
+<td>E-RABs-ToBeSetup-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_RABs_ToBeSetup_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>e-RABs-ToBeSetup-List</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.e_UTRAN_Cell</td>
+<td>None</td>
+<td>e-UTRAN-Cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eARFCN</td>
+<td>Unsigned 32-bit integer</td>
+<td>eARFCN</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ECGI</td>
+<td>None</td>
+<td>ECGI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eNB_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>eNB-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ENBConfigurationUpdate</td>
+<td>None</td>
+<td>ENBConfigurationUpdate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ENBConfigurationUpdateAcknowledge</td>
+<td>None</td>
+<td>ENBConfigurationUpdateAcknowledge</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ENBConfigurationUpdateFailure</td>
+<td>None</td>
+<td>ENBConfigurationUpdateFailure</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.encryptionAlgorithms</td>
+<td>Byte array</td>
+<td>encryptionAlgorithms</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.EPLMNs_item</td>
+<td>Byte array</td>
+<td>EPLMNs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.equivalentPLMNs</td>
+<td>Unsigned 32-bit integer</td>
+<td>equivalentPLMNs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ErrorIndication</td>
+<td>None</td>
+<td>ErrorIndication</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eUTRA_Mode_Info</td>
+<td>Unsigned 32-bit integer</td>
+<td>eUTRA-Mode-Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eUTRANcellIdentifier</td>
+<td>Byte array</td>
+<td>eUTRANcellIdentifier</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eUTRANTraceID</td>
+<td>Byte array</td>
+<td>eUTRANTraceID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.eventType</td>
+<td>Unsigned 32-bit integer</td>
+<td>eventType</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.extensionValue</td>
+<td>None</td>
+<td>extensionValue</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.fDD</td>
+<td>None</td>
+<td>fDD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenInterRATs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenInterRATs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenLACs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenLACs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ForbiddenLACs_item</td>
+<td>Byte array</td>
+<td>ForbiddenLACs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenLAs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenLAs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ForbiddenLAs_Item</td>
+<td>None</td>
+<td>ForbiddenLAs-Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenTACs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenTACs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenTAIs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenTAIs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.ForbiddenTAIs_item</td>
+<td>Byte array</td>
+<td>ForbiddenTAIs</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.forbiddenTAs</td>
+<td>Unsigned 32-bit integer</td>
+<td>forbiddenTAs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ForbiddenTAs_Item</td>
+<td>None</td>
+<td>ForbiddenTAs-Item</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.fourframes</td>
+<td>Byte array</td>
+<td>fourframes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.frequency</td>
+<td>Byte array</td>
+<td>frequency</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.gbrQosInformation</td>
+<td>None</td>
+<td>gbrQosInformation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.gERAN_Cell</td>
+<td>Unsigned 32-bit integer</td>
+<td>gERAN-Cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.global</td>
+<td>Object identifier</td>
+<td>global</td>
+<td>1.0.0 to 1.2.0, 1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.global_Cell_ID</td>
+<td>None</td>
+<td>global-Cell-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.GlobalENB_ID</td>
+<td>None</td>
+<td>GlobalENB-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.gTP_TEID</td>
+<td>Byte array</td>
+<td>gTP-TEID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.GU_Group_ID</td>
+<td>None</td>
+<td>GU-Group-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.GUGroupIDList</td>
+<td>Unsigned 32-bit integer</td>
+<td>GUGroupIDList</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.GUMMEI</td>
+<td>None</td>
+<td>GUMMEI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverCancel</td>
+<td>None</td>
+<td>HandoverCancel</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverPreparationFailure</td>
+<td>None</td>
+<td>HandoverPreparationFailure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverReport</td>
+<td>None</td>
+<td>HandoverReport</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverReportType</td>
+<td>Unsigned 32-bit integer</td>
+<td>HandoverReportType</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverRequest</td>
+<td>None</td>
+<td>HandoverRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.HandoverRequestAcknowledge</td>
+<td>None</td>
+<td>HandoverRequestAcknowledge</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.handoverRestrictionList</td>
+<td>None</td>
+<td>handoverRestrictionList</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.handoverTriggerChange</td>
+<td>Signed 32-bit integer</td>
+<td>handoverTriggerChange</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.handoverTriggerChangeLowerLimit</td>
+<td>Signed 32-bit integer</td>
+<td>handoverTriggerChangeLowerLimit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.handoverTriggerChangeUpperLimit</td>
+<td>Signed 32-bit integer</td>
+<td>handoverTriggerChangeUpperLimit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.hFN</td>
+<td>Unsigned 32-bit integer</td>
+<td>hFN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.highSpeedFlag</td>
+<td>Boolean</td>
+<td>highSpeedFlag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.home_eNB_ID</td>
+<td>Byte array</td>
+<td>home-eNB-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.hWOverLoadIndicator</td>
+<td>None</td>
+<td>hWOverLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.id</td>
+<td>Unsigned 32-bit integer</td>
+<td>id</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.iE_Extensions</td>
+<td>Unsigned 32-bit integer</td>
+<td>iE-Extensions</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.iE_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>iE-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.iECriticality</td>
+<td>Unsigned 32-bit integer</td>
+<td>iECriticality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.iEsCriticalityDiagnostics</td>
+<td>Unsigned 32-bit integer</td>
+<td>iEsCriticalityDiagnostics</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.initiatingMessage</td>
+<td>None</td>
+<td>initiatingMessage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.integrityProtectionAlgorithms</td>
+<td>Byte array</td>
+<td>integrityProtectionAlgorithms</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.interfacesToTrace</td>
+<td>Byte array</td>
+<td>interfacesToTrace</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.InterfacesToTrace_Item</td>
+<td>None</td>
+<td>InterfacesToTrace-Item</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.interferenceOverloadIndication</td>
+<td>Byte array</td>
+<td>interferenceOverloadIndication</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.key_eNodeB_star</td>
+<td>Byte array</td>
+<td>key-eNodeB-star</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.label</td>
+<td>Unsigned 32-bit integer</td>
+<td>label</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.LAC</td>
+<td>Byte array</td>
+<td>LAC</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.LastVisitedCell_Item</td>
+<td>Unsigned 32-bit integer</td>
+<td>LastVisitedCell-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.LoadInformation</td>
+<td>None</td>
+<td>LoadInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.local</td>
+<td>Unsigned 32-bit integer</td>
+<td>local</td>
+<td>1.0.0 to 1.2.0, 1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.locationReportingInformation</td>
+<td>None</td>
+<td>locationReportingInformation</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.macro_eNB_ID</td>
+<td>Byte array</td>
+<td>macro-eNB-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MBSFN_Subframe_Info</td>
+<td>None</td>
+<td>MBSFN-Subframe-Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MBSFN_Subframe_Infolist</td>
+<td>Unsigned 32-bit integer</td>
+<td>MBSFN-Subframe-Infolist</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Measurement_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>Measurement-ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.misc</td>
+<td>Unsigned 32-bit integer</td>
+<td>misc</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.mME_Code</td>
+<td>Byte array</td>
+<td>mME-Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.mME_Group_ID</td>
+<td>Byte array</td>
+<td>mME-Group-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.mME_UE_S1AP_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>mME-UE-S1AP-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.mMME_Code</td>
+<td>Byte array</td>
+<td>mMME-Code</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.MobilityChangeAcknowledge</td>
+<td>None</td>
+<td>MobilityChangeAcknowledge</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MobilityChangeFailure</td>
+<td>None</td>
+<td>MobilityChangeFailure</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MobilityChangeRequest</td>
+<td>None</td>
+<td>MobilityChangeRequest</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MobilityParametersInformation</td>
+<td>None</td>
+<td>MobilityParametersInformation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.MobilityParametersModificationRange</td>
+<td>None</td>
+<td>MobilityParametersModificationRange</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.neighbour_Info</td>
+<td>Unsigned 32-bit integer</td>
+<td>neighbour-Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Neighbour_Information_item</td>
+<td>None</td>
+<td>Neighbour-Information item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.nextHopChainingCount</td>
+<td>Unsigned 32-bit integer</td>
+<td>nextHopChainingCount</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Number_of_Antennaports</td>
+<td>Unsigned 32-bit integer</td>
+<td>Number-of-Antennaports</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.numberOfCellSpecificAntennaPorts</td>
+<td>Unsigned 32-bit integer</td>
+<td>numberOfCellSpecificAntennaPorts</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.old_ecgi</td>
+<td>None</td>
+<td>old-ecgi</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Old_ECGIs</td>
+<td>Unsigned 32-bit integer</td>
+<td>Old-ECGIs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.oneframe</td>
+<td>Byte array</td>
+<td>oneframe</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.p_B</td>
+<td>Unsigned 32-bit integer</td>
+<td>p-B</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.PCI</td>
+<td>Unsigned 32-bit integer</td>
+<td>PCI</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.pDCCH_InterferenceImpact</td>
+<td>Unsigned 32-bit integer</td>
+<td>pDCCH-InterferenceImpact</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.pDCP_SN</td>
+<td>Unsigned 32-bit integer</td>
+<td>pDCP-SN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.pDCP_SNofULSDUsNotToBeRetransmitted_List</td>
+<td>Unsigned 32-bit integer</td>
+<td>pDCP-SNofULSDUsNotToBeRetransmitted-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.PDCP_SNofULSDUsNotToBeRetransmitted_List_item</td>
+<td>Signed 32-bit integer</td>
+<td>PDCP-SNofULSDUsNotToBeRetransmitted-List</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.phyCID</td>
+<td>Unsigned 32-bit integer</td>
+<td>phyCID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.PLMN_Identity</td>
+<td>Byte array</td>
+<td>PLMN-Identity</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.prach_ConfigIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>prach-ConfigIndex</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.PRACH_Configuration</td>
+<td>None</td>
+<td>PRACH-Configuration</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.prach_FreqOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>prach-FreqOffset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.pre_emptionCapability</td>
+<td>Unsigned 32-bit integer</td>
+<td>pre-emptionCapability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.pre_emptionVulnerability</td>
+<td>Unsigned 32-bit integer</td>
+<td>pre-emptionVulnerability</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.priorityLevel</td>
+<td>Unsigned 32-bit integer</td>
+<td>priorityLevel</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.PrivateIE_Container_item</td>
+<td>None</td>
+<td>PrivateIE-Container</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.PrivateIE_Field</td>
+<td>None</td>
+<td>PrivateIE-Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.privateIEs</td>
+<td>Unsigned 32-bit integer</td>
+<td>privateIEs</td>
+<td>1.0.0 to 1.2.0, 1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.PrivateMessage</td>
+<td>None</td>
+<td>PrivateMessage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.procedureCode</td>
+<td>Unsigned 32-bit integer</td>
+<td>procedureCode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.procedureCriticality</td>
+<td>Unsigned 32-bit integer</td>
+<td>procedureCriticality</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.protocol</td>
+<td>Unsigned 32-bit integer</td>
+<td>protocol</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ProtocolExtensionContainer_item</td>
+<td>None</td>
+<td>ProtocolExtensionContainer</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.ProtocolExtensionField</td>
+<td>None</td>
+<td>ProtocolExtensionField</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ProtocolIE_Container_item</td>
+<td>None</td>
+<td>ProtocolIE-Container</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.ProtocolIE_Field</td>
+<td>None</td>
+<td>ProtocolIE-Field</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ProtocolIE_Single_Container</td>
+<td>None</td>
+<td>ProtocolIE-Single-Container</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.protocolIEs</td>
+<td>Unsigned 32-bit integer</td>
+<td>protocolIEs</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.qCI</td>
+<td>Unsigned 32-bit integer</td>
+<td>qCI</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.radioframeAllocationOffset</td>
+<td>Unsigned 32-bit integer</td>
+<td>radioframeAllocationOffset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.radioframeAllocationPeriod</td>
+<td>Unsigned 32-bit integer</td>
+<td>radioframeAllocationPeriod</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.radioNetwork</td>
+<td>Unsigned 32-bit integer</td>
+<td>radioNetwork</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.radioResourceStatus</td>
+<td>None</td>
+<td>radioResourceStatus</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.rB_type</td>
+<td>Signed 32-bit integer</td>
+<td>rB-type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.receiveStatusofULPDCPSDUs</td>
+<td>Byte array</td>
+<td>receiveStatusofULPDCPSDUs</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.Registration_Request</td>
+<td>Unsigned 32-bit integer</td>
+<td>Registration-Request</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.relativeNarrowbandTxPower</td>
+<td>None</td>
+<td>relativeNarrowbandTxPower</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ReleaseResource</td>
+<td>None</td>
+<td>ReleaseResource</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.reportArea</td>
+<td>Unsigned 32-bit integer</td>
+<td>reportArea</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ReportCharacteristics</td>
+<td>Byte array</td>
+<td>ReportCharacteristics</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ReportingPeriod</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReportingPeriod</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.ReportingPeriodicity</td>
+<td>Unsigned 32-bit integer</td>
+<td>ReportingPeriodicity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResetRequest</td>
+<td>None</td>
+<td>ResetRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResetResponse</td>
+<td>None</td>
+<td>ResetResponse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResourceStatusFailure</td>
+<td>None</td>
+<td>ResourceStatusFailure</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResourceStatusRequest</td>
+<td>None</td>
+<td>ResourceStatusRequest</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResourceStatusResponse</td>
+<td>None</td>
+<td>ResourceStatusResponse</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ResourceStatusUpdate</td>
+<td>None</td>
+<td>ResourceStatusUpdate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.resoureStatus</td>
+<td>Signed 32-bit integer</td>
+<td>resoureStatus</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.RLFIndication</td>
+<td>None</td>
+<td>RLFIndication</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.rNTP_PerPRB</td>
+<td>Byte array</td>
+<td>rNTP-PerPRB</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.rNTP_Threshold</td>
+<td>Unsigned 32-bit integer</td>
+<td>rNTP-Threshold</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.rootSequenceIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>rootSequenceIndex</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.rRC_Context</td>
+<td>Byte array</td>
+<td>rRC-Context</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.s1TNLOverLoadIndicator</td>
+<td>None</td>
+<td>s1TNLOverLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.sAE_Bearer_GuaranteedBitrateDL</td>
+<td>Unsigned 64-bit integer</td>
+<td>sAE-Bearer-GuaranteedBitrateDL</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_Bearer_GuaranteedBitrateUL</td>
+<td>Unsigned 64-bit integer</td>
+<td>sAE-Bearer-GuaranteedBitrateUL</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_Bearer_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>sAE-Bearer-ID</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_Bearer_MaximumBitrateDL</td>
+<td>Unsigned 64-bit integer</td>
+<td>sAE-Bearer-MaximumBitrateDL</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_Bearer_MaximumBitrateUL</td>
+<td>Unsigned 64-bit integer</td>
+<td>sAE-Bearer-MaximumBitrateUL</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_BearerLevel_QoS_Parameters</td>
+<td>None</td>
+<td>sAE-BearerLevel-QoS-Parameters</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_BearerType</td>
+<td>Unsigned 32-bit integer</td>
+<td>sAE-BearerType</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_GBR_bearer</td>
+<td>None</td>
+<td>sAE-GBR-bearer</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_non_GBR_bearer</td>
+<td>None</td>
+<td>sAE-non-GBR-bearer</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.sAE_non_GBR_Bearer_Type</td>
+<td>Unsigned 32-bit integer</td>
+<td>sAE-non-GBR-Bearer-Type</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.served_cells</td>
+<td>None</td>
+<td>served-cells</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.ServedCell_Information</td>
+<td>None</td>
+<td>ServedCell-Information</td>
+<td>1.2.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.servedCellInfo</td>
+<td>None</td>
+<td>servedCellInfo</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCells</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServedCells</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCells_item</td>
+<td>None</td>
+<td>ServedCells item</td>
+<td>1.0.0 to 1.2.0, 1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCellsToActivate</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServedCellsToActivate</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCellsToActivate_Item</td>
+<td>None</td>
+<td>ServedCellsToActivate-Item</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCellsToModify</td>
+<td>Unsigned 32-bit integer</td>
+<td>ServedCellsToModify</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ServedCellsToModify_Item</td>
+<td>None</td>
+<td>ServedCellsToModify-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.servingPLMN</td>
+<td>Byte array</td>
+<td>servingPLMN</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ShortMAC_I</td>
+<td>Byte array</td>
+<td>ShortMAC-I</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.SNStatusTransfer</td>
+<td>None</td>
+<td>SNStatusTransfer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.specialSubframe_Info</td>
+<td>None</td>
+<td>specialSubframe-Info</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.specialSubframePatterns</td>
+<td>Unsigned 32-bit integer</td>
+<td>specialSubframePatterns</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.SRVCCOperationPossible</td>
+<td>Unsigned 32-bit integer</td>
+<td>SRVCCOperationPossible</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.subframeAllocation</td>
+<td>Unsigned 32-bit integer</td>
+<td>subframeAllocation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.subframeAssignment</td>
+<td>Unsigned 32-bit integer</td>
+<td>subframeAssignment</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.subscriberProfileIDforRFP</td>
+<td>Unsigned 32-bit integer</td>
+<td>subscriberProfileIDforRFP</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.successfulOutcome</td>
+<td>None</td>
+<td>successfulOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.TAC</td>
+<td>Byte array</td>
+<td>TAC</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.tAI</td>
+<td>Byte array</td>
+<td>tAI</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.target_Cell_ID</td>
+<td>None</td>
+<td>target-Cell-ID</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.TargeteNBtoSource_eNBTransparentContainer</td>
+<td>Byte array</td>
+<td>TargeteNBtoSource-eNBTransparentContainer</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.tDD</td>
+<td>None</td>
+<td>tDD</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.time_UE_StayedInCell</td>
+<td>Unsigned 32-bit integer</td>
+<td>time-UE-StayedInCell</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.TimeToWait</td>
+<td>Unsigned 32-bit integer</td>
+<td>TimeToWait</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.TraceActivation</td>
+<td>None</td>
+<td>TraceActivation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.traceCollectionEntityIPAddress</td>
+<td>Byte array</td>
+<td>traceCollectionEntityIPAddress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.traceDepth</td>
+<td>Unsigned 32-bit integer</td>
+<td>traceDepth</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.traceInterface</td>
+<td>Unsigned 32-bit integer</td>
+<td>traceInterface</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.traceReference</td>
+<td>Byte array</td>
+<td>traceReference</td>
+<td>1.0.0 to 1.4.0</td>
+</tr>
+<tr>
+<td>x2ap.transmission_Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>transmission-Bandwidth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.transport</td>
+<td>Unsigned 32-bit integer</td>
+<td>transport</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.transportLayerAddress</td>
+<td>Byte array</td>
+<td>transportLayerAddress</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.transportLayerAddressIPv4</td>
+<td>IPv4 address</td>
+<td>transportLayerAddress(IPv4)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.transportLayerAddressIPv6</td>
+<td>IPv4 address</td>
+<td>transportLayerAddress(IPv6)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.triggeringMessage</td>
+<td>Unsigned 32-bit integer</td>
+<td>triggeringMessage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.typeOfError</td>
+<td>Unsigned 32-bit integer</td>
+<td>typeOfError</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UE_ContextInformation</td>
+<td>None</td>
+<td>UE-ContextInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UE_HistoryInformation</td>
+<td>Unsigned 32-bit integer</td>
+<td>UE-HistoryInformation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UE_HistoryInformation_item</td>
+<td>None</td>
+<td>UE-HistoryInformation</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.UE_RLF_Report_Container</td>
+<td>Byte array</td>
+<td>UE-RLF-Report-Container</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UE_X2AP_ID</td>
+<td>Unsigned 32-bit integer</td>
+<td>UE-X2AP-ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uEaggregateMaximumBitRate</td>
+<td>None</td>
+<td>uEaggregateMaximumBitRate</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uEaggregateMaximumBitRateDownlink</td>
+<td>Unsigned 64-bit integer</td>
+<td>uEaggregateMaximumBitRateDownlink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uEaggregateMaximumBitRateUplink</td>
+<td>Unsigned 64-bit integer</td>
+<td>uEaggregateMaximumBitRateUplink</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UEContextRelease</td>
+<td>None</td>
+<td>UEContextRelease</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uESecurityCapabilities</td>
+<td>None</td>
+<td>uESecurityCapabilities</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_CompositeAvailableCapacity</td>
+<td>None</td>
+<td>uL-CompositeAvailableCapacity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_COUNTvalue</td>
+<td>None</td>
+<td>uL-COUNTvalue</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_EARFCN</td>
+<td>Unsigned 32-bit integer</td>
+<td>uL-EARFCN</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_GBR_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>uL-GBR-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_GTP_TunnelEndpoint</td>
+<td>None</td>
+<td>uL-GTP-TunnelEndpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_GTPtunnelEndpoint</td>
+<td>None</td>
+<td>uL-GTPtunnelEndpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ul_HighInterferenceIndicationInfo</td>
+<td>Unsigned 32-bit integer</td>
+<td>ul-HighInterferenceIndicationInfo</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UL_HighInterferenceIndicationInfo_Item</td>
+<td>None</td>
+<td>UL-HighInterferenceIndicationInfo-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ul_interferenceindication</td>
+<td>Byte array</td>
+<td>ul-interferenceindication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.ul_InterferenceOverloadIndication</td>
+<td>Unsigned 32-bit integer</td>
+<td>ul-InterferenceOverloadIndication</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.UL_InterferenceOverloadIndication_Item</td>
+<td>Unsigned 32-bit integer</td>
+<td>UL-InterferenceOverloadIndication-Item</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_non_GBR_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>uL-non-GBR-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_PDCP_SN_NextInSequenceExpected</td>
+<td>Signed 32-bit integer</td>
+<td>uL-PDCP-SN-NextInSequenceExpected</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>x2ap.uL_Total_PRB_usage</td>
+<td>Unsigned 32-bit integer</td>
+<td>uL-Total-PRB-usage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uL_Transmission_Bandwidth</td>
+<td>Unsigned 32-bit integer</td>
+<td>uL-Transmission-Bandwidth</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uLHWLoadIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>uLHWLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uLS1TNLLoadIndicator</td>
+<td>Unsigned 32-bit integer</td>
+<td>uLS1TNLLoadIndicator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.undefined</td>
+<td>None</td>
+<td>undefined</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.unsuccessfulOutcome</td>
+<td>None</td>
+<td>unsuccessfulOutcome</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.uTRAN_Cell</td>
+<td>Byte array</td>
+<td>uTRAN-Cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.value</td>
+<td>None</td>
+<td>value</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.X2AP_PDU</td>
+<td>Unsigned 32-bit integer</td>
+<td>X2AP-PDU</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.X2SetupFailure</td>
+<td>None</td>
+<td>X2SetupFailure</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.X2SetupRequest</td>
+<td>None</td>
+<td>X2SetupRequest</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.X2SetupResponse</td>
+<td>None</td>
+<td>X2SetupResponse</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>x2ap.zeroCorrelationIndex</td>
+<td>Unsigned 32-bit integer</td>
+<td>zeroCorrelationIndex</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

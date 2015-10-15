@@ -1,0 +1,1040 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: DCE DFS File Exporter</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: DCE DFS File Exporter</h1>
+<div><b>Protocol field name:</b> fileexp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>afsNetAddr.data</td>
+<td>Unsigned 8-bit integer</td>
+<td>IP Data</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>afsNetAddr.type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.accesstime_msec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.accesstime_msec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.accesstime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.accesstime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.acl_len</td>
+<td>Unsigned 32-bit integer</td>
+<td>Acl Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.aclexpirationtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.aclexpirationtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.acltype</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.acltype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsacl_uuid1</td>
+<td>GUID or UUID</td>
+<td>AFS ACL UUID1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afserrortstatus_st</td>
+<td>Unsigned 32-bit integer</td>
+<td>AFS Error Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.cell_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cell High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.cell_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Cell Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.Unique</td>
+<td>Unsigned 32-bit integer</td>
+<td>Unique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.Vnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Vnode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.volume_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsFid.volume_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Volume Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsreturndesc_tokenid_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tokenid High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsreturndesc_tokenid_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tokenid low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.afsTaggedPath_length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Tagged Path Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.agtypeunique</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.agtypeunique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.anonymousaccess</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.anonymousaccess</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.author</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.author</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.beginrange</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.beginrange</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.beginrangeext</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.beginrangeext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.blocksused</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.blocksused</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchkeepalive_spare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>BulkFetch KeepAlive spare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchkeepalive_spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>BulkKeepAlive spare4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchstatus_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>BulkFetchStatus Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchvv_numvols</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.bulkfetchvv_numvols</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchvv_spare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.bulkfetchvv_spare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkfetchvv_spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.bulkfetchvv_spare2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.bulkkeepalive_numexecfids</td>
+<td>Unsigned 32-bit integer</td>
+<td>BulkKeepAlive numexecfids</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.calleraccess</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.calleraccess</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.cellidp_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>cellidp high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.cellidp_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>cellidp low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.changetime_msec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.changetime_msec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.changetime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.changetime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.clientspare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.clientspare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.dataversion_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.dataversion_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.dataversion_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.dataversion_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.defaultcell_uuid</td>
+<td>GUID or UUID</td>
+<td>Default Cell UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.devicenumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.devicenumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.devicenumberhighbits</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.devicenumberhighbits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.endrange</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.endrange</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.endrangeext</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.endrangeext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.expirationtime</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.expirationtime</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.fetchdata_pipe_t_size</td>
+<td>String</td>
+<td>FetchData Pipe_t size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.filetype</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.filetype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.flags</td>
+<td>Unsigned 32-bit integer</td>
+<td>DFS Flags</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.fstype</td>
+<td>Unsigned 32-bit integer</td>
+<td>Filetype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.gettime.syncdistance</td>
+<td>Unsigned 32-bit integer</td>
+<td>SyncDistance</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.gettime_secondsp</td>
+<td>Unsigned 32-bit integer</td>
+<td>GetTime secondsp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.gettime_syncdispersion</td>
+<td>Unsigned 32-bit integer</td>
+<td>GetTime Syncdispersion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.gettime_usecondsp</td>
+<td>Unsigned 32-bit integer</td>
+<td>GetTime usecondsp</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.group</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.himaxspare</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.himaxspare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.interfaceversion</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.interfaceversion</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_end_pos</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_end_pos</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_end_pos_ext</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_end_pos_ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_fstype</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_fstype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_pid</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_pid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_start_pos</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_start_pos</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_start_pos_ext</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_start_pos_ext</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_sysid</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_sysid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_type</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_type</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.l_whence</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.l_whence</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.length</td>
+<td>Unsigned 32-bit integer</td>
+<td>Length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.length_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.length_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.length_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.length_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.linkcount</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.linkcount</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.lomaxspare</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.lomaxspare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.minvvp_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.minvvp_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.minvvp_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.minvvp_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.modtime_msec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.modtime_msec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.modtime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.modtime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.NameString_principal</td>
+<td>String</td>
+<td>Principal Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.nextoffset_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>next offset high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.nextoffset_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>next offset low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.objectuuid</td>
+<td>GUID or UUID</td>
+<td>fileexp.objectuuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.offset_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>offset high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.opnum</td>
+<td>Unsigned 16-bit integer</td>
+<td>Operation</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.owner</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.parentunique</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.parentunique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.parentvnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.parentvnode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.pathconfspare</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.pathconfspare</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.position_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Position High</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.position_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>Position Low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.principalName_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Principal Name Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.principalName_size2</td>
+<td>Unsigned 32-bit integer</td>
+<td>Principal Name Size2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.readdir.size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Readdir Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.returntokenidp_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>return token idp high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.returntokenidp_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>return token idp low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.servermodtime_msec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.servermodtime_msec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.servermodtime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.servermodtime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.setcontext.parm7</td>
+<td>Unsigned 32-bit integer</td>
+<td>Parm7:</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.setcontext_clientsizesattrs</td>
+<td>Unsigned 32-bit integer</td>
+<td>ClientSizeAttrs:</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.setcontext_rqst_epochtime</td>
+<td>Date/Time stamp</td>
+<td>EpochTime:</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.setcontext_secobjextid</td>
+<td>String</td>
+<td>SetObjectid:</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.spare4</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.spare4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.spare5</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.spare5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.spare6</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.spare6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.st</td>
+<td>Unsigned 32-bit integer</td>
+<td>AFS4Int Error Status Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_accesstime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_accesstime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_accesstime_usec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_accesstime_usec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_changetime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_changetime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_changetime_usec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_changetime_usec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_clientspare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_clientspare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_cmask</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_cmask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_devicenumber</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_devicenumber</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_devicenumberhighbits</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_devicenumberhighbits</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_devicetype</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_devicetype</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_group</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_group</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_length_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_length_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_length_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_length_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_mode</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_mode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_modtime_sec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_modtime_sec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_modtime_usec</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_modtime_usec</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_owner</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_owner</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare3</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare3</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare4</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare4</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare5</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare5</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_spare6</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_spare6</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_trunc_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_trunc_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_trunc_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.storestatus_trunc_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.storestatus_typeuuid</td>
+<td>GUID or UUID</td>
+<td>fileexp.storestatus_typeuuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.string</td>
+<td>String</td>
+<td>String</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.TaggedPath_tp_chars</td>
+<td>String</td>
+<td>AFS Tagged Path</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.TaggedPath_tp_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>AFS Tagged Path Name</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.tn_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>fileexp.tn_length</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.tn_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>String Size</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.tn_tag</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.tn_tag</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.tokenid_hi</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.tokenid_hi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.tokenid_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.tokenid_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.type_hi</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.type_hi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.type_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>Type high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.type_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.type_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.typeuuid</td>
+<td>GUID or UUID</td>
+<td>fileexp.typeuuid</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.uint</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.uint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.unique</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.unique</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.uuid</td>
+<td>GUID or UUID</td>
+<td>AFS UUID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vnode</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vnode</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.volid_hi</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.volid_hi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.volid_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.volid_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.volume_high</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.volume_high</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.volume_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.volume_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vv_hi</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vv_hi</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vv_low</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vv_low</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vvage</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vvage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vvpingage</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vvpingage</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vvspare1</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vvspare1</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>fileexp.vvspare2</td>
+<td>Unsigned 32-bit integer</td>
+<td>fileexp.vvspare2</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>hf_afsconnparams_mask</td>
+<td>Unsigned 32-bit integer</td>
+<td>hf_afsconnparams_mask</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>hf_afsconnparams_values</td>
+<td>Unsigned 32-bit integer</td>
+<td>hf_afsconnparams_values</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

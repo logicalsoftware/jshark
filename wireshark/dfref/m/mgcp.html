@@ -1,0 +1,596 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Media Gateway Control Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Media Gateway Control Protocol</h1>
+<div><b>Protocol field name:</b> mgcp</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>mgcp.dup</td>
+<td>Unsigned 32-bit integer</td>
+<td>Duplicate Message</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.messagecount</td>
+<td>Unsigned 32-bit integer</td>
+<td>MGCP Message Count</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.bearerinfo</td>
+<td>String</td>
+<td>BearerInformation (B)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.callid</td>
+<td>String</td>
+<td>CallId (C)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.capabilities</td>
+<td>String</td>
+<td>Capabilities (A)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionid</td>
+<td>String</td>
+<td>ConnectionIdentifier (I)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionmode</td>
+<td>String</td>
+<td>ConnectionMode (M)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam</td>
+<td>String</td>
+<td>ConnectionParameters (P)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.ji</td>
+<td>Unsigned 32-bit integer</td>
+<td>Jitter (JI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.la</td>
+<td>Unsigned 32-bit integer</td>
+<td>Latency (LA)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.or</td>
+<td>Unsigned 32-bit integer</td>
+<td>Octets received (OR)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.os</td>
+<td>Unsigned 32-bit integer</td>
+<td>Octets sent (OS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pcrji</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Jitter (PC/RJI)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pcros</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Octets sent (PC/ROS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pcrpl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Packets lost (PC/RPL)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pcrps</td>
+<td>Unsigned 32-bit integer</td>
+<td>Remote Packets sent (PC/RPS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pl</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets lost (PL)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.pr</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets received (PR)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.ps</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packets sent (PS)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.connectionparam.x</td>
+<td>String</td>
+<td>Vendor Extension</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.detectedevents</td>
+<td>String</td>
+<td>DetectedEvents (T)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.digitmap</td>
+<td>String</td>
+<td>DigitMap (D)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.eventstates</td>
+<td>String</td>
+<td>EventStates (ES)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.extension</td>
+<td>String</td>
+<td>Extension Parameter (non-critical)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.extensioncritical</td>
+<td>String</td>
+<td>Extension Parameter (critical)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.invalid</td>
+<td>String</td>
+<td>Invalid Parameter</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions</td>
+<td>String</td>
+<td>LocalConnectionOptions (L)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.a</td>
+<td>String</td>
+<td>Codecs (a)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.b</td>
+<td>String</td>
+<td>Bandwidth (b)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.dqgi</td>
+<td>String</td>
+<td>D-QoS GateID (dq-gi)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.dqrd</td>
+<td>String</td>
+<td>D-QoS Reserve Destination (dq-rd)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.dqri</td>
+<td>String</td>
+<td>D-QoS Resource ID (dq-ri)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.dqrr</td>
+<td>String</td>
+<td>D-QoS Resource Reservation (dq-rr)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.e</td>
+<td>String</td>
+<td>Echo Cancellation (e)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.esccd</td>
+<td>String</td>
+<td>Content Destination (es-ccd)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.escci</td>
+<td>String</td>
+<td>Content Identifier (es-cci)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.fmtp</td>
+<td>String</td>
+<td>Media Format (fmtp)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.gc</td>
+<td>Unsigned 32-bit integer</td>
+<td>Gain Control (gc)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.k</td>
+<td>String</td>
+<td>Encryption Key (k)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.nt</td>
+<td>String</td>
+<td>Network Type (nt)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.ofmtp</td>
+<td>String</td>
+<td>Optional Media Format (o-fmtp)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.p</td>
+<td>Unsigned 32-bit integer</td>
+<td>Packetization period (p)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.r</td>
+<td>String</td>
+<td>Resource Reservation (r)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.rcnf</td>
+<td>String</td>
+<td>Reservation Confirmation (r-cnf)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.rdir</td>
+<td>String</td>
+<td>Reservation Direction (r-dir)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.rsh</td>
+<td>String</td>
+<td>Resource Sharing (r-sh)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.s</td>
+<td>String</td>
+<td>Silence Suppression (s)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.scrtcp</td>
+<td>String</td>
+<td>RTCP ciphersuite (sc-rtcp)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.scrtp</td>
+<td>String</td>
+<td>RTP ciphersuite (sc-rtp)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.localconnectionoptions.t</td>
+<td>String</td>
+<td>Type of Service (r)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.maxmgcpdatagram</td>
+<td>String</td>
+<td>MaxMGCPDatagram (MD)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.notifiedentity</td>
+<td>String</td>
+<td>NotifiedEntity (N)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.observedevents</td>
+<td>String</td>
+<td>ObservedEvents (O)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.packagelist</td>
+<td>String</td>
+<td>PackageList (PL)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.quarantinehandling</td>
+<td>String</td>
+<td>QuarantineHandling (Q)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.reasoncode</td>
+<td>String</td>
+<td>ReasonCode (E)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.reqevents</td>
+<td>String</td>
+<td>RequestedEvents (R)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.reqinfo</td>
+<td>String</td>
+<td>RequestedInfo (F)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.requestid</td>
+<td>String</td>
+<td>RequestIdentifier (X)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.restartdelay</td>
+<td>String</td>
+<td>RestartDelay (RD)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.restartmethod</td>
+<td>String</td>
+<td>RestartMethod (RM)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.rspack</td>
+<td>String</td>
+<td>ResponseAck (K)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.secondconnectionid</td>
+<td>String</td>
+<td>SecondConnectionID (I2)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.secondendpointid</td>
+<td>String</td>
+<td>SecondEndpointID (Z2)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.signalreq</td>
+<td>String</td>
+<td>SignalRequests (S)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.param.specificendpointid</td>
+<td>String</td>
+<td>SpecificEndpointID (Z)</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.params</td>
+<td>None</td>
+<td>Parameters</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.req</td>
+<td>Boolean</td>
+<td>Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.req.dup</td>
+<td>Unsigned 32-bit integer</td>
+<td>Duplicate Request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.req.dup.frame</td>
+<td>Frame number</td>
+<td>Original Request Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.req.endpoint</td>
+<td>String</td>
+<td>Endpoint</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.req.verb</td>
+<td>String</td>
+<td>Verb</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.reqframe</td>
+<td>Frame number</td>
+<td>Request Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rsp</td>
+<td>Boolean</td>
+<td>Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rsp.dup</td>
+<td>Unsigned 32-bit integer</td>
+<td>Duplicate Response</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rsp.dup.frame</td>
+<td>Frame number</td>
+<td>Original Response Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rsp.rspcode</td>
+<td>Unsigned 32-bit integer</td>
+<td>Response Code</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rsp.rspstring</td>
+<td>String</td>
+<td>Response String</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.rspframe</td>
+<td>Frame number</td>
+<td>Response Frame</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.time</td>
+<td>Time duration</td>
+<td>Time from request</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.transid</td>
+<td>String</td>
+<td>Transaction ID</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>mgcp.version</td>
+<td>String</td>
+<td>Version</td>
+<td>1.0.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,2156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: TN3270 Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: TN3270 Protocol</h1>
+<div><b>Protocol field name:</b> tn3270</div>
+<div><b>Versions:</b> 1.4.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>hf_tn3270_aid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attention Identification</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>hf_tn3270_partition_command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition Command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>hf_tn3270_partition_rv</td>
+<td>Unsigned 16-bit integer</td>
+<td>The y, or row, origin of the viewport relative to the top edge of the usable area</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270..tn3270e_header_data</td>
+<td>Unknown</td>
+<td>TN3270E Header Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.3270_tranlim</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum transmission size allowed outbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.all_character_attributes</td>
+<td>Unsigned 8-bit integer</td>
+<td>all_character_attributes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_apa</td>
+<td>Boolean</td>
+<td>All Points addressability supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_apres1</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_apres2</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_cm</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character multiplier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_co</td>
+<td>Unsigned 8-bit integer</td>
+<td>Column overhead</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_fo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Fixed overhead</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_horizontal_scrolling</td>
+<td>Boolean</td>
+<td>Horizontal Scrolling Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_lc</td>
+<td>Boolean</td>
+<td>Presentation space local copy supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_m</td>
+<td>Unsigned 16-bit integer</td>
+<td>Total available partition storage</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_mp</td>
+<td>Boolean</td>
+<td>Modify Partition supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_na</td>
+<td>Unsigned 8-bit integer</td>
+<td> Max number of alphanumeric partitions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_pp</td>
+<td>Boolean</td>
+<td>Partition protection supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_ro</td>
+<td>Unsigned 8-bit integer</td>
+<td>Row overhead</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ap_vertical_scrolling</td>
+<td>Boolean</td>
+<td>Vertical Scrolling Supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.asia_sdp_ic_func</td>
+<td>Boolean</td>
+<td>SO/SI Creation supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.asia_sdp_sosi_soset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set ID of the Shift Out (SO) character set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.attribute_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Attribute Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.begin_end_flags1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Begin End Flags1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.begin_end_flags2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Begin End Flags2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.bsc</td>
+<td>Unsigned 8-bit integer</td>
+<td>SNA BSC</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.buffer_address</td>
+<td>Unsigned 16-bit integer</td>
+<td>Buffer Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_cav</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color attribute value accepted by the device</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_ci</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Byte offset within the String Control Byte string or structured field of the checkpointed character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_scsoff</td>
+<td>Unsigned 16-bit integer</td>
+<td>Byte offset within the parameterized SCS control code (for example, TRN) of the checkpointed character.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_seqoff</td>
+<td>Unsigned 16-bit integer</td>
+<td>Byte offset within the RU of the checkpointed character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.c_sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>RU sequence number of the RU containing the checkpoint character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cc</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cursor column offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cc_prtblk</td>
+<td>Boolean</td>
+<td>Printer only - black ribbon is loaded</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Copy Control Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc_coding</td>
+<td>Unsigned 8-bit integer</td>
+<td>Coding</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc_copytype</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type of Data to be Copied</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc_printout</td>
+<td>Unsigned 8-bit integer</td>
+<td>Printout Format</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc_sound_alarm</td>
+<td>Boolean</td>
+<td>The sound-alarm bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccc_start_print</td>
+<td>Boolean</td>
+<td>The start-print bit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccsgid</td>
+<td>Unsigned 64-bit integer</td>
+<td>Coded Graphic Character Set Identifier.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ccsid</td>
+<td>Unsigned 64-bit integer</td>
+<td>Coded Character Set Identifier.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.character_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.character_sets_flags1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (1)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.character_sets_flags2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (2)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.charset</td>
+<td>Unsigned 8-bit integer</td>
+<td>Character set parameter of Set Attribute control in effect at the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.checkpoint</td>
+<td>Unsigned 32-bit integer</td>
+<td>Byte offset from Set Checkpoint Interval structured field to the first character afterhe code point or character that caused an eject to the checkpointed page</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.color</td>
+<td>Unsigned 8-bit integer</td>
+<td>Color</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.color_command</td>
+<td>Unsigned 16-bit integer</td>
+<td>Color Command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.color_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.command_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Command Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cro</td>
+<td>Unsigned 16-bit integer</td>
+<td>Cursor row offset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_cf</td>
+<td>Boolean</td>
+<td>CCSID present</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ch2</td>
+<td>Boolean</td>
+<td>Two-byte coded character sets are supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_descriptor_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_descriptor_set</td>
+<td>Unsigned 8-bit integer</td>
+<td>Device Specific Character Set ID (PS store No.)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_dl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of each descriptor</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ds_cb</td>
+<td>Boolean</td>
+<td>No LCID compare</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ds_char</td>
+<td>Boolean</td>
+<td>Double-Byte coded character set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ds_load</td>
+<td>Boolean</td>
+<td>Loadable character set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ds_triple</td>
+<td>Boolean</td>
+<td>Triple-plane character set</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type1</td>
+<td>Boolean</td>
+<td>18-byte form; the first 2 bytes contain a 16-bit vertical slice, the following 16 bytes contain 8-bit horizontal slices. For a 9 x 12 character matrix the last 4 bytes contain binary zero.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type2</td>
+<td>Boolean</td>
+<td>18-byte form; the first 2 bytes contain a 16-bit vertical slice, the following 16 bytes contain 8-bit horizontal slices. For a 9 x 12 character matrix the last 4 bytes contain binary zero. (COMPRESSED)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type3</td>
+<td>Boolean</td>
+<td>Row loading (from top to bottom)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type4</td>
+<td>Boolean</td>
+<td>Row loading (from top to bottom) (Compressed)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type5</td>
+<td>Boolean</td>
+<td>Column loading (from left to right)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type6</td>
+<td>Boolean</td>
+<td>Column loading (from left to right) (Compressed)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_form_type8</td>
+<td>Boolean</td>
+<td>Vector</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ge</td>
+<td>Boolean</td>
+<td>Graphic Escape supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_gf</td>
+<td>Boolean</td>
+<td>CGCSGID is present</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_lps</td>
+<td>Boolean</td>
+<td>Load PSSF is supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_lpse</td>
+<td>Boolean</td>
+<td>Load PS EXTENDED is supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_mi</td>
+<td>Boolean</td>
+<td>Multiple LCIDs are supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_ms</td>
+<td>Boolean</td>
+<td>More than one size of character slot is supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_pscs</td>
+<td>Boolean</td>
+<td>Load PS slot size match not required</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_res</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_res2</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_res3</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_sdh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default character slot height</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cs_sdw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default character slot width</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cursor_x</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cursor X</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cursor_y</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cursor Y</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.cw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Column Offset of Window Origin</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.data_chain_bitmask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.db_cavdef</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default color attribute value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.db_cidef</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default background color identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dc_both</td>
+<td>Boolean</td>
+<td>Both</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dc_device</td>
+<td>Boolean</td>
+<td>From Device Only</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dc_dir_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicates which direction can use the Data Chain structured field.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dc_to_device</td>
+<td>Boolean</td>
+<td>To Device Only</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ddm_ddmss</td>
+<td>Unsigned 8-bit integer</td>
+<td> DDM subset identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ddm_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ddm_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum DDM bytes/transmission allowed inbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ddm_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum DDM bytes/transmission allowed outbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ddm_nss</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of subsets supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.destination_or_origin_bitmask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_diafn</td>
+<td>Unsigned 16-bit integer</td>
+<td>DIA function set number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_diafs</td>
+<td>Unsigned 8-bit integer</td>
+<td>DIA function set identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_flags</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum DIA bytes/transmission allowed inbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum DIA bytes/transmission allowed outbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.dia_nfs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of subsets supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.double_byte_sf_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ds_default_sfid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Default Data Stream</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ds_sfid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Supported Data Stream</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.erase_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>tn3270.erase_flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.esubsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ending subsection.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.exception_or_status_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_highlighting</td>
+<td>Unsigned 8-bit integer</td>
+<td>Extended Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_color</td>
+<td>Unsigned 8-bit integer</td>
+<td> Color planes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_echar</td>
+<td>Unsigned 8-bit integer</td>
+<td>Ending code point</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_length</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of parameters for extended form, including the length parameter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_lh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Y-units in character cell (depth ofcharacter matrixes)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_lw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of X-units in character cell (width of character matrixes)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_nh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of height pairs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_nw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of width pairs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_res</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_stsubs</td>
+<td>Unsigned 8-bit integer</td>
+<td>Starting Subsection Identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.extended_ps_subsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subsection ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.display</td>
+<td>Unsigned 8-bit integer</td>
+<td>Display</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.graphic_convert1</td>
+<td>Boolean</td>
+<td>Graphic Convert1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.graphic_convert2</td>
+<td>Boolean</td>
+<td>Graphic Convert2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.modified</td>
+<td>Boolean</td>
+<td>Modified</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.numeric</td>
+<td>Boolean</td>
+<td>Numeric</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.protected</td>
+<td>Boolean</td>
+<td>Protected</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fa.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.featl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length (in bytes) of feature information that follows</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.feats</td>
+<td>Unsigned 16-bit integer</td>
+<td>CPR length and feature flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_attribute</td>
+<td>Unsigned 8-bit integer</td>
+<td>3270 Field Attribute</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_data</td>
+<td>Unknown</td>
+<td>Field Data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_outlining</td>
+<td>Unsigned 8-bit integer</td>
+<td>Field Outlining</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_validation_mandatory_entry</td>
+<td>Boolean</td>
+<td>3270 Field validation_mandatory_entry</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_validation_mandatory_fill</td>
+<td>Boolean</td>
+<td>3270 Field validation_mandatory_fill</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.field_validation_mandatory_trigger</td>
+<td>Boolean</td>
+<td>3270 Field validation_mandatory_trigger</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fo_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fo_hpos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location of overline/underline</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fo_hpos0</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location of overline in case of separation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fo_hpos1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location of underline in case of separation</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fo_vpos</td>
+<td>Unsigned 8-bit integer</td>
+<td>Location of vertical line</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.form</td>
+<td>Unsigned 8-bit integer</td>
+<td>Form Types</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.format_group_name</td>
+<td>Unknown</td>
+<td>Format Group name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.format_name</td>
+<td>Unknown</td>
+<td>Format name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.formres</td>
+<td>Unsigned 8-bit integer</td>
+<td>Form Types (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fov</td>
+<td>Unsigned 16-bit integer</td>
+<td>Format Offset Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fpc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Format Presentation Command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fsad_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fsad_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved for LIMIN parameter. Must be set to zeros.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fsad_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum bytes of format storage data per transmission allowed outbound.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.fsad_size</td>
+<td>Unsigned 16-bit integer</td>
+<td>Size of the format storage space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_ai</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data stream action</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length of the SHF character string required for restart</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_np</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of attribute-value/action pairs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_offset</td>
+<td>Unsigned 32-bit integer</td>
+<td>Byte offset from Checkpoint Interval structured field to the Set Horizontal Format control in effect for the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>RU sequence number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.h_vi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data stream attribute value accepted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.hilite</td>
+<td>Unsigned 8-bit integer</td>
+<td>Highlighting</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.horizon</td>
+<td>Unsigned 32-bit integer</td>
+<td>Byte offset from Checkpoint Interval structured field to the Set Horizontal Format control in effect for the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.hw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Window height</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ibm_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ibm_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Inbound message size limit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ibm_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Outbound message size limit</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ibm_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type of IBM Auxiliary Device</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.interval</td>
+<td>Unsigned 8-bit integer</td>
+<td>Checkpoint interval</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ioca_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max IOCA bytes/inbound transmission</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ioca_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Max IOCA bytes/outbound transmission</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ioca_type</td>
+<td>Unsigned 16-bit integer</td>
+<td>Type of IOCA Auxiliary Device</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ip_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipccd_hca</td>
+<td>Unsigned 16-bit integer</td>
+<td>Height of the character cell for the Implicit Partition alternate screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipccd_hcd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Height of the character cell for the Implicit Partition default screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipccd_wca</td>
+<td>Unsigned 16-bit integer</td>
+<td>Width of the character cell for the Implicit Partition alternate screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipccd_wcd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Width of the character cell for the Implicit Partition default screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipdd_ha</td>
+<td>Unsigned 16-bit integer</td>
+<td>Height of the Implicit Partition alternate screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipdd_hd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Height of the Implicit Partition default screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipdd_wa</td>
+<td>Unsigned 16-bit integer</td>
+<td>Width of the Implicit Partition alternate screen size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ipdd_wd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Width of the Implicit Partition default screen siz (in character cells)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ippd_apbs</td>
+<td>Unsigned 64-bit integer</td>
+<td> Default printer buffer size (in character cells)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ippd_dpbs</td>
+<td>Unsigned 64-bit integer</td>
+<td> Default printer buffer size (in character cells)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.lcid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local character set ID (alias)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum CPR bytes/transmission allowed inbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum CPR bytes/transmission allowed outbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.lines</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of lines printed since the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_color_command</td>
+<td>Unsigned 16-bit integer</td>
+<td>Command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_format_storage_flags1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_format_storage_flags2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_format_storage_format_data</td>
+<td>Unknown</td>
+<td>Format data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_format_storage_localname</td>
+<td>Unknown</td>
+<td>Local name for user selectable formats</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_format_storage_operand</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operand:</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.load_line_type_command</td>
+<td>Unsigned 8-bit integer</td>
+<td>Line Type Command</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.lvl</td>
+<td>Unsigned 8-bit integer</td>
+<td>Cursor level</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.mode</td>
+<td>Unsigned 8-bit integer</td>
+<td>Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr.auto</td>
+<td>Boolean</td>
+<td>Auto Enter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr.ind1</td>
+<td>Boolean</td>
+<td>Audible Ind 1 Suppress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr.ind2</td>
+<td>Boolean</td>
+<td>Audible Ind 2 Suppress</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr.locked</td>
+<td>Boolean</td>
+<td>Locked</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr.user</td>
+<td>Boolean</td>
+<td>User Mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_ind_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicator Mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_ind_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>Indicator Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_nd</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of MSR device types</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_state_mask</td>
+<td>Unsigned 8-bit integer</td>
+<td>State Mask</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_state_value</td>
+<td>Unsigned 8-bit integer</td>
+<td>State Value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.msr_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>MSR type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.np</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of color attribute list</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.null</td>
+<td>Unsigned 8-bit integer</td>
+<td>Trailing Null (Possible Mainframe/Emulator Bug)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.number_of_attributes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Attributes</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.object_control_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.object_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Object Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_dsref</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data stream reference identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_dtype</td>
+<td>Unknown</td>
+<td>Device type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_sdp_daid_doid</td>
+<td>Unsigned 16-bit integer</td>
+<td>Destination/Origin ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_sdp_ll_limin</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum OEM dsf bytes/transmission allowed inbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_sdp_ll_limout</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum OEM dsf bytes/transmission allowed outbound</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_sdp_pclk_vers</td>
+<td>Unsigned 16-bit integer</td>
+<td>Protocol version</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.oem_uname</td>
+<td>Unknown</td>
+<td>User assigned name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.operation_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>Operation Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.order_code</td>
+<td>Unsigned 8-bit integer</td>
+<td>Order Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.outbound_text_header_hdr</td>
+<td>Unsigned 8-bit integer</td>
+<td>Initial format controls</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.outbound_text_header_lhdr</td>
+<td>Unsigned 16-bit integer</td>
+<td>Header length includes itself</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pages</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of pages printed since the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_cv</td>
+<td>Unsigned 16-bit integer</td>
+<td>The x, or column, origin of the viewport relative to the left side of the usable area</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_cw</td>
+<td>Unsigned 16-bit integer</td>
+<td>The x, or column, origin of the window relative to the left edge of the presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_height</td>
+<td>Unsigned 16-bit integer</td>
+<td>The height of the presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_hv</td>
+<td>Unsigned 16-bit integer</td>
+<td>The height of the viewport</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Partition ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_ph</td>
+<td>Unsigned 16-bit integer</td>
+<td>The number of points in the vertical direction in a character cell in this presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_pw</td>
+<td>Unsigned 8-bit integer</td>
+<td>The number of points in the horizontal direction in a character cell in this presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_res</td>
+<td>Unsigned 16-bit integer</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_rs</td>
+<td>Unsigned 16-bit integer</td>
+<td>The number of units to be scrolled in a vertical multiple scroll</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_rw</td>
+<td>Unsigned 16-bit integer</td>
+<td>The y, or row, origin of the window relative to the top edge of the presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_uom</td>
+<td>Unsigned 8-bit integer</td>
+<td>The unit of measure and address mode</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_width</td>
+<td>Unsigned 16-bit integer</td>
+<td>The width of the presentation space</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.partition_wv</td>
+<td>Unsigned 16-bit integer</td>
+<td>The width of the viewport</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pc_vo_thickness</td>
+<td>Unsigned 8-bit integer</td>
+<td>Thickness</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pdds_refid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Reference identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pdds_ssid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Subset identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pft_bmo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Bottom margin offset in 1/1440ths of an inch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pft_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.pft_tmo</td>
+<td>Unsigned 16-bit integer</td>
+<td>Top margin offset in 1/1440ths of an inch</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.prime</td>
+<td>Unsigned 8-bit integer</td>
+<td>Prime compression character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.printer_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ps_char</td>
+<td>Unsigned 8-bit integer</td>
+<td>Beginning code point X'41' through X'FE'</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ps_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ps_lcid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Local character set ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ps_rws</td>
+<td>Unsigned 8-bit integer</td>
+<td>Loadable Character Set RWS Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.query_reply_usable_area_flags1</td>
+<td>Unsigned 8-bit integer</td>
+<td>Usable Area Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.query_reply_usable_area_flags2</td>
+<td>Unsigned 8-bit integer</td>
+<td>Usable Area Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.recovery_data_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.reply_mode_attr_list</td>
+<td>Unsigned 8-bit integer</td>
+<td>Type codes for the attribute types</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.reqtyp</td>
+<td>Unsigned 8-bit integer</td>
+<td>Request Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.res_twobytes</td>
+<td>Unsigned 16-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.resbyte</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.resbytes</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags (Reserved)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.reserved</td>
+<td>Boolean</td>
+<td>Reserved</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.rpq_device</td>
+<td>Unknown</td>
+<td>Device type identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.rpq_mid</td>
+<td>Unsigned 64-bit integer</td>
+<td>Model type identifier</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.rpq_name</td>
+<td>Unknown</td>
+<td>RPQ name</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.rpq_rpql</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of RPQ name (including this byte)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.rw</td>
+<td>Unsigned 16-bit integer</td>
+<td>Row offset of window origin</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.save_or_restore_format_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.scs_data</td>
+<td>Byte array</td>
+<td>SCS data (noncompressed and noncompacted) to set up for restart</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_excode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Exception Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Self-Defining Parameter ID</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_ln</td>
+<td>Unsigned 8-bit integer</td>
+<td>Length of this Self-Defining Parameter</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_ngl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of groups currently assigned</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_nlml</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of local names used</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_nml</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of formats currently loaded</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_statcode</td>
+<td>Unsigned 16-bit integer</td>
+<td>Status Code</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sdp_stor</td>
+<td>Unsigned 32-bit integer</td>
+<td>Amount of format storage space available (KB)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sf_inbound_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sf_inbound_outbound_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sf_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Structured Field Length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sf_outbound_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Structured Field</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sf_query_reply</td>
+<td>Unsigned 8-bit integer</td>
+<td>Query Reply</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sh</td>
+<td>Unsigned 8-bit integer</td>
+<td>Height of the character slots in this character set.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sld</td>
+<td>Unsigned 8-bit integer</td>
+<td>SLD -- Set line density parameter in effect at the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sp_objlist</td>
+<td>Unsigned 16-bit integer</td>
+<td>Identifiers of objects housed in this storage pool</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sp_size</td>
+<td>Unsigned 32-bit integer</td>
+<td>Size of this storage pool when empty</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sp_space</td>
+<td>Unsigned 32-bit integer</td>
+<td>Space available in this storage pool</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sp_spid</td>
+<td>Unsigned 8-bit integer</td>
+<td>Storage pool identity</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_epc_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_eucflags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_ob</td>
+<td>Unsigned 8-bit integer</td>
+<td>Bottom edge outline thickness</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_ol</td>
+<td>Unsigned 8-bit integer</td>
+<td>Left edge outline thickness</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_or</td>
+<td>Unsigned 8-bit integer</td>
+<td>Right edge outline thickness</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_ot</td>
+<td>Unsigned 8-bit integer</td>
+<td>Top edge outline thickness</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spc_sdp_srepc</td>
+<td>Unsigned 8-bit integer</td>
+<td>Set/Reset Early Print Complete</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.spd</td>
+<td>Unsigned 16-bit integer</td>
+<td>Set Primary Density parameter in effect at the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.srf_fpcb</td>
+<td>Byte array</td>
+<td>Contents of the FPCB that is to be saved or restored</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.srf_fpcbl</td>
+<td>Unsigned 16-bit integer</td>
+<td>Format parameter control block length</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ssubsn</td>
+<td>Unsigned 8-bit integer</td>
+<td>Starting subsection.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.start_line</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of lines to skip on page for restart</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.start_page</td>
+<td>Unsigned 16-bit integer</td>
+<td>Number of pages to skip on restart</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.stop_address</td>
+<td>Unsigned 16-bit integer</td>
+<td>Stop Address</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.sw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Width of the character slots in this characterset.</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.t_ai</td>
+<td>Unsigned 8-bit integer</td>
+<td>Associated action value</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.t_np</td>
+<td>Unsigned 8-bit integer</td>
+<td> Number of pairs</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.t_vi</td>
+<td>Unsigned 8-bit integer</td>
+<td>Data stream attribute value accepted</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tn3270e_data_type</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN3270E Data Type</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tn3270e_request_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN3270E Request Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tn3270e_response_flag</td>
+<td>Unsigned 8-bit integer</td>
+<td>TN3270E Response Flag</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tn3270e_seq_number</td>
+<td>Unsigned 16-bit integer</td>
+<td>TN3270E Seq Number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tp_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Flags</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tp_m</td>
+<td>Unsigned 16-bit integer</td>
+<td>Maximum partition size</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tp_nt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Maximum number of text partitions</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tp_ntt</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of text types supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.tp_tlist</td>
+<td>Unsigned 8-bit integer</td>
+<td>List of types supported</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.transparency</td>
+<td>Unsigned 8-bit integer</td>
+<td>Transparency</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.type_1_text_outbound_data</td>
+<td>Unsigned 8-bit integer</td>
+<td>tn3270.type_1_text_outbound_data</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_addressing</td>
+<td>Unsigned 8-bit integer</td>
+<td>Usable Area Addressing</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_ah</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of Y units in default cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_aw</td>
+<td>Unsigned 8-bit integer</td>
+<td>Number of X units in default cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_buffsz</td>
+<td>Unsigned 16-bit integer</td>
+<td>Character buffer size (bytes)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_cell_units</td>
+<td>Boolean</td>
+<td>Cell Units</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_characters</td>
+<td>Boolean</td>
+<td>Variable Characters</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_hard_copy</td>
+<td>Boolean</td>
+<td>Hard Copy</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_height_cells_pels</td>
+<td>Unsigned 16-bit integer</td>
+<td>Height of usable area in cells/pels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_page_printer</td>
+<td>Boolean</td>
+<td>Page Printer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_uom_cells_pels</td>
+<td>Unsigned 8-bit integer</td>
+<td>Units of measure for cells/pels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_variable_cells</td>
+<td>Boolean</td>
+<td>Variable Cells</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_width_cells_pels</td>
+<td>Unsigned 16-bit integer</td>
+<td>Width of usable area in cells/pels</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_xmax</td>
+<td>Unsigned 8-bit integer</td>
+<td> Maximum number of X units in variable cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_xmin</td>
+<td>Unsigned 8-bit integer</td>
+<td> Minimum number of X units in variable cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_xr</td>
+<td>Unsigned 64-bit integer</td>
+<td>Distance between points in X direction as a fraction, measured in UNITS, with 2-byte numerator and 2-byte denominator</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_ymax</td>
+<td>Unsigned 8-bit integer</td>
+<td> Maximum number of Y units in variable cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ua_ymin</td>
+<td>Unsigned 8-bit integer</td>
+<td> Minimum number of Y units in variable cell</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.unknown_data</td>
+<td>Unknown</td>
+<td>Unknown Data (Possible Mainframe/Emulator Bug)</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.v_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Length of the SVF character string required for restart</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.v_offset</td>
+<td>Unsigned 16-bit integer</td>
+<td>Byte offset within the string control byte string or the SVF character</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.v_sequence</td>
+<td>Unsigned 16-bit integer</td>
+<td>RU sequence number</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.vertical</td>
+<td>Unsigned 32-bit integer</td>
+<td>Byte offset from Checkpoint Interval structured field to the Set Vertical Format control in effect for the checkpoint</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.keyboard_restore</td>
+<td>Boolean</td>
+<td>WCC Keyboard Restore</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.nop</td>
+<td>Boolean</td>
+<td>WCC NOP</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.printer1</td>
+<td>Boolean</td>
+<td>WCC Printer1</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.printer2</td>
+<td>Boolean</td>
+<td>WCC Printer2</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.reset</td>
+<td>Boolean</td>
+<td>WCC Reset</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.reset_mdt</td>
+<td>Boolean</td>
+<td>WCC Reset MDT</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.sound_alarm</td>
+<td>Boolean</td>
+<td>WCC Sound Alarm</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.wcc.start_printer</td>
+<td>Boolean</td>
+<td>WCC Start Printer</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>tn3270.ww</td>
+<td>Unsigned 16-bit integer</td>
+<td>Window width</td>
+<td>1.4.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en>
+<head>
+<title>Wireshark &middot; Display Filter Reference: Real-Time Publish-Subscribe Wire Protocol</title>
+<link type="text/css" rel=Stylesheet href="http://h.ws.static.wireshark.net/css/ws-2010-12.css" title=screen media=screen>
+<meta http-equiv=X-UA-Compatible content="chrome=1">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id=wrapper>
+<div id=header>
+<div class="row one">
+<div class=v46status onclick="location.href='http://www.wireshark.org/tools/v46status.html';" style="cursor: pointer;"></div>
+<h1 id=logotype><a href="/" title="Wireshark Home&#x2026;">Wireshark</a></h1>
+<ul class="navigation horizontal secondary">
+<li id=navRiverbed><a href="http://www.cacetech.com/" title="Riverbed Technology Web Site"><span class=hidden>Riverbed Technology</span></a></li>
+<li id=navWinPcap><a href="http://www.winpcap.org/" title="WinPcap Web Site"><span class=hidden>WinPcap</span></a></li>
+</ul>
+<div id=sf11><a href="http://sharkfest.wireshark.org/"><img src="http://h.ws.static.wireshark.net/image/440x48xsharkfest11_site_banner.png.pagespeed.ic.S-se3G2yPp.png" alt="SHARKFEST '11" width=440 height=48></a></div>
+</div>
+<script type="text/javascript" src="http://i.ws.static.wireshark.net/js/jq1.3.2+sf+hi.js.pagespeed.jm.f-zHDGJC-C.js"></script>
+<div class="row two">
+<ul id=nav class="navigation horizontal primary sf-menu sf-js-enabled sf-shadow">
+<li class="item navWireshark"><a class=firstLevel name=wireshark_menu href="/"><span>Wireshark</span></a>
+<ul class=dropdown>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="https://blog.wireshark.org/">Blog</a></li>
+</ul>
+</li>
+<li class="item navLearn"><a class=firstLevel name=help_menu href="/docs/"><span>Get Help</span></a>
+<ul>
+<li><a href="http://ask.wireshark.org/">Ask a Question</a></li>
+<li><a href="/faq.html">FAQs</a></li>
+<li><a href="/docs/">Documentation</a></li>
+<li><a href="/lists/">Mailing Lists</a></li>
+<li><a href="/tools/">Online Tools</a></li>
+<li><a href="http://wiki.wireshark.org/">Wiki</a></li>
+<li><a href="https://bugs.wireshark.org/">Bug Tracker</a></li>
+</ul>
+</li>
+<li class="item last navDevelop"><a class=firstLevel name=develop_menu href="/develop.html"><span>Develop</span></a>
+<ul>
+<li><a href="/develop.html">Get Involved</a></li>
+<li><a href="/docs/wsdg_html_chunked">Developer's Guide</a></li>
+<li><a href="http://anonsvn.wireshark.org/viewvc/viewvc.cgi">Browse the Code</a></li>
+<li><a href="/download/automated">Latest Builds</a></li>
+</ul>
+</li>
+</ul>
+<div id=searchbox>
+<div id=searchBar>
+<form action="http://www.google.com/cse" id=cse-search-box>
+<div>
+<input type=hidden name=cx value=partner-pub-8797272874272241:rr0bun-xdwz>
+<input type=hidden name=ie value=UTF-8>
+<input class=textbox name=q size=25>
+<input type=submit class="button submit likeimage" name=sa value=Search>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id=level3>
+<div id=left_column_container>
+<div id=ad160x600>
+<a href="http://www.cacetech.com/products/?utm_source=Wireshark&amp;utm_medium=banner&amp;utm_term=vertical&amp;utm_campaign=Airpcap"><img src="http://i.ws.static.wireshark.net/ads/160x600xbanner.160x600.png.pagespeed.ic.bEgbidd52a.png" width=160 height=600 title="Riverbed Technology" alt="Riverbed Technology"></a>
+</div>
+</div>
+<div id=right>
+<div class=s_block>
+<h1>Display Filter Reference: Real-Time Publish-Subscribe Wire Protocol</h1>
+<div><b>Protocol field name:</b> rtps</div>
+<div><b>Versions:</b> 1.0.0 to 1.4.4</div>
+<p>
+<a href="../">Back to Display Filter Reference</a>
+</p>
+<div style="margin-top: 15px;">
+<table class=shaded summary="">
+<tr>
+<th>Field name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Versions</th>
+</tr>
+<tr>
+<td>rtps.appId</td>
+<td>Unsigned 32-bit integer</td>
+<td>appId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.appId.appKind</td>
+<td>Unsigned 8-bit integer</td>
+<td>appid.appKind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.appId.instanceId</td>
+<td>Unsigned 24-bit integer</td>
+<td>appId.instanceId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.domain_id</td>
+<td>Unsigned 32-bit integer</td>
+<td>domain_id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.guidPrefix</td>
+<td>Byte array</td>
+<td>guidPrefix</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.hostId</td>
+<td>Unsigned 32-bit integer</td>
+<td>hostId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.issue_data</td>
+<td>Byte array</td>
+<td>User Data</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.issueData</td>
+<td>Byte array</td>
+<td>serializedData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.octets_to_next_header</td>
+<td>Unsigned 16-bit integer</td>
+<td>Octets to next header</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.param.contentFilterName</td>
+<td>String</td>
+<td>contentFilterName</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.filterName</td>
+<td>String</td>
+<td>filterName</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.groupData</td>
+<td>Byte array</td>
+<td>groupData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.id</td>
+<td>Unsigned 16-bit integer</td>
+<td>parameterId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.length</td>
+<td>Unsigned 16-bit integer</td>
+<td>parameterLength</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.ntpTime</td>
+<td>None</td>
+<td>ntpTime</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.ntpTime.fraction</td>
+<td>Unsigned 32-bit integer</td>
+<td>fraction</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.ntpTime.sec</td>
+<td>Signed 32-bit integer</td>
+<td>seconds</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.relatedTopicName</td>
+<td>String</td>
+<td>relatedTopicName</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.strength</td>
+<td>Signed 32-bit integer</td>
+<td>strength</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.topicData</td>
+<td>Byte array</td>
+<td>topicData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.topicName</td>
+<td>String</td>
+<td>topic</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.typeName</td>
+<td>String</td>
+<td>typeName</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.param.userData</td>
+<td>Byte array</td>
+<td>userData</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.parameter_id</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Id</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.parameter_length</td>
+<td>Unsigned 16-bit integer</td>
+<td>Parameter Length</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.participant_idx</td>
+<td>Unsigned 32-bit integer</td>
+<td>participant_idx</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.entityId</td>
+<td>Unsigned 32-bit integer</td>
+<td>entityId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.entityId.entityKey</td>
+<td>Unsigned 24-bit integer</td>
+<td>entityKey</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.entityId.entityKind</td>
+<td>Unsigned 8-bit integer</td>
+<td>entityKind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>flags</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.guidPrefix</td>
+<td>Byte array</td>
+<td>guidPrefix</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.guidPrefix.appId</td>
+<td>Unsigned 32-bit integer</td>
+<td>appId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.guidPrefix.appId.appKind</td>
+<td>Unsigned 8-bit integer</td>
+<td>appKind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.guidPrefix.appId.instanceId</td>
+<td>Unsigned 24-bit integer</td>
+<td>instanceId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.guidPrefix.hostId</td>
+<td>Unsigned 32-bit integer</td>
+<td>host_id</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.id</td>
+<td>Unsigned 8-bit integer</td>
+<td>submessageId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.octetsToNextHeader</td>
+<td>Unsigned 16-bit integer</td>
+<td>octetsToNextHeader</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.rdEntityId</td>
+<td>Unsigned 32-bit integer</td>
+<td>readerEntityId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.rdEntityId.entityKey</td>
+<td>Unsigned 24-bit integer</td>
+<td>readerEntityKey</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.rdEntityId.entityKind</td>
+<td>Unsigned 8-bit integer</td>
+<td>readerEntityKind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.seqNumber</td>
+<td>Signed 64-bit integer</td>
+<td>writerSeqNumber</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.wrEntityId</td>
+<td>Unsigned 32-bit integer</td>
+<td>writerEntityId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.wrEntityId.entityKey</td>
+<td>Unsigned 24-bit integer</td>
+<td>writerEntityKey</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.sm.wrEntityId.entityKind</td>
+<td>Unsigned 8-bit integer</td>
+<td>writerEntityKind</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.submessage_flags</td>
+<td>Unsigned 8-bit integer</td>
+<td>Submessage flags</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.submessage_id</td>
+<td>Unsigned 8-bit integer</td>
+<td>Submessage Id</td>
+<td>1.0.0 to 1.2.0</td>
+</tr>
+<tr>
+<td>rtps.traffic_nature</td>
+<td>Unsigned 32-bit integer</td>
+<td>traffic_nature</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.vendorId</td>
+<td>Unsigned 16-bit integer</td>
+<td>vendorId</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.version</td>
+<td>None</td>
+<td>version</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.version.major</td>
+<td>Signed 8-bit integer</td>
+<td>major</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+<tr>
+<td>rtps.version.minor</td>
+<td>Signed 8-bit integer</td>
+<td>minor</td>
+<td>1.2.0 to 1.4.4</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+<div id=footer>
+<p>
+Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation
+</p>
+</div>
+<script type="text/javascript">jQuery(function(){jQuery('ul.sf-menu').superfish({delay:500});});</script>
+<script type="text/javascript">$.ajax({cache:true,dataType:"script",url:"http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"});$.ajax({cache:true,dataType:"script",url:"http://h.ws.static.wireshark.net/js/v46status.js"});</script>
+<div id=v46img></div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-605389-2']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>
